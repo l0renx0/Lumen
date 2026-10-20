@@ -1,0 +1,772 @@
+{
+ "version": 1,
+ "updatedAt": "2026-10-20T16:00:00Z",
+ "cards": [
+  {
+   "id": "caebee87b7f6",
+   "section": "novita",
+   "topic": "Tecnologia",
+   "solidity": "ufficiale",
+   "title": "Un nuovo 'cervello' per i satelliti Galileo di seconda generazione",
+   "summary": "I futuri satelliti europei di navigazione avranno un generatore di segnali riprogrammabile in orbita: il primo modulo ha superato i test.",
+   "body": [
+    "Galileo è il sistema europeo di navigazione satellitare, in servizio dal 2016 e usato da miliardi di persone: tutti gli smartphone venduti nel mercato unico europeo sono compatibili. Secondo l'ESA è oggi il sistema di navigazione satellitare più preciso al mondo.",
+    "Nei prossimi anni si aggiungeranno 12 satelliti di seconda generazione (G2), costruiti da Airbus Defence and Space e Thales Alenia Space, con propulsione elettrica, collegamenti tra satelliti, orologi atomici e antenne migliorati.",
+    "La novità principale è il modulo di generazione del segnale, il 'cervello' del satellite: legge l'ora precisissima degli orologi atomici e produce i segnali che arrivano ai ricevitori a terra. Quello nuovo potrà essere riprogrammato in orbita per creare segnali nuovi, più resistenti alle interferenze e più precisi.",
+    "Il primo modulo ha superato tutti i test a Tolosa ed è tornato a Friedrichshafen, in Germania. L'integrazione completa del primo satellite destinato al volo è prevista per l'anno prossimo."
+   ],
+   "quotes": [
+    {
+     "text": "It will be able to generate a variety of navigation signals in real time and be reprogrammed in orbit to create new ones",
+     "translation": "Potrà generare in tempo reale diversi segnali di navigazione ed essere riprogrammato in orbita per crearne di nuovi."
+    }
+   ],
+   "sources": [
+    {
+     "name": "ESA",
+     "title": "New brain for Galileo",
+     "url": "https://www.esa.int/Applications/Satellite_navigation/Galileo/New_brain_for_Galileo"
+    }
+   ],
+   "date": "2026-10-20T09:00:00Z",
+   "addedAt": "2026-10-20T16:00:00Z",
+   "when": null,
+   "image": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/10/galileo_second_generation_radiofrequency_output_module/27582093-1-eng-GB/Galileo_Second_Generation_radiofrequency_output_module_pillars.jpg",
+   "imageCredit": "ESA",
+   "solidityNote": "Annuncio ufficiale sullo stato di un programma industriale.",
+   "url": "https://esa.int/Applications/Satellite_navigation/Galileo/New_brain_for_Galileo"
+  },
+  {
+   "id": "1a53aca01720",
+   "section": "novita",
+   "topic": "Scienza",
+   "solidity": "preliminare",
+   "title": "Un neutrino 'dimenticato' potrebbe spiegare perché esiste la materia",
+   "summary": "Uno studio teorico propone che il più pesante di tre neutrini ipotetici, finora trascurato, abbia influito sull'asimmetria tra materia e antimateria nell'universo primordiale.",
+   "body": [
+    "Se il Big Bang avesse prodotto materia e antimateria in quantità perfettamente uguali, si sarebbero annichilite a vicenda lasciando solo radiazione. Il fatto che esistiamo implica una piccola asimmetria, la cui origine è uno dei grandi problemi aperti della fisica.",
+    "Una delle spiegazioni teoriche più studiate, il meccanismo 'seesaw di tipo I', prevede tre neutrini 'destrorsi' molto massicci. Finora i fisici si sono concentrati sui due più leggeri, trascurando il terzo perché interagisce pochissimo.",
+    "Uno studio dell'Università di Southampton, pubblicato su Physical Review Letters, sostiene che ignorarlo sia un errore: proprio perché interagisce così poco vivrebbe a lungo, arrivando a dominare per un periodo l'energia dell'universo e rallentandone l'espansione primordiale.",
+    "Questo cambierebbe i calcoli della 'leptogenesi', il processo con cui la materia avrebbe preso il sopravvento sull'antimateria. È un lavoro teorico: le particelle ipotizzate non sono mai state osservate."
+   ],
+   "quotes": [],
+   "sources": [
+    {
+     "name": "Media INAF",
+     "title": "La particella dimenticata",
+     "url": "https://www.media.inaf.it/2026/10/20/neutrino-pesante-disaccoppiato/"
+    }
+   ],
+   "date": "2026-10-20T08:00:00Z",
+   "addedAt": "2026-10-20T16:00:00Z",
+   "when": null,
+   "image": "https://www.media.inaf.it/wp-content/uploads/2026/10/neu-scaled.jpg",
+   "imageCredit": "Media Inaf (rappresentazione artistica generata con IA)",
+   "solidityNote": "Modello teorico pubblicato su rivista con revisione: non ci sono ancora osservazioni che lo confermino.",
+   "url": "https://media.inaf.it/2026/10/20/neutrino-pesante-disaccoppiato"
+  },
+  {
+   "id": "ae08608c471b",
+   "section": "novita",
+   "topic": "Società",
+   "solidity": "ufficiale",
+   "title": "Costruzioni, ad agosto la produzione cala del 2,9%",
+   "summary": "Secondo l'ISTAT è la terza flessione mensile consecutiva: l'indice torna ai livelli più bassi da dicembre 2024, ma nei primi otto mesi dell'anno resta in moderata crescita.",
+   "body": [
+    "L'ISTAT stima che ad agosto 2026 l'indice destagionalizzato della produzione nelle costruzioni sia diminuito del 2,9% rispetto a luglio. È il terzo calo mensile consecutivo e porta l'indice ai livelli più bassi da dicembre 2024.",
+    "Nel trimestre giugno-agosto la produzione è scesa del 3,2% rispetto ai tre mesi precedenti.",
+    "Il confronto con agosto 2025 dipende da come si contano i giorni lavorativi: l'indice grezzo cresce del 2,3%, ma quello corretto per gli effetti di calendario cala del 2,2% (quest'anno agosto ha avuto 21 giorni lavorativi contro 20).",
+    "Guardando ai primi otto mesi del 2026, la produzione rimane in crescita moderata rispetto allo stesso periodo del 2025: +1,2% al netto degli effetti di calendario."
+   ],
+   "quotes": [
+    {
+     "text": "Ad agosto 2026 l’indice destagionalizzato della produzione nelle costruzioni registra, rispetto al mese precedente, la terza flessione consecutiva, attestandosi ai livelli più bassi da dicembre 2024."
+    }
+   ],
+   "sources": [
+    {
+     "name": "ISTAT",
+     "title": "Produzione nelle costruzioni – Agosto 2026",
+     "url": "https://www.istat.it/comunicato-stampa/produzione-nelle-costruzioni-agosto-2026/"
+    }
+   ],
+   "date": "2026-10-20T08:00:00Z",
+   "addedAt": "2026-10-20T16:00:00Z",
+   "when": null,
+   "image": null,
+   "imageCredit": null,
+   "solidityNote": "Statistica ufficiale ISTAT; le stime mensili possono essere riviste nei comunicati successivi.",
+   "url": "https://istat.it/comunicato-stampa/produzione-nelle-costruzioni-agosto-2026"
+  },
+  {
+   "id": "df8c2e896872",
+   "section": "novita",
+   "topic": "Spazio",
+   "solidity": "ufficiale",
+   "title": "Partita MMX, la missione che riporterà a Terra pezzi di una luna di Marte",
+   "summary": "La sonda giapponese MMX è decollata il 20 ottobre 2026: sarà la prima a orbitare attorno a Phobos e a riportarne campioni sulla Terra.",
+   "body": [
+    "La missione Martian Moons eXploration (MMX) è partita su un razzo H3 dal Tanegashima Space Center, in Giappone, alle 04:41 ora giapponese del 20 ottobre 2026 (le 21:41 del 19 ottobre, ora italiana).",
+    "MMX è guidata dall'agenzia spaziale giapponese JAXA in collaborazione con NASA, l'agenzia francese CNES, quella tedesca DLR e l'ESA, che ha fornito l'apparato di comunicazione con lo spazio profondo e il supporto delle proprie antenne a terra.",
+    "Gli obiettivi sono tre primati: sarà la prima sonda a orbitare attorno a Phobos, la prima a raccogliere campioni dalla sua superficie e la prima a tornare sulla Terra dal sistema di Marte.",
+    "L'arrivo vicino a Marte è previsto per l'estate prossima, quando la sonda inizierà a studiare da vicino le due lune, Phobos e Deimos."
+   ],
+   "quotes": [
+    {
+     "text": "MMX will be the first spacecraft to orbit Mars’s moon Phobos, the first to collect samples from this moon's surface, and the first to return to Earth from the Mars system.",
+     "translation": "MMX sarà la prima sonda a orbitare attorno a Phobos, la prima a raccogliere campioni dalla sua superficie e la prima a tornare sulla Terra dal sistema di Marte."
+    }
+   ],
+   "sources": [
+    {
+     "name": "ESA",
+     "title": "MMX lifts off to Mars’s moon Phobos",
+     "url": "https://www.esa.int/ESA_Multimedia/Images/2026/10/MMX_lifts_off_to_Mars_s_moon_Phobos"
+    }
+   ],
+   "date": "2026-10-20T07:00:00Z",
+   "addedAt": "2026-10-20T16:00:00Z",
+   "when": null,
+   "image": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/10/mmx_lifts_off_to_mars_s_moon_phobos/27583877-2-eng-GB/MMX_lifts_off_to_Mars_s_moon_Phobos_pillars.gif",
+   "imageCredit": "JAXA",
+   "solidityNote": "Il lancio è un evento avvenuto e documentato; i risultati scientifici arriveranno nei prossimi anni.",
+   "url": "https://esa.int/ESA_Multimedia/Images/2026/10/MMX_lifts_off_to_Mars_s_moon_Phobos"
+  },
+  {
+   "id": "4d4574fde008",
+   "section": "sapevi",
+   "topic": "Scienza",
+   "solidity": "consolidato",
+   "title": "L'arcobaleno 'al contrario' fotografato a Presenzano",
+   "summary": "Un arcobaleno sembra avere il Sole davanti a sé, ma è un'illusione: sono i raggi anticrepuscolari. La foto, scattata in Italia, è l'immagine astronomica del giorno della NASA.",
+   "body": [
+    "Gli arcobaleni nascono dalla luce del Sole riflessa all'indietro dalle gocce di pioggia: per vederne uno, il Sole deve trovarsi davvero alle tue spalle.",
+    "Eppure in questa foto il Sole sembra trovarsi davanti, appena sotto le colline. La spiegazione sta nei raggi anticrepuscolari, un fenomeno insolito: vicino al Sole al tramonto, la luce è passata tra i varchi delle nuvole, ha attraversato tutto il cielo e sembra convergere davanti all'osservatore.",
+    "Per questo l'arcobaleno non è completo: appare solo nella parte illuminata, a forma di ventaglio, e dà l'impressione ingannevole che il Sole si trovi dalla parte opposta.",
+    "La foto è stata scattata con un telefono al tramonto a Presenzano, in provincia di Caserta, e notata mentre si stendeva il bucato. La NASA l'ha scelta come Astronomy Picture of the Day del 20 ottobre 2026."
+   ],
+   "quotes": [
+    {
+     "text": "Rainbows involve a backward reflection from falling rain, so that the Sun must really be behind you.",
+     "translation": "Gli arcobaleni implicano una riflessione all'indietro dalla pioggia che cade, quindi il Sole deve trovarsi davvero alle tue spalle."
+    }
+   ],
+   "sources": [
+    {
+     "name": "NASA APOD",
+     "title": "An Anticrepuscular Rainbow Fan",
+     "url": "https://science.nasa.gov/image-article/apod-2026-october-20-an-anticrepuscular-rainbow-fan/"
+    }
+   ],
+   "date": "2026-10-20T04:05:00Z",
+   "addedAt": "2026-10-20T16:00:00Z",
+   "when": "Ottica dell'atmosfera",
+   "image": "https://assets.science.nasa.gov/content/dam/science/cds/apod/apod/2026/october/AntiRainbow_Esposti_5120.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+   "imageCredit": "NASA APOD",
+   "solidityNote": null,
+   "url": "https://science.nasa.gov/image-article/apod-2026-october-20-an-anticrepuscular-rainbow-fan"
+  },
+  {
+   "id": "bdf9757e7455",
+   "section": "novita",
+   "topic": "Natura",
+   "solidity": "recente",
+   "title": "I satelliti misurano l'impronta umana sull'acqua dei continenti",
+   "summary": "Oltre 20 anni di dati sulla gravità terrestre mostrano 40 regioni dove irrigazione, dighe e uso del suolo sono legati ai cambiamenti delle riserve d'acqua.",
+   "body": [
+    "Un nuovo studio della NASA ha usato più di vent'anni di misure delle missioni GRACE e GRACE-FO per mappare come è cambiata l'acqua immagazzinata sui continenti (laghi, fiumi, suolo e falde) tra aprile 2002 e novembre 2025.",
+    "Il metodo è ingegnoso: ogni missione usa due satelliti in volo uno dietro l'altro. Quando il primo passa sopra una zona con più massa, la gravità lo attira leggermente e la distanza tra i due cambia. Poiché l'acqua è pesante e si sposta, queste variazioni rivelano guadagni e perdite d'acqua.",
+    "Combinando tutti i passaggi, i ricercatori hanno ottenuto mappe da 5 a 10 volte più dettagliate delle analisi precedenti. Oltre all'effetto del clima, hanno identificato 40 regioni dove le variazioni sono associate ad attività umane come irrigazione, bacini artificiali e cambiamenti nell'uso del suolo, presenti in tutti i continenti non polari tranne l'Australia.",
+    "Tra gli esempi: la Central Valley in California e il nord dell'India, dove il forte prelievo di acqua sotterranea per l'agricoltura ha ridotto le riserve; nel caso indiano più velocemente di quanto stimato in passato. In altre aree, invece, alcune pratiche agricole e di gestione dell'acqua sembrano aver avuto l'effetto opposto."
+   ],
+   "quotes": [
+    {
+     "text": "In four continental regions, an anthropogenic variable showed a stronger relationship with the storage trends than any climate variable did,",
+     "translation": "In quattro regioni continentali, una variabile legata all'uomo è risultata più strettamente associata alle tendenze delle riserve d'acqua di qualsiasi variabile climatica.",
+     "author": "Mary Michael O’Neill, NASA Goddard, prima autrice"
+    }
+   ],
+   "sources": [
+    {
+     "name": "NASA Earth Observatory",
+     "title": "The Human Fingerprint on Earth’s Water Cycle",
+     "url": "https://science.nasa.gov/earth/earth-observatory/the-human-fingerprint-on-earths-water-cycle/"
+    }
+   ],
+   "date": "2026-10-20T04:01:00Z",
+   "addedAt": "2026-10-20T16:00:00Z",
+   "when": null,
+   "image": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/the-human-fingerprint-on-earth%E2%80%99s-water-cycle/terrestrialwaterstorage_trends_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+   "imageCredit": "NASA Earth Observatory",
+   "solidityNote": "Lo studio individua associazioni statistiche tra attività umane e variazioni dell'acqua: indicano dove l'impatto è probabile, non lo misurano da sole.",
+   "url": "https://science.nasa.gov/earth/earth-observatory/the-human-fingerprint-on-earths-water-cycle"
+  },
+  {
+   "id": "c6c7e5f4ca77",
+   "section": "sapevi",
+   "topic": "Natura",
+   "solidity": "consolidato",
+   "title": "I tardigradi, gli animali di mezzo millimetro sopravvissuti allo spazio",
+   "summary": "Gli 'orsetti d'acqua' resistono a temperature e pressioni estreme, radiazioni e disidratazione. Il nome glielo diede l'italiano Lazzaro Spallanzani nel 1776.",
+   "body": [
+    "I tardigradi sono micro-animali a otto zampe, lunghi in genere circa mezzo millimetro, noti come 'orsetti d'acqua'. Il primo a descriverli fu lo zoologo tedesco Goeze nel 1773; nel 1776 il biologo italiano Lazzaro Spallanzani li chiamò Tardigrada, cioè 'camminatori lenti'.",
+    "Vivono quasi ovunque: dalle cime delle montagne agli abissi oceanici, dalle foreste pluviali all'Antartide. Sono comuni nei muschi e nei licheni e si possono osservare con un semplice microscopio.",
+    "Sono tra gli animali più resistenti conosciuti: alcune specie sopravvivono a temperature e pressioni estreme, alla mancanza d'aria, alle radiazioni, alla disidratazione e alla fame. Sono sopravvissuti anche all'esposizione allo spazio.",
+    "Se ne conoscono circa 1.500 specie e il fossile più antico risale al Cambriano, circa 500 milioni di anni fa."
+   ],
+   "quotes": [],
+   "sources": [
+    {
+     "name": "Wikipedia",
+     "title": "Tardigrada",
+     "url": "https://it.wikipedia.org/wiki/Tardigrada"
+    }
+   ],
+   "date": "2026-10-20T00:00:00Z",
+   "addedAt": "2026-10-20T16:00:00Z",
+   "when": "Descritti dal 1773",
+   "image": "https://upload.wikimedia.org/wikipedia/commons/2/20/SEM_image_of_Milnesium_tardigradum_in_active_state_-_journal.pone.0045682.g001-2_%28white_background%29.png",
+   "imageCredit": "Wikimedia Commons (PLoS ONE, CC BY)",
+   "solidityNote": null,
+   "url": "https://it.wikipedia.org/wiki/Tardigrada"
+  },
+  {
+   "id": "0c84774ad217",
+   "section": "sapevi",
+   "topic": "Scienza",
+   "solidity": "consolidato",
+   "title": "1952: in laboratorio, dai fulmini nascono i mattoni della vita",
+   "summary": "Simulando l'atmosfera della Terra primordiale e i fulmini con scariche elettriche, Stanley Miller e Harold Urey ottennero amminoacidi da sostanze inorganiche.",
+   "body": [
+    "Nel 1952, all'Università di Chicago, il chimico Stanley Miller e il suo professore Harold Urey, premio Nobel, vollero mettere alla prova un'idea di Oparin e Haldane: che le condizioni della Terra primordiale potessero produrre composti organici partendo da sostanze inorganiche.",
+    "Costruirono un sistema sigillato e sterile: una sfera con acqua, scaldata per produrre vapore, e un'altra con idrogeno, metano e ammoniaca, i gas che si pensava formassero l'atmosfera primitiva. Due elettrodi producevano scariche elettriche per simulare i fulmini.",
+    "Dopo circa una settimana di funzionamento continuo, circa il 15% dell'idrogeno era finito in composti organici, tra cui alcuni amminoacidi, i componenti delle proteine.",
+    "È stata la prima dimostrazione che, nelle giuste condizioni, molecole organiche possono formarsi da sostanze inorganiche più semplici. Sulla Terra primordiale, reazioni simili poterono proseguire per milioni di anni."
+   ],
+   "quotes": [
+    {
+     "text": "L'esperimento di Miller-Urey rappresenta la prima dimostrazione che, nelle giuste condizioni ambientali, le molecole organiche si possono formare a partire da sostanze inorganiche più semplici."
+    }
+   ],
+   "sources": [
+    {
+     "name": "Wikipedia",
+     "title": "Esperimento di Miller-Urey",
+     "url": "https://it.wikipedia.org/wiki/Esperimento_di_Miller-Urey"
+    }
+   ],
+   "date": "2026-10-20T00:00:00Z",
+   "addedAt": "2026-10-20T16:00:00Z",
+   "when": "1952, Università di Chicago",
+   "image": "https://upload.wikimedia.org/wikipedia/commons/9/92/Miller-Urey_experiment-it.svg",
+   "imageCredit": "Wikimedia Commons",
+   "solidityNote": null,
+   "url": "https://it.wikipedia.org/wiki/Esperimento_di_Miller-Urey"
+  },
+  {
+   "id": "1e5a12054814",
+   "section": "sapevi",
+   "topic": "Storia",
+   "solidity": "consolidato",
+   "title": "Wegener, il meteorologo che capì che i continenti si muovono",
+   "summary": "Nel 1912 Alfred Wegener propose la deriva dei continenti, da cui derivò la teoria della tettonica a placche. Era anche un pioniere dell'esplorazione polare.",
+   "body": [
+    "Alfred Wegener (Berlino, 1880 – Groenlandia, 1930) era un geologo, meteorologo ed esploratore tedesco. Si laureò in astronomia nel 1905, ma era più interessato alla meteorologia e alla fisica.",
+    "Nel 1912 formulò la teoria della deriva dei continenti: l'idea che i continenti non siano fissi ma si spostino nel tempo. Da questa intuizione derivò la teoria della tettonica a placche, oggi il modello di riferimento della dinamica della Terra, secondo cui la litosfera è divisa in circa venti zolle rigide.",
+    "Era anche un pioniere della ricerca polare: nel 1906 partecipò alla prima delle sue tre spedizioni in Groenlandia, dove costruì la prima stazione meteorologica dell'isola. Nello stesso anno, con il fratello Kurt, stabilì un record di 52 ore di volo continuo in pallone.",
+    "Morì in Groenlandia nel 1930, durante una spedizione."
+   ],
+   "quotes": [],
+   "sources": [
+    {
+     "name": "Wikipedia",
+     "title": "Alfred Wegener",
+     "url": "https://it.wikipedia.org/wiki/Alfred_Wegener"
+    },
+    {
+     "name": "Wikipedia",
+     "title": "Tettonica delle placche",
+     "url": "https://it.wikipedia.org/wiki/Tettonica_delle_placche"
+    }
+   ],
+   "date": "2026-10-20T00:00:00Z",
+   "addedAt": "2026-10-20T16:00:00Z",
+   "when": "1912",
+   "image": "https://upload.wikimedia.org/wikipedia/commons/6/65/Alfred_Wegener_ca.1924-30.jpg",
+   "imageCredit": "Wikimedia Commons",
+   "solidityNote": null,
+   "url": "https://it.wikipedia.org/wiki/Alfred_Wegener"
+  },
+  {
+   "id": "de8c77739443",
+   "section": "sapevi",
+   "topic": "Storia",
+   "solidity": "consolidato",
+   "title": "Accadde oggi: il 20 ottobre 1973 apre l'Opera di Sydney",
+   "summary": "L'edificio progettato dal danese Jørn Utzon è una delle architetture più significative del XX secolo ed è patrimonio dell'umanità UNESCO dal 2007.",
+   "body": [
+    "Il 20 ottobre 1973 veniva inaugurato il teatro dell'Opera di Sydney, in Australia.",
+    "Il progetto è dell'architetto danese Jørn Utzon; i calcoli strutturali delle sue celebri 'vele' furono affidati alla società di ingegneria londinese Arup.",
+    "È considerato una delle architetture più significative del Novecento, al punto da essere diventato un simbolo non solo di Sydney ma dell'intera Australia.",
+    "Nel 2007 la Sydney Opera House è stata dichiarata patrimonio dell'umanità dall'UNESCO."
+   ],
+   "quotes": [],
+   "sources": [
+    {
+     "name": "Wikipedia",
+     "title": "Teatro dell'Opera di Sydney",
+     "url": "https://it.wikipedia.org/wiki/Teatro_dell%27Opera_di_Sydney"
+    },
+    {
+     "name": "Wikipedia",
+     "title": "20 ottobre — Accadde oggi",
+     "url": "https://it.wikipedia.org/wiki/20_ottobre"
+    }
+   ],
+   "date": "2026-10-20T00:00:00Z",
+   "addedAt": "2026-10-20T16:00:00Z",
+   "when": "20 ottobre 1973",
+   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Sydney_Opera_House_01.jpg/1280px-Sydney_Opera_House_01.jpg",
+   "imageCredit": "Wikimedia Commons",
+   "solidityNote": null,
+   "url": "https://it.wikipedia.org/wiki/Teatro_dell%27Opera_di_Sydney"
+  },
+  {
+   "id": "0501bd2108c4",
+   "section": "sapevi",
+   "topic": "Storia",
+   "solidity": "consolidato",
+   "title": "Eratostene misurò la Terra con ombre e geometria, nel III secolo a.C.",
+   "summary": "Il terzo bibliotecario di Alessandria calcolò la circonferenza terrestre con la misura più accurata dell'antichità, usando osservazioni fatte durante il solstizio d'estate.",
+   "body": [
+    "Eratostene di Cirene (circa 276 – 194 a.C.) era un filosofo e astronomo greco. Fu il terzo bibliotecario della Biblioteca di Alessandria, precettore del re Tolomeo IV e stretto collaboratore di Archimede.",
+    "È famoso soprattutto per aver concepito un metodo geometrico per calcolare la circonferenza della Terra, o più precisamente del meridiano che passa per l'Egitto, usando semplici osservazioni e misure fatte durante il solstizio d'estate.",
+    "Ottenne così la più accurata tra le misure antiche della circonferenza terrestre.",
+    "Era così versatile, tra filologia, astronomia, matematica, cronologia e geografia, che i critici lo chiamavano 'Beta', sempre secondo in ogni campo, mentre i sostenitori lo chiamavano 'Pentathlos', come gli atleti che gareggiavano in tutte le discipline."
+   ],
+   "quotes": [],
+   "sources": [
+    {
+     "name": "Wikipedia",
+     "title": "Eratostene",
+     "url": "https://it.wikipedia.org/wiki/Eratostene"
+    }
+   ],
+   "date": "2026-10-20T00:00:00Z",
+   "addedAt": "2026-10-20T16:00:00Z",
+   "when": "III secolo a.C.",
+   "image": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Portrait_of_Eratosthenes.png",
+   "imageCredit": "Wikimedia Commons",
+   "solidityNote": null,
+   "url": "https://it.wikipedia.org/wiki/Eratostene"
+  },
+  {
+   "id": "d57f067d639d",
+   "section": "sapevi",
+   "topic": "Salute",
+   "solidity": "consolidato",
+   "title": "Prima della penicillina, Fleming scoprì un antibatterico nelle lacrime",
+   "summary": "Nel 1922 Alexander Fleming scoprì il lisozima, un enzima antibatterico presente nel muco e nelle lacrime. Sei anni dopo avrebbe scoperto la penicillina.",
+   "body": [
+    "Alexander Fleming (1881-1955), medico e biologo scozzese, è noto per la scoperta della penicillina nel 1928, che gli valse il premio Nobel per la medicina nel 1945. Ma la sua prima grande scoperta arrivò prima, e per caso.",
+    "Nel 1922 mise un po' del proprio muco nasale su una piastra di coltura. Qualche settimana dopo notò che i microbi erano cresciuti su tutta la piastra, tranne che sulla sua secrezione.",
+    "Esperimenti con altro muco e con le lacrime mostrarono che questi liquidi contenevano una sostanza dall'azione antibatterica. Era un enzima capace di dissolvere alcuni microbi: lo chiamò lisozima, dal greco lysis, 'dissoluzione'.",
+    "Fleming lo trovò in molti tessuti e liquidi, umani, animali e vegetali: una specie di antisettico naturale, una prima linea di difesa contro i microbi."
+   ],
+   "quotes": [],
+   "sources": [
+    {
+     "name": "Wikipedia",
+     "title": "Alexander Fleming",
+     "url": "https://it.wikipedia.org/wiki/Alexander_Fleming"
+    }
+   ],
+   "date": "2026-10-20T00:00:00Z",
+   "addedAt": "2026-10-20T16:00:00Z",
+   "when": "1922",
+   "image": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Synthetic_Production_of_Penicillin_TR1468_crop.jpg",
+   "imageCredit": "Wikimedia Commons",
+   "solidityNote": null,
+   "url": "https://it.wikipedia.org/wiki/Alexander_Fleming"
+  },
+  {
+   "id": "393dd71be2f3",
+   "section": "novita",
+   "topic": "Spazio",
+   "solidity": "ufficiale",
+   "title": "Euclid scopre la sua prima cometa sconosciuta",
+   "summary": "Il telescopio spaziale dell'ESA, pensato per fotografare galassie lontane, ha individuato una cometa mai vista prima: oggi si chiama C/2026 S1 (Euclid).",
+   "body": [
+    "Il telescopio spaziale Euclid dell'Agenzia Spaziale Europea ha scoperto la sua prima cometa finora sconosciuta, in immagini riprese tra il 16 e il 24 settembre 2026. In passato Euclid aveva già ripreso comete, ma erano tutte note.",
+    "La scoperta è curiosa perché Euclid non è fatto per inseguire oggetti veloci: scatta immagini profonde e ferme di galassie lontane, evita di proposito la fascia di cielo ricca di asteroidi e comete e di solito osserva ogni porzione di cielo una sola volta.",
+    "A notare l'oggetto è stato un software di rilevamento di corpi in movimento sviluppato da Mikko Pöntinen, dottorando all'Università di Helsinki: una 'striscia' presente in cinque serie di immagini, circondata da una nube sfocata tipica di una cometa attiva che rilascia polvere e gas.",
+    "Non trovando corrispondenze nei cataloghi, il team ha segnalato l'oggetto al Minor Planet Center dell'Unione Astronomica Internazionale, che l'8 ottobre lo ha confermato come cometa. Si trova a circa 1,3 miliardi di chilometri dalla Terra, su un'orbita molto inclinata rispetto a quella dei pianeti, che richiederà migliaia di anni per essere percorsa.",
+    "Secondo l'ESA, l'episodio dimostra che Euclid può individuare nuove comete quando sono ancora lontane dal Sole: un'esperienza utile per la futura missione Comet Interceptor, anche se questa cometa non è un obiettivo adatto."
+   ],
+   "quotes": [
+    {
+     "text": "I was excited to see my software flag a ‘streak’ smeared across several images – the result of a fast-moving object.",
+     "translation": "Ero emozionato nel vedere il mio software segnalare una 'striscia' sparsa su più immagini: il segno di un oggetto in rapido movimento.",
+     "author": "Mikko Pöntinen, Università di Helsinki"
+    }
+   ],
+   "sources": [
+    {
+     "name": "ESA",
+     "title": "Euclid discovers new comet",
+     "url": "https://www.esa.int/Science_Exploration/Space_Science/Euclid/Euclid_discovers_new_comet"
+    }
+   ],
+   "date": "2026-10-19T09:00:00Z",
+   "addedAt": "2026-10-20T16:00:00Z",
+   "when": null,
+   "image": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/10/comet_c_2026_s1_euclid_streaks_across_the_sky/27582276-1-eng-GB/Comet_C_2026_S1_Euclid_streaks_across_the_sky_pillars.gif",
+   "imageCredit": "ESA/Euclid",
+   "solidityNote": "La scoperta è stata confermata ufficialmente dal Minor Planet Center dell'Unione Astronomica Internazionale.",
+   "url": "https://esa.int/Science_Exploration/Space_Science/Euclid/Euclid_discovers_new_comet"
+  },
+  {
+   "id": "c638aa0f3b8b",
+   "section": "novita",
+   "topic": "Natura",
+   "solidity": "recente",
+   "title": "Il 'rumore' di fondo della Terra racconta come si è ferita la crosta dopo Amatrice",
+   "summary": "I sismologi dell'INGV mostrano come le vibrazioni continue del pianeta, un tempo scartate come disturbo, permettano di seguire i danni e la ripresa del sottosuolo dopo un terremoto.",
+   "body": [
+    "Dopo un forte terremoto la crosta terrestre cambia: tra l'altro, le onde sismiche la attraversano temporaneamente a velocità diversa, perché cambiano le proprietà elastiche delle rocce.",
+    "Per misurarlo si usa l'interferometria passiva. L'idea è usare il 'rumore sismico', la vibrazione di fondo continua del pianeta generata soprattutto dall'interazione tra le onde del mare e il fondale oceanico. Correlando il rumore registrato da coppie di stazioni, si ricostruisce come le onde viaggiano tra di esse, come se una delle due fosse una sorgente sismica virtuale.",
+    "Questo approccio si è diffuso dagli anni 2000, grazie a più capacità di archiviazione e calcolo: una parte del segnale prima trascurata è diventata un modo continuo e non invasivo per monitorare il sottosuolo.",
+    "Nell'approfondimento, i ricercatori dell'INGV applicano la tecnica alla sequenza sismica di Amatrice-Visso-Norcia del 2016-2017, confrontandola anche con il terremoto dell'Aquila del 2009, per seguire il danneggiamento della crosta e il successivo ritorno alle condizioni precedenti."
+   ],
+   "quotes": [],
+   "sources": [
+    {
+     "name": "INGV",
+     "title": "Come il rumore sismico ha raccontato la sequenza di Amatrice-Visso-Norcia del 2016-2017",
+     "url": "https://ingvterremoti.com/2026/10/16/come-il-rumore-sismico-ha-raccontato-la-sequenza-di-amatrice-visso-norcia-del-2016-2017/"
+    }
+   ],
+   "date": "2026-10-16T08:00:03Z",
+   "addedAt": "2026-10-20T16:00:00Z",
+   "when": null,
+   "image": "https://i0.wp.com/ingvterremoti.com/wp-content/uploads/2026/10/Mappa-dellAppennino-centrale_Soldati.png?fit=1200%2C800&ssl=1",
+   "imageCredit": "INGV",
+   "solidityNote": "Divulgazione INGV di uno studio scientifico; la tecnica è affermata, i risultati specifici sono recenti.",
+   "url": "https://ingvterremoti.com/2026/10/16/come-il-rumore-sismico-ha-raccontato-la-sequenza-di-amatrice-visso-norcia-del-2016-2017"
+  },
+  {
+   "id": "919f27103bd0",
+   "section": "novita",
+   "topic": "Spazio",
+   "solidity": "recente",
+   "title": "Esistono stelle verdi, rosa e viola: sono alcune nane bianche",
+   "summary": "Uno studio dell'Università di Warwick calcola che circa una nana bianca su trenta avrebbe colori impossibili per le stelle comuni, come il verde.",
+   "body": [
+    "Le stelle 'normali' hanno un colore che dipende quasi solo dalla temperatura della loro superficie: dal bianco-azzurro delle più calde, al giallo del Sole, al rosso delle più fredde. Si pensava che valesse anche per le nane bianche, i resti densi delle stelle simili al Sole.",
+    "Un nuovo studio guidato da Mark Hollands dell'Università di Warwick, pubblicato su RAS Techniques and Instruments, ha analizzato gli spettri di nane bianche di diverse temperature e composizioni. Risultato: alcune, viste da vicino, apparirebbero rosa, viola, gialle, azzurre o verdi.",
+    "Un esempio è WD J1330+6435, di un verde chartreuse: la sua atmosfera è ricca di calcio, litio e sodio, elementi che la stella avrebbe 'rubato' al proprio sistema planetario. In altre nane bianche fredde, invece, il carbonio portato in superficie forma molecole che danno sfumature rosa.",
+    "Secondo gli autori, statisticamente circa una nana bianca su trenta avrebbe uno di questi colori insoliti. Le immagini diffuse sono simulazioni con colori realistici, non fotografie."
+   ],
+   "quotes": [
+    {
+     "text": "A quanto pare, queste stelle incredibilmente dense possono produrre colori che nessuno si aspettava, e alcuni mi hanno davvero sorpreso",
+     "author": "Mark Hollands, Università di Warwick"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Media INAF",
+     "title": "La prima stella verde è una nana bianca",
+     "url": "https://www.media.inaf.it/2026/10/16/colori-nana-bianca/"
+    }
+   ],
+   "date": "2026-10-16T08:00:00Z",
+   "addedAt": "2026-10-20T16:00:00Z",
+   "when": null,
+   "image": "https://www.media.inaf.it/wp-content/uploads/2026/10/WD_colours_final-scaled.png",
+   "imageCredit": "Mark Hollands/Università di Warwick",
+   "solidityNote": "Si tratta di colori calcolati dagli spettri: nessun occhio umano ha visto direttamente queste stelle così.",
+   "url": "https://media.inaf.it/2026/10/16/colori-nana-bianca"
+  },
+  {
+   "id": "cd9ad27d29b5",
+   "section": "novita",
+   "topic": "Salute",
+   "solidity": "ufficiale",
+   "title": "West Nile: nel 2026 il record di casi in Europa, l'Italia la più colpita",
+   "summary": "Al 7 ottobre i Paesi UE hanno segnalato 1.715 infezioni contratte localmente, il numero più alto di sempre; 748 in Italia. La gravità media però non è aumentata.",
+   "body": [
+    "Il Centro europeo per la prevenzione e il controllo delle malattie (ECDC) descrive quella del 2026 come la stagione di virus West Nile più intensa mai registrata nell'Unione europea.",
+    "Al 7 ottobre 2026 i Paesi UE hanno segnalato 1.715 casi umani di infezione contratta localmente. L'Italia è il Paese più colpito con 748 casi; Grecia e Francia hanno registrato i loro massimi storici. Finora i decessi sono stati 130.",
+    "Nonostante il record, l'ECDC non rileva un aumento della gravità: le quote di persone ricoverate, con sintomi neurologici o decedute restano sotto i livelli dell'ultimo decennio.",
+    "Il virus si sta espandendo verso nord: i Paesi Bassi hanno segnalato 59 casi umani e il Belgio 15, i primi contratti localmente nel Paese. L'ECDC chiede sorveglianza continua, prevenzione e controllo delle zanzare."
+   ],
+   "quotes": [
+    {
+     "text": "Despite the record number of reported cases, there is currently no indication of increased severity this year.",
+     "translation": "Nonostante il numero record di casi segnalati, al momento non ci sono indicazioni di una maggiore gravità quest'anno."
+    }
+   ],
+   "sources": [
+    {
+     "name": "ECDC",
+     "title": "Record-high West Nile virus infections reported amid spread to new parts of Europe",
+     "url": "https://www.ecdc.europa.eu/en/news-events/record-high-west-nile-virus-infections-reported-amid-spread-new-parts-europe"
+    }
+   ],
+   "date": "2026-10-15T11:59:43Z",
+   "addedAt": "2026-10-20T16:00:00Z",
+   "when": null,
+   "image": "https://www.ecdc.europa.eu/sites/default/files/styles/metatag_image_large/public/images/Culex-Pipiens_H.jpg?itok=bd4GKUxQ",
+   "imageCredit": "ECDC",
+   "solidityNote": "Dati di sorveglianza ufficiali, aggiornati al 7 ottobre 2026 e soggetti a revisione.",
+   "url": "https://ecdc.europa.eu/en/news-events/record-high-west-nile-virus-infections-reported-amid-spread-new-parts-europe"
+  },
+  {
+   "id": "bfc740406272",
+   "section": "novita",
+   "topic": "Spazio",
+   "solidity": "recente",
+   "title": "Il pianeta a forma di uovo: Webb ricostruisce la sagoma di Wasp-17b",
+   "summary": "Per la prima volta è stata ricostruita la forma tridimensionale dell'atmosfera di un esopianeta: non è sferica ma ovoidale, modellata da venti intensissimi.",
+   "body": [
+    "Wasp-17b è un 'gioviano caldo', un gigante gassoso molto vicino alla sua stella, a circa 1.300 anni luce da noi nella costellazione dello Scorpione. È uno dei pianeti più 'gonfi' mai scoperti.",
+    "Come molti pianeti di questo tipo, rivolge alla stella sempre la stessa faccia: un lato è perennemente illuminato, l'altro sempre al buio. Le forti differenze di temperatura modificano l'atmosfera e quindi la sagoma del pianeta.",
+    "Un team guidato dalla Cornell University ha usato il telescopio spaziale James Webb e una nuova tecnica, il 'transit mapping': analizzando la luce della stella che attraversa l'atmosfera del pianeta da diverse angolazioni durante il transito, si ricostruiscono le sue proprietà punto per punto lungo il bordo.",
+    "Il risultato, pubblicato su Nature Astronomy, mostra una forma a uovo, con un lato più allungato dell'altro, legata a correnti a getto equatoriali che trasportano calore dal lato diurno a quello notturno. Secondo gli autori ciò conferma le previsioni dei modelli teorici."
+   ],
+   "quotes": [],
+   "sources": [
+    {
+     "name": "Media INAF",
+     "title": "La silhouette a uovo di Wasp-17b",
+     "url": "https://www.media.inaf.it/2026/10/15/la-silhouette-a-uovo-di-wasp-17b/"
+    }
+   ],
+   "date": "2026-10-15T08:00:00Z",
+   "addedAt": "2026-10-20T16:00:00Z",
+   "when": null,
+   "image": "https://www.media.inaf.it/wp-content/uploads/2026/10/figure1_wasp-17b_shape-of-the-atmosphere.png",
+   "imageCredit": "Engine House/Hannah Wakeford",
+   "solidityNote": "È la prima applicazione di una tecnica nuova: andrà confermata su altri pianeti.",
+   "url": "https://media.inaf.it/2026/10/15/la-silhouette-a-uovo-di-wasp-17b"
+  },
+  {
+   "id": "03d47235ee2f",
+   "section": "sapevi",
+   "topic": "Natura",
+   "solidity": "consolidato",
+   "title": "Le onde di Kelvin: onde oceaniche lunghe migliaia di km che non vedi",
+   "summary": "Attraversano il Pacifico in due-tre mesi, alzano il livello del mare di 15-30 cm e sono legate a El Niño, ma non si infrangono mai sulla riva.",
+   "body": [
+    "Le onde di Kelvin sono onde di acqua calda lente, quasi piatte e lunghe migliaia di chilometri che attraversano l'Oceano Pacifico lungo l'equatore. Interessano lo strato superiore dell'oceano, tra la superficie e il termoclino, la zona di transizione verso le acque più fredde.",
+    "Si muovono a circa 8-16 km orari e impiegano due-tre mesi per attraversare il Pacifico fino alle coste del Sud America. Proprio perché sono così larghe e piatte, non si infrangono sulla riva come le onde normali.",
+    "Si formano nel Pacifico occidentale e viaggiano verso est quando gli alisei si indeboliscono, come accade con El Niño. La rotazione terrestre (effetto Coriolis) le tiene 'incollate' all'equatore; arrivate alla costa sudamericana si dividono, metà verso nord e metà verso sud.",
+    "Al loro passaggio spingono in basso le acque fredde, scaldando la superficie, e alzano temporaneamente il livello del mare di circa 15-30 cm o più, perché l'acqua calda occupa più volume di quella fredda. Sono difficili da vedere a occhio nudo, ma le misure radar dei satelliti ne rivelano la traccia sulla superficie del mare."
+   ],
+   "quotes": [
+    {
+     "text": "Due to their wide and flat structure, they do not break on shore like other waves.",
+     "translation": "Per la loro struttura larga e piatta, non si infrangono sulla riva come le altre onde."
+    }
+   ],
+   "sources": [
+    {
+     "name": "NOAA Ocean Service",
+     "title": "What are Kelvin waves?",
+     "url": "https://oceanservice.noaa.gov/facts/kelvin-waves.html"
+    }
+   ],
+   "date": "2026-10-14T12:00:00Z",
+   "addedAt": "2026-10-20T16:00:00Z",
+   "when": "Fenomeno oceanografico",
+   "image": "https://oceanservice.noaa.gov/facts/kelvin-waves-960.jpg",
+   "imageCredit": "NOAA",
+   "solidityNote": null,
+   "url": "https://oceanservice.noaa.gov/facts/kelvin-waves.html"
+  },
+  {
+   "id": "e53bea35733a",
+   "section": "novita",
+   "topic": "Spazio",
+   "solidity": "recente",
+   "title": "Solar Orbiter risale all'origine delle misteriose 'pieghe' del vento solare",
+   "summary": "Attraversando una piega a forma di S nel campo magnetico del vento solare, la sonda ne ha analizzato le particelle e l'ha ricondotta alla superficie del Sole.",
+   "body": [
+    "Il vento solare è un flusso continuo di particelle cariche che il Sole emette nello spazio, trascinando con sé le linee del suo campo magnetico. Queste linee a volte si piegano su sé stesse formando strutture a S chiamate 'switchback', la cui origine è dibattuta.",
+    "La sonda Solar Orbiter, guidata dall'ESA, ha attraversato uno switchback molto grande quando si trovava circa a metà strada tra la Terra e il Sole. Con lo strumento SWA ha misurato le particelle al suo interno, trovando una miscela di ioni di ossigeno e carbonio che, secondo gli autori, può formarsi solo in anelli magnetici caldi sulla superficie del Sole.",
+    "Per i ricercatori è la prova di un processo chiamato 'riconnessione di interscambio': quando regioni magnetiche 'aperte' e 'chiuse' dell'atmosfera solare interagiscono, le linee di campo si spezzano e si ricollegano, liberando plasma prima intrappolato.",
+    "Lo studio trova però anche segni dell'ipotesi rivale, legata a onde e turbolenza, ma solo dopo che lo switchback ha lasciato il Sole. La conclusione degli autori è che i due meccanismi non si escludono: agiscono in fasi diverse della vita di uno switchback."
+   ],
+   "quotes": [
+    {
+     "text": "The specific mix of particles detected by Solar Orbiter is the smoking gun for a formation process known as 'interchange reconnection’.",
+     "translation": "La particolare miscela di particelle rilevata da Solar Orbiter è la prova schiacciante di un processo di formazione chiamato 'riconnessione di interscambio'.",
+     "author": "Jesse Coburn, CNRS/LPP, primo autore"
+    }
+   ],
+   "sources": [
+    {
+     "name": "ESA",
+     "title": "Solar Orbiter tracks origin of mysterious magnetic switchbacks",
+     "url": "https://www.esa.int/Science_Exploration/Space_Science/Solar_Orbiter/Solar_Orbiter_tracks_origin_of_mysterious_magnetic_switchbacks"
+    }
+   ],
+   "date": "2026-10-08T09:00:00Z",
+   "addedAt": "2026-10-20T16:00:00Z",
+   "when": null,
+   "image": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2022/05/solar_orbiter_at_perihelion_27_march_2022/24071526-1-eng-GB/Solar_Orbiter_at_perihelion_27_March_2022_pillars.png",
+   "imageCredit": "ESA & NASA/Solar Orbiter",
+   "solidityNote": "Si basa sull'analisi di un singolo switchback molto grande: serviranno altre osservazioni per generalizzare.",
+   "url": "https://esa.int/Science_Exploration/Space_Science/Solar_Orbiter/Solar_Orbiter_tracks_origin_of_mysterious_magnetic_switchbacks"
+  },
+  {
+   "id": "e13156441ae0",
+   "section": "novita",
+   "topic": "Spazio",
+   "solidity": "recente",
+   "title": "La nube più strana di Marte nascerebbe senza granelli di polvere",
+   "summary": "Un modello basato sui dati di Mars Express suggerisce che la lunghissima nube del vulcano Arsia Mons si formi per 'nucleazione omogenea', un processo mai osservato prima in un'atmosfera planetaria.",
+   "body": [
+    "Ogni primavera ed estate dell'emisfero sud di Marte, sottovento al vulcano Arsia Mons (alto circa 20 km), compare una nube di ghiaccio d'acqua lunga fino a 1800 km: la Arsia Mons Elongated Cloud. Si forma, cresce e svanisce ogni mattina per mesi.",
+    "Di solito le nubi nascono quando il vapore si condensa attorno a minuscole particelle sospese nell'aria, come polvere, sale o fuliggine (nucleazione eterogenea). Le simulazioni però non riuscivano a riprodurre questa nube.",
+    "Il nuovo studio, guidato da Jorge Hernández-Bernal (LMD/CNRS/Sorbonne Université), ci è riuscito solo includendo la nucleazione omogenea: il vapore che si trasforma direttamente in ghiaccio senza alcun 'appoggio'. Il processo richiede un'umidità relativa estrema, oltre 100.000 volte quella a cui siamo abituati.",
+    "Secondo il modello, il vulcano genera un'onda che solleva l'aria umida di diversi chilometri in pochi minuti: la temperatura crolla di 30 gradi in 10 minuti e il vapore gela spontaneamente. Gli stessi autori precisano che alcuni dettagli della nube simulata non coincidono ancora con le osservazioni."
+   ],
+   "quotes": [
+    {
+     "text": "We call this homogeneous nucleation, and we’ve never seen it before in a planetary atmosphere. It’s wholly unexpected.",
+     "translation": "La chiamiamo nucleazione omogenea e non l'avevamo mai vista prima in un'atmosfera planetaria. È del tutto inaspettata.",
+     "author": "Jorge Hernández-Bernal, primo autore"
+    }
+   ],
+   "sources": [
+    {
+     "name": "ESA",
+     "title": "Mars’s oddest cloud may be even odder than we thought",
+     "url": "https://www.esa.int/Science_Exploration/Space_Science/Mars_Express/Mars_s_oddest_cloud_may_be_even_odder_than_we_thought"
+    }
+   ],
+   "date": "2026-10-07T09:00:00Z",
+   "addedAt": "2026-10-20T16:00:00Z",
+   "when": null,
+   "image": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/10/the_arsia_mons_elongated_cloud_as_seen_by_mars_express/27546706-1-eng-GB/The_Arsia_Mons_Elongated_Cloud_as_seen_by_Mars_Express_pillars.png",
+   "imageCredit": "ESA/DLR/FU Berlin",
+   "solidityNote": "Il risultato viene da un modello al computer confrontato con le immagini: è una spiegazione plausibile, non un'osservazione diretta del processo.",
+   "url": "https://esa.int/Science_Exploration/Space_Science/Mars_Express/Mars_s_oddest_cloud_may_be_even_odder_than_we_thought"
+  },
+  {
+   "id": "f08c77231930",
+   "section": "novita",
+   "topic": "Natura",
+   "solidity": "ufficiale",
+   "title": "Per la prima volta delle tartarughe marine nidificano in California",
+   "summary": "A settembre due tartarughe olivacee hanno deposto le uova su spiagge della contea di Orange: è il primo nido di tartaruga marina mai registrato sulla costa occidentale degli Stati Uniti.",
+   "body": [
+    "Il 16 settembre 2026 una tartaruga olivacea (Lepidochelys olivacea) è stata vista scavare un nido e deporre le uova vicino a Seal Beach, in California. Tre giorni dopo, a circa 13 km di distanza, una seconda tartaruga ha nidificato vicino al molo di Huntington Beach.",
+    "Secondo la NOAA, l'agenzia statunitense per gli oceani, è il primo nido mai registrato di qualsiasi specie di tartaruga marina sulla costa occidentale degli Stati Uniti. Il sito di nidificazione più vicino finora noto era in Bassa California, in Messico.",
+    "Per precauzione, il 25 settembre un gruppo di scienziati ha trasferito le uova all'Aquarium of the Pacific di Long Beach, dove resteranno per l'incubazione, che dura in genere 45-60 giorni. Se si schiuderanno, i piccoli saranno liberati sulle stesse spiagge.",
+    "Le ragioni esatte di questa nidificazione così a nord non sono ancora note. Le femmine di questa specie tendono a tornare a deporre dove sono nate, circa 15 anni dopo la schiusa."
+   ],
+   "quotes": [
+    {
+     "text": "This is the first-ever recorded nest for any sea turtle species on the U.S. West Coast.",
+     "translation": "È il primo nido mai registrato di qualsiasi specie di tartaruga marina sulla costa occidentale degli Stati Uniti."
+    }
+   ],
+   "sources": [
+    {
+     "name": "NOAA Fisheries",
+     "title": "First-ever nesting olive ridley sea turtles in California",
+     "url": "https://www.fisheries.noaa.gov/feature-story/first-ever-nesting-olive-ridley-sea-turtles-california"
+    },
+    {
+     "name": "NOAA",
+     "title": "Notizia nel feed NOAA",
+     "url": "https://www.noaa.gov/stories/first-ever-olive-ridley-sea-turtle-nested-in-california-ext"
+    }
+   ],
+   "date": "2026-09-30T12:00:00Z",
+   "addedAt": "2026-10-20T16:00:00Z",
+   "when": null,
+   "image": "https://www.fisheries.noaa.gov/s3/2026-09/olive-ridley-seal-beach-750x500-credit-huntingtonbeachfiredepartment.png",
+   "imageCredit": "Huntington Beach Fire Department",
+   "solidityNote": "Osservazione documentata dalle autorità; le cause del fenomeno non sono ancora state chiarite.",
+   "url": "https://fisheries.noaa.gov/feature-story/first-ever-nesting-olive-ridley-sea-turtles-california"
+  },
+  {
+   "id": "3dec516ea229",
+   "section": "novita",
+   "topic": "Spazio",
+   "solidity": "recente",
+   "title": "S301, la stella più veloce della Via Lattea, sfiora il buco nero centrale",
+   "summary": "Raggiunge 25.000 km/s e passa così vicina a Sagittarius A* da poter rivelare, in futuro, quanto velocemente ruota il buco nero.",
+   "body": [
+    "Gli astronomi hanno scoperto la stella più veloce conosciuta nella nostra galassia: si chiama S301 e orbita attorno a Sagittarius A*, il buco nero da circa quattro milioni di masse solari al centro della Via Lattea. Lo studio è pubblicato su Nature.",
+    "S301 completa un'orbita in appena 8,7 anni e nel punto più vicino passa a circa 12 volte la distanza Terra-Sole, più o meno la distanza tra il Sole e Saturno. Lì viaggia a circa 25.000 km al secondo: oltre l'8% della velocità della luce.",
+    "Secondo la relatività generale di Einstein, un buco nero che ruota trascina e deforma lo spazio-tempo attorno a sé, influenzando le orbite delle stelle vicine. S301 è la prima stella nota abbastanza vicina da permettere di misurare direttamente questa rotazione: il team spera di farlo entro i prossimi 10 anni.",
+    "La scoperta è stata possibile grazie allo strumento GRAVITY+ del Very Large Telescope Interferometer dell'ESO in Cile, che combina la luce di quattro telescopi da 8 metri. S301 appare due miliardi di volte più debole di Betelgeuse."
+   ],
+   "quotes": [
+    {
+     "text": "For the first time, we would actually be able to measure very directly the spin of a massive black hole, which would be a key test of Einstein’s theory.",
+     "translation": "Per la prima volta potremmo misurare in modo molto diretto la rotazione di un buco nero supermassiccio: sarebbe un test chiave della teoria di Einstein.",
+     "author": "Stefan Gillessen, Max Planck Institute for Extraterrestrial Physics"
+    }
+   ],
+   "sources": [
+    {
+     "name": "ESO",
+     "title": "Milky Way's fastest star orbits our supermassive black hole so closely it feels its spin",
+     "url": "https://www.eso.org/public/news/eso2612/"
+    }
+   ],
+   "date": "2026-08-19T12:00:00Z",
+   "addedAt": "2026-10-20T16:00:00Z",
+   "when": null,
+   "image": "https://cdn.eso.org/images/screen/eso2612a.jpg",
+   "imageCredit": "ESO",
+   "solidityNote": "La scoperta della stella è pubblicata; la misura della rotazione del buco nero è un obiettivo per i prossimi anni.",
+   "url": "https://eso.org/public/news/eso2612"
+  },
+  {
+   "id": "44279c537b18",
+   "section": "novita",
+   "topic": "Spazio",
+   "solidity": "recente",
+   "title": "Betelgeuse non è sola: la prova più forte della sua stella compagna",
+   "summary": "Con il Very Large Telescope dell'ESO un team ha ottenuto l'immagine più nitida mai vista di Betelgeuse B, la compagna cercata da circa un secolo.",
+   "body": [
+    "Betelgeuse, la stella rossastra nella costellazione di Orione visibile a occhio nudo, ha probabilmente una compagna. Un gruppo guidato da Miguel Montargès (Observatoire de Paris – PSL) l'ha ripresa direttamente con lo strumento SPHERE del Very Large Telescope, in Cile. Lo studio è pubblicato su Astronomy & Astrophysics.",
+    "L'esistenza di una compagna era stata proposta circa un secolo fa per spiegare le variazioni di luminosità di Betelgeuse. Due studi del 2024 avevano previsto che a dicembre di quell'anno sarebbe stata alla massima distanza dalla stella principale, quindi più facile da vedere: il team ha osservato proprio allora.",
+    "Sorpresa: Betelgeuse B sembra avere circa due-tre volte la massa del Sole, più di quanto previsto, ed è proprio per questo che è stata rilevata.",
+    "Gli autori sono prudenti: per esserne certi bisognerà osservarla di nuovo tra un anno dall'altra parte della stella, anche se ritengono che resti 'pochissimo spazio per il dubbio'. Ora ci si chiede se la compagna influirà sulla futura esplosione di Betelgeuse come supernova."
+   ],
+   "quotes": [
+    {
+     "text": "We have shown that Betelgeuse is not single, it is accompanied by a faint stellar companion,",
+     "translation": "Abbiamo dimostrato che Betelgeuse non è sola: è accompagnata da una debole stella compagna.",
+     "author": "Miguel Montargès, Observatoire de Paris"
+    },
+    {
+     "text": "To be certain that the companion is really there, we still need to observe it in one year on the other side of the star",
+     "translation": "Per essere certi che la compagna ci sia davvero, dobbiamo ancora osservarla tra un anno dall'altra parte della stella."
+    }
+   ],
+   "sources": [
+    {
+     "name": "ESO",
+     "title": "Astronomers find strongest evidence yet that Betelgeuse has a companion",
+     "url": "https://www.eso.org/public/news/eso2611/"
+    }
+   ],
+   "date": "2026-07-28T12:00:00Z",
+   "addedAt": "2026-10-20T16:00:00Z",
+   "when": null,
+   "image": "https://cdn.eso.org/images/screen/eso2611a.jpg",
+   "imageCredit": "ESO/M. Montargès et al.",
+   "solidityNote": "Gli stessi autori indicano che serve un'ulteriore osservazione per la conferma definitiva.",
+   "url": "https://eso.org/public/news/eso2611"
+  }
+ ]
+}
