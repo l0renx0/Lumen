@@ -39,7 +39,7 @@ const store = {
 };
 
 const state = {
-  section: store.get('section', 'novita'),
+  section: store.get('section', 'sapevi'),
   topic: null,
   cards: [],
   byId: new Map(),
@@ -139,8 +139,18 @@ async function checkForUpdates() {
 
 function visibleCards() {
   const list = state.cards.filter((c) => c.section === state.section && (!state.topic || c.topic === state.topic));
-  const key = state.section === 'novita' ? 'date' : 'addedAt';
-  return list.sort((a, b) => new Date(b[key] || b.date) - new Date(a[key] || a.date));
+  if (state.section === 'novita') return list.sort((a, b) => new Date(b.date) - new Date(a.date));
+  // "Lo sapevi?": prima le schede non ancora lette, in un ordine che cambia ogni giorno.
+  const read = new Set(store.get('read', []).map((r) => r.id));
+  const seed = todayKey();
+  const rank = (c) => hash(seed + c.id);
+  return list.sort((a, b) => (read.has(a.id) - read.has(b.id)) || (rank(a) - rank(b)));
+}
+
+function hash(s) {
+  let h = 2166136261;
+  for (let i = 0; i < s.length; i++) h = Math.imul(h ^ s.charCodeAt(i), 16777619);
+  return h >>> 0;
 }
 
 function renderChips() {
@@ -184,6 +194,7 @@ function renderFeed() {
     node.style.setProperty('--i', Math.min(i, 4));
     if (read.has(card.id)) node.classList.add('is-read');
     mediaFor(card, $('.card__media', node));
+    if (i === 0 && state.section === 'sapevi' && !state.topic && !read.has(card.id)) $('.card__media', node).append(el('span', 'today', 'La scoperta di oggi'));
     const meta = $('.meta-row', node);
     meta.append(topicChip(card.topic), solidityBadge(card.solidity));
     $('.card__title', node).textContent = typo(card.title);
@@ -197,7 +208,14 @@ function renderFeed() {
   });
 
   const end = el('div', 'end');
-  end.append(el('span', null, state.section === 'novita' ? 'Sei arrivato in fondo.' : 'Per oggi è tutto.'), document.createTextNode('Domani arriveranno nuove schede.'));
+  const daLeggere = list.filter((c) => !read.has(c.id)).length;
+  if (state.section === 'novita') {
+    end.append(el('span', null, 'Sei arrivato in fondo.'), document.createTextNode('Nuove ricerche arriveranno con il prossimo aggiornamento.'));
+  } else if (daLeggere) {
+    end.append(el('span', null, `Ti restano ${daLeggere} ${daLeggere === 1 ? 'scoperta' : 'scoperte'} da leggere.`), document.createTextNode('Domani l’ordine cambia: una nuova scoperta ti aspetta in cima.'));
+  } else {
+    end.append(el('span', null, 'Le hai lette tutte.'), document.createTextNode('Complimenti! Nuove schede arriveranno con il prossimo aggiornamento.'));
+  }
   feed.append(end);
   requestAnimationFrame(updateFocus);
 }

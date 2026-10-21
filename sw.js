@@ -1,6 +1,6 @@
 // Service worker: rende l'app installabile e utilizzabile anche offline.
 // Quando modifichi i file dell'app, aumenta il numero di VERSION.
-const VERSION = 'lumen-v1';
+const VERSION = 'lumen-v2';
 const SHELL = [
   './',
   'index.html',
@@ -51,11 +51,21 @@ self.addEventListener('fetch', (e) => {
     return;
   }
 
-  // Interfaccia e font: copia salvata, aggiornata in background.
-  if (url.origin === location.origin || url.hostname.endsWith('gstatic.com') || url.hostname.endsWith('googleapis.com')) {
+  // Interfaccia: prima la rete (così gli aggiornamenti si vedono subito), la copia salvata se offline.
+  if (url.origin === location.origin) {
+    e.respondWith(
+      fetch(req)
+        .then((res) => { const copy = res.clone(); caches.open(VERSION).then((c) => c.put(req, copy)); return res; })
+        .catch(() => caches.match(req, { ignoreSearch: true })),
+    );
+    return;
+  }
+
+  // Font: copia salvata, aggiornata in background.
+  if (url.hostname.endsWith('gstatic.com') || url.hostname.endsWith('googleapis.com')) {
     e.respondWith(
       caches.open(VERSION).then(async (c) => {
-        const hit = await c.match(req, { ignoreSearch: url.origin === location.origin });
+        const hit = await c.match(req);
         const net = fetch(req).then((res) => { if (res.ok || res.type === 'opaque') c.put(req, res.clone()); return res; }).catch(() => hit);
         return hit || net;
       }),

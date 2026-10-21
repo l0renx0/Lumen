@@ -196,7 +196,7 @@ svg { display: block; }
   border-radius: 999px; background: var(--card); box-shadow: var(--shadow-soft);
   transition: transform 0.45s var(--ease-out);
 }
-.tabs[data-active="sapevi"] .tabs__pill { transform: translateX(100%); }
+.tabs[data-active="novita"] .tabs__pill { transform: translateX(100%); }
 
 /* Chip argomenti */
 .chips {
@@ -322,6 +322,15 @@ svg { display: block; }
 .card__more { display: inline-flex; align-items: center; gap: 4px; color: var(--ink); font-weight: 500; flex: none; }
 .card__more svg { width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; transition: transform 0.3s var(--ease); }
 .card:hover .card__more svg { transform: translateX(3px); }
+.today {
+  position: absolute; z-index: 2; top: 14px; left: 14px;
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 6px 12px 6px 10px; border-radius: 999px;
+  background: var(--accent); color: #fff;
+  font-size: 12px; font-weight: 600; letter-spacing: 0.02em;
+  box-shadow: 0 6px 18px -6px rgba(255, 90, 31, 0.6);
+}
+.today::before { content: ""; width: 6px; height: 6px; border-radius: 50%; background: #fff; }
 .card.is-read .card__more::before { content: "Letto · "; color: var(--ink-3); font-weight: 400; }
 
 /* Stato vuoto / caricamento */
