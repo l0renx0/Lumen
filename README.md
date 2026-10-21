@@ -2,7 +2,7 @@
 
 **L'app è online: https://l0renx0.github.io/Lumen/**
 
-Lumen è un'app personale da tenere sul telefono: un feed di schede da scorrere, come un social, ma senza utenti e senza disinformazione. Ogni scheda nasce da una **fonte ufficiale o di grande autorevolezza**: agenzie ed enti (NASA, ESA, ESO, INAF, INGV, ISTAT, OMS, ECDC, NOAA, UNESCO), grandi riviste scientifiche (Nature, PNAS, Scientific American), università e musei (British Museum, Smithsonian, Museo Galileo, King's College London, Fondazione Nobel). **Niente Wikipedia**, è scritta in italiano chiaro e riporta **citazioni copiate alla lettera** e i **link all'originale**.
+Lumen è un'app personale da tenere sul telefono: un feed di schede da scorrere, come un social, ma senza utenti e senza disinformazione. Ogni scheda nasce da una **fonte ufficiale o di grande autorevolezza**: agenzie ed enti (NASA, ESA, ESO, INAF, INGV, ISTAT, OMS, ECDC, NOAA, UNESCO), grandi riviste scientifiche (Nature, PNAS, Scientific American), università e musei (British Museum, Smithsonian, Museo Galileo, King's College London, Fondazione Nobel). **Niente Wikipedia.** Ogni scheda è scritta in italiano chiaro e riporta **citazioni copiate alla lettera** e i **link all'originale**.
 
 **È gratuita**: il sito sta su GitHub Pages (gratis) e non usa nessun servizio a pagamento.
 
