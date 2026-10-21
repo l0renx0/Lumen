@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-10-21T01:02:09Z",
+ "updatedAt": "2026-10-21T01:27:54Z",
  "cards": [
   {
    "id": "caebee87b7f6",
@@ -202,91 +202,100 @@
    "url": "https://science.nasa.gov/earth/earth-observatory/the-human-fingerprint-on-earths-water-cycle"
   },
   {
-   "id": "c6c7e5f4ca77",
+   "id": "a1595d834482",
    "section": "sapevi",
    "topic": "Natura",
    "solidity": "consolidato",
-   "title": "I tardigradi, gli animali di mezzo millimetro sopravvissuti allo spazio",
-   "summary": "Gli 'orsetti d'acqua' resistono a temperature e pressioni estreme, radiazioni e disidratazione. Il nome glielo diede l'italiano Lazzaro Spallanzani nel 1776.",
+   "title": "I tardigradi sono i primi animali sopravvissuti allo spazio aperto",
+   "summary": "Nel 2007, sulla missione FOTON-M3 dell'ESA, questi animaletti di massimo 1,5 mm furono esposti per 10 giorni al vuoto e alle radiazioni dello spazio. Alcuni si riprodussero.",
    "body": [
-    "I tardigradi sono micro-animali a otto zampe, lunghi in genere circa mezzo millimetro, noti come 'orsetti d'acqua'. Il primo a descriverli fu lo zoologo tedesco Goeze nel 1773; nel 1776 il biologo italiano Lazzaro Spallanzani li chiamò Tardigrada, cioè 'camminatori lenti'.",
-    "Vivono quasi ovunque: dalle cime delle montagne agli abissi oceanici, dalle foreste pluviali all'Antartide. Sono comuni nei muschi e nei licheni e si possono osservare con un semplice microscopio.",
-    "Sono tra gli animali più resistenti conosciuti: alcune specie sopravvivono a temperature e pressioni estreme, alla mancanza d'aria, alle radiazioni, alla disidratazione e alla fame. Sono sopravvissuti anche all'esposizione allo spazio.",
-    "Se ne conoscono circa 1.500 specie e il fossile più antico risale al Cambriano, circa 500 milioni di anni fa."
+    "I tardigradi, detti anche “orsetti d'acqua”, sono minuscoli invertebrati lunghi fino a 1,5 millimetri, comuni in ambienti umidi come muschi e licheni. Questi ambienti si seccano spesso, e i tardigradi si sono evoluti per sopravvivere a lunghi periodi di disidratazione, anche di anni, oltre che a caldo, freddo e radiazioni estremi.",
+    "Nel settembre 2007 campioni disidratati di due specie di tardigradi furono lanciati nello spazio con la missione FOTON-M3 dell'Agenzia Spaziale Europea. Per 10 giorni orbitarono attorno alla Terra tra 258 e 281 chilometri di quota, esposti al vuoto dello spazio e alle radiazioni ultraviolette e cosmiche.",
+    "Fino ad allora solo alcuni batteri e licheni avevano dimostrato di sopravvivere nello spazio: nessun animale era mai stato esposto a quelle condizioni. Al ritorno, i campioni esposti solo al vuoto si ripresero benissimo dopo essere stati reidratati.",
+    "La mortalità fu invece alta tra quelli colpiti dalla radiazione solare. Eppure alcuni sopravvissero e si riprodussero, nonostante raggi ultravioletti mille volte più intensi di quelli sulla superficie terrestre. Come ci riescano resta un mistero da studiare: i ricercatori ipotizzano sistemi speciali per proteggere e riparare il DNA."
    ],
-   "quotes": [],
+   "quotes": [
+    {
+     "text": "Nevertheless, some specimens not only survived, but went on to reproduce successfully",
+     "translation": "Ciononostante, alcuni esemplari non solo sopravvissero, ma riuscirono anche a riprodursi",
+     "author": "CORDIS, Commissione europea"
+    }
+   ],
    "sources": [
     {
-     "name": "Wikipedia",
-     "title": "Tardigrada",
-     "url": "https://it.wikipedia.org/wiki/Tardigrada"
+     "name": "CORDIS – Commissione europea",
+     "title": "Water bears survive space environment, study shows",
+     "url": "https://cordis.europa.eu/article/id/29839-water-bears-survive-space-environment-study-shows"
     }
    ],
    "date": "2026-10-20T00:00:00Z",
    "addedAt": "2026-10-20T16:00:00Z",
-   "when": "Descritti dal 1773",
-   "image": "https://upload.wikimedia.org/wikipedia/commons/2/20/SEM_image_of_Milnesium_tardigradum_in_active_state_-_journal.pone.0045682.g001-2_%28white_background%29.png",
-   "imageCredit": "Wikimedia Commons (PLoS ONE, CC BY)",
+   "when": "Esperimento del 2007",
+   "image": "https://cordis.europa.eu/docs/news/images/2008-09/20080909_2.jpg",
+   "imageCredit": "CORDIS",
    "solidityNote": null,
-   "url": "https://it.wikipedia.org/wiki/Tardigrada"
+   "url": "https://cordis.europa.eu/article/id/29839-water-bears-survive-space-environment-study-shows"
   },
   {
-   "id": "0c84774ad217",
+   "id": "9bd4bea36960",
    "section": "sapevi",
    "topic": "Scienza",
    "solidity": "consolidato",
    "title": "1952: in laboratorio, dai fulmini nascono i mattoni della vita",
-   "summary": "Simulando l'atmosfera della Terra primordiale e i fulmini con scariche elettriche, Stanley Miller e Harold Urey ottennero amminoacidi da sostanze inorganiche.",
+   "summary": "Il giovane Stanley Miller mise in un'ampolla i gas della Terra primordiale e li colpì con scintille elettriche. Ottenne amminoacidi, i componenti delle proteine.",
    "body": [
-    "Nel 1952, all'Università di Chicago, il chimico Stanley Miller e il suo professore Harold Urey, premio Nobel, vollero mettere alla prova un'idea di Oparin e Haldane: che le condizioni della Terra primordiale potessero produrre composti organici partendo da sostanze inorganiche.",
-    "Costruirono un sistema sigillato e sterile: una sfera con acqua, scaldata per produrre vapore, e un'altra con idrogeno, metano e ammoniaca, i gas che si pensava formassero l'atmosfera primitiva. Due elettrodi producevano scariche elettriche per simulare i fulmini.",
-    "Dopo circa una settimana di funzionamento continuo, circa il 15% dell'idrogeno era finito in composti organici, tra cui alcuni amminoacidi, i componenti delle proteine.",
-    "È stata la prima dimostrazione che, nelle giuste condizioni, molecole organiche possono formarsi da sostanze inorganiche più semplici. Sulla Terra primordiale, reazioni simili poterono proseguire per milioni di anni."
+    "Nel 1951 Stanley Miller era un nuovo dottorando all'Università di Chicago. Durante un seminario il premio Nobel Harold Urey lamentò che nessuno stesse mettendo alla prova l'idea, proposta negli anni '20 da Haldane e Oparin, che la vita fosse nata da un “brodo primordiale” sulla Terra primitiva.",
+    "Miller decise di raccogliere la sfida. Nell'autunno del 1952 mise in un'ampolla metano, ammoniaca, anidride carbonica e vapore acqueo, i gas che si pensava formassero l'atmosfera primordiale, collegata a elettrodi per produrre scintille, a una fonte di calore, a un condensatore e a un'ampolla di raccolta.",
+    "Analizzando la soluzione raccolta, trovò diversi amminoacidi, i mattoni delle proteine, tra cui glicina e alanina. L'articolo uscì sulla rivista Science il 15 maggio 1953, firmato dal solo Miller: Urey rifiutò di comparire come coautore perché tutto il merito andasse al suo studente.",
+    "Divenne subito un classico: mostrava che le molecole organiche degli esseri viventi possono formarsi naturalmente in condizioni simili a quelle della Terra primitiva. Oggi sappiamo che i gas di 4 miliardi di anni fa non erano quelli usati da Miller, ma l'esperimento, ripetuto migliaia di volte, produce molecole organiche con miscele diverse. Non creò la vita: i giornali scrissero di “vita in provetta”, ma non era così."
    ],
    "quotes": [
     {
-     "text": "L'esperimento di Miller-Urey rappresenta la prima dimostrazione che, nelle giuste condizioni ambientali, le molecole organiche si possono formare a partire da sostanze inorganiche più semplici."
+     "text": "It right away became one of the classic papers in the history of the life sciences",
+     "translation": "Divenne subito uno degli articoli classici nella storia delle scienze della vita",
+     "author": "Linda Hall Library"
     }
    ],
    "sources": [
     {
-     "name": "Wikipedia",
-     "title": "Esperimento di Miller-Urey",
-     "url": "https://it.wikipedia.org/wiki/Esperimento_di_Miller-Urey"
+     "name": "Linda Hall Library",
+     "title": "Scientist of the Day – Stanley Miller",
+     "url": "https://www.lindahall.org/about/news/scientist-of-the-day/stanley-miller/"
     }
    ],
    "date": "2026-10-20T00:00:00Z",
    "addedAt": "2026-10-20T16:00:00Z",
-   "when": "1952, Università di Chicago",
-   "image": "https://upload.wikimedia.org/wikipedia/commons/9/92/Miller-Urey_experiment-it.svg",
-   "imageCredit": "Wikimedia Commons",
+   "when": "1952-1953",
+   "image": "https://assets-us-01.kc-usercontent.com:443/9dd25524-761a-000d-d79f-86a5086d4774/d5f776dd-60b9-42f8-a36c-16e51376546a/miller1.jpg",
+   "imageCredit": "Linda Hall Library",
    "solidityNote": null,
-   "url": "https://it.wikipedia.org/wiki/Esperimento_di_Miller-Urey"
+   "url": "https://lindahall.org/about/news/scientist-of-the-day/stanley-miller"
   },
   {
-   "id": "1e5a12054814",
+   "id": "9c8d628151c6",
    "section": "sapevi",
    "topic": "Storia",
    "solidity": "consolidato",
-   "title": "Wegener, il meteorologo che capì che i continenti si muovono",
-   "summary": "Nel 1912 Alfred Wegener propose la deriva dei continenti, da cui derivò la teoria della tettonica a placche. Era anche un pioniere dell'esplorazione polare.",
+   "title": "Wegener, il meteorologo che nel 1912 disse che i continenti si muovono",
+   "summary": "Il 6 gennaio 1912, a Francoforte, Alfred Wegener presentò l'idea della deriva dei continenti, scuotendo le basi della geologia del tempo. Era anche un esploratore della Groenlandia.",
    "body": [
-    "Alfred Wegener (Berlino, 1880 – Groenlandia, 1930) era un geologo, meteorologo ed esploratore tedesco. Si laureò in astronomia nel 1905, ma era più interessato alla meteorologia e alla fisica.",
-    "Nel 1912 formulò la teoria della deriva dei continenti: l'idea che i continenti non siano fissi ma si spostino nel tempo. Da questa intuizione derivò la teoria della tettonica a placche, oggi il modello di riferimento della dinamica della Terra, secondo cui la litosfera è divisa in circa venti zolle rigide.",
-    "Era anche un pioniere della ricerca polare: nel 1906 partecipò alla prima delle sue tre spedizioni in Groenlandia, dove costruì la prima stazione meteorologica dell'isola. Nello stesso anno, con il fratello Kurt, stabilì un record di 52 ore di volo continuo in pallone.",
-    "Morì in Groenlandia nel 1930, durante una spedizione."
+    "Alfred Wegener nacque a Berlino nel 1880 e studiò fisica, meteorologia e astronomia a Berlino, Heidelberg e Innsbruck.",
+    "Il 6 gennaio 1912, all'assemblea annuale dell'Associazione geologica a Francoforte sul Meno, il meteorologo trentunenne tenne una conferenza sulla formazione di oceani e continenti: secondo l'Istituto Alfred Wegener, quel giorno “scosse le fondamenta della dottrina accettata”. Fu la prima presentazione pubblica della sua idea del movimento dei continenti.",
+    "La sua opera principale, “L'origine dei continenti e degli oceani”, uscì come libro nel 1915; nel 1929 ne pubblicò la quarta edizione.",
+    "Wegener fu anche un esploratore polare: partecipò a una spedizione danese in Groenlandia nel 1906-1908, a una seconda nel 1912-1913 e guidò poi le spedizioni del 1929 e 1930 per studiare la calotta di ghiaccio. Oggi porta il suo nome l'Istituto Alfred Wegener, centro tedesco di ricerca polare e marina."
    ],
-   "quotes": [],
+   "quotes": [
+    {
+     "text": "The namesake of our institute developed the theory of continental drift",
+     "translation": "L'uomo da cui prende il nome il nostro istituto sviluppò la teoria della deriva dei continenti",
+     "author": "Istituto Alfred Wegener"
+    }
+   ],
    "sources": [
     {
-     "name": "Wikipedia",
+     "name": "Istituto Alfred Wegener (AWI)",
      "title": "Alfred Wegener",
-     "url": "https://it.wikipedia.org/wiki/Alfred_Wegener"
-    },
-    {
-     "name": "Wikipedia",
-     "title": "Tettonica delle placche",
-     "url": "https://it.wikipedia.org/wiki/Tettonica_delle_placche"
+     "url": "https://www.awi.de/en/about-us/organisation/alfred-wegener.html"
     }
    ],
    "date": "2026-10-20T00:00:00Z",
@@ -295,99 +304,117 @@
    "image": "https://upload.wikimedia.org/wikipedia/commons/6/65/Alfred_Wegener_ca.1924-30.jpg",
    "imageCredit": "Wikimedia Commons",
    "solidityNote": null,
-   "url": "https://it.wikipedia.org/wiki/Alfred_Wegener"
+   "url": "https://awi.de/en/about-us/organisation/alfred-wegener.html"
   },
   {
-   "id": "de8c77739443",
+   "id": "5345347ecb92",
    "section": "sapevi",
    "topic": "Storia",
    "solidity": "consolidato",
-   "title": "Accadde oggi: il 20 ottobre 1973 apre l'Opera di Sydney",
-   "summary": "L'edificio progettato dal danese Jørn Utzon è una delle architetture più significative del XX secolo ed è patrimonio dell'umanità UNESCO dal 2007.",
+   "title": "L'Opera di Sydney, capolavoro del Novecento nato da una sfera",
+   "summary": "Progettata dal danese Jørn Utzon e inaugurata nel 1973, per l'UNESCO è un capolavoro dell'architettura del XX secolo. Le sue “vele” derivano tutte dalla superficie di una sfera.",
    "body": [
-    "Il 20 ottobre 1973 veniva inaugurato il teatro dell'Opera di Sydney, in Australia.",
-    "Il progetto è dell'architetto danese Jørn Utzon; i calcoli strutturali delle sue celebri 'vele' furono affidati alla società di ingegneria londinese Arup.",
-    "È considerato una delle architetture più significative del Novecento, al punto da essere diventato un simbolo non solo di Sydney ma dell'intera Australia.",
-    "Nel 2007 la Sydney Opera House è stata dichiarata patrimonio dell'umanità dall'UNESCO."
+    "Nel 1957 una giuria internazionale assegnò il progetto del teatro dell'Opera di Sydney all'architetto danese Jørn Utzon. Secondo l'UNESCO segnò un approccio radicalmente nuovo alla costruzione.",
+    "L'edificio fu inaugurato nel 1973, su una penisola nel porto di Sydney. È formato da tre gruppi di “gusci” a volta intrecciati, che coprono due grandi sale per spettacoli e un ristorante, sopra un'enorme piattaforma.",
+    "L'intuizione chiave di Utzon fu che la forma di tutti quei gusci poteva essere ricavata dalla superficie di una sfera: un traguardo nell'architettura del Novecento. Le soluzioni ingegneristiche di Ove Arup aiutarono a trasformare la sua visione in realtà.",
+    "Per l'UNESCO è un capolavoro dell'architettura del XX secolo e un'icona conosciuta in tutto il mondo, iscritta nella lista del patrimonio mondiale. Oggi è una delle principali mete turistiche dell'Australia e uno dei centri per lo spettacolo più attivi al mondo."
    ],
-   "quotes": [],
+   "quotes": [
+    {
+     "text": "The Sydney Opera House constitutes a masterpiece of 20th century architecture.",
+     "translation": "La Sydney Opera House costituisce un capolavoro dell'architettura del XX secolo.",
+     "author": "UNESCO"
+    }
+   ],
    "sources": [
     {
-     "name": "Wikipedia",
-     "title": "Teatro dell'Opera di Sydney",
-     "url": "https://it.wikipedia.org/wiki/Teatro_dell%27Opera_di_Sydney"
+     "name": "UNESCO",
+     "title": "Sydney Opera House – World Heritage Centre",
+     "url": "https://whc.unesco.org/en/list/166/"
     },
     {
-     "name": "Wikipedia",
-     "title": "20 ottobre — Accadde oggi",
-     "url": "https://it.wikipedia.org/wiki/20_ottobre"
+     "name": "Sydney Opera House",
+     "title": "Our story",
+     "url": "https://www.sydneyoperahouse.com/our-story"
     }
    ],
    "date": "2026-10-20T00:00:00Z",
    "addedAt": "2026-10-20T16:00:00Z",
-   "when": "20 ottobre 1973",
+   "when": "1973",
    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Sydney_Opera_House_01.jpg/1280px-Sydney_Opera_House_01.jpg",
    "imageCredit": "Wikimedia Commons",
    "solidityNote": null,
-   "url": "https://it.wikipedia.org/wiki/Teatro_dell%27Opera_di_Sydney"
+   "url": "https://whc.unesco.org/en/list/166"
   },
   {
-   "id": "0501bd2108c4",
+   "id": "b13fa0d8d917",
    "section": "sapevi",
    "topic": "Storia",
    "solidity": "consolidato",
-   "title": "Eratostene misurò la Terra con ombre e geometria, nel III secolo a.C.",
-   "summary": "Il terzo bibliotecario di Alessandria calcolò la circonferenza terrestre con la misura più accurata dell'antichità, usando osservazioni fatte durante il solstizio d'estate.",
+   "title": "Eratostene misurò la Terra con un'ombra, un pozzo e dei camminatori",
+   "summary": "Intorno al 240 a.C. il bibliotecario di Alessandria calcolò la circonferenza terrestre confrontando le ombre del solstizio in due città. Il risultato fu sorprendentemente buono.",
    "body": [
-    "Eratostene di Cirene (circa 276 – 194 a.C.) era un filosofo e astronomo greco. Fu il terzo bibliotecario della Biblioteca di Alessandria, precettore del re Tolomeo IV e stretto collaboratore di Archimede.",
-    "È famoso soprattutto per aver concepito un metodo geometrico per calcolare la circonferenza della Terra, o più precisamente del meridiano che passa per l'Egitto, usando semplici osservazioni e misure fatte durante il solstizio d'estate.",
-    "Ottenne così la più accurata tra le misure antiche della circonferenza terrestre.",
-    "Era così versatile, tra filologia, astronomia, matematica, cronologia e geografia, che i critici lo chiamavano 'Beta', sempre secondo in ogni campo, mentre i sostenitori lo chiamavano 'Pentathlos', come gli atleti che gareggiavano in tutte le discipline."
+    "Eratostene di Cirene nacque intorno al 276 a.C. nell'attuale Libia. Intorno al 240 a.C. il re Tolomeo III lo nominò capo della biblioteca di Alessandria. Era bravo in astronomia, matematica, geografia, filosofia e poesia, al punto che i contemporanei lo chiamavano “Beta”: molto bravo, ma mai il primo in nessun campo.",
+    "Aveva saputo da alcuni viaggiatori che a Siene, l'attuale Assuan in Egitto, a mezzogiorno del solstizio d'estate il Sole illuminava tutto il fondo di un pozzo senza fare ombra: era quindi esattamente sopra la testa. Ad Alessandria, nello stesso momento, misurò l'ombra di un bastone: formava un angolo di circa 7,2 gradi, cioè 1/50 di un cerchio completo.",
+    "Gli serviva la distanza tra le due città. Misurarla era difficilissimo: le carovane di cammelli vagavano e camminavano a velocità diverse. Eratostene assunse allora i bematisti, misuratori professionisti addestrati a camminare con passi tutti uguali: Siene risultò a circa 5.000 stadi da Alessandria. La circonferenza della Terra era quindi di circa 250.000 stadi.",
+    "Non sappiamo con certezza quanto fosse lungo lo stadio che usava: con le stime degli studiosi, il suo risultato è compreso tra circa 38.600 e 46.700 chilometri. Oggi sappiamo che la Terra misura circa 40.000 km all'equatore. Il suo metodo è corretto ed è usato ancora oggi dagli studenti di tutto il mondo."
    ],
-   "quotes": [],
+   "quotes": [
+    {
+     "text": "His basic method is sound, and is even used by schoolchildren around the world today.",
+     "translation": "Il suo metodo di base è corretto ed è usato ancora oggi dagli studenti di tutto il mondo.",
+     "author": "American Physical Society"
+    }
+   ],
    "sources": [
     {
-     "name": "Wikipedia",
-     "title": "Eratostene",
-     "url": "https://it.wikipedia.org/wiki/Eratostene"
+     "name": "American Physical Society",
+     "title": "This Month in Physics History: Eratosthenes Measures the Earth",
+     "url": "https://www.aps.org/apsnews/2006/06/eratosthenes-measures-earth"
     }
    ],
    "date": "2026-10-20T00:00:00Z",
    "addedAt": "2026-10-20T16:00:00Z",
-   "when": "III secolo a.C.",
+   "when": "Circa 240 a.C.",
    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Portrait_of_Eratosthenes.png",
    "imageCredit": "Wikimedia Commons",
    "solidityNote": null,
-   "url": "https://it.wikipedia.org/wiki/Eratostene"
+   "url": "https://aps.org/apsnews/2006/06/eratosthenes-measures-earth"
   },
   {
-   "id": "d57f067d639d",
+   "id": "4f121627d1fc",
    "section": "sapevi",
    "topic": "Salute",
    "solidity": "consolidato",
-   "title": "Prima della penicillina, Fleming scoprì un antibatterico nelle lacrime",
-   "summary": "Nel 1922 Alexander Fleming scoprì il lisozima, un enzima antibatterico presente nel muco e nelle lacrime. Sei anni dopo avrebbe scoperto la penicillina.",
+   "title": "Prima della penicillina, Fleming scoprì il lisozima",
+   "summary": "Nel 1921 Alexander Fleming trovò nei tessuti e nelle secrezioni del corpo una sostanza che distrugge i batteri. Sette anni dopo arrivò la penicillina.",
    "body": [
-    "Alexander Fleming (1881-1955), medico e biologo scozzese, è noto per la scoperta della penicillina nel 1928, che gli valse il premio Nobel per la medicina nel 1945. Ma la sua prima grande scoperta arrivò prima, e per caso.",
-    "Nel 1922 mise un po' del proprio muco nasale su una piastra di coltura. Qualche settimana dopo notò che i microbi erano cresciuti su tutta la piastra, tranne che sulla sua secrezione.",
-    "Esperimenti con altro muco e con le lacrime mostrarono che questi liquidi contenevano una sostanza dall'azione antibatterica. Era un enzima capace di dissolvere alcuni microbi: lo chiamò lisozima, dal greco lysis, 'dissoluzione'.",
-    "Fleming lo trovò in molti tessuti e liquidi, umani, animali e vegetali: una specie di antisettico naturale, una prima linea di difesa contro i microbi."
+    "Alexander Fleming nacque in Scozia, a Lochfield vicino a Darvel, il 6 agosto 1881. Dopo quattro anni in un ufficio di spedizioni entrò alla scuola di medicina del St Mary's di Londra, dove si laureò con lode nel 1906 e iniziò a fare ricerca con Sir Almroth Wright, pioniere della vaccinoterapia.",
+    "Fin dall'inizio della carriera si interessò all'azione antibatterica naturale del sangue e agli antisettici. Durante la Prima guerra mondiale servì come capitano nei servizi medici dell'esercito, e al ritorno si dedicò a sostanze antibatteriche che non fossero tossiche per i tessuti degli animali.",
+    "Nel 1921 scoprì nei “tessuti e secrezioni” del corpo un'importante sostanza capace di distruggere i batteri, che chiamò lisozima. In quel periodo mise a punto anche metodi per misurarne l'attività nel sangue e in altri liquidi del corpo, che userà poi per la penicillina.",
+    "Nel 1928 arrivò la scoperta della penicillina, che gli valse il premio Nobel per la medicina nel 1945."
    ],
-   "quotes": [],
+   "quotes": [
+    {
+     "text": "In 1921, he discovered in «tissues and secretions» an important bacteriolytic substance which he named Lysozyme.",
+     "translation": "Nel 1921 scoprì nei «tessuti e secrezioni» un'importante sostanza batteriolitica, che chiamò lisozima.",
+     "author": null
+    }
+   ],
    "sources": [
     {
-     "name": "Wikipedia",
-     "title": "Alexander Fleming",
-     "url": "https://it.wikipedia.org/wiki/Alexander_Fleming"
+     "name": "Premio Nobel",
+     "title": "Sir Alexander Fleming – Biographical",
+     "url": "https://www.nobelprize.org/prizes/medicine/1945/fleming/biographical/"
     }
    ],
    "date": "2026-10-20T00:00:00Z",
    "addedAt": "2026-10-20T16:00:00Z",
-   "when": "1922",
+   "when": "1921",
    "image": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Synthetic_Production_of_Penicillin_TR1468_crop.jpg",
    "imageCredit": "Wikimedia Commons",
    "solidityNote": null,
-   "url": "https://it.wikipedia.org/wiki/Alexander_Fleming"
+   "url": "https://nobelprize.org/prizes/medicine/1945/fleming/biographical"
   },
   {
    "id": "393dd71be2f3",
@@ -769,205 +796,209 @@
    "url": "https://eso.org/public/news/eso2611"
   },
   {
-   "id": "f9bd91bb0d7b",
+   "id": "a9bbc59714e7",
    "section": "sapevi",
    "topic": "Spazio",
    "solidity": "consolidato",
-   "title": "La Terra vista da 6 miliardi di km: un puntino più piccolo di un pixel",
-   "summary": "Nel 1990 la sonda Voyager 1, ormai ai confini del Sistema Solare, si voltò e fotografò la Terra. Quell'immagine è diventata il Pale Blue Dot.",
+   "title": "La Terra vista da 6 miliardi di km: il “pallido puntino azzurro”",
+   "summary": "Il 14 febbraio 1990 la sonda Voyager 1 fotografò la Terra dai confini del Sistema Solare. Quell'immagine ispirò il libro più famoso di Carl Sagan.",
    "body": [
-    "Il 14 febbraio 1990 la sonda Voyager 1, lanciata nel 1977 per studiare il Sistema Solare esterno, scattò una fotografia della Terra da oltre 6 miliardi di chilometri di distanza, una distanza mai raggiunta prima per una foto del nostro pianeta.",
-    "Nell'immagine la Terra occupa meno di un pixel: è un minuscolo punto azzurro immerso nello spazio, attraversato da bande di luce. Quelle bande non sono reali: sono un artefatto causato dalla luce del Sole diffusa nelle ottiche della fotocamera, perché Sole e Terra erano molto vicini nel campo visivo.",
-    "La foto fu scattata quando la sonda aveva già concluso la sua missione principale, anche grazie all'insistenza dell'astronomo Carl Sagan, che aveva chiesto alla NASA di girare la telecamera verso casa.",
-    "Nel suo libro del 1994, intitolato proprio Pale Blue Dot, Sagan usò questa immagine per raccontare quanto sia minuscolo ed effimero il posto dell'umanità nel cosmo."
+    "Il 14 febbraio 1990 la sonda Voyager 1 della NASA scattò una fotografia della Terra da una distanza di circa 6 miliardi di chilometri dal Sole. È l'immagine diventata famosa come Pale Blue Dot, il “pallido puntino azzurro”.",
+    "La foto ispirò il titolo del libro dello scienziato Carl Sagan “Pale Blue Dot: A Vision of the Human Future in Space”, in cui scrisse: “Guarda ancora quel puntino. È qui. È casa. Siamo noi”.",
+    "Per il 30° anniversario, nel 2020, la NASA ha diffuso una versione aggiornata dell'immagine, elaborata con software moderni cercando di rispettare i dati originali e le intenzioni di chi aveva progettato lo scatto. Alla nuova versione hanno collaborato due dei pianificatori originali, Candy Hansen e William Kosmann."
    ],
    "quotes": [
     {
-     "text": "Nella fotografia, le dimensioni apparenti della Terra sono inferiori a un pixel",
-     "translation": null,
-     "author": null
+     "text": "Look again at that dot. That's here. That's home. That's us.",
+     "translation": "Guarda ancora quel puntino. È qui. È casa. Siamo noi.",
+     "author": "Carl Sagan"
     }
    ],
    "sources": [
     {
-     "name": "Wikipedia",
-     "title": "Pale Blue Dot",
-     "url": "https://it.wikipedia.org/wiki/Pale_Blue_Dot"
+     "name": "NASA",
+     "title": "Voyager 1's Pale Blue Dot",
+     "url": "https://science.nasa.gov/resource/voyager-1s-pale-blue-dot/"
     }
    ],
    "date": "2026-10-21T01:02:09Z",
    "addedAt": "2026-10-21T01:02:09Z",
    "when": "14 febbraio 1990",
-   "image": "https://upload.wikimedia.org/wikipedia/commons/7/73/Pale_Blue_Dot.png",
-   "imageCredit": "Wikimedia Commons",
+   "image": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia23/pia23645/PIA23645.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+   "imageCredit": "NASA/JPL-Caltech",
    "solidityNote": null,
-   "url": "https://it.wikipedia.org/wiki/Pale_Blue_Dot"
+   "url": "https://science.nasa.gov/resource/voyager-1s-pale-blue-dot"
   },
   {
-   "id": "12b036d19d8d",
+   "id": "860779b8ad08",
    "section": "sapevi",
    "topic": "Spazio",
    "solidity": "consolidato",
-   "title": "Le quattro lune di Giove che diedero un argomento a Copernico",
-   "summary": "Il 7 gennaio 1610 Galileo vide quattro puntini accanto a Giove. Capì che gli giravano intorno: la prova che non tutto orbita attorno alla Terra.",
+   "title": "Le quattro lune di Giove scoperte da Galileo nel 1610",
+   "summary": "Io, Europa, Ganimede e Callisto furono le prime lune scoperte oltre quella della Terra. Ganimede è più grande del pianeta Mercurio.",
    "body": [
-    "Io, Europa, Ganimede e Callisto sono i quattro satelliti più grandi di Giove. Si chiamano 'medicei' o 'galileiani' perché li scoprì Galileo Galilei: la sua prima osservazione risale al 7 gennaio 1610.",
-    "Dopo molte notti di osservazione, Galileo concluse che quei quattro corpi orbitavano attorno a Giove. Fu un argomento solido a favore della teoria eliocentrica di Copernico: dimostrava che non tutti gli oggetti del Sistema Solare girano attorno alla Terra.",
-    "Ancora oggi basta un binocolo o un piccolo telescopio per vederli: appaiono come quattro punti luminosi allineati lungo l'equatore del pianeta. Si muovono così in fretta che Io, il più interno, compie quasi un'orbita completa da una notte all'altra.",
-    "Ganimede è così luminoso che, se non fosse vicino all'abbagliante Giove, si vedrebbe anche a occhio nudo."
+    "Le quattro lune più grandi di Giove, Io, Europa, Ganimede e Callisto, furono osservate per la prima volta da Galileo Galilei nel 1610 con una delle prime versioni del telescopio. Per questo oggi si chiamano satelliti galileiani.",
+    "Secondo la NASA furono le prime lune scoperte oltre quella della Terra. Con queste quattro lune e molte altre più piccole, Giove forma una specie di Sistema Solare in miniatura: l'Unione Astronomica Internazionale gliene riconosce ufficialmente 115.",
+    "Ognuna è un mondo a sé. Ganimede è la luna più grande del Sistema Solare, più grande perfino di Mercurio e di Plutone. Io è il corpo con più attività vulcanica del Sistema Solare. Callisto è la terza luna per grandezza del Sistema Solare.",
+    "Sotto la crosta ghiacciata di Europa potrebbe esserci un oceano di acqua liquida con gli ingredienti per la vita: è l'obiettivo della missione Europa Clipper della NASA, partita il 14 ottobre 2024."
    ],
    "quotes": [
     {
-     "text": "La prima osservazione di questi satelliti da parte di Galileo risale al 7 gennaio 1610.",
-     "translation": null,
+     "text": "Jupiter's four largest moons were the first moons discovered beyond Earth.",
+     "translation": "Le quattro lune più grandi di Giove sono state le prime lune scoperte oltre quella della Terra.",
      "author": null
     }
    ],
    "sources": [
     {
-     "name": "Wikipedia",
-     "title": "Satelliti medicei",
-     "url": "https://it.wikipedia.org/wiki/Satelliti_medicei"
+     "name": "NASA",
+     "title": "Jupiter Moons",
+     "url": "https://science.nasa.gov/jupiter/jupiter-moons/"
     }
    ],
    "date": "2026-10-21T01:02:09Z",
    "addedAt": "2026-10-21T01:02:09Z",
-   "when": "7 gennaio 1610",
-   "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Jupiter_and_the_Galilean_Satellites.jpg",
-   "imageCredit": "Wikimedia Commons",
+   "when": "1610",
+   "image": "https://assets.science.nasa.gov/content/dam/science/psd/solar/internal_resources/5203/Jupiter_and_Galilean_Moons-1.jpeg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+   "imageCredit": "NASA",
    "solidityNote": null,
-   "url": "https://it.wikipedia.org/wiki/Satelliti_medicei"
+   "url": "https://science.nasa.gov/jupiter/jupiter-moons"
   },
   {
-   "id": "eafdee7d321d",
+   "id": "a7471cc5168b",
    "section": "sapevi",
    "topic": "Spazio",
    "solidity": "consolidato",
-   "title": "La cometa di Halley è passata nel 1986: tornerà nel 2061",
-   "summary": "Edmond Halley capì nel 1705 che diverse comete osservate nei secoli erano lo stesso oggetto, e ne predisse il ritorno. L'ultimo passaggio è stato nel 1986.",
+   "title": "La cometa di Halley torna ogni 76 anni circa: la prossima volta nel 2061",
+   "summary": "Edmond Halley capì nel 1705 che tre comete osservate nei secoli erano lo stesso oggetto e ne predisse il ritorno. Fu la prima cometa periodica conosciuta.",
    "body": [
-    "La cometa di Halley, nome ufficiale 1P/Halley, è la più famosa e brillante delle comete periodiche, quelle che tornano nelle regioni interne del Sistema Solare a intervalli di decine di anni.",
-    "Deve il nome all'astronomo Edmond Halley. Nel 1705 calcolò il suo periodo orbitale e ne predisse il ritorno, intuendo che le comete descritte da diversi astronomi del passato erano in realtà sempre la stessa. Le osservazioni registrate risalgono almeno al 240 a.C.",
-    "Halley notò per esempio che la cometa del 1682 aveva caratteristiche simili a quella apparsa nel 1531: era lo stesso oggetto che ritornava.",
-    "L'ultimo passaggio vicino al Sole è stato nel 1986. Il prossimo è previsto per il 2061."
+    "Fino ai tempi dell'astronomo inglese Edmond Halley (1656-1742) si pensava che le comete attraversassero il Sistema Solare una volta sola.",
+    "Nel 1705 Halley usò le teorie di Newton sulla gravitazione per calcolare le orbite di diverse comete. Notò che le comete del 1531, 1607 e 1682 avevano orbite simili e ipotizzò che fossero un'unica cometa che ritornava. Predisse correttamente il suo ritorno nel 1758: fu la prima cometa “periodica” conosciuta e le fu dato il suo nome.",
+    "Oggi i suoi passaggi sono collegati a osservazioni di oltre 2.000 anni fa: compare anche nel celebre arazzo di Bayeux, che racconta la battaglia di Hastings del 1066. Il suo periodo medio è di 76 anni, ma varia per effetto della gravità dei pianeti: da 74,42 a 79,25 anni.",
+    "Nel 1986 la incontrò una flotta internazionale di sonde, tra cui la Giotto dell'Agenzia Spaziale Europea. Il suo nucleo misura circa 15 per 8 chilometri ed è uno degli oggetti più scuri del Sistema Solare: riflette solo il 3% della luce. Tornerà nel 2061."
    ],
    "quotes": [
     {
-     "text": "L'ultimo passaggio al perielio della cometa di Halley è stato nel 1986; il prossimo sarà nel 2061.",
-     "translation": null,
+     "text": "Halley correctly predicted the comet would return in 1758.",
+     "translation": "Halley predisse correttamente che la cometa sarebbe tornata nel 1758.",
      "author": null
     }
    ],
    "sources": [
     {
-     "name": "Wikipedia",
-     "title": "Cometa di Halley",
-     "url": "https://it.wikipedia.org/wiki/Cometa_di_Halley"
+     "name": "NASA",
+     "title": "1P/Halley",
+     "url": "https://science.nasa.gov/solar-system/comets/1p-halley/"
     }
    ],
    "date": "2026-10-21T01:02:09Z",
    "addedAt": "2026-10-21T01:02:09Z",
    "when": "Prossimo passaggio: 2061",
-   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Lspn_comet_halley.jpg/1280px-Lspn_comet_halley.jpg",
-   "imageCredit": "Wikimedia Commons",
+   "image": "https://assets.science.nasa.gov/content/dam/science/psd/solar/2023/07/Giotto_halley_br.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+   "imageCredit": "ESA/Giotto",
    "solidityNote": null,
-   "url": "https://it.wikipedia.org/wiki/Cometa_di_Halley"
+   "url": "https://science.nasa.gov/solar-system/comets/1p-halley"
   },
   {
-   "id": "be9abfafe7c5",
+   "id": "349fb2a7693d",
    "section": "sapevi",
    "topic": "Spazio",
    "solidity": "consolidato",
-   "title": "Perché di notte il cielo è buio? Una domanda più profonda di quanto sembri",
-   "summary": "Se l'universo fosse infinito, eterno e pieno di stelle, il cielo notturno dovrebbe brillare ovunque. Il fatto che sia buio dice qualcosa sull'universo stesso.",
+   "title": "Perché di notte il cielo è buio? La risposta è più profonda di quanto sembri",
+   "summary": "Se l'universo fosse infinito e pieno di stelle, il cielo dovrebbe brillare ovunque. Il buio della notte dipende dall'età finita dell'universo e delle stelle.",
    "body": [
-    "Il paradosso di Olbers pone una domanda semplice: come è possibile che il cielo notturno sia buio, se nell'universo ci sono infinite stelle? Prende il nome dall'astronomo tedesco Heinrich Wilhelm Olbers, che lo propose nel 1826, ma lo avevano già descritto Keplero nel 1610 e altri astronomi dopo di lui.",
-    "Il ragionamento è questo: in un universo infinito, eterno e uniformemente pieno di stelle, in qualunque direzione si guardi lo sguardo finirebbe prima o poi sulla superficie di una stella. Tutto il cielo dovrebbe quindi brillare come la superficie del Sole.",
-    "Due ipotesi risolvono il paradosso. La prima: l'universo esiste da un tempo finito, quindi la luce delle stelle più lontane non ci ha ancora raggiunti. La seconda: l'universo è in espansione, e la luce delle stelle che si allontanano si sposta dal visibile verso l'infrarosso, come mostra il redshift cosmologico.",
-    "I presupposti di un universo infinito, eterno e immutabile erano accettati tacitamente dalla cosmologia fino all'inizio del Novecento."
+    "Vediamo stelle ovunque: perché la loro luce, sommata, non rende luminoso il cielo notturno? Il fisico tedesco Heinrich Wilhelm Olbers formulò il problema nel 1823: se l'universo è infinito e pieno di stelle, in qualunque direzione guardiamo dovremmo prima o poi incontrare una stella, e il cielo dovrebbe brillare.",
+    "Nel tempo sono state proposte soluzioni che non funzionano. La polvere tra le stelle bloccherebbe la luce? No: scaldandosi, finirebbe per brillare quanto le stelle stesse. Lo spostamento verso il rosso dovuto all'espansione sposterebbe la luce nell'infrarosso? Anche questo non basta, perché la luce ultravioletta verrebbe spostata nel visibile.",
+    "La spiegazione migliore oggi ha due parti. Primo: anche se l'universo fosse infinitamente grande, non è infinitamente vecchio. La luce viaggia a una velocità finita, quindi riceviamo luce solo da oggetti abbastanza vicini perché abbia avuto il tempo di arrivare fino a noi.",
+    "Secondo: stelle e galassie non vivono per sempre e prima o poi si spengono. Così non si verificano mai tutte insieme le condizioni per un cielo luminoso: o la luce degli oggetti più lontani non è ancora arrivata, oppure, quando arriva, quelli vicini si sono già spenti."
    ],
    "quotes": [
     {
-     "text": "come è possibile che il cielo notturno sia buio nonostante l'infinità di stelle presenti nell'universo?",
-     "translation": null,
-     "author": null
+     "text": "In fact, the answer is far more profound than it appears.",
+     "translation": "In realtà, la risposta è molto più profonda di quanto sembri.",
+     "author": "Karen B. Kwitter, Williams College"
     }
    ],
    "sources": [
     {
-     "name": "Wikipedia",
-     "title": "Paradosso di Olbers",
-     "url": "https://it.wikipedia.org/wiki/Paradosso_di_Olbers"
+     "name": "Scientific American",
+     "title": "Why is the night sky dark?",
+     "url": "https://www.scientificamerican.com/article/why-is-the-night-sky-dark/"
     }
    ],
    "date": "2026-10-21T01:02:09Z",
    "addedAt": "2026-10-21T01:02:09Z",
-   "when": "Formulato nel 1826",
+   "when": "Formulato nel 1823",
    "image": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Cielo_notturno_simulato.jpg",
    "imageCredit": "Wikimedia Commons",
    "solidityNote": null,
-   "url": "https://it.wikipedia.org/wiki/Paradosso_di_Olbers"
+   "url": "https://scientificamerican.com/article/why-is-the-night-sky-dark"
   },
   {
-   "id": "81faed13ab60",
+   "id": "3f05e2d5578e",
    "section": "sapevi",
    "topic": "Spazio",
    "solidity": "consolidato",
    "title": "C'è una luce debolissima che arriva da ogni direzione: è l'eco del Big Bang",
-   "summary": "Nel 1964 Penzias e Wilson scoprirono una radiazione a microonde che riempie tutto l'universo. È il residuo delle sue prime fasi e valse loro il Nobel.",
+   "summary": "Negli anni '60 Penzias e Wilson trovarono nel loro ricevitore un segnale che arrivava dallo spazio, uguale in ogni direzione. Era la radiazione cosmica di fondo.",
    "body": [
-    "Visto con un telescopio normale, lo spazio tra stelle e galassie appare nero. Con un radiotelescopio, invece, si rileva una debole radiazione che arriva uniformemente da tutte le direzioni, non è legata ad alcun corpo celeste ed è più intensa nelle microonde: è la radiazione cosmica di fondo.",
-    "La scoprirono nel 1964 gli astronomi statunitensi Arno Penzias e Robert Woodrow Wilson, che per questo ricevettero il Premio Nobel per la fisica nel 1978.",
-    "Secondo il modello del Big Bang, di cui è considerata una conferma chiave, è la radiazione residua delle prime fasi dell'universo. All'inizio l'universo era più piccolo e caldissimo, una specie di nebbia opaca in cui la luce non poteva viaggiare libera. Raffreddandosi con l'espansione, si formarono i primi atomi stabili e l'universo diventò trasparente: quella luce iniziò a propagarsi e la vediamo ancora oggi, molto indebolita.",
-    "Oggi ha una temperatura di 2,725 kelvin, poco sopra lo zero assoluto. Qualsiasi modello dell'universo deve essere in grado di spiegarla."
+    "All'inizio degli anni '60 i Bell Telephone Laboratories, negli Stati Uniti, costruirono un ricevitore molto sensibile per comunicare con i satelliti Echo e Telstar. Quando lo strumento fu disponibile per la ricerca, i radioastronomi Arno Penzias e Robert Wilson lo usarono per studiare la radiazione a microonde.",
+    "Con loro sorpresa misurarono un'intensità relativamente alta. Pensarono prima che venisse dallo strumento o dall'atmosfera, ma con test accuratissimi dimostrarono che arrivava dallo spazio ed era uguale in tutte le direzioni. Per questa scoperta ricevettero il premio Nobel per la fisica nel 1978.",
+    "Secondo l'Agenzia Spaziale Europea, la radiazione cosmica di fondo riempie tutto l'universo ed è ciò che resta del Big Bang. Per circa 380.000 anni l'universo fu opaco, come immerso nella nebbia: la luce non poteva viaggiare lontano. Raffreddandosi con l'espansione si formarono gli atomi di idrogeno e l'universo diventò trasparente.",
+    "Da allora quella luce si è “stirata” con l'espansione dello spazio: oggi ha una temperatura di appena 2,7 kelvin, circa -270 °C. È la luce più antica che possiamo osservare, e porta impressi i semi da cui si sono formate stelle e galassie."
    ],
    "quotes": [
     {
-     "text": "La CMBR fu scoperta nel 1964 dagli astronomi statunitensi Arno Penzias e Robert Woodrow Wilson",
-     "translation": null,
-     "author": null
+     "text": "by painstaking testing, they showed that it came from outer space and that its intensity was the same in all directions",
+     "translation": "con test accuratissimi dimostrarono che veniva dallo spazio e che la sua intensità era la stessa in tutte le direzioni",
+     "author": "Accademia Reale Svedese delle Scienze"
     }
    ],
    "sources": [
     {
-     "name": "Wikipedia",
-     "title": "Radiazione cosmica di fondo",
-     "url": "https://it.wikipedia.org/wiki/Radiazione_cosmica_di_fondo"
+     "name": "Premio Nobel",
+     "title": "Nobel Prize in Physics 1978 – Press release",
+     "url": "https://www.nobelprize.org/prizes/physics/1978/press-release/"
+    },
+    {
+     "name": "ESA",
+     "title": "Planck and the cosmic microwave background",
+     "url": "https://www.esa.int/Science_Exploration/Space_Science/Planck/Planck_and_the_cosmic_microwave_background"
     }
    ],
    "date": "2026-10-21T01:02:09Z",
    "addedAt": "2026-10-21T01:02:09Z",
-   "when": "Scoperta nel 1964",
-   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Baby_Universe.jpg/1280px-Baby_Universe.jpg",
-   "imageCredit": "Wikimedia Commons",
+   "when": "Scoperta negli anni '60",
+   "image": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2007/01/planck_in_space/9880824-3-eng-GB/Planck_in_space_pillars.jpg",
+   "imageCredit": "ESA",
    "solidityNote": null,
-   "url": "https://it.wikipedia.org/wiki/Radiazione_cosmica_di_fondo"
+   "url": "https://nobelprize.org/prizes/physics/1978/press-release"
   },
   {
-   "id": "96e3f3c6ae0d",
+   "id": "5d6c111a433f",
    "section": "sapevi",
    "topic": "Natura",
    "solidity": "consolidato",
-   "title": "Tunguska, 1908: l'esplosione in Siberia che abbatté 60-80 milioni di alberi",
-   "summary": "Un meteoroide o una cometa esplose a 5-10 km di quota sopra la Siberia. È il più importante evento esplosivo naturale della storia recente vicino alla Terra.",
+   "title": "Tunguska, 1908: la roccia spaziale che esplose sopra la Siberia",
+   "summary": "Una roccia di circa 36 metri esplose in cielo con l'energia di circa 185 bombe di Hiroshima e rase al suolo 80 milioni di alberi, senza lasciare un cratere.",
    "body": [
-    "La mattina del 30 giugno 1908, alle 7:14 ora locale, una violentissima esplosione colpì una regione remota della Siberia centrale, vicino al fiume Tunguska Pietrosa. La causa fu un meteoroide o una cometa, che esplose a un'altitudine di 5-10 chilometri.",
-    "L'onda d'urto abbatté tra 60 e 80 milioni di alberi su una superficie di 2.150 chilometri quadrati. Il rumore fu udito a 1.000 chilometri di distanza e il bagliore fu visibile a circa 700 chilometri. A 600 chilometri alcuni treni della ferrovia Transiberiana rischiarono di deragliare.",
-    "Secondo le stime la potenza fu compresa tra 10 e 15 megatoni, circa mille volte la bomba di Hiroshima. Gli effetti si percepirono fino a Londra, dove a mezzanotte il cielo era così chiaro che si poteva leggere il giornale senza luce artificiale.",
-    "È considerato il più importante evento esplosivo naturale registrato nella storia recente in prossimità della Terra. Avvenne in una regione remota: secondo la fonte, un'esplosione di questa portata è in grado di distruggere una grande area metropolitana."
+    "La mattina del 30 giugno 1908, poco dopo le sette, un'enorme esplosione colpì una regione remota della Siberia, vicino al fiume Podkamennaya Tunguska. Un testimone a circa 65 chilometri di distanza fu sbalzato dalla sedia e sentì un calore così intenso da sembrargli che la camicia prendesse fuoco.",
+    "Secondo Don Yeomans, allora responsabile dell'ufficio per gli oggetti vicini alla Terra del Jet Propulsion Laboratory della NASA, la teoria più accettata è che una roccia spaziale di circa 36 metri (120 piedi) sia entrata nell'atmosfera e, a circa 8.500 metri di quota, si sia frantumata in una palla di fuoco, con un'energia pari a circa 185 bombe di Hiroshima.",
+    "La prima spedizione scientifica, guidata da Leonid Kulik, raggiunse la zona solo nel 1927. Trovò circa 2.000 chilometri quadrati di foresta abbattuta: 80 milioni di alberi a terra, disposti a raggiera rispetto all'epicentro. Al centro gli alberi erano ancora in piedi, ma senza rami né corteccia.",
+    "L'onda sismica fu registrata da barometri fino in Inghilterra e per alcune notti i cieli erano così luminosi che in Asia si poteva leggere il giornale all'aperto a mezzanotte. Morirono centinaia di renne, ma non ci sono prove dirette di vittime umane. Secondo Yeomans, in media un asteroide delle dimensioni di quello di Tunguska entra nell'atmosfera terrestre circa una volta ogni 300 anni."
    ],
    "quotes": [
     {
-     "text": "abbattendo 60-80 milioni di alberi su una superficie di 2.150 chilometri quadrati",
-     "translation": null,
-     "author": null
+     "text": "It is the only entry of a large meteoroid we have in the modern era with first-hand accounts.",
+     "translation": "È l'unico ingresso di un grande meteoroide in epoca moderna di cui abbiamo testimonianze dirette.",
+     "author": "Don Yeomans, NASA JPL"
     }
    ],
    "sources": [
     {
-     "name": "Wikipedia",
-     "title": "Evento di Tunguska",
-     "url": "https://it.wikipedia.org/wiki/Evento_di_Tunguska"
+     "name": "NASA (via ScienceDaily)",
+     "title": "What Hit Siberia 100 Years Ago? Tunguska Event Still Puzzles Scientists",
+     "url": "https://www.sciencedaily.com/releases/2008/07/080701105330.htm"
     }
    ],
    "date": "2026-10-21T01:02:09Z",
@@ -975,34 +1006,34 @@
    "when": "30 giugno 1908",
    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Tunguska_Ereignis-1.jpg/1280px-Tunguska_Ereignis-1.jpg",
    "imageCredit": "Wikimedia Commons",
-   "solidityNote": null,
-   "url": "https://it.wikipedia.org/wiki/Evento_di_Tunguska"
+   "solidityNote": "Il fatto è certo; la natura esatta dell'oggetto è ancora discussa, ma la roccia spaziale esplosa in quota è la teoria generalmente accettata.",
+   "url": "https://sciencedaily.com/releases/2008/07/080701105330.htm"
   },
   {
-   "id": "d07f17fd0ddc",
+   "id": "4ab4b90cb670",
    "section": "sapevi",
    "topic": "Scienza",
    "solidity": "consolidato",
-   "title": "Michelson e Morley cercarono il 'vento d'etere'. Non lo trovarono, ed è stato il risultato",
-   "summary": "Nell'Ottocento si pensava che la luce viaggiasse in una sostanza invisibile, l'etere. Un esperimento del 1887 mostrò che la velocità della luce non ne risentiva.",
+   "title": "Michelson e Morley cercarono l'“etere”. Non lo trovarono, ed è stato il risultato",
+   "summary": "Nel 1887, nel seminterrato di un dormitorio universitario di Cleveland, un esperimento di precisione non rilevò il moto della Terra nell'etere. La spiegazione arrivò con Einstein.",
    "body": [
-    "Nell'Ottocento i fisici pensavano che ogni onda avesse bisogno di un mezzo in cui propagarsi, come il suono nell'aria. Per la luce si era quindi ipotizzata una sostanza invisibile che riempiva tutto: l'etere luminifero.",
-    "Se l'etere esisteva, la Terra, muovendosi, avrebbe dovuto sentire una specie di 'vento d'etere'. Misurando la velocità della luce in direzioni diverse, un osservatore avrebbe dovuto trovare valori diversi.",
-    "Per verificarlo Albert Michelson ideò uno strumento, l'interferometro, che divide un fascio di luce in due fasci lungo percorsi perpendicolari e poi li riunisce: anche minime differenze di velocità avrebbero cambiato la figura che i due fasci formano su uno schermo.",
-    "L'esperimento, eseguito nel 1887 con Edward Morley, mostrò che la velocità della luce non dipendeva dall'ipotetico vento d'etere. Fu la prima forte prova contro l'esistenza dell'etere ed è considerato uno degli esperimenti più famosi e importanti della storia della fisica."
+    "Nell'Ottocento i fisici pensavano che la luce, per propagarsi, avesse bisogno di una sostanza invisibile chiamata “etere luminifero”. Se l'etere esisteva, si doveva poter misurare il movimento della Terra attraverso di esso.",
+    "Un primo tentativo di Albert Michelson a Potsdam, nel 1880-81, non aveva rilevato alcun movimento. Insieme a Edward Morley costruì allora un interferometro più grande e sensibile: uno strumento, inventato da Michelson, che sfrutta l'interferenza delle onde luminose per misure di precisione incredibile.",
+    "Per eliminare le vibrazioni, Morley ideò un supporto geniale: l'interferometro poggiava su una grande lastra di arenaria che ruotava galleggiando in una vasca di mercurio. Le osservazioni si svolsero tra aprile e luglio 1887, nel seminterrato di un dormitorio della Western Reserve University, a Cleveland.",
+    "Nonostante tutti i miglioramenti, l'esperimento non rilevò alcun movimento dell'entità prevista. Il risultato rimase un enigma fino al 1905, quando Einstein pubblicò la teoria della relatività: alla sua luce, il risultato nullo era prevedibile e ne costituiva una conferma sperimentale."
    ],
    "quotes": [
     {
-     "text": "costituì la prima forte prova contro la teoria dell'etere luminifero",
-     "translation": null,
+     "text": "the experiment again failed to detect any motion of the expected magnitude",
+     "translation": "l'esperimento ancora una volta non riuscì a rilevare alcun movimento dell'entità prevista",
      "author": null
     }
    ],
    "sources": [
     {
-     "name": "Wikipedia",
-     "title": "Esperimento di Michelson-Morley",
-     "url": "https://it.wikipedia.org/wiki/Esperimento_di_Michelson-Morley"
+     "name": "Case Western Reserve University",
+     "title": "Michelson-Morley Experiment – Encyclopedia of Cleveland History",
+     "url": "https://case.edu/ech/articles/m/michelson-morley-experiment"
     }
    ],
    "date": "2026-10-21T01:02:09Z",
@@ -1011,173 +1042,183 @@
    "image": "https://upload.wikimedia.org/wikipedia/commons/7/79/Michelson_Interferometer_Red_Laser_Interference.jpg",
    "imageCredit": "Wikimedia Commons",
    "solidityNote": null,
-   "url": "https://it.wikipedia.org/wiki/Esperimento_di_Michelson-Morley"
+   "url": "https://case.edu/ech/articles/m/michelson-morley-experiment"
   },
   {
-   "id": "ab29ef62c48c",
+   "id": "8b0824c4bb5b",
    "section": "sapevi",
    "topic": "Scienza",
    "solidity": "consolidato",
-   "title": "La radioattività fu scoperta per caso, con una lastra fotografica rimasta al buio",
-   "summary": "Nel 1896 Henri Becquerel notò che dei sali di uranio avevano impressionato una lastra fotografica senza alcuna luce. Era la radioattività.",
+   "title": "La radioattività fu scoperta per caso, con una lastra fotografica",
+   "summary": "Nel 1896, studiando i sali di uranio, Henri Becquerel scoprì che emettevano da soli una radiazione penetrante. Nel 1903 ricevette il Nobel per la fisica.",
    "body": [
-    "Nel 1896 il fisico francese Henri Becquerel stava studiando la fosforescenza dei sali di uranio, cioè la loro capacità di emettere luce dopo essere stati esposti al Sole. Incoraggiato dall'amico Henri Poincaré, voleva capire se quel fenomeno avesse la stessa natura dei raggi X.",
-    "Mise il materiale a contatto con una lastra fotografica e si accorse che la lastra era stata impressionata anche senza essere stata esposta alla luce del Sole. Ne concluse che l'uranio emetteva da solo una radiazione: aveva scoperto, accidentalmente, la radioattività.",
-    "Poco dopo Marie Curie scelse questa nuova radiazione come argomento della sua tesi. In pochi mesi dimostrò che era una proprietà di diversi elementi chimici e le diede il nome di 'radioattività'.",
-    "Nel 1903 Becquerel condivise il premio Nobel per la fisica con Pierre e Marie Curie. Oggi l'unità di misura della radioattività nel Sistema Internazionale porta il suo nome: il becquerel (Bq)."
+    "Nel 1896 il fisico francese Henri Becquerel stava studiando i raggi X, scoperti da poco, e in particolare come i sali di uranio reagiscono alla luce.",
+    "Per caso scoprì che i sali di uranio emettono spontaneamente una radiazione penetrante, capace di impressionare una lastra fotografica.",
+    "Gli studi successivi chiarirono che non si trattava di raggi X ma di qualcosa di nuovo: Becquerel aveva scoperto un fenomeno sconosciuto, la radioattività.",
+    "Nel 1903 ricevette il premio Nobel per la fisica “in riconoscimento degli straordinari servizi resi con la sua scoperta della radioattività spontanea”."
    ],
    "quotes": [
     {
-     "text": "Nel 1896 Becquerel scoprì accidentalmente la radioattività, mentre investigava la fosforescenza dei sali di uranio.",
-     "translation": null,
+     "text": "By accident, he discovered that uranium salts spontaneously emit a penetrating radiation that can be registered on a photographic plate.",
+     "translation": "Per caso, scoprì che i sali di uranio emettono spontaneamente una radiazione penetrante che può essere registrata su una lastra fotografica.",
      "author": null
     }
    ],
    "sources": [
     {
-     "name": "Wikipedia",
-     "title": "Antoine Henri Becquerel",
-     "url": "https://it.wikipedia.org/wiki/Antoine_Henri_Becquerel"
+     "name": "Premio Nobel",
+     "title": "Henri Becquerel – Facts",
+     "url": "https://www.nobelprize.org/prizes/physics/1903/becquerel/facts/"
     }
    ],
    "date": "2026-10-21T01:02:09Z",
    "addedAt": "2026-10-21T01:02:09Z",
    "when": "1896",
-   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Paul_Nadar_-_Henri_Becquerel.jpg/1280px-Paul_Nadar_-_Henri_Becquerel.jpg",
-   "imageCredit": "Wikimedia Commons",
+   "image": "https://www.nobelprize.org/images/becquerel-12834-landscape-medium.jpg",
+   "imageCredit": "Paul Nadar / Nobel Foundation archive",
    "solidityNote": null,
-   "url": "https://it.wikipedia.org/wiki/Antoine_Henri_Becquerel"
+   "url": "https://nobelprize.org/prizes/physics/1903/becquerel/facts"
   },
   {
-   "id": "1fa0602f9430",
+   "id": "2382cdae3852",
    "section": "sapevi",
    "topic": "Scienza",
    "solidity": "consolidato",
    "title": "Foto 51: l'immagine ai raggi X che rivelò la doppia elica del DNA",
-   "summary": "Scattata da Raymond Gosling sotto la supervisione di Rosalind Franklin, fu una prova fondamentale per capire la struttura del DNA. Franklin non ricevette il Nobel.",
+   "summary": "Scattata da Rosalind Franklin e Raymond Gosling nel maggio 1952, fu decisiva per il modello di Watson e Crick. Il ruolo di Franklin fu riconosciuto solo molto dopo.",
    "body": [
-    "La Foto 51 è un'immagine di diffrazione ai raggi X di fibre di DNA, scattata nel maggio 1952 al King's College di Londra da Raymond Gosling, sotto la supervisione della chimica Rosalind Franklin. Si chiama così perché era la 51ª fotografia di questo tipo scattata da Franklin e Gosling.",
-    "Lo schema di diffrazione permise di determinare la forma a elica del DNA, con due filamenti antiparalleli: all'esterno una 'spina dorsale' di zuccheri e fosfati, all'interno le coppie di basi, il cui ordine contiene le istruzioni per costruire le proteine.",
-    "James Watson ricevette la foto dal collaboratore di Franklin, Maurice Wilkins. I calcoli di Watson e Crick basati sull'immagine fornirono parametri cruciali per il loro modello a doppia elica, pubblicato su Nature nel 1953, nello stesso numero in cui comparve anche il lavoro di Franklin.",
-    "Nel 1962 il Nobel per la medicina andò a Watson, Crick e Wilkins. Franklin era morta quattro anni prima e il comitato in genere non assegnava premi postumi; anche il lavoro di Gosling non fu citato. Il ruolo di questa immagine è ancora oggetto di discussione tra gli storici della scienza."
+    "La “Fotografia 51” è un'immagine di diffrazione ai raggi X del DNA scattata da Rosalind Franklin con il suo dottorando Raymond Gosling al King's College di Londra. La macchina fu preparata venerdì 2 maggio 1952 e la lastra sviluppata martedì 6 maggio: come annotò Franklin nel suo quaderno, il DNA fu esposto ai raggi X per 62 ore in totale.",
+    "L'immagine mostra una caratteristica figura a “croce”, tipica di una struttura a elica vista di lato. Dalla distanza tra le macchie si può anche dedurre che ci sono dieci basi impilate per ogni giro dell'elica.",
+    "Nel gennaio 1953 Maurice Wilkins mostrò la foto a James Watson, senza che Franklin lo sapesse: spinse Watson e Francis Crick a costruire il loro modello. Nello stesso periodo Franklin, tornata sulla Foto 51, scriveva in una bozza che una struttura elicoidale era “altamente probabile”, molto vicina alla risposta.",
+    "La foto fu pubblicata su Nature il 25 aprile 1953, accanto all'articolo di Watson e Crick con il modello della doppia elica. Così sembrò solo confermare il loro modello, mentre in realtà era stata cruciale per costruirlo: il contributo di Franklin fu riconosciuto davvero solo molto più tardi, dopo la sua morte."
    ],
    "quotes": [
     {
-     "text": "È stata una prova fondamentale per identificare la struttura del DNA.",
-     "translation": null,
-     "author": null
+     "text": "her work, and in particular Photograph 51, appeared merely to confirm their model, whereas in fact it had played a crucial role in its construction",
+     "translation": "il suo lavoro, e in particolare la Fotografia 51, sembrò solo confermare il loro modello, mentre in realtà aveva avuto un ruolo cruciale nella sua costruzione",
+     "author": "Brian Sutton, King's College London"
     }
    ],
    "sources": [
     {
-     "name": "Wikipedia",
-     "title": "Foto 51",
-     "url": "https://it.wikipedia.org/wiki/Foto_51"
+     "name": "King's College London",
+     "title": "The story behind Photograph 51",
+     "url": "https://www.kcl.ac.uk/the-story-behind-photograph-51"
     }
    ],
    "date": "2026-10-21T01:02:09Z",
    "addedAt": "2026-10-21T01:02:09Z",
    "when": "Maggio 1952",
-   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Experimental_setup_of_Photo_51.svg/1280px-Experimental_setup_of_Photo_51.svg.png",
-   "imageCredit": "Wikimedia Commons",
+   "image": "https://www.kcl.ac.uk/ImportedImages/spotlight/Featured-image-Photo-51-credit-Kings-College-London-Archives.x1d073c8f.jpg",
+   "imageCredit": "King's College London Archives",
    "solidityNote": null,
-   "url": "https://it.wikipedia.org/wiki/Foto_51"
+   "url": "https://kcl.ac.uk/the-story-behind-photograph-51"
   },
   {
-   "id": "9d498dc1c92f",
+   "id": "124358807cec",
    "section": "sapevi",
    "topic": "Scienza",
    "solidity": "consolidato",
-   "title": "Mendeleev lasciò degli spazi vuoti nella tavola periodica: erano elementi ancora da scoprire",
-   "summary": "Nel 1869 Dmitrij Mendeleev ordinò gli elementi chimici in base alle loro proprietà. La sua tavola, con poche modifiche, è quella che usiamo ancora oggi.",
+   "title": "Mendeleev lasciò dei buchi nella tavola periodica. Uno lo riempirono due scienziati a Palermo",
+   "summary": "Nel 1869 Mendeleev lasciò spazi vuoti per elementi ancora sconosciuti. L'elemento 43, il tecnezio, fu scoperto solo nel 1937 all'Università di Palermo.",
    "body": [
-    "Con la scoperta di sempre più elementi chimici, nell'Ottocento divenne necessario ordinarli secondo un criterio logico. Già nel 1817 Johann Döbereiner aveva raggruppato a tre a tre elementi con caratteristiche simili.",
-    "Nel 1869 il chimico russo Dmitrij Mendeleev, e in modo indipendente il tedesco Julius Lothar Meyer, idearono la tavola periodica: gli elementi erano ordinati per peso atomico e raggruppati in colonne sfruttando la periodicità delle loro proprietà chimiche.",
-    "La tavola conteneva numerosi spazi vuoti per elementi previsti dalla teoria ma non ancora conosciuti. Alcuni sarebbero stati scoperti solo nella seconda metà del Novecento.",
-    "Nel 1913 il fisico Henry Moseley propose di ordinare gli elementi per numero atomico invece che per peso, risolvendo alcune incongruenze. Salvo leggere modifiche, la tavola di Mendeleev è quella che usiamo ancora oggi."
+    "Quando Dmitrij Mendeleev ideò la sua tavola periodica, nel 1869, lasciò degli spazi vuoti dove secondo lui mancavano elementi non ancora scoperti.",
+    "Uno di questi buchi era per l'elemento numero 43. Fu colmato solo nel 1937 da Carlo Perrier ed Emilio Segrè, che lo scoprirono a Palermo: oggi si chiama tecnezio.",
+    "Il materiale arrivò dagli Stati Uniti: nel 1937 l'Università di Palermo ricevette una lamina di molibdeno spedita dall'Università della California a Berkeley, dove era stata parte del ciclotrone di Ernest Lawrence, uno dei primi acceleratori di particelle. Quella lamina conteneva, scrive Nature, il pezzo mancante più importante del mondo chimico.",
+    "Oggi la tavola è completa fino all'elemento 118: nel 2016 l'IUPAC, l'organismo internazionale che ne cura i nomi, ha approvato i nomi degli ultimi quattro elementi, il 113, il 115, il 117 e il 118."
    ],
    "quotes": [
     {
-     "text": "La tavola periodica di Mendeleev, salvo qualche leggera modifica, è la tavola periodica che usiamo ancora oggi.",
-     "translation": null,
+     "text": "When Mendeleev devised his periodic table 150 years ago, he left spaces for elements that he thought were missing.",
+     "translation": "Quando Mendeleev ideò la sua tavola periodica, 150 anni fa, lasciò degli spazi per elementi che secondo lui mancavano.",
+     "author": "Nature"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Nature",
+     "title": "The first synthetic element",
+     "url": "https://www.nature.com/articles/d41586-019-00236-4"
+    },
+    {
+     "name": "IUPAC",
+     "title": "Periodic Table of Elements",
+     "url": "https://iupac.org/what-we-do/periodic-table-of-elements/"
+    }
+   ],
+   "date": "2026-10-21T01:02:09Z",
+   "addedAt": "2026-10-21T01:02:09Z",
+   "when": "1869 · 1937",
+   "image": "https://media.nature.com/lw1200/magazine-assets/d41586-019-00236-4/d41586-019-00236-4_16417034.jpg",
+   "imageCredit": "Science History Institute / Nature",
+   "solidityNote": null,
+   "url": "https://nature.com/articles/d41586-019-00236-4"
+  },
+  {
+   "id": "f1c12841a7d5",
+   "section": "sapevi",
+   "topic": "Scienza",
+   "solidity": "consolidato",
+   "title": "Rutherford e il nucleo: quasi tutta la massa dell'atomo sta in un punto minuscolo",
+   "summary": "Studiando come le particelle alfa vengono deviate, a Manchester Ernest Rutherford arrivò all'idea del nucleo atomico. È considerato il suo contributo più grande alla fisica.",
+   "body": [
+    "Ernest Rutherford studiò per anni la radioattività: già nel 1898 aveva segnalato l'esistenza dei raggi alfa e beta nella radiazione dell'uranio. Nel 1908 ricevette il premio Nobel per la chimica.",
+    "All'Università di Manchester, insieme a Hans Geiger, ideò un metodo per rilevare una singola particella alfa e contare quante ne emette il radio.",
+    "Le sue ricerche sulla dispersione dei raggi alfa, cioè su come vengono deviati attraversando la materia, e sulla struttura interna dell'atomo che la causa, lo portarono a formulare il concetto di “nucleo”, considerato il suo più grande contributo alla fisica.",
+    "Secondo Rutherford praticamente tutta la massa dell'atomo, e tutta la sua carica positiva, è concentrata in uno spazio minuscolo al centro. Nel 1912 Niels Bohr lo raggiunse a Manchester e adattò questa struttura alla teoria quantistica di Planck, creando una teoria dell'atomo che, con i miglioramenti successivi, è ancora valida."
+   ],
+   "quotes": [
+    {
+     "text": "According to him practically the whole mass of the atom and at the same time all positive charge of the atom is concentrated in a minute space at the centre.",
+     "translation": "Secondo lui praticamente tutta la massa dell'atomo e, allo stesso tempo, tutta la sua carica positiva sono concentrate in uno spazio minuscolo al centro.",
      "author": null
     }
    ],
    "sources": [
     {
-     "name": "Wikipedia",
-     "title": "Tavola periodica degli elementi",
-     "url": "https://it.wikipedia.org/wiki/Tavola_periodica_degli_elementi"
+     "name": "Premio Nobel",
+     "title": "Ernest Rutherford – Biographical",
+     "url": "https://www.nobelprize.org/prizes/chemistry/1908/rutherford/biographical/"
     }
    ],
    "date": "2026-10-21T01:02:09Z",
    "addedAt": "2026-10-21T01:02:09Z",
-   "when": "1869",
-   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Periodic_table_large-it.svg/1280px-Periodic_table_large-it.svg.png",
-   "imageCredit": "Wikimedia Commons",
-   "solidityNote": null,
-   "url": "https://it.wikipedia.org/wiki/Tavola_periodica_degli_elementi"
-  },
-  {
-   "id": "5de425b5b826",
-   "section": "sapevi",
-   "topic": "Scienza",
-   "solidity": "consolidato",
-   "title": "Particelle sparate contro una lamina d'oro rivelarono il nucleo dell'atomo",
-   "summary": "Gli esperimenti di Geiger e Marsden, guidati da Rutherford, mostrarono che quasi tutta la massa e la carica positiva dell'atomo sono concentrate in un nucleo.",
-   "body": [
-    "All'inizio del Novecento il modello più noto dell'atomo era quello 'a panettone' di J. J. Thomson: una sfera di carica positiva con gli elettroni sparsi dentro, come l'uvetta nel panettone. Protoni e neutroni non erano ancora stati scoperti.",
-    "Tra il 1908 e il 1913, all'Università di Manchester, Hans Geiger ed Ernest Marsden, sotto la direzione di Ernest Rutherford, colpirono sottili lamine di metallo con fasci di particelle alfa e misurarono come venivano disperse.",
-    "Secondo il modello di Thomson le particelle avrebbero dovuto attraversare gli atomi deviando al massimo di una frazione di grado. I risultati portarono invece a concludere che ogni atomo ha un nucleo in cui sono concentrate tutta la carica positiva e la maggior parte della massa.",
-    "Il modello di Thomson fu accantonato. Il nuovo modello di Rutherford però contrastava con la fisica classica, e aprì la strada al modello di Niels Bohr basato sulla meccanica quantistica."
-   ],
-   "quotes": [
-    {
-     "text": "ogni atomo ha un nucleo dove sono concentrate tutta la sua carica positiva e la maggior parte della sua massa",
-     "translation": null,
-     "author": null
-    }
-   ],
-   "sources": [
-    {
-     "name": "Wikipedia",
-     "title": "Esperimento di Rutherford",
-     "url": "https://it.wikipedia.org/wiki/Esperimento_di_Rutherford"
-    }
-   ],
-   "date": "2026-10-21T01:02:09Z",
-   "addedAt": "2026-10-21T01:02:09Z",
-   "when": "1908-1913",
+   "when": "Inizio Novecento",
    "image": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Scatteringrutherford.jpg",
    "imageCredit": "Wikimedia Commons",
    "solidityNote": null,
-   "url": "https://it.wikipedia.org/wiki/Esperimento_di_Rutherford"
+   "url": "https://nobelprize.org/prizes/chemistry/1908/rutherford/biographical"
   },
   {
-   "id": "e5c1567864ed",
+   "id": "1a8b697eae4c",
    "section": "sapevi",
    "topic": "Tecnologia",
    "solidity": "consolidato",
    "title": "La prima batteria della storia è italiana: la pila di Alessandro Volta",
-   "summary": "Nel 1799 Volta costruì il primo generatore statico di elettricità. È il prototipo di tutte le batterie moderne, e per questo in italiano le chiamiamo 'pile'.",
+   "summary": "Alla fine del 1799 Volta inventò la “pila”, la prima batteria. Per la prima volta la scienza ebbe una fonte di corrente elettrica affidabile e facile da ottenere.",
    "body": [
-    "La pila di Alessandro Volta fu il primo generatore statico di energia elettrica mai realizzato. Volta la inventò nel 1799, nella sua residenza di Lazzate, riprendendo gli studi di Luigi Galvani sull'elettricità.",
-    "Annunciò l'invenzione in una lettera del 20 marzo 1800 a Joseph Banks, presidente della Royal Society di Londra. All'inizio la chiamò 'organo elettrico artificiale' o 'apparato elettromotore'; il nome 'pila' arrivò dopo, per la sua caratteristica struttura impilata.",
-    "In italiano quel nome è rimasto per indicare tutte le batterie, qualunque forma abbiano. Il 7 novembre 1801 Volta ne mostrò il funzionamento a Parigi davanti a Napoleone Bonaparte, che gli conferì una medaglia d'oro.",
-    "L'originale andò perduto in un incendio durante l'Esposizione Voltiana di Como del 1899, organizzata per il centenario dell'invenzione. Una copia è conservata al Museo per la Storia dell'Università di Pavia, dove Volta insegnò per tutta la carriera."
+    "Alessandro Volta (1745-1827) inventò alla fine del 1799 la “pila”, la prima batteria della storia. All'inizio la chiamò “organo elettrico artificiale”, perché cercava di riprodurre il comportamento della torpedine, un pesce noto fin dall'antichità per le sue forti scosse elettriche.",
+    "Il principio era semplice: Volta alternava dischi di argento e di zinco, sempre nello stesso ordine, separando ogni coppia con un disco inumidito, e li impilava in una colonna il più alta possibile. Da questa struttura “a pila” viene il nome.",
+    "Descrisse l'invenzione in una lettera a Sir Joseph Banks, presidente della Royal Society di Londra, pubblicata nel 1800 sulla rivista Philosophical Transactions. Volta era allora professore di filosofia naturale all'Università di Pavia.",
+    "L'invenzione ebbe un impatto enorme: per la prima volta c'era una fonte di corrente elettrica affidabile e facilmente disponibile. Secondo la biblioteca della Lehigh University, fu proprio la pila a rendere possibile il lavoro di Faraday sull'induzione elettromagnetica."
    ],
    "quotes": [
     {
-     "text": "La pila di Alessandro Volta fu il primo generatore statico di energia elettrica mai realizzato.",
-     "translation": null,
-     "author": null
+     "text": "I continue coupling a plate of silver with one of zinc, and always in the same order",
+     "translation": "Continuo ad accoppiare una lamina d'argento con una di zinco, e sempre nello stesso ordine",
+     "author": "Alessandro Volta"
     }
    ],
    "sources": [
     {
-     "name": "Wikipedia",
-     "title": "Pila di Volta",
-     "url": "https://it.wikipedia.org/wiki/Pila_di_Volta"
+     "name": "The Electrochemical Society",
+     "title": "Volta and the “Pile” – Franco Decker, Università La Sapienza",
+     "url": "https://knowledge.electrochem.org/encycl/art-v01-volta.htm"
+    },
+    {
+     "name": "Lehigh University Libraries",
+     "title": "Volta, Philosophical Transactions of the Royal Society (1800)",
+     "url": "https://exhibits.lib.lehigh.edu/exhibits/show/royalsociety/rd/volta"
     }
    ],
    "date": "2026-10-21T01:02:09Z",
@@ -1186,33 +1227,33 @@
    "image": "https://upload.wikimedia.org/wikipedia/commons/3/30/Pila_di_volta.jpg",
    "imageCredit": "Wikimedia Commons",
    "solidityNote": null,
-   "url": "https://it.wikipedia.org/wiki/Pila_di_Volta"
+   "url": "https://knowledge.electrochem.org/encycl/art-v01-volta.htm"
   },
   {
-   "id": "8b53f58d14ce",
+   "id": "7177e996fcf7",
    "section": "sapevi",
    "topic": "Scienza",
    "solidity": "consolidato",
-   "title": "Perché la pressione si misura in 'millimetri di mercurio'? Colpa di Torricelli",
-   "summary": "Prima della fine del 1644 Evangelista Torricelli inventò il barometro a mercurio. Al livello del mare, la pressione dell'aria spinge il mercurio fino a 760 mm.",
+   "title": "Torricelli, il tubo di mercurio e la scoperta che l'aria ha un peso",
+   "summary": "Nella primavera del 1644, a Firenze, Evangelista Torricelli capovolse un tubo pieno di mercurio: la colonna si fermò a circa 76 cm. Era nato il barometro.",
    "body": [
-    "Evangelista Torricelli (Roma, 1608 – Firenze, 1647) fu un matematico e fisico italiano. Nel 1641 divenne assistente di Galileo Galilei nel suo ritiro di Arcetri.",
-    "Studiando i fluidi, prima della fine del 1644 inventò il barometro a mercurio, noto come 'tubo di Torricelli'. Lo strumento misura la pressione atmosferica: la spinta dell'aria fa salire il mercurio dentro un tubo.",
-    "Al livello del mare il mercurio arriva a un'altezza di 760 millimetri. Da qui nasce l'unità di misura della pressione 'millimetri di mercurio' (mmHg) e l'uguaglianza 1 atmosfera = 760 mmHg.",
-    "Fino al 1987 si è creduto che fosse nato a Faenza, dove trascorse l'infanzia; in realtà era nato a Roma."
+    "Nella primavera del 1644, a Firenze, Evangelista Torricelli eseguì il suo celebre esperimento con l'“argento vivo”, cioè il mercurio.",
+    "Riempì di mercurio un tubo di vetro aperto da un lato, lo chiuse con un dito, lo capovolse e lo immerse in una bacinella piena di mercurio. La colonna scese solo in parte e si fermò a un'altezza di circa 76 centimetri.",
+    "Torricelli si convinse che lo spazio rimasto in cima al tubo fosse vuoto e che a sostenere la colonna fosse la pressione dell'aria sul mercurio della bacinella.",
+    "In una lettera a Michelangelo Ricci dell'11 giugno 1644 scrisse che l'esperimento dimostrava due concetti fondamentali: che la natura non ha orrore del vuoto e che l'aria ha un peso. Secondo il Museo Galileo, quei risultati aprirono un periodo di cambiamenti rivoluzionari, costringendo a riesaminare dottrine accettate da secoli."
    ],
    "quotes": [
     {
-     "text": "1 atm = 760 mmHg",
-     "translation": null,
-     "author": null
+     "text": "first, that Nature did not abhor the void; second, that the air had weight",
+     "translation": "primo, che la Natura non aveva orrore del vuoto; secondo, che l'aria aveva un peso",
+     "author": "Torricelli, lettera a M. Ricci, 1644 (Museo Galileo)"
     }
    ],
    "sources": [
     {
-     "name": "Wikipedia",
-     "title": "Evangelista Torricelli",
-     "url": "https://it.wikipedia.org/wiki/Evangelista_Torricelli"
+     "name": "Museo Galileo",
+     "title": "Torricelli's barometric experiment",
+     "url": "https://catalogue.museogalileo.it/multimedia/TorricellisBarometricExperimentBis.html"
     }
    ],
    "date": "2026-10-21T01:02:09Z",
@@ -1221,68 +1262,68 @@
    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Evangelista_Torricelli_by_Lorenzo_Lippi_%28circa_1647%2C_Galleria_Silvano_Lodi_%26_Due%29.jpg/1280px-Evangelista_Torricelli_by_Lorenzo_Lippi_%28circa_1647%2C_Galleria_Silvano_Lodi_%26_Due%29.jpg",
    "imageCredit": "Wikimedia Commons",
    "solidityNote": null,
-   "url": "https://it.wikipedia.org/wiki/Evangelista_Torricelli"
+   "url": "https://catalogue.museogalileo.it/multimedia/TorricellisBarometricExperimentBis.html"
   },
   {
-   "id": "546c1583c79b",
+   "id": "0c2d27493742",
    "section": "sapevi",
    "topic": "Salute",
    "solidity": "consolidato",
-   "title": "Il vaiolo è la prima malattia umana mai eradicata dalla Terra",
-   "summary": "Nel XX secolo ha causato centinaia di milioni di morti. Dopo una grande campagna di vaccinazione, nel 1979 l'OMS lo ha dichiarato eradicato.",
+   "title": "Il vaiolo è l'unica malattia infettiva umana eradicata dalla Terra",
+   "summary": "Ha causato milioni di morti per almeno 3.000 anni. Dopo una campagna mondiale di vaccinazione, nel 1980 l'OMS lo ha dichiarato eradicato.",
    "body": [
-    "Il vaiolo era una malattia infettiva causata dal virus Variola. La forma più grave, Variola maior, aveva una letalità del 30-35% e lasciava spesso cicatrici caratteristiche, soprattutto sul volto, nel 65-85% dei sopravvissuti.",
-    "Si ritiene che sia comparso nella popolazione umana intorno al II millennio a.C.: la prima prova fisica è l'eruzione cutanea rilevata sulla mummia del faraone Ramses V. Nel Settecento uccideva circa 400.000 europei ogni anno e nel solo XX secolo ha causato circa 300-500 milioni di morti nel mondo.",
-    "Una massiccia campagna di vaccinazione, iniziata nell'Ottocento e diventata un imponente sforzo congiunto tra il 1958 e il 1977, ha cambiato la storia. L'ultimo caso contratto in natura fu diagnosticato in Somalia il 26 ottobre 1977.",
-    "Nel 1979 l'Organizzazione mondiale della sanità ha dichiarato il vaiolo eradicato. Per decenni è stata l'unica malattia eradicata, fino al 2011, quando lo stesso è accaduto alla peste bovina, una malattia del bestiame."
+    "Il vaiolo era una malattia acuta e contagiosa causata dal virus variola. Secondo l'Organizzazione mondiale della sanità è stata una delle malattie più devastanti conosciute dall'umanità: esisteva da almeno 3.000 anni, ha causato milioni di morti ed era mortale fino al 30% dei casi.",
+    "Il vaccino contro il vaiolo, creato da Edward Jenner nel 1796, fu il primo vaccino efficace della storia. Jenner aveva osservato che le mungitrici che avevano già contratto il vaiolo bovino non si ammalavano di vaiolo, e dimostrò che un'inoculazione simile poteva proteggere anche altre persone.",
+    "Nel 1967 l'OMS lanciò un piano intensificato per eradicare la malattia, con vaccinazioni e sorveglianza in tutto il mondo per diversi anni. L'ultimo caso naturale noto si verificò in Somalia nel 1977.",
+    "Nel 1980 l'OMS ha dichiarato il vaiolo eradicato: è l'unica malattia infettiva umana ad aver raggiunto questo traguardo, uno dei successi di sanità pubblica più importanti della storia. Oggi piccoli campioni del virus sono conservati solo per la ricerca in due laboratori di massima sicurezza, uno negli Stati Uniti e uno in Russia."
    ],
    "quotes": [
     {
-     "text": "l'eradicazione del vaiolo ha rappresentato uno dei massimi successi nella storia della medicina e un precedente inedito nella storia dell'umanità",
-     "translation": null,
-     "author": null
+     "text": "In 1980 WHO declared smallpox eradicated – the only infectious disease to achieve this distinction.",
+     "translation": "Nel 1980 l'OMS ha dichiarato il vaiolo eradicato: l'unica malattia infettiva ad aver raggiunto questo traguardo.",
+     "author": "Organizzazione mondiale della sanità"
     }
    ],
    "sources": [
     {
-     "name": "Wikipedia",
-     "title": "Vaiolo",
-     "url": "https://it.wikipedia.org/wiki/Vaiolo"
+     "name": "OMS (WHO)",
+     "title": "Smallpox",
+     "url": "https://www.who.int/health-topics/smallpox"
     }
    ],
    "date": "2026-10-21T01:02:09Z",
    "addedAt": "2026-10-21T01:02:09Z",
-   "when": "Eradicato nel 1979",
-   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Smallpox_child.jpg/1280px-Smallpox_child.jpg",
-   "imageCredit": "Wikimedia Commons",
+   "when": "Eradicato nel 1980",
+   "image": "https://cdn.who.int/media/images/default-source/health-topics/smallpox/who-a-000731-orig.tmb-1200v.jpg?sfvrsn=a761f1a2_9",
+   "imageCredit": "OMS",
    "solidityNote": null,
-   "url": "https://it.wikipedia.org/wiki/Vaiolo"
+   "url": "https://who.int/health-topics/smallpox"
   },
   {
-   "id": "00092bafad77",
+   "id": "ab589c44e8f6",
    "section": "sapevi",
    "topic": "Salute",
    "solidity": "consolidato",
-   "title": "John Snow e la pompa di Broad Street: come una mappa fermò il colera",
-   "summary": "Durante l'epidemia di colera del 1854 a Londra, il medico John Snow ricondusse i casi a una pompa d'acqua pubblica. Nasceva l'epidemiologia.",
+   "title": "John Snow e la pompa di Broad Street: la mappa che collegò il colera all'acqua",
+   "summary": "Nel 1854, durante un'epidemia di colera a Londra, il medico John Snow mappò i morti e ricondusse il contagio a una pompa d'acqua pubblica.",
    "body": [
-    "Il 31 agosto 1854 una gravissima epidemia di colera colpì il quartiere di Soho, a Londra. In tre giorni morirono 127 persone a Broad Street e dintorni; alla fine i morti furono 616.",
-    "All'epoca dominava la teoria dei 'miasmi', secondo cui malattie come il colera erano causate da 'aria cattiva'. Il medico John Snow ne dubitava: non conosceva ancora il meccanismo, ma le prove gli dicevano che la malattia non dipendeva dall'aria respirata.",
-    "Parlando con gli abitanti, Snow individuò la fonte nella pompa pubblica dell'acqua di Broad Street. Disegnò una mappa che mostrava come i casi fossero concentrati intorno alla pompa e usò la statistica per collegare la qualità dell'acqua ai contagi. Convinse così il consiglio comunale a disattivare la pompa togliendone la maniglia.",
-    "Spesso si racconta che fu quel gesto a fermare l'epidemia, ma secondo lo stesso Snow probabilmente era già in rapida diminuzione. Resta il fatto che il suo studio dimostrò che il colera si diffonde con l'acqua contaminata ed è considerato l'evento fondante dell'epidemiologia."
+    "Nell'Ottocento il colera era una delle malattie più mortali in Gran Bretagna. Si pensava che si diffondesse attraverso l'“aria cattiva”, cioè i cattivi odori della materia in decomposizione: era la posizione anche delle autorità sanitarie ufficiali.",
+    "Nell'agosto 1854 una grave epidemia colpì il quartiere di Soho, a Londra. La zona aveva seri problemi di sporcizia: le fogne non vi erano ancora arrivate e sotto molte case c'erano pozzi neri.",
+    "Il medico John Snow, parlando con gli abitanti con l'aiuto del reverendo Henry Whitehead, mappò i morti e notò che erano soprattutto persone la cui fonte d'acqua più vicina era la pompa pubblica di Broad Street. I suoi studi convinsero il consiglio locale a disattivarla togliendone la maniglia, un'azione considerata un contributo importante al contenimento del contagio nella zona.",
+    "In seguito si scoprì che l'acqua della pompa era inquinata da liquami provenienti da un pozzo nero vicino. Snow non conosceva ancora i germi, ma le prove lo portarono a concludere che il colera non si prendeva respirando aria malsana, bensì attraverso l'acqua contaminata."
    ],
    "quotes": [
     {
-     "text": "Snow identificò la fonte dell'epidemia nella pompa pubblica di distribuzione dell'acqua su Broad Street",
-     "translation": null,
-     "author": null
+     "text": "By talking to local residents (with the help of the Reverend Henry Whitehead), Snow identified the source of the outbreak as the contaminated public water pump on Broad Street",
+     "translation": "Parlando con gli abitanti (con l'aiuto del reverendo Henry Whitehead), Snow individuò la fonte dell'epidemia nella pompa pubblica contaminata di Broad Street",
+     "author": "Royal College of Surgeons of England"
     }
    ],
    "sources": [
     {
-     "name": "Wikipedia",
-     "title": "Epidemia di colera a Broad Street del 1854",
-     "url": "https://it.wikipedia.org/wiki/Epidemia_di_colera_a_Broad_Street_del_1854"
+     "name": "Royal College of Surgeons of England",
+     "title": "Mapping disease: John Snow and cholera",
+     "url": "https://rcseng.ac.uk/library-and-publications/library/blog/mapping-disease-john-snow-and-cholera/"
     }
    ],
    "date": "2026-10-21T01:02:09Z",
@@ -1291,68 +1332,68 @@
    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/John_Snow_memorial_and_pub.jpg/1280px-John_Snow_memorial_and_pub.jpg",
    "imageCredit": "Wikimedia Commons",
    "solidityNote": null,
-   "url": "https://it.wikipedia.org/wiki/Epidemia_di_colera_a_Broad_Street_del_1854"
+   "url": "https://rcseng.ac.uk/library-and-publications/library/blog/mapping-disease-john-snow-and-cholera"
   },
   {
-   "id": "9fa2d94e5808",
+   "id": "1d926e7b86a6",
    "section": "sapevi",
    "topic": "Salute",
    "solidity": "consolidato",
    "title": "Il medico che nel 1847 capì che lavarsi le mani salvava le madri",
-   "summary": "Ignác Semmelweis scoprì che la febbre puerperale nelle cliniche ostetriche poteva essere drasticamente ridotta disinfettando le mani. Lo chiamano 'il salvatore delle madri'.",
+   "summary": "Ignaz Semmelweis impose ai medici di disinfettarsi le mani con cloruro di calce: nel suo reparto la mortalità crollò dal 18,27% all'1,27%. Ma fu ignorato.",
    "body": [
-    "Ignác Semmelweis (1818-1865) era un medico ungherese. Dal 1846 lavorò come assistente nella prima divisione della clinica ostetrica dell'Ospedale generale di Vienna, allora considerato il più moderno ospedale d'Europa.",
-    "Nelle cliniche ostetriche dell'epoca molte donne morivano dopo il parto per la febbre puerperale, un'infezione. Nel 1847 Semmelweis scoprì che la sua incidenza poteva essere ridotta drasticamente con la disinfezione delle mani.",
-    "Per i suoi contributi allo studio della trasmissione dei batteri per contatto e alla prevenzione della febbre puerperale è ricordato come 'il salvatore delle madri'.",
-    "Nel 2013 l'UNESCO ha inserito alcuni documenti sulla sua scoperta nel registro della Memoria del mondo, e dal 1969 l'università di medicina di Budapest porta il suo nome."
+    "Nell'Ottocento partorire era pericoloso: molte donne morivano di febbre puerperale, un'infezione la cui causa era sconosciuta. La teoria più accettata la attribuiva ai “miasmi”, l'aria cattiva.",
+    "All'Ospedale generale di Vienna il medico ungherese Ignaz Semmelweis notò che il reparto gestito dai medici aveva una mortalità tre volte più alta di quello delle ostetriche. Nel 1847 un collega, Jakob Kolletschka, morì dopo essersi ferito con un bisturi durante un'autopsia, con sintomi identici a quelli della febbre puerperale. Semmelweis concluse che la causa era la contaminazione da cadaveri, trasportata dai medici.",
+    "Introdusse allora una nuova regola: tutti i medici e gli studenti dovevano disinfettarsi le mani con cloruro di calce prima di visitare le donne incinte. Nel 1848 la mortalità nel suo reparto scese dal 18,27% all'1,27%.",
+    "La sua scoperta non fu riconosciuta mentre era in vita: molti colleghi rifiutavano di credere di essere loro a causare la morte delle pazienti. Oggi lavarsi le mani è considerata igiene di base, e Semmelweis un pioniere della medicina antisettica."
    ],
    "quotes": [
     {
-     "text": "l'alta incidenza di febbre puerperale poteva essere drasticamente ridotta mediante la disinfezione delle mani",
-     "translation": null,
-     "author": null
+     "text": "the mortality rate in Semmelweis’ ward decreased dramatically—from 18.27% to 1.27%—in 1848",
+     "translation": "nel 1848 la mortalità nel reparto di Semmelweis diminuì drasticamente, dal 18,27% all'1,27%",
+     "author": "Science History Institute"
     }
    ],
    "sources": [
     {
-     "name": "Wikipedia",
-     "title": "Ignác Semmelweis",
-     "url": "https://it.wikipedia.org/wiki/Ign%C3%A1c_Semmelweis"
+     "name": "Science History Institute",
+     "title": "Ignaz Semmelweis",
+     "url": "https://www.sciencehistory.org/education/scientific-biographies/ignaz-semmelweis/"
     }
    ],
    "date": "2026-10-21T01:02:09Z",
    "addedAt": "2026-10-21T01:02:09Z",
    "when": "1847",
-   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Borsos_%26_Doctor_Semmelweis_Ign%C3%A1c_cropped.jpg/1280px-Borsos_%26_Doctor_Semmelweis_Ign%C3%A1c_cropped.jpg",
-   "imageCredit": "Wikimedia Commons",
+   "image": "https://www.sciencehistory.org/wp-content/uploads/2025/09/ignaz_semmelweis_1864.jpg",
+   "imageCredit": "Science History Institute",
    "solidityNote": null,
-   "url": "https://it.wikipedia.org/wiki/Ign%C3%A1c_Semmelweis"
+   "url": "https://sciencehistory.org/education/scientific-biographies/ignaz-semmelweis"
   },
   {
-   "id": "4ebb0e3231fb",
+   "id": "97256ec40f05",
    "section": "sapevi",
    "topic": "Salute",
    "solidity": "consolidato",
-   "title": "Placebo vuol dire 'piacerò': perché una pillola senza principi attivi può far stare meglio",
-   "summary": "L'effetto placebo è un miglioramento dovuto alle aspettative del paziente. Per questo un nuovo farmaco è considerato efficace solo se fa meglio di un placebo.",
+   "title": "L'effetto placebo esiste, ma non fa miracoli: ecco cosa può fare",
+   "summary": "Secondo la Harvard Medical School il placebo agisce su sintomi regolati dal cervello, come il dolore. Può far stare meglio, ma non cura le malattie.",
    "body": [
-    "Il placebo è una sostanza senza principi attivi specifici, data come se avesse proprietà curative. Lo stato di salute di chi la riceve può migliorare se ha fiducia nel trattamento: questo miglioramento dovuto alle aspettative positive si chiama effetto placebo.",
-    "Il nome viene dal latino: placebo è il futuro del verbo placeo e significa letteralmente 'io piacerò'.",
-    "Il meccanismo è considerato psicosomatico: in risposta alle attese, il sistema nervoso produce endorfine, ormoni e altre sostanze che possono modificare la percezione del dolore, gli equilibri ormonali e altre risposte del corpo. Con l'effetto placebo si possono però confondere anche la guarigione spontanea e la 'regressione verso la media'.",
-    "Per questo, negli studi clinici, un nuovo farmaco è giudicato efficace solo se dà risultati significativamente diversi da un placebo. I test si fanno 'in doppio cieco': né il medico né il paziente sanno chi riceve il farmaco e chi il placebo."
+    "L'effetto placebo è l'idea che il cervello possa convincere il corpo che un trattamento finto sia vero, stimolando un miglioramento. È conosciuto da millenni e, secondo Harvard Health Publishing della Harvard Medical School, in certe condizioni un placebo può essere efficace quanto i trattamenti tradizionali.",
+    "Ha però limiti precisi: i placebo non abbassano il colesterolo né riducono un tumore. Agiscono sui sintomi regolati dal cervello, come la percezione del dolore. Si sono dimostrati più efficaci per la gestione del dolore, l'insonnia legata allo stress e alcuni effetti collaterali delle cure contro il cancro, come stanchezza e nausea.",
+    "Nella sperimentazione dei farmaci il placebo è fondamentale: un gruppo riceve il farmaco vero, l'altro una sostanza inattiva, e nessuno sa a quale gruppo appartiene. Se i due gruppi reagiscono allo stesso modo, il farmaco è considerato inefficace.",
+    "Come funzioni il placebo non è ancora del tutto chiaro: coinvolge una complessa reazione neurobiologica, con un aumento di sostanze come endorfine e dopamina e una maggiore attività in alcune aree del cervello."
    ],
    "quotes": [
     {
-     "text": "un nuovo farmaco si giudica efficace solo se dà risultati significativamente diversi da un placebo",
-     "translation": null,
-     "author": null
+     "text": "Placebos may make you feel better, but they will not cure you.",
+     "translation": "I placebo possono farti sentire meglio, ma non ti curano.",
+     "author": "Harvard Health Publishing"
     }
    ],
    "sources": [
     {
-     "name": "Wikipedia",
-     "title": "Placebo",
-     "url": "https://it.wikipedia.org/wiki/Placebo"
+     "name": "Harvard Health Publishing (Harvard Medical School)",
+     "title": "The power of the placebo effect",
+     "url": "https://www.health.harvard.edu/mental-health/the-power-of-the-placebo-effect"
     }
    ],
    "date": "2026-10-21T01:02:09Z",
@@ -1361,33 +1402,33 @@
    "image": null,
    "imageCredit": null,
    "solidityNote": null,
-   "url": "https://it.wikipedia.org/wiki/Placebo"
+   "url": "https://health.harvard.edu/mental-health/the-power-of-the-placebo-effect"
   },
   {
-   "id": "fb64d80d6071",
+   "id": "0f24dfeb809a",
    "section": "sapevi",
    "topic": "Storia",
    "solidity": "consolidato",
    "title": "La pietra che ci ha insegnato a leggere i geroglifici",
    "summary": "La stele di Rosetta riporta lo stesso decreto in geroglifici, demotico e greco antico. Grazie al greco, Champollion riuscì a decifrare la scrittura egizia.",
    "body": [
-    "La stele di Rosetta è una lastra di granodiorite con un'iscrizione in tre registri e tre grafie diverse: geroglifici, demotico e greco antico. Il testo è un decreto del 196 a.C. in onore del faraone Tolomeo V, allora tredicenne, per il primo anniversario della sua incoronazione.",
-    "Fu scoperta nel 1799 vicino a Rosetta (Rashid), sul delta del Nilo, da Pierre-François Bouchard, capitano della campagna d'Egitto di Napoleone. Dal 1802 è conservata al British Museum di Londra, di cui è uno dei reperti più popolari.",
-    "Geroglifici e demotico non sono due lingue, ma due modi di scrivere l'egizio: i geroglifici per le iscrizioni monumentali, il demotico per i documenti ordinari. Poiché le tre versioni riportano lo stesso testo, la parte in greco ha offerto una chiave decisiva per capire la lingua egizia.",
-    "Il medico inglese Thomas Young intuì che i cartigli contenevano il nome di un sovrano. Ma il contributo più importante fu del francese Jean-François Champollion, grazie alla sua conoscenza del copto, una forma tarda dell'egizio scritta con l'alfabeto greco."
+    "La stele di Rosetta è un frammento di una lastra di pietra più grande. Vi è inciso un decreto ufficiale del 196 a.C., per il primo anniversario dell'incoronazione del giovane re Tolomeo V, allora tredicenne. Ha quindi più di 2.200 anni ed è uno degli oggetti più famosi del British Museum.",
+    "La sua importanza sta nel fatto che lo stesso decreto è scritto tre volte, in tre scritture diverse: i geroglifici, usati per i testi sacri; il demotico, la scrittura corsiva egizia di tutti i giorni; e il greco antico, la lingua dei sovrani greco-macedoni d'Egitto.",
+    "Secondo il racconto più accettato, fu trovata per caso il 15 luglio 1799 da soldati dell'esercito di Napoleone che scavavano le fondamenta di un forte vicino a Rashid, che i francesi chiamavano Rosetta. L'ufficiale Pierre-François Bouchard ne capì l'importanza.",
+    "Poiché gli studiosi sapevano ancora leggere il greco, la stele divenne la chiave per decifrare i geroglifici. L'inglese Thomas Young mostrò che alcuni segni scrivevano il nome di Tolomeo; il francese Jean-François Champollion capì che i geroglifici registravano i suoni della lingua egizia e annunciò la scoperta a Parigi il 27 settembre 1822."
    ],
    "quotes": [
     {
-     "text": "la stele ha offerto, grazie alla parte in greco, una chiave decisiva per la comprensione della lingua egizia",
-     "translation": null,
-     "author": null
+     "text": "Because the inscriptions say the same thing in three different scripts, and scholars could still read Ancient Greek, the Rosetta Stone became a valuable key to deciphering the hieroglyphs.",
+     "translation": "Poiché le iscrizioni dicono la stessa cosa in tre scritture diverse, e gli studiosi sapevano ancora leggere il greco antico, la stele di Rosetta divenne una chiave preziosa per decifrare i geroglifici.",
+     "author": "British Museum"
     }
    ],
    "sources": [
     {
-     "name": "Wikipedia",
-     "title": "Stele di Rosetta",
-     "url": "https://it.wikipedia.org/wiki/Stele_di_Rosetta"
+     "name": "British Museum",
+     "title": "Everything you ever wanted to know about the Rosetta Stone",
+     "url": "https://www.britishmuseum.org/blog/everything-you-ever-wanted-know-about-rosetta-stone"
     }
    ],
    "date": "2026-10-21T01:02:09Z",
@@ -1396,68 +1437,78 @@
    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Rosetta_Stone_BW.jpeg/1280px-Rosetta_Stone_BW.jpeg",
    "imageCredit": "Wikimedia Commons",
    "solidityNote": null,
-   "url": "https://it.wikipedia.org/wiki/Stele_di_Rosetta"
+   "url": "https://britishmuseum.org/blog/everything-you-ever-wanted-know-about-rosetta-stone"
   },
   {
-   "id": "6007342576c9",
+   "id": "1b3810090878",
    "section": "sapevi",
    "topic": "Tecnologia",
    "solidity": "consolidato",
-   "title": "Un computer di 2.000 anni fa trovato in fondo al mare",
-   "summary": "La macchina di Anticitera, recuperata da un relitto greco, è ritenuta il più antico calcolatore meccanico conosciuto: con ruote dentate prevedeva fasi lunari e moti dei pianeti.",
+   "title": "Un “computer” di oltre 2.000 anni fa trovato in fondo al mare",
+   "summary": "Il meccanismo di Anticitera, recuperato da un naufragio greco, aveva almeno 30 ruote dentate e serviva a prevedere eclissi, calendario e date dei giochi.",
    "body": [
-    "Nel 1900 alcuni pescatori di spugne, spinti da una tempesta verso l'isoletta greca di Anticitera, scoprirono a circa 43 metri di profondità il relitto di una nave mercantile romana naufragata nel I secolo a.C., carica di statue e oggetti di prestigio.",
-    "Il 17 maggio 1902, esaminando i reperti, si notò che un blocco che sembrava una pietra conteneva un ingranaggio. Era in realtà un meccanismo molto incrostato e corroso: ne sono sopravvissute tre parti principali e decine di frammenti, con ruote dentate coperte di iscrizioni.",
-    "Si trattava di un sofisticato planetario mosso da ingranaggi. Serviva a calcolare il sorgere del Sole, le fasi lunari, i movimenti dei cinque pianeti allora conosciuti, gli equinozi, i mesi e i giorni della settimana; secondo uno studio pubblicato su Nature, anche le date dei giochi olimpici.",
-    "È datato tra il 150 e il 100 a.C. ed è ritenuto il più antico calcolatore meccanico conosciuto. Oggi è conservato al Museo archeologico nazionale di Atene."
+    "Il meccanismo di Anticitera è il più antico dispositivo a ingranaggi complesso giunto fino a noi. Fu recuperato più di un secolo fa dal relitto di una nave greco-romana affondata, probabilmente poco dopo il 70 a.C., al largo di Anticitera, una piccola isola tra Creta e il Peloponneso.",
+    "All'inizio fu scambiato per un oggetto moderno, ma gli scienziati lo hanno poi riconosciuto come il primo “computer” del mondo: un dispositivo analogico astronomico e calendariale, costruito nel mondo ellenistico nel II o all'inizio del I secolo a.C.",
+    "Aveva almeno 30 ruote dentate, quadranti, assi e lancette. Secondo gli studi serviva a prevedere le eclissi di Sole e di Luna, a mantenere preciso il calendario e a calcolare le date dei giochi panellenici. Le sue piccole dimensioni mostrano che i meccanici greci erano più abili nel progettare ingranaggi di quanto si pensasse.",
+    "I frammenti sono conservati al Museo archeologico nazionale di Atene. La ricerca continua su diversi aspetti ancora aperti: le iscrizioni incise all'esterno, la data e il luogo di costruzione, e i possibili ingranaggi perduti che simulavano il moto dei pianeti."
    ],
    "quotes": [
     {
-     "text": "È ritenuto il più antico calcolatore meccanico conosciuto.",
-     "translation": null,
-     "author": null
+     "text": "the Antikythera Mechanism would eventually be identified by scientists as the world’s first computer",
+     "translation": "il meccanismo di Anticitera sarebbe stato infine riconosciuto dagli scienziati come il primo computer del mondo",
+     "author": "ASME (American Society of Mechanical Engineers)"
     }
    ],
    "sources": [
     {
-     "name": "Wikipedia",
-     "title": "Macchina di Anticitera",
-     "url": "https://it.wikipedia.org/wiki/Macchina_di_Anticitera"
+     "name": "ASME",
+     "title": "#271 The Antikythera Mechanism – Engineering landmark",
+     "url": "https://www.asme.org/about-asme/engineering-history/landmarks/271-the-antikythera-mechanism"
+    },
+    {
+     "name": "New York University – ISAW",
+     "title": "The Antikythera Mechanism",
+     "url": "https://isaw.nyu.edu/people/research/antikythera-mechanism"
     }
    ],
    "date": "2026-10-21T01:02:09Z",
    "addedAt": "2026-10-21T01:02:09Z",
-   "when": "II secolo a.C.",
+   "when": "II-I secolo a.C.",
    "image": "https://upload.wikimedia.org/wikipedia/commons/0/08/NAMA_Machine_d%27Anticyth%C3%A8re_5.jpg",
    "imageCredit": "Wikimedia Commons",
    "solidityNote": null,
-   "url": "https://it.wikipedia.org/wiki/Macchina_di_Anticitera"
+   "url": "https://asme.org/about-asme/engineering-history/landmarks/271-the-antikythera-mechanism"
   },
   {
-   "id": "8d123f825ba6",
+   "id": "05176ece9036",
    "section": "sapevi",
    "topic": "Storia",
    "solidity": "recente",
-   "title": "Pompei fu sepolta d'estate o d'autunno? Gli indizi puntano al 24 ottobre",
-   "summary": "Una lettera di Plinio il Giovane indicava il 24 agosto del 79 d.C. Ma frutta secca, bracieri, una moneta e un'iscrizione a carboncino suggeriscono l'autunno.",
+   "title": "Pompei fu sepolta d'autunno, non d'estate: gli indizi raccolti dall'INGV",
+   "summary": "Per secoli si è creduto al 24 agosto del 79 d.C. Una moneta, un'iscrizione a carboncino e frutti autunnali indicano invece un periodo tra il 24 ottobre e il 1° novembre.",
    "body": [
-    "L'eruzione del Vesuvio del 79 d.C. è il più importante evento eruttivo del vulcano in epoca storica. Distrusse Ercolano, Pompei, Stabia e Oplontis, rimaste sepolte sotto pomici e fango e riportate alla luce a partire dal Settecento.",
-    "Per secoli la data accettata è stata il 24 agosto, ricavata da una lettera di Plinio il Giovane: nel manoscritto ritenuto più attendibile si legge 'nonum kal septembres', nove giorni prima delle calende di settembre.",
-    "Gli scavi però hanno restituito indizi che mal si accordano con l'estate: frutta secca carbonizzata, bracieri usati per riscaldarsi, mosto ancora sigillato nei contenitori, pesanti mantelli di lana e soprattutto una moneta che celebra un'acclamazione dell'imperatore Tito avvenuta dopo l'8 settembre del 79.",
-    "Nel 2018 è stata trovata in una casa un'iscrizione a carboncino con la data del 17 ottobre, probabilmente proprio del 79, perché scritte così si cancellano facilmente. Per questo oggi si ritiene probabile che l'eruzione sia avvenuta il 24 ottobre."
+    "L'eruzione del Vesuvio del 79 d.C. è probabilmente l'eruzione vulcanica più famosa della storia. La descrisse Plinio il Giovane in due lettere sulla morte dello zio, Plinio il Vecchio, partito da Miseno per soccorrere gli abitanti; da qui il termine “eruzione pliniana”. Secondo l'Osservatorio Vesuviano, la colonna eruttiva arrivò a circa 25 chilometri di altezza.",
+    "La data tradizionale è il 24 agosto, quella riportata nella versione più nota della lettera di Plinio. Ma le varie trascrizioni della lettera giunte fino a noi riportano anche date che vanno dal 24 ottobre al 1° novembre.",
+    "Secondo i ricercatori dell'INGV, diversi indizi spostano l'eruzione in autunno: sotto i depositi è stato trovato un denario d'argento che celebra la quindicesima acclamazione dell'imperatore Tito, avvenuta dopo il 7-8 settembre; e su un muro di Pompei c'è un'iscrizione a carboncino con la data del 17 ottobre, che non potrebbe esistere se la città fosse stata distrutta ad agosto.",
+    "Ci sono anche indizi indiretti: sotto la cenere sono stati trovati fichi secchi, noci, castagne e melagrane, contenitori del vino già sigillati, bracieri usati per riscaldare le case e abiti pesanti indossati dalle vittime. La data esatta non è ancora definita con certezza, ma oggi si ritiene che l'eruzione sia avvenuta probabilmente tra il 24 ottobre e il 1° novembre del 79."
    ],
    "quotes": [
     {
-     "text": "La data del 24 agosto era stata accettata come sicura fino agli anni ‘10 del XXI secolo",
+     "text": "oggi possiamo affermare che l’eruzione avvenne dopo il 7/8 settembre e probabilmente tra il 24 ottobre e il 1° novembre del 79",
      "translation": null,
-     "author": null
+     "author": "Sandro de Vita e Giovanni Ricciardi, INGV"
     }
    ],
    "sources": [
     {
-     "name": "Wikipedia",
-     "title": "Eruzione del Vesuvio del 79",
-     "url": "https://it.wikipedia.org/wiki/Eruzione_del_Vesuvio_del_79"
+     "name": "INGV",
+     "title": "Vesuvio: l’enigma della vera data della grande eruzione del 79 d.C.",
+     "url": "https://newsletter.ingv.it/newsletter-ingv-n-5-settembre-2019-anno-xiii/vesuvio-l-enigma-della-vera-data-della-grande-eruzione-del-79-d-c"
+    },
+    {
+     "name": "INGV – Osservatorio Vesuviano",
+     "title": "L'eruzione di Pompei (79 d.C.)",
+     "url": "https://www.ov.ingv.it/index.php/storia-vesuvio/pompei"
     }
    ],
    "date": "2026-10-21T01:02:09Z",
@@ -1465,34 +1516,34 @@
    "when": "79 d.C.",
    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Pompei%2C_il_Vesuvio_da_via_delle_Scuole_-_panoramio.jpg/1280px-Pompei%2C_il_Vesuvio_da_via_delle_Scuole_-_panoramio.jpg",
    "imageCredit": "Wikimedia Commons",
-   "solidityNote": "L'eruzione è un fatto storico certo; la data del 24 ottobre è l'ipotesi oggi più probabile, sostenuta da indizi archeologici recenti.",
-   "url": "https://it.wikipedia.org/wiki/Eruzione_del_Vesuvio_del_79"
+   "solidityNote": "L'eruzione è un fatto storico certo; la data autunnale è l'ipotesi oggi più probabile, ma non ancora definita con certezza.",
+   "url": "https://newsletter.ingv.it/newsletter-ingv-n-5-settembre-2019-anno-xiii/vesuvio-l-enigma-della-vera-data-della-grande-eruzione-del-79-d-c"
   },
   {
-   "id": "24f045892afd",
+   "id": "ca9025281ed0",
    "section": "sapevi",
    "topic": "Storia",
    "solidity": "consolidato",
-   "title": "Usiamo i numeri '0-9' anche grazie a un matematico di Pisa",
-   "summary": "Con il Liber abbaci del 1202 Leonardo Fibonacci introdusse in Europa il sistema numerico decimale indo-arabico. È uno dei libri più importanti del Medioevo.",
+   "title": "Usiamo i numeri da 0 a 9 anche grazie a un matematico di Pisa",
+   "summary": "Con il Liber abaci del 1202 Leonardo Fibonacci introdusse in Europa il sistema decimale indo-arabico, che aveva imparato da ragazzo in Nord Africa.",
    "body": [
-    "Il Liber abbaci è un trattato di aritmetica e algebra scritto in latino nel 1202 dal matematico pisano Leonardo Fibonacci, che ne pubblicò una seconda versione nel 1228.",
-    "Con quest'opera, all'inizio del XIII secolo, Fibonacci introdusse in Europa il sistema numerico decimale indo-arabico, quello che usiamo ancora oggi, insieme ai principali metodi di calcolo. Nonostante il titolo, il libro non parla dell'abaco: il titolo si può tradurre come 'Libro del calcolo'.",
-    "All'epoca in Europa gli scritti di matematica avanzata erano quasi inesistenti, a parte traduzioni poco diffuse di opere classiche come gli Elementi di Euclide.",
-    "Per oltre tre secoli maestri e allievi della scuola toscana si formarono su questo trattato, ritenuto uno dei libri più importanti e fecondi del Medioevo."
+    "Leonardo Pisano, detto Fibonacci, nacque probabilmente a Pisa intorno al 1170. Crebbe però in Nord Africa: il padre rappresentava i mercanti della Repubblica di Pisa a Bugia, l'attuale Bejaia, in Algeria.",
+    "Lì studiò matematica e, viaggiando con il padre, si rese conto degli enormi vantaggi dei sistemi di calcolo usati nei Paesi che visitava. Nel suo libro racconta di essere stato introdotto da bambino “all'arte delle nove cifre degli Indiani”.",
+    "Tornato a Pisa intorno al 1200, scrisse il Liber abaci (1202). Secondo l'Università di St Andrews, fu quest'opera a introdurre in Europa il sistema decimale posizionale indo-arabico e l'uso delle cifre arabe, quelle che usiamo ancora oggi.",
+    "Nel libro c'è anche un famoso problema sui conigli: quante coppie nascono in un anno da una sola coppia, se ogni mese ogni coppia ne genera un'altra? La soluzione dà la sequenza che oggi porta il suo nome."
    ],
    "quotes": [
     {
-     "text": "Ho dimostrato con prove certe quasi tutto quello che ho trattato",
-     "translation": null,
-     "author": null
+     "text": "Liber abaci introduced the Hindu-Arabic place-valued decimal system and the use of Arabic numerals into Europe.",
+     "translation": "Il Liber abaci introdusse in Europa il sistema decimale posizionale indo-arabico e l'uso delle cifre arabe.",
+     "author": "MacTutor, University of St Andrews"
     }
    ],
    "sources": [
     {
-     "name": "Wikipedia",
-     "title": "Liber abbaci",
-     "url": "https://it.wikipedia.org/wiki/Liber_abbaci"
+     "name": "University of St Andrews – MacTutor",
+     "title": "Leonardo Pisano Fibonacci",
+     "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Fibonacci/"
     }
    ],
    "date": "2026-10-21T01:02:09Z",
@@ -1501,91 +1552,103 @@
    "image": "https://upload.wikimedia.org/wikipedia/commons/0/04/Liber_abbaci_magliab_f124r.jpg",
    "imageCredit": "Wikimedia Commons",
    "solidityNote": null,
-   "url": "https://it.wikipedia.org/wiki/Liber_abbaci"
+   "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Fibonacci"
   },
   {
-   "id": "862cfa5fb457",
+   "id": "633cabaa1cb0",
    "section": "sapevi",
    "topic": "Storia",
    "solidity": "consolidato",
-   "title": "Ötzi, l'uomo venuto dal ghiaccio: il suo ultimo pasto fu speck di stambecco",
-   "summary": "Ritrovato nel 1991 sul ghiacciaio del Similaun, è il corpo di un uomo dell'età del rame conservato per oltre 5.000 anni. È esposto a Bolzano.",
+   "title": "Ötzi, l'uomo venuto dal ghiaccio, è più antico delle piramidi",
+   "summary": "Più di 5.300 anni fa un uomo dell'età del rame fu ucciso su un valico alpino e il ghiaccio lo conservò. Lo trovarono per caso due escursionisti nel 1991.",
    "body": [
-    "Il 19 settembre 1991, ai piedi del ghiacciaio del Similaun, a 3.213 metri di quota vicino al confine tra Italia e Austria, fu ritrovato il corpo di un uomo. Il nome ufficiale è 'Uomo venuto dal ghiaccio', ma tutti lo conoscono come Ötzi.",
-    "Risale all'età del rame, tra il 3300 e il 3100 a.C., e si è conservato grazie alle particolari condizioni del ghiacciaio. Dopo una disputa tra Austria e Italia, oggi è conservato al Museo archeologico dell'Alto Adige di Bolzano.",
-    "Gli studi hanno rivelato molto della sua vita: morì tra i quaranta e i cinquant'anni. Il penultimo pasto era a base di carne di stambecco, cereali e bacche; l'ultimo, secondo una ricerca dell'Eurac, era speck di stambecco.",
-    "Le analisi genetiche indicano parentele con gli attuali popoli corsi e sardi. Dal 2007 a Bolzano esiste un istituto di ricerca dedicato esclusivamente allo studio delle mummie."
+    "Più di 5.300 anni fa Ötzi stava attraversando il Giogo di Tisa, in Val Senales, in Alto Adige, quando fu ucciso. Il ghiaccio conservò naturalmente il suo corpo fino ai giorni nostri: secondo il Museo archeologico dell'Alto Adige è più antico delle piramidi egizie e di Stonehenge.",
+    "Fu scoperto per caso da alcuni escursionisti nel 1991, insieme ai suoi abiti e alla sua attrezzatura, e da allora è oggetto di ricerche intensissime.",
+    "Visse nell'età del rame, alla fine del Neolitico: usava ancora strumenti di pietra, ma possedeva un'ascia di rame, innovativa e molto preziosa. La lavorazione dei metalli era arrivata da poco in Europa dall'Asia Minore.",
+    "Dal 1998 è esposto al Museo archeologico dell'Alto Adige di Bolzano, conservato in una cella frigorifera speciale che si può osservare da una piccola finestra. Il soprannome Ötzi glielo diede un giornalista austriaco, Karl Wendl, dalla valle dell'Ötztal."
    ],
    "quotes": [
     {
-     "text": "L'esame degli osteociti colloca l'età della morte dell'uomo tra i quaranta e i cinquant'anni.",
-     "translation": null,
-     "author": null
+     "text": "He is therefore older than the Egyptian pyramids and Stonehenge",
+     "translation": "È quindi più antico delle piramidi egizie e di Stonehenge",
+     "author": "Museo archeologico dell'Alto Adige"
     }
    ],
    "sources": [
     {
-     "name": "Wikipedia",
-     "title": "Mummia del Similaun",
-     "url": "https://it.wikipedia.org/wiki/Mummia_del_Similaun"
+     "name": "Museo archeologico dell'Alto Adige",
+     "title": "Ötzi – The Iceman",
+     "url": "https://www.iceman.it/en/the-iceman/"
     }
    ],
    "date": "2026-10-21T01:02:09Z",
    "addedAt": "2026-10-21T01:02:09Z",
-   "when": "3300-3100 a.C.",
+   "when": "Oltre 5.300 anni fa",
    "image": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Otzi-Quinson.jpg",
    "imageCredit": "Wikimedia Commons",
    "solidityNote": null,
-   "url": "https://it.wikipedia.org/wiki/Mummia_del_Similaun"
+   "url": "https://iceman.it/en/the-iceman"
   },
   {
-   "id": "d2f13ab2d23e",
+   "id": "368929224047",
    "section": "sapevi",
    "topic": "Natura",
    "solidity": "consolidato",
-   "title": "La sterna artica vola come sei viaggi dalla Terra alla Luna nel corso della vita",
-   "summary": "Questo uccello di circa 100 grammi nidifica nell'Atlantico del nord e sverna fino all'Antartide: può percorrere fino a 91.000 km di migrazione all'anno.",
+   "title": "La sterna artica fa la migrazione più lunga di qualsiasi animale",
+   "summary": "Un uccello di meno di 125 grammi può percorrere oltre 80.000 km all'anno tra l'Artico e l'Oceano Antartico. Lo ha dimostrato uno studio su PNAS con minuscoli localizzatori.",
    "body": [
-    "La sterna codalunga, o sterna artica, è un uccello marino con becco e zampe rossi, testa nera e corpo grigio chiaro. È lunga 28-39 centimetri, di cui 11-15 di coda biforcuta, e pesa appena 90-120 grammi.",
-    "Si riproduce tra maggio e ottobre sulle coste europee dell'Atlantico e passa l'inverno in Sudafrica e in Antartide, compiendo un viaggio migratorio lunghissimo.",
-    "Secondo uno studio di Carsten Egevang e colleghi, può percorrere fino a 91.000 chilometri all'anno tra andata e ritorno, in media circa 70.000: più di due volte il giro della Terra.",
-    "Nell'arco di una vita media di 29 anni può accumulare circa 2.400.000 chilometri: quanto basta per andare dalla Terra alla Luna sei volte."
+    "La sterna artica pesa meno di 125 grammi, eppure già prima di questo studio gli inanellamenti e le osservazioni in mare facevano pensare che la sua migrazione annuale, dalle zone di nidificazione artiche all'Oceano Antartico, fosse la più lunga di qualsiasi animale.",
+    "Un gruppo di ricercatori guidato da Carsten Egevang ha applicato a 11 sterne dei geolocalizzatori in miniatura, di appena 1,4 grammi. I dati, pubblicati sulla rivista PNAS nel 2010, hanno confermato che alcune percorrono più di 80.000 chilometri all'anno.",
+    "Lo studio ha scoperto anche un'area di sosta prima sconosciuta nell'Atlantico del Nord, usata da uccelli della Groenlandia e dell'Islanda. Verso sud, sterne della stessa colonia seguivano due rotte diverse, lungo la costa africana o sudamericana, ma tornavano tutte su un percorso simile, a forma di S.",
+    "Secondo gli autori, le sterne puntano verso le zone di mare più ricche di cibo, sia per le soste sia per l'inverno, e sfruttano i grandi sistemi di venti del pianeta per ridurre la fatica del volo."
    ],
-   "quotes": [],
+   "quotes": [
+    {
+     "text": "these birds do indeed travel huge distances (more than 80,000 km annually for some individuals)",
+     "translation": "questi uccelli percorrono davvero distanze enormi (più di 80.000 km all'anno per alcuni individui)",
+     "author": "Egevang et al., PNAS 2010"
+    }
+   ],
    "sources": [
     {
-     "name": "Wikipedia",
-     "title": "Sterna paradisaea",
-     "url": "https://it.wikipedia.org/wiki/Sterna_paradisaea"
+     "name": "PNAS",
+     "title": "Tracking of Arctic terns Sterna paradisaea reveals longest animal migration",
+     "url": "https://www.pnas.org/doi/10.1073/pnas.0909493107"
     }
    ],
    "date": "2026-10-21T01:02:09Z",
    "addedAt": "2026-10-21T01:02:09Z",
-   "when": "Migrazione",
+   "when": "Studio del 2010",
    "image": "https://upload.wikimedia.org/wikipedia/commons/8/83/Sterna_paradisaea.jpg",
    "imageCredit": "Wikimedia Commons",
    "solidityNote": null,
-   "url": "https://it.wikipedia.org/wiki/Sterna_paradisaea"
+   "url": "https://pnas.org/doi/10.1073/pnas.0909493107"
   },
   {
-   "id": "6fb46fe22e23",
+   "id": "19e15e29c7f9",
    "section": "sapevi",
    "topic": "Natura",
    "solidity": "consolidato",
-   "title": "Pando: un intero bosco che è un solo essere vivente",
-   "summary": "Circa 47.000 tronchi di pioppo tremolo nello Utah condividono le stesse radici e lo stesso DNA. Pesa circa 6.600 tonnellate.",
+   "title": "Pando: un bosco di pioppi che è un solo clone, e che rischia di non rinnovarsi",
+   "summary": "Nello Utah c'è un clone di pioppo tremulo di 43 ettari che pesa circa 5.800 tonnellate. Quanti anni abbia, la scienza non sa ancora dirlo.",
    "body": [
-    "Pando, chiamato anche 'gigante tremolo', sembra un bosco: si trova nella foresta nazionale di Fishlake, nello Utah. In realtà, i marcatori genetici mostrano che tutti i suoi fusti fanno parte dello stesso organismo, un unico individuo maschile di pioppo tremolo americano.",
-    "Questi pioppi si moltiplicano soprattutto senza semi: le radici si estendono orizzontalmente sotto terra e a una certa distanza fanno spuntare nuovi fusti, geneticamente identici. Un singolo tronco vive in media 75 anni, ma la colonia può durare migliaia di anni.",
-    "Pando comprende circa 47.000 fusti su una superficie di 0,42 chilometri quadrati, con un peso complessivo stimato in 6.615 tonnellate. Il suo sistema di radici è il più pesante e tra i più antichi al mondo, con un'età stimata di circa 80.000 anni.",
-    "Il nome significa 'mi estendo' in latino. Il soprannome viene dalle foglie del pioppo tremolo, che tremano anche con una brezza leggera."
+    "Pando è un clone di pioppo tremulo che si trova nella foresta nazionale di Fishlake, nello Utah centrale, negli Stati Uniti. Quello che sembra un bosco è in realtà un unico clone: i nuovi fusti nascono dalle radici.",
+    "Secondo la Western Aspen Alliance della Utah State University, occupa circa 43 ettari e pesa circa 5,8 milioni di chilogrammi.",
+    "Quanti anni abbia è una domanda aperta: i ricercatori sanno che i fusti più vecchi hanno 120-150 anni, ma con la scienza attuale non è possibile datare con precisione l'età del clone. Probabilmente vive da moltissimo tempo.",
+    "Oggi Pando è in difficoltà: molti fusti sono morti negli ultimi anni e ne nascono troppo pochi di nuovi, probabilmente perché i giovani germogli vengono mangiati da cervi, alci e bovini. Il Servizio forestale degli Stati Uniti sta costruendo recinzioni per proteggerli."
    ],
-   "quotes": [],
+   "quotes": [
+    {
+     "text": "we cannot accurately date the age of the clone at this time",
+     "translation": "al momento non possiamo datare con precisione l'età del clone",
+     "author": "Western Aspen Alliance, Utah State University"
+    }
+   ],
    "sources": [
     {
-     "name": "Wikipedia",
-     "title": "Pando (albero)",
-     "url": "https://it.wikipedia.org/wiki/Pando_(albero)"
+     "name": "Utah State University – Western Aspen Alliance",
+     "title": "Pando – Frequently Asked Questions",
+     "url": "https://qanr.usu.edu/western-aspen-alliance/pando/faq"
     }
    ],
    "date": "2026-10-21T01:02:09Z",
@@ -1593,34 +1656,34 @@
    "when": "Utah, Stati Uniti",
    "image": "https://upload.wikimedia.org/wikipedia/commons/9/9e/FallPando02.jpg",
    "imageCredit": "Wikimedia Commons",
-   "solidityNote": "Che Pando sia un unico organismo è stabilito dalle analisi genetiche; la sua età è una stima.",
-   "url": "https://it.wikipedia.org/wiki/Pando_(albero)"
+   "solidityNote": "Le dimensioni sono stime ufficiali; l'età del clone non è oggi misurabile con precisione.",
+   "url": "https://qanr.usu.edu/western-aspen-alliance/pando/faq"
   },
   {
-   "id": "399d9bcf5997",
+   "id": "7d935b29860a",
    "section": "sapevi",
    "topic": "Natura",
-   "solidity": "consolidato",
-   "title": "La luce degli esseri viventi si è evoluta almeno 94 volte, in modo indipendente",
-   "summary": "Lucciole, funghi, batteri e molti animali marini producono luce con una reazione chimica. La natura l'ha 'inventata' più e più volte.",
+   "solidity": "recente",
+   "title": "La luce degli esseri viventi è comparsa almeno 540 milioni di anni fa",
+   "summary": "Secondo uno studio dello Smithsonian, i primi animali a produrre luce furono gli ottocoralli. La bioluminescenza si è evoluta in modo indipendente almeno 94 volte.",
    "body": [
-    "La bioluminescenza è la produzione di luce da parte di un organismo vivente attraverso una reazione chimica. La troviamo in moltissimi esseri: animali marini vertebrati e invertebrati, insetti come le lucciole, alcuni funghi e microrganismi come certi batteri e dinoflagellati.",
-    "In alcuni animali la luce è prodotta direttamente dall'animale; in altri la producono batteri che vivono in simbiosi con lui, come quelli del genere Vibrio.",
-    "La reazione di base coinvolge quasi sempre due ingredienti: una sostanza chiamata luciferina e un enzima chiamato luciferasi. L'enzima fa ossidare la luciferina, che passa in uno stato 'eccitato' e, tornando allo stato normale, emette luce visibile.",
-    "La natura, in un certo senso, l'ha 'inventata' più volte: la bioluminescenza si è evoluta in modo indipendente almeno 94 volte ed è comparsa per la prima volta negli ottocoralli, circa 540 milioni di anni fa."
+    "La bioluminescenza è la capacità degli esseri viventi di produrre luce attraverso reazioni chimiche. Si è evoluta in modo indipendente almeno 94 volte in natura ed è usata per mimetizzarsi, corteggiare, comunicare e cacciare.",
+    "Uno studio di scienziati del Museo nazionale di storia naturale dello Smithsonian, pubblicato nell'aprile 2024 su Proceedings of the Royal Society B, indica che negli animali comparve almeno 540 milioni di anni fa, in un gruppo di invertebrati marini chiamati ottocoralli, che comprende coralli molli, gorgonie e penne di mare.",
+    "Il record precedente era di circa 267 milioni di anni fa, in piccoli crostacei chiamati ostracodi: la nuova datazione lo sposta indietro di quasi 300 milioni di anni. I ricercatori hanno usato un albero evolutivo basato sui dati genetici di 185 specie, datato grazie a fossili, e metodi statistici per ricostruire i caratteri degli antenati.",
+    "Resta aperta la domanda più grande: perché la capacità di produrre luce sia comparsa negli animali. Gli ottocoralli di solito si illuminano solo quando vengono urtati o disturbati, e la funzione precisa di questa luce è ancora un po' misteriosa."
    ],
    "quotes": [
     {
-     "text": "La bioluminescenza si è evoluta indipendentemente almeno 94 volte",
-     "translation": null,
-     "author": null
+     "text": "Nobody quite knows why it first evolved in animals",
+     "translation": "Nessuno sa davvero perché sia comparsa per la prima volta negli animali",
+     "author": "Andrea Quattrini, Smithsonian"
     }
    ],
    "sources": [
     {
-     "name": "Wikipedia",
-     "title": "Bioluminescenza",
-     "url": "https://it.wikipedia.org/wiki/Bioluminescenza"
+     "name": "Smithsonian Institution",
+     "title": "Bioluminescence First Evolved in Animals at Least 540 Million Years Ago",
+     "url": "https://www.si.edu/newsdesk/releases/bioluminescence-first-evolved-animals-least-540-million-years-ago"
     }
    ],
    "date": "2026-10-21T01:02:09Z",
@@ -1628,34 +1691,39 @@
    "when": "Da 540 milioni di anni",
    "image": "https://upload.wikimedia.org/wikipedia/commons/7/76/Photinus_pyralis_Firefly_glowing.jpg",
    "imageCredit": "Wikimedia Commons",
-   "solidityNote": null,
-   "url": "https://it.wikipedia.org/wiki/Bioluminescenza"
+   "solidityNote": "La bioluminescenza è un fenomeno ben noto; la datazione a 540 milioni di anni viene da uno studio del 2024.",
+   "url": "https://si.edu/newsdesk/releases/bioluminescence-first-evolved-animals-least-540-million-years-ago"
   },
   {
-   "id": "8597c2a1afc7",
+   "id": "c534a86f45a2",
    "section": "sapevi",
    "topic": "Scienza",
    "solidity": "consolidato",
-   "title": "Il libro che spiegò al grande pubblico la selezione naturale",
-   "summary": "Il 24 novembre 1859 Charles Darwin pubblicò L'origine delle specie: le specie evolvono gradualmente nel tempo attraverso la selezione naturale.",
+   "title": "Il libro più famoso della scienza: L'origine delle specie di Darwin",
+   "summary": "Pubblicato il 24 novembre 1859, spiegava come le specie cambiano per selezione naturale. Darwin vi raccolse anni di osservazioni, a partire dal viaggio sul Beagle.",
    "body": [
-    "L'origine delle specie è il saggio del naturalista inglese Charles Darwin pubblicato per la prima volta il 24 novembre 1859. È una delle opere cardine della storia della scienza e tra le più importanti della biologia.",
-    "Darwin vi spiegava la sua teoria dell'evoluzione: gruppi di organismi di una stessa specie si evolvono gradualmente nel tempo attraverso il processo di selezione naturale. Fu proprio questo libro a far conoscere il meccanismo a un pubblico non specialista.",
-    "L'opera raccoglie dettagliate prove scientifiche accumulate durante il viaggio sulla nave HMS Beagle, iniziato nel 1831, e negli anni successivi. Si opponeva al creazionismo allora più diffuso, secondo cui le specie erano state create perfette e immutabili.",
-    "Consapevole delle implicazioni della teoria sull'origine dell'umanità e dei rischi per la propria reputazione, Darwin lavorò a lungo in segreto raccogliendo prove a sostegno. Il libro, accessibile anche ai non specialisti, suscitò subito un grande interesse."
+    "Dopo aver lasciato gli studi di medicina a Edimburgo, Charles Darwin studiò a Cambridge, dove un docente, il reverendo John Stevens Henslow, lo spinse verso la storia naturale. Finiti gli studi ebbe l'occasione di imbarcarsi come naturalista sulla nave HMS Beagle, per un viaggio di quasi cinque anni verso il Sud America e oltre.",
+    "Il luogo più famoso del viaggio sono le isole Galápagos, al largo dell'Ecuador, dove Darwin osservò specie come la tartaruga gigante e l'iguana marina. Molti esemplari raccolti durante il viaggio sono oggi al Natural History Museum di Londra.",
+    "Usando i dati del viaggio e i suoi studi successivi, su cirripedi, barriere coralline e altro, Darwin formulò la teoria dell'evoluzione per selezione naturale. Il libro che la espone, L'origine delle specie, fu pubblicato il 24 novembre 1859: secondo il Darwin Correspondence Project dell'Università di Cambridge è “probabilmente il libro più famoso della scienza”.",
+    "L'idea centrale è nelle parole dello stesso Darwin: nascono molti più individui di quanti ne possano sopravvivere, e chi presenta anche una piccola variazione vantaggiosa ha più probabilità di sopravvivere, e quindi di essere “selezionato naturalmente”. Nel 2025 i documenti sulla vita di Darwin sono stati inseriti dall'UNESCO nel registro Memoria del mondo."
    ],
    "quotes": [
     {
-     "text": "Il libro risultò accessibile anche ai non specialisti e suscitò da subito un grande interesse.",
-     "translation": null,
-     "author": null
+     "text": "any being, if it vary however slightly in any manner profitable to itself, under the complex and sometimes varying conditions of life, will have a better chance of surviving, and thus be naturally selected",
+     "translation": "ogni essere che vari, anche solo di poco, in un modo a sé vantaggioso, nelle complesse e talvolta mutevoli condizioni della vita, avrà maggiori probabilità di sopravvivere, e sarà così selezionato naturalmente",
+     "author": "Charles Darwin, L'origine delle specie (1859)"
     }
    ],
    "sources": [
     {
-     "name": "Wikipedia",
-     "title": "L'origine delle specie",
-     "url": "https://it.wikipedia.org/wiki/L%27origine_delle_specie"
+     "name": "Linnean Society of London",
+     "title": "Charles Darwin (1809–82)",
+     "url": "https://www.linnean.org/the-society/history-of-science/charles-darwin"
+    },
+    {
+     "name": "Darwin Correspondence Project – University of Cambridge",
+     "title": "The “wicked book”: Origin at 157",
+     "url": "https://www.darwinproject.ac.uk/wicked-book-origin-157"
     }
    ],
    "date": "2026-10-21T01:02:09Z",
@@ -1664,211 +1732,187 @@
    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Origin_of_Species_title_page.jpg/1280px-Origin_of_Species_title_page.jpg",
    "imageCredit": "Wikimedia Commons",
    "solidityNote": null,
-   "url": "https://it.wikipedia.org/wiki/L%27origine_delle_specie"
+   "url": "https://linnean.org/the-society/history-of-science/charles-darwin"
   },
   {
-   "id": "1a77e2cc16cd",
+   "id": "b304de7c0a11",
    "section": "sapevi",
    "topic": "Tecnologia",
    "solidity": "consolidato",
-   "title": "Un colpo di fucile in campagna: il 'battesimo' della radio di Marconi",
-   "summary": "Nel 1895, a Villa Griffone vicino Bologna, il giovane Marconi trasmise segnali senza fili oltre una collina. Nel 1909 ricevette il Nobel per la fisica.",
+   "title": "Da una villa vicino a Bologna all'Atlantico: la radio di Marconi",
+   "summary": "Nel 1895 Marconi inviò segnali senza fili a un miglio e mezzo nella tenuta di famiglia a Pontecchio. Nel 1901 attraversò l'Atlantico. Nel 1909 vinse il Nobel.",
    "body": [
-    "Guglielmo Marconi (Bologna, 1874 – Roma, 1937) è considerato uno dei principali protagonisti delle telecomunicazioni moderne, per il suo contributo alla telegrafia senza fili, un sistema di comunicazione a distanza basato sulle onde radio.",
-    "Nella tarda estate o all'inizio dell'autunno del 1895 (la data esatta non è certa), dopo esperimenti a distanze sempre maggiori, il suo apparecchio riuscì a trasmettere e ricevere segnali a più di un miglio di distanza, superando anche un ostacolo naturale: la collina dei Celestini dietro Villa Griffone.",
-    "Per confermare la riuscita dell'esperimento, il maggiordomo Mignani sparò un colpo di fucile in aria. Quel colpo è considerato l'atto di battesimo della radio.",
-    "Nel 1909 Marconi ricevette il premio Nobel per la fisica, insieme a Carl Ferdinand Braun, per il loro contributo allo sviluppo della telegrafia senza fili."
+    "Guglielmo Marconi nacque a Bologna il 25 aprile 1874. Fin da ragazzo si appassionò alla fisica e all'elettricità, studiando le opere di Maxwell, Hertz, Righi e Lodge.",
+    "Nel 1895 iniziò i suoi esperimenti nella tenuta di campagna del padre a Pontecchio, vicino a Bologna, e riuscì a inviare segnali senza fili a una distanza di un miglio e mezzo, circa 2,4 chilometri.",
+    "Nel 1896 portò il suo apparecchio in Inghilterra, dove ottenne il primo brevetto al mondo per un sistema di telegrafia senza fili. Nel 1899 collegò via radio la Francia e l'Inghilterra attraverso la Manica.",
+    "Nel dicembre 1901, per dimostrare che le onde radio non erano bloccate dalla curvatura della Terra, trasmise i primi segnali senza fili attraverso l'Atlantico, tra Poldhu in Cornovaglia e St. John's in Terranova: circa 3.400 chilometri. Nel 1909 ricevette il premio Nobel per la fisica."
    ],
    "quotes": [
     {
-     "text": "viene considerato l'atto di battesimo della radio",
-     "translation": null,
+     "text": "In 1895 he began laboratory experiments at his father’s country estate at Pontecchio where he succeeded in sending wireless signals over a distance of one and a half miles.",
+     "translation": "Nel 1895 iniziò esperimenti di laboratorio nella tenuta di campagna del padre a Pontecchio, dove riuscì a inviare segnali senza fili a una distanza di un miglio e mezzo.",
      "author": null
     }
    ],
    "sources": [
     {
-     "name": "Wikipedia",
-     "title": "Guglielmo Marconi",
-     "url": "https://it.wikipedia.org/wiki/Guglielmo_Marconi"
+     "name": "Premio Nobel",
+     "title": "Guglielmo Marconi – Biographical",
+     "url": "https://www.nobelprize.org/prizes/physics/1909/marconi/biographical/"
     }
    ],
    "date": "2026-10-21T01:02:09Z",
    "addedAt": "2026-10-21T01:02:09Z",
-   "when": "1895",
-   "image": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Guglielmo_Marconi.jpg",
-   "imageCredit": "Wikimedia Commons",
+   "when": "1895-1901",
+   "image": "https://www.nobelprize.org/images/marconi-12873-landscape-medium.jpg",
+   "imageCredit": "Nobel Foundation archive",
    "solidityNote": null,
-   "url": "https://it.wikipedia.org/wiki/Guglielmo_Marconi"
+   "url": "https://nobelprize.org/prizes/physics/1909/marconi/biographical"
   },
   {
-   "id": "8e5b83fa0007",
+   "id": "7a3d432456b7",
    "section": "sapevi",
    "topic": "Tecnologia",
    "solidity": "consolidato",
-   "title": "Enigma, la macchina 'indecifrabile', fu violata per primi da tre matematici polacchi",
-   "summary": "I tedeschi usarono Enigma per cifrare i messaggi nella Seconda guerra mondiale. Nel 1932 Rejewski, Różycki e Zygalski riuscirono a decifrarla.",
+   "title": "Enigma, la macchina “indecifrabile”, fu violata per primi da tre matematici polacchi",
+   "summary": "Nel 1932 Marian Rejewski decifrò Enigma in sole dieci settimane. Nel luglio 1939 i polacchi consegnarono i loro risultati a francesi e britannici.",
    "body": [
-    "Enigma era un dispositivo elettromeccanico per cifrare e decifrare messaggi. Fu sviluppata da Arthur Scherbius a partire dal 1918, ispirandosi al disco cifrante di Leon Battista Alberti; la prima versione pesava quasi 12 chili.",
-    "Nata come prodotto commerciale poco fortunato, fu adottata ampiamente dalle forze armate tedesche durante il nazismo e la Seconda guerra mondiale, per la facilità d'uso e la presunta indecifrabilità.",
-    "I primi a decifrarla, nel 1932, furono tre matematici polacchi: Marian Rejewski, Jerzy Różycki e Henryk Zygalski. Il loro lavoro permise di seguire le versioni sempre più aggiornate della macchina, prima in Polonia e poi, dopo lo scoppio della guerra, anche in Francia e Gran Bretagna.",
-    "La decrittazione dei messaggi di Enigma fornì alle forze alleate informazioni importantissime per quasi tutta la durata della guerra."
+    "Enigma era una macchina per cifrare i messaggi, creata in Germania alla fine della Prima guerra mondiale e usata per scopi commerciali e militari. Britannici, francesi e americani provarono a violarne il codice senza riuscirci.",
+    "La Polonia, stretta tra Germania e Unione Sovietica, aveva bisogno di leggere i messaggi segreti tedeschi. Nel 1932 fu formato un gruppo di giovani matematici dell'Università di Poznań: tra loro Marian Rejewski, Jerzy Różycki e Henryk Zygalski. Fu Rejewski il primo a violare Enigma, in sole dieci settimane: i primi messaggi furono decifrati già a Natale del 1932.",
+    "Con gli ingegneri della AVA Radio, i tre costruirono la “bomba”, la prima macchina per crittoanalisi progettata per attaccare Enigma. Secondo la British Library, prima che i tedeschi rafforzassero la macchina nel 1938, i polacchi leggevano circa il 75% delle comunicazioni radio tedesche intercettate.",
+    "Nel luglio 1939, con l'invasione tedesca imminente, i polacchi rivelarono in un incontro segreto vicino a Varsavia i loro risultati a crittografi francesi e britannici, consegnando copie della macchina. Quel lavoro fu la base della decrittazione di Enigma a Bletchley Park."
    ],
    "quotes": [
     {
-     "text": "I primi a decifrarla nel 1932 furono alcuni matematici polacchi",
-     "translation": null,
-     "author": null
+     "text": "It was Rejewski who first cracked the Enigma code, in only ten weeks.",
+     "translation": "Fu Rejewski il primo a violare il codice di Enigma, in sole dieci settimane.",
+     "author": "British Library"
     }
    ],
    "sources": [
     {
-     "name": "Wikipedia",
-     "title": "Enigma (crittografia)",
-     "url": "https://it.wikipedia.org/wiki/Enigma_(crittografia)"
+     "name": "British Library",
+     "title": "Polish mathematicians and cracking the Enigma",
+     "url": "https://www.bl.uk/stories/blogs/posts/polish-mathematicians-and-cracking-the-enigma"
+    },
+    {
+     "name": "IEEE",
+     "title": "Milestone: First Breaking of Enigma Code by the Team of Polish Cipher Bureau, 1932-1939",
+     "url": "https://ethw.org/Milestones:First_Breaking_of_Enigma_Code_by_the_Team_of_Polish_Cipher_Bureau,_1932-1939"
     }
    ],
    "date": "2026-10-21T01:02:09Z",
    "addedAt": "2026-10-21T01:02:09Z",
-   "when": "1918-1945",
-   "image": "https://upload.wikimedia.org/wikipedia/commons/4/49/Enigma-G.jpg",
-   "imageCredit": "Wikimedia Commons",
+   "when": "1932-1939",
+   "image": "https://www.bl.uk/images/v5dwkion/production/65c3085720878ba9311b602aa1051c5287d0972a-427x640.jpg/the-enigma-machine-on-display-in-the-library-(photo-by-clare-kendall).jpg?rect=0,208,427,224&w=1200&h=630&auto=format",
+   "imageCredit": "British Library (foto di Clare Kendall)",
    "solidityNote": null,
-   "url": "https://it.wikipedia.org/wiki/Enigma_(crittografia)"
+   "url": "https://bl.uk/stories/blogs/posts/polish-mathematicians-and-cracking-the-enigma"
   },
   {
-   "id": "6c85c581b99f",
+   "id": "7286a7f83be5",
    "section": "sapevi",
    "topic": "Spazio",
    "solidity": "consolidato",
-   "title": "Nel 1859 una tempesta solare accese le aurore e fece impazzire i telegrafi",
-   "summary": "Le aurore nascono quando le particelle del vento solare eccitano gli atomi dell'alta atmosfera. L'evento di Carrington del 1859 ne mostrò il legame con il Sole.",
+   "title": "Nel 1859 una tempesta solare accese le aurore e mandò in tilt i telegrafi",
+   "summary": "Il 1° settembre 1859 Richard Carrington vide un lampo di luce sul Sole. Poche ore dopo le aurore illuminarono la notte fino a Panama. Fu l'evento di Carrington.",
    "body": [
-    "L'aurora polare è un fenomeno luminoso dell'atmosfera fatto di bande di luce, di solito rosse, verdi e azzurre, che cambiano rapidamente forma. Si chiama aurora boreale nell'emisfero nord e aurora australe nell'emisfero sud.",
-    "È causata dalle particelle cariche emesse dal Sole, il vento solare, che interagiscono con la ionosfera, tra 100 e 500 chilometri di quota. Le particelle eccitano gli atomi dell'atmosfera, che tornando allo stato normale emettono luce di vari colori.",
-    "Il 28 agosto 1859 furono avvistate aurore su una vasta area degli Stati Uniti; gli strumenti scientifici di tutto il mondo registrarono forti variazioni e nelle linee telegrafiche comparvero correnti anomale.",
-    "Il giorno dopo l'astronomo inglese Richard Carrington osservò un gruppo di macchie solari insolitamente grandi, da cui partì un lampo di luce bianca; qualche ora più tardi arrivò una seconda ondata di aurore intensissime. Con questo 'evento di Carrington' le vecchie spiegazioni, come la luce riflessa dagli iceberg, lasciarono il posto a quelle legate all'attività del Sole."
+    "In una notte d'agosto del 1859, in Florida, il cielo si riempì di tende di luce rosse e verdi: un'aurora boreale, che pochissimi lì avevano mai visto.",
+    "Qualche giorno dopo, il 1° settembre, l'astronomo inglese Richard Carrington stava osservando un gruppo di macchie solari. Verso le 11 vide un improvviso lampo di intensa luce bianca. Diciassette ore dopo il cielo notturno del Nord America, fino a Panama, si illuminò come di giorno con aurore ancora più brillanti: la gente leggeva il giornale e alcuni minatori nelle Montagne Rocciose si alzarono a preparare la colazione all'una di notte.",
+    "Gli strumenti che misurano il magnetismo terrestre andarono fuori scala e picchi di elettricità attraversarono le linee telegrafiche di tutto il mondo, rendendo impossibile inviare messaggi. All'epoca non si sapeva cosa causasse le aurore; in seguito si capì che sono provocate da violenti eventi sul Sole, che possono lanciare nello spazio enormi nubi di gas elettrizzato.",
+    "Secondo la NOAA, tempeste come quella del 1859 capitano solo circa ogni 500 anni, mentre tempeste di intensità dimezzata circa ogni 50 anni. Oggi una tempesta simile potrebbe danneggiare i satelliti e causare blackout su interi continenti: per questo i satelliti GOES-R sorvegliano il Sole."
    ],
-   "quotes": [],
+   "quotes": [
+    {
+     "text": "Spikes of electricity surge into the world's telegraph systems, and no one can send a message.",
+     "translation": "Picchi di elettricità invadono i sistemi telegrafici di tutto il mondo e nessuno riesce a inviare messaggi.",
+     "author": "NOAA"
+    }
+   ],
    "sources": [
     {
-     "name": "Wikipedia",
-     "title": "Aurora polare",
-     "url": "https://it.wikipedia.org/wiki/Aurora_polare"
+     "name": "NOAA",
+     "title": "What Was the Carrington Event?",
+     "url": "https://www.nesdis.noaa.gov/about/k-12-education/space-weather/what-was-the-carrington-event"
     }
    ],
    "date": "2026-10-21T01:02:09Z",
    "addedAt": "2026-10-21T01:02:09Z",
-   "when": "1859",
+   "when": "1° settembre 1859",
    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Aurora_borealis_over_Eielson_Air_Force_Base%2C_Alaska.jpg/1280px-Aurora_borealis_over_Eielson_Air_Force_Base%2C_Alaska.jpg",
    "imageCredit": "Wikimedia Commons",
    "solidityNote": null,
-   "url": "https://it.wikipedia.org/wiki/Aurora_polare"
+   "url": "https://nesdis.noaa.gov/about/k-12-education/space-weather/what-was-the-carrington-event"
   },
   {
-   "id": "eedd5e849681",
+   "id": "52c64d7b5cdf",
    "section": "sapevi",
    "topic": "Natura",
-   "solidity": "consolidato",
-   "title": "Il punto più profondo della Terra è quasi 11 km sotto il mare",
-   "summary": "Nella fossa delle Marianne, nel Pacifico, l'abisso Challenger scende a 10.994 metri sotto il livello del mare. Nasce dove una placca scivola sotto un'altra.",
+   "solidity": "ufficiale",
+   "title": "Il punto più profondo dell'oceano è a quasi 11 km sotto la superficie",
+   "summary": "L'abisso Challenger, nella fossa delle Marianne, è profondo circa 10.935 metri secondo la NOAA. La profondità media degli oceani è di 3.682 metri.",
    "body": [
-    "La fossa delle Marianne è una depressione dell'Oceano Pacifico nord-occidentale, al largo delle isole Marianne, a sud-est del Giappone. Disegna un leggero arco lungo circa 2.500 chilometri.",
-    "Al suo interno si trova l'abisso Challenger, che con i suoi 10.994 metri sotto il livello del mare è il punto più profondo della fossa e dell'intera superficie terrestre.",
-    "La fossa si trova in una zona di subduzione: la placca del Pacifico scivola sotto quella delle Filippine. Lungo i suoi bordi si trovano diversi vulcani sottomarini.",
-    "I primi rilievi furono fatti dalla spedizione Challenger, considerata la prima spedizione oceanografica (1872-1876), che misurò una profondità di 8.184 metri. La misura più recente della profondità, con una precisione di circa 40 metri, risale al 2011."
+    "La profondità media dell'oceano è di circa 3.682 metri, secondo la NOAA, l'agenzia statunitense per gli oceani e l'atmosfera.",
+    "Il punto più profondo si chiama abisso Challenger e si trova sotto l'Oceano Pacifico occidentale, all'estremità meridionale della fossa delle Marianne, che corre qualche centinaio di chilometri a sud-ovest dell'isola di Guam.",
+    "Secondo la NOAA l'abisso Challenger è profondo circa 10.935 metri (35.876 piedi). Altre misure, fatte con metodi diversi, danno valori leggermente diversi, per questo le cifre che si leggono in giro possono variare di qualche decina di metri.",
+    "Deve il nome alla nave britannica HMS Challenger, il cui equipaggio sondò per primo le profondità della fossa nel 1875."
    ],
    "quotes": [
     {
-     "text": "la cui estremità inferiore, con i suoi −10994 m s.l.m., è punto più profondo della fossa stessa e, in assoluto, della superficie terrestre",
-     "translation": null,
-     "author": null
+     "text": "Challenger Deep is approximately 10,935 meters (35,876 feet) deep.",
+     "translation": "L'abisso Challenger è profondo circa 10.935 metri (35.876 piedi).",
+     "author": "NOAA"
     }
    ],
    "sources": [
     {
-     "name": "Wikipedia",
-     "title": "Fossa delle Marianne",
-     "url": "https://it.wikipedia.org/wiki/Fossa_delle_Marianne"
+     "name": "NOAA Ocean Service",
+     "title": "How deep is the ocean?",
+     "url": "https://oceanservice.noaa.gov/facts/oceandepth.html"
     }
    ],
    "date": "2026-10-21T01:02:09Z",
    "addedAt": "2026-10-21T01:02:09Z",
    "when": "Oceano Pacifico",
-   "image": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Marianatrenchmap.png",
-   "imageCredit": "Wikimedia Commons",
+   "image": "https://oceanservice.noaa.gov/facts/deepocean-960.jpg",
+   "imageCredit": "NOAA",
    "solidityNote": null,
-   "url": "https://it.wikipedia.org/wiki/Fossa_delle_Marianne"
+   "url": "https://oceanservice.noaa.gov/facts/oceandepth.html"
   },
   {
-   "id": "261b42d2a099",
-   "section": "sapevi",
-   "topic": "Natura",
-   "solidity": "consolidato",
-   "title": "Il polpo ha tre cuori, cambia colore in un attimo e vive circa un anno",
-   "summary": "Il polpo comune del Mediterraneo ha due cuori per le branchie e uno per il corpo, usa i colori per nascondersi e comunicare, e vive in media un anno.",
-   "body": [
-    "Il polpo comune (Octopus vulgaris) è un mollusco cefalopode diffuso in tutti i mari, Mediterraneo compreso, nei fondali bassi fino a 200 metri. Non avendo scheletro può assumere qualsiasi forma e passare attraverso cunicoli strettissimi.",
-    "Ha tre cuori: due, vicino alle branchie, pompano il sangue ossigenato verso il terzo, che lo distribuisce a tutto il corpo.",
-    "Cambia colore molto velocemente e con grande precisione, sia per non farsi vedere dai predatori sia per comunicare con i suoi simili. Per difendersi espelle inchiostro nero, che crea una barriera visiva e confonde l'olfatto del predatore.",
-    "Il nome viene dal greco e significa 'dai molti piedi'. Chiamarlo 'polipo' è un errore: i polipi sono animali come coralli e anemoni. Il polpo comune vive in media un anno, al massimo un anno e mezzo."
-   ],
-   "quotes": [
-    {
-     "text": "Il polpo possiede 3 cuori",
-     "translation": null,
-     "author": null
-    }
-   ],
-   "sources": [
-    {
-     "name": "Wikipedia",
-     "title": "Octopus vulgaris",
-     "url": "https://it.wikipedia.org/wiki/Octopus_vulgaris"
-    }
-   ],
-   "date": "2026-10-21T01:02:09Z",
-   "addedAt": "2026-10-21T01:02:09Z",
-   "when": "Biologia marina",
-   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Octopus_vulgaris_2.jpg/1280px-Octopus_vulgaris_2.jpg",
-   "imageCredit": "Wikimedia Commons",
-   "solidityNote": null,
-   "url": "https://it.wikipedia.org/wiki/Octopus_vulgaris"
-  },
-  {
-   "id": "3689d5824c5d",
+   "id": "00e9043ce8ea",
    "section": "sapevi",
    "topic": "Spazio",
    "solidity": "consolidato",
    "title": "Il disco d'oro dei Voyager porta saluti in 55 lingue a chiunque lo troverà",
-   "summary": "A bordo delle sonde Voyager viaggia un disco con 115 immagini, suoni della Terra, musica di molte culture e saluti in 55 lingue. È più un gesto simbolico che un messaggio.",
+   "summary": "A bordo delle sonde Voyager viaggia un disco con 115 immagini, suoni della Terra, 90 minuti di musica e saluti in 55 lingue. Ci vorranno 40.000 anni per avvicinarsi a un'altra stella.",
    "body": [
-    "Il Voyager Golden Record è un disco per grammofono inserito nelle due sonde Voyager, lanciate nel 1977. Contiene suoni e immagini scelti per rappresentare la varietà della vita e della cultura sulla Terra, destinati a eventuali forme di vita extraterrestri o agli esseri umani del futuro.",
-    "Il contenuto fu scelto per la NASA da una commissione guidata da Carl Sagan: 115 immagini, suoni naturali come onde, vento, tuoni, canti di uccelli e di balene, circa 90 minuti di musica di diverse culture ed epoche e saluti in 55 lingue, dall'antico accadico alla lingua wu parlata oggi in Cina.",
-    "Ci sono anche i messaggi del presidente degli Stati Uniti Jimmy Carter e del segretario generale dell'ONU Kurt Waldheim.",
-    "Le probabilità che qualcuno lo trovi sono estremamente remote: la sonda impiegherà 40.000 anni per arrivare vicino a un'altra stella. Per questo il disco è considerato soprattutto un gesto simbolico, più che un vero tentativo di comunicare."
+    "Il contenuto del disco d'oro fu scelto per la NASA da una commissione guidata da Carl Sagan della Cornell University: 115 immagini e molti suoni naturali, come onde, vento, tuoni, uccelli, balene e altri animali.",
+    "A questi si aggiunsero brani musicali di culture ed epoche diverse, saluti a voce in 55 lingue e messaggi scritti del presidente degli Stati Uniti Jimmy Carter e del segretario generale dell'ONU Kurt Waldheim. I saluti iniziano con l'accadico, parlato in Sumer circa seimila anni fa, e finiscono con il wu, un dialetto cinese moderno.",
+    "Ogni disco è chiuso in una custodia di alluminio con una puntina e istruzioni in linguaggio simbolico che spiegano da dove viene la sonda e come suonarlo. Le immagini sono codificate in forma analogica; il resto è audio, da riprodurre a 16 giri e 2/3 al minuto.",
+    "Passeranno quarantamila anni prima che le sonde si avvicinino a un altro sistema planetario. Come disse Sagan, il disco sarà suonato solo se esistono civiltà avanzate capaci di viaggiare nello spazio interstellare."
    ],
    "quotes": [
     {
-     "text": "Il suo lancio è infatti visto più che altro come qualcosa di simbolico che non un tentativo reale di comunicare con forme di vita extraterrestri.",
-     "translation": null,
-     "author": null
+     "text": "But the launching of this bottle into the cosmic ocean says something very hopeful about life on this planet.",
+     "translation": "Ma il lancio di questa bottiglia nell'oceano cosmico dice qualcosa di molto pieno di speranza sulla vita su questo pianeta.",
+     "author": "Carl Sagan"
     }
    ],
    "sources": [
     {
-     "name": "Wikipedia",
-     "title": "Voyager Golden Record",
-     "url": "https://it.wikipedia.org/wiki/Voyager_Golden_Record"
+     "name": "NASA",
+     "title": "Golden Record Contents",
+     "url": "https://science.nasa.gov/mission/voyager/golden-record-contents/"
     }
    ],
    "date": "2026-10-21T01:02:09Z",
    "addedAt": "2026-10-21T01:02:09Z",
    "when": "Lanciato nel 1977",
-   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/The_Sounds_of_Earth_-_GPN-2000-001976.jpg/1280px-The_Sounds_of_Earth_-_GPN-2000-001976.jpg",
-   "imageCredit": "Wikimedia Commons",
+   "image": "https://science.nasa.gov/wp-content/uploads/2024/03/voyager-record-cover-446eb9.jpg",
+   "imageCredit": "NASA/JPL",
    "solidityNote": null,
-   "url": "https://it.wikipedia.org/wiki/Voyager_Golden_Record"
+   "url": "https://science.nasa.gov/mission/voyager/golden-record-contents"
   }
  ]
 }

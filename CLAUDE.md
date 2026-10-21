@@ -15,7 +15,12 @@ App personale (PWA statica, nessun build) pubblicata su GitHub Pages: https://l0
 - `novita` → "Ricerca recente": studi e notizie da enti/riviste, ordinate per data.
 
 ## Come aggiungere schede (quando l'utente lo chiede)
-1. Scegli fonti affidabili: enti di ricerca e agenzie (ESA, NASA, ESO, INAF, INGV, ISTAT, ECDC, OMS, NOAA), riviste scientifiche, università, Wikipedia (italiana) per le conoscenze consolidate. Niente aggregatori, blog o testate generaliste.
+1. **Fonti: solo ufficiali o di grande autorevolezza. NON usare Wikipedia** (l'utente non la vuole: è modificabile da chiunque, e confrontandola con le fonti ufficiali abbiamo trovato dati sbagliati). Ordine di preferenza:
+   - enti e agenzie: NASA, ESA, ESO, INAF, INGV, ISTAT, OMS, ECDC, NOAA, UNESCO, Commissione europea (CORDIS);
+   - articoli originali e grandi riviste: Nature, Science, PNAS, Proceedings of the Royal Society, Physical Review Letters;
+   - università, musei e istituzioni storiche: British Museum, Smithsonian, Museo Galileo, King's College, Linnean Society, Fondazione Nobel (nobelprize.org), American Physical Society, Science History Institute;
+   - libri e testi pubblici (citazioni dall'opera originale, es. Darwin) solo tramite un'istituzione che li pubblica.
+   Niente aggregatori, blog, testate generaliste o siti commerciali. Se per un argomento non esiste una fonte così, non fare la scheda. Le sole immagini possono venire da Wikimedia Commons, citando il credito.
 2. Leggi il testo vero della fonte (pagina o API di Wikipedia). Scrivi **solo** ciò che dice la fonte: niente fatti dalla memoria, niente esagerazioni o clickbait; mantieni le cautele ("potrebbe", "secondo un modello").
 3. Formato di ogni scheda in `data/cards.json` (campo `cards`):
    ```json
