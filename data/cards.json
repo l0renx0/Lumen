@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-10-21T10:08:47Z",
+ "updatedAt": "2026-10-21T10:29:15Z",
  "cards": [
   {
    "id": "caebee87b7f6",
@@ -4933,6 +4933,406 @@
    },
    "videos": [],
    "videoQuery": "Batteries for the Moon: NASA develops solid-state cells for -200 °C"
+  },
+  {
+   "id": "b7318547d161",
+   "section": "novita",
+   "topic": "Design",
+   "solidity": "ufficiale",
+   "title": "Il museo del design dello Smithsonian tira fuori dai magazzini la sua collezione",
+   "summary": "Con “Design Across Time” il Cooper Hewitt di New York espone per due anni oltre 125 opere della collezione nazionale americana di design, di solito conservata nei depositi.",
+   "body": [
+    "Il Cooper Hewitt, il museo dello Smithsonian interamente dedicato al design, ha inaugurato il 26 giugno 2026 le sue gallerie permanenti con la mostra “Design Across Time”, che resterà aperta per due anni.",
+    "Il museo custodisce la collezione nazionale di design degli Stati Uniti, una delle più ampie e varie al mondo, che come accade in quasi tutti i musei è conservata soprattutto nei magazzini. La direttrice Maria Nicanor spiega che ampliarne l'accesso è diventato urgente.",
+    "La mostra riunisce oltre 125 opere di molte discipline: design di prodotto e grafico, moda, tessuti, design digitale, carte da parati e architettura. Gli oggetti verranno cambiati a rotazione durante i due anni."
+   ],
+   "quotes": [
+    {
+     "text": "Cooper Hewitt holds the nation’s design collection, a public resource that belongs to all and that, as is common across museums worldwide, is largely kept in storage,",
+     "translation": "Il Cooper Hewitt custodisce la collezione nazionale di design, una risorsa pubblica che appartiene a tutti e che, come accade nei musei di tutto il mondo, è in gran parte conservata nei depositi.",
+     "author": "Maria Nicanor, direttrice del Cooper Hewitt"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Cooper Hewitt, Smithsonian Design Museum",
+     "title": "Cooper Hewitt Unveils Permanent Collection Galleries",
+     "url": "https://www.cooperhewitt.org/2026/06/15/cooper-hewitt-unveils-permanent-collection-galleries-showcasing-a-multi-year-presentation-of-the-national-design-collection/"
+    }
+   ],
+   "date": "2026-06-15T12:00:00Z",
+   "addedAt": "2026-10-21T10:29:15Z",
+   "when": null,
+   "image": "https://www.cooperhewitt.org/wp-content/uploads/2026/03/WebBanner_2000x1000-DesignAcrossTime-030226-1.jpg",
+   "imageCredit": "Cooper Hewitt",
+   "solidityNote": null,
+   "url": "https://cooperhewitt.org/2026/06/15/cooper-hewitt-unveils-permanent-collection-galleries-showcasing-a-multi-year-presentation-of-the-national-design-collection",
+   "en": {
+    "title": "The Smithsonian's design museum brings its collection out of storage",
+    "summary": "With “Design Across Time”, New York's Cooper Hewitt is showing over 125 works from the US national design collection for two years — works usually kept in storage.",
+    "body": [
+     "Cooper Hewitt, the Smithsonian museum devoted entirely to design, opened its permanent collection galleries on 26 June 2026 with “Design Across Time”, on view for two years.",
+     "The museum holds the US national design collection, one of the most diverse and comprehensive in the world, which — as in most museums — is largely kept in storage. Director Maria Nicanor says expanding access to it has become urgent.",
+     "The exhibition brings together more than 125 works across many disciplines: product and graphic design, fashion, textiles, digital design, wallcoverings and architecture. Objects will rotate over the two years."
+    ],
+    "when": null,
+    "note": null,
+    "quotes": [
+     null
+    ]
+   },
+   "videos": [],
+   "videoQuery": "The Smithsonian's design museum brings its collection out of storage"
+  },
+  {
+   "id": "9db0048b7819",
+   "section": "novita",
+   "topic": "Design",
+   "solidity": "ufficiale",
+   "title": "National Design Awards 2026: premiati clima, interni, paesaggio e artigianato",
+   "summary": "Lo Smithsonian ha consegnato i premi nazionali di design americani: tra i vincitori un progetto per il clima e il laboratorio artigiano degli studenti del Berea College.",
+   "body": [
+    "Il 19 maggio 2026, a New York, il Cooper Hewitt ha consegnato i National Design Awards, i premi nazionali di design dello Smithsonian, davanti a oltre 300 persone del mondo del design, della cultura e delle imprese.",
+    "Nati nel 2000 come progetto ufficiale del White House Millennium Council, i premi riconoscono innovazione e impatto in 10 discipline del design e sono tra i riconoscimenti più importanti del settore negli Stati Uniti.",
+    "Tra i vincitori di quest'anno: Estudio Teddy Cruz + Fonna Forman per l'azione climatica, Charlap Hyman & Herrero per il design d'interni, Ten Eyck Landscape Architects per l'architettura del paesaggio e il laboratorio artigiano degli studenti del Berea College per il design di prodotto."
+   ],
+   "quotes": [
+    {
+     "text": "the National Design Awards recognize innovation and impact across 10 design disciplines",
+     "translation": "i National Design Awards riconoscono innovazione e impatto in 10 discipline del design",
+     "author": "Cooper Hewitt"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Cooper Hewitt, Smithsonian Design Museum",
+     "title": "Cooper Hewitt Celebrates 2026 National Design Award Winners",
+     "url": "https://www.cooperhewitt.org/2026/05/20/cooper-hewitt-celebrates-2026-national-design-award-winners-and-honorees-at-annual-gala/"
+    }
+   ],
+   "date": "2026-05-20T12:00:00Z",
+   "addedAt": "2026-10-21T10:29:15Z",
+   "when": null,
+   "image": "https://www.cooperhewitt.org/wp-content/uploads/2026/05/National-Design-Awards-Awardees-Honorees-Aric-Chen-Maria-Nicanor-and-Jon-Iwata-scaled.jpg",
+   "imageCredit": "Cooper Hewitt",
+   "solidityNote": null,
+   "url": "https://cooperhewitt.org/2026/05/20/cooper-hewitt-celebrates-2026-national-design-award-winners-and-honorees-at-annual-gala",
+   "en": {
+    "title": "National Design Awards 2026: climate, interiors, landscape and craft honoured",
+    "summary": "The Smithsonian presented the US national design awards: winners include a climate action project and the student craft workshop of Berea College.",
+    "body": [
+     "On 19 May 2026 in New York, Cooper Hewitt presented the National Design Awards, the Smithsonian's national design prizes, before more than 300 leaders from design, culture and business.",
+     "Established in 2000 as an official project of the White House Millennium Council, the awards recognise innovation and impact across 10 design disciplines and are among the field's highest honours in the US.",
+     "This year's winners include Estudio Teddy Cruz + Fonna Forman for climate action, Charlap Hyman & Herrero for interior design, Ten Eyck Landscape Architects for landscape architecture and Berea College Student Craft for product design."
+    ],
+    "when": null,
+    "note": null,
+    "quotes": [
+     null
+    ]
+   },
+   "videos": [],
+   "videoQuery": "National Design Awards 2026: climate, interiors, landscape and craft honoured"
+  },
+  {
+   "id": "84bec0472aae",
+   "section": "novita",
+   "topic": "Design",
+   "solidity": "ufficiale",
+   "title": "Le ceramiche colorate che i vittoriani amavano, e il piombo che le fece sparire",
+   "summary": "Il V&A racconta la “majolica” di Wedgwood: oltre 4.000 disegni in quasi 90 anni, poi il declino per i gusti cambiati e la tossicità del piombo.",
+   "body": [
+    "La “majolica” era una ceramica vittoriana dai colori vivaci, con smalti al piombo, prodotta da Wedgwood per quasi 90 anni. Iniziata negli anni '60 dell'Ottocento, fu un successo fino alla fine del secolo.",
+    "Poi passò di moda, sia per il cambiamento dei gusti sia per la crescente consapevolezza della tossicità del piombo. Secondo gli archivi, Wedgwood ne produsse piccole quantità fino agli anni '40 del Novecento.",
+    "Wedgwood fu uno dei produttori più prolifici del Paese, con oltre 4.000 disegni registrati nei suoi libri dei modelli. L'archivio Wedgwood del V&A conserva più di 100.000 documenti su 260 anni di storia dell'azienda, che una ricercatrice sta studiando per ricostruire la vita dei lavoratori."
+   ],
+   "quotes": [
+    {
+     "text": "over 4000 majolica designs documented in their pattern books",
+     "translation": "oltre 4.000 disegni di majolica documentati nei loro libri dei modelli",
+     "author": "V&A"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Victoria and Albert Museum",
+     "title": "Meet the Majolica Makers",
+     "url": "https://www.vam.ac.uk/blog/museum-life/meet-the-majolica-makers"
+    }
+   ],
+   "date": "2026-10-19T12:00:00Z",
+   "addedAt": "2026-10-21T10:29:15Z",
+   "when": null,
+   "image": "https://www.vam.ac.uk/blog/wp-content/uploads/Image-2-24.jpg",
+   "imageCredit": "V&A",
+   "solidityNote": null,
+   "url": "https://vam.ac.uk/blog/museum-life/meet-the-majolica-makers",
+   "en": {
+    "title": "The colourful ceramics the Victorians loved — and the lead that made them vanish",
+    "summary": "The V&A tells the story of Wedgwood's “majolica”: over 4,000 designs in almost 90 years, then decline due to changing tastes and lead toxicity.",
+    "body": [
+     "“Majolica” was a vibrant, lead-glazed Victorian ceramic made by Wedgwood for almost 90 years. Production began in the 1860s and it was a best seller until near the end of the century.",
+     "Then it fell out of fashion, because of changing tastes and a growing awareness of lead's toxicity. Records show Wedgwood still made small amounts as late as the 1940s.",
+     "Wedgwood became one of the country's most prolific majolica makers, with over 4,000 designs documented in its pattern books. The V&A Wedgwood Collection Archive holds more than 100,000 documents spanning 260 years, which a researcher is studying to reconstruct the lives of the workers."
+    ],
+    "when": null,
+    "note": null,
+    "quotes": [
+     null
+    ]
+   },
+   "videos": [],
+   "videoQuery": "The colourful ceramics the Victorians loved — and the lead that made them vanish"
+  },
+  {
+   "id": "0c4b588924fa",
+   "section": "novita",
+   "topic": "Natura",
+   "solidity": "ufficiale",
+   "title": "Le emissioni globali si fermano, ma il mondo corre verso i 2 °C",
+   "summary": "Secondo il nuovo rapporto ONU sul clima, le emissioni sono rimaste quasi stabili tra 2024 e 2025. Con le politiche attuali però il riscaldamento arriverebbe a 2,6-2,8 °C.",
+   "body": [
+    "Le emissioni globali di gas serra sono rimaste più o meno stabili dal 2024 al 2025. Ma secondo l'ultimo rapporto annuale del Programma ONU per l'ambiente (UNEP), pubblicato il 21 ottobre, senza un'accelerazione nei tagli le temperature medie supereranno i 2 °C di riscaldamento intorno a metà secolo.",
+    "Con le politiche attuali gli scienziati stimano un riscaldamento di 2,6-2,8 °C rispetto all'era preindustriale entro fine secolo, ben oltre il limite di 2 °C dell'Accordo di Parigi del 2015. C'è anche una probabilità del 10% di superare i 3,4 °C.",
+    "Il segretario generale dell'ONU António Guterres ha detto che il mondo non può più evitare di superare il limite di 1,5 °C e ha chiesto ai governi di accelerare: abbandonare i combustibili fossili, espandere l'elettricità pulita e invertire la deforestazione."
+   ],
+   "quotes": [
+    {
+     "text": "Global greenhouse-gas emissions were roughly flat from 2024 to 2025.",
+     "translation": "Le emissioni globali di gas serra sono rimaste più o meno stabili dal 2024 al 2025.",
+     "author": "Nature"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Nature",
+     "title": "Global emissions slow — but world hurtles towards 2 °C of warming",
+     "url": "https://www.nature.com/articles/d41586-026-03355-x"
+    }
+   ],
+   "date": "2026-10-21T12:00:00Z",
+   "addedAt": "2026-10-21T10:29:15Z",
+   "when": null,
+   "image": "https://media.nature.com/lw1200/magazine-assets/d41586-026-03355-x/d41586-026-03355-x_53883066.jpg",
+   "imageCredit": "Costfoto/NurPhoto via Getty",
+   "solidityNote": "Rapporto ufficiale ONU riportato da Nature; le proiezioni dipendono dalle politiche future.",
+   "url": "https://nature.com/articles/d41586-026-03355-x",
+   "en": {
+    "title": "Global emissions stall, but the world races towards 2 °C",
+    "summary": "According to the new UN climate report, emissions were roughly flat between 2024 and 2025. Under current policies, however, warming would reach 2.6-2.8 °C.",
+    "body": [
+     "Global greenhouse-gas emissions were roughly flat from 2024 to 2025. But according to the latest annual report of the UN Environment Programme (UNEP), published on 21 October, average temperatures will pass 2 °C of warming around mid-century unless cuts speed up sharply.",
+     "Under current policies scientists estimate warming of 2.6-2.8 °C above pre-industrial levels this century, well beyond the 2 °C limit of the 2015 Paris Agreement. There is also a 10% chance of exceeding 3.4 °C.",
+     "UN Secretary-General António Guterres said the world can no longer avoid overshooting the 1.5 °C limit, and called on governments to move faster: transition away from fossil fuels, expand clean electricity and reverse deforestation."
+    ],
+    "when": null,
+    "note": "Official UN report covered by Nature; projections depend on future policies.",
+    "quotes": [
+     null
+    ]
+   },
+   "videos": [],
+   "videoQuery": "Global emissions stall, but the world races towards 2 °C"
+  },
+  {
+   "id": "50b3c48810b3",
+   "section": "novita",
+   "topic": "Salute",
+   "solidity": "ufficiale",
+   "title": "Ebola in Congo: oltre 9.500 casi confermati, i dati aggiornati dell'ECDC",
+   "summary": "Al 19 ottobre 2026 la Repubblica Democratica del Congo ha segnalato 9.552 casi confermati e 4.602 morti. La provincia più colpita è l'Ituri.",
+   "body": [
+    "Secondo il Centro europeo per la prevenzione e il controllo delle malattie (ECDC), al 19 ottobre 2026 la Repubblica Democratica del Congo ha segnalato in totale 9.552 casi confermati di malattia da virus Ebola, con 4.602 morti. I pazienti ricoverati in isolamento sono 937.",
+    "Tra le persone risultate positive al virus Bundibugyo, 2.550 sono guarite. Il 76,9% dei contatti dei casi identificati è seguito dalle autorità sanitarie nelle province colpite.",
+    "La provincia più colpita resta l'Ituri, con 6.960 casi e 3.217 morti, seguita dal Nord Kivu con 2.084 casi. Dall'aggiornamento precedente sono stati segnalati 97 nuovi casi confermati, tra cui 41 morti. L'ECDC aggiorna la pagina ogni giorno feriale."
+   ],
+   "quotes": [
+    {
+     "text": "the Democratic Republic of the Congo (DRC) reported a total of 9 552 confirmed cases, including 4 602 related deaths",
+     "translation": "la Repubblica Democratica del Congo ha segnalato in totale 9.552 casi confermati, di cui 4.602 decessi",
+     "author": "ECDC"
+    }
+   ],
+   "sources": [
+    {
+     "name": "ECDC",
+     "title": "Ebola disease outbreak in the Democratic Republic of the Congo",
+     "url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda"
+    }
+   ],
+   "date": "2026-10-19T15:00:00Z",
+   "addedAt": "2026-10-21T10:29:15Z",
+   "when": null,
+   "image": "https://www.ecdc.europa.eu/sites/default/files/styles/metatag_image_large/public/images/Ebola2_H.jpg",
+   "imageCredit": "ECDC",
+   "solidityNote": "Dati di sorveglianza ufficiali, aggiornati di continuo.",
+   "url": "https://ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
+   "en": {
+    "title": "Ebola in Congo: over 9,500 confirmed cases, ECDC's latest figures",
+    "summary": "As of 19 October 2026 the Democratic Republic of the Congo has reported 9,552 confirmed cases and 4,602 deaths. The worst-hit province is Ituri.",
+    "body": [
+     "According to the European Centre for Disease Prevention and Control (ECDC), as of 19 October 2026 the Democratic Republic of the Congo has reported a total of 9,552 confirmed cases of Ebola disease, with 4,602 deaths. 937 patients are hospitalised in isolation.",
+     "Among people who tested positive for Bundibugyo virus, 2,550 have recovered. 76.9% of identified case contacts are being followed up in the affected provinces.",
+     "Ituri remains the most affected province, with 6,960 cases and 3,217 deaths, followed by North Kivu with 2,084 cases. Since the previous update, 97 new confirmed cases, including 41 deaths, have been reported. ECDC updates the page every weekday."
+    ],
+    "when": null,
+    "note": "Official surveillance data, continuously updated.",
+    "quotes": [
+     null
+    ]
+   },
+   "videos": [],
+   "videoQuery": "Ebola in Congo: over 9,500 confirmed cases, ECDC's latest figures"
+  },
+  {
+   "id": "840ed625c480",
+   "section": "novita",
+   "topic": "Finanza",
+   "solidity": "ufficiale",
+   "title": "BCE: l'energia cara spinge in alto le attese di inflazione",
+   "summary": "Nel resoconto della riunione di settembre, la BCE nota che i prezzi del gas in Europa sono ai massimi da inizio 2023 e che anche i prezzi alimentari preoccupano.",
+   "body": [
+    "La Banca centrale europea ha pubblicato il resoconto della riunione di politica monetaria del 9-10 settembre 2026, tenuta a Berlino. Isabel Schnabel ha aperto osservando che i mercati finanziari dell'area euro erano ancora guidati dall'andamento dei prezzi dell'energia.",
+    "Prezzi dell'energia persistentemente alti, rafforzati dai timori di un'inflazione alimentare più elevata, hanno spinto in alto le attese dei mercati su inflazione e tassi. I prezzi sono saliti per le rinnovate ostilità tra Stati Uniti e Iran.",
+    "In Europa l'attenzione si è spostata dal petrolio ai prodotti raffinati e al gas: i prezzi europei del gas hanno toccato il livello più alto da inizio 2023, e le scorte basse potrebbero spingerli ancora. Anche l'ondata di calore estiva e un probabile forte El Niño hanno aumentato i timori sui prezzi."
+   ],
+   "quotes": [
+    {
+     "text": "European gas prices had risen to the highest level recorded since early 2023",
+     "translation": "i prezzi europei del gas erano saliti al livello più alto registrato dall'inizio del 2023",
+     "author": "BCE"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Banca centrale europea (BCE)",
+     "title": "Account of the monetary policy meeting, 9-10 September 2026",
+     "url": "https://www.ecb.europa.eu/press/accounts/2026/html/ecb.mg261008~a10153d090.en.html"
+    }
+   ],
+   "date": "2026-10-08T12:00:00Z",
+   "addedAt": "2026-10-21T10:29:15Z",
+   "when": null,
+   "image": null,
+   "imageCredit": null,
+   "solidityNote": "Resoconto ufficiale di una riunione: descrive valutazioni e timori, non previsioni certe.",
+   "url": "https://ecb.europa.eu/press/accounts/2026/html/ecb.mg261008~a10153d090.en.html",
+   "en": {
+    "title": "ECB: expensive energy pushes inflation expectations higher",
+    "summary": "In the account of its September meeting, the ECB notes European gas prices at their highest since early 2023, with food prices also a concern.",
+    "body": [
+     "The European Central Bank published the account of its 9-10 September 2026 monetary policy meeting, held in Berlin. Isabel Schnabel opened by observing that euro area financial markets were still being driven by energy price developments.",
+     "Persistently high energy prices, reinforced by concerns about higher food price inflation, had pushed market expectations for inflation and policy rates higher. Prices rose because of renewed US-Iran hostilities.",
+     "In Europe the focus shifted from oil to refined products and gas: European gas prices reached their highest level since early 2023, and low storage could push them up further. The summer heatwave and a likely strong El Niño also added to price concerns."
+    ],
+    "when": null,
+    "note": "Official meeting account: it describes assessments and concerns, not certain forecasts.",
+    "quotes": [
+     null
+    ]
+   },
+   "videos": [],
+   "videoQuery": "ECB: expensive energy pushes inflation expectations higher"
+  },
+  {
+   "id": "2ba3e26f1df1",
+   "section": "novita",
+   "topic": "Natura",
+   "solidity": "ufficiale",
+   "title": "Barche senza equipaggio gireranno attorno all'Antartide per 5 anni",
+   "summary": "Una flotta di Saildrone misurerà quanta anidride carbonica assorbe l'Oceano Australe, uno dei mari più pericolosi del mondo e chiave per il clima.",
+   "body": [
+    "L'Oceano Australe è uno dei mari più agitati e pericolosi della Terra, ma è anche fondamentale per capire il clima globale. Le grandi distanze e le condizioni estreme hanno scoraggiato le spedizioni con le navi, soprattutto d'inverno.",
+    "Per questo il 19 settembre 2026 è partito da Hobart, in Tasmania, il primo di quattro Saildrone Explorer, barche a vela senza equipaggio piene di strumenti. Il progetto COCO2, guidato da NOAA, Columbia University e l'ente australiano CSIRO, durerà cinque anni.",
+    "Nel 2027 partiranno altri tre Saildrone, uno ogni tre mesi. La piccola flotta farà più volte il giro dell'Antartide, seguendo rotte calcolate anche con l'intelligenza artificiale, per misurare quanta anidride carbonica assorbe l'oceano."
+   ],
+   "quotes": [
+    {
+     "text": "The Southern Ocean is one of the roughest and most dangerous bodies of water on Earth.",
+     "translation": "L'Oceano Australe è uno dei mari più agitati e pericolosi della Terra.",
+     "author": "NOAA"
+    }
+   ],
+   "sources": [
+    {
+     "name": "NOAA",
+     "title": "Saildrone research fleet to circle Antarctica for 5 years",
+     "url": "https://www.noaa.gov/news/saildrone-research-fleet-to-circle-antarctica-for-5-years"
+    }
+   ],
+   "date": "2026-10-08T12:00:00Z",
+   "addedAt": "2026-10-21T10:29:15Z",
+   "when": null,
+   "image": "https://www.noaa.gov/sites/default/files/styles/landscape_width_1275/public/2026-10/towing-to-release-point.jpg",
+   "imageCredit": "CSIRO/APP",
+   "solidityNote": null,
+   "url": "https://noaa.gov/news/saildrone-research-fleet-to-circle-antarctica-for-5-years",
+   "en": {
+    "title": "Uncrewed boats will circle Antarctica for 5 years",
+    "summary": "A fleet of Saildrones will measure how much carbon dioxide the Southern Ocean absorbs — one of the world's most dangerous seas and a key to the climate.",
+    "body": [
+     "The Southern Ocean is one of the roughest and most dangerous bodies of water on Earth, but it is also key to understanding the global climate. Vast distances and harsh conditions have discouraged ship-based investigations, especially in winter.",
+     "So on 19 September 2026 the first of four Saildrone Explorers — instrumented, uncrewed sailing vehicles — left Hobart, Tasmania. The COCO2 project, led by NOAA, Columbia University and Australia's CSIRO, will last five years.",
+     "In 2027 three more Saildrones will be deployed, one every three months. The small fleet will repeatedly circle Antarctica, on courses identified partly with AI, to measure how much carbon dioxide the ocean absorbs."
+    ],
+    "when": null,
+    "note": null,
+    "quotes": [
+     null
+    ]
+   },
+   "videos": [],
+   "videoQuery": "Uncrewed boats will circle Antarctica for 5 years"
+  },
+  {
+   "id": "c236163dc5dc",
+   "section": "novita",
+   "topic": "Natura",
+   "solidity": "ufficiale",
+   "title": "Arriva un El Niño molto forte: cosa prevede la NOAA per l'inverno",
+   "summary": "Per dicembre-febbraio la NOAA prevede un nord degli Stati Uniti più caldo e un sud più piovoso. Un El Niño molto forte sposta la corrente a getto.",
+   "body": [
+    "La NOAA ha pubblicato le previsioni per l'inverno 2026-2027 negli Stati Uniti, da dicembre a febbraio, dominate da El Niño: temperature sopra la media al nord e condizioni più piovose al sud, dalla California alla Florida, e lungo la costa orientale.",
+    "Secondo Ken Graham, direttore del National Weather Service, decenni di osservazioni mostrano che un El Niño molto forte sposta verso sud ed est la corrente a getto, aumentando le probabilità di tempo più tempestoso al sud.",
+    "Più pioggia e neve potrebbero dare sollievo alle zone colpite dalla siccità, ma troppa acqua su terreni secchi può causare alluvioni lampo e frane. Per questo la NOAA invita comunità e cittadini a prepararsi."
+   ],
+   "quotes": [
+    {
+     "text": "a very strong El Nino will likely bring a southward and eastward shift to the jet stream",
+     "translation": "un El Niño molto forte porterà probabilmente uno spostamento verso sud ed est della corrente a getto",
+     "author": "Ken Graham, NOAA"
+    }
+   ],
+   "sources": [
+    {
+     "name": "NOAA",
+     "title": "El Nino looms large over U.S. Winter Outlook",
+     "url": "https://www.noaa.gov/news-release/el-nino-looms-large-over-us-winter-outlook"
+    }
+   ],
+   "date": "2026-10-14T12:00:00Z",
+   "addedAt": "2026-10-21T10:29:15Z",
+   "when": null,
+   "image": "https://www.noaa.gov/sites/default/files/styles/landscape_width_1275/public/2026-10/240314-NWSRH-Broomfield-Colorado-Snow-012.jpeg",
+   "imageCredit": "Bob Hyatt/NOAA",
+   "solidityNote": "Previsione stagionale ufficiale: indica probabilità, non certezze.",
+   "url": "https://noaa.gov/news-release/el-nino-looms-large-over-us-winter-outlook",
+   "en": {
+    "title": "A very strong El Niño is coming: what NOAA forecasts for winter",
+    "summary": "For December-February NOAA expects a warmer northern US and a wetter South. A very strong El Niño shifts the jet stream.",
+    "body": [
+     "NOAA has released its 2026-2027 US Winter Outlook for December to February, dominated by El Niño: warmer-than-average temperatures across the north and wetter conditions in the south, from California to Florida, and along the East Coast.",
+     "According to Ken Graham, director of the National Weather Service, decades of observations show that a very strong El Niño shifts the jet stream south and east, tilting the odds towards stormier weather across the South.",
+     "More rain and snow may bring relief to drought-hit areas, but too much water on dry soil can fuel flash floods and mudslides. That's why NOAA urges communities and individuals to plan ahead."
+    ],
+    "when": null,
+    "note": "Official seasonal outlook: it gives probabilities, not certainties.",
+    "quotes": [
+     null
+    ]
+   },
+   "videos": [],
+   "videoQuery": "A very strong El Niño is coming: what NOAA forecasts for winter"
   }
  ]
 }
