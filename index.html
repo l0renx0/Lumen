@@ -4,9 +4,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>Lumen · Una cosa vera al giorno</title>
-  <meta name="description" content="Un feed personale di conoscenze verificate, da fonti scientifiche e istituzionali affidabili.">
-  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
-  <meta name="theme-color" content="#0b0b0c" media="(prefers-color-scheme: dark)">
+  <meta name="description" content="Un feed personale di conoscenze verificate, da fonti ufficiali e autorevoli.">
+  <meta name="theme-color" content="#fbfaf7" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0c0c0d" media="(prefers-color-scheme: dark)">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
@@ -16,20 +16,25 @@
   <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/app.css">
   <script>
-    // Applica il tema prima del primo disegno, per evitare lampi bianchi.
-    try { const t = localStorage.getItem('lumen.theme'); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
+    // Tema e lingua applicati prima del primo disegno, per evitare lampi.
+    try {
+      const g = (k) => (localStorage.getItem('lumen.' + k) || '').replace(/"/g, '');
+      if (g('theme')) document.documentElement.dataset.theme = g('theme');
+      if (g('lang')) document.documentElement.lang = g('lang');
+    } catch (e) {}
   </script>
 </head>
 <body>
-  <a class="skip" href="#feed">Vai alle schede</a>
+  <a class="skip" href="#feed" data-i18n="skip">Vai alle schede</a>
+  <div class="progress-top" id="readBar" aria-hidden="true"><span></span></div>
 
   <header class="top" id="top">
     <button class="fresh" id="fresh" hidden>
       <span class="fresh__dot" aria-hidden="true"></span>
-      Nuove schede · <strong>Aggiorna</strong>
+      <span data-i18n="fresh">Nuove schede</span> · <strong data-i18n="refresh">Aggiorna</strong>
     </button>
 
     <div class="top__row">
@@ -41,60 +46,76 @@
         </div>
       </div>
       <div class="top__actions">
-        <div class="daily" id="daily" title="Conoscenze di oggi">
-          <svg viewBox="0 0 36 36" aria-hidden="true"><circle class="daily__track" cx="18" cy="18" r="15"/><circle class="daily__fill" id="dailyFill" cx="18" cy="18" r="15"/></svg>
-          <span id="dailyCount">0</span>
-        </div>
-        <button class="icon-btn" id="themeBtn" aria-label="Cambia tema">
+        <button class="streak" id="streakBtn" aria-haspopup="dialog">
+          <svg class="streak__ring" viewBox="0 0 36 36" aria-hidden="true"><circle class="streak__track" cx="18" cy="18" r="16"/><circle class="streak__fill" id="streakFill" cx="18" cy="18" r="16"/></svg>
+          <svg class="streak__flame" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.5c.6 3.2-1.2 4.9-2.7 6.5C7.8 10.6 6.5 12.2 6.5 15a5.5 5.5 0 0 0 11 0c0-2.1-.9-3.6-1.9-4.9-.3 1.5-1.1 2.6-2.4 3 .6-3.9-.4-7.6-1.2-10.6Z"/></svg>
+          <span class="streak__num" id="streakNum">0</span>
+        </button>
+        <button class="lang" id="langBtn" aria-label="Lingua / Language"><span data-l="it">IT</span><span data-l="en">EN</span></button>
+        <button class="icon-btn" id="themeBtn" aria-label="Tema">
           <svg viewBox="0 0 24 24" aria-hidden="true"><path class="i-sun" d="M12 4V2m0 20v-2m8-8h2M2 12h2m13.66-5.66 1.41-1.41M4.93 19.07l1.41-1.41m0-11.32L4.93 4.93m14.14 14.14-1.41-1.41M12 17a5 5 0 1 0 0-10 5 5 0 0 0 0 10Z"/><path class="i-moon" d="M20.5 14.5A8.5 8.5 0 0 1 9.5 3.5a8.5 8.5 0 1 0 11 11Z"/></svg>
         </button>
       </div>
     </div>
 
-    <nav class="tabs" role="tablist" aria-label="Sezioni">
-      <button role="tab" class="tabs__btn" data-section="sapevi" aria-selected="true">Lo sapevi?</button>
-      <button role="tab" class="tabs__btn" data-section="novita" aria-selected="false">Ricerca recente</button>
+    <nav class="tabs" id="tabs" role="tablist">
+      <button role="tab" class="tabs__btn" data-section="sapevi" data-i18n="tab_sapevi">Lo sapevi?</button>
+      <button role="tab" class="tabs__btn" data-section="novita" data-i18n="tab_novita">Ricerca</button>
+      <button role="tab" class="tabs__btn" data-section="aneddoti" data-i18n="tab_aneddoti">Aneddoti</button>
       <span class="tabs__pill" aria-hidden="true"></span>
     </nav>
 
-    <div class="chips" id="chips" role="toolbar" aria-label="Filtra per argomento"></div>
+    <div class="chips" id="chips" role="toolbar"></div>
   </header>
 
   <main class="feed" id="feed" tabindex="-1" aria-live="polite"></main>
 
-  <article class="detail" id="detail" aria-modal="true" role="dialog" aria-labelledby="dTitle" hidden>
+  <article class="detail" id="detail" role="dialog" aria-modal="true" aria-labelledby="dTitle">
     <div class="detail__scroll" id="detailScroll">
       <div class="detail__hero" id="dHero"></div>
-      <button class="detail__close icon-btn" id="dClose" aria-label="Chiudi">
+      <button class="detail__close icon-btn" id="dClose" data-i18n-label="close">
         <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
       </button>
       <div class="detail__body">
-        <div class="meta-row" id="dMeta"></div>
+        <div class="kicker" id="dMeta"></div>
         <h2 class="detail__title" id="dTitle"></h2>
         <p class="detail__lead" id="dLead"></p>
-        <div class="solid" id="dSolid"></div>
+        <div class="score" id="dScore"></div>
         <div class="prose" id="dBody"></div>
         <section class="quotes" id="dQuotes"></section>
+        <section class="videos" id="dVideos"></section>
         <section class="sources">
-          <h3 class="label">Fonti</h3>
+          <h3 class="label" data-i18n="sources">Fonti</h3>
           <ol id="dSources"></ol>
         </section>
-        <p class="disclaimer" id="dCredit"></p>
-        <p class="disclaimer">Testo riassunto con l'aiuto di un'intelligenza artificiale e verificato rispetto alla fonte. In caso di dubbio, fa fede sempre l'originale.</p>
+        <div class="done" id="dDone"></div>
+        <section class="next" id="dNext"></section>
+        <p class="fineprint" id="dCredit"></p>
+        <p class="fineprint" data-i18n="disclaimer">Ogni scheda riassume fonti ufficiali o autorevoli, con citazioni verificate parola per parola. In caso di dubbio, fa fede sempre l'originale.</p>
       </div>
     </div>
   </article>
+
+  <div class="sheet" id="sheet" role="dialog" aria-modal="true" aria-labelledby="sheetTitle" hidden>
+    <div class="sheet__backdrop" data-close></div>
+    <div class="sheet__panel">
+      <div class="sheet__grip" aria-hidden="true"></div>
+      <div id="sheetBody"></div>
+    </div>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
   <template id="cardTpl">
     <article class="card" tabindex="0">
       <div class="card__media"></div>
       <div class="card__content">
-        <div class="meta-row"></div>
+        <div class="card__meta"></div>
         <h2 class="card__title"></h2>
         <p class="card__summary"></p>
         <div class="card__foot">
           <span class="card__source"></span>
-          <span class="card__more">Leggi <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></span>
+          <span class="card__more"><span class="card__more-label"></span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></span>
         </div>
       </div>
     </article>

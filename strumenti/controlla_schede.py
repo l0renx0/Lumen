@@ -11,8 +11,8 @@ from pathlib import Path
 from urllib.parse import urlsplit, urlunsplit, parse_qsl, urlencode
 
 FILE = Path(__file__).resolve().parent.parent / "data" / "cards.json"
-TOPICS = {"Scienza", "Spazio", "Salute", "Storia", "Tecnologia", "Natura", "Società"}
-SOLIDITY = {"consolidato", "ufficiale", "recente", "preliminare"}
+TOPICS = {"Scienza", "Spazio", "Salute", "Storia", "Tecnologia", "Natura", "Società", "Psicologia", "Design", "Finanza", "Cinema"}
+SOLIDITY = {"consolidato", "ufficiale", "recente", "preliminare", "verosimile", "dubbio", "mito"}
 UA = "Mozilla/5.0 (compatible; LumenBot/1.0; lettore personale di divulgazione)"
 
 
@@ -58,12 +58,16 @@ def main():
         for campo in ("section", "topic", "solidity", "title", "summary", "body", "sources", "date"):
             if not c.get(campo):
                 errori.append(f"{nome}: manca '{campo}'")
-        if c.get("section") not in ("novita", "sapevi"):
+        if c.get("section") not in ("novita", "sapevi", "aneddoti"):
             errori.append(f"{nome}: sezione non valida")
         if c.get("topic") not in TOPICS:
             errori.append(f"{nome}: argomento non valido ({c.get('topic')})")
         if c.get("solidity") not in SOLIDITY:
             errori.append(f"{nome}: solidità non valida ({c.get('solidity')})")
+        if not c.get("en"):
+            avvisi.append(f"{nome}: manca la versione inglese (campo 'en')")
+        if c.get("section") == "aneddoti" and c.get("solidity") not in ("verosimile", "dubbio", "mito"):
+            errori.append(f"{nome}: un aneddoto deve avere un verdetto (verosimile, dubbio, mito)")
         if len(c.get("summary", "")) > 230:
             avvisi.append(f"{nome}: riassunto lungo ({len(c['summary'])} caratteri)")
         if not c.get("sources"):
@@ -104,8 +108,8 @@ def main():
         print("  avviso:", a)
     for e in errori:
         print("  ERRORE:", e)
-    conta = {s: sum(c["section"] == s for c in data["cards"]) for s in ("sapevi", "novita")}
-    print(f"{len(data['cards'])} schede ({conta['sapevi']} Lo sapevi?, {conta['novita']} Ricerca recente) · {len(errori)} errori · {len(avvisi)} avvisi")
+    conta = {s: sum(c["section"] == s for c in data["cards"]) for s in ("sapevi", "novita", "aneddoti")}
+    print(f"{len(data['cards'])} schede ({conta['sapevi']} Lo sapevi?, {conta['novita']} Ricerca, {conta['aneddoti']} Aneddoti) · {len(errori)} errori · {len(avvisi)} avvisi")
     sys.exit(1 if errori else 0)
 
 

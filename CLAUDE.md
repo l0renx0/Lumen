@@ -12,7 +12,16 @@ App personale (PWA statica, nessun build) pubblicata su GitHub Pages: https://l0
 
 ## Sezioni
 - `sapevi` → "Lo sapevi?": conoscenze consolidate. Sezione principale: l'app mostra prima le schede non lette, in un ordine che cambia ogni giorno ("La scoperta di oggi").
-- `novita` → "Ricerca recente": studi e notizie da enti/riviste, ordinate per data.
+- `novita` → "Ricerca": studi e notizie da enti/riviste, ordinate per data.
+- `aneddoti` → "Aneddoti": storie curiose, anche dubbie o false, ma sempre raccontate tramite una fonte autorevole che le verifica. Usano un **verdetto** invece della solidità: `verosimile` (probabilmente vero), `dubbio`, `mito` (falso).
+
+Argomenti ammessi: Scienza, Spazio, Salute, Storia, Natura, Tecnologia, Psicologia, Design, Finanza, Cinema, Società.
+
+## Lingue
+L'app è in italiano e inglese (pulsante IT/EN). **Ogni scheda deve avere anche la versione inglese** nel campo `en`: `{title, summary, body (stesso numero di paragrafi), when, note, quotes}`, dove `en.quotes` ha un elemento per citazione: la traduzione inglese se la citazione originale è in italiano, altrimenti `null`.
+
+## Video
+Campo `videos`: `[{id, title, channel, length}]` (id YouTube). Solo canali ufficiali o divulgatori riconosciuti (agenzie, musei, università, TED-Ed, Kurzgesagt, PBS, BBC, SciShow, CrashCourse…). Verifica ogni video con `https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=ID&format=json` (deve rispondere 200). Campo `videoQuery`: parole chiave per il pulsante "Cerca altri video su YouTube".
 
 ## Come aggiungere schede (quando l'utente lo chiede)
 1. **Fonti: solo ufficiali o di grande autorevolezza. NON usare Wikipedia** (l'utente non la vuole: è modificabile da chiunque, e confrontandola con le fonti ufficiali abbiamo trovato dati sbagliati). Ordine di preferenza:
@@ -25,9 +34,9 @@ App personale (PWA statica, nessun build) pubblicata su GitHub Pages: https://l0
 3. Formato di ogni scheda in `data/cards.json` (campo `cards`):
    ```json
    {
-     "section": "sapevi | novita",
-     "topic": "Scienza | Spazio | Salute | Storia | Tecnologia | Natura | Società",
-     "solidity": "consolidato | ufficiale | recente | preliminare",
+     "section": "sapevi | novita | aneddoti",
+     "topic": "Scienza | Spazio | Salute | Storia | Natura | Tecnologia | Psicologia | Design | Finanza | Cinema | Società",
+     "solidity": "consolidato | ufficiale | recente | preliminare  (per gli aneddoti: verosimile | dubbio | mito)",
      "title": "max ~90 caratteri, invitante ma fedele",
      "summary": "max ~220 caratteri",
      "body": ["3-6 paragrafi brevi"],
@@ -38,7 +47,10 @@ App personale (PWA statica, nessun build) pubblicata su GitHub Pages: https://l0
      "when": "per sapevi: periodo o data storica (es. '1952'); per novita: null",
      "image": "URL immagine della fonte o null",
      "imageCredit": "autore/fonte immagine o null",
-     "solidityNote": "una frase sul perché di quel livello, o null"
+     "solidityNote": "una frase sul perché di quel livello, o null",
+     "en": {"title": "…", "summary": "…", "body": ["…"], "when": "…", "note": "…", "quotes": [null]},
+     "videos": [{"id": "ID YouTube", "title": "…", "channel": "…", "length": "4:10"}],
+     "videoQuery": "parole chiave per YouTube"
    }
    ```
    `id` e `url` li calcola lo script (sha1 dell'URL normalizzato della prima fonte): non serve scriverli.

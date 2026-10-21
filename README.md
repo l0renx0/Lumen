@@ -6,10 +6,13 @@ Lumen è un'app personale da tenere sul telefono: un feed di schede da scorrere,
 
 **È gratuita**: il sito sta su GitHub Pages (gratis) e non usa nessun servizio a pagamento.
 
-## Le due sezioni
+## Le tre sezioni
 
-- **Lo sapevi?**: la sezione principale. Conoscenze consolidate e affascinanti: scoperte storiche, fenomeni naturali, invenzioni, curiosità scientifiche solide. Ogni giorno in cima trovi **"La scoperta di oggi"**: l'app mostra prima le schede che non hai ancora letto, in un ordine che cambia ogni giorno.
-- **Ricerca recente**: studi e notizie scientifiche aggiornati all'ultima volta che abbiamo aggiornato l'app, dal più recente.
+- **Lo sapevi?**: la sezione principale. Conoscenze consolidate e affascinanti: scoperte storiche, fenomeni naturali, invenzioni, psicologia, design, finanza, cinema. Ogni giorno in cima trovi **"La scoperta di oggi"**: l'app mostra prima le schede che non hai ancora letto, in un ordine che cambia ogni giorno.
+- **Ricerca**: studi e notizie scientifiche aggiornati all'ultima volta che abbiamo aggiornato l'app, dal più recente.
+- **Aneddoti**: storie curiose e famose, anche dubbie o false (la mela di Newton, la Muraglia vista dallo spazio, i vichinghi con le corna…), con un **verdetto**: *Probabilmente vero*, *Dubbio* o *Falso: è un mito*.
+
+Argomenti: Scienza, Spazio, Salute, Storia, Natura, Tecnologia, Psicologia, Design, Finanza, Cinema, Società.
 
 Ogni scheda ha un **indicatore di solidità**:
 
@@ -20,12 +23,15 @@ Ogni scheda ha un **indicatore di solidità**:
 | **Studio recente, da confermare** | Risultato nuovo, non ancora confermato da altri |
 | **Preliminare** | Ipotesi o primo risultato: un tassello, non una conclusione |
 
+Ogni scheda ha anche una sezione **"Approfondisci in video"** con un video scelto da canali ufficiali o di divulgazione affidabili, e un pulsante per cercarne altri su YouTube.
+
 ## Come si usa
 
 - **Scorri** in verticale: la scheda in primo piano è nitida, la successiva si intravede sfocata.
 - **Tocca** una scheda per leggere la spiegazione completa, le citazioni e le fonti. Per chiudere: la ✕, il tasto Indietro, oppure trascina verso il basso.
 - In alto scegli la sezione e filtra per argomento (Scienza, Spazio, Salute, Storia, Tecnologia, Natura, Società).
-- Il cerchio arancione conta quante schede hai letto oggi: l'obiettivo è almeno una.
+- In alto a destra la **fiamma** con il cerchio arancione: il cerchio si riempie quando leggi almeno una scheda fino in fondo (l'obiettivo del giorno), il numero è la tua **serie** di giorni consecutivi. Toccala per vedere i tuoi progressi.
+- **IT / EN** cambia la lingua dell'app (anche i testi delle schede).
 - Il pulsante sole/luna attiva la **modalità scura**.
 
 ## Installarla sul telefono
