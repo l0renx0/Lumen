@@ -1,6 +1,6 @@
 // Service worker: rende l'app installabile e utilizzabile anche offline.
 // Quando modifichi i file dell'app, aumenta il numero di VERSION.
-const VERSION = 'lumen-v3';
+const VERSION = 'lumen-v4';
 const SHELL = [
   './',
   'index.html',

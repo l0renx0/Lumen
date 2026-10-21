@@ -51,6 +51,9 @@
           <svg class="streak__flame" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.5c.6 3.2-1.2 4.9-2.7 6.5C7.8 10.6 6.5 12.2 6.5 15a5.5 5.5 0 0 0 11 0c0-2.1-.9-3.6-1.9-4.9-.3 1.5-1.1 2.6-2.4 3 .6-3.9-.4-7.6-1.2-10.6Z"/></svg>
           <span class="streak__num" id="streakNum">0</span>
         </button>
+        <button class="icon-btn" id="savedBtn" aria-label="Salvati / Saved">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.5 3.5h11v17l-5.5-4-5.5 4z"/></svg>
+        </button>
         <button class="lang" id="langBtn" aria-label="Lingua / Language"><span data-l="it">IT</span><span data-l="en">EN</span></button>
         <button class="icon-btn" id="themeBtn" aria-label="Tema">
           <svg viewBox="0 0 24 24" aria-hidden="true"><path class="i-sun" d="M12 4V2m0 20v-2m8-8h2M2 12h2m13.66-5.66 1.41-1.41M4.93 19.07l1.41-1.41m0-11.32L4.93 4.93m14.14 14.14-1.41-1.41M12 17a5 5 0 1 0 0-10 5 5 0 0 0 0 10Z"/><path class="i-moon" d="M20.5 14.5A8.5 8.5 0 0 1 9.5 3.5a8.5 8.5 0 1 0 11 11Z"/></svg>
@@ -73,6 +76,9 @@
   <article class="detail" id="detail" role="dialog" aria-modal="true" aria-labelledby="dTitle">
     <div class="detail__scroll" id="detailScroll">
       <div class="detail__hero" id="dHero"></div>
+      <button class="detail__save icon-btn" id="dSave" aria-pressed="false">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.5 3.5h11v17l-5.5-4-5.5 4z"/></svg>
+      </button>
       <button class="detail__close icon-btn" id="dClose" data-i18n-label="close">
         <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
       </button>
@@ -95,6 +101,19 @@
       </div>
     </div>
   </article>
+
+  <section class="saved" id="saved" role="dialog" aria-modal="true" aria-labelledby="savedTitle" hidden>
+    <div class="saved__scroll">
+      <div class="saved__head">
+        <button class="icon-btn" id="savedClose" data-i18n-label="close"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button>
+      </div>
+      <div class="saved__body">
+        <h2 class="saved__title" id="savedTitle">Salvati</h2>
+        <p class="saved__sub" id="savedSub"></p>
+        <div id="savedList"></div>
+      </div>
+    </div>
+  </section>
 
   <div class="sheet" id="sheet" role="dialog" aria-modal="true" aria-labelledby="sheetTitle" hidden>
     <div class="sheet__backdrop" data-close></div>

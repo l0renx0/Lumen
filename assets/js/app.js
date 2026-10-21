@@ -26,6 +26,7 @@ const I18N = {
     howto: '<b>Come funziona.</b> Il cerchio arancione si riempie quando leggi almeno una scheda fino in fondo: è l’obiettivo di ogni giorno. Il numero accanto alla fiamma è la tua serie, cioè quanti giorni di fila hai raggiunto l’obiettivo.',
     gotit: 'Ho capito', theme: 'Tema', lang: 'Lingua',
     weekdays: ['L', 'M', 'M', 'G', 'V', 'S', 'D'],
+    saved_t: 'Salvati', saved_sub: (n) => n ? `${n} ${n === 1 ? 'scheda salvata' : 'schede salvate'} da rileggere quando vuoi.` : '', saved_empty: 'Nessuna scheda salvata. Tocca il segnalibro in alto in una scheda per ritrovarla qui.', save: 'Salva', unsave: 'Rimuovi dai salvati', toast_saved: 'Salvata nei Salvati', toast_unsaved: 'Rimossa dai Salvati',
   },
   en: {
     skip: 'Skip to cards', fresh: 'New cards', refresh: 'Refresh', close: 'Close', sources: 'Sources',
@@ -50,6 +51,7 @@ const I18N = {
     howto: '<b>How it works.</b> The orange ring fills up when you read at least one card to the end: that’s the daily goal. The number next to the flame is your streak — how many days in a row you’ve reached it.',
     gotit: 'Got it', theme: 'Theme', lang: 'Language',
     weekdays: ['M', 'T', 'W', 'T', 'F', 'S', 'S'],
+    saved_t: 'Saved', saved_sub: (n) => n ? `${n} saved ${n === 1 ? 'card' : 'cards'} to reread whenever you like.` : '', saved_empty: 'No saved cards yet. Tap the bookmark at the top of a card to find it here.', save: 'Save', unsave: 'Remove from saved', toast_saved: 'Added to Saved', toast_unsaved: 'Removed from Saved',
   },
 };
 
@@ -183,6 +185,52 @@ function closeSheet() { $('#sheet').hidden = true; if (!state.openId) document.b
 let toastTimer;
 function toast(msg) { const x = $('#toast'); x.textContent = msg; x.classList.add('is-on'); clearTimeout(toastTimer); toastTimer = setTimeout(() => x.classList.remove('is-on'), 2600); }
 
+/* ------------------------------------------------------------------ salvati */
+
+const savedIds = () => store.get('saved', []);
+const isSaved = (id) => savedIds().includes(id);
+function toggleSave(id) {
+  if (!id) return;
+  const list = savedIds(); const on = !list.includes(id);
+  store.set('saved', on ? [id, ...list] : list.filter((x) => x !== id));
+  syncSaveBtn(); vibrate(10); toast(t(on ? 'toast_saved' : 'toast_unsaved'));
+  const card = document.querySelector(`.card[data-id="${CSS.escape(id)}"] .media-tags`);
+  if (card) { card.querySelector('.saved-pill')?.remove(); if (on) card.append(el('span', 'pill saved-pill', '★')); }
+  if (!$('#saved').hidden) renderSaved();
+}
+function syncSaveBtn() {
+  const b = $('#dSave'); const on = isSaved(state.openId);
+  b.classList.toggle('is-on', on); b.setAttribute('aria-pressed', String(on)); b.setAttribute('aria-label', t(on ? 'unsave' : 'save'));
+}
+function renderSaved() {
+  const ids = savedIds().filter((id) => state.byId.has(id));
+  $('#savedTitle').textContent = t('saved_t');
+  $('#savedSub').textContent = t('saved_sub', ids.length);
+  const list = $('#savedList'); list.textContent = '';
+  if (!ids.length) { list.append(el('p', 'saved__empty', t('saved_empty'))); return; }
+  for (const id of ids) {
+    const c = state.byId.get(id); const x = tx(c);
+    const row = el('div', 'srow'); row.dataset.topic = c.topic;
+    const open = el('button', 'srow__open');
+    const im = el('div', 'srow__img'); mediaFor(c, im);
+    const txt = el('div', 'srow__txt'); txt.append(el('div', 'srow__k', `${topicLabel(c.topic)} · ${t('minRead', minutes(c))}`), el('div', 'srow__t', x.title));
+    open.append(im, txt); open.onclick = () => openDetail(id);
+    const rm = el('button', 'srow__rm'); rm.setAttribute('aria-label', t('unsave'));
+    rm.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>'; rm.onclick = () => toggleSave(id);
+    row.append(open, rm); list.append(row);
+  }
+}
+function openSaved({ push = true } = {}) {
+  renderSaved(); const p = $('#saved'); p.hidden = false; requestAnimationFrame(() => p.classList.add('is-open'));
+  document.body.classList.add('locked'); if (push) history.pushState({ saved: true }, '', '#/salvati');
+}
+function closeSaved({ fromPop = false } = {}) {
+  const p = $('#saved'); if (p.hidden) return; p.classList.remove('is-open'); setTimeout(() => { p.hidden = true; }, 450);
+  if (!state.openId) document.body.classList.remove('locked');
+  if (!fromPop && history.state?.saved) { state.skipPop = true; history.back(); }
+  renderFeed();
+}
+
 /* ------------------------------------------------------------------ dati */
 
 async function loadData() {
@@ -256,6 +304,7 @@ function renderFeed() {
     const tp = el('span', 'pill topic-pill', topicLabel(card.topic)); tags.append(tp);
     if (i === 0 && state.section !== 'novita' && !state.topic && !isRead) tags.prepend(el('span', 'pill today', t('today_badge')));
     else if (!isRead && new Date(card.addedAt) > fresh && state.section !== 'novita') tags.append(el('span', 'pill new', t('new_badge')));
+    if (isSaved(card.id)) tags.append(el('span', 'pill saved-pill', '★'));
     media.append(tags, scoreChip(card.solidity));
     const meta = $('.card__meta', node);
     const when = state.section === 'novita' ? relDate(card.date) : x.when;
@@ -366,6 +415,7 @@ function openDetail(id, { push = true } = {}) {
 
   renderDone(card, readSet().has(card.id));
   renderNext(card);
+  syncSaveBtn();
 
   $('#detailScroll').scrollTop = 0;
   d.classList.add('is-open'); document.body.classList.add('locked');
@@ -440,9 +490,9 @@ function closeDetail({ fromPop = false } = {}) {
   doneObserver?.disconnect();
   const d = $('#detail'); d.classList.remove('is-open'); d.style.transform = '';
   $('#readBar').classList.remove('is-on');
-  document.body.classList.remove('locked');
+  if ($('#saved').hidden) document.body.classList.remove('locked'); else renderSaved();
   setTimeout(() => { if (!state.openId) $('#dVideos').textContent = ''; }, 600); // ferma un eventuale video
-  if (!fromPop && history.state?.card) history.back();
+  if (!fromPop && history.state?.card) { state.skipPop = true; history.back(); }
   const card = document.querySelector(`.card[data-id="${CSS.escape(id)}"]`);
   if (card && readSet().has(id)) { card.classList.add('is-read'); $('.card__more-label', card).textContent = t('alreadyRead') + ' ✓'; }
   card?.focus({ preventScroll: true });
@@ -471,6 +521,7 @@ function applyTheme(th) {
 function applyLang(lang, rerender = true) {
   state.lang = lang; store.set('lang', lang); document.documentElement.lang = lang;
   document.querySelectorAll('[data-i18n]').forEach((n) => { n.textContent = t(n.dataset.i18n); });
+  if (!$('#saved').hidden) renderSaved();
   document.querySelectorAll('[data-i18n-label]').forEach((n) => n.setAttribute('aria-label', t(n.dataset.i18nLabel)));
   $('#themeBtn').setAttribute('aria-label', t('theme'));
   $('#today').textContent = new Intl.DateTimeFormat(locale(), { weekday: 'long', day: 'numeric', month: 'long' }).format(new Date());
@@ -494,9 +545,16 @@ async function init() {
   $('#dClose').onclick = () => closeDetail();
   document.addEventListener('keydown', (e) => { if (e.key === 'Escape') { if (!$('#sheet').hidden) closeSheet(); else closeDetail(); } });
   window.addEventListener('popstate', () => {
+    // Il "torna indietro" fatto da noi alla chiusura arriva in ritardo: non deve chiudere la scheda aperta nel frattempo.
+    if (state.skipPop) { state.skipPop = false; if (state.openId) history.pushState({ card: state.openId }, '', '#/scheda/' + state.openId); return; }
+    if (!$('#saved').hidden && location.hash !== '#/salvati') { closeSaved({ fromPop: true }); if (!state.openId) return; }
     const m = location.hash.match(/^#\/scheda\/(.+)$/);
-    if (m && state.byId.has(m[1])) openDetail(m[1], { push: false }); else closeDetail({ fromPop: true });
+    if (m && state.byId.has(m[1])) { if (state.openId !== m[1]) openDetail(m[1], { push: false }); }
+    else closeDetail({ fromPop: true });
   });
+  $('#savedBtn').onclick = openSaved;
+  $('#savedClose').onclick = () => closeSaved();
+  $('#dSave').onclick = () => toggleSave(state.openId);
   window.addEventListener('scroll', onScroll, { passive: true });
   window.addEventListener('resize', syncHeaderHeight);
   new ResizeObserver(syncHeaderHeight).observe($('#top'));
@@ -509,6 +567,7 @@ async function init() {
 
   const m = location.hash.match(/^#\/scheda\/(.+)$/);
   if (m && state.byId.has(m[1])) { history.replaceState(null, '', location.pathname); openDetail(m[1]); }
+  else if (location.hash === '#/salvati') { history.replaceState(null, '', location.pathname); openSaved(); }
 
   if (!store.get('hintSeen', false)) setTimeout(() => { if (!state.openId) toast(t('hint')); }, 2500);
   setInterval(checkForUpdates, POLL_MS);

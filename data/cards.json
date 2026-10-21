@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-10-21T02:00:43Z",
+ "updatedAt": "2026-10-21T10:08:47Z",
  "cards": [
   {
    "id": "caebee87b7f6",
@@ -3332,7 +3332,7 @@
   {
    "id": "b96f83497408",
    "section": "aneddoti",
-   "topic": "Psicologia",
+   "topic": "Storia",
    "solidity": "mito",
    "title": "I 38 testimoni che non aiutarono Kitty Genovese: una storia che non regge",
    "summary": "Il caso è citato nei manuali per spiegare l'“effetto spettatore”. Ma uno studio sull'American Psychologist non ha trovato prove dei 38 testimoni inerti.",
@@ -3391,7 +3391,7 @@
   {
    "id": "2bc812c833c5",
    "section": "aneddoti",
-   "topic": "Psicologia",
+   "topic": "Scienza",
    "solidity": "mito",
    "title": "Ascoltare Mozart rende più intelligenti? La “prova” non ha retto",
    "summary": "Nel 1993 uno studio su Nature parlò di un aumento temporaneo del ragionamento spaziale dopo una sonata di Mozart. Nel 1999 un altro studio su Nature trovò poche prove di un effetto diretto.",
@@ -3863,7 +3863,7 @@
   {
    "id": "a7d563a7a491",
    "section": "aneddoti",
-   "topic": "Finanza",
+   "topic": "Storia",
    "solidity": "mito",
    "title": "La “tulipomania”: la bolla dei tulipani fu molto meno folle di come la raccontano",
    "summary": "La storia di olandesi rovinati per un bulbo è un classico della finanza. La storica Anne Goldgar, negli archivi, ha scoperto che quasi nessuno di quei racconti è vero.",
@@ -4433,6 +4433,506 @@
    },
    "videos": [],
    "videoQuery": "Galileo Leaning Tower of Pisa experiment"
+  },
+  {
+   "id": "647526a56608",
+   "section": "novita",
+   "topic": "Finanza",
+   "solidity": "ufficiale",
+   "title": "Conti pubblici: nel 2025 il deficit italiano scende al 3,1% del Pil",
+   "summary": "Secondo l'ISTAT l'indebitamento netto delle amministrazioni pubbliche è stato di 69,7 miliardi, in calo di 5,1 miliardi sul 2024. Il saldo primario è positivo.",
+   "body": [
+    "L'ISTAT ha pubblicato i dati sul deficit e sul debito pubblico 2022-2025 inviati alla Commissione europea, come richiesto due volte l'anno dalle regole del Trattato di Maastricht. Sulla notifica italiana non sono state espresse riserve.",
+    "Nel 2025 l'indebitamento netto delle amministrazioni pubbliche è stato di 69.736 milioni di euro, pari al 3,1% del Pil: 5,1 miliardi in meno rispetto al 2024, quando era il 3,4%.",
+    "Il saldo primario, cioè il deficit al netto della spesa per interessi, è risultato positivo e pari allo 0,8% del Pil, in miglioramento di 0,3 punti. La spesa per interessi è stata il 3,8% del Pil, in leggera riduzione."
+   ],
+   "quotes": [
+    {
+     "text": "Sulla Notifica trasmessa dall’Italia non sono state espresse riserve.",
+     "translation": null,
+     "author": "ISTAT"
+    }
+   ],
+   "sources": [
+    {
+     "name": "ISTAT",
+     "title": "Notifica dell’indebitamento netto e del debito delle AP – Anni 2022-2025",
+     "url": "https://www.istat.it/comunicato-stampa/notifica-dellindebitamento-netto-e-del-debito-delle-amministrazioni-pubbliche-secondo-il-trattato-di-maastricht-anni-2022-2025-2/"
+    }
+   ],
+   "date": "2026-10-21T10:00:00Z",
+   "addedAt": "2026-10-21T10:08:47Z",
+   "when": null,
+   "image": null,
+   "imageCredit": null,
+   "solidityNote": "Dato ufficiale ISTAT trasmesso alla Commissione europea; le cifre possono essere riviste.",
+   "url": "https://istat.it/comunicato-stampa/notifica-dellindebitamento-netto-e-del-debito-delle-amministrazioni-pubbliche-secondo-il-trattato-di-maastricht-anni-2022-2025-2",
+   "en": {
+    "title": "Public finances: Italy's deficit falls to 3.1% of GDP in 2025",
+    "summary": "According to ISTAT, general government net borrowing was €69.7 billion, down €5.1 billion on 2024. The primary balance is in surplus.",
+    "body": [
+     "ISTAT has published the 2022-2025 deficit and public debt figures sent to the European Commission, as required twice a year under the Maastricht Treaty rules. No reservations were expressed on Italy's notification.",
+     "In 2025 general government net borrowing was €69,736 million, equal to 3.1% of GDP: €5.1 billion less than in 2024, when it was 3.4%.",
+     "The primary balance — the deficit excluding interest payments — was in surplus at 0.8% of GDP, an improvement of 0.3 points. Interest spending was 3.8% of GDP, slightly lower."
+    ],
+    "when": null,
+    "note": "Official ISTAT data sent to the European Commission; figures may be revised.",
+    "quotes": [
+     null
+    ]
+   },
+   "videos": [],
+   "videoQuery": "Public finances: Italy's deficit falls to 3.1% of GDP in 2025"
+  },
+  {
+   "id": "2c057609e1cf",
+   "section": "novita",
+   "topic": "Società",
+   "solidity": "ufficiale",
+   "title": "Nascite in Italia, nuovo minimo: 1,14 figli per donna nel 2025",
+   "summary": "Nel 2025 sono nati 355.772 bambini, il 3,8% in meno del 2024. Dal 2008 il calo è del 38%. Sofia e Leonardo restano i nomi più scelti.",
+   "body": [
+    "Secondo l'ISTAT, nel 2025 i nati residenti in Italia sono stati 355.772, circa 14.000 in meno rispetto al 2024 (-3,8%): sei ogni mille abitanti. Rispetto al 2008, anno del massimo degli anni Duemila con oltre 576.000 nati, il calo è del 38,3%.",
+    "Il numero medio di figli per donna tocca un nuovo minimo: 1,14 nel 2025, contro 1,18 nel 2024. Le laureate hanno meno figli (1,09) e più tardi (34,9 anni in media al parto) rispetto alle donne con la licenza media (1,58 figli, 29,7 anni).",
+    "I primi dati provvisori di gennaio-luglio 2026 indicano 196.864 nascite, -1,1%: il calo continua, ma più lentamente. Il 7,3% dei nati nel 2025 ha ricevuto il doppio cognome; Sofia e Leonardo restano i nomi preferiti."
+   ],
+   "quotes": [
+    {
+     "text": "Il numero medio di figli per donna raggiunge un nuovo minimo: nel 2025 è pari a 1,14 (da 1,18 nel 2024).",
+     "translation": null,
+     "author": "ISTAT"
+    }
+   ],
+   "sources": [
+    {
+     "name": "ISTAT",
+     "title": "Natalità e fecondità della popolazione residente – Anno 2025",
+     "url": "https://www.istat.it/comunicato-stampa/natalita-e-fecondita-della-popolazione-residente-anno-2025/"
+    }
+   ],
+   "date": "2026-10-21T09:00:00Z",
+   "addedAt": "2026-10-21T10:08:47Z",
+   "when": null,
+   "image": null,
+   "imageCredit": null,
+   "solidityNote": "Statistica ufficiale; i dati 2026 sono provvisori.",
+   "url": "https://istat.it/comunicato-stampa/natalita-e-fecondita-della-popolazione-residente-anno-2025",
+   "en": {
+    "title": "Births in Italy hit a new low: 1.14 children per woman in 2025",
+    "summary": "In 2025, 355,772 babies were born, 3.8% fewer than in 2024. Since 2008 the drop is 38%. Sofia and Leonardo remain the most popular names.",
+    "body": [
+     "According to ISTAT, 355,772 babies were born to residents of Italy in 2025, about 14,000 fewer than in 2024 (-3.8%): six per thousand inhabitants. Compared with 2008, the peak of the 2000s with over 576,000 births, the fall is 38.3%.",
+     "The average number of children per woman hits a new low: 1.14 in 2025, against 1.18 in 2024. Women with a degree have fewer children (1.09) and later (34.9 on average at birth) than women with lower-secondary education (1.58 children, 29.7 years).",
+     "Provisional data for January-July 2026 show 196,864 births, -1.1%: the decline continues, but more slowly. 7.3% of babies born in 2025 received both parents' surnames; Sofia and Leonardo remain the favourite names."
+    ],
+    "when": null,
+    "note": "Official statistics; 2026 figures are provisional.",
+    "quotes": [
+     null
+    ]
+   },
+   "videos": [],
+   "videoQuery": "Births in Italy hit a new low: 1.14 children per woman in 2025"
+  },
+  {
+   "id": "9eec7f90cfe6",
+   "section": "novita",
+   "topic": "Finanza",
+   "solidity": "ufficiale",
+   "title": "Per la BCE l'intelligenza artificiale può alzare il tenore di vita, ma serve l'aiuto di tutti",
+   "summary": "Philip Lane, del Comitato esecutivo della BCE, descrive l'IA come una tecnologia di uso generale e spiega quali attori, finanza compresa, devono fare la loro parte.",
+   "body": [
+    "In un intervento all'International AI Summit, Philip R. Lane, membro del Comitato esecutivo della Banca centrale europea, ha definito l'intelligenza artificiale una tecnologia di uso generale, capace di migliorare il tenore di vita globale ampliando l'accesso all'informazione e aumentando la produttività.",
+    "Secondo Lane, però, i benefici dipendono da molti attori: chi sviluppa i modelli, chi costruisce le infrastrutture, gli imprenditori, la ricerca, i sistemi energetici chiamati a sostenere la nuova domanda di elettricità, la scuola e la formazione, e manager e lavoratori che devono cambiare i processi aziendali.",
+    "Un ruolo spetta anche al sistema finanziario, che deve valutare correttamente le attività legate all'IA, finanziarne produzione e adozione e usarla nei propri processi. Lane ricorda che la trasformazione pone sfide anche alla politica e ai regolatori."
+   ],
+   "quotes": [
+    {
+     "text": "AI is a general purpose technology that can improve global living standards and the global knowledge frontier by expanding access to information and raising productivity.",
+     "translation": "L'IA è una tecnologia di uso generale che può migliorare il tenore di vita globale e la frontiera della conoscenza, ampliando l'accesso all'informazione e aumentando la produttività.",
+     "author": "Philip R. Lane, BCE"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Banca centrale europea (BCE)",
+     "title": "Philip R. Lane: The AI opportunity for Europe",
+     "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261013~9db9bf4fd6.en.html"
+    }
+   ],
+   "date": "2026-10-13T18:00:00Z",
+   "addedAt": "2026-10-21T10:08:47Z",
+   "when": null,
+   "image": null,
+   "imageCredit": null,
+   "solidityNote": "È un discorso ufficiale: esprime la visione di un membro della BCE, non un risultato di ricerca.",
+   "url": "https://ecb.europa.eu/press/key/date/2026/html/ecb.sp261013~9db9bf4fd6.en.html",
+   "en": {
+    "title": "For the ECB, AI can raise living standards — but it needs everyone's help",
+    "summary": "Philip Lane, of the ECB Executive Board, describes AI as a general purpose technology and explains which players, finance included, must do their part.",
+    "body": [
+     "Speaking at the International AI Summit, Philip R. Lane, member of the European Central Bank's Executive Board, called artificial intelligence a general purpose technology that can improve global living standards by expanding access to information and raising productivity.",
+     "According to Lane, however, the benefits depend on many players: model developers, infrastructure builders, entrepreneurs, researchers, energy systems that must meet the new electricity demand, education and training, and the managers and workers who must change business processes.",
+     "The financial system has a role too: it must value AI-related assets appropriately, finance AI production and adoption, and use AI in its own processes. Lane notes the transformation also poses challenges for politics and regulators."
+    ],
+    "when": null,
+    "note": "An official speech: it states an ECB board member's view, not a research finding.",
+    "quotes": [
+     null
+    ]
+   },
+   "videos": [],
+   "videoQuery": "For the ECB, AI can raise living standards — but it needs everyone's help"
+  },
+  {
+   "id": "580e1a2ad37e",
+   "section": "novita",
+   "topic": "Psicologia",
+   "solidity": "recente",
+   "title": "La psicologia dei “grandi gruppi”: più autori, più impatto, ma non ovunque",
+   "summary": "Analizzando oltre 3 milioni di articoli, uno studio su Psychological Science trova che le ricerche firmate da 10 a più di 100 autori sono rare ma molto più citate.",
+   "body": [
+    "Uno studio pubblicato su Psychological Science ha analizzato 3.023.895 articoli di psicologia usciti nel XXI secolo per capire quanto pesano i “grandi gruppi” di ricerca, con 10 o più di 100 autori.",
+    "Questi lavori sono relativamente rari, 49.695, ma in crescita, e hanno un impatto insolitamente alto: sono molto citati negli articoli scientifici, nelle notizie, sui social e nei documenti delle politiche pubbliche.",
+    "C'è però uno squilibrio: i primi autori lavorano soprattutto in Paesi “WEIRD”, cioè occidentali, istruiti, industrializzati, ricchi e democratici, e lo sbilanciamento è un po' più forte proprio nei gruppi più grandi."
+   ],
+   "quotes": [
+    {
+     "text": "big-team science is an emerging trend in psychology—one that is unevenly deployed across world regions to generate high-impact scientific insights",
+     "translation": "la scienza dei grandi gruppi è una tendenza emergente in psicologia, distribuita in modo diseguale tra le regioni del mondo, che genera risultati di grande impatto",
+     "author": "Coles et al., Psychological Science"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Association for Psychological Science",
+     "title": "The Rise, Impact, and Imbalances of Big-Team Psychology",
+     "url": "https://www.psychologicalscience.org/news/releases/new-research-from-psychological-science-2026-oct-15.html"
+    }
+   ],
+   "date": "2026-10-15T12:00:00Z",
+   "addedAt": "2026-10-21T10:08:47Z",
+   "when": null,
+   "image": "https://www.psychologicalscience.org/redesign/wp-content/uploads/2011/02/Journal_Psychscience_Hero-609x400.jpg",
+   "imageCredit": "APS",
+   "solidityNote": "Studio pubblicato di recente: descrive una tendenza, non ne spiega ancora le cause.",
+   "url": "https://psychologicalscience.org/news/releases/new-research-from-psychological-science-2026-oct-15.html",
+   "en": {
+    "title": "“Big-team” psychology: more authors, more impact — but not everywhere",
+    "summary": "Analysing over 3 million papers, a study in Psychological Science finds that research by 10 to over 100 authors is rare but far more widely mentioned.",
+    "body": [
+     "A study published in Psychological Science analysed 3,023,895 psychology papers from the 21st century to measure the weight of “big teams” — research with 10 to more than 100 authors.",
+     "These papers are relatively rare, 49,695, but increasingly popular, and they have unusually high impact: they are widely mentioned in scholarly articles, the news, social media and policy documents.",
+     "There is an imbalance, though: first authors work mostly in “WEIRD” countries — Western, Educated, Industrialized, Rich and Democratic — and this is slightly more pronounced in the largest teams."
+    ],
+    "when": null,
+    "note": "A recently published study: it describes a trend, it doesn't yet explain its causes.",
+    "quotes": [
+     null
+    ]
+   },
+   "videos": [],
+   "videoQuery": "“Big-team” psychology: more authors, more impact — but not everywhere"
+  },
+  {
+   "id": "9c178e090ca9",
+   "section": "novita",
+   "topic": "Cinema",
+   "solidity": "ufficiale",
+   "title": "Due film nati alla Biennale di Venezia correranno per gli Oscar 2027",
+   "summary": "“Becoming Human” rappresenterà la Cambogia e “One Woman One Bra” il Kenya. Entrambi sono stati prodotti con un contributo di 200.000 euro della Biennale.",
+   "body": [
+    "Due film del programma Biennale College – Cinema sono stati scelti per rappresentare i loro Paesi agli Academy Awards del 2027: “Becoming Human” (Chiet Chea Manusa) di Polen Ly per la Cambogia e “One Woman One Bra” di Vincho Nchogu per il Kenya.",
+    "Entrambi hanno debuttato all'82ª Mostra del Cinema di Venezia, nel 2025, e sono stati realizzati grazie a un contributo di 200.000 euro della Biennale. Il programma sostiene ogni anno pochi progetti di registi emergenti.",
+    "“Becoming Human” racconta Thida, lo spirito guardiano di un vecchio cinema destinato alla demolizione, in un Paese attraversato da profondi cambiamenti sociali. Il regista spiega che la sua famiglia è sopravvissuta al genocidio cambogiano."
+   ],
+   "quotes": [
+    {
+     "text": "Both films premiered at the 82nd Venice International Film Festival in 2025 and were produced thanks to a €200,000 grant provided by La Biennale di Venezia.",
+     "translation": "Entrambi i film hanno debuttato all'82ª Mostra internazionale d'arte cinematografica di Venezia nel 2025 e sono stati prodotti grazie a un contributo di 200.000 euro della Biennale di Venezia.",
+     "author": "La Biennale di Venezia"
+    }
+   ],
+   "sources": [
+    {
+     "name": "La Biennale di Venezia",
+     "title": "2 films from Biennale College Cinema selected for the Oscars",
+     "url": "https://www.labiennale.org/en/news/2-films-biennale-college-cinema-selected-oscars"
+    }
+   ],
+   "date": "2026-10-15T12:00:00Z",
+   "addedAt": "2026-10-21T10:08:47Z",
+   "when": null,
+   "image": "https://static.labiennale.org/files/styles/seo_thumbnail/public/cinema/2026/750x500/one-woman-one-bra-.jpg",
+   "imageCredit": "La Biennale di Venezia",
+   "solidityNote": null,
+   "url": "https://labiennale.org/en/news/2-films-biennale-college-cinema-selected-oscars",
+   "en": {
+    "title": "Two films born at the Venice Biennale will run for the 2027 Oscars",
+    "summary": "“Becoming Human” will represent Cambodia and “One Woman One Bra” Kenya. Both were produced with a €200,000 grant from the Biennale.",
+    "body": [
+     "Two films from the Biennale College – Cinema programme have been chosen to represent their countries at the 2027 Academy Awards: “Becoming Human” (Chiet Chea Manusa) by Polen Ly for Cambodia and “One Woman One Bra” by Vincho Nchogu for Kenya.",
+     "Both premiered at the 82nd Venice International Film Festival in 2025 and were made thanks to a €200,000 grant from the Biennale. The programme supports a handful of projects by emerging filmmakers each year.",
+     "“Becoming Human” follows Thida, the spirit guardian of an old cinema facing demolition, in a country undergoing profound social change. The director explains that his family lived through the Cambodian genocide."
+    ],
+    "when": null,
+    "note": null,
+    "quotes": [
+     null
+    ]
+   },
+   "videos": [],
+   "videoQuery": "Two films born at the Venice Biennale will run for the 2027 Oscars"
+  },
+  {
+   "id": "43b1c12965cb",
+   "section": "novita",
+   "topic": "Spazio",
+   "solidity": "preliminare",
+   "title": "Forse la prima “luna” fuori dal Sistema Solare: ma non gira attorno a un pianeta",
+   "summary": "Il VLT dell'ESO ha trovato un oggetto massiccio almeno come Giove che orbita attorno a una nana bruna. Se confermato, sarebbe la prima esoluna scoperta.",
+   "body": [
+    "Con il Very Large Telescope dell'ESO gli astronomi hanno trovato indizi di un oggetto simile a una luna nel sistema CD-35 2722. Lo studio, guidato da Kevin Hoy, è pubblicato su Nature.",
+    "Il sistema è “stranissimo”: la stella ha circa metà della massa del Sole ed è orbitata da una nana bruna, un corpo troppo grande per essere un pianeta e troppo piccolo per essere una stella, con oltre 30 volte la massa di Giove. Il nuovo oggetto, massiccio almeno come Giove, gira attorno alla nana bruna.",
+    "Per questo il team lo chiama “esosatellite”: le parole del Sistema Solare, pianeta e luna, qui funzionano male. Se sarà confermato, potrebbe essere la prima “luna” scoperta fuori dal Sistema Solare."
+   ],
+   "quotes": [
+    {
+     "text": "If confirmed, this could be the first ‘moon’ discovered outside our Solar System.",
+     "translation": "Se confermato, potrebbe essere la prima “luna” scoperta al di fuori del nostro Sistema Solare.",
+     "author": "ESO"
+    }
+   ],
+   "sources": [
+    {
+     "name": "ESO",
+     "title": "New ‘exomoon’ detection challenges cosmic labels",
+     "url": "https://www.eso.org/public/news/eso2610/"
+    }
+   ],
+   "date": "2026-07-22T12:00:00Z",
+   "addedAt": "2026-10-21T10:08:47Z",
+   "when": null,
+   "image": "https://cdn.eso.org/images/screen/eso2610a.jpg",
+   "imageCredit": "ESO/M. Kornmesser",
+   "solidityNote": "Gli stessi autori parlano di prove da confermare.",
+   "url": "https://eso.org/public/news/eso2610",
+   "en": {
+    "title": "Maybe the first “moon” outside the Solar System — but it doesn't orbit a planet",
+    "summary": "ESO's VLT found an object at least as massive as Jupiter orbiting a brown dwarf. If confirmed, it would be the first exomoon ever discovered.",
+    "body": [
+     "With ESO's Very Large Telescope, astronomers found evidence of a moon-like object in the CD-35 2722 system. The study, led by Kevin Hoy, is published in Nature.",
+     "The system is “super weird”: the star has about half the Sun's mass and is orbited by a brown dwarf — too massive to be a planet, too small to be a star — with more than 30 times Jupiter's mass. The new object, at least as massive as Jupiter, circles the brown dwarf.",
+     "That is why the team calls it an “exosatellite”: Solar System words like planet and moon don't fit well here. If confirmed, it could be the first “moon” discovered outside our Solar System."
+    ],
+    "when": null,
+    "note": "The authors themselves say the evidence still needs confirming.",
+    "quotes": [
+     null
+    ]
+   },
+   "videos": [],
+   "videoQuery": "Maybe the first “moon” outside the Solar System — but it doesn't orbit a planet"
+  },
+  {
+   "id": "c4e03ab8118a",
+   "section": "novita",
+   "topic": "Spazio",
+   "solidity": "recente",
+   "title": "Il pianeta più debole mai fotografato da Terra si nascondeva negli archivi da 10 anni",
+   "summary": "Beta Pictoris d è 100 volte più debole del suo “fratello” Beta Pictoris b. Gli astronomi lo hanno trovato per caso e poi rintracciato in vecchie osservazioni.",
+   "body": [
+    "Un gruppo di astronomi ha scoperto un terzo pianeta attorno alla stella Beta Pictoris. Il nuovo pianeta, Beta Pictoris d, è 100 volte più debole di Beta Pictoris b ed è tra gli esopianeti più leggeri mai fotografati da terra.",
+    "La scoperta è stata casuale: il team voleva studiare come cambia nel tempo il pianeta già noto, ma nelle immagini del Very Large Telescope dell'ESO ha notato qualcos'altro. “C'è qualcos'altro lì, l'hai visto?”, ricorda di aver detto Markus Bonse.",
+    "Per confermarlo, i ricercatori hanno cercato nell'archivio dell'ESO e hanno ritrovato il pianeta in osservazioni che coprono più di dieci anni. Lo studio è pubblicato su The Astrophysical Journal Letters."
+   ],
+   "quotes": [
+    {
+     "text": "This was a serendipitous discovery,",
+     "translation": "È stata una scoperta casuale.",
+     "author": "Ben Sutlieff, Università di Edimburgo"
+    }
+   ],
+   "sources": [
+    {
+     "name": "ESO",
+     "title": "Faintest planet ever imaged from Earth found after more than 10 years of hide-and-seek",
+     "url": "https://www.eso.org/public/news/eso2609/"
+    }
+   ],
+   "date": "2026-07-15T12:00:00Z",
+   "addedAt": "2026-10-21T10:08:47Z",
+   "when": null,
+   "image": "https://cdn.eso.org/images/screen/eso2609a.jpg",
+   "imageCredit": "ESO/B. Sutlieff, M. Bonse et al.",
+   "solidityNote": null,
+   "url": "https://eso.org/public/news/eso2609",
+   "en": {
+    "title": "The faintest planet ever imaged from Earth was hiding in the archives for 10 years",
+    "summary": "Beta Pictoris d is 100 times fainter than its “sibling” Beta Pictoris b. Astronomers found it by chance and then tracked it in old observations.",
+    "body": [
+     "A team of astronomers has discovered a third planet orbiting the star Beta Pictoris. The new planet, Beta Pictoris d, is 100 times fainter than Beta Pictoris b and among the lightest exoplanets ever imaged from the ground.",
+     "The discovery was serendipitous: the team wanted to study how the known planet changes over time, but in images from ESO's Very Large Telescope they noticed something else. “There's something else there, did you see it?”, Markus Bonse recalls saying.",
+     "To confirm it, the researchers searched the ESO archive and found the planet in observations spanning more than a decade. The study is published in The Astrophysical Journal Letters."
+    ],
+    "when": null,
+    "note": null,
+    "quotes": [
+     null
+    ]
+   },
+   "videos": [],
+   "videoQuery": "The faintest planet ever imaged from Earth was hiding in the archives for 10 years"
+  },
+  {
+   "id": "fa587752928f",
+   "section": "novita",
+   "topic": "Spazio",
+   "solidity": "recente",
+   "title": "Troppi satelliti: secondo l'ESO oltre 100.000 il cielo notturno è a rischio",
+   "summary": "I progetti per lanciare più di 1,7 milioni di satelliti avrebbero “conseguenze devastanti per l'astronomia”. Lo studio indica un limite: non più di 100.000, e poco luminosi.",
+   "body": [
+    "Uno studio dell'Osservatorio europeo australe (ESO) ha calcolato per la prima volta quanto le grandi costellazioni di satelliti renderebbero più luminoso il cielo notturno, disturbando le osservazioni astronomiche.",
+    "Dal 2019 i satelliti in orbita sono aumentati rapidamente, fino a oltre 14.000 oggi, in gran parte Starlink di SpaceX. Le proposte attuali prevedono di lanciarne più di 1,7 milioni, alcuni molto luminosi: secondo lo studio avrebbero “conseguenze devastanti per l'astronomia”.",
+    "Per proteggere la capacità di osservare il cielo con i telescopi moderni, secondo l'ESO in orbita non dovrebbero esserci più di 100.000 satelliti, e tutti invisibili a occhio nudo."
+   ],
+   "quotes": [
+    {
+     "text": "no more than 100 000 faint satellites, below naked eye visibility, should orbit Earth",
+     "translation": "in orbita attorno alla Terra non dovrebbero esserci più di 100.000 satelliti poco luminosi, invisibili a occhio nudo",
+     "author": "ESO"
+    }
+   ],
+   "sources": [
+    {
+     "name": "ESO",
+     "title": "\"Beyond the limit\": one million satellites and mirrors in space pose grave threat to the night sky",
+     "url": "https://www.eso.org/public/news/eso2607/"
+    }
+   ],
+   "date": "2026-07-01T12:00:00Z",
+   "addedAt": "2026-10-21T10:08:47Z",
+   "when": null,
+   "image": "https://cdn.eso.org/images/screen/eso2607a.jpg",
+   "imageCredit": "F. Kamphues, ESO/M. Kornmesser",
+   "solidityNote": null,
+   "url": "https://eso.org/public/news/eso2607",
+   "en": {
+    "title": "Too many satellites: above 100,000 the night sky is at risk, says ESO",
+    "summary": "Plans to launch more than 1.7 million satellites would have “devastating consequences for astronomy”. The study suggests a limit: no more than 100,000, and faint ones.",
+    "body": [
+     "A study by the European Southern Observatory (ESO) has calculated for the first time how much large satellite constellations would brighten the night sky, disrupting astronomical observations.",
+     "Since 2019 the number of satellites in orbit has risen rapidly, to over 14,000 today, mostly SpaceX's Starlink. Current proposals would launch more than 1.7 million, some very bright: according to the study they would have “devastating consequences for astronomy”.",
+     "To safeguard our ability to observe the sky with modern telescopes, ESO says no more than 100,000 satellites should orbit Earth, all fainter than naked-eye visibility."
+    ],
+    "when": null,
+    "note": null,
+    "quotes": [
+     null
+    ]
+   },
+   "videos": [],
+   "videoQuery": "Too many satellites: above 100,000 the night sky is at risk, says ESO"
+  },
+  {
+   "id": "4ea7291e8174",
+   "section": "novita",
+   "topic": "Tecnologia",
+   "solidity": "ufficiale",
+   "title": "Elicotteri su Marte: la NASA prova pale più sottili per voli più lunghi",
+   "summary": "Dopo Ingenuity e in vista della missione SkyFall del 2028, gli ingegneri NASA testano un nuovo profilo di pala pensato per l'aria rarefatta di Marte.",
+   "body": [
+    "Ingenuity della NASA è stato il primo velivolo a motore a volare su un altro pianeta. La missione SkyFall, prevista per il 2028, porterà su Marte tre elicotteri, con pale progettate per l'atmosfera sottilissima del pianeta.",
+    "Per le missioni successive i ricercatori stanno esplorando pale più sottili e affilate, capaci di aumentare l'autonomia di ogni volo. Un gruppo dell'Ames Research Center, con l'Imperial College di Londra e l'Università di Nagoya, ha progettato un nuovo profilo chiamato roamx-0201.",
+    "Il profilo è nato da simulazioni avanzate tarate sulle condizioni di Marte, che hanno suggerito una forma più sottile e asimmetrica. I test in galleria del vento hanno mostrato prestazioni migliori e una maggiore capacità di recuperare in condizioni di volo rischiose."
+   ],
+   "quotes": [
+    {
+     "text": "NASA’s Ingenuity helicopter made history as the first powered aircraft to fly on another planet.",
+     "translation": "L'elicottero Ingenuity della NASA ha fatto la storia come primo velivolo a motore a volare su un altro pianeta.",
+     "author": "NASA"
+    }
+   ],
+   "sources": [
+    {
+     "name": "NASA",
+     "title": "NASA Experimental Mars Helicopter Blade Designs Target Longer Flights",
+     "url": "https://www.nasa.gov/science-research/aeronautics-research/nasa-experimental-mars-helicopter-blade-designs-target-longer-flights/"
+    }
+   ],
+   "date": "2026-10-20T15:00:00Z",
+   "addedAt": "2026-10-21T10:08:47Z",
+   "when": null,
+   "image": "https://www.nasa.gov/wp-content/uploads/2026/10/screenshot-2026-10-19-at-4-12-39-pm.png",
+   "imageCredit": "NASA",
+   "solidityNote": null,
+   "url": "https://nasa.gov/science-research/aeronautics-research/nasa-experimental-mars-helicopter-blade-designs-target-longer-flights",
+   "en": {
+    "title": "Helicopters on Mars: NASA tests thinner blades for longer flights",
+    "summary": "After Ingenuity and ahead of the 2028 SkyFall mission, NASA engineers are testing a new blade profile designed for Mars's thin air.",
+    "body": [
+     "NASA's Ingenuity was the first powered aircraft to fly on another planet. The SkyFall mission, scheduled for 2028, will take three helicopters to Mars, with blades designed for the planet's very thin atmosphere.",
+     "For later missions researchers are exploring thinner, sharper blades that could extend each flight's range. A team at Ames Research Center, with Imperial College London and Nagoya University, designed a new airfoil called roamx-0201.",
+     "The profile came from advanced simulations tuned to Mars conditions, which pointed to a thinner, asymmetrical shape. Wind tunnel tests showed better performance and a greater ability to recover in risky flight conditions."
+    ],
+    "when": null,
+    "note": null,
+    "quotes": [
+     null
+    ]
+   },
+   "videos": [],
+   "videoQuery": "Helicopters on Mars: NASA tests thinner blades for longer flights"
+  },
+  {
+   "id": "2a79984745bc",
+   "section": "novita",
+   "topic": "Tecnologia",
+   "solidity": "preliminare",
+   "title": "Batterie per la Luna: la NASA sviluppa celle allo stato solido per -200 °C",
+   "summary": "Al polo sud lunare la notte scende a circa 200 gradi sotto zero e il giorno supera i 100. Il progetto SpearS punta su batterie senza elettrolita liquido.",
+   "body": [
+    "Batterie e freddo non vanno d'accordo, e sulla Luna il problema è serio: al polo sud, di notte, le temperature possono scendere a circa 200 gradi sotto zero, mentre nelle zone illuminate la superficie può superare i 100 gradi.",
+    "Il punto debole delle comuni batterie agli ioni di litio è l'elettrolita liquido, il materiale in cui si muovono gli ioni: se fa troppo freddo può congelare, se fa troppo caldo la batteria smette di funzionare, e nel vuoto può evaporare più facilmente.",
+    "Per questo la NASA ha avviato SpearS, un progetto guidato da Donald Dornbusch del Glenn Research Center per sviluppare batterie allo stato solido capaci di resistere alle condizioni estreme della superficie lunare."
+   ],
+   "quotes": [
+    {
+     "text": "al polo sud, durante la notte, le temperature possono scendere fino a circa 200 gradi sotto zero",
+     "translation": null,
+     "author": null
+    }
+   ],
+   "sources": [
+    {
+     "name": "Media INAF",
+     "title": "Come si tiene accesa una batteria sulla Luna",
+     "url": "https://www.media.inaf.it/2026/10/19/come-si-tiene-accesa-una-batteria-sulla-luna/"
+    }
+   ],
+   "date": "2026-10-19T08:00:00Z",
+   "addedAt": "2026-10-21T10:08:47Z",
+   "when": null,
+   "image": "https://www.media.inaf.it/wp-content/uploads/2026/10/moon-battery.jpg",
+   "imageCredit": "NASA",
+   "solidityNote": "Progetto appena partito: i risultati sono ancora da vedere.",
+   "url": "https://media.inaf.it/2026/10/19/come-si-tiene-accesa-una-batteria-sulla-luna",
+   "en": {
+    "title": "Batteries for the Moon: NASA develops solid-state cells for -200 °C",
+    "summary": "At the lunar south pole night drops to about 200 degrees below zero and day exceeds 100. The SpearS project bets on batteries without liquid electrolyte.",
+    "body": [
+     "Batteries and cold don't get along, and on the Moon the problem is serious: at the south pole, at night, temperatures can drop to about 200 degrees below zero, while sunlit areas can exceed 100 degrees.",
+     "The weak point of ordinary lithium-ion batteries is the liquid electrolyte, the material the ions move through: too cold and it can freeze, too hot and the battery stops working, and in a vacuum it can evaporate more easily.",
+     "That is why NASA has launched SpearS, a project led by Donald Dornbusch of Glenn Research Center to develop solid-state batteries able to withstand the extreme conditions of the lunar surface."
+    ],
+    "when": null,
+    "note": "A project that has only just started: results are still to come.",
+    "quotes": [
+     "at the south pole, at night, temperatures can drop to about 200 degrees below zero"
+    ]
+   },
+   "videos": [],
+   "videoQuery": "Batteries for the Moon: NASA develops solid-state cells for -200 °C"
   }
  ]
 }
