@@ -32,7 +32,7 @@ jobs:
       - name: Prepara i file del sito
         run: |
           mkdir _site
-          cp -r index.html manifest.webmanifest sw.js .nojekyll assets data _site/
+          cp -r index.html manifest.webmanifest sw.js .nojekyll assets data turni _site/
 
       - uses: actions/upload-pages-artifact@v5
         with:
