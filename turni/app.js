@@ -844,9 +844,20 @@
         .map((s) => ({ id: String(s.id || uid()), date: s.date, start: s.start, end: s.end, pause: Number(s.pause) || 0, note: String(s.note || '') }));
       const payments = (Array.isArray(d.payments) ? d.payments : []).filter((p) => p && Number(p.amount) > 0 && /^\d{4}-\d{2}$/.test(p.month))
         .map((p) => ({ id: String(p.id || uid()), kind: p.kind === 'stipendio' ? 'stipendio' : 'extra', amount: Number(p.amount), date: String(p.date || ''), month: p.month, note: String(p.note || '') }));
-      if (!confirm(`Il backup contiene ${shifts.length} turni e ${payments.length} pagamenti. Vuoi sostituire i dati attuali con questi?`)) return;
-      db = normalize({ shifts, payments, open: d.open, settings: d.settings });
-      save(); hide(); render(); toast('Backup ripristinato');
+      if (!db.shifts.length && !db.payments.length) {
+        db = normalize({ shifts, payments, open: d.open, settings: d.settings });
+        save(); hide(); render(); toast(`Caricati ${shifts.length} turni`);
+        return;
+      }
+      // Ci sono già dei dati: aggiungo solo quello che manca, senza cancellare niente
+      const have = new Set(db.shifts.map((s) => `${s.date}|${s.start}|${s.end}`));
+      const newShifts = shifts.filter((s) => !have.has(`${s.date}|${s.start}|${s.end}`));
+      const payIds = new Set(db.payments.map((p) => p.id));
+      const newPays = payments.filter((p) => !payIds.has(p.id));
+      if (!newShifts.length && !newPays.length) { toast('Hai già tutti questi turni'); return; }
+      if (!confirm(`Aggiungo ${newShifts.length} turni${newPays.length ? ` e ${newPays.length} pagamenti` : ''} a quelli che hai già? Quelli uguali non vengono duplicati.`)) return;
+      db.shifts.push(...newShifts); db.payments.push(...newPays);
+      save(); hide(); render(); toast(`Aggiunti ${newShifts.length} turni`);
     } catch (err) { toast('Questo file non è un backup di Turni'); }
   };
 
