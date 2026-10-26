@@ -64,19 +64,13 @@
       <label class="field"><span>Entrata</span><input type="time" id="fStart" required></label>
       <label class="field"><span>Uscita</span><input type="time" id="fEnd"></label>
     </div>
-    <label class="field"><span>Pausa non pagata</span>
-      <select id="fPause">
-        <option value="0">Nessuna pausa</option>
-        <option value="10">10 minuti</option>
-        <option value="15">15 minuti</option>
-        <option value="20">20 minuti</option>
-        <option value="30">30 minuti</option>
-        <option value="45">45 minuti</option>
-        <option value="60">1 ora</option>
-        <option value="90">1 ora e 30</option>
-        <option value="120">2 ore</option>
-      </select>
-    </label>
+    <button type="button" class="split-toggle" id="fSplit" aria-pressed="false">
+      <span class="sw"></span><span><b>Turno spezzato</b><small>Esci e poi rientri: le ore in mezzo non sono pagate</small></span>
+    </button>
+    <div class="row2" id="splitBox" hidden>
+      <label class="field"><span>Rientro</span><input type="time" id="fStart2"></label>
+      <label class="field"><span>Uscita</span><input type="time" id="fEnd2"></label>
+    </div>
     <label class="field"><span>Nota (facoltativa)</span><input type="text" id="fNote" maxlength="80" placeholder="Es. inventario, sostituzione…"></label>
     <div class="preview" id="fPreview"></div>
     <div class="sheet-actions">
@@ -113,20 +107,11 @@
     <h3>Il mio contratto</h3>
     <div class="row2">
       <label class="field"><span>Ore a settimana</span><input type="text" id="sWeek" inputmode="decimal" placeholder="20"></label>
-      <label class="field"><span>Ore al mese</span><input type="text" id="sMonth" inputmode="decimal" placeholder="80"></label>
-    </div>
-    <p class="note">Tutto quello che fai oltre queste ore conta come extra.</p>
-    <div class="row2">
       <label class="field"><span>Paga ora extra (€)</span><input type="text" id="sRate" inputmode="decimal" placeholder="9,00"></label>
-      <label class="field"><span>Stipendio netto (€)</span><input type="text" id="sSalary" inputmode="decimal" placeholder="Facoltativo"></label>
     </div>
-    <p class="note">Lo stipendio netto è quello della busta paga: serve solo a controllare che arrivi. Puoi lasciarlo vuoto.</p>
-
-    <h4>Gli extra si contano</h4>
-    <div class="choice" id="sBasis">
-      <label><input type="radio" name="basis" value="month"><span><b>Sul mese</b><small>Ore del mese oltre le ore mensili (es. 80).</small></span></label>
-      <label><input type="radio" name="basis" value="week"><span><b>Settimana per settimana</b><small>Ogni settimana, le ore oltre le ore settimanali (es. 20), poi sommate.</small></span></label>
-    </div>
+    <p class="note">Gli extra si contano sul mese: ore del mese meno <b>ore a settimana × settimane del mese</b> (4 settimane = 80 h, 5 settimane = 100 h). Se un mese l'azienda conta diversamente, lo cambi dalla sezione Mese.</p>
+    <label class="field"><span>Stipendio netto in busta paga (€)</span><input type="text" id="sSalary" inputmode="decimal" placeholder="Facoltativo"></label>
+    <p class="note">Serve solo a controllare che arrivi. Puoi lasciarlo vuoto.</p>
 
     <h4>Come contano entrata e uscita</h4>
     <div class="choice" id="sMethod"></div>

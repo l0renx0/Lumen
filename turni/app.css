@@ -56,6 +56,7 @@
 }
 
 * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+[hidden] { display: none !important; }
 html, body { margin: 0; }
 body {
   background: var(--bg); color: var(--ink); font-family: var(--sans); font-size: 16px; line-height: 1.4;
@@ -226,6 +227,19 @@ header.top { display: flex; align-items: flex-end; justify-content: space-betwee
 .paystate.ok .ic { color: var(--money); }
 .paystate.due { background: var(--accent-soft); }
 .paystate.due .ic { color: var(--accent-ink); }
+
+/* Turno spezzato */
+.gap { display: flex; align-items: center; gap: 8px; font-size: 12px; font-weight: 600; color: var(--ink-3); padding: 0 4px; }
+.gap::before, .gap::after { content: ""; flex: 1; border-top: 1.5px dashed var(--line-strong); }
+.split-toggle { display: flex; align-items: center; gap: 12px; width: 100%; text-align: left; padding: 12px 14px; border-radius: 14px; background: var(--bg-soft); margin-bottom: 12px; }
+.split-toggle b { display: block; font-size: 15px; }
+.split-toggle small { display: block; font-size: 12.5px; color: var(--ink-3); margin-top: 1px; }
+.split-toggle .sw { width: 44px; height: 26px; border-radius: 99px; background: var(--line-strong); position: relative; flex: none; transition: background 0.2s; }
+.split-toggle .sw::after { content: ""; position: absolute; top: 3px; left: 3px; width: 20px; height: 20px; border-radius: 50%; background: #fff; box-shadow: 0 1px 3px rgba(0,0,0,0.25); transition: transform 0.25s var(--spring); }
+.split-toggle[aria-pressed="true"] .sw { background: var(--accent); }
+.split-toggle[aria-pressed="true"] .sw::after { transform: translateX(18px); }
+.weeks-btn { display: inline-flex; align-items: center; gap: 6px; font-size: 13px; color: var(--ink-2); margin-top: 10px; padding: 6px 10px; border-radius: 10px; background: var(--bg-soft); }
+.weeks-btn b { color: var(--accent-ink); }
 
 /* ---------- Pulsanti ---------- */
 .btn { padding: 13px 18px; border-radius: 14px; font-weight: 650; font-size: 15px; background: var(--bg-soft); transition: transform 0.15s; display: inline-flex; align-items: center; justify-content: center; gap: 6px; }

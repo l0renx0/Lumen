@@ -9,7 +9,7 @@ App personale (PWA statica, nessun build) pubblicata su GitHub Pages: https://l0
 - `data/cards.json`: tutte le schede. `data/meta.json`: `updatedAt` → se è più recente di quello caricato, l'app mostra il banner arancione "Nuove schede · Aggiorna".
 - `strumenti/controlla_schede.py`: controlli prima di pubblicare.
 - `.github/workflows/pubblica.yml`: pubblica il sito a ogni push su `main`.
-- `turni/`: app separata "Turni" (https://l0renx0.github.io/Lumen/turni/): timbratura entrata/uscita, ore della settimana e del mese, ore extra oltre il contratto (20 h/settimana, 80 h/mese) pagate a 9 €/h, soldi ricevuti e confronto tra modi di arrotondare le ore. File: `turni/index.html`, `turni/app.css`, `turni/app.js`. I dati restano solo nel telefono (localStorage `turni.v1`), con backup JSON ed esportazione CSV. Se la modifichi, aumenta `VERSION` in `turni/sw.js`.
+- `turni/`: app separata "Turni" (https://l0renx0.github.io/Lumen/turni/): timbratura entrata/uscita, ore della settimana e del mese, ore extra sul mese oltre il contratto (20 h × settimane del mese: 4 settimane = 80 h, 5 = 100 h; settimane contate col giovedì, modificabili mese per mese) pagate a 9 €/h, pause pagate (nessun campo pausa), turno spezzato = due turni nello stesso giorno, soldi ricevuti e confronto tra modi di arrotondare le ore. File: `turni/index.html`, `turni/app.css`, `turni/app.js`. I dati restano solo nel telefono (localStorage `turni.v1`), con backup JSON ed esportazione CSV. Se la modifichi, aumenta `VERSION` in `turni/sw.js`.
 
 ## Sezioni
 - `sapevi` → "Lo sapevi?": conoscenze consolidate. Sezione principale: l'app mostra prima le schede non lette, in un ordine che cambia ogni giorno ("La scoperta di oggi").

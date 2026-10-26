@@ -5,7 +5,7 @@
 
   // ---------- Dati ----------
   const KEY = 'turni.v1';
-  const DEFAULTS = { weekHours: 20, monthHours: 80, extraRate: 9, salary: 0, basis: 'month', method: 'exact' };
+  const DEFAULTS = { weekHours: 20, extraRate: 9, salary: 0, method: 'exact', monthWeeks: {} };
 
   function normalize(d) {
     const out = {
@@ -15,7 +15,7 @@
       settings: { ...DEFAULTS, ...((d && d.settings) || {}) },
     };
     if (!METHODS[out.settings.method]) out.settings.method = 'exact';
-    if (out.settings.basis !== 'week') out.settings.basis = 'month';
+    if (!out.settings.monthWeeks || typeof out.settings.monthWeeks !== 'object') out.settings.monthWeeks = {};
     return out;
   }
   function load() {
@@ -87,7 +87,6 @@
 
   // ---------- Conti: settimana, mese, extra ----------
   const W = () => Math.round(db.settings.weekHours * 60);
-  const M = () => Math.round(db.settings.monthHours * 60);
 
   function weekInfo(mon, method) {
     const list = between(iso(mon), iso(addDays(mon, 6)));
@@ -104,14 +103,19 @@
     return out;
   }
 
+  // Ore del mese da contratto: ore a settimana × settimane del mese (4 o 5).
+  // Se per un mese l'azienda conta diversamente, si può cambiare a mano.
+  const autoWeeks = (y, m) => weeksOfMonth(y, m).length;
+  const weeksIn = (y, m) => db.settings.monthWeeks[`${y}-${pad(m + 1)}`] || autoWeeks(y, m);
+  const M = (y, m) => W() * weeksIn(y, m);
+
   function monthInfo(y, m, method = db.settings.method) {
     const first = new Date(y, m, 1), last = new Date(y, m + 1, 0);
     const list = between(iso(first), iso(last));
     const min = total(list, method);
-    let extra;
-    if (db.settings.basis === 'week') extra = weeksOfMonth(y, m).reduce((a, w) => a + weekInfo(w, method).extra, 0);
-    else extra = Math.max(0, min - M());
-    return { list, min, extra, eur: money(extra), key: `${y}-${pad(m + 1)}` };
+    const goal = M(y, m);
+    const extra = Math.max(0, min - goal);
+    return { list, min, goal, extra, eur: money(extra), key: `${y}-${pad(m + 1)}` };
   }
 
   const paid = (key, kind) => db.payments.filter((p) => p.month === key && p.kind === kind).reduce((a, p) => a + p.amount, 0);
@@ -167,6 +171,19 @@
       </button>`;
   }
 
+  // Turni di un giorno; tra due turni (turno spezzato) mostra le ore non pagate
+  function dayShifts(ds, openHtml = '') {
+    let html = '';
+    ds.forEach((s, i) => {
+      if (i) {
+        const g = toMin(s.start) - toMin(ds[i - 1].end);
+        if (g > 0) html += `<div class="gap">spezzato · ${fmtH(g)} non pagate</div>`;
+      }
+      html += shiftBtn(s);
+    });
+    return html + openHtml;
+  }
+
   function openShiftBtn() {
     const o = db.open;
     return `<button class="shift open" data-open>
@@ -181,6 +198,12 @@
         <div class="label"><b>${label}</b>${isNow ? `<small>${sub}</small>` : '<button data-today>Torna a oggi</button>'}</div>
         <button class="icon-btn" data-move="1" aria-label="Successivo">${ICON.next}</button>
       </div>`;
+  }
+
+  // "Ottobre: 5 settimane = 100 h" — tocca per passare da 4 a 5 settimane
+  function weeksBtn(y, m) {
+    const n = weeksIn(y, m);
+    return `<button class="weeks-btn" data-weeks="${y}-${pad(m + 1)}">${cap(MONTHS[m])} conta <b>${n} settimane</b> = ${fmtH(M(y, m))} · cambia</button>`;
   }
 
   // Minuti del turno in corso (dall'entrata a adesso)
@@ -227,7 +250,8 @@
     const wMin = wk.min + liveMin(now);
     const mi = monthInfo(now.getFullYear(), now.getMonth());
     const mMin = mi.min + liveMin(now);
-    const mExtraNow = db.settings.basis === 'month' ? Math.max(0, mMin - M()) : mi.extra;
+    const mGoal = mi.goal;
+    const mExtraNow = Math.max(0, mMin - mGoal);
 
     const recent = sorted(db.shifts).slice(-5).reverse();
     const recentHtml = recent.length
@@ -245,9 +269,9 @@
         </button>
         <button class="card tap" data-goto="soldi">
           <div class="kicker">${cap(MONTHS[now.getMonth()])}</div>
-          <div class="ringrow" style="margin-top:10px">${ring(mMin, M())}
-            <div class="info"><div class="h num">${fmtH(mMin)}<em>su ${fmtH(M())}</em></div>
-            <div class="pills">${mExtraNow ? `<span class="pill extra">+${fmtH(mExtraNow)} · ${eur(money(mExtraNow))}</span>` : `<span class="pill">mancano ${fmtH(Math.max(0, M() - mMin))}</span>`}</div></div>
+          <div class="ringrow" style="margin-top:10px">${ring(mMin, mGoal)}
+            <div class="info"><div class="h num">${fmtH(mMin)}<em>su ${fmtH(mGoal)}</em></div>
+            <div class="pills">${mExtraNow ? `<span class="pill extra">+${fmtH(mExtraNow)} · ${eur(money(mExtraNow))}</span>` : `<span class="pill">mancano ${fmtH(Math.max(0, mGoal - mMin))}</span>`}</div></div>
           </div>
         </button>`
       + recentHtml;
@@ -286,7 +310,7 @@
       const hasOpen = open && open.date === key;
       rows += `<div class="day${key === todayKey ? ' is-today' : ''}" id="d-${key}">
           <div class="dname"><span>${DAYS[d.getDay()]}</span><b>${d.getDate()}</b></div>
-          <div class="shifts">${ds.map(shiftBtn).join('')}${hasOpen ? openShiftBtn() : ''}
+          <div class="shifts">${dayShifts(ds, hasOpen ? openShiftBtn() : '')}
             <button class="add-day${ds.length || hasOpen ? ' small' : ''}" data-add="${key}">${ds.length || hasOpen ? '+ altro turno' : 'Riposo · tocca per aggiungere'}</button>
           </div>
         </div>`;
@@ -296,7 +320,7 @@
       + `<section class="card">
           <div class="kicker">Ore lavorate</div>
           <div class="big">${bigH(wMin)}</div>
-          <div class="sub">${dec(wMin)} ore${extra ? ` · <b style="color:var(--money)">${eur(money(extra))}</b> di extra` : ''}</div>
+          <div class="sub">${dec(wMin)} ore${extra ? ` · <b style="color:var(--money)">+${fmtH(extra)}</b> oltre le ${fmtH(W())}` : ''}</div>
           ${meter(wMin, W())}
           <div class="bars">${bars}</div>
         </section>
@@ -338,7 +362,8 @@
           <div class="kicker">Ore lavorate</div>
           <div class="big">${bigH(mi.min)}</div>
           <div class="sub">${dec(mi.min)} ore</div>
-          ${meter(mi.min, M())}
+          ${meter(mi.min, mi.goal)}
+          ${weeksBtn(y, m)}
           <div class="stats">
             <div class="stat"><b class="num">${mi.list.length}</b><span>${mi.list.length === 1 ? 'turno' : 'turni'}</span></div>
             <div class="stat"><b class="num">${days}</b><span>${days === 1 ? 'giorno' : 'giorni'}</span></div>
@@ -361,25 +386,18 @@
     const diff = Math.round((mi.eur - got) * 100) / 100;
 
     let state;
-    if (!got && !mi.eur) state = `<div class="paystate"><div class="ic">${ICON.clock}</div><div><b>Nessuna ora extra ${isNow ? 'per ora' : ''}</b><span>Superate le ${fmtH(M())} del mese, qui vedi quanto ti spetta.</span></div></div>`;
+    if (!got && !mi.eur) state = `<div class="paystate"><div class="ic">${ICON.clock}</div><div><b>Nessuna ora extra ${isNow ? 'per ora' : ''}</b><span>Superate le ${fmtH(mi.goal)} del mese, qui vedi quanto ti spetta.</span></div></div>`;
     else if (!got) state = `<div class="paystate due"><div class="ic">${ICON.clock}</div><div><b>Da ricevere: ${eur(mi.eur)}</b><span>Quando ti pagano, tocca «Segna soldi ricevuti».</span></div></div>`;
     else if (Math.abs(diff) < 0.01) state = `<div class="paystate ok"><div class="ic">${ICON.check}</div><div><b>Pagato tutto</b><span>Hai ricevuto ${eur(got)}: torna con il conteggio.</span></div></div>`;
     else if (diff > 0) state = `<div class="paystate due"><div class="ic">${ICON.clock}</div><div><b>Mancano ${eur(diff)}</b><span>Ricevuti ${eur(got)} su ${eur(mi.eur)}.</span></div></div>`;
     else state = `<div class="paystate ok"><div class="ic">${ICON.check}</div><div><b>Ricevuti ${eur(-diff)} in più</b><span>Ricevuti ${eur(got)}, il conteggio dice ${eur(mi.eur)}.</span></div></div>`;
 
     // Il calcolo passo per passo
-    let calc;
-    if (s.basis === 'week') {
-      calc = weeksOfMonth(y, m).map((w) => {
-        const x = weekInfo(w), e = addDays(w, 6);
-        return `<div class="row"><span class="l">${w.getDate()} ${MON[w.getMonth()]} – ${e.getDate()} ${MON[e.getMonth()]}<small>${fmtH(x.min)} lavorate, ${fmtH(W())} da contratto</small></span><span class="r num${x.extra ? ' money' : ''}">${x.extra ? '+' + fmtH(x.extra) : '–'}</span></div>`;
-      }).join('') + `<div class="row total"><span class="l">Ore extra × ${eur(s.extraRate)}</span><span class="r num money">${fmtH(mi.extra)} = ${eur(mi.eur)}</span></div>`;
-    } else {
-      calc = `<div class="row"><span class="l">Ore lavorate</span><span class="r num">${fmtH(mi.min)}<small>${dec(mi.min)} ore</small></span></div>
-        <div class="row"><span class="l">Ore da contratto</span><span class="r num">− ${fmtH(M())}</span></div>
+    const wn = weeksIn(y, m);
+    const calc = `<div class="row"><span class="l">Ore lavorate</span><span class="r num">${fmtH(mi.min)}<small>${dec(mi.min)} ore</small></span></div>
+        <button class="row" data-weeks="${mi.key}"><span class="l">Ore da contratto<small>${wn} settimane × ${fmtH(W())} · <span style="color:var(--accent-ink);font-weight:650">cambia</span></small></span><span class="r num">− ${fmtH(mi.goal)}</span></button>
         <div class="row"><span class="l">Ore extra</span><span class="r num">${fmtH(mi.extra)}<small>${dec(mi.extra)} ore</small></span></div>
         <div class="row total"><span class="l">× ${eur(s.extraRate)} all'ora</span><span class="r num money">${eur(mi.eur)}</span></div>`;
-    }
 
     // Confronto tra i modi di contare
     let match = null;
@@ -508,6 +526,13 @@
       if (has) { cursor = parse(d.day); go('settimana'); setTimeout(() => { const el = $('d-' + d.day); if (el) { el.scrollIntoView({ behavior: 'smooth', block: 'start' }); el.classList.add('flash'); } }, 50); }
       else openShift('new', null, d.day);
     }
+    else if (d.weeks) {
+      const [yy, mm] = d.weeks.split('-').map(Number);
+      const auto = autoWeeks(yy, mm - 1), next = weeksIn(yy, mm - 1) === 5 ? 4 : 5;
+      if (next === auto) delete db.settings.monthWeeks[d.weeks]; else db.settings.monthWeeks[d.weeks] = next;
+      save(); render();
+      toast(`${cap(MONTHS[mm - 1])}: ${next} settimane = ${fmtH(M(yy, mm - 1))} da contratto`);
+    }
     else if (d.method) { db.settings.method = d.method; save(); render(); toast(`Ora conto «${METHODS[d.method].name}»`); }
     else if (d.delpay) {
       const p = db.payments.find((x) => x.id === d.delpay);
@@ -542,11 +567,19 @@
   // mode: 'new' (nuovo), 'edit' (turno salvato), 'open' (chiudi il turno in corso), 'fix' (correggi l'entrata)
   let editMode = 'new', editing = null;
   const onOpen = () => editMode === 'open' || editMode === 'fix';
-  const f = { date: $('fDate'), start: $('fStart'), end: $('fEnd'), pause: $('fPause'), note: $('fNote') };
+  const f = { date: $('fDate'), start: $('fStart'), end: $('fEnd'), start2: $('fStart2'), end2: $('fEnd2'), note: $('fNote') };
+  let split = false;
+  function setSplit(on) {
+    split = on;
+    $('fSplit').setAttribute('aria-pressed', on);
+    $('splitBox').hidden = !on;
+    updatePreview();
+  }
+  $('fSplit').onclick = () => setSplit(!split);
 
   function presets() {
     const count = {};
-    db.shifts.forEach((s) => { const k = `${s.start}|${s.end}|${Number(s.pause) || 0}`; count[k] = (count[k] || 0) + 1; });
+    db.shifts.forEach((s) => { const k = `${s.start}|${s.end}`; count[k] = (count[k] || 0) + 1; });
     return Object.entries(count).filter(([, n]) => n > 1).sort((a, b) => b[1] - a[1]).slice(0, 4).map(([k]) => k.split('|'));
   }
 
@@ -560,21 +593,23 @@
       const o = db.open;
       $('shiftTitle').textContent = mode === 'open' ? 'Fine turno' : 'Correggi entrata';
       f.date.value = o.date; f.start.value = o.start; f.end.value = mode === 'open' ? hhmm(now) : '';
-      f.pause.value = String(Number(o.pause) || 0); f.note.value = o.note || '';
+      f.note.value = o.note || '';
     } else if (mode === 'edit') {
       $('shiftTitle').textContent = 'Modifica turno';
       f.date.value = s.date; f.start.value = s.start; f.end.value = s.end;
-      f.pause.value = String(Number(s.pause) || 0); f.note.value = s.note || '';
+      f.note.value = s.note || '';
     } else {
       $('shiftTitle').textContent = 'Nuovo turno';
       f.date.value = date || iso(now);
-      f.start.value = ''; f.end.value = ''; f.pause.value = '0'; f.note.value = '';
+      f.start.value = ''; f.end.value = ''; f.note.value = '';
       ps = presets();
     }
-    if (!f.pause.value) f.pause.value = '0';
+    f.start2.value = ''; f.end2.value = '';
+    $('fSplit').hidden = mode !== 'new';
+    split = false; $('fSplit').setAttribute('aria-pressed', 'false'); $('splitBox').hidden = true;
     $('presetsBox').innerHTML = ps.length
-      ? `<div class="chips-label">Orari che usi spesso</div><div class="chips">${ps.map(([a, b, p]) =>
-        `<button type="button" class="chip num" data-preset="${a}|${b}|${p}">${a}–${b}${Number(p) ? ` · ${p}′` : ''}</button>`).join('')}</div>`
+      ? `<div class="chips-label">Orari che usi spesso</div><div class="chips">${ps.map(([a, b]) =>
+        `<button type="button" class="chip num" data-preset="${a}|${b}">${a}–${b}</button>`).join('')}</div>`
       : '';
     updatePreview();
     show($('shiftSheet'));
@@ -589,38 +624,59 @@
       if (db.open && !onOpen()) p.className = 'preview bad';
       return;
     }
-    const s = { start: f.start.value, end: f.end.value, pause: f.pause.value };
-    const ex = minutes(s, 'exact'), m = minutes(s);
-    const night = toMin(s.end) <= toMin(s.start);
-    if (!ex) { p.className = 'preview bad'; p.textContent = 'La pausa è più lunga del turno'; return; }
+    const parts = [{ start: f.start.value, end: f.end.value }];
+    let note = '';
+    if (split) {
+      if (!f.start2.value || !f.end2.value) { p.className = 'preview bad'; p.textContent = 'Scrivi l\'orario di rientro e di uscita'; return; }
+      const gap = toMin(f.start2.value) - toMin(f.end.value);
+      if (gap <= 0 || toMin(f.end.value) <= toMin(f.start.value)) { p.className = 'preview bad'; p.textContent = 'Il rientro deve essere dopo la prima uscita'; return; }
+      parts.push({ start: f.start2.value, end: f.end2.value });
+      note = `${fmtH(minutes(parts[0], 'exact'))} + ${fmtH(minutes(parts[1], 'exact'))} · ${fmtH(gap)} di spezzato non pagate. `;
+    }
+    const ex = total(parts, 'exact'), m = total(parts);
+    const last = parts[parts.length - 1];
+    if (toMin(last.end) <= toMin(last.start)) note += 'Finisce il giorno dopo. ';
     p.className = 'preview';
     p.innerHTML = `Totale: ${fmtH(ex)} <span style="font-weight:500">(${dec(ex)} ore)</span>`
-      + `<small>${night ? 'Finisce il giorno dopo. ' : ''}${m !== ex ? `Con il conteggio «${METHODS[db.settings.method].name}»: ${fmtH(m)}.` : ''}</small>`;
+      + `<small>${note}${m !== ex ? `Con il conteggio «${METHODS[db.settings.method].name}»: ${fmtH(m)}.` : ''}</small>`;
   }
 
   $('presetsBox').addEventListener('click', (e) => {
     const c = e.target.closest('[data-preset]');
     if (!c) return;
-    const [a, b, p] = c.dataset.preset.split('|');
-    f.start.value = a; f.end.value = b; f.pause.value = p;
+    const [a, b] = c.dataset.preset.split('|');
+    f.start.value = a; f.end.value = b;
     updatePreview();
   });
-  ['input', 'change'].forEach((ev) => [f.start, f.end, f.pause].forEach((el) => el.addEventListener(ev, updatePreview)));
+  ['input', 'change'].forEach((ev) => [f.start, f.end, f.start2, f.end2].forEach((el) => el.addEventListener(ev, updatePreview)));
 
   $('shiftSheet').addEventListener('submit', (e) => {
     e.preventDefault();
-    const data = { date: f.date.value, start: f.start.value, end: f.end.value, pause: Number(f.pause.value) || 0, note: f.note.value.trim() };
+    const data = { date: f.date.value, start: f.start.value, end: f.end.value, pause: 0, note: f.note.value.trim() };
     if (!data.date || !data.start) return;
+
+    // Turno spezzato: due turni nello stesso giorno, le ore in mezzo non contano
+    if (split) {
+      if (!data.end || !f.start2.value || !f.end2.value) { toast('Scrivi tutti e quattro gli orari'); return; }
+      if (toMin(f.start2.value) <= toMin(data.end) || toMin(data.end) <= toMin(data.start)) { toast('Il rientro deve essere dopo la prima uscita'); return; }
+      const second = { ...data, start: f.start2.value, end: f.end2.value };
+      db.shifts.push({ id: uid(), ...data }, { id: uid(), ...second });
+      save(); buzz(); hide();
+      if (tab !== 'oggi') cursor = parse(data.date);
+      render();
+      toast(`Turno spezzato salvato · ${fmtH(minutes(data, 'exact') + minutes(second, 'exact'))}`);
+      return;
+    }
 
     // Senza uscita: è (o resta) un turno in corso
     if (!data.end) {
       if (editMode === 'edit' || (db.open && !onOpen())) { toast('Scrivi anche l\'orario di uscita'); return; }
-      db.open = { date: data.date, start: data.start, pause: data.pause, note: data.note };
+      db.open = { date: data.date, start: data.start, pause: 0, note: data.note };
       save(); hide(); render();
       toast(`Turno in corso dalle ${data.start}`);
       return;
     }
-    if (!minutes(data, 'exact')) { toast('La pausa è più lunga del turno'); return; }
+    if (!minutes(data, 'exact')) { toast('Entrata e uscita sono uguali'); return; }
 
     if (editMode === 'edit') Object.assign(editing, data);
     else {
@@ -693,20 +749,17 @@
     `<label><input type="radio" name="method" value="${k}"><span><b>${v.name}</b><small>${v.desc}</small></span></label>`).join('');
   $('openSettings').onclick = () => {
     const s = db.settings;
-    $('sWeek').value = fmtIn(s.weekHours); $('sMonth').value = fmtIn(s.monthHours);
+    $('sWeek').value = fmtIn(s.weekHours);
     $('sRate').value = s.extraRate ? s.extraRate.toFixed(2).replace('.', ',') : '';
     $('sSalary').value = s.salary ? s.salary.toFixed(2).replace('.', ',') : '';
-    document.querySelectorAll('input[name="basis"]').forEach((r) => { r.checked = r.value === s.basis; });
     document.querySelectorAll('input[name="method"]').forEach((r) => { r.checked = r.value === s.method; });
     show($('settingsSheet'));
   };
   function saveSettings() {
     const s = db.settings;
     s.weekHours = parseNum($('sWeek').value) || DEFAULTS.weekHours;
-    s.monthHours = parseNum($('sMonth').value) || DEFAULTS.monthHours;
     s.extraRate = parseNum($('sRate').value);
     s.salary = parseNum($('sSalary').value);
-    const b = document.querySelector('input[name="basis"]:checked'); if (b) s.basis = b.value;
     const m = document.querySelector('input[name="method"]:checked'); if (m) s.method = m.value;
     save(); render();
   }
@@ -722,18 +775,18 @@
   function exportCsv(list, name) {
     // Separatore ";" e virgola decimale: Excel in italiano lo apre già in colonne
     const method = db.settings.method;
-    const head = ['Data', 'Giorno', 'Entrata', 'Uscita', 'Pausa (min)', 'Ore esatte'];
+    const head = ['Data', 'Giorno', 'Entrata', 'Uscita', 'Ore esatte'];
     if (method !== 'exact') head.push(`Ore (${METHODS[method].name})`);
     head.push('Nota');
     const rows = [head];
     sorted(list).forEach((s) => {
       const d = parse(s.date);
-      const r = [`${pad(d.getDate())}/${pad(d.getMonth() + 1)}/${d.getFullYear()}`, DAYS[d.getDay()], s.start, s.end, Number(s.pause) || 0, dec(minutes(s, 'exact'))];
+      const r = [`${pad(d.getDate())}/${pad(d.getMonth() + 1)}/${d.getFullYear()}`, DAYS[d.getDay()], s.start, s.end, dec(minutes(s, 'exact'))];
       if (method !== 'exact') r.push(dec(minutes(s)));
       r.push(`"${(s.note || '').replace(/"/g, '""')}"`);
       rows.push(r);
     });
-    const tot = ['Totale', '', '', '', '', dec(total(list, 'exact'))];
+    const tot = ['Totale', '', '', '', dec(total(list, 'exact'))];
     if (method !== 'exact') tot.push(dec(total(list)));
     rows.push(tot);
     download(name, '﻿' + rows.map((r) => r.join(';')).join('\r\n'), 'text/csv;charset=utf-8');
