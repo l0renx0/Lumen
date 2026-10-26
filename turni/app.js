@@ -104,16 +104,26 @@
   }
 
   // Ore del mese da contratto: ore a settimana × settimane del mese (4 o 5).
-  // Se per un mese l'azienda conta diversamente, si può cambiare a mano.
-  const autoWeeks = (y, m) => weeksOfMonth(y, m).length;
+  // Non sappiamo come l'azienda decide: proviamo i tre criteri più comuni
+  // (quanti lunedì, giovedì o domeniche ha il mese). Se dicono tutti 4 → 4,
+  // altrimenti nel dubbio 5 (il conto più basso, per difetto).
+  // Mese per mese si può comunque cambiare a mano.
+  const countDay = (y, m, wd) => { let n = 0; for (let d = new Date(y, m, 1); d.getMonth() === m; d = addDays(d, 1)) if (d.getDay() === wd) n++; return n; };
+  function weeksRule(y, m) {
+    const c = [countDay(y, m, 1), countDay(y, m, 4), countDay(y, m, 0)];
+    return Math.max(...c) === 4 ? { n: 4, sure: true } : { n: 5, sure: Math.min(...c) === 5 };
+  }
+  const autoWeeks = (y, m) => weeksRule(y, m).n;
+  const isManual = (y, m) => !!db.settings.monthWeeks[`${y}-${pad(m + 1)}`];
   const weeksIn = (y, m) => db.settings.monthWeeks[`${y}-${pad(m + 1)}`] || autoWeeks(y, m);
-  const M = (y, m) => W() * weeksIn(y, m);
+  const M = (y, m, weeks) => W() * (weeks || weeksIn(y, m));
+  const weeksLabel = (y, m) => (isManual(y, m) ? 'scelto da te' : weeksRule(y, m).sure ? 'sicuro' : 'nel dubbio');
 
-  function monthInfo(y, m, method = db.settings.method) {
+  function monthInfo(y, m, method = db.settings.method, weeks) {
     const first = new Date(y, m, 1), last = new Date(y, m + 1, 0);
     const list = between(iso(first), iso(last));
     const min = total(list, method);
-    const goal = M(y, m);
+    const goal = M(y, m, weeks);
     const extra = Math.max(0, min - goal);
     return { list, min, goal, extra, eur: money(extra), key: `${y}-${pad(m + 1)}` };
   }
@@ -203,7 +213,7 @@
   // "Ottobre: 5 settimane = 100 h" — tocca per passare da 4 a 5 settimane
   function weeksBtn(y, m) {
     const n = weeksIn(y, m);
-    return `<button class="weeks-btn" data-weeks="${y}-${pad(m + 1)}">${cap(MONTHS[m])} conta <b>${n} settimane</b> = ${fmtH(M(y, m))} · cambia</button>`;
+    return `<button class="weeks-btn" data-weeks="${y}-${pad(m + 1)}">${cap(MONTHS[m])}: <b>${n} settimane</b> = ${fmtH(M(y, m))} (${weeksLabel(y, m)}) · cambia</button>`;
   }
 
   // Minuti del turno in corso (dall'entrata a adesso)
@@ -395,20 +405,32 @@
     // Il calcolo passo per passo
     const wn = weeksIn(y, m);
     const calc = `<div class="row"><span class="l">Ore lavorate</span><span class="r num">${fmtH(mi.min)}<small>${dec(mi.min)} ore</small></span></div>
-        <button class="row" data-weeks="${mi.key}"><span class="l">Ore da contratto<small>${wn} settimane × ${fmtH(W())} · <span style="color:var(--accent-ink);font-weight:650">cambia</span></small></span><span class="r num">− ${fmtH(mi.goal)}</span></button>
+        <button class="row" data-weeks="${mi.key}"><span class="l">Ore da contratto<small>${wn} settimane × ${fmtH(W())} (${weeksLabel(y, m)}) · <span style="color:var(--accent-ink);font-weight:650">cambia</span></small></span><span class="r num">− ${fmtH(mi.goal)}</span></button>
         <div class="row"><span class="l">Ore extra</span><span class="r num">${fmtH(mi.extra)}<small>${dec(mi.extra)} ore</small></span></div>
         <div class="row total"><span class="l">× ${eur(s.extraRate)} all'ora</span><span class="r num money">${eur(mi.eur)}</span></div>`;
 
-    // Confronto tra i modi di contare
-    let match = null;
+    // Quale combinazione (conteggio ore × 4 o 5 settimane) torna con i soldi ricevuti?
+    let match = null, matchW = null;
     if (got) {
       let best = Infinity;
-      Object.keys(METHODS).forEach((k) => { const d = Math.abs(monthInfo(y, m, k).eur - got); if (d < best) { best = d; match = d < 0.5 ? k : null; } });
+      Object.keys(METHODS).forEach((k) => [wn, wn === 5 ? 4 : 5].forEach((n) => {
+        const d = Math.abs(monthInfo(y, m, k, n).eur - got);
+        if (d < best) { best = d; match = d < 0.5 ? k : null; matchW = d < 0.5 ? n : null; }
+      }));
     }
+
+    // Il resoconto con 4 e con 5 settimane
+    const weeksRows = [4, 5].map((n) => {
+      const x = monthInfo(y, m, s.method, n);
+      return `<button class="row${n === wn ? ' sel' : ''}" data-setweeks="${mi.key}|${n}">
+          <span class="l">Se conta ${n} settimane${n === wn ? ' <span class="pill extra" style="margin-left:4px">in uso</span>' : ''}${n === matchW ? ' <span class="pill accent" style="margin-left:4px">torna con i soldi ricevuti</span>' : ''}<small>${fmtH(x.goal)} da contratto · ${fmtH(x.extra)} extra</small></span>
+          <span class="r num money">${eur(x.eur)}</span>
+        </button>`;
+    }).join('');
     const methods = Object.keys(METHODS).map((k) => {
       const x = monthInfo(y, m, k);
       return `<button class="row${k === s.method ? ' sel' : ''}" data-method="${k}">
-          <span class="l">${METHODS[k].name}${k === s.method ? ' <span class="pill extra" style="margin-left:4px">in uso</span>' : ''}${k === match ? ' <span class="pill accent" style="margin-left:4px">torna con i soldi ricevuti</span>' : ''}<small>${fmtH(x.min)} lavorate · ${fmtH(x.extra)} extra</small></span>
+          <span class="l">${METHODS[k].name}${k === s.method ? ' <span class="pill extra" style="margin-left:4px">in uso</span>' : ''}${k === match && matchW === wn ? ' <span class="pill accent" style="margin-left:4px">torna con i soldi ricevuti</span>' : ''}<small>${fmtH(x.min)} lavorate · ${fmtH(x.extra)} extra</small></span>
           <span class="r num money">${eur(x.eur)}</span>
         </button>`;
     }).join('');
@@ -438,11 +460,14 @@
       + `<section class="card">
           <div class="kicker">Extra di ${MONTHS[m]}</div>
           <div class="big money">${eur(mi.eur)}</div>
-          <div class="sub">${fmtH(mi.extra)} extra × ${eur(s.extraRate)} all'ora${isNow ? ' · mese in corso' : ''}</div>
+          <div class="sub">${fmtH(mi.extra)} extra × ${eur(s.extraRate)} all'ora · ${wn} settimane${isNow ? ' · mese in corso' : ''}</div>
           ${state}
           <div class="actions"><button class="btn money full" id="addPay">${ICON.plus}Segna soldi ricevuti</button></div>
         </section>
         ${owed >= 0.01 ? `<div class="card flat" style="display:flex;justify-content:space-between;align-items:center;gap:12px"><span><span class="kicker">In tutto ti devono ancora</span><br><span class="sub">Tutti i mesi${months.has(monthKey(now)) ? ', compreso quello in corso' : ''}</span></span><b class="num" style="font-size:22px;color:var(--accent-ink)">${eur(owed)}</b></div>` : ''}
+        <div class="section-title">4 o 5 settimane?</div>
+        <div class="list">${weeksRows}</div>
+        <p class="hint">${isManual(y, m) ? 'Hai scelto tu il numero di settimane per questo mese.' : weeksRule(y, m).sure ? `${cap(MONTHS[m])} ha 4 settimane con qualsiasi criterio.` : 'Non è sicuro se l\'azienda conti 4 o 5 settimane: nel dubbio uso 5, che dà il conto più basso. Se ti pagano la cifra da 4 settimane, te lo dico qui.'} Tocca una riga per sceglierla.</p>
         <div class="section-title">Il calcolo</div>
         <div class="list">${calc}</div>
         <div class="section-title">Se contano le ore in un altro modo</div>
@@ -525,6 +550,13 @@
       const has = db.shifts.some((s) => s.date === d.day);
       if (has) { cursor = parse(d.day); go('settimana'); setTimeout(() => { const el = $('d-' + d.day); if (el) { el.scrollIntoView({ behavior: 'smooth', block: 'start' }); el.classList.add('flash'); } }, 50); }
       else openShift('new', null, d.day);
+    }
+    else if (d.setweeks) {
+      const [key, n] = d.setweeks.split('|');
+      const [yy, mm] = key.split('-').map(Number);
+      if (Number(n) === autoWeeks(yy, mm - 1)) delete db.settings.monthWeeks[key]; else db.settings.monthWeeks[key] = Number(n);
+      save(); render();
+      toast(`${cap(MONTHS[mm - 1])}: ${n} settimane = ${fmtH(M(yy, mm - 1))} da contratto`);
     }
     else if (d.weeks) {
       const [yy, mm] = d.weeks.split('-').map(Number);
