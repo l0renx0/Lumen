@@ -586,14 +586,44 @@
 
   // ---------- Fogli dal basso ----------
   let sheet = null;
-  function show(el) { sheet = el; $('scrim').classList.add('open'); el.classList.add('open'); }
+  function show(el) { sheet = el; el.scrollTop = 0; $('scrim').classList.add('open'); el.classList.add('open'); document.body.classList.add('locked'); }
   function hide() {
     if (!sheet) return;
     if (sheet.id === 'settingsSheet') saveSettings();
+    sheet.style.transform = ''; sheet.style.transition = ''; $('scrim').style.opacity = '';
     sheet.classList.remove('open'); $('scrim').classList.remove('open'); sheet = null;
+    document.body.classList.remove('locked');
   }
   $('scrim').onclick = hide;
   document.addEventListener('keydown', (e) => { if (e.key === 'Escape') hide(); });
+
+  // Trascina il foglio verso il basso per chiuderlo (quando è già in cima)
+  document.querySelectorAll('.sheet').forEach((el) => {
+    let y0 = null, t0 = 0, dy = 0, dragging = false;
+    el.addEventListener('touchstart', (e) => {
+      y0 = el.scrollTop <= 0 ? e.touches[0].clientY : null;
+      t0 = Date.now(); dy = 0; dragging = false;
+    }, { passive: true });
+    el.addEventListener('touchmove', (e) => {
+      if (y0 === null) return;
+      dy = e.touches[0].clientY - y0;
+      if (!dragging && dy > 8 && el.scrollTop <= 0) dragging = true;
+      if (!dragging) { if (dy < 0) y0 = null; return; }
+      e.preventDefault();
+      const d = Math.max(0, dy - 8);
+      el.style.transition = 'none';
+      el.style.transform = `translateY(${d}px)`;
+      $('scrim').style.opacity = String(Math.max(0, 1 - d / el.offsetHeight));
+    }, { passive: false });
+    el.addEventListener('touchend', () => {
+      if (!dragging) { y0 = null; return; }
+      const fast = dy / Math.max(1, Date.now() - t0) > 0.5;
+      el.style.transition = ''; $('scrim').style.opacity = '';
+      if (dy > 110 || (fast && dy > 40)) hide();
+      else el.style.transform = '';
+      y0 = null; dragging = false;
+    });
+  });
 
   // ---------- Turno: nuovo, modifica, in corso ----------
   // mode: 'new' (nuovo), 'edit' (turno salvato), 'open' (chiudi il turno in corso), 'fix' (correggi l'entrata)
