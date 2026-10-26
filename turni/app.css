@@ -1,6 +1,6 @@
 /* ==========================================================================
    Turni — stile
-   Fraunces (numeri e titoli) + Inter (interfaccia), accento arancione.
+   Bricolage Grotesque (numeri e titoli) + Inter (interfaccia), accento arancione.
    ========================================================================== */
 
 :root {
@@ -22,7 +22,7 @@
   --glass: rgba(255, 255, 255, 0.78);
   --shadow: 0 1px 2px rgba(17, 17, 19, 0.04), 0 12px 32px -14px rgba(17, 17, 19, 0.18);
   --shadow-lift: 0 2px 4px rgba(17, 17, 19, 0.05), 0 24px 48px -20px rgba(17, 17, 19, 0.3);
-  --serif: "Fraunces", "Iowan Old Style", Georgia, serif;
+  --serif: "Bricolage Grotesque", "Inter", -apple-system, sans-serif;
   --sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   --radius: 24px;
   --spring: cubic-bezier(0.16, 1, 0.3, 1);
@@ -74,7 +74,7 @@ button:focus-visible, input:focus-visible, select:focus-visible { outline: 2px s
 /* ---------- Intestazione ---------- */
 header.top { display: flex; align-items: flex-end; justify-content: space-between; gap: 12px; margin: 6px 0 18px; }
 .eyebrow { font-size: 13px; font-weight: 600; color: var(--ink-3); }
-.title { font-family: var(--serif); font-weight: 600; font-size: 36px; letter-spacing: -0.025em; line-height: 1.05; margin: 2px 0 0; font-optical-sizing: auto; }
+.title { font-family: var(--serif); font-weight: 700; font-size: 36px; letter-spacing: -0.03em; line-height: 1.05; margin: 2px 0 0; font-optical-sizing: auto; }
 .icon-btn { width: 42px; height: 42px; flex: none; border-radius: 50%; display: grid; place-items: center; background: var(--bg-soft); color: var(--ink-2); transition: transform 0.15s; }
 .icon-btn:active { transform: scale(0.92); }
 .icon-btn svg { width: 20px; height: 20px; }
@@ -92,7 +92,7 @@ header.top { display: flex; align-items: flex-end; justify-content: space-betwee
 .card.tap { width: 100%; text-align: left; display: block; transition: transform 0.2s var(--spring); }
 .card.tap:active { transform: scale(0.985); }
 .kicker { font-size: 12px; font-weight: 650; text-transform: uppercase; letter-spacing: 0.07em; color: var(--ink-3); }
-.big { font-family: var(--serif); font-weight: 600; font-size: 54px; letter-spacing: -0.035em; line-height: 1; margin: 6px 0 4px; font-variant-numeric: tabular-nums; }
+.big { font-family: var(--serif); font-weight: 700; font-size: 54px; letter-spacing: -0.035em; line-height: 1; margin: 6px 0 4px; font-variant-numeric: tabular-nums; }
 .big em { font-style: normal; font-size: 0.48em; color: var(--ink-3); letter-spacing: 0; margin: 0 4px 0 2px; }
 .big.money { color: var(--money); }
 .sub { color: var(--ink-2); font-size: 14px; }
@@ -110,7 +110,7 @@ header.top { display: flex; align-items: flex-end; justify-content: space-betwee
 .dot { width: 9px; height: 9px; border-radius: 50%; background: var(--ink-3); flex: none; }
 .clock.live .dot { background: var(--money); box-shadow: 0 0 0 0 var(--money); animation: pulse 2s infinite; }
 @keyframes pulse { 0% { box-shadow: 0 0 0 0 rgba(19, 149, 90, 0.5); } 70% { box-shadow: 0 0 0 10px rgba(19, 149, 90, 0); } 100% { box-shadow: 0 0 0 0 rgba(19, 149, 90, 0); } }
-.clock .time { font-family: var(--serif); font-weight: 600; font-size: 76px; letter-spacing: -0.04em; line-height: 1; margin: 14px 0 6px; font-variant-numeric: tabular-nums; }
+.clock .time { font-family: var(--serif); font-weight: 700; font-size: 76px; letter-spacing: -0.04em; line-height: 1; margin: 14px 0 6px; font-variant-numeric: tabular-nums; }
 .clock .time small { font-size: 0.42em; color: var(--ink-3); letter-spacing: -0.01em; margin-left: 4px; }
 .clock .meta { color: var(--ink-2); font-size: 14px; margin-bottom: 18px; }
 .clock .meta button { color: var(--accent-ink); font-weight: 650; font-size: 14px; }
@@ -135,7 +135,7 @@ header.top { display: flex; align-items: flex-end; justify-content: space-betwee
 .ring .over { stroke: var(--money); }
 .ring .pct { position: absolute; inset: 0; display: grid; place-items: center; font-weight: 700; font-size: 15px; }
 .ringrow .info { flex: 1; min-width: 0; }
-.ringrow .info .h { font-family: var(--serif); font-size: 30px; font-weight: 600; letter-spacing: -0.02em; line-height: 1.1; }
+.ringrow .info .h { font-family: var(--serif); font-size: 30px; font-weight: 700; letter-spacing: -0.03em; line-height: 1.1; }
 .ringrow .info .h em { font-style: normal; font-size: 15px; color: var(--ink-3); font-family: var(--sans); font-weight: 500; margin-left: 4px; }
 .ringrow .info .pills { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 8px; }
 
@@ -276,7 +276,7 @@ header.top { display: flex; align-items: flex-end; justify-content: space-betwee
 }
 .sheet.open { transform: none; visibility: visible; transition: transform 0.38s var(--spring); }
 .grab { width: 40px; height: 5px; border-radius: 9px; background: var(--line-strong); margin: 0 auto 14px; }
-.sheet h3 { font-family: var(--serif); font-size: 28px; font-weight: 600; margin: 0 0 16px; letter-spacing: -0.02em; }
+.sheet h3 { font-family: var(--serif); font-size: 28px; font-weight: 700; margin: 0 0 16px; letter-spacing: -0.03em; }
 .sheet h4 { font-size: 12px; font-weight: 650; text-transform: uppercase; letter-spacing: 0.07em; color: var(--ink-3); margin: 22px 0 10px; }
 .field { display: block; margin-bottom: 12px; min-width: 0; }
 .field > span { display: block; font-size: 13px; font-weight: 600; color: var(--ink-2); margin-bottom: 6px; }
