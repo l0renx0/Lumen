@@ -1,7 +1,7 @@
 // Service worker di Turni: rende l'app installabile e utilizzabile anche offline.
 // Quando modifichi i file dell'app, aumenta il numero di VERSION.
-const VERSION = 'turni-v1';
-const SHELL = ['./', 'index.html', 'manifest.webmanifest', 'icons/icon.svg', 'icons/icon-192.png'];
+const VERSION = 'turni-v2';
+const SHELL = ['./', 'index.html', 'app.css', 'app.js', 'manifest.webmanifest', 'icons/icon.svg', 'icons/icon-192.png'];
 
 self.addEventListener('install', (e) => {
   e.waitUntil(caches.open(VERSION).then((c) => c.addAll(SHELL)).then(() => self.skipWaiting()));
