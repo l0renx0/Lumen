@@ -26,7 +26,7 @@
         <div class="eyebrow" id="eyebrow"></div>
         <h1 class="title" id="title">Oggi</h1>
       </div>
-      <button class="icon-btn" id="openSettings" aria-label="Impostazioni, contratto e backup">
+      <button class="icon-btn" id="openSettings" aria-label="Impostazioni, contratto e backup" data-i18n-aria="aria_settings">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h10M18 6h2M4 12h4M12 12h8M4 18h12M20 18h0"/><circle cx="16" cy="6" r="2"/><circle cx="10" cy="12" r="2"/><circle cx="18" cy="18" r="2"/></svg>
       </button>
     </header>
@@ -34,21 +34,21 @@
     <main id="view"></main>
   </div>
 
-  <nav class="tabbar" role="tablist" aria-label="Sezioni">
+  <nav class="tabbar" role="tablist" aria-label="Sezioni" data-i18n-aria="aria_tabs">
     <button class="tab" role="tab" data-tab="oggi">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l2.5 2M10 2h4"/></svg>Oggi
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l2.5 2M10 2h4"/></svg><span data-i18n="tab_oggi">Oggi</span>
     </button>
     <button class="tab" role="tab" data-tab="settimana">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 20V10M12 20V4M18 20v-7"/></svg>Settimana
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 20V10M12 20V4M18 20v-7"/></svg><span data-i18n="tab_settimana">Settimana</span>
     </button>
-    <button class="plus" id="addShift" aria-label="Aggiungi un turno">
+    <button class="plus" id="addShift" aria-label="Aggiungi un turno" data-i18n-aria="aria_add">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>
     </button>
     <button class="tab" role="tab" data-tab="mese">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="3"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>Mese
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="3"/><path d="M3 10h18M8 3v4M16 3v4"/></svg><span data-i18n="tab_mese">Mese</span>
     </button>
     <button class="tab" role="tab" data-tab="soldi">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="6" width="19" height="12" rx="3"/><circle cx="12" cy="12" r="2.5"/><path d="M6 9.5v5M18 9.5v5"/></svg>Soldi
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="6" width="19" height="12" rx="3"/><circle cx="12" cy="12" r="2.5"/><path d="M6 9.5v5M18 9.5v5"/></svg><span data-i18n="tab_soldi">Soldi</span>
     </button>
   </nav>
 
@@ -59,74 +59,79 @@
     <div class="grab"></div>
     <h3 id="shiftTitle">Nuovo turno</h3>
     <div id="presetsBox"></div>
-    <label class="field"><span>Giorno</span><input type="date" id="fDate" required></label>
+    <label class="field"><span data-i18n="f_day">Giorno</span><input type="date" id="fDate" required></label>
     <div class="row2">
-      <label class="field"><span>Entrata</span><input type="time" id="fStart" required></label>
-      <label class="field"><span>Uscita</span><input type="time" id="fEnd"></label>
+      <label class="field"><span data-i18n="f_in">Entrata</span><input type="time" id="fStart" required></label>
+      <label class="field"><span data-i18n="f_out">Uscita</span><input type="time" id="fEnd"></label>
     </div>
     <button type="button" class="split-toggle" id="fSplit" aria-pressed="false">
-      <span class="sw"></span><span><b>Turno spezzato</b><small>Esci e poi rientri: le ore in mezzo non sono pagate</small></span>
+      <span class="sw"></span><span><b data-i18n="f_split">Turno spezzato</b><small data-i18n="f_split_sub">Esci e poi rientri: le ore in mezzo non sono pagate</small></span>
     </button>
     <div class="row2" id="splitBox" hidden>
-      <label class="field"><span>Rientro</span><input type="time" id="fStart2"></label>
-      <label class="field"><span>Uscita</span><input type="time" id="fEnd2"></label>
+      <label class="field"><span data-i18n="f_back">Rientro</span><input type="time" id="fStart2"></label>
+      <label class="field"><span data-i18n="f_out">Uscita</span><input type="time" id="fEnd2"></label>
     </div>
-    <label class="field"><span>Nota (facoltativa)</span><input type="text" id="fNote" maxlength="80" placeholder="Es. inventario, sostituzione…"></label>
+    <label class="field"><span data-i18n="f_note">Nota (facoltativa)</span><input type="text" id="fNote" maxlength="80" placeholder="Es. inventario, sostituzione…" data-i18n-ph="f_note_ph"></label>
     <div class="preview" id="fPreview"></div>
     <div class="sheet-actions">
       <button type="button" class="btn danger" id="fDelete" hidden>Elimina</button>
-      <button type="button" class="btn" id="fCancel">Annulla</button>
-      <button type="submit" class="btn primary">Salva</button>
+      <button type="button" class="btn" id="fCancel" data-i18n="cancel">Annulla</button>
+      <button type="submit" class="btn primary" data-i18n="save">Salva</button>
     </div>
   </form>
 
   <!-- Soldi ricevuti -->
   <form class="sheet" id="paySheet" autocomplete="off">
     <div class="grab"></div>
-    <h3>Soldi ricevuti</h3>
-    <div class="chips-label">Che cosa hai ricevuto?</div>
+    <h3 data-i18n="p_title">Soldi ricevuti</h3>
+    <div class="chips-label" data-i18n="p_what">Che cosa hai ricevuto?</div>
     <div class="chips" id="payKind">
-      <button type="button" class="chip" data-kind="extra" aria-pressed="true">Ore extra</button>
-      <button type="button" class="chip" data-kind="stipendio" aria-pressed="false">Stipendio (busta paga)</button>
+      <button type="button" class="chip" data-kind="extra" aria-pressed="true" data-i18n="p_extra">Ore extra</button>
+      <button type="button" class="chip" data-kind="stipendio" aria-pressed="false" data-i18n="p_salary">Stipendio (busta paga)</button>
     </div>
     <div class="row2">
-      <label class="field"><span>Importo in €</span><input type="text" id="pAmount" inputmode="decimal" placeholder="0,00" required></label>
-      <label class="field"><span>Ricevuti il</span><input type="date" id="pDate" required></label>
+      <label class="field"><span data-i18n="p_amount">Importo in €</span><input type="text" id="pAmount" inputmode="decimal" placeholder="0,00" required></label>
+      <label class="field"><span data-i18n="p_date">Ricevuti il</span><input type="date" id="pDate" required></label>
     </div>
-    <label class="field"><span>Per le ore di</span><select id="pMonth"></select></label>
-    <label class="field"><span>Nota (facoltativa)</span><input type="text" id="pNote" maxlength="80" placeholder="Es. contanti, acconto…"></label>
+    <label class="field"><span data-i18n="p_month">Per le ore di</span><select id="pMonth"></select></label>
+    <label class="field"><span data-i18n="f_note">Nota (facoltativa)</span><input type="text" id="pNote" maxlength="80" placeholder="Es. contanti, acconto…" data-i18n-ph="p_note_ph"></label>
     <div class="sheet-actions">
-      <button type="button" class="btn" id="pCancel">Annulla</button>
-      <button type="submit" class="btn money">Salva</button>
+      <button type="button" class="btn" id="pCancel" data-i18n="cancel">Annulla</button>
+      <button type="submit" class="btn money" data-i18n="save">Salva</button>
     </div>
   </form>
 
   <!-- Impostazioni -->
   <div class="sheet" id="settingsSheet">
     <div class="grab"></div>
-    <h3>Il mio contratto</h3>
-    <div class="row2">
-      <label class="field"><span>Ore a settimana</span><input type="text" id="sWeek" inputmode="decimal" placeholder="20"></label>
-      <label class="field"><span>Paga ora extra (€)</span><input type="text" id="sRate" inputmode="decimal" placeholder="9,00"></label>
+    <div class="chips-label" data-i18n="s_lang">Lingua</div>
+    <div class="chips" id="langPick">
+      <button type="button" class="chip" data-lang="it" aria-pressed="true">🇮🇹 Italiano</button>
+      <button type="button" class="chip" data-lang="es" aria-pressed="false">🇪🇸 Español</button>
     </div>
-    <p class="note">Gli extra si contano sul mese: ore del mese meno <b>ore a settimana × settimane del mese</b> (4 settimane = 80 h, 5 settimane = 100 h). Se un mese l'azienda conta diversamente, lo cambi dalla sezione Mese.</p>
-    <label class="field"><span>Stipendio netto in busta paga (€)</span><input type="text" id="sSalary" inputmode="decimal" placeholder="Facoltativo"></label>
-    <p class="note">Serve solo a controllare che arrivi. Puoi lasciarlo vuoto.</p>
+    <h3 data-i18n="s_title">Il mio contratto</h3>
+    <div class="row2">
+      <label class="field"><span data-i18n="s_week">Ore a settimana</span><input type="text" id="sWeek" inputmode="decimal" placeholder="20"></label>
+      <label class="field"><span data-i18n="s_rate">Paga ora extra (€)</span><input type="text" id="sRate" inputmode="decimal" placeholder="9,00"></label>
+    </div>
+    <p class="note" data-i18n-html="s_rule">Gli extra si contano sul mese: ore del mese meno <b>ore a settimana × settimane del mese</b> (4 settimane = 80 h, 5 settimane = 100 h). Se un mese l'azienda conta diversamente, lo cambi dalla sezione Mese.</p>
+    <label class="field"><span data-i18n="s_salary">Stipendio netto in busta paga (€)</span><input type="text" id="sSalary" inputmode="decimal" placeholder="Facoltativo" data-i18n-ph="s_optional"></label>
+    <p class="note" data-i18n="s_salary_note">Serve solo a controllare che arrivi. Puoi lasciarlo vuoto.</p>
 
-    <h4>Come contano entrata e uscita</h4>
+    <h4 data-i18n="s_method">Come contano entrata e uscita</h4>
     <div class="choice" id="sMethod"></div>
-    <p class="note">Non sai quale usa l'azienda? Lascia «Al minuto» e segna i soldi che ricevi: nella sezione Soldi ti dico quale conteggio corrisponde.</p>
+    <p class="note" data-i18n="s_method_note">Non sai quale usa l'azienda? Lascia «Al minuto» e segna i soldi che ricevi: nella sezione Soldi ti dico quale conteggio corrisponde.</p>
 
-    <h4>Backup</h4>
-    <p class="note" style="margin-top:0">I dati restano solo su questo telefono. Ogni tanto salva un backup, così non li perdi se cambi telefono.</p>
+    <h4 data-i18n="s_backup">Backup</h4>
+    <p class="note" style="margin-top:0" data-i18n="s_backup_note">I dati restano solo su questo telefono. Ogni tanto salva un backup, così non li perdi se cambi telefono.</p>
     <div class="actions" style="margin-top:0">
-      <button class="btn" id="exportJson">Salva backup</button>
-      <button class="btn" id="importJson">Importa</button>
-      <button class="btn" id="exportCsv">Esporta per Excel</button>
+      <button class="btn" id="exportJson" data-i18n="s_export">Salva backup</button>
+      <button class="btn" id="importJson" data-i18n="s_import">Importa</button>
+      <button class="btn" id="exportCsv" data-i18n="s_csv">Esporta per Excel</button>
     </div>
     <input type="file" id="importFile" accept="application/json,.json,text/plain" hidden>
     <div class="divider"></div>
-    <button class="btn primary full" id="settingsDone">Fatto</button>
+    <button class="btn primary full" id="settingsDone" data-i18n="s_done">Fatto</button>
   </div>
 
   <div class="toast" id="toast" role="status"><span id="toastMsg"></span><button id="toastAct"></button></div>
