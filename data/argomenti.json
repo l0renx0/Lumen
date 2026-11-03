@@ -1,0 +1,1156 @@
+{
+ "updatedAt": "2026-11-03T23:16:40Z",
+ "subjects": [
+  {
+   "id": "fisica",
+   "name": "Fisica",
+   "tagline": "Forze, energia, luce e tempo: le regole con cui funziona tutto.",
+   "book": {
+    "title": "College Physics 2e",
+    "url": "https://openstax.org/books/college-physics-2e/pages/preface"
+   }
+  },
+  {
+   "id": "psicologia",
+   "name": "Psicologia",
+   "tagline": "Come pensiamo, ricordiamo, sentiamo e ci influenziamo a vicenda.",
+   "book": {
+    "title": "Psychology 2e",
+    "url": "https://openstax.org/books/psychology-2e/pages/1-introduction"
+   }
+  },
+  {
+   "id": "astronomia",
+   "name": "Astronomia",
+   "tagline": "Dalla Luna ai buchi neri: come conosciamo il cielo.",
+   "book": {
+    "title": "Astronomy 2e",
+    "url": "https://openstax.org/books/astronomy-2e/pages/1-introduction"
+   }
+  }
+ ],
+ "topics": [
+  {
+   "id": "accelerazione",
+   "subject": "fisica",
+   "title": "Accelerare non vuol dire solo andare più veloce",
+   "hook": "Anche frenare e curvare sono accelerazioni. Ecco cosa intende davvero la fisica.",
+   "body": [
+    "Nel linguaggio di tutti i giorni \"accelerare\" significa aumentare la velocità. In fisica il significato è più ampio: l'accelerazione è quanto rapidamente cambia la velocità.",
+    "La velocità in fisica ha due ingredienti: quanto vai veloce e in che direzione. Per questo cambiare direzione, anche restando a 50 km/h, è già un'accelerazione.",
+    "Frenare è un'accelerazione nella direzione opposta al movimento. Un'auto che passa da 100 a 0 km/h accelera tanto quanto una che passa da 0 a 100 nello stesso tempo, solo al contrario.",
+    "Si misura in metri al secondo, ogni secondo (m/s²): ti dice di quanti metri al secondo cambia la velocità in ogni secondo che passa."
+   ],
+   "points": [
+    "L'accelerazione è il ritmo con cui cambia la velocità.",
+    "Frenare e curvare sono accelerazioni.",
+    "Si misura in m/s²."
+   ],
+   "example": "In curva sull'autobus ti senti spingere di lato anche se il tachimetro non si muove: la direzione cambia, quindi stai accelerando.",
+   "quote": {
+    "text": "The formal definition of acceleration is consistent with these notions, but more inclusive.",
+    "translation": "La definizione formale di accelerazione è coerente con queste idee, ma più ampia."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "2.4 Acceleration",
+     "url": "https://openstax.org/books/college-physics-2e/pages/2-4-acceleration"
+    }
+   ],
+   "videos": [
+    {
+     "id": "ZM8ECpBuQYE",
+     "title": "Motion in a Straight Line: Crash Course Physics #1",
+     "channel": "CrashCourse",
+     "length": "10:40"
+    },
+    {
+     "id": "gWaI-mzn69c",
+     "title": "Acceleration | Middle school physics",
+     "channel": "Khan Academy",
+     "length": "7:33"
+    }
+   ],
+   "videoQuery": "accelerazione fisica spiegazione",
+   "addedAt": "2026-11-03T23:16:40Z"
+  },
+  {
+   "id": "leggi-di-newton",
+   "subject": "fisica",
+   "title": "Le tre leggi di Newton, spiegate con una spinta",
+   "hook": "Tre frasi scritte nel 1687 spiegano perché le cose si muovono, si fermano e rimbalzano.",
+   "body": [
+    "Prima legge (inerzia): un oggetto fermo resta fermo, e uno in movimento continua dritto alla stessa velocità, finché una forza non lo costringe a cambiare.",
+    "Seconda legge: una forza produce un'accelerazione. Più forte è la spinta, più l'oggetto accelera; più l'oggetto è pesante (ha massa), meno accelera. In formula: F = m · a.",
+    "Conta la forza netta, cioè la somma di tutte le spinte e le resistenze. Se due persone spingono un carrello in direzioni opposte con la stessa forza, il carrello non si muove.",
+    "Terza legge: ogni volta che spingi qualcosa, quel qualcosa ti spinge indietro con la stessa forza. È il motivo per cui un razzo sale: spinge i gas in basso e i gas spingono il razzo in alto."
+   ],
+   "points": [
+    "Senza forze, il moto non cambia (inerzia).",
+    "Forza = massa × accelerazione.",
+    "Ogni azione ha una reazione uguale e contraria."
+   ],
+   "example": "Spingere un carrello vuoto è facile, uno pieno no: stessa forza, ma più massa significa meno accelerazione.",
+   "quote": {
+    "text": "Newton’s first law says that a net external force causes a change in motion; thus, we see that a net external force causes acceleration.",
+    "translation": "La prima legge di Newton dice che una forza esterna netta causa un cambiamento nel moto; vediamo quindi che una forza esterna netta causa accelerazione."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "4.3 Newton's Second Law of Motion: Concept of a System",
+     "url": "https://openstax.org/books/college-physics-2e/pages/4-3-newtons-second-law-of-motion-concept-of-a-system"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "4.2 Newton's First Law of Motion: Inertia",
+     "url": "https://openstax.org/books/college-physics-2e/pages/4-2-newtons-first-law-of-motion-inertia"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "4.4 Newton's Third Law of Motion: Symmetry in Forces",
+     "url": "https://openstax.org/books/college-physics-2e/pages/4-4-newtons-third-law-of-motion-symmetry-in-forces"
+    }
+   ],
+   "videos": [
+    {
+     "id": "kKKM8Y-u7ds",
+     "title": "Newton's Laws: Crash Course Physics #5",
+     "channel": "CrashCourse",
+     "length": "11:04"
+    },
+    {
+     "id": "JGO_zDWmkvk",
+     "title": "Newton's 3 Laws, with a bicycle",
+     "channel": "TED-Ed",
+     "length": "3:33"
+    }
+   ],
+   "videoQuery": "leggi di Newton spiegazione",
+   "addedAt": "2026-11-03T23:16:40Z"
+  },
+  {
+   "id": "energia",
+   "subject": "fisica",
+   "title": "L'energia non si crea e non si distrugge: si trasforma",
+   "hook": "È una delle leggi più solide di tutta la scienza. E spiega perché nessuna macchina è perfetta.",
+   "body": [
+    "L'energia è la capacità di compiere un lavoro, cioè di far muovere o cambiare le cose. Esiste in tante forme: di movimento (cinetica), di posizione (potenziale), termica, chimica, elettrica.",
+    "La legge di conservazione dice che l'energia totale resta sempre la stessa. Può solo passare da una forma all'altra.",
+    "Una palla lasciata cadere trasforma energia di posizione in energia di movimento. Quando tocca terra, parte di quell'energia diventa calore e suono.",
+    "Nessuna trasformazione è perfetta: una parte dell'energia finisce quasi sempre in calore che non riusciamo a sfruttare. Per questo si parla di efficienza, cioè la quota di energia che diventa davvero utile."
+   ],
+   "points": [
+    "L'energia totale è costante.",
+    "Cambia solo forma: movimento, calore, luce, chimica…",
+    "L'efficienza misura quanta ne usiamo davvero."
+   ],
+   "example": "Il tuo corpo trasforma l'energia chimica del cibo in movimento e calore: è per questo che correndo ti scaldi.",
+   "quote": {
+    "text": "The law of conservation of energy can be stated as follows: Total energy is constant in any process.",
+    "translation": "La legge di conservazione dell'energia si può enunciare così: l'energia totale è costante in qualsiasi processo."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "7.6 Conservation of Energy",
+     "url": "https://openstax.org/books/college-physics-2e/pages/7-6-conservation-of-energy"
+    }
+   ],
+   "videos": [
+    {
+     "id": "w4QFJb9a8vo",
+     "title": "Work, Energy, and Power: Crash Course Physics #9",
+     "channel": "CrashCourse",
+     "length": "9:55"
+    },
+    {
+     "id": "dmcevC55K3s",
+     "title": "Where does energy come from?",
+     "channel": "TED-Ed",
+     "length": "3:52"
+    },
+    {
+     "id": "A-QgGXbDyR0",
+     "title": "Why don't perpetual motion machines ever work?",
+     "channel": "TED-Ed",
+     "length": "5:31"
+    }
+   ],
+   "videoQuery": "conservazione dell'energia spiegazione",
+   "addedAt": "2026-11-03T23:16:40Z"
+  },
+  {
+   "id": "gravita",
+   "subject": "fisica",
+   "title": "La gravità: la stessa forza fa cadere una mela e muove la Luna",
+   "hook": "L'intuizione di Newton: tutto attrae tutto, dalla tazzina sul tavolo alle galassie.",
+   "body": [
+    "Newton capì che la forza che fa cadere gli oggetti sulla Terra è la stessa che tiene la Luna in orbita. Fu una rivoluzione: le stesse leggi valgono in cielo e in terra.",
+    "Secondo la sua legge di gravitazione universale, ogni oggetto attrae ogni altro oggetto. La forza cresce con le masse e diminuisce con il quadrato della distanza: a distanza doppia, la forza è quattro volte più debole.",
+    "Anche tu e il tuo telefono vi attraete, ma la forza è così piccola che non si nota. Diventa importante solo con masse enormi come pianeti e stelle.",
+    "La Luna, in un certo senso, \"cade\" continuamente verso la Terra: si muove così veloce di lato che, mentre cade, continua a mancarla. È questo un'orbita."
+   ],
+   "points": [
+    "Ogni massa attrae ogni altra massa.",
+    "A distanza doppia, forza quattro volte più debole.",
+    "Un'orbita è una caduta continua."
+   ],
+   "example": "Il tuo peso è la forza con cui la Terra ti attrae. Sulla Luna, che ha molta meno massa, peseresti circa un sesto.",
+   "quote": {
+    "text": "Stated in modern language, Newton’s universal law of gravitation states that every particle in the universe attracts every other particle with a force along a line joining them.",
+    "translation": "Detta in linguaggio moderno, la legge di gravitazione universale di Newton afferma che ogni particella dell'universo attrae ogni altra particella con una forza diretta lungo la linea che le unisce."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "6.5 Newton's Universal Law of Gravitation",
+     "url": "https://openstax.org/books/college-physics-2e/pages/6-5-newtons-universal-law-of-gravitation"
+    }
+   ],
+   "videos": [
+    {
+     "id": "7gf6YpdvtE0",
+     "title": "Newtonian Gravity: Crash Course Physics #8",
+     "channel": "CrashCourse",
+     "length": "9:20"
+    },
+    {
+     "id": "p_o4aY7xkXg",
+     "title": "What is Gravity?",
+     "channel": "minutephysics",
+     "length": "1:26"
+    }
+   ],
+   "videoQuery": "gravità Newton spiegazione",
+   "addedAt": "2026-11-03T23:16:40Z"
+  },
+  {
+   "id": "entropia",
+   "subject": "fisica",
+   "title": "Entropia: perché il caffè si raffredda e mai il contrario",
+   "hook": "Il calore va sempre dal caldo al freddo. Dietro c'è una delle idee più profonde della fisica.",
+   "body": [
+    "Se lasci una tazza di caffè sul tavolo, si raffredda fino alla temperatura della stanza. Non succede mai che si scaldi da sola prendendo calore dall'aria più fredda.",
+    "La fisica descrive questa \"freccia\" con l'entropia, una misura del disordine di un sistema e di quanta energia non è più disponibile per fare lavoro.",
+    "Il secondo principio della termodinamica dice che, in un sistema isolato, l'entropia totale non diminuisce mai. Il calore passa spontaneamente dal caldo al freddo perché così l'entropia aumenta.",
+    "Un frigorifero fa il contrario, sposta calore dal freddo al caldo, ma solo consumando energia elettrica. Il disordine totale, contando anche la centrale e l'ambiente, cresce comunque."
+   ],
+   "points": [
+    "L'entropia misura disordine ed energia inutilizzabile.",
+    "Il calore va spontaneamente dal caldo al freddo.",
+    "Nei sistemi isolati l'entropia non diminuisce."
+   ],
+   "example": "Un cubetto di ghiaccio nel bicchiere si scioglie sempre; l'acqua a temperatura ambiente non torna mai ghiaccio da sola.",
+   "quote": {
+    "text": "The entropy of a system can in fact be shown to be a measure of its disorder and of the unavailability of energy to do work.",
+    "translation": "Si può dimostrare che l'entropia di un sistema è una misura del suo disordine e dell'indisponibilità di energia per compiere lavoro."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "15.6 Entropy and the Second Law of Thermodynamics",
+     "url": "https://openstax.org/books/college-physics-2e/pages/15-6-entropy-and-the-second-law-of-thermodynamics-disorder-and-the-unavailability-of-energy"
+    }
+   ],
+   "videos": [
+    {
+     "id": "YM-uykVfq_E",
+     "title": "What is entropy?",
+     "channel": "TED-Ed",
+     "length": "5:20"
+    },
+    {
+     "id": "DxL2HoqLbyA",
+     "title": "The Most Misunderstood Concept in Physics",
+     "channel": "Veritasium",
+     "length": "27:15"
+    }
+   ],
+   "videoQuery": "entropia secondo principio termodinamica",
+   "addedAt": "2026-11-03T23:16:40Z"
+  },
+  {
+   "id": "onde",
+   "subject": "fisica",
+   "title": "Onde: come viaggia un'energia senza che si sposti la materia",
+   "hook": "Il suono, la luce, le onde del mare: si muove la perturbazione, non l'acqua.",
+   "body": [
+    "Un'onda è una perturbazione che si propaga, cioè che si sposta dal punto in cui è nata. Quello che viaggia è l'energia, non la materia.",
+    "Pensa a una \"ola\" allo stadio: ogni persona si alza e si siede al proprio posto, ma l'onda fa il giro dello stadio.",
+    "Ogni onda ha una lunghezza d'onda (la distanza tra due creste), una frequenza (quante creste passano ogni secondo) e una velocità. Le tre sono legate: velocità = frequenza × lunghezza d'onda.",
+    "Ci sono onde trasversali, in cui la materia si muove perpendicolarmente alla direzione dell'onda (come una corda scossa), e onde longitudinali, in cui si muove avanti e indietro lungo la stessa direzione (come il suono nell'aria)."
+   ],
+   "points": [
+    "Un'onda trasporta energia, non materia.",
+    "Velocità = frequenza × lunghezza d'onda.",
+    "Onde trasversali e longitudinali."
+   ],
+   "example": "Quando un amico ti parla, l'aria non arriva dalla sua bocca al tuo orecchio: arriva una serie di compressioni che fanno vibrare il timpano.",
+   "quote": {
+    "text": "A wave is a disturbance that propagates, or moves from the place it was created.",
+    "translation": "Un'onda è una perturbazione che si propaga, cioè si sposta dal luogo in cui è stata creata."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "16.9 Waves",
+     "url": "https://openstax.org/books/college-physics-2e/pages/16-9-waves"
+    }
+   ],
+   "videos": [
+    {
+     "id": "TfYCnOvNnFU",
+     "title": "Traveling Waves: Crash Course Physics #17",
+     "channel": "CrashCourse",
+     "length": "7:45"
+    },
+    {
+     "id": "qV4lR9EWGlY",
+     "title": "Sound: Crash Course Physics #18",
+     "channel": "CrashCourse",
+     "length": "9:39"
+    }
+   ],
+   "videoQuery": "onde fisica spiegazione",
+   "addedAt": "2026-11-03T23:16:40Z"
+  },
+  {
+   "id": "corrente-elettrica",
+   "subject": "fisica",
+   "title": "Corrente, tensione, resistenza: l'elettricità come l'acqua in un tubo",
+   "hook": "La legge di Ohm spiega in una riga cosa succede ogni volta che accendi una lampadina.",
+   "body": [
+    "La corrente elettrica è un flusso di cariche, di solito elettroni, che si muovono in un filo. Si misura in ampere.",
+    "Per farle muovere serve una \"spinta\": è la tensione, o differenza di potenziale, misurata in volt. Una pila o una presa di corrente mantengono questa spinta.",
+    "Ogni materiale oppone una certa resistenza al passaggio della corrente, misurata in ohm. Il rame resiste poco, la gomma moltissimo.",
+    "La legge di Ohm lega le tre grandezze: per molti materiali la corrente è proporzionale alla tensione e inversamente proporzionale alla resistenza. In formula: I = V / R."
+   ],
+   "points": [
+    "Tensione = la spinta (volt).",
+    "Corrente = il flusso (ampere).",
+    "Resistenza = l'ostacolo (ohm)."
+   ],
+   "example": "Immagina un tubo d'acqua: la pressione è la tensione, la quantità d'acqua che passa è la corrente, un tubo stretto è una resistenza alta.",
+   "quote": {
+    "text": "We can think of various devices—such as batteries, generators, wall outlets, and so on—which are necessary to maintain a current.",
+    "translation": "Possiamo pensare a vari dispositivi, come batterie, generatori, prese a muro e così via, necessari per mantenere una corrente."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "20.2 Ohm's Law: Resistance and Simple Circuits",
+     "url": "https://openstax.org/books/college-physics-2e/pages/20-2-ohms-law-resistance-and-simple-circuits"
+    }
+   ],
+   "videos": [
+    {
+     "id": "HXOok3mfMLM",
+     "title": "Electric Current: Crash Course Physics #28",
+     "channel": "CrashCourse",
+     "length": "8:23"
+    },
+    {
+     "id": "FuIn1L3qeqI",
+     "title": "Ohm's law",
+     "channel": "Khan Academy",
+     "length": "12:18"
+    }
+   ],
+   "videoQuery": "legge di Ohm corrente tensione resistenza",
+   "addedAt": "2026-11-03T23:16:40Z"
+  },
+  {
+   "id": "relativita",
+   "subject": "fisica",
+   "title": "Relatività: il tempo scorre più lento per chi si muove",
+   "hook": "Non è fantascienza: senza questa correzione il GPS del tuo telefono sbaglierebbe strada.",
+   "body": [
+    "Nel 1905 Einstein partì da due idee: le leggi della fisica sono le stesse per chiunque si muova a velocità costante, e la luce nel vuoto ha la stessa velocità per tutti gli osservatori.",
+    "Da qui segue una conseguenza sorprendente, la dilatazione del tempo: un orologio in movimento rispetto a te scorre più lentamente del tuo.",
+    "Alle velocità di tutti i giorni l'effetto è minuscolo, ma diventa enorme vicino alla velocità della luce.",
+    "Si misura davvero. I muoni, particelle create dai raggi cosmici in alta atmosfera, vivono pochissimo ma riescono ad arrivare a terra perché, viaggiando quasi alla velocità della luce, il loro tempo per noi rallenta. E i satelliti GPS devono tenere conto degli effetti relativistici per funzionare."
+   ],
+   "points": [
+    "La luce ha la stessa velocità per tutti.",
+    "Un orologio in movimento rallenta.",
+    "Il GPS deve correggere gli effetti relativistici."
+   ],
+   "example": "Ogni volta che usi una mappa sul telefono, stai usando tecnologia che funziona solo perché tiene conto della relatività.",
+   "quote": {
+    "text": "Time dilation is the phenomenon of time passing slower for an observer who is moving relative to another observer.",
+    "translation": "La dilatazione del tempo è il fenomeno per cui il tempo scorre più lentamente per un osservatore che si muove rispetto a un altro osservatore."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "28.2 Simultaneity and Time Dilation",
+     "url": "https://openstax.org/books/college-physics-2e/pages/28-2-simultaneity-and-time-dilation"
+    }
+   ],
+   "videos": [
+    {
+     "id": "AInCqm5nCzw",
+     "title": "Special Relativity: Crash Course Physics #42",
+     "channel": "CrashCourse",
+     "length": "8:59"
+    },
+    {
+     "id": "eNhJY-R3Gwg",
+     "title": "General Relativity Explained in 7 Levels of Difficulty",
+     "channel": "minutephysics",
+     "length": "6:09"
+    }
+   ],
+   "videoQuery": "relatività ristretta dilatazione del tempo",
+   "addedAt": "2026-11-03T23:16:40Z"
+  },
+  {
+   "id": "neuroni",
+   "subject": "psicologia",
+   "title": "Come parlano i neuroni: messaggi elettrici e chimici",
+   "hook": "Ogni pensiero è un passaggio di segnali tra cellule. Ecco come funziona, passo per passo.",
+   "body": [
+    "Il sistema nervoso è fatto di neuroni, cellule specializzate nel trasmettere informazioni. Alla nascita ne abbiamo circa 100 miliardi.",
+    "Un neurone riceve segnali dai suoi \"rami\" (i dendriti) e invia il proprio messaggio lungo un lungo filo, l'assone, sotto forma di impulso elettrico.",
+    "Alla fine dell'assone il segnale diventa chimico: vengono rilasciati i neurotrasmettitori, piccole molecole che attraversano lo spazio tra due neuroni (la sinapsi).",
+    "I neurotrasmettitori si legano a recettori specifici sul neurone successivo, come chiavi nelle serrature. Molti farmaci per l'umore agiscono proprio su questo passaggio."
+   ],
+   "points": [
+    "Dentro il neurone il segnale è elettrico.",
+    "Tra due neuroni diventa chimico.",
+    "I neurotrasmettitori sono i messaggeri."
+   ],
+   "example": "Quando tocchi qualcosa di caldo e ritiri la mano, una catena di neuroni ha passato il messaggio in una frazione di secondo.",
+   "quote": {
+    "text": "The terminal buttons contain synaptic vesicles that house neurotransmitters, the chemical messengers of the nervous system.",
+    "translation": "I bottoni terminali contengono vescicole sinaptiche che ospitano i neurotrasmettitori, i messaggeri chimici del sistema nervoso."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Psychology 2e",
+     "title": "3.2 Cells of the Nervous System",
+     "url": "https://openstax.org/books/psychology-2e/pages/3-2-cells-of-the-nervous-system"
+    }
+   ],
+   "videos": [
+    {
+     "id": "W4N-7AlzK7s",
+     "title": "The Chemical Mind: Crash Course Psychology #3",
+     "channel": "CrashCourse",
+     "length": "10:14"
+    },
+    {
+     "id": "uU_4uA6-zcE",
+     "title": "How do nerves work?",
+     "channel": "TED-Ed",
+     "length": "5:00"
+    }
+   ],
+   "videoQuery": "neuroni sinapsi neurotrasmettitori",
+   "addedAt": "2026-11-03T23:16:40Z"
+  },
+  {
+   "id": "percezione",
+   "subject": "psicologia",
+   "title": "Vedere non è registrare: il cervello interpreta",
+   "hook": "Gli occhi raccolgono luce, ma è il cervello a decidere cosa stai guardando.",
+   "body": [
+    "La psicologia distingue due fasi. La sensazione è il lavoro dei sensi: occhi, orecchie e pelle captano stimoli fisici come luce, suoni e pressione.",
+    "La percezione è il passo successivo: il cervello organizza e interpreta quei segnali e li trasforma in qualcosa che ha senso, come un volto, una parola o una melodia.",
+    "Per questo due persone possono percepire diversamente la stessa cosa: aspettative, attenzione, cultura ed esperienze passate influenzano l'interpretazione.",
+    "Ogni senso ha una soglia assoluta, cioè la quantità minima di stimolo che serve per accorgersene almeno la metà delle volte. Sotto quella soglia, lo stimolo c'è ma non lo notiamo."
+   ],
+   "points": [
+    "Sensazione = raccogliere stimoli.",
+    "Percezione = interpretarli.",
+    "Le aspettative cambiano ciò che percepiamo."
+   ],
+   "example": "Le illusioni ottiche funzionano perché il cervello applica le sue regole di interpretazione anche quando, in quel caso, sono sbagliate.",
+   "quote": {
+    "text": "One way to think of this concept is that sensation is a physical process, whereas perception is psychological.",
+    "translation": "Un modo di pensare a questo concetto è che la sensazione è un processo fisico, mentre la percezione è psicologica."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Psychology 2e",
+     "title": "5.1 Sensation versus Perception",
+     "url": "https://openstax.org/books/psychology-2e/pages/5-1-sensation-versus-perception"
+    },
+    {
+     "name": "OpenStax · Psychology 2e",
+     "title": "5.6 Gestalt Principles of Perception",
+     "url": "https://openstax.org/books/psychology-2e/pages/5-6-gestalt-principles-of-perception"
+    }
+   ],
+   "videos": [
+    {
+     "id": "unWnZvXJH2o",
+     "title": "Sensation and Perception: Crash Course Psychology #5",
+     "channel": "CrashCourse",
+     "length": "10:46"
+    },
+    {
+     "id": "n46umYA_4dM",
+     "title": "Perceiving is Believing: Crash Course Psychology #7",
+     "channel": "CrashCourse",
+     "length": "10:00"
+    }
+   ],
+   "videoQuery": "sensazione e percezione psicologia",
+   "addedAt": "2026-11-03T23:16:40Z"
+  },
+  {
+   "id": "sonno",
+   "subject": "psicologia",
+   "title": "Perché dormiamo? Il sonno lavora per la memoria",
+   "hook": "Passiamo circa un terzo della vita dormendo. La scienza ha diverse ipotesi sul perché.",
+   "body": [
+    "Il sonno è uno stato di bassa attività fisica e ridotta sensibilità all'ambiente, con schemi tipici di attività cerebrale che si possono misurare con l'elettroencefalogramma (EEG).",
+    "È regolato da due meccanismi: un orologio interno di circa 24 ore (il ritmo circadiano) e una \"pressione\" che cresce più a lungo restiamo svegli.",
+    "Non esiste una sola spiegazione del perché dormiamo. Una delle teorie principali riguarda la cognizione: il sonno sembra importante per consolidare i ricordi.",
+    "La prova più chiara viene da chi dorme poco: la mancanza di sonno peggiora attenzione, capacità di decidere e capacità di richiamare i ricordi."
+   ],
+   "points": [
+    "Il sonno è regolato da orologio interno e stanchezza accumulata.",
+    "Aiuta a formare i ricordi.",
+    "Dormire poco peggiora attenzione e decisioni."
+   ],
+   "example": "Studiare fino a tardi e poi dormire pochissimo è una strategia scadente: proprio il sonno aiuta a fissare quello che hai studiato.",
+   "quote": {
+    "text": "Indeed, we know sleep deprivation results in disruptions in cognition and memory deficits (Brown, 2012), leading to impairments in our abilities to maintain attention, make decisions, and recall long-term memories.",
+    "translation": "Sappiamo infatti che la privazione di sonno provoca disturbi cognitivi e deficit di memoria (Brown, 2012), compromettendo la capacità di mantenere l'attenzione, prendere decisioni e richiamare i ricordi a lungo termine."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Psychology 2e",
+     "title": "4.2 Sleep and Why We Sleep",
+     "url": "https://openstax.org/books/psychology-2e/pages/4-2-sleep-and-why-we-sleep"
+    }
+   ],
+   "videos": [
+    {
+     "id": "rMHus-0wFSo",
+     "title": "To Sleep, Perchance to Dream: Crash Course Psychology #9",
+     "channel": "CrashCourse",
+     "length": "10:41"
+    },
+    {
+     "id": "eM2VWspRpfk",
+     "title": "A walk through the stages of sleep",
+     "channel": "TED",
+     "length": "4:48"
+    },
+    {
+     "id": "dqONk48l5vY",
+     "title": "What would happen if you didn't sleep?",
+     "channel": "TED-Ed",
+     "length": "4:35"
+    }
+   ],
+   "videoQuery": "perché dormiamo sonno memoria",
+   "addedAt": "2026-11-03T23:16:40Z"
+  },
+  {
+   "id": "rinforzo",
+   "subject": "psicologia",
+   "title": "Premi e punizioni: come impariamo dalle conseguenze",
+   "hook": "Il condizionamento operante di Skinner spiega abitudini, addestramento e anche le notifiche del telefono.",
+   "body": [
+    "Il condizionamento operante è un tipo di apprendimento in cui un comportamento diventa più o meno frequente a seconda delle conseguenze che produce.",
+    "Lo psicologo B. F. Skinner sosteneva che il comportamento è guidato dalle conseguenze: rinforzi (che lo rafforzano) e punizioni (che lo indeboliscono).",
+    "\"Positivo\" e \"negativo\" non vogliono dire buono o cattivo, ma aggiungere o togliere. Rinforzo positivo: aggiungi qualcosa di piacevole (un complimento). Rinforzo negativo: togli qualcosa di sgradevole (il cicalino dell'auto smette quando allacci la cintura).",
+    "Secondo il manuale, il modo più efficace per insegnare un nuovo comportamento a una persona o a un animale è il rinforzo positivo."
+   ],
+   "points": [
+    "Le conseguenze modellano il comportamento.",
+    "Positivo = aggiungere, negativo = togliere.",
+    "Il rinforzo positivo è il più efficace per insegnare."
+   ],
+   "example": "Un cane che riceve un premio quando si siede impara a sedersi più spesso: è rinforzo positivo.",
+   "quote": {
+    "text": "In positive reinforcement, a desirable stimulus is added to increase a behavior.",
+    "translation": "Nel rinforzo positivo si aggiunge uno stimolo desiderabile per aumentare un comportamento."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Psychology 2e",
+     "title": "6.3 Operant Conditioning",
+     "url": "https://openstax.org/books/psychology-2e/pages/6-3-operant-conditioning"
+    },
+    {
+     "name": "OpenStax · Psychology 2e",
+     "title": "6.2 Classical Conditioning",
+     "url": "https://openstax.org/books/psychology-2e/pages/6-2-classical-conditioning"
+    }
+   ],
+   "videos": [
+    {
+     "id": "qG2SwE_6uVM",
+     "title": "How to Train a Brain: Crash Course Psychology #11",
+     "channel": "CrashCourse",
+     "length": "11:49"
+    },
+    {
+     "id": "H6LEcM0E0io",
+     "title": "The difference between classical and operant conditioning",
+     "channel": "TED-Ed",
+     "length": "4:13"
+    }
+   ],
+   "videoQuery": "condizionamento operante Skinner rinforzo",
+   "addedAt": "2026-11-03T23:16:40Z"
+  },
+  {
+   "id": "memoria",
+   "subject": "psicologia",
+   "title": "Come funziona la memoria: entrare, restare, tornare",
+   "hook": "Ricordare è un processo in tre fasi. E capirlo ti aiuta a studiare meglio.",
+   "body": [
+    "La psicologia descrive la memoria come un sistema in tre fasi: codifica (far entrare un'informazione), immagazzinamento (conservarla) e recupero (ritrovarla quando serve).",
+    "La codifica può essere automatica, come quando ricordi senza sforzo cosa hai mangiato a pranzo, oppure richiedere impegno, come quando studi.",
+    "Prima di arrivare nella memoria a lungo termine, un'informazione passa dalla memoria sensoriale, brevissima, e dalla memoria a breve termine, che ne tiene poche alla volta.",
+    "Ricordiamo meglio ciò che colleghiamo al significato e a noi stessi. Si chiama effetto di autoriferimento: le informazioni che ci riguardano si fissano di più."
+   ],
+   "points": [
+    "Codifica, immagazzinamento, recupero.",
+    "Sensoriale → breve termine → lungo termine.",
+    "Ciò che riguarda te si ricorda meglio."
+   ],
+   "example": "Per ricordare un concetto, prova a collegarlo a un tuo esempio personale invece di ripeterlo a memoria.",
+   "quote": {
+    "text": "Encoding We get information into our brains through a process called encoding, which is the input of information into the memory system.",
+    "translation": "Codifica: facciamo entrare le informazioni nel cervello attraverso un processo chiamato codifica, cioè l'ingresso delle informazioni nel sistema della memoria."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Psychology 2e",
+     "title": "8.1 How Memory Functions",
+     "url": "https://openstax.org/books/psychology-2e/pages/8-1-how-memory-functions"
+    },
+    {
+     "name": "OpenStax · Psychology 2e",
+     "title": "8.4 Ways to Enhance Memory",
+     "url": "https://openstax.org/books/psychology-2e/pages/8-4-ways-to-enhance-memory"
+    }
+   ],
+   "videos": [
+    {
+     "id": "bSycdIx-C48",
+     "title": "How We Make Memories: Crash Course Psychology #13",
+     "channel": "CrashCourse",
+     "length": "9:55"
+    },
+    {
+     "id": "HVWbrNls-Kw",
+     "title": "Remembering and Forgetting: Crash Course Psychology #14",
+     "channel": "CrashCourse",
+     "length": "10:18"
+    }
+   ],
+   "videoQuery": "come funziona la memoria psicologia",
+   "addedAt": "2026-11-03T23:16:40Z"
+  },
+  {
+   "id": "euristiche",
+   "subject": "psicologia",
+   "title": "Le scorciatoie della mente e i loro tranelli",
+   "hook": "Il cervello usa regole rapide per decidere. Spesso funzionano, a volte ci ingannano.",
+   "body": [
+    "Per risolvere problemi possiamo seguire un algoritmo, una procedura passo per passo che porta sempre al risultato giusto, oppure usare un'euristica, una \"regola pratica\" più veloce ma non infallibile.",
+    "L'euristica della disponibilità ci fa giudicare in base agli esempi che ci vengono in mente più facilmente. Dopo aver visto in TV la notizia di un incidente aereo, volare può sembrarci più pericoloso di quanto sia.",
+    "Il bias di conferma è la tendenza a notare soprattutto le informazioni che confermano ciò che pensiamo già, trascurando quelle contrarie.",
+    "La fissità funzionale ci impedisce di vedere un oggetto usato in modo diverso da quello per cui è nato. Superarla è spesso la chiave della creatività."
+   ],
+   "points": [
+    "Algoritmo = sicuro ma lento; euristica = rapida ma fallibile.",
+    "Disponibilità: giudichiamo con gli esempi più vividi.",
+    "Bias di conferma: cerchiamo ciò che ci dà ragione."
+   ],
+   "example": "Se pensi che un ristorante sia pessimo, noterai ogni piatto sbagliato e dimenticherai quelli buoni: è il bias di conferma.",
+   "quote": {
+    "text": "The confirmation bias is the tendency to focus on information that confirms your existing beliefs.",
+    "translation": "Il bias di conferma è la tendenza a concentrarsi sulle informazioni che confermano le proprie convinzioni."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Psychology 2e",
+     "title": "7.3 Problem Solving",
+     "url": "https://openstax.org/books/psychology-2e/pages/7-3-problem-solving"
+    }
+   ],
+   "videos": [
+    {
+     "id": "R-sVnmmw6WY",
+     "title": "Cognition - How Your Mind Can Amaze and Betray You: Crash Course Psychology #15",
+     "channel": "CrashCourse",
+     "length": "10:42"
+    },
+    {
+     "id": "d2r7Bk1NlgU",
+     "title": "Introduction to Cognitive Bias: Crash Course Scientific Thinking #1",
+     "channel": "CrashCourse",
+     "length": "11:49"
+    }
+   ],
+   "videoQuery": "euristiche bias cognitivi psicologia",
+   "addedAt": "2026-11-03T23:16:40Z"
+  },
+  {
+   "id": "emozioni",
+   "subject": "psicologia",
+   "title": "Cosa sono le emozioni: corpo, mente e volto insieme",
+   "hook": "Prima si accelera il cuore o prima arriva la paura? Le teorie non sono d'accordo.",
+   "body": [
+    "Un'emozione è uno stato soggettivo, quello che di solito chiamiamo \"sentimento\". Secondo gli psicologi nasce dall'unione di quattro elementi: l'esperienza personale, l'espressione, la valutazione mentale della situazione e le reazioni del corpo.",
+    "Da più di un secolo si discute sull'ordine. Per la teoria di James-Lange prima viene la reazione del corpo (cuore che batte, sudore) e solo dopo proviamo paura.",
+    "Altre teorie danno più peso al pensiero: la stessa agitazione fisica può diventare paura o entusiasmo a seconda di come interpretiamo la situazione.",
+    "Il volto non solo mostra le emozioni ma può influenzarle: secondo l'ipotesi del feedback facciale, l'espressione che facciamo può modificare ciò che proviamo."
+   ],
+   "points": [
+    "Emozione = esperienza + espressione + valutazione + corpo.",
+    "James-Lange: prima il corpo, poi il sentimento.",
+    "L'espressione del volto può influenzare l'emozione."
+   ],
+   "example": "Il batticuore prima di un esame e quello prima di un concerto sono simili nel corpo: cambia come li interpreti.",
+   "quote": {
+    "text": "An emotion is a subjective state of being that we often describe as our feelings.",
+    "translation": "Un'emozione è uno stato soggettivo che spesso descriviamo come i nostri sentimenti."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Psychology 2e",
+     "title": "10.4 Emotion",
+     "url": "https://openstax.org/books/psychology-2e/pages/10-4-emotion"
+    }
+   ],
+   "videos": [
+    {
+     "id": "gAMbkJk6gnE",
+     "title": "Feeling All the Feels: Crash Course Psychology #25",
+     "channel": "CrashCourse",
+     "length": "10:51"
+    },
+    {
+     "id": "Uew5BbvmLks",
+     "title": "How to manage your emotions",
+     "channel": "TED-Ed",
+     "length": "4:51"
+    }
+   ],
+   "videoQuery": "teorie delle emozioni psicologia",
+   "addedAt": "2026-11-03T23:16:40Z"
+  },
+  {
+   "id": "conformismo",
+   "subject": "psicologia",
+   "title": "Asch e Milgram: quanto ci influenzano gli altri",
+   "hook": "Due esperimenti famosi mostrano quanto è facile seguire il gruppo o l'autorità.",
+   "body": [
+    "Negli anni '50 Solomon Asch mostrava ai partecipanti delle linee di lunghezza diversa. Nel gruppo c'erano complici che davano apposta una risposta palesemente sbagliata.",
+    "Il 76% dei partecipanti si adeguò al gruppo almeno una volta, scegliendo la linea sbagliata. Molti, però, in privato non credevano davvero che quella risposta fosse giusta.",
+    "Stanley Milgram, a Yale, volle verificare la difesa del criminale nazista Eichmann, che diceva di aver \"solo eseguito gli ordini\". I partecipanti credevano di dare scosse elettriche sempre più forti, fino a 450 volt, a un'altra persona (in realtà nessuno riceveva scosse).",
+    "Su ordine dello sperimentatore, il 65% arrivò fino alla scossa massima. Cambiando la situazione l'obbedienza calava: in un ufficio fuori dall'università la percentuale scese al 48%."
+   ],
+   "points": [
+    "Asch: il 76% si adeguò al gruppo almeno una volta.",
+    "Milgram: il 65% obbedì fino alla fine.",
+    "Il contesto cambia molto i risultati."
+   ],
+   "example": "Quando in una riunione nessuno contraddice il capo, anche chi ha dubbi spesso tace: è la stessa pressione studiata da Asch.",
+   "quote": {
+    "text": "Asch (1955) found that 76% of participants conformed to group pressure at least once by indicating the incorrect line.",
+    "translation": "Asch (1955) scoprì che il 76% dei partecipanti si adeguò alla pressione del gruppo almeno una volta, indicando la linea sbagliata."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Psychology 2e",
+     "title": "12.4 Conformity, Compliance, and Obedience",
+     "url": "https://openstax.org/books/psychology-2e/pages/12-4-conformity-compliance-and-obedience"
+    }
+   ],
+   "videos": [
+    {
+     "id": "UGxGDdQnC1Y",
+     "title": "Social Influence: Crash Course Psychology #38",
+     "channel": "CrashCourse",
+     "length": "10:08"
+    },
+    {
+     "id": "vuMt8b4UrcI",
+     "title": "The Milgram Experiment: Obedience to Authority",
+     "channel": "Sprouts",
+     "length": "5:12"
+    }
+   ],
+   "videoQuery": "esperimento Asch Milgram conformismo",
+   "addedAt": "2026-11-03T23:16:40Z"
+  },
+  {
+   "id": "stagioni",
+   "subject": "astronomia",
+   "title": "Le stagioni non dipendono dalla distanza dal Sole",
+   "hook": "In gennaio la Terra è più vicina al Sole che in luglio. Il segreto è l'inclinazione.",
+   "body": [
+    "Molti pensano che d'estate faccia caldo perché la Terra è più vicina al Sole. Non è così: la Terra è più vicina al Sole a gennaio, quando nel nostro emisfero è pieno inverno.",
+    "La vera causa è che l'asse della Terra è inclinato di circa 23,5 gradi rispetto all'orbita, e l'inclinazione resta orientata nello stesso modo per tutto l'anno.",
+    "Quando il nostro emisfero è inclinato verso il Sole, i raggi arrivano più dritti e concentrano più energia su ogni metro quadrato, e il Sole resta sopra l'orizzonte più a lungo: è estate.",
+    "Sei mesi dopo è il contrario: raggi più obliqui e giornate corte. Per questo, quando da noi è estate, in Australia è inverno."
+   ],
+   "points": [
+    "La Terra è più vicina al Sole a gennaio.",
+    "La causa è l'asse inclinato di 23,5°.",
+    "Raggi più dritti e giornate lunghe = estate."
+   ],
+   "example": "A mezzogiorno d'estate la tua ombra è corta perché il Sole è alto; d'inverno è lunga perché i raggi arrivano obliqui.",
+   "quote": {
+    "text": "As we shall show, the seasons are actually caused by the 23.5° tilt of Earth’s axis.",
+    "translation": "Come mostreremo, le stagioni sono in realtà causate dall'inclinazione di 23,5° dell'asse terrestre."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "4.2 The Seasons",
+     "url": "https://openstax.org/books/astronomy-2e/pages/4-2-the-seasons"
+    }
+   ],
+   "videos": [
+    {
+     "id": "01QWC-rZcfE",
+     "title": "Cycles in the Sky: Crash Course Astronomy #3",
+     "channel": "CrashCourse",
+     "length": "9:29"
+    },
+    {
+     "id": "WgHmqv_-UbQ",
+     "title": "Why Do We Have Different Seasons?",
+     "channel": "California Academy of Sciences",
+     "length": "3:17"
+    }
+   ],
+   "videoQuery": "perché ci sono le stagioni asse terrestre",
+   "addedAt": "2026-11-03T23:16:40Z"
+  },
+  {
+   "id": "fasi-luna",
+   "subject": "astronomia",
+   "title": "Le fasi della Luna non sono l'ombra della Terra",
+   "hook": "La Luna è sempre illuminata a metà. Cambia solo quanta di quella metà vediamo noi.",
+   "body": [
+    "Seguendo la Luna per un mese si vede un ciclo di fasi: da invisibile (luna nuova) diventa sempre più illuminata per circa due settimane fino alla luna piena, poi cala di nuovo.",
+    "Un errore molto comune è pensare che le fasi dipendano dall'ombra della Terra. In realtà la Luna, come ogni palla sotto il Sole, ha sempre una metà illuminata e una al buio.",
+    "Le fasi dipendono da quanta parte della metà illuminata vediamo dalla Terra, che cambia mentre la Luna ci gira intorno.",
+    "L'ombra della Terra entra in gioco solo in un caso particolare: le eclissi di Luna, che avvengono quando Sole, Terra e Luna sono allineati."
+   ],
+   "points": [
+    "La Luna è sempre illuminata a metà.",
+    "Le fasi dipendono dal punto di vista della Terra.",
+    "L'ombra della Terra crea le eclissi, non le fasi."
+   ],
+   "example": "Prova con una lampada e una palla: girando la palla intorno alla testa vedrai comparire tutte le fasi.",
+   "quote": {
+    "text": "Note that in every position on Figure 4.14, the Moon is half illuminated and half dark (as a ball in sunlight should be).",
+    "translation": "Nota che in ogni posizione della Figura 4.14 la Luna è per metà illuminata e per metà al buio (come dovrebbe essere una palla sotto la luce del Sole)."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "4.5 Phases and Motions of the Moon",
+     "url": "https://openstax.org/books/astronomy-2e/pages/4-5-phases-and-motions-of-the-moon"
+    },
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "4.7 Eclipses of the Sun and Moon",
+     "url": "https://openstax.org/books/astronomy-2e/pages/4-7-eclipses-of-the-sun-and-moon"
+    }
+   ],
+   "videos": [
+    {
+     "id": "AQ5vty8f9Xc",
+     "title": "Moon Phases: Crash Course Astronomy #4",
+     "channel": "CrashCourse",
+     "length": "9:46"
+    },
+    {
+     "id": "PRgua7xceDA",
+     "title": "Eclipses: Crash Course Astronomy #5",
+     "channel": "CrashCourse",
+     "length": "10:32"
+    }
+   ],
+   "videoQuery": "fasi lunari spiegazione",
+   "addedAt": "2026-11-03T23:16:40Z"
+  },
+  {
+   "id": "keplero",
+   "subject": "astronomia",
+   "title": "Keplero e le orbite: i pianeti non girano in cerchio",
+   "hook": "Studiando Marte, Keplero scoprì che le orbite sono ellissi. Tre leggi che valgono ancora oggi.",
+   "body": [
+    "All'inizio del Seicento Johannes Keplero analizzò anni di osservazioni precise di Marte, raccolte dall'astronomo Tycho Brahe.",
+    "Scoprì che l'orbita di Marte non era un cerchio ma un cerchio un po' schiacciato, un'ellisse. Prima legge: ogni pianeta si muove su un'ellisse, con il Sole in uno dei due fuochi.",
+    "Seconda legge: un pianeta va più veloce quando è vicino al Sole e più lento quando è lontano.",
+    "Terza legge: più un pianeta è lontano dal Sole, più tempo impiega a completare l'orbita, secondo un rapporto matematico preciso. Decenni dopo Newton spiegò queste leggi con la gravità."
+   ],
+   "points": [
+    "Le orbite sono ellissi, con il Sole in un fuoco.",
+    "Vicino al Sole il pianeta accelera.",
+    "Più lontano = anno più lungo."
+   ],
+   "example": "Giove è circa cinque volte più lontano dal Sole della Terra e impiega quasi 12 anni a fare un giro.",
+   "quote": {
+    "text": "Kepler generalized this result in his first law and said that the orbits of all the planets are ellipses.",
+    "translation": "Keplero generalizzò questo risultato nella sua prima legge e affermò che le orbite di tutti i pianeti sono ellissi."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "3.1 The Laws of Planetary Motion",
+     "url": "https://openstax.org/books/astronomy-2e/pages/3-1-the-laws-of-planetary-motion"
+    }
+   ],
+   "videos": [
+    {
+     "id": "TRAbZxQHlVw",
+     "title": "The Gravity of the Situation: Crash Course Astronomy #7",
+     "channel": "CrashCourse",
+     "length": "10:03"
+    },
+    {
+     "id": "AKbfR5KHUm4",
+     "title": "Explained In 5 Questions: Kepler's Law of Planetary Motion",
+     "channel": "Encyclopaedia Britannica",
+     "length": "3:59"
+    }
+   ],
+   "videoQuery": "leggi di Keplero orbite",
+   "addedAt": "2026-11-03T23:16:40Z"
+  },
+  {
+   "id": "spettroscopia",
+   "subject": "astronomia",
+   "title": "Come sappiamo di cosa sono fatte le stelle",
+   "hook": "Nessuno è mai andato su una stella. Eppure conosciamo la loro composizione grazie alla luce.",
+   "body": [
+    "Facendo passare la luce bianca del Sole attraverso un prisma si ottiene un arcobaleno di colori, uno spettro continuo.",
+    "Guardando bene lo spettro del Sole compaiono sottili righe scure. Ogni elemento chimico, come idrogeno, sodio o ferro, assorbe ed emette luce solo a certi colori precisi: è come un'impronta digitale.",
+    "Confrontando le righe della luce di una stella con quelle misurate in laboratorio, gli astronomi capiscono quali elementi contiene.",
+    "Questa tecnica si chiama spettroscopia. Permette anche di misurare temperatura e movimento delle stelle, ed è uno degli strumenti più potenti di tutta l'astronomia."
+   ],
+   "points": [
+    "La luce bianca contiene tutti i colori.",
+    "Ogni elemento ha righe spettrali uniche.",
+    "Dalle righe si capisce di cosa è fatta una stella."
+   ],
+   "example": "L'elio fu scoperto prima nello spettro del Sole che sulla Terra: il nome viene da Helios, il Sole in greco.",
+   "quote": {
+    "text": "When we pass a beam of white sunlight through a prism, we see a rainbow-colored band of light that we call a continuous spectrum.",
+    "translation": "Quando facciamo passare un fascio di luce bianca del Sole attraverso un prisma, vediamo una banda di luce con i colori dell'arcobaleno che chiamiamo spettro continuo."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "5.3 Spectroscopy in Astronomy",
+     "url": "https://openstax.org/books/astronomy-2e/pages/5-3-spectroscopy-in-astronomy"
+    }
+   ],
+   "videos": [
+    {
+     "id": "jjy-eqWM38g",
+     "title": "Light: Crash Course Astronomy #24",
+     "channel": "CrashCourse",
+     "length": "10:34"
+    },
+    {
+     "id": "IXxZRZxafEQ",
+     "title": "What Is Light?",
+     "channel": "Kurzgesagt – In a Nutshell",
+     "length": "4:39"
+    }
+   ],
+   "videoQuery": "spettroscopia stelle composizione",
+   "addedAt": "2026-11-03T23:16:40Z"
+  },
+  {
+   "id": "fusione-sole",
+   "subject": "astronomia",
+   "title": "Come brilla il Sole: 4 milioni di tonnellate al secondo",
+   "hook": "Nel cuore del Sole l'idrogeno diventa elio e una piccola parte di massa diventa luce.",
+   "body": [
+    "Il Sole produce energia con la fusione nucleare: nuclei di atomi leggeri si uniscono e formano nuclei più pesanti, liberando energia.",
+    "Nel nucleo del Sole l'idrogeno si trasforma in elio. Il nucleo di elio pesa un po' meno dei pezzi di partenza, e quella massa \"mancante\" diventa energia secondo la formula di Einstein E = mc².",
+    "Per produrre tutta l'energia che emette, il Sole trasforma in elio circa 600 milioni di tonnellate di idrogeno al secondo. Di queste, circa 4 milioni di tonnellate diventano pura energia.",
+    "Sembra un'enormità, ma il Sole è così grande che ha combustibile per miliardi di anni."
+   ],
+   "points": [
+    "Fusione: nuclei leggeri si uniscono e liberano energia.",
+    "Nel Sole l'idrogeno diventa elio.",
+    "La massa persa diventa energia: E = mc²."
+   ],
+   "example": "La luce che ti scalda il viso in spiaggia è nata da questa trasformazione di massa in energia nel cuore del Sole.",
+   "quote": {
+    "text": "This joining together of atomic nuclei is called nuclear fusion.",
+    "translation": "Questa unione di nuclei atomici si chiama fusione nucleare."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "16.2 Mass, Energy, and the Theory of Relativity",
+     "url": "https://openstax.org/books/astronomy-2e/pages/16-2-mass-energy-and-the-theory-of-relativity"
+    }
+   ],
+   "videos": [
+    {
+     "id": "b22HKFMIfWo",
+     "title": "The Sun: Crash Course Astronomy #10",
+     "channel": "CrashCourse",
+     "length": "12:04"
+    }
+   ],
+   "videoQuery": "fusione nucleare Sole energia",
+   "addedAt": "2026-11-03T23:16:40Z"
+  },
+  {
+   "id": "giganti-rosse",
+   "subject": "astronomia",
+   "title": "Quando una stella finisce l'idrogeno diventa una gigante rossa",
+   "hook": "Anche il Sole, tra miliardi di anni, si gonfierà. Ecco cosa succede a una stella che invecchia.",
+   "body": [
+    "Per la maggior parte della loro vita le stelle bruciano idrogeno nel nucleo. In questa fase gli astronomi dicono che sono sulla \"sequenza principale\".",
+    "Prima o poi l'idrogeno nel nucleo, l'unica zona abbastanza calda per la fusione, si esaurisce. Il nucleo allora si contrae e si scalda, mentre la fusione continua in un guscio intorno.",
+    "Gli strati esterni della stella si espandono enormemente e si raffreddano: la stella diventa più grande, più luminosa e di colore rossastro, una gigante rossa.",
+    "Il Sole è ancora a metà della sua vita: mancano miliardi di anni prima che inizi a espandersi in questo modo."
+   ],
+   "points": [
+    "Le stelle passano la vita a fondere idrogeno.",
+    "Finito l'idrogeno nel nucleo, gli strati esterni si gonfiano.",
+    "Il Sole lo farà tra miliardi di anni."
+   ],
+   "example": "Betelgeuse, la stella rossa nella costellazione di Orione, è un esempio di stella in una fase avanzata della sua vita.",
+   "quote": {
+    "text": "From Main-Sequence Star to Red Giant Eventually, all the hydrogen in a star’s core, where it is hot enough for fusion reactions, is used up.",
+    "translation": "Da stella di sequenza principale a gigante rossa: alla fine tutto l'idrogeno nel nucleo della stella, dove fa abbastanza caldo per le reazioni di fusione, si esaurisce."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "22.1 Evolution from the Main Sequence to Red Giants",
+     "url": "https://openstax.org/books/astronomy-2e/pages/22-1-evolution-from-the-main-sequence-to-red-giants"
+    }
+   ],
+   "videos": [
+    {
+     "id": "jfvMtCHv1q4",
+     "title": "Low Mass Stars: Crash Course Astronomy #29",
+     "channel": "CrashCourse",
+     "length": "12:03"
+    },
+    {
+     "id": "PWx9DurgPn8",
+     "title": "High Mass Stars: Crash Course Astronomy #31",
+     "channel": "CrashCourse",
+     "length": "12:17"
+    }
+   ],
+   "videoQuery": "evoluzione stellare gigante rossa",
+   "addedAt": "2026-11-03T23:16:40Z"
+  },
+  {
+   "id": "buchi-neri",
+   "subject": "astronomia",
+   "title": "Buchi neri: il confine da cui nemmeno la luce torna indietro",
+   "hook": "L'orizzonte degli eventi è una superficie invisibile. Superata quella, non si esce più.",
+   "body": [
+    "Per lasciare la Terra un razzo deve superare una certa velocità, la velocità di fuga. Più un oggetto è compatto e massiccio, più alta è la velocità di fuga.",
+    "Se una stella enorme collassa fino a diventare piccolissima, a un certo punto la velocità di fuga supera quella della luce. Nemmeno la luce può uscire: si è formato un buco nero.",
+    "La superficie che segna il punto di non ritorno si chiama orizzonte degli eventi. Il suo raggio porta il nome di Karl Schwarzschild, che ne calcolò per primo le caratteristiche.",
+    "Un buco nero non \"aspira\" tutto come un aspirapolvere: da lontano la sua gravità è come quella di qualsiasi altro oggetto con la stessa massa. Il pericolo è solo avvicinarsi troppo."
+   ],
+   "points": [
+    "La velocità di fuga cresce con massa e compattezza.",
+    "Oltre l'orizzonte degli eventi nemmeno la luce esce.",
+    "Da lontano un buco nero attrae come ogni altra massa."
+   ],
+   "example": "Se il Sole diventasse per magia un buco nero della stessa massa, la Terra continuerebbe a girargli intorno come prima, solo al buio.",
+   "quote": {
+    "text": "The size of the star at this moment defines a surface that we call the event horizon.",
+    "translation": "La dimensione della stella in quel momento definisce una superficie che chiamiamo orizzonte degli eventi."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "24.5 Black Holes",
+     "url": "https://openstax.org/books/astronomy-2e/pages/24-5-black-holes"
+    }
+   ],
+   "videos": [
+    {
+     "id": "qZWPBKULkdQ",
+     "title": "Black Holes: Crash Course Astronomy #33",
+     "channel": "CrashCourse",
+     "length": "12:26"
+    },
+    {
+     "id": "e-P5IFTqB98",
+     "title": "Black Holes Explained – From Birth to Death",
+     "channel": "Kurzgesagt – In a Nutshell",
+     "length": "5:56"
+    }
+   ],
+   "videoQuery": "buchi neri orizzonte degli eventi",
+   "addedAt": "2026-11-03T23:16:40Z"
+  },
+  {
+   "id": "universo-espansione",
+   "subject": "astronomia",
+   "title": "L'universo si sta espandendo: le galassie si allontanano",
+   "hook": "Più una galassia è lontana, più velocemente si allontana da noi. Da qui nasce l'idea del Big Bang.",
+   "body": [
+    "Negli anni '10 del Novecento l'astronomo Vesto Slipher notò che la luce di quasi tutte le \"nebulose a spirale\" era spostata verso il rosso: segno che si stavano allontanando.",
+    "Negli anni '20 Edwin Hubble dimostrò che quelle nebulose erano altre galassie e misurò le loro distanze. Scoprì una regola: la velocità con cui una galassia si allontana è proporzionale alla sua distanza. È la legge di Hubble.",
+    "Ancora prima, nel 1927, il sacerdote e astronomo belga Georges Lemaître aveva proposto che l'universo fosse in espansione, usando proprio i dati di Slipher.",
+    "Se tutte le galassie lontane si allontanano, e le più distanti più in fretta, viviamo in un universo che si espande. Andando indietro nel tempo, tutto era più vicino: è il punto di partenza dell'idea del Big Bang."
+   ],
+   "points": [
+    "Quasi tutte le galassie si allontanano da noi.",
+    "Più lontane = più veloci (legge di Hubble).",
+    "Lemaître propose per primo l'espansione."
+   ],
+   "example": "Immagina un panettone che lievita con l'uvetta: ogni uvetta vede le altre allontanarsi, e quelle più lontane si allontanano più in fretta.",
+   "quote": {
+    "text": "Since all but the nearest galaxies appear to be in motion away from us, with the most distant ones moving the fastest, we must be living in an expanding universe.",
+    "translation": "Poiché tutte le galassie, tranne le più vicine, sembrano allontanarsi da noi, e le più distanti si muovono più velocemente, dobbiamo vivere in un universo in espansione."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "26.5 The Expanding Universe",
+     "url": "https://openstax.org/books/astronomy-2e/pages/26-5-the-expanding-universe"
+    }
+   ],
+   "videos": [
+    {
+     "id": "9B7Ix2VQEGo",
+     "title": "The Big Bang, Cosmology part 1: Crash Course Astronomy #42",
+     "channel": "CrashCourse",
+     "length": "13:23"
+    },
+    {
+     "id": "wNDGgL73ihY",
+     "title": "The Beginning of Everything -- The Big Bang",
+     "channel": "Kurzgesagt – In a Nutshell",
+     "length": "5:55"
+    },
+    {
+     "id": "6PiyUjVxukI",
+     "title": "What is the universe expanding into?",
+     "channel": "TED-Ed",
+     "length": "6:07"
+    }
+   ],
+   "videoQuery": "universo in espansione legge di Hubble Big Bang",
+   "addedAt": "2026-11-03T23:16:40Z"
+  }
+ ]
+}

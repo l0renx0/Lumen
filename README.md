@@ -1,68 +1,55 @@
-# Lumen · Una cosa vera al giorno
+# Lumen · Impara quello che ti incuriosisce
 
-**L'app è online: https://l0renx0.github.io/Lumen/**
+Lumen è la tua app personale per imparare. Scegli una **materia** (per ora Fisica, Psicologia e Astronomia), sfogli gli **argomenti** come in un feed e tocchi quello che ti incuriosisce per approfondirlo.
 
-Lumen è un'app personale da tenere sul telefono: un feed di schede da scorrere, come un social, ma senza utenti e senza disinformazione. Ogni scheda nasce da una **fonte ufficiale o di grande autorevolezza**: agenzie ed enti (NASA, ESA, ESO, INAF, INGV, ISTAT, OMS, ECDC, NOAA, UNESCO), grandi riviste scientifiche (Nature, PNAS, Scientific American), università e musei (British Museum, Smithsonian, Museo Galileo, King's College London, Fondazione Nobel). **Niente Wikipedia.** Ogni scheda è scritta in italiano chiaro e riporta **citazioni copiate alla lettera** e i **link all'originale**.
+Indirizzo dell'app: **https://l0renx0.github.io/Lumen/**
 
-**È gratuita**: il sito sta su GitHub Pages (gratis) e non usa nessun servizio a pagamento.
+## Com'è fatto un argomento
 
-## Le tre sezioni
+Ogni argomento si legge in pochi minuti e contiene:
 
-- **Lo sapevi?**: la sezione principale. Conoscenze consolidate e affascinanti: scoperte storiche, fenomeni naturali, invenzioni, psicologia, design, finanza, cinema. Ogni giorno in cima trovi **"La scoperta di oggi"**: l'app mostra prima le schede che non hai ancora letto, in un ordine che cambia ogni giorno.
-- **Ricerca**: studi e notizie scientifiche aggiornati all'ultima volta che abbiamo aggiornato l'app, dal più recente.
-- **Aneddoti**: storie curiose e famose, anche dubbie o false (la mela di Newton, la Muraglia vista dallo spazio, i vichinghi con le corna…), con un **verdetto**: *Probabilmente vero*, *Dubbio* o *Falso: è un mito*.
+- una **spiegazione semplice**, in italiano;
+- **In breve**: le 3 idee da ricordare;
+- **Nella vita di tutti i giorni**: un esempio concreto;
+- una **citazione dal manuale**, copiata parola per parola, con la traduzione;
+- i **video** da canali divulgativi seri (CrashCourse, Khan Academy, TED-Ed, Kurzgesagt…), che si guardano dentro l'app;
+- **Approfondisci**: i capitoli del manuale universitario gratuito da cui viene la spiegazione, più una ricerca di altri video su YouTube;
+- il **prossimo argomento** della stessa materia.
 
-Argomenti: Scienza, Spazio, Salute, Storia, Natura, Tecnologia, Psicologia, Design, Finanza, Cinema, Società.
-
-Ogni scheda ha un **indicatore di solidità**:
-
-| Livello | Significato |
-|---|---|
-| **Consolidato** | Conoscenza accettata da tempo o fatto storico documentato |
-| **Dato ufficiale** | Dato o annuncio diretto di un ente ufficiale |
-| **Studio recente, da confermare** | Risultato nuovo, non ancora confermato da altri |
-| **Preliminare** | Ipotesi o primo risultato: un tassello, non una conclusione |
-
-Ogni scheda ha anche una sezione **"Approfondisci in video"** con un video scelto da canali ufficiali o di divulgazione affidabili, e un pulsante per cercarne altri su YouTube.
+Le fonti sono i manuali gratuiti **OpenStax** della Rice University (un'università americana): *College Physics*, *Psychology* e *Astronomy*. Sono testi universitari veri, controllati da professori, e chiunque può leggerli gratis. Non usiamo Wikipedia.
 
 ## Come si usa
 
-- **Scorri** in verticale: la scheda in primo piano è nitida, la successiva si intravede sfocata.
-- **Tocca** una scheda per leggere la spiegazione completa, le citazioni e le fonti. Per chiudere: la ✕, il tasto Indietro, oppure trascina verso il basso.
-- In alto scegli la sezione e filtra per argomento (Scienza, Spazio, Salute, Storia, Tecnologia, Natura, Società).
-- In alto a destra la **fiamma** con il cerchio arancione: il cerchio si riempie quando leggi almeno una scheda fino in fondo (l'obiettivo del giorno), il numero è la tua **serie** di giorni consecutivi. Toccala per vedere i tuoi progressi.
-- **IT / EN** cambia la lingua dell'app (anche i testi delle schede).
-- Il pulsante sole/luna attiva la **modalità scura**.
+- **Home**: le materie, la barra di ricerca e l'"argomento del giorno".
+- **Cerca**: scrivi una parola (es. "gravità"). Se in Lumen non c'è ancora niente, trovi subito i link per cercare su YouTube e nei manuali OpenStax.
+- **Segnalibro** (in alto a destra nell'argomento): lo salva. Ritrovi tutti i salvati toccando il segnalibro nella barra in alto.
+- **Fiamma**: quanti giorni di fila hai esplorato almeno un argomento. Un argomento conta come "esplorato" quando lo leggi quasi fino in fondo o fai partire un video.
+- **Sole/luna**: modalità chiara o scura.
+
+I tuoi progressi (esplorati, salvati, fiamma) restano solo sul tuo telefono.
 
 ## Installarla sul telefono
 
-Apri **https://l0renx0.github.io/Lumen/** sul telefono:
+1. Apri l'indirizzo dell'app con **Safari** (iPhone) o **Chrome** (Android).
+2. iPhone: tocca il pulsante **Condividi** (il quadrato con la freccia) → **Aggiungi alla schermata Home**.
+   Android: menu **⋮** → **Installa app** (o "Aggiungi a schermata Home").
+3. Lumen compare tra le app e funziona anche senza connessione per gli argomenti già aperti.
 
-- **iPhone (Safari)**: tocca **Condividi** (il quadrato con la freccia) → **Aggiungi alla schermata Home** → **Aggiungi**.
-- **Android (Chrome)**: tocca il menu **⋮** → **Installa app** (oppure "Aggiungi a schermata Home").
+## Aggiungere materie o argomenti
 
-L'icona arancione di Lumen comparirà tra le tue app. Funziona anche offline con le schede già viste.
+È gratis: non c'è nessun servizio a pagamento. Quando vuoi nuovi contenuti, apri una conversazione con Claude nella cartella del progetto e chiedi, per esempio:
 
-## Aggiungere nuove schede
+> "Aggiungi la materia Chimica con 8 argomenti" oppure "Aggiungi 5 argomenti di Psicologia sullo stress e sulla personalità".
 
-Non c'è nessun aggiornamento automatico (per non pagare nulla). Quando vuoi nuove schede:
-
-1. Apri Claude nella cartella **Lumen 2.0**.
-2. Scrivi per esempio: *"Aggiungi 10 nuove schede a Lumen"*, oppure *"Aggiungi schede di Ricerca recente sulle ultime notizie dell'ESA"*, oppure *"Voglio schede sulla storia della medicina"*.
-3. Claude legge le fonti, scrive le schede, controlla che le citazioni siano davvero nelle fonti e pubblica. Dopo circa un minuto, sull'app compare la scritta arancione **"Nuove schede · Aggiorna"**.
-
-Le istruzioni dettagliate che Claude segue sono nel file [`CLAUDE.md`](CLAUDE.md).
+Claude scrive gli argomenti partendo dai manuali, controlla che citazioni, link e video funzionino e pubblica. Dopo circa un minuto, nell'app compare il banner arancione **"Nuovi argomenti · Aggiorna"**.
 
 ## Struttura del progetto
 
-```
-index.html, manifest.webmanifest, sw.js   l'app (installabile sul telefono)
-assets/css/app.css                        lo stile
-assets/js/app.js                          la logica dell'app
-assets/icons/                             le icone
-data/cards.json                           tutte le schede
-data/meta.json                            data dell'ultimo aggiornamento (fa comparire il banner)
-strumenti/controlla_schede.py             controlli sulle schede prima di pubblicare
-.github/workflows/pubblica.yml            pubblicazione automatica su GitHub Pages a ogni modifica
-CLAUDE.md                                 istruzioni per Claude su come aggiornare l'app
-```
+| File | A cosa serve |
+|---|---|
+| `index.html`, `assets/` | L'app (pagina, stile, codice, icone) |
+| `data/argomenti.json` | Tutte le materie e tutti gli argomenti |
+| `data/meta.json` | Data dell'ultimo aggiornamento (serve per il banner) |
+| `strumenti/controlla_argomenti.py` | Controlli prima di pubblicare |
+| `sw.js`, `manifest.webmanifest` | Rendono Lumen installabile e utilizzabile offline |
+| `.github/workflows/pubblica.yml` | Pubblica il sito su GitHub Pages a ogni modifica |

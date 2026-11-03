@@ -1,7 +1,7 @@
 {
-  "name": "Lumen · Una cosa vera al giorno",
+  "name": "Lumen · Impara quello che ti incuriosisce",
   "short_name": "Lumen",
-  "description": "Un feed personale di conoscenze verificate da fonti scientifiche e istituzionali.",
+  "description": "Scegli una materia e approfondisci gli argomenti che ti incuriosiscono, con spiegazioni semplici, video e manuali gratuiti.",
   "lang": "it",
   "start_url": "./",
   "scope": "./",
@@ -10,9 +10,26 @@
   "background_color": "#ffffff",
   "theme_color": "#ffffff",
   "icons": [
-    { "src": "assets/icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
-    { "src": "assets/icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
-    { "src": "assets/icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
-    { "src": "assets/icons/icon.svg", "sizes": "any", "type": "image/svg+xml" }
+    {
+      "src": "assets/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "assets/icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
   ]
 }
