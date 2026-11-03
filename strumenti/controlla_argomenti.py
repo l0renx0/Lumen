@@ -9,7 +9,7 @@ from pathlib import Path
 
 FILE = Path(__file__).resolve().parent.parent / "data" / "argomenti.json"
 UA = "Mozilla/5.0 (compatible; LumenBot/1.0; lettore personale di divulgazione)"
-CAMPI = ("id", "subject", "title", "hook", "body", "points", "example", "sources", "videoQuery")
+CAMPI = ("id", "subject", "title", "hook", "chapter", "sections", "points", "example", "sources", "videoQuery")
 
 
 def fetch(u):
@@ -48,7 +48,7 @@ def main():
         visti.add(t.get("id"))
         if not re.fullmatch(r"[a-z0-9-]+", t.get("id", "")):
             errori.append(f"{nome}: id non valido (solo minuscole, numeri e trattini)")
-        if len(t.get("hook", "")) > 140:
+        if len(t.get("hook", "")) > 160:
             avvisi.append(f"{nome}: frase di lancio lunga ({len(t['hook'])} caratteri)")
         if not t.get("videos"):
             avvisi.append(f"{nome}: nessun video")

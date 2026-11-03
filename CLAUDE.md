@@ -18,7 +18,7 @@ L'utente sceglie una **materia** (Fisica, Psicologia, Astronomia…) e vede un *
 ## Formato
 Materia (`subjects`):
 ```json
-{"id": "fisica", "name": "Fisica", "tagline": "una frase", "book": {"title": "College Physics 2e", "url": "https://openstax.org/books/..."}}
+{"id": "fisica", "name": "Fisica", "tagline": "una frase", "chapters": ["Meccanica", "…"], "book": {"title": "College Physics 2e", "url": "https://openstax.org/books/..."}}
 ```
 Per una nuova materia aggiungi anche: colori in `app.css` (`[data-subject="id"] { --hue; --hue-2 }`) e un'icona SVG in `ICONS` in `app.js`, poi aumenta `VERSION` in `sw.js`.
 
@@ -28,9 +28,13 @@ Argomento (`topics`):
   "id": "slug-minuscolo",
   "subject": "fisica",
   "title": "max ~80 caratteri, invitante ma fedele",
-  "hook": "frase di lancio, max ~140 caratteri",
-  "body": ["4 paragrafi brevi e semplici"],
-  "points": ["3 idee chiave"],
+  "hook": "frase di lancio, max ~160 caratteri",
+  "chapter": "uno dei capitoli in subjects[].chapters (es. Meccanica)",
+  "sections": [{"h": "sottotitolo", "p": ["2-4 paragrafi"]}],
+  "formulas": [{"f": "F = m · a", "d": "spiegazione a parole"}],
+  "mistakes": ["errori comuni"],
+  "terms": [{"t": "termine", "d": "definizione"}],
+  "points": ["3-4 cose che imparerai"],
   "example": "un esempio della vita di tutti i giorni",
   "quote": {"text": "copiata ALLA LETTERA dalla prima fonte", "translation": "traduzione italiana"},
   "sources": [{"name": "OpenStax · Psychology 2e", "title": "8.1 How Memory Functions", "url": "https://openstax.org/books/psychology-2e/pages/8-1-how-memory-functions"}],
@@ -41,6 +45,8 @@ Argomento (`topics`):
 ```
 
 ## Come aggiungere argomenti o materie (quando l'utente lo chiede)
+L'utente vuole una dispensa intera (centinaia di argomenti per materia), con spiegazioni lunghe e complete (5-7 sezioni con sottotitolo, circa 600-1000 parole più i riquadri), aggiunte a blocchi di 15-25 per sessione. Gli argomenti non ancora scritti NON si mostrano nell'app. Per scegliere i prossimi usa `strumenti/indice_dispensa.json` (sezioni con `argomenti` vuoto), preferendo i più importanti o interessanti, e dopo aver aggiunto argomenti aggiorna il campo `argomenti` delle sezioni coperte.
+
 1. **Fonti**: preferisci i manuali gratuiti **OpenStax** (openstax.org, Rice University): c'è un libro per moltissime materie (fisica, chimica, biologia, astronomia, psicologia, sociologia, economia, statistica…). L'indice dei capitoli si ricava dagli `"slug"` presenti nell'HTML di una pagina del libro. In alternativa: enti e università (NASA, ESA, MIT OpenCourseWare, musei). **NON usare Wikipedia**, blog o siti commerciali.
 2. Leggi davvero il capitolo e scrivi solo ciò che dice, in modo semplice; niente esagerazioni, numeri solo se sono nella fonte.
 3. **Video**: solo canali ufficiali o divulgatori riconosciuti (CrashCourse, Khan Academy, TED-Ed, Kurzgesagt, minutephysics, PBS, agenzie, università). Si trovano cercando su `https://www.youtube.com/results?search_query=…` e leggendo `ytInitialData`.

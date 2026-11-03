@@ -1,0 +1,3011 @@
+{
+ "nota": "Indice completo dei manuali OpenStax usati come dispensa. 'argomenti' = id degli argomenti Lumen che coprono la sezione (vuoto = ancora da scrivere).",
+ "materie": {
+  "fisica": {
+   "manuale": "College Physics 2e",
+   "capitoli": [
+    {
+     "n": 1,
+     "title": "Introduction the nature of science and physics",
+     "sections": [
+      {
+       "title": "1.1 Physics an introduction",
+       "url": "https://openstax.org/books/college-physics-2e/pages/1-1-physics-an-introduction",
+       "argomenti": []
+      },
+      {
+       "title": "1.2 Physical quantities and units",
+       "url": "https://openstax.org/books/college-physics-2e/pages/1-2-physical-quantities-and-units",
+       "argomenti": []
+      },
+      {
+       "title": "1.3 Accuracy precision and significant figures",
+       "url": "https://openstax.org/books/college-physics-2e/pages/1-3-accuracy-precision-and-significant-figures",
+       "argomenti": []
+      },
+      {
+       "title": "1.4 Approximation",
+       "url": "https://openstax.org/books/college-physics-2e/pages/1-4-approximation",
+       "argomenti": []
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "title": "Kinematics",
+     "sections": [
+      {
+       "title": "2.1 Displacement",
+       "url": "https://openstax.org/books/college-physics-2e/pages/2-1-displacement",
+       "argomenti": []
+      },
+      {
+       "title": "2.2 Vectors scalars and coordinate systems",
+       "url": "https://openstax.org/books/college-physics-2e/pages/2-2-vectors-scalars-and-coordinate-systems",
+       "argomenti": []
+      },
+      {
+       "title": "2.3 Time velocity and speed",
+       "url": "https://openstax.org/books/college-physics-2e/pages/2-3-time-velocity-and-speed",
+       "argomenti": []
+      },
+      {
+       "title": "2.4 Acceleration",
+       "url": "https://openstax.org/books/college-physics-2e/pages/2-4-acceleration",
+       "argomenti": [
+        "accelerazione"
+       ]
+      },
+      {
+       "title": "2.5 Motion equations for constant acceleration in one dimension",
+       "url": "https://openstax.org/books/college-physics-2e/pages/2-5-motion-equations-for-constant-acceleration-in-one-dimension",
+       "argomenti": []
+      },
+      {
+       "title": "2.6 Problem solving basics for one dimensional kinematics",
+       "url": "https://openstax.org/books/college-physics-2e/pages/2-6-problem-solving-basics-for-one-dimensional-kinematics",
+       "argomenti": []
+      },
+      {
+       "title": "2.7 Falling objects",
+       "url": "https://openstax.org/books/college-physics-2e/pages/2-7-falling-objects",
+       "argomenti": []
+      },
+      {
+       "title": "2.8 Graphical analysis of one dimensional motion",
+       "url": "https://openstax.org/books/college-physics-2e/pages/2-8-graphical-analysis-of-one-dimensional-motion",
+       "argomenti": []
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "title": "Two dimensional kinematics",
+     "sections": [
+      {
+       "title": "3.1 Kinematics in two dimensions an introduction",
+       "url": "https://openstax.org/books/college-physics-2e/pages/3-1-kinematics-in-two-dimensions-an-introduction",
+       "argomenti": []
+      },
+      {
+       "title": "3.2 Vector addition and subtraction graphical methods",
+       "url": "https://openstax.org/books/college-physics-2e/pages/3-2-vector-addition-and-subtraction-graphical-methods",
+       "argomenti": []
+      },
+      {
+       "title": "3.3 Vector addition and subtraction analytical methods",
+       "url": "https://openstax.org/books/college-physics-2e/pages/3-3-vector-addition-and-subtraction-analytical-methods",
+       "argomenti": []
+      },
+      {
+       "title": "3.4 Projectile motion",
+       "url": "https://openstax.org/books/college-physics-2e/pages/3-4-projectile-motion",
+       "argomenti": []
+      },
+      {
+       "title": "3.5 Addition of velocities",
+       "url": "https://openstax.org/books/college-physics-2e/pages/3-5-addition-of-velocities",
+       "argomenti": []
+      }
+     ]
+    },
+    {
+     "n": 4,
+     "title": "Dynamics force and newtons laws of motion",
+     "sections": [
+      {
+       "title": "4.1 Development of force concept",
+       "url": "https://openstax.org/books/college-physics-2e/pages/4-1-development-of-force-concept",
+       "argomenti": []
+      },
+      {
+       "title": "4.2 Newtons first law of motion inertia",
+       "url": "https://openstax.org/books/college-physics-2e/pages/4-2-newtons-first-law-of-motion-inertia",
+       "argomenti": [
+        "leggi-di-newton"
+       ]
+      },
+      {
+       "title": "4.3 Newtons second law of motion concept of a system",
+       "url": "https://openstax.org/books/college-physics-2e/pages/4-3-newtons-second-law-of-motion-concept-of-a-system",
+       "argomenti": [
+        "leggi-di-newton"
+       ]
+      },
+      {
+       "title": "4.4 Newtons third law of motion symmetry in forces",
+       "url": "https://openstax.org/books/college-physics-2e/pages/4-4-newtons-third-law-of-motion-symmetry-in-forces",
+       "argomenti": [
+        "leggi-di-newton"
+       ]
+      },
+      {
+       "title": "4.5 Normal tension and other examples of forces",
+       "url": "https://openstax.org/books/college-physics-2e/pages/4-5-normal-tension-and-other-examples-of-forces",
+       "argomenti": []
+      },
+      {
+       "title": "4.6 Problem solving strategies",
+       "url": "https://openstax.org/books/college-physics-2e/pages/4-6-problem-solving-strategies",
+       "argomenti": []
+      },
+      {
+       "title": "4.7 Further applications of newtons laws of motion",
+       "url": "https://openstax.org/books/college-physics-2e/pages/4-7-further-applications-of-newtons-laws-of-motion",
+       "argomenti": []
+      },
+      {
+       "title": "4.8 Extended topic the four basic forces an introduction",
+       "url": "https://openstax.org/books/college-physics-2e/pages/4-8-extended-topic-the-four-basic-forces-an-introduction",
+       "argomenti": []
+      }
+     ]
+    },
+    {
+     "n": 5,
+     "title": "Further applications of newtons laws friction drag and elasticity",
+     "sections": [
+      {
+       "title": "5.1 Friction",
+       "url": "https://openstax.org/books/college-physics-2e/pages/5-1-friction",
+       "argomenti": []
+      },
+      {
+       "title": "5.2 Drag forces",
+       "url": "https://openstax.org/books/college-physics-2e/pages/5-2-drag-forces",
+       "argomenti": []
+      },
+      {
+       "title": "5.3 Elasticity stress and strain",
+       "url": "https://openstax.org/books/college-physics-2e/pages/5-3-elasticity-stress-and-strain",
+       "argomenti": []
+      }
+     ]
+    },
+    {
+     "n": 6,
+     "title": "Uniform circular motion and gravitation",
+     "sections": [
+      {
+       "title": "6.1 Rotation angle and angular velocity",
+       "url": "https://openstax.org/books/college-physics-2e/pages/6-1-rotation-angle-and-angular-velocity",
+       "argomenti": []
+      },
+      {
+       "title": "6.2 Centripetal acceleration",
+       "url": "https://openstax.org/books/college-physics-2e/pages/6-2-centripetal-acceleration",
+       "argomenti": []
+      },
+      {
+       "title": "6.3 Centripetal force",
+       "url": "https://openstax.org/books/college-physics-2e/pages/6-3-centripetal-force",
+       "argomenti": []
+      },
+      {
+       "title": "6.4 Fictitious forces and non inertial frames the coriolis force",
+       "url": "https://openstax.org/books/college-physics-2e/pages/6-4-fictitious-forces-and-non-inertial-frames-the-coriolis-force",
+       "argomenti": []
+      },
+      {
+       "title": "6.5 Newtons universal law of gravitation",
+       "url": "https://openstax.org/books/college-physics-2e/pages/6-5-newtons-universal-law-of-gravitation",
+       "argomenti": [
+        "gravita"
+       ]
+      },
+      {
+       "title": "6.6 Satellites and keplers laws an argument for simplicity",
+       "url": "https://openstax.org/books/college-physics-2e/pages/6-6-satellites-and-keplers-laws-an-argument-for-simplicity",
+       "argomenti": []
+      }
+     ]
+    },
+    {
+     "n": 7,
+     "title": "Work energy and energy resources",
+     "sections": [
+      {
+       "title": "7.1 Work the scientific definition",
+       "url": "https://openstax.org/books/college-physics-2e/pages/7-1-work-the-scientific-definition",
+       "argomenti": []
+      },
+      {
+       "title": "7.2 Kinetic energy and the work energy theorem",
+       "url": "https://openstax.org/books/college-physics-2e/pages/7-2-kinetic-energy-and-the-work-energy-theorem",
+       "argomenti": []
+      },
+      {
+       "title": "7.3 Gravitational potential energy",
+       "url": "https://openstax.org/books/college-physics-2e/pages/7-3-gravitational-potential-energy",
+       "argomenti": []
+      },
+      {
+       "title": "7.4 Conservative forces and potential energy",
+       "url": "https://openstax.org/books/college-physics-2e/pages/7-4-conservative-forces-and-potential-energy",
+       "argomenti": []
+      },
+      {
+       "title": "7.5 Nonconservative forces",
+       "url": "https://openstax.org/books/college-physics-2e/pages/7-5-nonconservative-forces",
+       "argomenti": []
+      },
+      {
+       "title": "7.6 Conservation of energy",
+       "url": "https://openstax.org/books/college-physics-2e/pages/7-6-conservation-of-energy",
+       "argomenti": [
+        "energia"
+       ]
+      },
+      {
+       "title": "7.7 Power",
+       "url": "https://openstax.org/books/college-physics-2e/pages/7-7-power",
+       "argomenti": []
+      },
+      {
+       "title": "7.8 Work energy and power in humans",
+       "url": "https://openstax.org/books/college-physics-2e/pages/7-8-work-energy-and-power-in-humans",
+       "argomenti": []
+      },
+      {
+       "title": "7.9 World energy use",
+       "url": "https://openstax.org/books/college-physics-2e/pages/7-9-world-energy-use",
+       "argomenti": []
+      }
+     ]
+    },
+    {
+     "n": 8,
+     "title": "Linear momentum and collisions",
+     "sections": [
+      {
+       "title": "8.1 Linear momentum and force",
+       "url": "https://openstax.org/books/college-physics-2e/pages/8-1-linear-momentum-and-force",
+       "argomenti": []
+      },
+      {
+       "title": "8.2 Impulse",
+       "url": "https://openstax.org/books/college-physics-2e/pages/8-2-impulse",
+       "argomenti": []
+      },
+      {
+       "title": "8.3 Conservation of momentum",
+       "url": "https://openstax.org/books/college-physics-2e/pages/8-3-conservation-of-momentum",
+       "argomenti": []
+      },
+      {
+       "title": "8.4 Elastic collisions in one dimension",
+       "url": "https://openstax.org/books/college-physics-2e/pages/8-4-elastic-collisions-in-one-dimension",
+       "argomenti": []
+      },
+      {
+       "title": "8.5 Inelastic collisions in one dimension",
+       "url": "https://openstax.org/books/college-physics-2e/pages/8-5-inelastic-collisions-in-one-dimension",
+       "argomenti": []
+      },
+      {
+       "title": "8.6 Collisions of point masses in two dimensions",
+       "url": "https://openstax.org/books/college-physics-2e/pages/8-6-collisions-of-point-masses-in-two-dimensions",
+       "argomenti": []
+      },
+      {
+       "title": "8.7 Introduction to rocket propulsion",
+       "url": "https://openstax.org/books/college-physics-2e/pages/8-7-introduction-to-rocket-propulsion",
+       "argomenti": []
+      }
+     ]
+    },
+    {
+     "n": 9,
+     "title": "Statics and torque",
+     "sections": [
+      {
+       "title": "9.1 The first condition for equilibrium",
+       "url": "https://openstax.org/books/college-physics-2e/pages/9-1-the-first-condition-for-equilibrium",
+       "argomenti": []
+      },
+      {
+       "title": "9.2 The second condition for equilibrium",
+       "url": "https://openstax.org/books/college-physics-2e/pages/9-2-the-second-condition-for-equilibrium",
+       "argomenti": []
+      },
+      {
+       "title": "9.3 Stability",
+       "url": "https://openstax.org/books/college-physics-2e/pages/9-3-stability",
+       "argomenti": []
+      },
+      {
+       "title": "9.4 Applications of statics including problem solving strategies",
+       "url": "https://openstax.org/books/college-physics-2e/pages/9-4-applications-of-statics-including-problem-solving-strategies",
+       "argomenti": []
+      },
+      {
+       "title": "9.5 Simple machines",
+       "url": "https://openstax.org/books/college-physics-2e/pages/9-5-simple-machines",
+       "argomenti": []
+      },
+      {
+       "title": "9.6 Forces and torques in muscles and joints",
+       "url": "https://openstax.org/books/college-physics-2e/pages/9-6-forces-and-torques-in-muscles-and-joints",
+       "argomenti": []
+      }
+     ]
+    },
+    {
+     "n": 10,
+     "title": "Rotational motion and angular momentum",
+     "sections": [
+      {
+       "title": "10.1 Angular acceleration",
+       "url": "https://openstax.org/books/college-physics-2e/pages/10-1-angular-acceleration",
+       "argomenti": []
+      },
+      {
+       "title": "10.2 Kinematics of rotational motion",
+       "url": "https://openstax.org/books/college-physics-2e/pages/10-2-kinematics-of-rotational-motion",
+       "argomenti": []
+      },
+      {
+       "title": "10.3 Dynamics of rotational motion rotational inertia",
+       "url": "https://openstax.org/books/college-physics-2e/pages/10-3-dynamics-of-rotational-motion-rotational-inertia",
+       "argomenti": []
+      },
+      {
+       "title": "10.4 Rotational kinetic energy work and energy revisited",
+       "url": "https://openstax.org/books/college-physics-2e/pages/10-4-rotational-kinetic-energy-work-and-energy-revisited",
+       "argomenti": []
+      },
+      {
+       "title": "10.5 Angular momentum and its conservation",
+       "url": "https://openstax.org/books/college-physics-2e/pages/10-5-angular-momentum-and-its-conservation",
+       "argomenti": []
+      },
+      {
+       "title": "10.6 Collisions of extended bodies in two dimensions",
+       "url": "https://openstax.org/books/college-physics-2e/pages/10-6-collisions-of-extended-bodies-in-two-dimensions",
+       "argomenti": []
+      },
+      {
+       "title": "10.7 Gyroscopic effects vector aspects of angular momentum",
+       "url": "https://openstax.org/books/college-physics-2e/pages/10-7-gyroscopic-effects-vector-aspects-of-angular-momentum",
+       "argomenti": []
+      }
+     ]
+    },
+    {
+     "n": 11,
+     "title": "Fluid statics",
+     "sections": [
+      {
+       "title": "11.1 What is a fluid",
+       "url": "https://openstax.org/books/college-physics-2e/pages/11-1-what-is-a-fluid",
+       "argomenti": []
+      },
+      {
+       "title": "11.2 Density",
+       "url": "https://openstax.org/books/college-physics-2e/pages/11-2-density",
+       "argomenti": []
+      },
+      {
+       "title": "11.3 Pressure",
+       "url": "https://openstax.org/books/college-physics-2e/pages/11-3-pressure",
+       "argomenti": []
+      },
+      {
+       "title": "11.4 Variation of pressure with depth in a fluid",
+       "url": "https://openstax.org/books/college-physics-2e/pages/11-4-variation-of-pressure-with-depth-in-a-fluid",
+       "argomenti": []
+      },
+      {
+       "title": "11.5 Pascals principle",
+       "url": "https://openstax.org/books/college-physics-2e/pages/11-5-pascals-principle",
+       "argomenti": []
+      },
+      {
+       "title": "11.6 Gauge pressure absolute pressure and pressure measurement",
+       "url": "https://openstax.org/books/college-physics-2e/pages/11-6-gauge-pressure-absolute-pressure-and-pressure-measurement",
+       "argomenti": []
+      },
+      {
+       "title": "11.7 Archimedes principle",
+       "url": "https://openstax.org/books/college-physics-2e/pages/11-7-archimedes-principle",
+       "argomenti": []
+      },
+      {
+       "title": "11.8 Cohesion and adhesion in liquids surface tension and capillary action",
+       "url": "https://openstax.org/books/college-physics-2e/pages/11-8-cohesion-and-adhesion-in-liquids-surface-tension-and-capillary-action",
+       "argomenti": []
+      },
+      {
+       "title": "11.9 Pressures in the body",
+       "url": "https://openstax.org/books/college-physics-2e/pages/11-9-pressures-in-the-body",
+       "argomenti": []
+      }
+     ]
+    },
+    {
+     "n": 12,
+     "title": "Fluid dynamics and its biological and medical applications",
+     "sections": [
+      {
+       "title": "12.1 Flow rate and its relation to velocity",
+       "url": "https://openstax.org/books/college-physics-2e/pages/12-1-flow-rate-and-its-relation-to-velocity",
+       "argomenti": []
+      },
+      {
+       "title": "12.2 Bernoullis equation",
+       "url": "https://openstax.org/books/college-physics-2e/pages/12-2-bernoullis-equation",
+       "argomenti": []
+      },
+      {
+       "title": "12.3 The most general applications of bernoullis equation",
+       "url": "https://openstax.org/books/college-physics-2e/pages/12-3-the-most-general-applications-of-bernoullis-equation",
+       "argomenti": []
+      },
+      {
+       "title": "12.4 Viscosity and laminar flow poiseuilles law",
+       "url": "https://openstax.org/books/college-physics-2e/pages/12-4-viscosity-and-laminar-flow-poiseuilles-law",
+       "argomenti": []
+      },
+      {
+       "title": "12.5 The onset of turbulence",
+       "url": "https://openstax.org/books/college-physics-2e/pages/12-5-the-onset-of-turbulence",
+       "argomenti": []
+      },
+      {
+       "title": "12.6 Motion of an object in a viscous fluid",
+       "url": "https://openstax.org/books/college-physics-2e/pages/12-6-motion-of-an-object-in-a-viscous-fluid",
+       "argomenti": []
+      },
+      {
+       "title": "12.7 Molecular transport phenomena diffusion osmosis and related processes",
+       "url": "https://openstax.org/books/college-physics-2e/pages/12-7-molecular-transport-phenomena-diffusion-osmosis-and-related-processes",
+       "argomenti": []
+      }
+     ]
+    },
+    {
+     "n": 13,
+     "title": "Temperature kinetic theory and the gas laws",
+     "sections": [
+      {
+       "title": "13.1 Temperature",
+       "url": "https://openstax.org/books/college-physics-2e/pages/13-1-temperature",
+       "argomenti": []
+      },
+      {
+       "title": "13.2 Thermal expansion of solids and liquids",
+       "url": "https://openstax.org/books/college-physics-2e/pages/13-2-thermal-expansion-of-solids-and-liquids",
+       "argomenti": []
+      },
+      {
+       "title": "13.3 The ideal gas law",
+       "url": "https://openstax.org/books/college-physics-2e/pages/13-3-the-ideal-gas-law",
+       "argomenti": []
+      },
+      {
+       "title": "13.4 Kinetic theory atomic and molecular explanation of pressure and temperature",
+       "url": "https://openstax.org/books/college-physics-2e/pages/13-4-kinetic-theory-atomic-and-molecular-explanation-of-pressure-and-temperature",
+       "argomenti": []
+      },
+      {
+       "title": "13.5 Phase changes",
+       "url": "https://openstax.org/books/college-physics-2e/pages/13-5-phase-changes",
+       "argomenti": []
+      },
+      {
+       "title": "13.6 Humidity evaporation and boiling",
+       "url": "https://openstax.org/books/college-physics-2e/pages/13-6-humidity-evaporation-and-boiling",
+       "argomenti": []
+      }
+     ]
+    },
+    {
+     "n": 14,
+     "title": "Heat and heat transfer methods",
+     "sections": [
+      {
+       "title": "14.1 Heat",
+       "url": "https://openstax.org/books/college-physics-2e/pages/14-1-heat",
+       "argomenti": []
+      },
+      {
+       "title": "14.2 Temperature change and heat capacity",
+       "url": "https://openstax.org/books/college-physics-2e/pages/14-2-temperature-change-and-heat-capacity",
+       "argomenti": []
+      },
+      {
+       "title": "14.3 Phase change and latent heat",
+       "url": "https://openstax.org/books/college-physics-2e/pages/14-3-phase-change-and-latent-heat",
+       "argomenti": []
+      },
+      {
+       "title": "14.4 Heat transfer methods",
+       "url": "https://openstax.org/books/college-physics-2e/pages/14-4-heat-transfer-methods",
+       "argomenti": []
+      },
+      {
+       "title": "14.5 Conduction",
+       "url": "https://openstax.org/books/college-physics-2e/pages/14-5-conduction",
+       "argomenti": []
+      },
+      {
+       "title": "14.6 Convection",
+       "url": "https://openstax.org/books/college-physics-2e/pages/14-6-convection",
+       "argomenti": []
+      },
+      {
+       "title": "14.7 Radiation",
+       "url": "https://openstax.org/books/college-physics-2e/pages/14-7-radiation",
+       "argomenti": []
+      }
+     ]
+    },
+    {
+     "n": 15,
+     "title": "Thermodynamics",
+     "sections": [
+      {
+       "title": "15.1 The first law of thermodynamics",
+       "url": "https://openstax.org/books/college-physics-2e/pages/15-1-the-first-law-of-thermodynamics",
+       "argomenti": []
+      },
+      {
+       "title": "15.2 The first law of thermodynamics and some simple processes",
+       "url": "https://openstax.org/books/college-physics-2e/pages/15-2-the-first-law-of-thermodynamics-and-some-simple-processes",
+       "argomenti": []
+      },
+      {
+       "title": "15.3 Introduction to the second law of thermodynamics heat engines and their efficiency",
+       "url": "https://openstax.org/books/college-physics-2e/pages/15-3-introduction-to-the-second-law-of-thermodynamics-heat-engines-and-their-efficiency",
+       "argomenti": []
+      },
+      {
+       "title": "15.4 Carnots perfect heat engine the second law of thermodynamics restated",
+       "url": "https://openstax.org/books/college-physics-2e/pages/15-4-carnots-perfect-heat-engine-the-second-law-of-thermodynamics-restated",
+       "argomenti": []
+      },
+      {
+       "title": "15.5 Applications of thermodynamics heat pumps and refrigerators",
+       "url": "https://openstax.org/books/college-physics-2e/pages/15-5-applications-of-thermodynamics-heat-pumps-and-refrigerators",
+       "argomenti": []
+      },
+      {
+       "title": "15.6 Entropy and the second law of thermodynamics disorder and the unavailability of energy",
+       "url": "https://openstax.org/books/college-physics-2e/pages/15-6-entropy-and-the-second-law-of-thermodynamics-disorder-and-the-unavailability-of-energy",
+       "argomenti": [
+        "entropia"
+       ]
+      },
+      {
+       "title": "15.7 Statistical interpretation of entropy and the second law of thermodynamics the underlying explanation",
+       "url": "https://openstax.org/books/college-physics-2e/pages/15-7-statistical-interpretation-of-entropy-and-the-second-law-of-thermodynamics-the-underlying-explanation",
+       "argomenti": []
+      }
+     ]
+    },
+    {
+     "n": 16,
+     "title": "Oscillatory motion and waves",
+     "sections": [
+      {
+       "title": "16.1 Hookes law stress and strain revisited",
+       "url": "https://openstax.org/books/college-physics-2e/pages/16-1-hookes-law-stress-and-strain-revisited",
+       "argomenti": []
+      },
+      {
+       "title": "16.2 Period and frequency in oscillations",
+       "url": "https://openstax.org/books/college-physics-2e/pages/16-2-period-and-frequency-in-oscillations",
+       "argomenti": []
+      },
+      {
+       "title": "16.3 Simple harmonic motion a special periodic motion",
+       "url": "https://openstax.org/books/college-physics-2e/pages/16-3-simple-harmonic-motion-a-special-periodic-motion",
+       "argomenti": []
+      },
+      {
+       "title": "16.4 The simple pendulum",
+       "url": "https://openstax.org/books/college-physics-2e/pages/16-4-the-simple-pendulum",
+       "argomenti": []
+      },
+      {
+       "title": "16.5 Energy and the simple harmonic oscillator",
+       "url": "https://openstax.org/books/college-physics-2e/pages/16-5-energy-and-the-simple-harmonic-oscillator",
+       "argomenti": []
+      },
+      {
+       "title": "16.6 Uniform circular motion and simple harmonic motion",
+       "url": "https://openstax.org/books/college-physics-2e/pages/16-6-uniform-circular-motion-and-simple-harmonic-motion",
+       "argomenti": []
+      },
+      {
+       "title": "16.7 Damped harmonic motion",
+       "url": "https://openstax.org/books/college-physics-2e/pages/16-7-damped-harmonic-motion",
+       "argomenti": []
+      },
+      {
+       "title": "16.8 Forced oscillations and resonance",
+       "url": "https://openstax.org/books/college-physics-2e/pages/16-8-forced-oscillations-and-resonance",
+       "argomenti": []
+      },
+      {
+       "title": "16.9 Waves",
+       "url": "https://openstax.org/books/college-physics-2e/pages/16-9-waves",
+       "argomenti": [
+        "onde"
+       ]
+      },
+      {
+       "title": "16.10 Superposition and interference",
+       "url": "https://openstax.org/books/college-physics-2e/pages/16-10-superposition-and-interference",
+       "argomenti": []
+      },
+      {
+       "title": "16.11 Energy in waves intensity",
+       "url": "https://openstax.org/books/college-physics-2e/pages/16-11-energy-in-waves-intensity",
+       "argomenti": []
+      }
+     ]
+    },
+    {
+     "n": 17,
+     "title": "Physics of hearing",
+     "sections": [
+      {
+       "title": "17.1 Sound",
+       "url": "https://openstax.org/books/college-physics-2e/pages/17-1-sound",
+       "argomenti": []
+      },
+      {
+       "title": "17.2 Speed of sound frequency and wavelength",
+       "url": "https://openstax.org/books/college-physics-2e/pages/17-2-speed-of-sound-frequency-and-wavelength",
+       "argomenti": []
+      },
+      {
+       "title": "17.3 Sound intensity and sound level",
+       "url": "https://openstax.org/books/college-physics-2e/pages/17-3-sound-intensity-and-sound-level",
+       "argomenti": []
+      },
+      {
+       "title": "17.4 Doppler effect and sonic booms",
+       "url": "https://openstax.org/books/college-physics-2e/pages/17-4-doppler-effect-and-sonic-booms",
+       "argomenti": []
+      },
+      {
+       "title": "17.5 Sound interference and resonance standing waves in air columns",
+       "url": "https://openstax.org/books/college-physics-2e/pages/17-5-sound-interference-and-resonance-standing-waves-in-air-columns",
+       "argomenti": []
+      },
+      {
+       "title": "17.6 Hearing",
+       "url": "https://openstax.org/books/college-physics-2e/pages/17-6-hearing",
+       "argomenti": []
+      },
+      {
+       "title": "17.7 Ultrasound",
+       "url": "https://openstax.org/books/college-physics-2e/pages/17-7-ultrasound",
+       "argomenti": []
+      }
+     ]
+    },
+    {
+     "n": 18,
+     "title": "Electric charge and electric field",
+     "sections": [
+      {
+       "title": "18.1 Static electricity and charge conservation of charge",
+       "url": "https://openstax.org/books/college-physics-2e/pages/18-1-static-electricity-and-charge-conservation-of-charge",
+       "argomenti": []
+      },
+      {
+       "title": "18.2 Conductors and insulators",
+       "url": "https://openstax.org/books/college-physics-2e/pages/18-2-conductors-and-insulators",
+       "argomenti": []
+      },
+      {
+       "title": "18.3 Coulombs law",
+       "url": "https://openstax.org/books/college-physics-2e/pages/18-3-coulombs-law",
+       "argomenti": []
+      },
+      {
+       "title": "18.4 Electric field concept of a field revisited",
+       "url": "https://openstax.org/books/college-physics-2e/pages/18-4-electric-field-concept-of-a-field-revisited",
+       "argomenti": []
+      },
+      {
+       "title": "18.5 Electric field lines multiple charges",
+       "url": "https://openstax.org/books/college-physics-2e/pages/18-5-electric-field-lines-multiple-charges",
+       "argomenti": []
+      },
+      {
+       "title": "18.6 Electric forces in biology",
+       "url": "https://openstax.org/books/college-physics-2e/pages/18-6-electric-forces-in-biology",
+       "argomenti": []
+      },
+      {
+       "title": "18.7 Conductors and electric fields in static equilibrium",
+       "url": "https://openstax.org/books/college-physics-2e/pages/18-7-conductors-and-electric-fields-in-static-equilibrium",
+       "argomenti": []
+      },
+      {
+       "title": "18.8 Applications of electrostatics",
+       "url": "https://openstax.org/books/college-physics-2e/pages/18-8-applications-of-electrostatics",
+       "argomenti": []
+      }
+     ]
+    },
+    {
+     "n": 19,
+     "title": "Electric potential and electric field",
+     "sections": [
+      {
+       "title": "19.1 Electric potential energy potential difference",
+       "url": "https://openstax.org/books/college-physics-2e/pages/19-1-electric-potential-energy-potential-difference",
+       "argomenti": []
+      },
+      {
+       "title": "19.2 Electric potential in a uniform electric field",
+       "url": "https://openstax.org/books/college-physics-2e/pages/19-2-electric-potential-in-a-uniform-electric-field",
+       "argomenti": []
+      },
+      {
+       "title": "19.3 Electrical potential due to a point charge",
+       "url": "https://openstax.org/books/college-physics-2e/pages/19-3-electrical-potential-due-to-a-point-charge",
+       "argomenti": []
+      },
+      {
+       "title": "19.4 Equipotential lines",
+       "url": "https://openstax.org/books/college-physics-2e/pages/19-4-equipotential-lines",
+       "argomenti": []
+      },
+      {
+       "title": "19.5 Capacitors and dielectrics",
+       "url": "https://openstax.org/books/college-physics-2e/pages/19-5-capacitors-and-dielectrics",
+       "argomenti": []
+      },
+      {
+       "title": "19.6 Capacitors in series and parallel",
+       "url": "https://openstax.org/books/college-physics-2e/pages/19-6-capacitors-in-series-and-parallel",
+       "argomenti": []
+      },
+      {
+       "title": "19.7 Energy stored in capacitors",
+       "url": "https://openstax.org/books/college-physics-2e/pages/19-7-energy-stored-in-capacitors",
+       "argomenti": []
+      }
+     ]
+    },
+    {
+     "n": 20,
+     "title": "Electric current resistance and ohms law",
+     "sections": [
+      {
+       "title": "20.1 Current",
+       "url": "https://openstax.org/books/college-physics-2e/pages/20-1-current",
+       "argomenti": []
+      },
+      {
+       "title": "20.2 Ohms law resistance and simple circuits",
+       "url": "https://openstax.org/books/college-physics-2e/pages/20-2-ohms-law-resistance-and-simple-circuits",
+       "argomenti": [
+        "corrente-elettrica"
+       ]
+      },
+      {
+       "title": "20.3 Resistance and resistivity",
+       "url": "https://openstax.org/books/college-physics-2e/pages/20-3-resistance-and-resistivity",
+       "argomenti": []
+      },
+      {
+       "title": "20.4 Electric power and energy",
+       "url": "https://openstax.org/books/college-physics-2e/pages/20-4-electric-power-and-energy",
+       "argomenti": []
+      },
+      {
+       "title": "20.5 Alternating current versus direct current",
+       "url": "https://openstax.org/books/college-physics-2e/pages/20-5-alternating-current-versus-direct-current",
+       "argomenti": []
+      },
+      {
+       "title": "20.6 Electric hazards and the human body",
+       "url": "https://openstax.org/books/college-physics-2e/pages/20-6-electric-hazards-and-the-human-body",
+       "argomenti": []
+      },
+      {
+       "title": "20.7 Nerve conduction electrocardiograms",
+       "url": "https://openstax.org/books/college-physics-2e/pages/20-7-nerve-conduction-electrocardiograms",
+       "argomenti": []
+      }
+     ]
+    },
+    {
+     "n": 21,
+     "title": "Circuits and dc instruments",
+     "sections": [
+      {
+       "title": "21.1 Resistors in series and parallel",
+       "url": "https://openstax.org/books/college-physics-2e/pages/21-1-resistors-in-series-and-parallel",
+       "argomenti": []
+      },
+      {
+       "title": "21.2 Electromotive force terminal voltage",
+       "url": "https://openstax.org/books/college-physics-2e/pages/21-2-electromotive-force-terminal-voltage",
+       "argomenti": []
+      },
+      {
+       "title": "21.3 Kirchhoffs rules",
+       "url": "https://openstax.org/books/college-physics-2e/pages/21-3-kirchhoffs-rules",
+       "argomenti": []
+      },
+      {
+       "title": "21.4 Dc voltmeters and ammeters",
+       "url": "https://openstax.org/books/college-physics-2e/pages/21-4-dc-voltmeters-and-ammeters",
+       "argomenti": []
+      },
+      {
+       "title": "21.5 Null measurements",
+       "url": "https://openstax.org/books/college-physics-2e/pages/21-5-null-measurements",
+       "argomenti": []
+      },
+      {
+       "title": "21.6 Dc circuits containing resistors and capacitors",
+       "url": "https://openstax.org/books/college-physics-2e/pages/21-6-dc-circuits-containing-resistors-and-capacitors",
+       "argomenti": []
+      }
+     ]
+    },
+    {
+     "n": 22,
+     "title": "Magnetism",
+     "sections": [
+      {
+       "title": "22.1 Magnets",
+       "url": "https://openstax.org/books/college-physics-2e/pages/22-1-magnets",
+       "argomenti": []
+      },
+      {
+       "title": "22.2 Ferromagnets and electromagnets",
+       "url": "https://openstax.org/books/college-physics-2e/pages/22-2-ferromagnets-and-electromagnets",
+       "argomenti": []
+      },
+      {
+       "title": "22.3 Magnetic fields and magnetic field lines",
+       "url": "https://openstax.org/books/college-physics-2e/pages/22-3-magnetic-fields-and-magnetic-field-lines",
+       "argomenti": []
+      },
+      {
+       "title": "22.4 Magnetic field strength force on a moving charge in a magnetic field",
+       "url": "https://openstax.org/books/college-physics-2e/pages/22-4-magnetic-field-strength-force-on-a-moving-charge-in-a-magnetic-field",
+       "argomenti": []
+      },
+      {
+       "title": "22.5 Force on a moving charge in a magnetic field examples and applications",
+       "url": "https://openstax.org/books/college-physics-2e/pages/22-5-force-on-a-moving-charge-in-a-magnetic-field-examples-and-applications",
+       "argomenti": []
+      },
+      {
+       "title": "22.6 The hall effect",
+       "url": "https://openstax.org/books/college-physics-2e/pages/22-6-the-hall-effect",
+       "argomenti": []
+      },
+      {
+       "title": "22.7 Magnetic force on a current carrying conductor",
+       "url": "https://openstax.org/books/college-physics-2e/pages/22-7-magnetic-force-on-a-current-carrying-conductor",
+       "argomenti": []
+      },
+      {
+       "title": "22.8 Torque on a current loop motors and meters",
+       "url": "https://openstax.org/books/college-physics-2e/pages/22-8-torque-on-a-current-loop-motors-and-meters",
+       "argomenti": []
+      },
+      {
+       "title": "22.9 Magnetic fields produced by currents amperes law",
+       "url": "https://openstax.org/books/college-physics-2e/pages/22-9-magnetic-fields-produced-by-currents-amperes-law",
+       "argomenti": []
+      },
+      {
+       "title": "22.10 Magnetic force between two parallel conductors",
+       "url": "https://openstax.org/books/college-physics-2e/pages/22-10-magnetic-force-between-two-parallel-conductors",
+       "argomenti": []
+      },
+      {
+       "title": "22.11 More applications of magnetism",
+       "url": "https://openstax.org/books/college-physics-2e/pages/22-11-more-applications-of-magnetism",
+       "argomenti": []
+      }
+     ]
+    },
+    {
+     "n": 23,
+     "title": "Electromagnetic induction ac circuits and electrical technologies",
+     "sections": [
+      {
+       "title": "23.1 Induced emf and magnetic flux",
+       "url": "https://openstax.org/books/college-physics-2e/pages/23-1-induced-emf-and-magnetic-flux",
+       "argomenti": []
+      },
+      {
+       "title": "23.2 Faradays law of induction lenzs law",
+       "url": "https://openstax.org/books/college-physics-2e/pages/23-2-faradays-law-of-induction-lenzs-law",
+       "argomenti": []
+      },
+      {
+       "title": "23.3 Motional emf",
+       "url": "https://openstax.org/books/college-physics-2e/pages/23-3-motional-emf",
+       "argomenti": []
+      },
+      {
+       "title": "23.4 Eddy currents and magnetic damping",
+       "url": "https://openstax.org/books/college-physics-2e/pages/23-4-eddy-currents-and-magnetic-damping",
+       "argomenti": []
+      },
+      {
+       "title": "23.5 Electric generators",
+       "url": "https://openstax.org/books/college-physics-2e/pages/23-5-electric-generators",
+       "argomenti": []
+      },
+      {
+       "title": "23.6 Back emf",
+       "url": "https://openstax.org/books/college-physics-2e/pages/23-6-back-emf",
+       "argomenti": []
+      },
+      {
+       "title": "23.7 Transformers",
+       "url": "https://openstax.org/books/college-physics-2e/pages/23-7-transformers",
+       "argomenti": []
+      },
+      {
+       "title": "23.8 Electrical safety systems and devices",
+       "url": "https://openstax.org/books/college-physics-2e/pages/23-8-electrical-safety-systems-and-devices",
+       "argomenti": []
+      },
+      {
+       "title": "23.9 Inductance",
+       "url": "https://openstax.org/books/college-physics-2e/pages/23-9-inductance",
+       "argomenti": []
+      },
+      {
+       "title": "23.10 Rl circuits",
+       "url": "https://openstax.org/books/college-physics-2e/pages/23-10-rl-circuits",
+       "argomenti": []
+      },
+      {
+       "title": "23.11 Reactance inductive and capacitive",
+       "url": "https://openstax.org/books/college-physics-2e/pages/23-11-reactance-inductive-and-capacitive",
+       "argomenti": []
+      },
+      {
+       "title": "23.12 Rlc series ac circuits",
+       "url": "https://openstax.org/books/college-physics-2e/pages/23-12-rlc-series-ac-circuits",
+       "argomenti": []
+      }
+     ]
+    },
+    {
+     "n": 24,
+     "title": "Electromagnetic waves",
+     "sections": [
+      {
+       "title": "24.1 Maxwells equations electromagnetic waves predicted and observed",
+       "url": "https://openstax.org/books/college-physics-2e/pages/24-1-maxwells-equations-electromagnetic-waves-predicted-and-observed",
+       "argomenti": []
+      },
+      {
+       "title": "24.2 Production of electromagnetic waves",
+       "url": "https://openstax.org/books/college-physics-2e/pages/24-2-production-of-electromagnetic-waves",
+       "argomenti": []
+      },
+      {
+       "title": "24.3 The electromagnetic spectrum",
+       "url": "https://openstax.org/books/college-physics-2e/pages/24-3-the-electromagnetic-spectrum",
+       "argomenti": []
+      },
+      {
+       "title": "24.4 Energy in electromagnetic waves",
+       "url": "https://openstax.org/books/college-physics-2e/pages/24-4-energy-in-electromagnetic-waves",
+       "argomenti": []
+      }
+     ]
+    },
+    {
+     "n": 25,
+     "title": "Geometric optics",
+     "sections": [
+      {
+       "title": "25.1 The ray aspect of light",
+       "url": "https://openstax.org/books/college-physics-2e/pages/25-1-the-ray-aspect-of-light",
+       "argomenti": []
+      },
+      {
+       "title": "25.2 The law of reflection",
+       "url": "https://openstax.org/books/college-physics-2e/pages/25-2-the-law-of-reflection",
+       "argomenti": []
+      },
+      {
+       "title": "25.3 The law of refraction",
+       "url": "https://openstax.org/books/college-physics-2e/pages/25-3-the-law-of-refraction",
+       "argomenti": []
+      },
+      {
+       "title": "25.4 Total internal reflection",
+       "url": "https://openstax.org/books/college-physics-2e/pages/25-4-total-internal-reflection",
+       "argomenti": []
+      },
+      {
+       "title": "25.5 Dispersion the rainbow and prisms",
+       "url": "https://openstax.org/books/college-physics-2e/pages/25-5-dispersion-the-rainbow-and-prisms",
+       "argomenti": []
+      },
+      {
+       "title": "25.6 Image formation by lenses",
+       "url": "https://openstax.org/books/college-physics-2e/pages/25-6-image-formation-by-lenses",
+       "argomenti": []
+      },
+      {
+       "title": "25.7 Image formation by mirrors",
+       "url": "https://openstax.org/books/college-physics-2e/pages/25-7-image-formation-by-mirrors",
+       "argomenti": []
+      }
+     ]
+    },
+    {
+     "n": 26,
+     "title": "Vision and optical instruments",
+     "sections": [
+      {
+       "title": "26.1 Physics of the eye",
+       "url": "https://openstax.org/books/college-physics-2e/pages/26-1-physics-of-the-eye",
+       "argomenti": []
+      },
+      {
+       "title": "26.2 Vision correction",
+       "url": "https://openstax.org/books/college-physics-2e/pages/26-2-vision-correction",
+       "argomenti": []
+      },
+      {
+       "title": "26.3 Color and color vision",
+       "url": "https://openstax.org/books/college-physics-2e/pages/26-3-color-and-color-vision",
+       "argomenti": []
+      },
+      {
+       "title": "26.4 Microscopes",
+       "url": "https://openstax.org/books/college-physics-2e/pages/26-4-microscopes",
+       "argomenti": []
+      },
+      {
+       "title": "26.5 Telescopes",
+       "url": "https://openstax.org/books/college-physics-2e/pages/26-5-telescopes",
+       "argomenti": []
+      },
+      {
+       "title": "26.6 Aberrations",
+       "url": "https://openstax.org/books/college-physics-2e/pages/26-6-aberrations",
+       "argomenti": []
+      }
+     ]
+    },
+    {
+     "n": 27,
+     "title": "Wave optics",
+     "sections": [
+      {
+       "title": "27.1 The wave aspect of light interference",
+       "url": "https://openstax.org/books/college-physics-2e/pages/27-1-the-wave-aspect-of-light-interference",
+       "argomenti": []
+      },
+      {
+       "title": "27.2 Huygenss principle diffraction",
+       "url": "https://openstax.org/books/college-physics-2e/pages/27-2-huygenss-principle-diffraction",
+       "argomenti": []
+      },
+      {
+       "title": "27.3 Youngs double slit experiment",
+       "url": "https://openstax.org/books/college-physics-2e/pages/27-3-youngs-double-slit-experiment",
+       "argomenti": []
+      },
+      {
+       "title": "27.4 Multiple slit diffraction",
+       "url": "https://openstax.org/books/college-physics-2e/pages/27-4-multiple-slit-diffraction",
+       "argomenti": []
+      },
+      {
+       "title": "27.5 Single slit diffraction",
+       "url": "https://openstax.org/books/college-physics-2e/pages/27-5-single-slit-diffraction",
+       "argomenti": []
+      },
+      {
+       "title": "27.6 Limits of resolution the rayleigh criterion",
+       "url": "https://openstax.org/books/college-physics-2e/pages/27-6-limits-of-resolution-the-rayleigh-criterion",
+       "argomenti": []
+      },
+      {
+       "title": "27.7 Thin film interference",
+       "url": "https://openstax.org/books/college-physics-2e/pages/27-7-thin-film-interference",
+       "argomenti": []
+      },
+      {
+       "title": "27.8 Polarization",
+       "url": "https://openstax.org/books/college-physics-2e/pages/27-8-polarization",
+       "argomenti": []
+      },
+      {
+       "title": "27.9 Extended topic microscopy enhanced by the wave characteristics of light",
+       "url": "https://openstax.org/books/college-physics-2e/pages/27-9-extended-topic-microscopy-enhanced-by-the-wave-characteristics-of-light",
+       "argomenti": []
+      }
+     ]
+    },
+    {
+     "n": 28,
+     "title": "Special relativity",
+     "sections": [
+      {
+       "title": "28.1 Einsteins postulates",
+       "url": "https://openstax.org/books/college-physics-2e/pages/28-1-einsteins-postulates",
+       "argomenti": []
+      },
+      {
+       "title": "28.2 Simultaneity and time dilation",
+       "url": "https://openstax.org/books/college-physics-2e/pages/28-2-simultaneity-and-time-dilation",
+       "argomenti": [
+        "relativita"
+       ]
+      },
+      {
+       "title": "28.3 Length contraction",
+       "url": "https://openstax.org/books/college-physics-2e/pages/28-3-length-contraction",
+       "argomenti": []
+      },
+      {
+       "title": "28.4 Relativistic addition of velocities",
+       "url": "https://openstax.org/books/college-physics-2e/pages/28-4-relativistic-addition-of-velocities",
+       "argomenti": []
+      },
+      {
+       "title": "28.5 Relativistic momentum",
+       "url": "https://openstax.org/books/college-physics-2e/pages/28-5-relativistic-momentum",
+       "argomenti": []
+      },
+      {
+       "title": "28.6 Relativistic energy",
+       "url": "https://openstax.org/books/college-physics-2e/pages/28-6-relativistic-energy",
+       "argomenti": []
+      }
+     ]
+    },
+    {
+     "n": 29,
+     "title": "Quantum physics",
+     "sections": [
+      {
+       "title": "29.1 Quantization of energy",
+       "url": "https://openstax.org/books/college-physics-2e/pages/29-1-quantization-of-energy",
+       "argomenti": []
+      },
+      {
+       "title": "29.2 The photoelectric effect",
+       "url": "https://openstax.org/books/college-physics-2e/pages/29-2-the-photoelectric-effect",
+       "argomenti": []
+      },
+      {
+       "title": "29.3 Photon energies and the electromagnetic spectrum",
+       "url": "https://openstax.org/books/college-physics-2e/pages/29-3-photon-energies-and-the-electromagnetic-spectrum",
+       "argomenti": []
+      },
+      {
+       "title": "29.4 Photon momentum",
+       "url": "https://openstax.org/books/college-physics-2e/pages/29-4-photon-momentum",
+       "argomenti": []
+      },
+      {
+       "title": "29.5 The particle wave duality",
+       "url": "https://openstax.org/books/college-physics-2e/pages/29-5-the-particle-wave-duality",
+       "argomenti": []
+      },
+      {
+       "title": "29.6 The wave nature of matter",
+       "url": "https://openstax.org/books/college-physics-2e/pages/29-6-the-wave-nature-of-matter",
+       "argomenti": []
+      },
+      {
+       "title": "29.7 Probability the heisenberg uncertainty principle",
+       "url": "https://openstax.org/books/college-physics-2e/pages/29-7-probability-the-heisenberg-uncertainty-principle",
+       "argomenti": []
+      },
+      {
+       "title": "29.8 The particle wave duality reviewed",
+       "url": "https://openstax.org/books/college-physics-2e/pages/29-8-the-particle-wave-duality-reviewed",
+       "argomenti": []
+      }
+     ]
+    },
+    {
+     "n": 30,
+     "title": "Atomic physics",
+     "sections": [
+      {
+       "title": "30.1 Discovery of the atom",
+       "url": "https://openstax.org/books/college-physics-2e/pages/30-1-discovery-of-the-atom",
+       "argomenti": []
+      },
+      {
+       "title": "30.2 Discovery of the parts of the atom electrons and nuclei",
+       "url": "https://openstax.org/books/college-physics-2e/pages/30-2-discovery-of-the-parts-of-the-atom-electrons-and-nuclei",
+       "argomenti": []
+      },
+      {
+       "title": "30.3 Bohrs theory of the hydrogen atom",
+       "url": "https://openstax.org/books/college-physics-2e/pages/30-3-bohrs-theory-of-the-hydrogen-atom",
+       "argomenti": []
+      },
+      {
+       "title": "30.4 X rays atomic origins and applications",
+       "url": "https://openstax.org/books/college-physics-2e/pages/30-4-x-rays-atomic-origins-and-applications",
+       "argomenti": []
+      },
+      {
+       "title": "30.5 Applications of atomic excitations and de excitations",
+       "url": "https://openstax.org/books/college-physics-2e/pages/30-5-applications-of-atomic-excitations-and-de-excitations",
+       "argomenti": []
+      },
+      {
+       "title": "30.6 The wave nature of matter causes quantization",
+       "url": "https://openstax.org/books/college-physics-2e/pages/30-6-the-wave-nature-of-matter-causes-quantization",
+       "argomenti": []
+      },
+      {
+       "title": "30.7 Patterns in spectra reveal more quantization",
+       "url": "https://openstax.org/books/college-physics-2e/pages/30-7-patterns-in-spectra-reveal-more-quantization",
+       "argomenti": []
+      },
+      {
+       "title": "30.8 Quantum numbers and rules",
+       "url": "https://openstax.org/books/college-physics-2e/pages/30-8-quantum-numbers-and-rules",
+       "argomenti": []
+      },
+      {
+       "title": "30.9 The pauli exclusion principle",
+       "url": "https://openstax.org/books/college-physics-2e/pages/30-9-the-pauli-exclusion-principle",
+       "argomenti": []
+      }
+     ]
+    },
+    {
+     "n": 31,
+     "title": "Radioactivity and nuclear physics",
+     "sections": [
+      {
+       "title": "31.1 Nuclear radioactivity",
+       "url": "https://openstax.org/books/college-physics-2e/pages/31-1-nuclear-radioactivity",
+       "argomenti": []
+      },
+      {
+       "title": "31.2 Radiation detection and detectors",
+       "url": "https://openstax.org/books/college-physics-2e/pages/31-2-radiation-detection-and-detectors",
+       "argomenti": []
+      },
+      {
+       "title": "31.3 Substructure of the nucleus",
+       "url": "https://openstax.org/books/college-physics-2e/pages/31-3-substructure-of-the-nucleus",
+       "argomenti": []
+      },
+      {
+       "title": "31.4 Nuclear decay and conservation laws",
+       "url": "https://openstax.org/books/college-physics-2e/pages/31-4-nuclear-decay-and-conservation-laws",
+       "argomenti": []
+      },
+      {
+       "title": "31.5 Half life and activity",
+       "url": "https://openstax.org/books/college-physics-2e/pages/31-5-half-life-and-activity",
+       "argomenti": []
+      },
+      {
+       "title": "31.6 Binding energy",
+       "url": "https://openstax.org/books/college-physics-2e/pages/31-6-binding-energy",
+       "argomenti": []
+      },
+      {
+       "title": "31.7 Tunneling",
+       "url": "https://openstax.org/books/college-physics-2e/pages/31-7-tunneling",
+       "argomenti": []
+      }
+     ]
+    },
+    {
+     "n": 32,
+     "title": "Medical applications of nuclear physics",
+     "sections": [
+      {
+       "title": "32.1 Diagnostics and medical imaging",
+       "url": "https://openstax.org/books/college-physics-2e/pages/32-1-diagnostics-and-medical-imaging",
+       "argomenti": []
+      },
+      {
+       "title": "32.2 Biological effects of ionizing radiation",
+       "url": "https://openstax.org/books/college-physics-2e/pages/32-2-biological-effects-of-ionizing-radiation",
+       "argomenti": []
+      },
+      {
+       "title": "32.3 Therapeutic uses of ionizing radiation",
+       "url": "https://openstax.org/books/college-physics-2e/pages/32-3-therapeutic-uses-of-ionizing-radiation",
+       "argomenti": []
+      },
+      {
+       "title": "32.4 Food irradiation",
+       "url": "https://openstax.org/books/college-physics-2e/pages/32-4-food-irradiation",
+       "argomenti": []
+      },
+      {
+       "title": "32.5 Fusion",
+       "url": "https://openstax.org/books/college-physics-2e/pages/32-5-fusion",
+       "argomenti": []
+      },
+      {
+       "title": "32.6 Fission",
+       "url": "https://openstax.org/books/college-physics-2e/pages/32-6-fission",
+       "argomenti": []
+      },
+      {
+       "title": "32.7 Nuclear weapons",
+       "url": "https://openstax.org/books/college-physics-2e/pages/32-7-nuclear-weapons",
+       "argomenti": []
+      }
+     ]
+    },
+    {
+     "n": 33,
+     "title": "Particle physics",
+     "sections": [
+      {
+       "title": "33.1 The yukawa particle and the heisenberg uncertainty principle revisited",
+       "url": "https://openstax.org/books/college-physics-2e/pages/33-1-the-yukawa-particle-and-the-heisenberg-uncertainty-principle-revisited",
+       "argomenti": []
+      },
+      {
+       "title": "33.2 The four basic forces",
+       "url": "https://openstax.org/books/college-physics-2e/pages/33-2-the-four-basic-forces",
+       "argomenti": []
+      },
+      {
+       "title": "33.3 Accelerators create matter from energy",
+       "url": "https://openstax.org/books/college-physics-2e/pages/33-3-accelerators-create-matter-from-energy",
+       "argomenti": []
+      },
+      {
+       "title": "33.4 Particles patterns and conservation laws",
+       "url": "https://openstax.org/books/college-physics-2e/pages/33-4-particles-patterns-and-conservation-laws",
+       "argomenti": []
+      },
+      {
+       "title": "33.5 Quarks is that all there is",
+       "url": "https://openstax.org/books/college-physics-2e/pages/33-5-quarks-is-that-all-there-is",
+       "argomenti": []
+      },
+      {
+       "title": "33.6 Guts the unification of forces",
+       "url": "https://openstax.org/books/college-physics-2e/pages/33-6-guts-the-unification-of-forces",
+       "argomenti": []
+      }
+     ]
+    },
+    {
+     "n": 34,
+     "title": "Frontiers of physics",
+     "sections": [
+      {
+       "title": "34.1 Cosmology and particle physics",
+       "url": "https://openstax.org/books/college-physics-2e/pages/34-1-cosmology-and-particle-physics",
+       "argomenti": []
+      },
+      {
+       "title": "34.2 General relativity and quantum gravity",
+       "url": "https://openstax.org/books/college-physics-2e/pages/34-2-general-relativity-and-quantum-gravity",
+       "argomenti": []
+      },
+      {
+       "title": "34.3 Superstrings",
+       "url": "https://openstax.org/books/college-physics-2e/pages/34-3-superstrings",
+       "argomenti": []
+      },
+      {
+       "title": "34.4 Dark matter and closure",
+       "url": "https://openstax.org/books/college-physics-2e/pages/34-4-dark-matter-and-closure",
+       "argomenti": []
+      },
+      {
+       "title": "34.5 Complexity and chaos",
+       "url": "https://openstax.org/books/college-physics-2e/pages/34-5-complexity-and-chaos",
+       "argomenti": []
+      },
+      {
+       "title": "34.6 High temperature superconductors",
+       "url": "https://openstax.org/books/college-physics-2e/pages/34-6-high-temperature-superconductors",
+       "argomenti": []
+      },
+      {
+       "title": "34.7 Some questions we know to ask",
+       "url": "https://openstax.org/books/college-physics-2e/pages/34-7-some-questions-we-know-to-ask",
+       "argomenti": []
+      }
+     ]
+    }
+   ]
+  },
+  "psicologia": {
+   "manuale": "Psychology 2e",
+   "capitoli": [
+    {
+     "n": 1,
+     "title": "Introduction to psychology",
+     "sections": [
+      {
+       "title": "1.1 What is psychology",
+       "url": "https://openstax.org/books/psychology-2e/pages/1-1-what-is-psychology",
+       "argomenti": []
+      },
+      {
+       "title": "1.2 History of psychology",
+       "url": "https://openstax.org/books/psychology-2e/pages/1-2-history-of-psychology",
+       "argomenti": []
+      },
+      {
+       "title": "1.3 Contemporary psychology",
+       "url": "https://openstax.org/books/psychology-2e/pages/1-3-contemporary-psychology",
+       "argomenti": []
+      },
+      {
+       "title": "1.4 Careers in psychology",
+       "url": "https://openstax.org/books/psychology-2e/pages/1-4-careers-in-psychology",
+       "argomenti": []
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "title": "Psychological research",
+     "sections": [
+      {
+       "title": "2.1 Why is research important",
+       "url": "https://openstax.org/books/psychology-2e/pages/2-1-why-is-research-important",
+       "argomenti": []
+      },
+      {
+       "title": "2.2 Approaches to research",
+       "url": "https://openstax.org/books/psychology-2e/pages/2-2-approaches-to-research",
+       "argomenti": []
+      },
+      {
+       "title": "2.3 Analyzing findings",
+       "url": "https://openstax.org/books/psychology-2e/pages/2-3-analyzing-findings",
+       "argomenti": []
+      },
+      {
+       "title": "2.4 Ethics",
+       "url": "https://openstax.org/books/psychology-2e/pages/2-4-ethics",
+       "argomenti": []
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "title": "Biopsychology",
+     "sections": [
+      {
+       "title": "3.1 Human genetics",
+       "url": "https://openstax.org/books/psychology-2e/pages/3-1-human-genetics",
+       "argomenti": []
+      },
+      {
+       "title": "3.2 Cells of the nervous system",
+       "url": "https://openstax.org/books/psychology-2e/pages/3-2-cells-of-the-nervous-system",
+       "argomenti": [
+        "neuroni"
+       ]
+      },
+      {
+       "title": "3.3 Parts of the nervous system",
+       "url": "https://openstax.org/books/psychology-2e/pages/3-3-parts-of-the-nervous-system",
+       "argomenti": []
+      },
+      {
+       "title": "3.4 The brain and spinal cord",
+       "url": "https://openstax.org/books/psychology-2e/pages/3-4-the-brain-and-spinal-cord",
+       "argomenti": []
+      },
+      {
+       "title": "3.5 The endocrine system",
+       "url": "https://openstax.org/books/psychology-2e/pages/3-5-the-endocrine-system",
+       "argomenti": []
+      }
+     ]
+    },
+    {
+     "n": 4,
+     "title": "States of consciousness",
+     "sections": [
+      {
+       "title": "4.1 What is consciousness",
+       "url": "https://openstax.org/books/psychology-2e/pages/4-1-what-is-consciousness",
+       "argomenti": []
+      },
+      {
+       "title": "4.2 Sleep and why we sleep",
+       "url": "https://openstax.org/books/psychology-2e/pages/4-2-sleep-and-why-we-sleep",
+       "argomenti": [
+        "sonno"
+       ]
+      },
+      {
+       "title": "4.3 Stages of sleep",
+       "url": "https://openstax.org/books/psychology-2e/pages/4-3-stages-of-sleep",
+       "argomenti": [
+        "sonno"
+       ]
+      },
+      {
+       "title": "4.4 Sleep problems and disorders",
+       "url": "https://openstax.org/books/psychology-2e/pages/4-4-sleep-problems-and-disorders",
+       "argomenti": []
+      },
+      {
+       "title": "4.5 Substance use and abuse",
+       "url": "https://openstax.org/books/psychology-2e/pages/4-5-substance-use-and-abuse",
+       "argomenti": []
+      },
+      {
+       "title": "4.6 Other states of consciousness",
+       "url": "https://openstax.org/books/psychology-2e/pages/4-6-other-states-of-consciousness",
+       "argomenti": []
+      }
+     ]
+    },
+    {
+     "n": 5,
+     "title": "Sensation and perception",
+     "sections": [
+      {
+       "title": "5.1 Sensation versus perception",
+       "url": "https://openstax.org/books/psychology-2e/pages/5-1-sensation-versus-perception",
+       "argomenti": [
+        "percezione"
+       ]
+      },
+      {
+       "title": "5.2 Waves and wavelengths",
+       "url": "https://openstax.org/books/psychology-2e/pages/5-2-waves-and-wavelengths",
+       "argomenti": []
+      },
+      {
+       "title": "5.3 Vision",
+       "url": "https://openstax.org/books/psychology-2e/pages/5-3-vision",
+       "argomenti": []
+      },
+      {
+       "title": "5.4 Hearing",
+       "url": "https://openstax.org/books/psychology-2e/pages/5-4-hearing",
+       "argomenti": []
+      },
+      {
+       "title": "5.5 The other senses",
+       "url": "https://openstax.org/books/psychology-2e/pages/5-5-the-other-senses",
+       "argomenti": []
+      },
+      {
+       "title": "5.6 Gestalt principles of perception",
+       "url": "https://openstax.org/books/psychology-2e/pages/5-6-gestalt-principles-of-perception",
+       "argomenti": [
+        "percezione"
+       ]
+      }
+     ]
+    },
+    {
+     "n": 6,
+     "title": "Learning",
+     "sections": [
+      {
+       "title": "6.1 What is learning",
+       "url": "https://openstax.org/books/psychology-2e/pages/6-1-what-is-learning",
+       "argomenti": []
+      },
+      {
+       "title": "6.2 Classical conditioning",
+       "url": "https://openstax.org/books/psychology-2e/pages/6-2-classical-conditioning",
+       "argomenti": [
+        "rinforzo"
+       ]
+      },
+      {
+       "title": "6.3 Operant conditioning",
+       "url": "https://openstax.org/books/psychology-2e/pages/6-3-operant-conditioning",
+       "argomenti": [
+        "rinforzo"
+       ]
+      },
+      {
+       "title": "6.4 Observational learning modeling",
+       "url": "https://openstax.org/books/psychology-2e/pages/6-4-observational-learning-modeling",
+       "argomenti": [
+        "rinforzo"
+       ]
+      }
+     ]
+    },
+    {
+     "n": 7,
+     "title": "Thinking and intelligence",
+     "sections": [
+      {
+       "title": "7.1 What is cognition",
+       "url": "https://openstax.org/books/psychology-2e/pages/7-1-what-is-cognition",
+       "argomenti": []
+      },
+      {
+       "title": "7.2 Language",
+       "url": "https://openstax.org/books/psychology-2e/pages/7-2-language",
+       "argomenti": []
+      },
+      {
+       "title": "7.3 Problem solving",
+       "url": "https://openstax.org/books/psychology-2e/pages/7-3-problem-solving",
+       "argomenti": [
+        "euristiche"
+       ]
+      },
+      {
+       "title": "7.4 What are intelligence and creativity",
+       "url": "https://openstax.org/books/psychology-2e/pages/7-4-what-are-intelligence-and-creativity",
+       "argomenti": []
+      },
+      {
+       "title": "7.5 Measures of intelligence",
+       "url": "https://openstax.org/books/psychology-2e/pages/7-5-measures-of-intelligence",
+       "argomenti": []
+      },
+      {
+       "title": "7.6 The source of intelligence",
+       "url": "https://openstax.org/books/psychology-2e/pages/7-6-the-source-of-intelligence",
+       "argomenti": []
+      }
+     ]
+    },
+    {
+     "n": 8,
+     "title": "Memory",
+     "sections": [
+      {
+       "title": "8.1 How memory functions",
+       "url": "https://openstax.org/books/psychology-2e/pages/8-1-how-memory-functions",
+       "argomenti": [
+        "memoria"
+       ]
+      },
+      {
+       "title": "8.2 Parts of the brain involved with memory",
+       "url": "https://openstax.org/books/psychology-2e/pages/8-2-parts-of-the-brain-involved-with-memory",
+       "argomenti": []
+      },
+      {
+       "title": "8.3 Problems with memory",
+       "url": "https://openstax.org/books/psychology-2e/pages/8-3-problems-with-memory",
+       "argomenti": [
+        "memoria"
+       ]
+      },
+      {
+       "title": "8.4 Ways to enhance memory",
+       "url": "https://openstax.org/books/psychology-2e/pages/8-4-ways-to-enhance-memory",
+       "argomenti": [
+        "memoria"
+       ]
+      }
+     ]
+    },
+    {
+     "n": 9,
+     "title": "Lifespan development",
+     "sections": [
+      {
+       "title": "9.1 What is lifespan development",
+       "url": "https://openstax.org/books/psychology-2e/pages/9-1-what-is-lifespan-development",
+       "argomenti": []
+      },
+      {
+       "title": "9.2 Lifespan theories",
+       "url": "https://openstax.org/books/psychology-2e/pages/9-2-lifespan-theories",
+       "argomenti": []
+      },
+      {
+       "title": "9.3 Stages of development",
+       "url": "https://openstax.org/books/psychology-2e/pages/9-3-stages-of-development",
+       "argomenti": []
+      },
+      {
+       "title": "9.4 Death and dying",
+       "url": "https://openstax.org/books/psychology-2e/pages/9-4-death-and-dying",
+       "argomenti": []
+      }
+     ]
+    },
+    {
+     "n": 10,
+     "title": "Emotion and motivation",
+     "sections": [
+      {
+       "title": "10.1 Motivation",
+       "url": "https://openstax.org/books/psychology-2e/pages/10-1-motivation",
+       "argomenti": []
+      },
+      {
+       "title": "10.2 Hunger and eating",
+       "url": "https://openstax.org/books/psychology-2e/pages/10-2-hunger-and-eating",
+       "argomenti": []
+      },
+      {
+       "title": "10.3 Sexual behavior sexuality and gender identity",
+       "url": "https://openstax.org/books/psychology-2e/pages/10-3-sexual-behavior-sexuality-and-gender-identity",
+       "argomenti": []
+      },
+      {
+       "title": "10.4 Emotion",
+       "url": "https://openstax.org/books/psychology-2e/pages/10-4-emotion",
+       "argomenti": [
+        "emozioni"
+       ]
+      }
+     ]
+    },
+    {
+     "n": 11,
+     "title": "Personality",
+     "sections": [
+      {
+       "title": "11.1 What is personality",
+       "url": "https://openstax.org/books/psychology-2e/pages/11-1-what-is-personality",
+       "argomenti": []
+      },
+      {
+       "title": "11.2 Freud and the psychodynamic perspective",
+       "url": "https://openstax.org/books/psychology-2e/pages/11-2-freud-and-the-psychodynamic-perspective",
+       "argomenti": []
+      },
+      {
+       "title": "11.3 Neo freudians adler erikson jung and horney",
+       "url": "https://openstax.org/books/psychology-2e/pages/11-3-neo-freudians-adler-erikson-jung-and-horney",
+       "argomenti": []
+      },
+      {
+       "title": "11.4 Learning approaches",
+       "url": "https://openstax.org/books/psychology-2e/pages/11-4-learning-approaches",
+       "argomenti": []
+      },
+      {
+       "title": "11.5 Humanistic approaches",
+       "url": "https://openstax.org/books/psychology-2e/pages/11-5-humanistic-approaches",
+       "argomenti": []
+      },
+      {
+       "title": "11.6 Biological approaches",
+       "url": "https://openstax.org/books/psychology-2e/pages/11-6-biological-approaches",
+       "argomenti": []
+      },
+      {
+       "title": "11.7 Trait theorists",
+       "url": "https://openstax.org/books/psychology-2e/pages/11-7-trait-theorists",
+       "argomenti": []
+      },
+      {
+       "title": "11.8 Cultural understandings of personality",
+       "url": "https://openstax.org/books/psychology-2e/pages/11-8-cultural-understandings-of-personality",
+       "argomenti": []
+      },
+      {
+       "title": "11.9 Personality assessment",
+       "url": "https://openstax.org/books/psychology-2e/pages/11-9-personality-assessment",
+       "argomenti": []
+      }
+     ]
+    },
+    {
+     "n": 12,
+     "title": "Social psychology",
+     "sections": [
+      {
+       "title": "12.1 What is social psychology",
+       "url": "https://openstax.org/books/psychology-2e/pages/12-1-what-is-social-psychology",
+       "argomenti": []
+      },
+      {
+       "title": "12.2 Self presentation",
+       "url": "https://openstax.org/books/psychology-2e/pages/12-2-self-presentation",
+       "argomenti": []
+      },
+      {
+       "title": "12.3 Attitudes and persuasion",
+       "url": "https://openstax.org/books/psychology-2e/pages/12-3-attitudes-and-persuasion",
+       "argomenti": []
+      },
+      {
+       "title": "12.4 Conformity compliance and obedience",
+       "url": "https://openstax.org/books/psychology-2e/pages/12-4-conformity-compliance-and-obedience",
+       "argomenti": [
+        "conformismo"
+       ]
+      },
+      {
+       "title": "12.5 Prejudice and discrimination",
+       "url": "https://openstax.org/books/psychology-2e/pages/12-5-prejudice-and-discrimination",
+       "argomenti": []
+      },
+      {
+       "title": "12.6 Aggression",
+       "url": "https://openstax.org/books/psychology-2e/pages/12-6-aggression",
+       "argomenti": []
+      },
+      {
+       "title": "12.7 Prosocial behavior",
+       "url": "https://openstax.org/books/psychology-2e/pages/12-7-prosocial-behavior",
+       "argomenti": []
+      }
+     ]
+    },
+    {
+     "n": 13,
+     "title": "Industrial organizational psychology",
+     "sections": [
+      {
+       "title": "13.1 What is industrial and organizational psychology",
+       "url": "https://openstax.org/books/psychology-2e/pages/13-1-what-is-industrial-and-organizational-psychology",
+       "argomenti": []
+      },
+      {
+       "title": "13.2 Industrial psychology selecting and evaluating employees",
+       "url": "https://openstax.org/books/psychology-2e/pages/13-2-industrial-psychology-selecting-and-evaluating-employees",
+       "argomenti": []
+      },
+      {
+       "title": "13.3 Organizational psychology the social dimension of work",
+       "url": "https://openstax.org/books/psychology-2e/pages/13-3-organizational-psychology-the-social-dimension-of-work",
+       "argomenti": []
+      },
+      {
+       "title": "13.4 Human factors psychology and workplace design",
+       "url": "https://openstax.org/books/psychology-2e/pages/13-4-human-factors-psychology-and-workplace-design",
+       "argomenti": []
+      }
+     ]
+    },
+    {
+     "n": 14,
+     "title": "Stress lifestyle and health",
+     "sections": [
+      {
+       "title": "14.1 What is stress",
+       "url": "https://openstax.org/books/psychology-2e/pages/14-1-what-is-stress",
+       "argomenti": []
+      },
+      {
+       "title": "14.2 Stressors",
+       "url": "https://openstax.org/books/psychology-2e/pages/14-2-stressors",
+       "argomenti": []
+      },
+      {
+       "title": "14.3 Stress and illness",
+       "url": "https://openstax.org/books/psychology-2e/pages/14-3-stress-and-illness",
+       "argomenti": []
+      },
+      {
+       "title": "14.4 Regulation of stress",
+       "url": "https://openstax.org/books/psychology-2e/pages/14-4-regulation-of-stress",
+       "argomenti": []
+      },
+      {
+       "title": "14.5 The pursuit of happiness",
+       "url": "https://openstax.org/books/psychology-2e/pages/14-5-the-pursuit-of-happiness",
+       "argomenti": []
+      }
+     ]
+    },
+    {
+     "n": 15,
+     "title": "Psychological disorders",
+     "sections": [
+      {
+       "title": "15.1 What are psychological disorders",
+       "url": "https://openstax.org/books/psychology-2e/pages/15-1-what-are-psychological-disorders",
+       "argomenti": []
+      },
+      {
+       "title": "15.2 Diagnosing and classifying psychological disorders",
+       "url": "https://openstax.org/books/psychology-2e/pages/15-2-diagnosing-and-classifying-psychological-disorders",
+       "argomenti": []
+      },
+      {
+       "title": "15.3 Perspectives on psychological disorders",
+       "url": "https://openstax.org/books/psychology-2e/pages/15-3-perspectives-on-psychological-disorders",
+       "argomenti": []
+      },
+      {
+       "title": "15.4 Anxiety disorders",
+       "url": "https://openstax.org/books/psychology-2e/pages/15-4-anxiety-disorders",
+       "argomenti": []
+      },
+      {
+       "title": "15.5 Obsessive compulsive and related disorders",
+       "url": "https://openstax.org/books/psychology-2e/pages/15-5-obsessive-compulsive-and-related-disorders",
+       "argomenti": []
+      },
+      {
+       "title": "15.6 Trauma and stressor related disorders",
+       "url": "https://openstax.org/books/psychology-2e/pages/15-6-trauma-and-stressor-related-disorders",
+       "argomenti": []
+      },
+      {
+       "title": "15.7 Depressive bipolar and related disorders",
+       "url": "https://openstax.org/books/psychology-2e/pages/15-7-depressive-bipolar-and-related-disorders",
+       "argomenti": []
+      },
+      {
+       "title": "15.8 Schizophrenia",
+       "url": "https://openstax.org/books/psychology-2e/pages/15-8-schizophrenia",
+       "argomenti": []
+      },
+      {
+       "title": "15.9 Dissociative disorders",
+       "url": "https://openstax.org/books/psychology-2e/pages/15-9-dissociative-disorders",
+       "argomenti": []
+      },
+      {
+       "title": "15.10 Disorders in childhood",
+       "url": "https://openstax.org/books/psychology-2e/pages/15-10-disorders-in-childhood",
+       "argomenti": []
+      },
+      {
+       "title": "15.11 Personality disorders",
+       "url": "https://openstax.org/books/psychology-2e/pages/15-11-personality-disorders",
+       "argomenti": []
+      }
+     ]
+    },
+    {
+     "n": 16,
+     "title": "Therapy and treatment",
+     "sections": [
+      {
+       "title": "16.1 Mental health treatment past and present",
+       "url": "https://openstax.org/books/psychology-2e/pages/16-1-mental-health-treatment-past-and-present",
+       "argomenti": []
+      },
+      {
+       "title": "16.2 Types of treatment",
+       "url": "https://openstax.org/books/psychology-2e/pages/16-2-types-of-treatment",
+       "argomenti": []
+      },
+      {
+       "title": "16.3 Treatment modalities",
+       "url": "https://openstax.org/books/psychology-2e/pages/16-3-treatment-modalities",
+       "argomenti": []
+      },
+      {
+       "title": "16.4 Substance related and addictive disorders a special case",
+       "url": "https://openstax.org/books/psychology-2e/pages/16-4-substance-related-and-addictive-disorders-a-special-case",
+       "argomenti": []
+      },
+      {
+       "title": "16.5 The sociocultural model and therapy utilization",
+       "url": "https://openstax.org/books/psychology-2e/pages/16-5-the-sociocultural-model-and-therapy-utilization",
+       "argomenti": []
+      }
+     ]
+    }
+   ]
+  },
+  "astronomia": {
+   "manuale": "Astronomy 2e",
+   "capitoli": [
+    {
+     "n": 1,
+     "title": "Science and the universe a brief tour",
+     "sections": [
+      {
+       "title": "1.1 The nature of astronomy",
+       "url": "https://openstax.org/books/astronomy-2e/pages/1-1-the-nature-of-astronomy",
+       "argomenti": []
+      },
+      {
+       "title": "1.2 The nature of science",
+       "url": "https://openstax.org/books/astronomy-2e/pages/1-2-the-nature-of-science",
+       "argomenti": []
+      },
+      {
+       "title": "1.3 The laws of nature",
+       "url": "https://openstax.org/books/astronomy-2e/pages/1-3-the-laws-of-nature",
+       "argomenti": []
+      },
+      {
+       "title": "1.4 Numbers in astronomy",
+       "url": "https://openstax.org/books/astronomy-2e/pages/1-4-numbers-in-astronomy",
+       "argomenti": []
+      },
+      {
+       "title": "1.5 Consequences of light travel time",
+       "url": "https://openstax.org/books/astronomy-2e/pages/1-5-consequences-of-light-travel-time",
+       "argomenti": []
+      },
+      {
+       "title": "1.6 A tour of the universe",
+       "url": "https://openstax.org/books/astronomy-2e/pages/1-6-a-tour-of-the-universe",
+       "argomenti": []
+      },
+      {
+       "title": "1.7 The universe on the large scale",
+       "url": "https://openstax.org/books/astronomy-2e/pages/1-7-the-universe-on-the-large-scale",
+       "argomenti": []
+      },
+      {
+       "title": "1.8 The universe of the very small",
+       "url": "https://openstax.org/books/astronomy-2e/pages/1-8-the-universe-of-the-very-small",
+       "argomenti": []
+      },
+      {
+       "title": "1.9 A conclusion and a beginning",
+       "url": "https://openstax.org/books/astronomy-2e/pages/1-9-a-conclusion-and-a-beginning",
+       "argomenti": []
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "title": "Observing the sky the birth of astronomy",
+     "sections": [
+      {
+       "title": "2.1 The sky above",
+       "url": "https://openstax.org/books/astronomy-2e/pages/2-1-the-sky-above",
+       "argomenti": []
+      },
+      {
+       "title": "2.2 Ancient astronomy",
+       "url": "https://openstax.org/books/astronomy-2e/pages/2-2-ancient-astronomy",
+       "argomenti": []
+      },
+      {
+       "title": "2.3 Astrology and astronomy",
+       "url": "https://openstax.org/books/astronomy-2e/pages/2-3-astrology-and-astronomy",
+       "argomenti": []
+      },
+      {
+       "title": "2.4 The birth of modern astronomy",
+       "url": "https://openstax.org/books/astronomy-2e/pages/2-4-the-birth-of-modern-astronomy",
+       "argomenti": []
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "title": "Orbits and gravity",
+     "sections": [
+      {
+       "title": "3.1 The laws of planetary motion",
+       "url": "https://openstax.org/books/astronomy-2e/pages/3-1-the-laws-of-planetary-motion",
+       "argomenti": [
+        "keplero"
+       ]
+      },
+      {
+       "title": "3.2 Newtons great synthesis",
+       "url": "https://openstax.org/books/astronomy-2e/pages/3-2-newtons-great-synthesis",
+       "argomenti": []
+      },
+      {
+       "title": "3.3 Newtons universal law of gravitation",
+       "url": "https://openstax.org/books/astronomy-2e/pages/3-3-newtons-universal-law-of-gravitation",
+       "argomenti": []
+      },
+      {
+       "title": "3.4 Orbits in the solar system",
+       "url": "https://openstax.org/books/astronomy-2e/pages/3-4-orbits-in-the-solar-system",
+       "argomenti": []
+      },
+      {
+       "title": "3.5 Motions of satellites and spacecraft",
+       "url": "https://openstax.org/books/astronomy-2e/pages/3-5-motions-of-satellites-and-spacecraft",
+       "argomenti": []
+      },
+      {
+       "title": "3.6 Gravity with more than two bodies",
+       "url": "https://openstax.org/books/astronomy-2e/pages/3-6-gravity-with-more-than-two-bodies",
+       "argomenti": []
+      }
+     ]
+    },
+    {
+     "n": 4,
+     "title": "Earth moon and sky",
+     "sections": [
+      {
+       "title": "4.1 Earth and sky",
+       "url": "https://openstax.org/books/astronomy-2e/pages/4-1-earth-and-sky",
+       "argomenti": []
+      },
+      {
+       "title": "4.2 The seasons",
+       "url": "https://openstax.org/books/astronomy-2e/pages/4-2-the-seasons",
+       "argomenti": [
+        "stagioni"
+       ]
+      },
+      {
+       "title": "4.3 Keeping time",
+       "url": "https://openstax.org/books/astronomy-2e/pages/4-3-keeping-time",
+       "argomenti": []
+      },
+      {
+       "title": "4.4 The calendar",
+       "url": "https://openstax.org/books/astronomy-2e/pages/4-4-the-calendar",
+       "argomenti": []
+      },
+      {
+       "title": "4.5 Phases and motions of the moon",
+       "url": "https://openstax.org/books/astronomy-2e/pages/4-5-phases-and-motions-of-the-moon",
+       "argomenti": [
+        "fasi-luna"
+       ]
+      },
+      {
+       "title": "4.6 Ocean tides and the moon",
+       "url": "https://openstax.org/books/astronomy-2e/pages/4-6-ocean-tides-and-the-moon",
+       "argomenti": []
+      },
+      {
+       "title": "4.7 Eclipses of the sun and moon",
+       "url": "https://openstax.org/books/astronomy-2e/pages/4-7-eclipses-of-the-sun-and-moon",
+       "argomenti": [
+        "fasi-luna"
+       ]
+      }
+     ]
+    },
+    {
+     "n": 5,
+     "title": "Radiation and spectra",
+     "sections": [
+      {
+       "title": "5.1 The behavior of light",
+       "url": "https://openstax.org/books/astronomy-2e/pages/5-1-the-behavior-of-light",
+       "argomenti": []
+      },
+      {
+       "title": "5.2 The electromagnetic spectrum",
+       "url": "https://openstax.org/books/astronomy-2e/pages/5-2-the-electromagnetic-spectrum",
+       "argomenti": []
+      },
+      {
+       "title": "5.3 Spectroscopy in astronomy",
+       "url": "https://openstax.org/books/astronomy-2e/pages/5-3-spectroscopy-in-astronomy",
+       "argomenti": [
+        "spettroscopia"
+       ]
+      },
+      {
+       "title": "5.4 The structure of the atom",
+       "url": "https://openstax.org/books/astronomy-2e/pages/5-4-the-structure-of-the-atom",
+       "argomenti": []
+      },
+      {
+       "title": "5.5 Formation of spectral lines",
+       "url": "https://openstax.org/books/astronomy-2e/pages/5-5-formation-of-spectral-lines",
+       "argomenti": []
+      },
+      {
+       "title": "5.6 The doppler effect",
+       "url": "https://openstax.org/books/astronomy-2e/pages/5-6-the-doppler-effect",
+       "argomenti": [
+        "spettroscopia"
+       ]
+      }
+     ]
+    },
+    {
+     "n": 6,
+     "title": "Astronomical instruments",
+     "sections": [
+      {
+       "title": "6.1 Telescopes",
+       "url": "https://openstax.org/books/astronomy-2e/pages/6-1-telescopes",
+       "argomenti": []
+      },
+      {
+       "title": "6.2 Telescopes today",
+       "url": "https://openstax.org/books/astronomy-2e/pages/6-2-telescopes-today",
+       "argomenti": []
+      },
+      {
+       "title": "6.3 Visible light detectors and instruments",
+       "url": "https://openstax.org/books/astronomy-2e/pages/6-3-visible-light-detectors-and-instruments",
+       "argomenti": []
+      },
+      {
+       "title": "6.4 Radio telescopes",
+       "url": "https://openstax.org/books/astronomy-2e/pages/6-4-radio-telescopes",
+       "argomenti": []
+      },
+      {
+       "title": "6.5 Observations outside earths atmosphere",
+       "url": "https://openstax.org/books/astronomy-2e/pages/6-5-observations-outside-earths-atmosphere",
+       "argomenti": []
+      },
+      {
+       "title": "6.6 The future of large telescopes",
+       "url": "https://openstax.org/books/astronomy-2e/pages/6-6-the-future-of-large-telescopes",
+       "argomenti": []
+      }
+     ]
+    },
+    {
+     "n": 7,
+     "title": "Other worlds an introduction to the solar system",
+     "sections": [
+      {
+       "title": "7.1 Overview of our planetary system",
+       "url": "https://openstax.org/books/astronomy-2e/pages/7-1-overview-of-our-planetary-system",
+       "argomenti": []
+      },
+      {
+       "title": "7.2 Composition and structure of planets",
+       "url": "https://openstax.org/books/astronomy-2e/pages/7-2-composition-and-structure-of-planets",
+       "argomenti": []
+      },
+      {
+       "title": "7.3 Dating planetary surfaces",
+       "url": "https://openstax.org/books/astronomy-2e/pages/7-3-dating-planetary-surfaces",
+       "argomenti": []
+      },
+      {
+       "title": "7.4 Origin of the solar system",
+       "url": "https://openstax.org/books/astronomy-2e/pages/7-4-origin-of-the-solar-system",
+       "argomenti": []
+      }
+     ]
+    },
+    {
+     "n": 8,
+     "title": "Earth as a planet",
+     "sections": [
+      {
+       "title": "8.1 The global perspective",
+       "url": "https://openstax.org/books/astronomy-2e/pages/8-1-the-global-perspective",
+       "argomenti": []
+      },
+      {
+       "title": "8.2 Earths crust",
+       "url": "https://openstax.org/books/astronomy-2e/pages/8-2-earths-crust",
+       "argomenti": []
+      },
+      {
+       "title": "8.3 Earths atmosphere",
+       "url": "https://openstax.org/books/astronomy-2e/pages/8-3-earths-atmosphere",
+       "argomenti": []
+      },
+      {
+       "title": "8.4 Life chemical evolution and climate change",
+       "url": "https://openstax.org/books/astronomy-2e/pages/8-4-life-chemical-evolution-and-climate-change",
+       "argomenti": []
+      },
+      {
+       "title": "8.5 Cosmic influences on the evolution of earth",
+       "url": "https://openstax.org/books/astronomy-2e/pages/8-5-cosmic-influences-on-the-evolution-of-earth",
+       "argomenti": []
+      }
+     ]
+    },
+    {
+     "n": 9,
+     "title": "Cratered worlds",
+     "sections": [
+      {
+       "title": "9.1 General properties of the moon",
+       "url": "https://openstax.org/books/astronomy-2e/pages/9-1-general-properties-of-the-moon",
+       "argomenti": []
+      },
+      {
+       "title": "9.2 The lunar surface",
+       "url": "https://openstax.org/books/astronomy-2e/pages/9-2-the-lunar-surface",
+       "argomenti": []
+      },
+      {
+       "title": "9.3 Impact craters",
+       "url": "https://openstax.org/books/astronomy-2e/pages/9-3-impact-craters",
+       "argomenti": []
+      },
+      {
+       "title": "9.4 The origin of the moon",
+       "url": "https://openstax.org/books/astronomy-2e/pages/9-4-the-origin-of-the-moon",
+       "argomenti": []
+      },
+      {
+       "title": "9.5 Mercury",
+       "url": "https://openstax.org/books/astronomy-2e/pages/9-5-mercury",
+       "argomenti": []
+      }
+     ]
+    },
+    {
+     "n": 10,
+     "title": "Earthlike planets venus and mars",
+     "sections": [
+      {
+       "title": "10.1 The nearest planets an overview",
+       "url": "https://openstax.org/books/astronomy-2e/pages/10-1-the-nearest-planets-an-overview",
+       "argomenti": []
+      },
+      {
+       "title": "10.2 The geology of venus",
+       "url": "https://openstax.org/books/astronomy-2e/pages/10-2-the-geology-of-venus",
+       "argomenti": []
+      },
+      {
+       "title": "10.3 The massive atmosphere of venus",
+       "url": "https://openstax.org/books/astronomy-2e/pages/10-3-the-massive-atmosphere-of-venus",
+       "argomenti": []
+      },
+      {
+       "title": "10.4 The geology of mars",
+       "url": "https://openstax.org/books/astronomy-2e/pages/10-4-the-geology-of-mars",
+       "argomenti": []
+      },
+      {
+       "title": "10.5 Water and life on mars",
+       "url": "https://openstax.org/books/astronomy-2e/pages/10-5-water-and-life-on-mars",
+       "argomenti": []
+      },
+      {
+       "title": "10.6 Divergent planetary evolution",
+       "url": "https://openstax.org/books/astronomy-2e/pages/10-6-divergent-planetary-evolution",
+       "argomenti": []
+      }
+     ]
+    },
+    {
+     "n": 11,
+     "title": "The giant planets",
+     "sections": [
+      {
+       "title": "11.1 Exploring the outer planets",
+       "url": "https://openstax.org/books/astronomy-2e/pages/11-1-exploring-the-outer-planets",
+       "argomenti": []
+      },
+      {
+       "title": "11.2 The giant planets",
+       "url": "https://openstax.org/books/astronomy-2e/pages/11-2-the-giant-planets",
+       "argomenti": []
+      },
+      {
+       "title": "11.3 Atmospheres of the giant planets",
+       "url": "https://openstax.org/books/astronomy-2e/pages/11-3-atmospheres-of-the-giant-planets",
+       "argomenti": []
+      }
+     ]
+    },
+    {
+     "n": 12,
+     "title": "Rings moons and pluto",
+     "sections": [
+      {
+       "title": "12.1 Ring and moon systems introduced",
+       "url": "https://openstax.org/books/astronomy-2e/pages/12-1-ring-and-moon-systems-introduced",
+       "argomenti": []
+      },
+      {
+       "title": "12.2 The galilean moons of jupiter",
+       "url": "https://openstax.org/books/astronomy-2e/pages/12-2-the-galilean-moons-of-jupiter",
+       "argomenti": []
+      },
+      {
+       "title": "12.3 Titan and triton",
+       "url": "https://openstax.org/books/astronomy-2e/pages/12-3-titan-and-triton",
+       "argomenti": []
+      },
+      {
+       "title": "12.4 Pluto and charon",
+       "url": "https://openstax.org/books/astronomy-2e/pages/12-4-pluto-and-charon",
+       "argomenti": []
+      },
+      {
+       "title": "12.5 Planetary rings and enceladus",
+       "url": "https://openstax.org/books/astronomy-2e/pages/12-5-planetary-rings-and-enceladus",
+       "argomenti": []
+      }
+     ]
+    },
+    {
+     "n": 13,
+     "title": "Comets and asteroids debris of the solar system",
+     "sections": [
+      {
+       "title": "13.1 Asteroids",
+       "url": "https://openstax.org/books/astronomy-2e/pages/13-1-asteroids",
+       "argomenti": []
+      },
+      {
+       "title": "13.2 Asteroids and planetary defense",
+       "url": "https://openstax.org/books/astronomy-2e/pages/13-2-asteroids-and-planetary-defense",
+       "argomenti": []
+      },
+      {
+       "title": "13.3 The long haired comets",
+       "url": "https://openstax.org/books/astronomy-2e/pages/13-3-the-long-haired-comets",
+       "argomenti": []
+      },
+      {
+       "title": "13.4 The origin and fate of comets and related objects",
+       "url": "https://openstax.org/books/astronomy-2e/pages/13-4-the-origin-and-fate-of-comets-and-related-objects",
+       "argomenti": []
+      }
+     ]
+    },
+    {
+     "n": 14,
+     "title": "Cosmic samples and the origin of the solar system",
+     "sections": [
+      {
+       "title": "14.1 Meteors",
+       "url": "https://openstax.org/books/astronomy-2e/pages/14-1-meteors",
+       "argomenti": []
+      },
+      {
+       "title": "14.2 Meteorites stones from heaven",
+       "url": "https://openstax.org/books/astronomy-2e/pages/14-2-meteorites-stones-from-heaven",
+       "argomenti": []
+      },
+      {
+       "title": "14.3 Formation of the solar system",
+       "url": "https://openstax.org/books/astronomy-2e/pages/14-3-formation-of-the-solar-system",
+       "argomenti": []
+      },
+      {
+       "title": "14.4 Comparison with other planetary systems",
+       "url": "https://openstax.org/books/astronomy-2e/pages/14-4-comparison-with-other-planetary-systems",
+       "argomenti": []
+      },
+      {
+       "title": "14.5 Planetary evolution",
+       "url": "https://openstax.org/books/astronomy-2e/pages/14-5-planetary-evolution",
+       "argomenti": []
+      }
+     ]
+    },
+    {
+     "n": 15,
+     "title": "The sun a garden variety star",
+     "sections": [
+      {
+       "title": "15.1 The structure and composition of the sun",
+       "url": "https://openstax.org/books/astronomy-2e/pages/15-1-the-structure-and-composition-of-the-sun",
+       "argomenti": []
+      },
+      {
+       "title": "15.2 The solar cycle",
+       "url": "https://openstax.org/books/astronomy-2e/pages/15-2-the-solar-cycle",
+       "argomenti": []
+      },
+      {
+       "title": "15.3 Solar activity above the photosphere",
+       "url": "https://openstax.org/books/astronomy-2e/pages/15-3-solar-activity-above-the-photosphere",
+       "argomenti": []
+      },
+      {
+       "title": "15.4 Space weather",
+       "url": "https://openstax.org/books/astronomy-2e/pages/15-4-space-weather",
+       "argomenti": []
+      }
+     ]
+    },
+    {
+     "n": 16,
+     "title": "The sun a nuclear powerhouse",
+     "sections": [
+      {
+       "title": "16.1 Sources of sunshine thermal and gravitational energy",
+       "url": "https://openstax.org/books/astronomy-2e/pages/16-1-sources-of-sunshine-thermal-and-gravitational-energy",
+       "argomenti": []
+      },
+      {
+       "title": "16.2 Mass energy and the theory of relativity",
+       "url": "https://openstax.org/books/astronomy-2e/pages/16-2-mass-energy-and-the-theory-of-relativity",
+       "argomenti": [
+        "fusione-sole"
+       ]
+      },
+      {
+       "title": "16.3 The solar interior theory",
+       "url": "https://openstax.org/books/astronomy-2e/pages/16-3-the-solar-interior-theory",
+       "argomenti": [
+        "fusione-sole"
+       ]
+      },
+      {
+       "title": "16.4 The solar interior observations",
+       "url": "https://openstax.org/books/astronomy-2e/pages/16-4-the-solar-interior-observations",
+       "argomenti": []
+      }
+     ]
+    },
+    {
+     "n": 17,
+     "title": "Analyzing starlight",
+     "sections": [
+      {
+       "title": "17.1 The brightness of stars",
+       "url": "https://openstax.org/books/astronomy-2e/pages/17-1-the-brightness-of-stars",
+       "argomenti": []
+      },
+      {
+       "title": "17.2 Colors of stars",
+       "url": "https://openstax.org/books/astronomy-2e/pages/17-2-colors-of-stars",
+       "argomenti": []
+      },
+      {
+       "title": "17.3 The spectra of stars and brown dwarfs",
+       "url": "https://openstax.org/books/astronomy-2e/pages/17-3-the-spectra-of-stars-and-brown-dwarfs",
+       "argomenti": []
+      },
+      {
+       "title": "17.4 Using spectra to measure stellar radius composition and motion",
+       "url": "https://openstax.org/books/astronomy-2e/pages/17-4-using-spectra-to-measure-stellar-radius-composition-and-motion",
+       "argomenti": []
+      }
+     ]
+    },
+    {
+     "n": 18,
+     "title": "The stars a celestial census",
+     "sections": [
+      {
+       "title": "18.1 A stellar census",
+       "url": "https://openstax.org/books/astronomy-2e/pages/18-1-a-stellar-census",
+       "argomenti": []
+      },
+      {
+       "title": "18.2 Measuring stellar masses",
+       "url": "https://openstax.org/books/astronomy-2e/pages/18-2-measuring-stellar-masses",
+       "argomenti": []
+      },
+      {
+       "title": "18.3 Diameters of stars",
+       "url": "https://openstax.org/books/astronomy-2e/pages/18-3-diameters-of-stars",
+       "argomenti": []
+      },
+      {
+       "title": "18.4 The h r diagram",
+       "url": "https://openstax.org/books/astronomy-2e/pages/18-4-the-h-r-diagram",
+       "argomenti": []
+      }
+     ]
+    },
+    {
+     "n": 19,
+     "title": "Celestial distances",
+     "sections": [
+      {
+       "title": "19.1 Fundamental units of distance",
+       "url": "https://openstax.org/books/astronomy-2e/pages/19-1-fundamental-units-of-distance",
+       "argomenti": []
+      },
+      {
+       "title": "19.2 Surveying the stars",
+       "url": "https://openstax.org/books/astronomy-2e/pages/19-2-surveying-the-stars",
+       "argomenti": []
+      },
+      {
+       "title": "19.3 Variable stars one key to cosmic distances",
+       "url": "https://openstax.org/books/astronomy-2e/pages/19-3-variable-stars-one-key-to-cosmic-distances",
+       "argomenti": []
+      },
+      {
+       "title": "19.4 The h r diagram and cosmic distances",
+       "url": "https://openstax.org/books/astronomy-2e/pages/19-4-the-h-r-diagram-and-cosmic-distances",
+       "argomenti": []
+      }
+     ]
+    },
+    {
+     "n": 20,
+     "title": "Between the stars gas and dust in space",
+     "sections": [
+      {
+       "title": "20.1 The interstellar medium",
+       "url": "https://openstax.org/books/astronomy-2e/pages/20-1-the-interstellar-medium",
+       "argomenti": []
+      },
+      {
+       "title": "20.2 Interstellar gas",
+       "url": "https://openstax.org/books/astronomy-2e/pages/20-2-interstellar-gas",
+       "argomenti": []
+      },
+      {
+       "title": "20.3 Cosmic dust",
+       "url": "https://openstax.org/books/astronomy-2e/pages/20-3-cosmic-dust",
+       "argomenti": []
+      },
+      {
+       "title": "20.4 Cosmic rays",
+       "url": "https://openstax.org/books/astronomy-2e/pages/20-4-cosmic-rays",
+       "argomenti": []
+      },
+      {
+       "title": "20.5 The life cycle of cosmic material",
+       "url": "https://openstax.org/books/astronomy-2e/pages/20-5-the-life-cycle-of-cosmic-material",
+       "argomenti": []
+      },
+      {
+       "title": "20.6 Interstellar matter around the sun",
+       "url": "https://openstax.org/books/astronomy-2e/pages/20-6-interstellar-matter-around-the-sun",
+       "argomenti": []
+      }
+     ]
+    },
+    {
+     "n": 21,
+     "title": "The birth of stars and the discovery of planets outside the solar system",
+     "sections": [
+      {
+       "title": "21.1 Star formation",
+       "url": "https://openstax.org/books/astronomy-2e/pages/21-1-star-formation",
+       "argomenti": [
+        "giganti-rosse"
+       ]
+      },
+      {
+       "title": "21.2 The h r diagram and the study of stellar evolution",
+       "url": "https://openstax.org/books/astronomy-2e/pages/21-2-the-h-r-diagram-and-the-study-of-stellar-evolution",
+       "argomenti": []
+      },
+      {
+       "title": "21.3 Evidence that planets form around other stars",
+       "url": "https://openstax.org/books/astronomy-2e/pages/21-3-evidence-that-planets-form-around-other-stars",
+       "argomenti": []
+      },
+      {
+       "title": "21.4 Planets beyond the solar system search and discovery",
+       "url": "https://openstax.org/books/astronomy-2e/pages/21-4-planets-beyond-the-solar-system-search-and-discovery",
+       "argomenti": []
+      },
+      {
+       "title": "21.5 Exoplanets everywhere what we are learning",
+       "url": "https://openstax.org/books/astronomy-2e/pages/21-5-exoplanets-everywhere-what-we-are-learning",
+       "argomenti": []
+      },
+      {
+       "title": "21.6 New perspectives on planet formation",
+       "url": "https://openstax.org/books/astronomy-2e/pages/21-6-new-perspectives-on-planet-formation",
+       "argomenti": []
+      }
+     ]
+    },
+    {
+     "n": 22,
+     "title": "Stars from adolescence to old age",
+     "sections": [
+      {
+       "title": "22.1 Evolution from the main sequence to red giants",
+       "url": "https://openstax.org/books/astronomy-2e/pages/22-1-evolution-from-the-main-sequence-to-red-giants",
+       "argomenti": [
+        "giganti-rosse"
+       ]
+      },
+      {
+       "title": "22.2 Star clusters",
+       "url": "https://openstax.org/books/astronomy-2e/pages/22-2-star-clusters",
+       "argomenti": []
+      },
+      {
+       "title": "22.3 Checking out the theory",
+       "url": "https://openstax.org/books/astronomy-2e/pages/22-3-checking-out-the-theory",
+       "argomenti": []
+      },
+      {
+       "title": "22.4 Further evolution of stars",
+       "url": "https://openstax.org/books/astronomy-2e/pages/22-4-further-evolution-of-stars",
+       "argomenti": []
+      },
+      {
+       "title": "22.5 The evolution of more massive stars",
+       "url": "https://openstax.org/books/astronomy-2e/pages/22-5-the-evolution-of-more-massive-stars",
+       "argomenti": []
+      }
+     ]
+    },
+    {
+     "n": 23,
+     "title": "The death of stars",
+     "sections": [
+      {
+       "title": "23.1 The death of low mass stars",
+       "url": "https://openstax.org/books/astronomy-2e/pages/23-1-the-death-of-low-mass-stars",
+       "argomenti": [
+        "giganti-rosse"
+       ]
+      },
+      {
+       "title": "23.2 Evolution of massive stars an explosive finish",
+       "url": "https://openstax.org/books/astronomy-2e/pages/23-2-evolution-of-massive-stars-an-explosive-finish",
+       "argomenti": []
+      },
+      {
+       "title": "23.3 Supernova observations",
+       "url": "https://openstax.org/books/astronomy-2e/pages/23-3-supernova-observations",
+       "argomenti": []
+      },
+      {
+       "title": "23.4 Pulsars and the discovery of neutron stars",
+       "url": "https://openstax.org/books/astronomy-2e/pages/23-4-pulsars-and-the-discovery-of-neutron-stars",
+       "argomenti": []
+      },
+      {
+       "title": "23.5 The evolution of binary star systems",
+       "url": "https://openstax.org/books/astronomy-2e/pages/23-5-the-evolution-of-binary-star-systems",
+       "argomenti": []
+      },
+      {
+       "title": "23.6 The mystery of the gamma ray bursts",
+       "url": "https://openstax.org/books/astronomy-2e/pages/23-6-the-mystery-of-the-gamma-ray-bursts",
+       "argomenti": []
+      }
+     ]
+    },
+    {
+     "n": 24,
+     "title": "Black holes and curved spacetime",
+     "sections": [
+      {
+       "title": "24.1 Introducing general relativity",
+       "url": "https://openstax.org/books/astronomy-2e/pages/24-1-introducing-general-relativity",
+       "argomenti": []
+      },
+      {
+       "title": "24.2 Spacetime and gravity",
+       "url": "https://openstax.org/books/astronomy-2e/pages/24-2-spacetime-and-gravity",
+       "argomenti": []
+      },
+      {
+       "title": "24.3 Tests of general relativity",
+       "url": "https://openstax.org/books/astronomy-2e/pages/24-3-tests-of-general-relativity",
+       "argomenti": []
+      },
+      {
+       "title": "24.4 Time in general relativity",
+       "url": "https://openstax.org/books/astronomy-2e/pages/24-4-time-in-general-relativity",
+       "argomenti": []
+      },
+      {
+       "title": "24.5 Black holes",
+       "url": "https://openstax.org/books/astronomy-2e/pages/24-5-black-holes",
+       "argomenti": [
+        "buchi-neri"
+       ]
+      },
+      {
+       "title": "24.6 Evidence for black holes",
+       "url": "https://openstax.org/books/astronomy-2e/pages/24-6-evidence-for-black-holes",
+       "argomenti": []
+      },
+      {
+       "title": "24.7 Gravitational wave astronomy",
+       "url": "https://openstax.org/books/astronomy-2e/pages/24-7-gravitational-wave-astronomy",
+       "argomenti": []
+      }
+     ]
+    },
+    {
+     "n": 25,
+     "title": "The milky way galaxy",
+     "sections": [
+      {
+       "title": "25.1 The architecture of the galaxy",
+       "url": "https://openstax.org/books/astronomy-2e/pages/25-1-the-architecture-of-the-galaxy",
+       "argomenti": []
+      },
+      {
+       "title": "25.2 Spiral structure",
+       "url": "https://openstax.org/books/astronomy-2e/pages/25-2-spiral-structure",
+       "argomenti": []
+      },
+      {
+       "title": "25.3 The mass of the galaxy",
+       "url": "https://openstax.org/books/astronomy-2e/pages/25-3-the-mass-of-the-galaxy",
+       "argomenti": []
+      },
+      {
+       "title": "25.4 The center of the galaxy",
+       "url": "https://openstax.org/books/astronomy-2e/pages/25-4-the-center-of-the-galaxy",
+       "argomenti": []
+      },
+      {
+       "title": "25.5 Stellar populations in the galaxy",
+       "url": "https://openstax.org/books/astronomy-2e/pages/25-5-stellar-populations-in-the-galaxy",
+       "argomenti": []
+      },
+      {
+       "title": "25.6 The formation of the galaxy",
+       "url": "https://openstax.org/books/astronomy-2e/pages/25-6-the-formation-of-the-galaxy",
+       "argomenti": []
+      }
+     ]
+    },
+    {
+     "n": 26,
+     "title": "Galaxies",
+     "sections": [
+      {
+       "title": "26.1 The discovery of galaxies",
+       "url": "https://openstax.org/books/astronomy-2e/pages/26-1-the-discovery-of-galaxies",
+       "argomenti": []
+      },
+      {
+       "title": "26.2 Types of galaxies",
+       "url": "https://openstax.org/books/astronomy-2e/pages/26-2-types-of-galaxies",
+       "argomenti": []
+      },
+      {
+       "title": "26.3 Properties of galaxies",
+       "url": "https://openstax.org/books/astronomy-2e/pages/26-3-properties-of-galaxies",
+       "argomenti": []
+      },
+      {
+       "title": "26.4 The extragalactic distance scale",
+       "url": "https://openstax.org/books/astronomy-2e/pages/26-4-the-extragalactic-distance-scale",
+       "argomenti": []
+      },
+      {
+       "title": "26.5 The expanding universe",
+       "url": "https://openstax.org/books/astronomy-2e/pages/26-5-the-expanding-universe",
+       "argomenti": [
+        "universo-espansione"
+       ]
+      }
+     ]
+    },
+    {
+     "n": 27,
+     "title": "Active galaxies quasars and supermassive black holes",
+     "sections": [
+      {
+       "title": "27.1 Quasars",
+       "url": "https://openstax.org/books/astronomy-2e/pages/27-1-quasars",
+       "argomenti": []
+      },
+      {
+       "title": "27.2 Supermassive black holes what quasars really are",
+       "url": "https://openstax.org/books/astronomy-2e/pages/27-2-supermassive-black-holes-what-quasars-really-are",
+       "argomenti": []
+      },
+      {
+       "title": "27.3 Quasars as probes of evolution in the universe",
+       "url": "https://openstax.org/books/astronomy-2e/pages/27-3-quasars-as-probes-of-evolution-in-the-universe",
+       "argomenti": []
+      }
+     ]
+    },
+    {
+     "n": 28,
+     "title": "The evolution and distribution of galaxies",
+     "sections": [
+      {
+       "title": "28.1 Observations of distant galaxies",
+       "url": "https://openstax.org/books/astronomy-2e/pages/28-1-observations-of-distant-galaxies",
+       "argomenti": []
+      },
+      {
+       "title": "28.2 Galaxy mergers and active galactic nuclei",
+       "url": "https://openstax.org/books/astronomy-2e/pages/28-2-galaxy-mergers-and-active-galactic-nuclei",
+       "argomenti": []
+      },
+      {
+       "title": "28.3 The distribution of galaxies in space",
+       "url": "https://openstax.org/books/astronomy-2e/pages/28-3-the-distribution-of-galaxies-in-space",
+       "argomenti": []
+      },
+      {
+       "title": "28.4 The challenge of dark matter",
+       "url": "https://openstax.org/books/astronomy-2e/pages/28-4-the-challenge-of-dark-matter",
+       "argomenti": []
+      },
+      {
+       "title": "28.5 The formation and evolution of galaxies and structure in the universe",
+       "url": "https://openstax.org/books/astronomy-2e/pages/28-5-the-formation-and-evolution-of-galaxies-and-structure-in-the-universe",
+       "argomenti": []
+      }
+     ]
+    },
+    {
+     "n": 29,
+     "title": "The big bang",
+     "sections": [
+      {
+       "title": "29.1 The age of the universe",
+       "url": "https://openstax.org/books/astronomy-2e/pages/29-1-the-age-of-the-universe",
+       "argomenti": []
+      },
+      {
+       "title": "29.2 A model of the universe",
+       "url": "https://openstax.org/books/astronomy-2e/pages/29-2-a-model-of-the-universe",
+       "argomenti": []
+      },
+      {
+       "title": "29.3 The beginning of the universe",
+       "url": "https://openstax.org/books/astronomy-2e/pages/29-3-the-beginning-of-the-universe",
+       "argomenti": [
+        "universo-espansione"
+       ]
+      },
+      {
+       "title": "29.4 The cosmic microwave background",
+       "url": "https://openstax.org/books/astronomy-2e/pages/29-4-the-cosmic-microwave-background",
+       "argomenti": []
+      },
+      {
+       "title": "29.5 What is the universe really made of",
+       "url": "https://openstax.org/books/astronomy-2e/pages/29-5-what-is-the-universe-really-made-of",
+       "argomenti": []
+      },
+      {
+       "title": "29.6 The inflationary universe",
+       "url": "https://openstax.org/books/astronomy-2e/pages/29-6-the-inflationary-universe",
+       "argomenti": []
+      },
+      {
+       "title": "29.7 The anthropic principle",
+       "url": "https://openstax.org/books/astronomy-2e/pages/29-7-the-anthropic-principle",
+       "argomenti": []
+      }
+     ]
+    },
+    {
+     "n": 30,
+     "title": "Life in the universe",
+     "sections": [
+      {
+       "title": "30.1 The cosmic context for life",
+       "url": "https://openstax.org/books/astronomy-2e/pages/30-1-the-cosmic-context-for-life",
+       "argomenti": []
+      },
+      {
+       "title": "30.2 Astrobiology",
+       "url": "https://openstax.org/books/astronomy-2e/pages/30-2-astrobiology",
+       "argomenti": []
+      },
+      {
+       "title": "30.3 Searching for life beyond earth",
+       "url": "https://openstax.org/books/astronomy-2e/pages/30-3-searching-for-life-beyond-earth",
+       "argomenti": []
+      },
+      {
+       "title": "30.4 The search for extraterrestrial intelligence",
+       "url": "https://openstax.org/books/astronomy-2e/pages/30-4-the-search-for-extraterrestrial-intelligence",
+       "argomenti": []
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

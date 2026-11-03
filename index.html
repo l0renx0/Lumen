@@ -16,7 +16,7 @@
   <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,400..700;1,7..72,400..600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/app.css">
   <script>
     try { const t = (localStorage.getItem('lumen.theme') || '').replace(/"/g, ''); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
@@ -47,17 +47,17 @@
   <main id="view" class="view" tabindex="-1"></main>
 
   <article class="detail" id="detail" role="dialog" aria-modal="true" aria-labelledby="dTitle" hidden>
-    <div class="detail__scroll" id="dScroll">
-      <div class="detail__hero" id="dHero">
-        <button class="icon-btn icon-btn--glass" id="dClose" aria-label="Chiudi"><svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
-        <button class="icon-btn icon-btn--glass" id="dSave" aria-label="Salva" aria-pressed="false"><svg viewBox="0 0 24 24"><path d="M6.5 3.5h11v17l-5.5-4-5.5 4z"/></svg></button>
-        <div class="detail__heroText">
-          <p class="kicker" id="dKicker"></p>
-          <h1 class="detail__title" id="dTitle"></h1>
-        </div>
-      </div>
-      <div class="detail__body" id="dBody"></div>
+    <div class="dbar" id="dBar">
+      <button class="icon-btn" id="dClose" aria-label="Chiudi"><svg viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></svg></button>
+      <p class="dbar__title" id="dBarTitle"></p>
+      <button class="icon-btn" id="dSize" aria-label="Dimensione del testo"><span class="aa">A<small>A</small></span></button>
+      <button class="icon-btn" id="dSave" aria-label="Salva" aria-pressed="false"><svg viewBox="0 0 24 24"><path d="M6.5 3.5h11v17l-5.5-4-5.5 4z"/></svg></button>
+      <span class="dbar__progress"><span id="dProgress"></span></span>
     </div>
+    <div class="detail__scroll" id="dScroll">
+      <div class="detail__inner" id="dBody"></div>
+    </div>
+    <button class="resume" id="dResume" hidden>Riprendi da dove eri ↓</button>
   </article>
 
   <div class="toast" id="toast" role="status" aria-live="polite"></div>

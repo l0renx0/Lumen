@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-03T23:16:40Z",
+ "updatedAt": "2026-11-03T23:50:26Z",
  "subjects": [
   {
    "id": "fisica",
@@ -8,7 +8,14 @@
    "book": {
     "title": "College Physics 2e",
     "url": "https://openstax.org/books/college-physics-2e/pages/preface"
-   }
+   },
+   "chapters": [
+    "Meccanica",
+    "Termodinamica",
+    "Onde e suono",
+    "Elettricità e magnetismo",
+    "Fisica moderna"
+   ]
   },
   {
    "id": "psicologia",
@@ -17,7 +24,15 @@
    "book": {
     "title": "Psychology 2e",
     "url": "https://openstax.org/books/psychology-2e/pages/1-introduction"
-   }
+   },
+   "chapters": [
+    "Cervello e biologia",
+    "Sensi e percezione",
+    "Apprendimento",
+    "Memoria e pensiero",
+    "Emozioni e motivazione",
+    "Psicologia sociale"
+   ]
   },
   {
    "id": "astronomia",
@@ -26,27 +41,29 @@
    "book": {
     "title": "Astronomy 2e",
     "url": "https://openstax.org/books/astronomy-2e/pages/1-introduction"
-   }
+   },
+   "chapters": [
+    "Terra, Luna e cielo",
+    "Pianeti e orbite",
+    "Luce e strumenti",
+    "Stelle",
+    "Galassie e cosmo"
+   ]
   }
  ],
  "topics": [
   {
    "id": "accelerazione",
    "subject": "fisica",
-   "title": "Accelerare non vuol dire solo andare più veloce",
-   "hook": "Anche frenare e curvare sono accelerazioni. Ecco cosa intende davvero la fisica.",
-   "body": [
-    "Nel linguaggio di tutti i giorni \"accelerare\" significa aumentare la velocità. In fisica il significato è più ampio: l'accelerazione è quanto rapidamente cambia la velocità.",
-    "La velocità in fisica ha due ingredienti: quanto vai veloce e in che direzione. Per questo cambiare direzione, anche restando a 50 km/h, è già un'accelerazione.",
-    "Frenare è un'accelerazione nella direzione opposta al movimento. Un'auto che passa da 100 a 0 km/h accelera tanto quanto una che passa da 0 a 100 nello stesso tempo, solo al contrario.",
-    "Si misura in metri al secondo, ogni secondo (m/s²): ti dice di quanti metri al secondo cambia la velocità in ogni secondo che passa."
-   ],
+   "title": "Accelerazione: cosa significa davvero cambiare velocità",
+   "hook": "Frenare, curvare e partire al semaforo sono tutte accelerazioni. Capire perché è il primo passo per capire il movimento.",
    "points": [
-    "L'accelerazione è il ritmo con cui cambia la velocità.",
-    "Frenare e curvare sono accelerazioni.",
-    "Si misura in m/s²."
+    "Distinguere velocità scalare e velocità vettoriale",
+    "Capire perché frenare e curvare sono accelerazioni",
+    "Leggere il significato di m/s² e calcolare un'accelerazione media",
+    "Capire la caduta libera e il valore 9,8 m/s²"
    ],
-   "example": "In curva sull'autobus ti senti spingere di lato anche se il tachimetro non si muove: la direzione cambia, quindi stai accelerando.",
+   "example": "Un'auto sportiva che fa 0–100 km/h in 4 secondi ha un'accelerazione media di circa 7 m/s²: poco meno dell'accelerazione di un oggetto in caduta libera.",
    "quote": {
     "text": "The formal definition of acceleration is consistent with these notions, but more inclusive.",
     "translation": "La definizione formale di accelerazione è coerente con queste idee, ma più ampia."
@@ -73,25 +90,98 @@
     }
    ],
    "videoQuery": "accelerazione fisica spiegazione",
-   "addedAt": "2026-11-03T23:16:40Z"
+   "addedAt": "2026-11-03T23:16:40Z",
+   "chapter": "Meccanica",
+   "mistakes": [
+    "\"Se vado piano non sto accelerando\": falso, conta quanto cambia la velocità, non quanto è grande.",
+    "\"Velocità costante sul tachimetro = nessuna accelerazione\": in curva c'è accelerazione anche a tachimetro fermo.",
+    "\"Gli oggetti pesanti cadono più in fretta\": senza aria cadono tutti con la stessa accelerazione."
+   ],
+   "terms": [
+    {
+     "t": "Cinematica",
+     "d": "La parte della fisica che descrive il moto senza occuparsi delle cause."
+    },
+    {
+     "t": "Vettore",
+     "d": "Grandezza con un valore e una direzione, come velocità e accelerazione."
+    },
+    {
+     "t": "g",
+     "d": "Accelerazione di gravità vicino alla superficie terrestre, circa 9,8 m/s²."
+    }
+   ],
+   "sections": [
+    {
+     "h": "Il problema: descrivere il movimento",
+     "p": [
+      "La fisica comincia con una domanda semplice: come si descrive il modo in cui un oggetto si muove? Per rispondere servono tre grandezze, una costruita sull'altra: la posizione (dove si trova), la velocità (quanto rapidamente cambia la posizione) e l'accelerazione (quanto rapidamente cambia la velocità).",
+      "Questa parte della fisica si chiama cinematica: descrive il moto senza chiedersi ancora quale forza lo provochi. È il vocabolario di base che servirà per tutto il resto, dalle leggi di Newton alle orbite dei pianeti."
+     ]
+    },
+    {
+     "h": "Velocità: non solo quanto, ma anche verso dove",
+     "p": [
+      "Nel linguaggio comune \"velocità\" vuol dire quanto vai veloce, per esempio 50 km/h. I fisici chiamano questa quantità velocità scalare (in inglese speed): è solo un numero.",
+      "Per la fisica però la velocità vera e propria (velocity) è un vettore, cioè una grandezza che ha un valore e una direzione: \"50 km/h verso nord\" è diverso da \"50 km/h verso sud\", anche se il tachimetro segna lo stesso numero.",
+      "Questa distinzione sembra un dettaglio, ma è la chiave per capire l'accelerazione: se la velocità include la direzione, allora anche cambiare direzione significa cambiare velocità."
+     ]
+    },
+    {
+     "h": "La definizione: il ritmo con cui cambia la velocità",
+     "p": [
+      "L'accelerazione è il ritmo con cui cambia la velocità nel tempo. Se in un secondo la velocità cambia molto, l'accelerazione è grande; se cambia poco, è piccola.",
+      "L'accelerazione media si calcola dividendo la variazione di velocità per il tempo impiegato. Un'auto che passa da ferma a 20 metri al secondo (72 km/h) in 10 secondi ha un'accelerazione media di 2 metri al secondo ogni secondo.",
+      "Anche l'accelerazione è un vettore: ha la stessa direzione della variazione di velocità. Questo spiega i tre casi della vita quotidiana: quando acceleri in avanti, quando freni (l'accelerazione punta all'indietro rispetto al moto) e quando curvi (l'accelerazione punta verso l'interno della curva)."
+     ]
+    },
+    {
+     "h": "Che cosa vuol dire m/s²",
+     "p": [
+      "L'unità di misura dell'accelerazione è il metro al secondo quadrato, m/s². Sembra misteriosa, ma si legge in modo semplice: \"metri al secondo, ogni secondo\".",
+      "Un'accelerazione di 3 m/s² significa che ogni secondo la velocità aumenta di 3 metri al secondo: dopo 1 secondo vai a 3 m/s, dopo 2 secondi a 6 m/s, dopo 3 secondi a 9 m/s, e così via.",
+      "Un'accelerazione negativa di −3 m/s² (in una direzione scelta come positiva) significa il contrario: la velocità in quella direzione diminuisce di 3 m/s ogni secondo. Nel linguaggio comune si dice \"decelerazione\", ma per la fisica è semplicemente un'accelerazione con verso opposto."
+     ]
+    },
+    {
+     "h": "Il caso più famoso: la caduta libera",
+     "p": [
+      "Se lasci cadere un oggetto e la resistenza dell'aria è trascurabile, accelera verso il basso con un valore quasi costante vicino alla superficie terrestre: circa 9,8 m/s², indicato con la lettera g.",
+      "Significa che un sasso lasciato cadere va a circa 9,8 m/s dopo un secondo, 19,6 m/s dopo due secondi, 29,4 m/s dopo tre. Senza aria, una piuma e un martello cadrebbero insieme: l'accelerazione di gravità non dipende dalla massa. Gli astronauti dell'Apollo 15 lo mostrarono sulla Luna, dove non c'è atmosfera.",
+      "Sulla Terra la piuma cade più lentamente solo perché l'aria la frena molto di più rispetto al suo peso. È un buon esempio di come la fisica isoli un fenomeno (la gravità) dagli effetti che lo complicano (l'attrito dell'aria)."
+     ]
+    },
+    {
+     "h": "Perché ti senti spinto in curva o in frenata",
+     "p": [
+      "Quando un autobus frena bruscamente ti senti spinto in avanti; quando parte, ti senti spinto indietro; in curva, verso l'esterno. In realtà nessuno ti spinge: il tuo corpo tende a mantenere la velocità che aveva (è l'inerzia, che vedremo con Newton), mentre l'autobus accelera.",
+      "Il corpo percepisce le accelerazioni, non la velocità. In aereo a velocità costante a 900 km/h puoi versare un bicchiere d'acqua senza problemi; nel decollo invece senti chiaramente di essere premuto contro il sedile."
+     ]
+    }
+   ],
+   "formulas": [
+    {
+     "f": "a = Δv / Δt",
+     "d": "Accelerazione media: variazione di velocità (Δv) divisa per il tempo impiegato (Δt)."
+    },
+    {
+     "f": "v = v₀ + a · t",
+     "d": "Con accelerazione costante: la velocità dopo un tempo t è quella iniziale più accelerazione per tempo."
+    }
+   ]
   },
   {
    "id": "leggi-di-newton",
    "subject": "fisica",
-   "title": "Le tre leggi di Newton, spiegate con una spinta",
-   "hook": "Tre frasi scritte nel 1687 spiegano perché le cose si muovono, si fermano e rimbalzano.",
-   "body": [
-    "Prima legge (inerzia): un oggetto fermo resta fermo, e uno in movimento continua dritto alla stessa velocità, finché una forza non lo costringe a cambiare.",
-    "Seconda legge: una forza produce un'accelerazione. Più forte è la spinta, più l'oggetto accelera; più l'oggetto è pesante (ha massa), meno accelera. In formula: F = m · a.",
-    "Conta la forza netta, cioè la somma di tutte le spinte e le resistenze. Se due persone spingono un carrello in direzioni opposte con la stessa forza, il carrello non si muove.",
-    "Terza legge: ogni volta che spingi qualcosa, quel qualcosa ti spinge indietro con la stessa forza. È il motivo per cui un razzo sale: spinge i gas in basso e i gas spingono il razzo in alto."
-   ],
+   "title": "Le tre leggi di Newton: perché le cose si muovono",
+   "hook": "Tre principi pubblicati nel 1687 spiegano quasi tutto il movimento che vedi ogni giorno, dal carrello della spesa ai razzi.",
    "points": [
-    "Senza forze, il moto non cambia (inerzia).",
-    "Forza = massa × accelerazione.",
-    "Ogni azione ha una reazione uguale e contraria."
+    "Che cos'è l'inerzia e perché un corpo in moto continua a muoversi",
+    "Usare F = m · a e il concetto di forza netta",
+    "Capire azione e reazione senza confonderle",
+    "Riconoscere le forze comuni: peso, attrito, forza normale, tensione"
    ],
-   "example": "Spingere un carrello vuoto è facile, uno pieno no: stessa forza, ma più massa significa meno accelerazione.",
+   "example": "Se un'auto si ferma di colpo, il tuo corpo continua ad andare avanti per inerzia: la cintura ti applica la forza che serve per fermarti insieme all'auto.",
    "quote": {
     "text": "Newton’s first law says that a net external force causes a change in motion; thus, we see that a net external force causes acceleration.",
     "translation": "La prima legge di Newton dice che una forza esterna netta causa un cambiamento nel moto; vediamo quindi che una forza esterna netta causa accelerazione."
@@ -128,25 +218,103 @@
     }
    ],
    "videoQuery": "leggi di Newton spiegazione",
-   "addedAt": "2026-11-03T23:16:40Z"
+   "addedAt": "2026-11-03T23:16:40Z",
+   "chapter": "Meccanica",
+   "mistakes": [
+    "\"Per muoversi un oggetto ha bisogno di una forza\": no, la forza serve per cambiare il moto, non per mantenerlo.",
+    "\"Azione e reazione si annullano\": no, agiscono su corpi diversi.",
+    "\"Massa e peso sono la stessa cosa\": la massa è in kg e non cambia, il peso è una forza e dipende dalla gravità."
+   ],
+   "terms": [
+    {
+     "t": "Inerzia",
+     "d": "Tendenza di un corpo a mantenere il suo stato di moto."
+    },
+    {
+     "t": "Forza netta",
+     "d": "La somma di tutte le forze che agiscono su un corpo."
+    },
+    {
+     "t": "Newton (N)",
+     "d": "Unità di misura della forza: 1 N accelera 1 kg di 1 m/s²."
+    },
+    {
+     "t": "Forza normale",
+     "d": "Spinta di una superficie perpendicolare a essa."
+    }
+   ],
+   "sections": [
+    {
+     "h": "Un'idea che ha cambiato la scienza",
+     "p": [
+      "Nel 1687 Isaac Newton pubblicò i Principia, dove enunciò tre leggi del moto. Per la prima volta un piccolo insieme di regole permetteva di prevedere il movimento di qualsiasi oggetto conoscendo le forze che agiscono su di esso.",
+      "Una forza, in fisica, è semplicemente una spinta o una trazione. Si misura in newton (N): un newton è circa il peso di una piccola mela. Le forze sono vettori: conta quanto sono forti e in che direzione agiscono."
+     ]
+    },
+    {
+     "h": "Prima legge: l'inerzia",
+     "p": [
+      "Un corpo fermo resta fermo, e un corpo in movimento continua a muoversi in linea retta a velocità costante, finché una forza esterna netta non lo costringe a cambiare. Questa tendenza a mantenere il proprio stato di moto si chiama inerzia.",
+      "Sembra contraria all'esperienza: un pallone che rotola sull'erba alla fine si ferma. Ma si ferma perché c'è una forza, l'attrito, che lo frena. Su una superficie di ghiaccio, con meno attrito, rotola molto più a lungo. Nello spazio, lontano da tutto, continuerebbe praticamente per sempre.",
+      "La misura dell'inerzia di un corpo è la sua massa: più massa ha un oggetto, più è difficile metterlo in moto, fermarlo o deviarlo. Per questo le cinture di sicurezza sono vitali: in un urto l'auto si ferma, ma il tuo corpo, per inerzia, continua ad andare avanti."
+     ]
+    },
+    {
+     "h": "Seconda legge: forza, massa e accelerazione",
+     "p": [
+      "La seconda legge dice come una forza cambia il moto: l'accelerazione di un corpo è direttamente proporzionale alla forza esterna netta che agisce su di esso e inversamente proporzionale alla sua massa. In formula si scrive F = m · a.",
+      "\"Direttamente proporzionale\" significa che con una forza doppia ottieni un'accelerazione doppia. \"Inversamente proporzionale alla massa\" significa che, a parità di forza, un oggetto con massa doppia accelera la metà. Spingere un carrello vuoto o uno pieno con la stessa forza lo dimostra subito.",
+      "La parola chiave è forza netta: la somma di tutte le forze, tenendo conto della loro direzione. Se due persone tirano una corda con la stessa forza in direzioni opposte, la forza netta è zero e la corda non accelera. Se un'auto va a velocità costante in autostrada, la spinta del motore è bilanciata da attrito e resistenza dell'aria: forza netta zero, accelerazione zero.",
+      "Il peso è un caso particolare della seconda legge: è la forza di gravità su un corpo, uguale a massa per g. Una persona di 70 kg pesa circa 70 × 9,8 ≈ 690 newton. La massa resta la stessa ovunque; il peso cambia se cambia la gravità, per esempio sulla Luna."
+     ]
+    },
+    {
+     "h": "Terza legge: azione e reazione",
+     "p": [
+      "Ogni volta che un corpo esercita una forza su un altro, il secondo esercita sul primo una forza uguale in intensità e opposta in direzione. Le forze nascono sempre a coppie.",
+      "Quando cammini, spingi il pavimento all'indietro con i piedi, e il pavimento ti spinge in avanti: è quella spinta del pavimento che ti fa avanzare. Un nuotatore spinge l'acqua indietro e l'acqua lo spinge avanti. Un razzo espelle gas verso il basso ad altissima velocità e i gas spingono il razzo verso l'alto, anche nel vuoto dello spazio, dove non c'è aria su cui \"appoggiarsi\".",
+      "Attenzione a un punto sottile: le due forze di una coppia agiscono su corpi diversi, quindi non si annullano a vicenda. Il pavimento spinge te, tu spingi il pavimento: per capire come ti muovi tu, conta solo la forza che agisce su di te."
+     ]
+    },
+    {
+     "h": "Le forze di tutti i giorni",
+     "p": [
+      "Peso: la forza con cui la Terra attrae un corpo verso il basso. Forza normale: la spinta che una superficie esercita su un oggetto appoggiato, perpendicolare alla superficie; è ciò che impedisce a un libro di \"cadere attraverso\" il tavolo.",
+      "Attrito: la forza che si oppone allo scivolamento tra due superfici a contatto. È fastidioso quando vuoi spostare un mobile, ma indispensabile per camminare o frenare in auto. Tensione: la forza trasmessa da una corda o un cavo tesi, come in un ascensore.",
+      "Per risolvere un problema con le leggi di Newton i fisici disegnano un diagramma delle forze: isolano l'oggetto, disegnano tutte le frecce che agiscono su di esso, le sommano e applicano F = m · a."
+     ]
+    },
+    {
+     "h": "Fin dove valgono",
+     "p": [
+      "Le leggi di Newton funzionano in modo eccellente per gli oggetti di tutti i giorni, per le macchine, per i ponti e perfino per mandare sonde nel Sistema solare. Smettono di essere precise in due casi: a velocità vicine a quella della luce, dove serve la relatività di Einstein, e alla scala degli atomi, dove serve la meccanica quantistica.",
+      "Anche così restano uno dei risultati più potenti della scienza: con tre frasi si spiega il moto di quasi tutto ciò che vediamo."
+     ]
+    }
+   ],
+   "formulas": [
+    {
+     "f": "F = m · a",
+     "d": "Forza netta (newton) = massa (kg) × accelerazione (m/s²)."
+    },
+    {
+     "f": "P = m · g",
+     "d": "Il peso: massa per accelerazione di gravità (circa 9,8 m/s² sulla Terra)."
+    }
+   ]
   },
   {
    "id": "energia",
    "subject": "fisica",
-   "title": "L'energia non si crea e non si distrugge: si trasforma",
-   "hook": "È una delle leggi più solide di tutta la scienza. E spiega perché nessuna macchina è perfetta.",
-   "body": [
-    "L'energia è la capacità di compiere un lavoro, cioè di far muovere o cambiare le cose. Esiste in tante forme: di movimento (cinetica), di posizione (potenziale), termica, chimica, elettrica.",
-    "La legge di conservazione dice che l'energia totale resta sempre la stessa. Può solo passare da una forma all'altra.",
-    "Una palla lasciata cadere trasforma energia di posizione in energia di movimento. Quando tocca terra, parte di quell'energia diventa calore e suono.",
-    "Nessuna trasformazione è perfetta: una parte dell'energia finisce quasi sempre in calore che non riusciamo a sfruttare. Per questo si parla di efficienza, cioè la quota di energia che diventa davvero utile."
-   ],
+   "title": "L'energia: la grandezza che non si crea e non si distrugge",
+   "hook": "Lavoro, energia cinetica e potenziale, calore: un'unica legge collega tutto, dalla montagna russa al cibo che mangi.",
    "points": [
-    "L'energia totale è costante.",
-    "Cambia solo forma: movimento, calore, luce, chimica…",
-    "L'efficienza misura quanta ne usiamo davvero."
+    "Che cosa intende la fisica per lavoro",
+    "Le due forme meccaniche: energia cinetica e potenziale",
+    "La legge di conservazione dell'energia",
+    "Perché nessuna macchina ha efficienza del 100%"
    ],
-   "example": "Il tuo corpo trasforma l'energia chimica del cibo in movimento e calore: è per questo che correndo ti scaldi.",
+   "example": "Raddoppiare la velocità in auto quadruplica l'energia cinetica: è per questo che a 100 km/h servono molti più metri per fermarsi che a 50 km/h.",
    "quote": {
     "text": "The law of conservation of energy can be stated as follows: Total energy is constant in any process.",
     "translation": "La legge di conservazione dell'energia si può enunciare così: l'energia totale è costante in qualsiasi processo."
@@ -179,25 +347,96 @@
     }
    ],
    "videoQuery": "conservazione dell'energia spiegazione",
-   "addedAt": "2026-11-03T23:16:40Z"
+   "addedAt": "2026-11-03T23:16:40Z",
+   "chapter": "Meccanica",
+   "mistakes": [
+    "\"L'energia si consuma\": non sparisce, si trasforma, spesso in calore inutilizzabile.",
+    "\"Energia e potenza sono la stessa cosa\": la potenza è quanto velocemente l'energia viene usata.",
+    "\"Una macchina ben fatta può essere efficiente al 100%\": nessun processo reale lo è."
+   ],
+   "terms": [
+    {
+     "t": "Joule (J)",
+     "d": "Unità di misura di energia e lavoro."
+    },
+    {
+     "t": "Watt (W)",
+     "d": "Unità di potenza: un joule al secondo."
+    },
+    {
+     "t": "Efficienza",
+     "d": "Quota di energia che diventa lavoro utile."
+    }
+   ],
+   "sections": [
+    {
+     "h": "Lavoro: quando una forza sposta qualcosa",
+     "p": [
+      "In fisica la parola lavoro ha un significato preciso: una forza compie lavoro quando sposta un oggetto lungo la propria direzione. Se spingi un carrello per 10 metri con una forza di 50 newton nella direzione del moto, compi un lavoro di 500 joule.",
+      "Il joule (J) è l'unità di misura del lavoro e dell'energia. Per avere un'idea: sollevare una mela di 100 grammi di un metro richiede circa un joule.",
+      "Curiosamente, tenere fermo un pesante zaino in mano non è lavoro per la fisica, perché lo zaino non si sposta, anche se ti stanchi: i tuoi muscoli consumano energia per restare contratti, ma sullo zaino non viene compiuto lavoro."
+     ]
+    },
+    {
+     "h": "Energia: la capacità di compiere lavoro",
+     "p": [
+      "L'energia è la capacità di compiere lavoro. Un oggetto che possiede energia può, almeno in linea di principio, spostare qualcos'altro o cambiarne lo stato.",
+      "L'energia cinetica è l'energia del movimento: dipende dalla massa e dal quadrato della velocità. Il quadrato è importante: un'auto che va al doppio della velocità ha quattro volte l'energia cinetica, ed è per questo che lo spazio di frenata cresce così tanto con la velocità.",
+      "L'energia potenziale gravitazionale è l'energia di posizione: un oggetto sollevato a una certa altezza può ricadere e compiere lavoro. Dipende da massa, gravità e altezza. L'acqua di una diga in montagna è un enorme deposito di energia potenziale."
+     ]
+    },
+    {
+     "h": "La legge di conservazione",
+     "p": [
+      "Il principio centrale è questo: l'energia totale è costante in qualsiasi processo. Non si crea dal nulla e non sparisce; può soltanto trasformarsi da una forma all'altra o passare da un oggetto all'altro.",
+      "Pensa a una montagna russa. In cima alla prima salita il vagone ha molta energia potenziale e poca cinetica. Mentre scende, l'energia potenziale diventa cinetica e il vagone accelera. Risalendo, la cinetica torna potenziale e il vagone rallenta. Se non ci fossero attriti, potrebbe continuare all'infinito.",
+      "Nel mondo reale una parte dell'energia, a ogni giro, diventa calore a causa dell'attrito delle ruote e della resistenza dell'aria. Non è sparita: è finita nelle rotaie e nell'aria come energia termica, una forma che però non riusciamo più a recuperare facilmente."
+     ]
+    },
+    {
+     "h": "Tante forme, un'unica moneta",
+     "p": [
+      "Oltre all'energia meccanica esistono l'energia termica (il movimento disordinato delle molecole), chimica (immagazzinata nei legami tra atomi, come nel cibo o nella benzina), elettrica, luminosa, nucleare.",
+      "Una centrale idroelettrica trasforma energia potenziale dell'acqua in cinetica, poi in elettrica. Una lampadina trasforma l'elettrica in luce e calore. Le piante trasformano la luce del Sole in energia chimica, e tu la trasformi in movimento e calore corporeo quando mangi.",
+      "Il fatto che tutte queste forme siano convertibili e che il totale si conservi rende l'energia una specie di moneta universale della fisica: puoi seguirla attraverso qualsiasi trasformazione."
+     ]
+    },
+    {
+     "h": "Efficienza e potenza",
+     "p": [
+      "L'efficienza di un dispositivo è la frazione dell'energia in ingresso che diventa davvero lavoro utile. Un motore a benzina ne sfrutta una parte relativamente piccola: il resto se ne va soprattutto come calore. Un motore elettrico è molto più efficiente.",
+      "Nessuna trasformazione reale arriva al 100%: una parte di energia finisce sempre in forme poco utilizzabili, di solito calore. È anche per questo che il moto perpetuo è impossibile, come vedremo parlando di entropia.",
+      "La potenza invece misura quanto rapidamente si trasforma l'energia: si misura in watt (W), cioè joule al secondo. Una lampadina da 10 W consuma 10 joule ogni secondo; salire le scale di corsa o camminando richiede la stessa energia, ma di corsa la potenza è maggiore."
+     ]
+    }
+   ],
+   "formulas": [
+    {
+     "f": "L = F · s",
+     "d": "Lavoro = forza × spostamento nella direzione della forza (in joule)."
+    },
+    {
+     "f": "Ec = ½ · m · v²",
+     "d": "Energia cinetica: metà della massa per il quadrato della velocità."
+    },
+    {
+     "f": "Ep = m · g · h",
+     "d": "Energia potenziale gravitazionale: massa × gravità × altezza."
+    }
+   ]
   },
   {
    "id": "gravita",
    "subject": "fisica",
-   "title": "La gravità: la stessa forza fa cadere una mela e muove la Luna",
-   "hook": "L'intuizione di Newton: tutto attrae tutto, dalla tazzina sul tavolo alle galassie.",
-   "body": [
-    "Newton capì che la forza che fa cadere gli oggetti sulla Terra è la stessa che tiene la Luna in orbita. Fu una rivoluzione: le stesse leggi valgono in cielo e in terra.",
-    "Secondo la sua legge di gravitazione universale, ogni oggetto attrae ogni altro oggetto. La forza cresce con le masse e diminuisce con il quadrato della distanza: a distanza doppia, la forza è quattro volte più debole.",
-    "Anche tu e il tuo telefono vi attraete, ma la forza è così piccola che non si nota. Diventa importante solo con masse enormi come pianeti e stelle.",
-    "La Luna, in un certo senso, \"cade\" continuamente verso la Terra: si muove così veloce di lato che, mentre cade, continua a mancarla. È questo un'orbita."
-   ],
+   "title": "La gravità di Newton: la forza che tiene insieme l'universo",
+   "hook": "La stessa legge fa cadere una mela, muove la Luna e governa i pianeti. Ecco come funziona e perché la Luna non cade sulla Terra.",
    "points": [
-    "Ogni massa attrae ogni altra massa.",
-    "A distanza doppia, forza quattro volte più debole.",
-    "Un'orbita è una caduta continua."
+    "La legge di gravitazione universale",
+    "Perché la forza cala con il quadrato della distanza",
+    "Che cos'è davvero un'orbita",
+    "Perché gli astronauti sulla Stazione spaziale fluttuano"
    ],
-   "example": "Il tuo peso è la forza con cui la Terra ti attrae. Sulla Luna, che ha molta meno massa, peseresti circa un sesto.",
+   "example": "La Stazione spaziale internazionale gira intorno alla Terra in circa un'ora e mezza: è in caduta libera continua, ed è per questo che a bordo tutto fluttua.",
    "quote": {
     "text": "Stated in modern language, Newton’s universal law of gravitation states that every particle in the universe attracts every other particle with a force along a line joining them.",
     "translation": "Detta in linguaggio moderno, la legge di gravitazione universale di Newton afferma che ogni particella dell'universo attrae ogni altra particella con una forza diretta lungo la linea che le unisce."
@@ -224,25 +463,93 @@
     }
    ],
    "videoQuery": "gravità Newton spiegazione",
-   "addedAt": "2026-11-03T23:16:40Z"
+   "addedAt": "2026-11-03T23:16:40Z",
+   "chapter": "Meccanica",
+   "mistakes": [
+    "\"Nello spazio non c'è gravità\": c'è ovunque; in orbita si fluttua perché si cade insieme alla navicella.",
+    "\"Gli oggetti pesanti attraggono, quelli leggeri no\": ogni massa attrae ogni altra massa.",
+    "\"La gravità finisce a una certa distanza\": si indebolisce ma non si annulla mai."
+   ],
+   "terms": [
+    {
+     "t": "Gravitazione universale",
+     "d": "Legge di Newton secondo cui tutte le masse si attraggono."
+    },
+    {
+     "t": "Orbita",
+     "d": "Traiettoria di un corpo che cade continuamente intorno a un altro senza toccarlo."
+    },
+    {
+     "t": "G",
+     "d": "Costante di gravitazione universale, molto piccola."
+    }
+   ],
+   "sections": [
+    {
+     "h": "La grande intuizione",
+     "p": [
+      "Prima di Newton si pensava che il cielo e la Terra seguissero regole diverse. Newton capì che la forza che fa cadere una mela dall'albero è la stessa che mantiene la Luna in orbita intorno alla Terra e i pianeti intorno al Sole.",
+      "Fu una delle più grandi unificazioni della storia della scienza: un'unica legge per tutto l'universo, chiamata per questo legge di gravitazione universale."
+     ]
+    },
+    {
+     "h": "La legge",
+     "p": [
+      "Ogni particella dell'universo attrae ogni altra particella con una forza diretta lungo la linea che le unisce. L'intensità di questa forza è proporzionale al prodotto delle due masse e inversamente proporzionale al quadrato della distanza tra loro.",
+      "In formula: F = G · m₁ · m₂ / r². Qui G è la costante di gravitazione universale, un numero piccolissimo. Proprio perché G è così piccola, la gravità tra oggetti comuni è impercettibile: tu e la persona seduta accanto a te vi attraete, ma con una forza minuscola. Diventa importante solo quando almeno una delle masse è enorme, come un pianeta.",
+      "La forza è sempre attrattiva: la gravità non respinge mai. E agisce a qualunque distanza, anche se diventa sempre più debole."
+     ]
+    },
+    {
+     "h": "Il quadrato della distanza",
+     "p": [
+      "\"Inversamente proporzionale al quadrato della distanza\" significa che se raddoppi la distanza la forza diventa quattro volte più debole; se la triplichi, nove volte più debole.",
+      "Un modo intuitivo di vederlo: l'influenza della gravità si \"distribuisce\" su sfere sempre più grandi intorno a un corpo, e la superficie di una sfera cresce con il quadrato del raggio. Lo stesso schema vale per la luce di una lampadina, che appare quattro volte più debole a distanza doppia.",
+      "Per un corpo sferico come la Terra, la distanza si misura dal centro. Per questo in cima a una montagna pesi pochissimo di meno: sei più lontano dal centro della Terra solo di una piccola frazione."
+     ]
+    },
+    {
+     "h": "Perché la Luna non cade? In realtà sì",
+     "p": [
+      "Newton propose un esperimento mentale: immagina un cannone in cima a una montagna altissima. Spara una palla: cade a terra poco lontano. Spara più forte: cade più lontano. Se la sparassi abbastanza veloce, la superficie curva della Terra si abbasserebbe sotto la palla tanto quanto la palla cade, e la palla non toccherebbe mai il suolo.",
+      "Quella palla sarebbe in orbita. Un'orbita è quindi una caduta continua: l'oggetto cade sempre verso il corpo centrale, ma si muove così velocemente di lato che continua a \"mancarlo\". È esattamente ciò che fa la Luna, e ciò che fanno tutti i satelliti artificiali.",
+      "Gli astronauti sulla Stazione spaziale internazionale fluttuano non perché lassù non ci sia gravità (a quella quota la gravità è ancora quasi il 90% di quella al suolo) ma perché loro e la stazione stanno cadendo insieme intorno alla Terra. È la stessa sensazione di vuoto che si prova per un istante sulle montagne russe."
+     ]
+    },
+    {
+     "h": "Peso, massa e altri mondi",
+     "p": [
+      "Il tuo peso è la forza di gravità che la Terra esercita su di te. Sulla Luna, che ha una massa molto minore, peseresti circa un sesto: la tua massa sarebbe la stessa, ma la forza con cui la Luna ti attrae sarebbe molto più debole.",
+      "La gravità della Luna è anche la causa principale delle maree: la Luna attrae di più l'acqua sul lato della Terra rivolto verso di lei e di meno quella sul lato opposto, e questa differenza deforma gli oceani."
+     ]
+    },
+    {
+     "h": "Oltre Newton",
+     "p": [
+      "La legge di Newton funziona benissimo per calcolare traiettorie di razzi, sonde e pianeti. Non spiega però che cosa sia la gravità, né come faccia ad agire a distanza.",
+      "Nel 1915 Einstein propose con la relatività generale un'idea diversa: la massa curva lo spazio e il tempo, e gli oggetti si muovono seguendo questa curvatura. Nella maggior parte dei casi le previsioni coincidono con quelle di Newton; differiscono quando la gravità è molto intensa, come vicino ai buchi neri."
+     ]
+    }
+   ],
+   "formulas": [
+    {
+     "f": "F = G · m₁ · m₂ / r²",
+     "d": "Forza di gravità tra due masse a distanza r; G è la costante di gravitazione universale."
+    }
+   ]
   },
   {
    "id": "entropia",
    "subject": "fisica",
-   "title": "Entropia: perché il caffè si raffredda e mai il contrario",
-   "hook": "Il calore va sempre dal caldo al freddo. Dietro c'è una delle idee più profonde della fisica.",
-   "body": [
-    "Se lasci una tazza di caffè sul tavolo, si raffredda fino alla temperatura della stanza. Non succede mai che si scaldi da sola prendendo calore dall'aria più fredda.",
-    "La fisica descrive questa \"freccia\" con l'entropia, una misura del disordine di un sistema e di quanta energia non è più disponibile per fare lavoro.",
-    "Il secondo principio della termodinamica dice che, in un sistema isolato, l'entropia totale non diminuisce mai. Il calore passa spontaneamente dal caldo al freddo perché così l'entropia aumenta.",
-    "Un frigorifero fa il contrario, sposta calore dal freddo al caldo, ma solo consumando energia elettrica. Il disordine totale, contando anche la centrale e l'ambiente, cresce comunque."
-   ],
+   "title": "Entropia e secondo principio: perché il tempo va in una sola direzione",
+   "hook": "Il caffè si raffredda, il ghiaccio si scioglie, le stanze si disordinano. Dietro c'è una delle leggi più profonde della fisica.",
    "points": [
-    "L'entropia misura disordine ed energia inutilizzabile.",
-    "Il calore va spontaneamente dal caldo al freddo.",
-    "Nei sistemi isolati l'entropia non diminuisce."
+    "Che cosa sono calore e temperatura",
+    "Il secondo principio della termodinamica",
+    "L'entropia come disordine ed energia non più utilizzabile",
+    "Perché un frigorifero non viola la legge"
    ],
-   "example": "Un cubetto di ghiaccio nel bicchiere si scioglie sempre; l'acqua a temperatura ambiente non torna mai ghiaccio da sola.",
+   "example": "Un cubetto di ghiaccio in un bicchiere d'acqua tiepida si scioglie sempre: il calore passa dall'acqua al ghiaccio e l'entropia totale aumenta.",
    "quote": {
     "text": "The entropy of a system can in fact be shown to be a measure of its disorder and of the unavailability of energy to do work.",
     "translation": "Si può dimostrare che l'entropia di un sistema è una misura del suo disordine e dell'indisponibilità di energia per compiere lavoro."
@@ -269,25 +576,97 @@
     }
    ],
    "videoQuery": "entropia secondo principio termodinamica",
-   "addedAt": "2026-11-03T23:16:40Z"
+   "addedAt": "2026-11-03T23:16:40Z",
+   "chapter": "Termodinamica",
+   "mistakes": [
+    "\"Il freddo entra dalla finestra\": è il calore che esce; il freddo non è una sostanza.",
+    "\"Il frigorifero viola il secondo principio\": no, consuma energia e l'entropia totale aumenta.",
+    "\"La vita contraddice l'entropia\": gli organismi non sono isolati e aumentano il disordine dell'ambiente."
+   ],
+   "terms": [
+    {
+     "t": "Temperatura",
+     "d": "Misura dell'agitazione media delle molecole."
+    },
+    {
+     "t": "Calore",
+     "d": "Energia che passa per differenza di temperatura."
+    },
+    {
+     "t": "Entropia",
+     "d": "Misura del disordine e dell'energia non più utilizzabile."
+    },
+    {
+     "t": "Sistema isolato",
+     "d": "Sistema che non scambia energia con l'esterno."
+    }
+   ],
+   "sections": [
+    {
+     "h": "Calore e temperatura",
+     "p": [
+      "La temperatura misura quanto si agitano, in media, le molecole di un oggetto: più si muovono in fretta, più l'oggetto è caldo. Il calore invece è l'energia che passa da un oggetto a un altro a causa di una differenza di temperatura.",
+      "Quando metti una mano su un termosifone, l'energia passa dal metallo caldo alla tua pelle. Il primo principio della termodinamica dice che in questi scambi l'energia si conserva: è la legge di conservazione dell'energia applicata al calore."
+     ]
+    },
+    {
+     "h": "Una domanda a cui il primo principio non risponde",
+     "p": [
+      "Il primo principio dice che l'energia totale si conserva, ma non dice in che direzione vanno le cose. Una tazza di caffè che si scalda da sola prendendo calore dall'aria fredda della stanza non violerebbe la conservazione dell'energia. Eppure non succede mai.",
+      "Il calore passa spontaneamente solo dal corpo più caldo a quello più freddo, mai il contrario. Questa osservazione, apparentemente banale, è il cuore del secondo principio della termodinamica."
+     ]
+    },
+    {
+     "h": "Il secondo principio e l'entropia",
+     "p": [
+      "Per descrivere questa direzione i fisici hanno introdotto una grandezza chiamata entropia. L'entropia di un sistema è una misura del suo disordine e di quanta energia non è più disponibile per compiere lavoro.",
+      "Il secondo principio, nella sua forma più generale, dice che l'entropia totale di un sistema isolato non diminuisce mai: può restare costante nei processi ideali, ma nei processi reali aumenta sempre. Il trasferimento di calore dal freddo al caldo non avviene spontaneamente perché farebbe diminuire l'entropia.",
+      "Un sistema isolato è uno che non scambia energia con l'esterno. L'universo nel suo insieme, per quanto ne sappiamo, è il sistema isolato per eccellenza: la sua entropia totale cresce continuamente."
+     ]
+    },
+    {
+     "h": "Perché proprio il disordine?",
+     "p": [
+      "Pensa a un mazzo di carte nuovo, ordinato per seme e valore. Mescolandolo, è quasi certo che diventi disordinato; è praticamente impossibile che mescolando un mazzo disordinato torni perfettamente in ordine. Il motivo è statistico: le disposizioni disordinate sono enormemente più numerose di quelle ordinate.",
+      "Con le molecole succede lo stesso, ma con numeri giganteschi. L'energia concentrata in un oggetto caldo può distribuirsi tra le molecole dell'ambiente in un'infinità di modi in più rispetto a quelli in cui resta concentrata. Per questo, lasciati a sé stessi, i sistemi evolvono verso stati più probabili, cioè più disordinati e con energia più distribuita.",
+      "Ecco perché l'entropia viene spesso legata alla \"freccia del tempo\": un film in cui un bicchiere rotto si ricompone da solo ci sembra subito girato al contrario, anche se nessuna legge del moto delle singole molecole lo vieta."
+     ]
+    },
+    {
+     "h": "Motori, frigoriferi ed energia sprecata",
+     "p": [
+      "Un motore termico trasforma calore in lavoro, ma il secondo principio impone che una parte del calore venga sempre ceduta a un ambiente più freddo. Per questo nessun motore può trasformare tutto il calore in lavoro, e il moto perpetuo è impossibile.",
+      "Un frigorifero sembra violare la regola: sposta calore dall'interno freddo all'esterno più caldo. Ma lo fa consumando energia elettrica, e se si conta anche la centrale che produce quell'elettricità e il calore rilasciato dietro il frigorifero, l'entropia totale aumenta comunque.",
+      "Quando l'energia si trasforma, la quantità totale resta la stessa ma diventa via via meno \"utile\": più distribuita, più disordinata, più difficile da sfruttare. È questo il vero senso di quando diciamo che l'energia si \"degrada\"."
+     ]
+    },
+    {
+     "h": "La vita e l'ordine",
+     "p": [
+      "Gli esseri viventi sono strutture molto ordinate: sembra che vadano contro l'entropia. In realtà non sono sistemi isolati: assorbono energia (dal cibo o, per le piante, dalla luce solare) e rilasciano calore e sostanze di scarto nell'ambiente.",
+      "L'ordine locale di un organismo si paga con un aumento ancora maggiore di disordine nell'ambiente intorno. Il bilancio totale rispetta sempre il secondo principio."
+     ]
+    }
+   ],
+   "formulas": [
+    {
+     "f": "ΔS = Q / T",
+     "d": "Variazione di entropia quando si scambia calore Q a temperatura (assoluta) T costante."
+    }
+   ]
   },
   {
    "id": "onde",
    "subject": "fisica",
-   "title": "Onde: come viaggia un'energia senza che si sposti la materia",
-   "hook": "Il suono, la luce, le onde del mare: si muove la perturbazione, non l'acqua.",
-   "body": [
-    "Un'onda è una perturbazione che si propaga, cioè che si sposta dal punto in cui è nata. Quello che viaggia è l'energia, non la materia.",
-    "Pensa a una \"ola\" allo stadio: ogni persona si alza e si siede al proprio posto, ma l'onda fa il giro dello stadio.",
-    "Ogni onda ha una lunghezza d'onda (la distanza tra due creste), una frequenza (quante creste passano ogni secondo) e una velocità. Le tre sono legate: velocità = frequenza × lunghezza d'onda.",
-    "Ci sono onde trasversali, in cui la materia si muove perpendicolarmente alla direzione dell'onda (come una corda scossa), e onde longitudinali, in cui si muove avanti e indietro lungo la stessa direzione (come il suono nell'aria)."
-   ],
+   "title": "Onde: come viaggia l'energia senza che si sposti la materia",
+   "hook": "Suono, onde del mare, luce, terremoti: tutto si descrive con poche grandezze. Ecco come funzionano.",
    "points": [
-    "Un'onda trasporta energia, non materia.",
-    "Velocità = frequenza × lunghezza d'onda.",
-    "Onde trasversali e longitudinali."
+    "Che cos'è un'onda e che cosa trasporta",
+    "Lunghezza d'onda, frequenza, ampiezza e velocità",
+    "Onde trasversali e longitudinali",
+    "Interferenza e risonanza"
    ],
-   "example": "Quando un amico ti parla, l'aria non arriva dalla sua bocca al tuo orecchio: arriva una serie di compressioni che fanno vibrare il timpano.",
+   "example": "Conta i secondi tra lampo e tuono e dividi per tre: ottieni più o meno a quanti chilometri è il temporale.",
    "quote": {
     "text": "A wave is a disturbance that propagates, or moves from the place it was created.",
     "translation": "Un'onda è una perturbazione che si propaga, cioè si sposta dal luogo in cui è stata creata."
@@ -314,25 +693,102 @@
     }
    ],
    "videoQuery": "onde fisica spiegazione",
-   "addedAt": "2026-11-03T23:16:40Z"
+   "addedAt": "2026-11-03T23:16:40Z",
+   "chapter": "Onde e suono",
+   "mistakes": [
+    "\"Le onde spostano l'acqua da una parte all'altra del mare\": si sposta l'energia, l'acqua oscilla sul posto.",
+    "\"Nello spazio si sentono le esplosioni\": il suono ha bisogno di un mezzo.",
+    "\"Più forte = più acuto\": il volume dipende dall'ampiezza, l'altezza dalla frequenza."
+   ],
+   "terms": [
+    {
+     "t": "Lunghezza d'onda (λ)",
+     "d": "Distanza tra due creste."
+    },
+    {
+     "t": "Frequenza",
+     "d": "Oscillazioni al secondo, in hertz."
+    },
+    {
+     "t": "Ampiezza",
+     "d": "Massimo spostamento dalla posizione di riposo."
+    },
+    {
+     "t": "Risonanza",
+     "d": "Grande aumento delle oscillazioni alla frequenza naturale."
+    }
+   ],
+   "sections": [
+    {
+     "h": "Che cos'è un'onda",
+     "p": [
+      "Un'onda è una perturbazione che si propaga, cioè che si allontana dal punto in cui è stata creata. Se lanci un sasso in uno stagno, si formano cerchi che si allargano; se scuoti l'estremità di una corda, un'increspatura corre lungo la corda.",
+      "La caratteristica fondamentale è questa: un'onda trasporta energia da un posto all'altro, ma non trasporta materia. Una foglia che galleggia sullo stagno si alza e si abbassa al passaggio delle onde, ma resta più o meno nello stesso punto.",
+      "L'esempio dell'ola allo stadio rende l'idea: ogni spettatore si alza e si siede restando al proprio posto, ma l'onda fa il giro degli spalti."
+     ]
+    },
+    {
+     "h": "Le grandezze di un'onda",
+     "p": [
+      "La lunghezza d'onda è la distanza tra due creste successive (o due punti equivalenti). L'ampiezza è quanto si allontana il mezzo dalla posizione di riposo: in un'onda del mare è l'altezza della cresta rispetto al livello normale, ed è legata all'energia trasportata.",
+      "La frequenza è il numero di oscillazioni complete che passano in un punto ogni secondo; si misura in hertz (Hz). Il periodo è il suo inverso: il tempo che serve per un'oscillazione completa.",
+      "Queste grandezze sono collegate da una relazione semplice: la velocità di un'onda è uguale alla frequenza moltiplicata per la lunghezza d'onda. Se in un mezzo la velocità è fissa, frequenze più alte significano onde più corte."
+     ]
+    },
+    {
+     "h": "Trasversali e longitudinali",
+     "p": [
+      "In un'onda trasversale le parti del mezzo si muovono perpendicolarmente alla direzione in cui viaggia l'onda: è il caso della corda scossa su e giù, o delle onde sulla superficie dell'acqua (che in realtà hanno anche un piccolo moto circolare).",
+      "In un'onda longitudinale il mezzo si muove avanti e indietro nella stessa direzione dell'onda, formando zone compresse e zone rarefatte. Il suono nell'aria è un'onda longitudinale: una sequenza di compressioni che parte dalle corde vocali o dall'altoparlante e arriva al tuo timpano.",
+      "I terremoti producono entrambi i tipi: le onde P (longitudinali) sono più veloci e arrivano prima; le onde S (trasversali) arrivano dopo. Studiando come attraversano la Terra, i sismologi hanno capito com'è fatto l'interno del pianeta."
+     ]
+    },
+    {
+     "h": "Il suono: un'onda che senti",
+     "p": [
+      "Il suono ha bisogno di un mezzo per propagarsi: nel vuoto non si sente nulla. Nell'aria a temperatura ambiente viaggia a circa 340 metri al secondo; nell'acqua e nei solidi va molto più veloce.",
+      "La frequenza del suono corrisponde all'altezza della nota: frequenze alte sono suoni acuti, frequenze basse suoni gravi. L'orecchio umano sente all'incirca tra 20 e 20.000 hertz. L'ampiezza invece corrisponde all'intensità, cioè al volume.",
+      "Il ritardo tra lampo e tuono si spiega così: la luce arriva quasi subito, il suono impiega circa tre secondi per percorrere un chilometro."
+     ]
+    },
+    {
+     "h": "Quando le onde si incontrano",
+     "p": [
+      "Due onde possono attraversare la stessa regione e sommarsi: è il principio di sovrapposizione. Se due creste coincidono si rafforzano (interferenza costruttiva); se una cresta incontra un ventre si indeboliscono o si annullano (interferenza distruttiva). Le cuffie a cancellazione di rumore sfruttano proprio questo: producono un'onda opposta al rumore esterno.",
+      "Ogni oggetto ha frequenze in cui vibra più facilmente, dette frequenze naturali. Se lo si spinge proprio a quella frequenza, le oscillazioni crescono molto: è la risonanza. È ciò che succede quando spingi un'altalena al momento giusto, o quando un cantante fa vibrare un bicchiere fino a romperlo."
+     ]
+    },
+    {
+     "h": "Onde ovunque",
+     "p": [
+      "La luce, le onde radio, il wi-fi e i raggi X sono onde elettromagnetiche: non hanno bisogno di un mezzo e viaggiano anche nel vuoto, alla velocità della luce. Seguono però le stesse regole generali di lunghezza d'onda, frequenza e interferenza.",
+      "Per questo capire le onde è come avere una chiave che apre molte porte: musica, telecomunicazioni, medicina (ecografie), sismologia e astronomia."
+     ]
+    }
+   ],
+   "formulas": [
+    {
+     "f": "v = f · λ",
+     "d": "Velocità dell'onda = frequenza (Hz) × lunghezza d'onda (m)."
+    },
+    {
+     "f": "T = 1 / f",
+     "d": "Il periodo è l'inverso della frequenza."
+    }
+   ]
   },
   {
    "id": "corrente-elettrica",
    "subject": "fisica",
-   "title": "Corrente, tensione, resistenza: l'elettricità come l'acqua in un tubo",
-   "hook": "La legge di Ohm spiega in una riga cosa succede ogni volta che accendi una lampadina.",
-   "body": [
-    "La corrente elettrica è un flusso di cariche, di solito elettroni, che si muovono in un filo. Si misura in ampere.",
-    "Per farle muovere serve una \"spinta\": è la tensione, o differenza di potenziale, misurata in volt. Una pila o una presa di corrente mantengono questa spinta.",
-    "Ogni materiale oppone una certa resistenza al passaggio della corrente, misurata in ohm. Il rame resiste poco, la gomma moltissimo.",
-    "La legge di Ohm lega le tre grandezze: per molti materiali la corrente è proporzionale alla tensione e inversamente proporzionale alla resistenza. In formula: I = V / R."
-   ],
+   "title": "Corrente, tensione e resistenza: come funziona un circuito",
+   "hook": "Ogni volta che accendi una luce, tre grandezze lavorano insieme. Con la legge di Ohm capisci cosa succede nei fili.",
    "points": [
-    "Tensione = la spinta (volt).",
-    "Corrente = il flusso (ampere).",
-    "Resistenza = l'ostacolo (ohm)."
+    "Che cos'è la carica elettrica e cosa significa corrente",
+    "La tensione come spinta che mette in moto le cariche",
+    "Resistenza e legge di Ohm",
+    "Potenza elettrica e perché i cavi si scaldano"
    ],
-   "example": "Immagina un tubo d'acqua: la pressione è la tensione, la quantità d'acqua che passa è la corrente, un tubo stretto è una resistenza alta.",
+   "example": "Una ciabatta con stufetta, bollitore e phon accesi insieme può far scattare il salvavita: la corrente totale supera il limite per cui l'impianto è pensato.",
    "quote": {
     "text": "We can think of various devices—such as batteries, generators, wall outlets, and so on—which are necessary to maintain a current.",
     "translation": "Possiamo pensare a vari dispositivi, come batterie, generatori, prese a muro e così via, necessari per mantenere una corrente."
@@ -359,25 +815,101 @@
     }
    ],
    "videoQuery": "legge di Ohm corrente tensione resistenza",
-   "addedAt": "2026-11-03T23:16:40Z"
+   "addedAt": "2026-11-03T23:16:40Z",
+   "chapter": "Elettricità e magnetismo",
+   "mistakes": [
+    "\"La corrente si consuma nella lampadina\": la corrente che entra è la stessa che esce; si trasforma l'energia.",
+    "\"Gli elettroni corrono alla velocità della luce\": si muovono lentamente, è il segnale a essere veloce.",
+    "\"È la tensione da sola a essere pericolosa\": ciò che danneggia il corpo è la corrente che lo attraversa, che dipende da tensione e resistenza."
+   ],
+   "terms": [
+    {
+     "t": "Ampere (A)",
+     "d": "Unità di misura della corrente."
+    },
+    {
+     "t": "Volt (V)",
+     "d": "Unità della tensione, la \"spinta\" sulle cariche."
+    },
+    {
+     "t": "Ohm (Ω)",
+     "d": "Unità della resistenza."
+    },
+    {
+     "t": "Circuito",
+     "d": "Percorso chiuso in cui scorre la corrente."
+    }
+   ],
+   "sections": [
+    {
+     "h": "Le cariche elettriche",
+     "p": [
+      "La materia è fatta di atomi, che contengono particelle con carica elettrica: i protoni (positivi) nel nucleo e gli elettroni (negativi) intorno. Cariche dello stesso segno si respingono, cariche di segno opposto si attraggono.",
+      "Nei metalli alcuni elettroni non sono legati a un singolo atomo e possono muoversi liberamente nel materiale. Per questo i metalli sono buoni conduttori. In materiali come la gomma o il vetro gli elettroni sono vincolati: sono isolanti."
+     ]
+    },
+    {
+     "h": "Corrente: un flusso di cariche",
+     "p": [
+      "La corrente elettrica è il flusso di carica attraverso un conduttore. Si misura in ampere (A): un ampere corrisponde a una certa quantità di carica (un coulomb) che attraversa una sezione del filo ogni secondo.",
+      "Curiosamente, gli elettroni in un filo si muovono piano, in media meno di un millimetro al secondo. Eppure la luce si accende subito quando premi l'interruttore: il filo è già pieno di elettroni, e il segnale che li mette in moto tutti insieme si propaga quasi alla velocità della luce, come quando spingi un tubo già pieno di biglie."
+     ]
+    },
+    {
+     "h": "Tensione: la spinta",
+     "p": [
+      "Le cariche non si muovono da sole in un circuito: serve qualcosa che le spinga. Questa spinta è la tensione, o differenza di potenziale, misurata in volt (V). Pile, batterie, generatori e prese di corrente sono dispositivi che mantengono una tensione e quindi una corrente.",
+      "Un'analogia utile è quella dell'acqua: la tensione è come la differenza di pressione (o di altezza) che fa scorrere l'acqua in un tubo; la corrente è la quantità d'acqua che passa ogni secondo.",
+      "Una pila stilo fornisce circa 1,5 volt, una batteria d'auto 12 volt, la presa di casa in Italia 230 volt (in corrente alternata)."
+     ]
+    },
+    {
+     "h": "Resistenza e legge di Ohm",
+     "p": [
+      "Ogni materiale si oppone in qualche misura al passaggio della corrente: è la resistenza, misurata in ohm (Ω). Gli elettroni in movimento urtano gli atomi del materiale e perdono energia. Il rame resiste poco, il filamento di una vecchia lampadina molto di più.",
+      "La resistenza di un filo cresce con la sua lunghezza e diminuisce con il suo spessore: un filo lungo e sottile resiste di più di uno corto e grosso, proprio come un tubo lungo e stretto lascia passare meno acqua.",
+      "Per molti materiali vale la legge di Ohm: la corrente è direttamente proporzionale alla tensione applicata e inversamente proporzionale alla resistenza. In formula I = V / R. Raddoppi la tensione, raddoppia la corrente; raddoppi la resistenza, la corrente si dimezza."
+     ]
+    },
+    {
+     "h": "Il circuito",
+     "p": [
+      "Perché la corrente scorra serve un percorso chiuso: un circuito. L'interruttore non fa altro che aprire o chiudere questo percorso. Se il circuito è aperto, anche con la tensione presente, non passa corrente.",
+      "Un cortocircuito avviene quando la corrente trova un percorso con resistenza bassissima, saltando gli apparecchi: secondo la legge di Ohm, con R molto piccola la corrente diventa enorme, i fili si scaldano e possono prendere fuoco. Fusibili e interruttori automatici servono a interrompere la corrente quando diventa pericolosa."
+     ]
+    },
+    {
+     "h": "Potenza ed energia elettrica",
+     "p": [
+      "La potenza elettrica, in watt, è il prodotto di tensione e corrente: P = V · I. Un bollitore da 2.000 watt collegato a 230 volt assorbe quasi 9 ampere.",
+      "Quando la corrente attraversa una resistenza, una parte dell'energia diventa calore. Nei fornelli elettrici e negli asciugacapelli è proprio l'effetto voluto; nei cavi è uno spreco. Per questo le linee elettriche ad alta tensione trasportano l'energia a migliaia di volt: a parità di potenza, una tensione alta permette una corrente più bassa e quindi meno calore disperso nei cavi.",
+      "La bolletta conta l'energia in chilowattora (kWh): un apparecchio da 1.000 watt acceso per un'ora consuma 1 kWh."
+     ]
+    }
+   ],
+   "formulas": [
+    {
+     "f": "I = V / R",
+     "d": "Legge di Ohm: corrente (A) = tensione (V) / resistenza (Ω)."
+    },
+    {
+     "f": "P = V · I",
+     "d": "Potenza elettrica (W) = tensione × corrente."
+    }
+   ]
   },
   {
    "id": "relativita",
    "subject": "fisica",
-   "title": "Relatività: il tempo scorre più lento per chi si muove",
-   "hook": "Non è fantascienza: senza questa correzione il GPS del tuo telefono sbaglierebbe strada.",
-   "body": [
-    "Nel 1905 Einstein partì da due idee: le leggi della fisica sono le stesse per chiunque si muova a velocità costante, e la luce nel vuoto ha la stessa velocità per tutti gli osservatori.",
-    "Da qui segue una conseguenza sorprendente, la dilatazione del tempo: un orologio in movimento rispetto a te scorre più lentamente del tuo.",
-    "Alle velocità di tutti i giorni l'effetto è minuscolo, ma diventa enorme vicino alla velocità della luce.",
-    "Si misura davvero. I muoni, particelle create dai raggi cosmici in alta atmosfera, vivono pochissimo ma riescono ad arrivare a terra perché, viaggiando quasi alla velocità della luce, il loro tempo per noi rallenta. E i satelliti GPS devono tenere conto degli effetti relativistici per funzionare."
-   ],
+   "title": "Relatività ristretta: tempo e spazio non sono uguali per tutti",
+   "hook": "Einstein partì da due idee semplici e arrivò a conclusioni sorprendenti. E il GPS del tuo telefono le usa ogni giorno.",
    "points": [
-    "La luce ha la stessa velocità per tutti.",
-    "Un orologio in movimento rallenta.",
-    "Il GPS deve correggere gli effetti relativistici."
+    "I due postulati di Einstein",
+    "Perché \"contemporaneo\" dipende da chi osserva",
+    "La dilatazione del tempo e il paradosso dei gemelli",
+    "Le prove: muoni, orologi atomici e GPS"
    ],
-   "example": "Ogni volta che usi una mappa sul telefono, stai usando tecnologia che funziona solo perché tiene conto della relatività.",
+   "example": "Senza le correzioni della relatività, il navigatore del telefono accumulerebbe errori di posizione giorno dopo giorno.",
    "quote": {
     "text": "Time dilation is the phenomenon of time passing slower for an observer who is moving relative to another observer.",
     "translation": "La dilatazione del tempo è il fenomeno per cui il tempo scorre più lentamente per un osservatore che si muove rispetto a un altro osservatore."
@@ -404,25 +936,101 @@
     }
    ],
    "videoQuery": "relatività ristretta dilatazione del tempo",
-   "addedAt": "2026-11-03T23:16:40Z"
+   "addedAt": "2026-11-03T23:16:40Z",
+   "chapter": "Fisica moderna",
+   "mistakes": [
+    "\"Relativo vuol dire che tutto è opinabile\": le leggi della fisica sono le stesse per tutti, sono le misure di tempo e spazio a dipendere dal moto.",
+    "\"È solo un'illusione\": gli effetti si misurano con orologi reali.",
+    "\"Si nota solo nella fantascienza\": il GPS lo corregge ogni giorno."
+   ],
+   "terms": [
+    {
+     "t": "Postulato",
+     "d": "Principio di partenza di una teoria."
+    },
+    {
+     "t": "Simultaneità",
+     "d": "Il verificarsi di due eventi nello stesso istante."
+    },
+    {
+     "t": "Dilatazione del tempo",
+     "d": "Rallentamento del tempo per un osservatore in moto rispetto a un altro."
+    },
+    {
+     "t": "Muone",
+     "d": "Particella simile all'elettrone, ma più pesante e instabile."
+    }
+   ],
+   "sections": [
+    {
+     "h": "Il problema della luce",
+     "p": [
+      "Alla fine dell'Ottocento la fisica aveva un problema. Le equazioni dell'elettromagnetismo prevedevano che la luce viaggiasse sempre alla stessa velocità, circa 300.000 chilometri al secondo. Ma rispetto a cosa? Nella vita quotidiana le velocità si sommano: se corri a 10 km/h su un treno che va a 100 km/h, rispetto ai binari vai a 110.",
+      "Gli esperimenti però non trovavano nessuna differenza nella velocità della luce, comunque si muovesse chi la misurava. Nel 1905 Albert Einstein decise di prendere questo fatto sul serio e vedere dove portava."
+     ]
+    },
+    {
+     "h": "I due postulati",
+     "p": [
+      "Primo postulato: le leggi della fisica sono le stesse per tutti gli osservatori che si muovono a velocità costante gli uni rispetto agli altri. Non esiste un esperimento che ti dica se sei \"davvero\" fermo o in moto uniforme: in un treno perfettamente silenzioso e liscio non potresti accorgerti di muoverti senza guardare fuori.",
+      "Secondo postulato: la velocità della luce nel vuoto è la stessa per tutti gli osservatori, indipendentemente da come si muovono la sorgente o l'osservatore.",
+      "Presi singolarmente sembrano ragionevoli. Insieme, obbligano a rinunciare all'idea che il tempo e lo spazio siano uguali per tutti."
+     ]
+    },
+    {
+     "h": "La simultaneità è relativa",
+     "p": [
+      "Immagina un vagone che corre veloce con una lampada esattamente al centro. Quando si accende, per un passeggero la luce raggiunge la parete anteriore e quella posteriore nello stesso istante. Per una persona ferma sulla banchina, invece, la parete posteriore va incontro alla luce e quella anteriore scappa: la luce arriva prima dietro e poi davanti.",
+      "Entrambi hanno ragione. Due eventi che sono simultanei per un osservatore possono non esserlo per un altro che si muove rispetto al primo. Non esiste un \"adesso\" unico e assoluto per tutto l'universo."
+     ]
+    },
+    {
+     "h": "La dilatazione del tempo",
+     "p": [
+      "Se la luce ha la stessa velocità per tutti, allora gli intervalli di tempo devono cambiare. Il risultato è la dilatazione del tempo: un orologio che si muove rispetto a te scorre più lentamente del tuo, dal tuo punto di vista.",
+      "L'effetto dipende dalla velocità: alle velocità di auto e aerei è piccolissimo, ma diventa enorme vicino alla velocità della luce. A circa l'87% della velocità della luce, per esempio, il tempo di chi viaggia scorre a metà ritmo rispetto a chi resta fermo.",
+      "Da qui il famoso paradosso dei gemelli: un gemello parte per un viaggio a velocità altissima e torna; al ritorno è più giovane di quello rimasto sulla Terra. Non c'è contraddizione, perché i due non sono in situazioni simmetriche: solo quello che viaggia cambia direzione e accelera."
+     ]
+    },
+    {
+     "h": "Non è teoria: si misura",
+     "p": [
+      "I muoni sono particelle create quando i raggi cosmici colpiscono l'alta atmosfera. A riposo vivono pochissimo, circa un milionesimo e mezzo di secondo prima che la metà di loro decada: a quel ritmo pochissimi dovrebbero arrivare al suolo. Invece ne arrivano molti, perché viaggiano quasi alla velocità della luce e, dal nostro punto di vista, il loro tempo rallenta.",
+      "Orologi atomici montati su aerei e satelliti hanno confermato la dilatazione del tempo con grande precisione. E il sistema GPS non potrebbe funzionare senza tenere conto degli effetti relativistici: i satelliti si basano su misure di tempo precisissime, e senza correzioni gli errori di posizione si accumulerebbero rapidamente."
+     ]
+    },
+    {
+     "h": "Altre conseguenze",
+     "p": [
+      "La relatività ristretta prevede anche la contrazione delle lunghezze (un oggetto in moto appare più corto nella direzione del moto) e un limite di velocità universale: nessun oggetto con massa può raggiungere la velocità della luce.",
+      "E porta alla formula più famosa della fisica, E = mc²: massa ed energia sono due facce della stessa cosa. Una piccola quantità di massa corrisponde a un'enorme quantità di energia, ed è così che brillano le stelle.",
+      "Dieci anni dopo Einstein estese queste idee alla gravità con la relatività generale, in cui anche la gravità rallenta il tempo."
+     ]
+    }
+   ],
+   "formulas": [
+    {
+     "f": "c ≈ 300.000 km/s",
+     "d": "Velocità della luce nel vuoto, uguale per tutti gli osservatori."
+    },
+    {
+     "f": "E = m · c²",
+     "d": "Equivalenza tra massa ed energia."
+    }
+   ]
   },
   {
    "id": "neuroni",
    "subject": "psicologia",
-   "title": "Come parlano i neuroni: messaggi elettrici e chimici",
-   "hook": "Ogni pensiero è un passaggio di segnali tra cellule. Ecco come funziona, passo per passo.",
-   "body": [
-    "Il sistema nervoso è fatto di neuroni, cellule specializzate nel trasmettere informazioni. Alla nascita ne abbiamo circa 100 miliardi.",
-    "Un neurone riceve segnali dai suoi \"rami\" (i dendriti) e invia il proprio messaggio lungo un lungo filo, l'assone, sotto forma di impulso elettrico.",
-    "Alla fine dell'assone il segnale diventa chimico: vengono rilasciati i neurotrasmettitori, piccole molecole che attraversano lo spazio tra due neuroni (la sinapsi).",
-    "I neurotrasmettitori si legano a recettori specifici sul neurone successivo, come chiavi nelle serrature. Molti farmaci per l'umore agiscono proprio su questo passaggio."
-   ],
+   "title": "Neuroni e sinapsi: come il cervello trasmette i messaggi",
+   "hook": "Ogni pensiero, ricordo o movimento è una catena di segnali elettrici e chimici tra cellule. Ecco come funziona, passo per passo.",
    "points": [
-    "Dentro il neurone il segnale è elettrico.",
-    "Tra due neuroni diventa chimico.",
-    "I neurotrasmettitori sono i messaggeri."
+    "Com'è fatto un neurone",
+    "Il potenziale d'azione: il segnale elettrico",
+    "La sinapsi e i neurotrasmettitori",
+    "Perché molti farmaci agiscono proprio sulle sinapsi"
    ],
-   "example": "Quando tocchi qualcosa di caldo e ritiri la mano, una catena di neuroni ha passato il messaggio in una frazione di secondo.",
+   "example": "Quando tocchi una pentola bollente e ritiri la mano, il segnale ha già attraversato diverse sinapsi prima ancora che tu senta il dolore.",
    "quote": {
     "text": "The terminal buttons contain synaptic vesicles that house neurotransmitters, the chemical messengers of the nervous system.",
     "translation": "I bottoni terminali contengono vescicole sinaptiche che ospitano i neurotrasmettitori, i messaggeri chimici del sistema nervoso."
@@ -449,25 +1057,97 @@
     }
    ],
    "videoQuery": "neuroni sinapsi neurotrasmettitori",
-   "addedAt": "2026-11-03T23:16:40Z"
+   "addedAt": "2026-11-03T23:16:40Z",
+   "chapter": "Cervello e biologia",
+   "mistakes": [
+    "\"Usiamo solo il 10% del cervello\": è un mito, le varie aree sono attive in momenti e compiti diversi.",
+    "\"La dopamina è la molecola del piacere\": ha molte funzioni, tra cui motivazione e movimento.",
+    "\"I neuroni si toccano\": comunicano attraverso uno spazio, la fessura sinaptica."
+   ],
+   "terms": [
+    {
+     "t": "Assone",
+     "d": "Prolungamento che porta il segnale lontano dal corpo del neurone."
+    },
+    {
+     "t": "Dendriti",
+     "d": "Ramificazioni che ricevono i segnali."
+    },
+    {
+     "t": "Mielina",
+     "d": "Guaina isolante che rende il segnale più veloce."
+    },
+    {
+     "t": "Neurotrasmettitore",
+     "d": "Messaggero chimico tra neuroni."
+    },
+    {
+     "t": "Ricaptazione",
+     "d": "Riassorbimento del neurotrasmettitore dopo il rilascio."
+    }
+   ],
+   "sections": [
+    {
+     "h": "Le cellule che pensano",
+     "p": [
+      "Il sistema nervoso è costruito con due tipi principali di cellule. I neuroni sono le cellule che trasmettono le informazioni: alla nascita ne abbiamo circa 100 miliardi. Le cellule gliali li sostengono, li nutrono, li isolano e li ripuliscono.",
+      "Ogni neurone è collegato a molti altri, formando reti enormemente complesse. Le capacità della mente, dal vedere un colore al ricordare un nome, nascono dall'attività coordinata di queste reti."
+     ]
+    },
+    {
+     "h": "Com'è fatto un neurone",
+     "p": [
+      "Un neurone ha tre parti principali. Il corpo cellulare (soma) contiene il nucleo. I dendriti sono ramificazioni che ricevono segnali da altri neuroni, come antenne. L'assone è un prolungamento, a volte lunghissimo, che porta il segnale lontano dal corpo cellulare.",
+      "Molti assoni sono rivestiti di mielina, una guaina grassa prodotta dalle cellule gliali che funziona come l'isolante di un cavo elettrico e rende la trasmissione molto più veloce. Nella sclerosi multipla la mielina si danneggia e i segnali rallentano o si interrompono.",
+      "All'estremità dell'assone ci sono i bottoni terminali, che contengono piccole vescicole piene di neurotrasmettitori, i messaggeri chimici del sistema nervoso."
+     ]
+    },
+    {
+     "h": "Il segnale elettrico: il potenziale d'azione",
+     "p": [
+      "A riposo l'interno del neurone è leggermente negativo rispetto all'esterno, grazie a una distribuzione diversa di ioni (atomi con carica elettrica) dentro e fuori la membrana. È come una piccola batteria carica.",
+      "Quando i segnali ricevuti dai dendriti sono abbastanza forti da superare una certa soglia, si aprono dei canali nella membrana e gli ioni entrano di colpo: la carica si inverte per un istante. Questo impulso, il potenziale d'azione, corre lungo l'assone fino ai terminali.",
+      "Il potenziale d'azione segue la regola del \"tutto o nulla\": o parte con la piena intensità o non parte affatto. Un neurone non trasmette uno stimolo più forte con un impulso più grande, ma con impulsi più frequenti."
+     ]
+    },
+    {
+     "h": "La sinapsi: dove il messaggio diventa chimico",
+     "p": [
+      "Due neuroni non si toccano: tra il terminale di uno e il dendrite dell'altro c'è uno spazio minuscolo, la fessura sinaptica. L'insieme di terminale, fessura e dendrite si chiama sinapsi.",
+      "Quando il potenziale d'azione arriva ai bottoni terminali, le vescicole rilasciano i neurotrasmettitori nella fessura. Queste molecole attraversano lo spazio e si legano a recettori specifici sul neurone successivo, come chiavi che entrano solo nelle serrature giuste.",
+      "A seconda del neurotrasmettitore e del recettore, il neurone successivo viene spinto ad attivarsi (effetto eccitatorio) o frenato (effetto inibitorio). Poi il neurotrasmettitore viene rimosso dalla fessura, in parte riassorbito dal neurone che l'aveva rilasciato: è la ricaptazione."
+     ]
+    },
+    {
+     "h": "I principali neurotrasmettitori",
+     "p": [
+      "Ce ne sono molti, con ruoli diversi. L'acetilcolina è coinvolta nel movimento muscolare, nell'attenzione e nella memoria. La dopamina ha un ruolo nel movimento e nei circuiti della ricompensa e della motivazione. La serotonina influenza sonno, umore e appetito.",
+      "Il GABA è il principale neurotrasmettitore inibitorio, il glutammato il principale eccitatorio. Le endorfine sono coinvolte nella riduzione del dolore e nelle sensazioni di benessere.",
+      "Attenzione alle semplificazioni: nessuna molecola è \"la molecola della felicità\". Ogni neurotrasmettitore partecipa a molte funzioni diverse a seconda della zona del cervello in cui agisce."
+     ]
+    },
+    {
+     "h": "Perché conta: farmaci e sostanze",
+     "p": [
+      "Molte sostanze psicoattive agiscono proprio sulle sinapsi. Alcune imitano un neurotrasmettitore e attivano i suoi recettori (si chiamano agonisti); altre li bloccano (antagonisti).",
+      "Alcuni antidepressivi, per esempio, rallentano la ricaptazione della serotonina, così che resti più a lungo nella fessura sinaptica. Capire la sinapsi aiuta quindi a capire sia come funzionano le cure, sia perché alcune sostanze creano dipendenza."
+     ]
+    }
+   ],
+   "formulas": []
   },
   {
    "id": "percezione",
    "subject": "psicologia",
-   "title": "Vedere non è registrare: il cervello interpreta",
-   "hook": "Gli occhi raccolgono luce, ma è il cervello a decidere cosa stai guardando.",
-   "body": [
-    "La psicologia distingue due fasi. La sensazione è il lavoro dei sensi: occhi, orecchie e pelle captano stimoli fisici come luce, suoni e pressione.",
-    "La percezione è il passo successivo: il cervello organizza e interpreta quei segnali e li trasforma in qualcosa che ha senso, come un volto, una parola o una melodia.",
-    "Per questo due persone possono percepire diversamente la stessa cosa: aspettative, attenzione, cultura ed esperienze passate influenzano l'interpretazione.",
-    "Ogni senso ha una soglia assoluta, cioè la quantità minima di stimolo che serve per accorgersene almeno la metà delle volte. Sotto quella soglia, lo stimolo c'è ma non lo notiamo."
-   ],
+   "title": "Sensazione e percezione: il cervello costruisce ciò che vedi",
+   "hook": "Gli occhi raccolgono luce, ma è il cervello a decidere cosa stai guardando. Per questo le illusioni ottiche funzionano.",
    "points": [
-    "Sensazione = raccogliere stimoli.",
-    "Percezione = interpretarli.",
-    "Le aspettative cambiano ciò che percepiamo."
+    "La differenza tra sensazione e percezione",
+    "Soglie, adattamento sensoriale e messaggi subliminali",
+    "Come attenzione e aspettative cambiano ciò che percepiamo",
+    "I principi della Gestalt"
    ],
-   "example": "Le illusioni ottiche funzionano perché il cervello applica le sue regole di interpretazione anche quando, in quel caso, sono sbagliate.",
+   "example": "Dopo qualche minuto in una stanza con un rumore di fondo costante, come un frigorifero, smetti di sentirlo: è adattamento sensoriale.",
    "quote": {
     "text": "One way to think of this concept is that sensation is a physical process, whereas perception is psychological.",
     "translation": "Un modo di pensare a questo concetto è che la sensazione è un processo fisico, mentre la percezione è psicologica."
@@ -499,25 +1179,92 @@
     }
    ],
    "videoQuery": "sensazione e percezione psicologia",
-   "addedAt": "2026-11-03T23:16:40Z"
+   "addedAt": "2026-11-03T23:16:40Z",
+   "chapter": "Sensi e percezione",
+   "mistakes": [
+    "\"Vediamo il mondo così com'è\": vediamo un'interpretazione costruita dal cervello.",
+    "\"I messaggi subliminali controllano gli acquisti\": le prove non lo sostengono.",
+    "\"Le illusioni ottiche sono difetti della vista\": rivelano le regole, di solito efficaci, del cervello."
+   ],
+   "terms": [
+    {
+     "t": "Trasduzione",
+     "d": "Trasformazione di uno stimolo fisico in segnale nervoso."
+    },
+    {
+     "t": "Soglia assoluta",
+     "d": "Stimolo minimo rilevato nel 50% dei casi."
+    },
+    {
+     "t": "Adattamento sensoriale",
+     "d": "Calo della risposta a uno stimolo costante."
+    },
+    {
+     "t": "Gestalt",
+     "d": "Scuola che studia come organizziamo le percezioni in insiemi."
+    }
+   ],
+   "sections": [
+    {
+     "h": "Due passaggi distinti",
+     "p": [
+      "La psicologia distingue due fasi. La sensazione avviene quando un recettore sensoriale (nella retina, nell'orecchio, nella pelle, nel naso, sulla lingua) viene stimolato da qualcosa del mondo fisico: luce, onde sonore, pressione, molecole. Lo stimolo viene trasformato in segnali nervosi, un processo chiamato trasduzione.",
+      "La percezione è il modo in cui il cervello organizza e interpreta quei segnali, trasformandoli in un'esperienza dotata di significato: un volto, una canzone, il profumo del caffè. Si può riassumere così: la sensazione è un processo fisico, la percezione è psicologica."
+     ]
+    },
+    {
+     "h": "Le soglie: quanto deve essere forte uno stimolo",
+     "p": [
+      "Ogni senso ha una sensibilità limitata. La soglia assoluta è la quantità minima di stimolo che serve per accorgersene almeno nel 50% dei casi. In condizioni ideali i nostri sensi sono molto sensibili: in una notte limpida e buia si potrebbe vedere la fiamma di una candela a molti chilometri di distanza.",
+      "La soglia differenziale è invece la differenza minima che riusciamo a notare tra due stimoli. Dipende dall'intensità di partenza: aggiungere un etto a uno zaino quasi vuoto si sente, aggiungerlo a uno zaino pesantissimo no.",
+      "Gli stimoli sotto la soglia di consapevolezza sono detti subliminali. Possono avere qualche effetto misurabile in laboratorio, ma l'idea che pubblicità nascoste possano controllare le nostre scelte non è sostenuta dalle prove."
+     ]
+    },
+    {
+     "h": "Adattamento: smettiamo di sentire ciò che non cambia",
+     "p": [
+      "Se uno stimolo resta costante, dopo un po' i recettori rispondono di meno: è l'adattamento sensoriale. Non senti più l'orologio sul polso pochi minuti dopo averlo messo, e non noti più l'odore di casa tua, che invece un ospite sente subito.",
+      "È un meccanismo utile: il sistema nervoso si concentra su ciò che cambia, perché i cambiamenti sono di solito le informazioni più importanti."
+     ]
+    },
+    {
+     "h": "Attenzione e aspettative",
+     "p": [
+      "Riceviamo molte più informazioni di quante riusciamo a elaborare, quindi il cervello seleziona. L'attenzione ci fa notare alcune cose e ignorarne altre: in esperimenti famosi, molte persone concentrate a contare passaggi di palla non si accorgono di un attore travestito da gorilla che attraversa la scena. Si chiama cecità da disattenzione.",
+      "La percezione dipende anche da ciò che ci aspettiamo, dalle esperienze passate, dalla cultura, dalle emozioni e dalle motivazioni. Due persone possono percepire diversamente lo stesso evento in buona fede.",
+      "Gli psicologi distinguono l'elaborazione dal basso verso l'alto (bottom-up), che parte dai dati dei sensi, e quella dall'alto verso il basso (top-down), guidata da conoscenze e aspettative. Riesci a leggere una parola scritta male proprio grazie all'elaborazione top-down."
+     ]
+    },
+    {
+     "h": "La Gestalt: il tutto è più della somma delle parti",
+     "p": [
+      "All'inizio del Novecento gli psicologi della Gestalt (parola tedesca che significa \"forma\") osservarono che il cervello tende a organizzare automaticamente gli elementi in insiemi dotati di senso.",
+      "Alcuni principi: figura e sfondo (separiamo un oggetto da ciò che sta dietro); vicinanza (elementi vicini sembrano un gruppo); somiglianza (elementi simili sembrano appartenere insieme); continuità (seguiamo linee e curve fluide); chiusura (completiamo mentalmente le figure con dei buchi).",
+      "Grafici, loghi e interfacce delle app usano continuamente questi principi: per esempio, raggruppare pulsanti vicini fa capire che hanno funzioni collegate."
+     ]
+    },
+    {
+     "h": "Le illusioni ottiche",
+     "p": [
+      "Le illusioni non sono difetti della vista ma effetti collaterali di regole che di solito funzionano benissimo. Il cervello usa indizi come prospettiva, ombre e contesto per interpretare le immagini; quando un disegno sfrutta quelle regole in modo insolito, l'interpretazione automatica ci inganna.",
+      "Sono preziose per i ricercatori proprio perché mostrano quali regole usa il cervello per costruire la nostra esperienza del mondo."
+     ]
+    }
+   ],
+   "formulas": []
   },
   {
    "id": "sonno",
    "subject": "psicologia",
-   "title": "Perché dormiamo? Il sonno lavora per la memoria",
-   "hook": "Passiamo circa un terzo della vita dormendo. La scienza ha diverse ipotesi sul perché.",
-   "body": [
-    "Il sonno è uno stato di bassa attività fisica e ridotta sensibilità all'ambiente, con schemi tipici di attività cerebrale che si possono misurare con l'elettroencefalogramma (EEG).",
-    "È regolato da due meccanismi: un orologio interno di circa 24 ore (il ritmo circadiano) e una \"pressione\" che cresce più a lungo restiamo svegli.",
-    "Non esiste una sola spiegazione del perché dormiamo. Una delle teorie principali riguarda la cognizione: il sonno sembra importante per consolidare i ricordi.",
-    "La prova più chiara viene da chi dorme poco: la mancanza di sonno peggiora attenzione, capacità di decidere e capacità di richiamare i ricordi."
-   ],
+   "title": "Il sonno: perché dormiamo e cosa succede di notte",
+   "hook": "Passiamo una grande parte della vita dormendo. Ecco come funziona il sonno, cosa regola il bisogno di dormire e perché conta per la memoria.",
    "points": [
-    "Il sonno è regolato da orologio interno e stanchezza accumulata.",
-    "Aiuta a formare i ricordi.",
-    "Dormire poco peggiora attenzione e decisioni."
+    "Che cos'è il sonno e come si misura",
+    "Ritmo circadiano e pressione del sonno",
+    "Le fasi del sonno: NREM e REM",
+    "Le principali teorie sul perché dormiamo"
    ],
-   "example": "Studiare fino a tardi e poi dormire pochissimo è una strategia scadente: proprio il sonno aiuta a fissare quello che hai studiato.",
+   "example": "Prima di un esame, dormire bene dopo aver studiato aiuta a fissare i ricordi più di qualche ora di studio in più rubata al sonno.",
    "quote": {
     "text": "Indeed, we know sleep deprivation results in disruptions in cognition and memory deficits (Brown, 2012), leading to impairments in our abilities to maintain attention, make decisions, and recall long-term memories.",
     "translation": "Sappiamo infatti che la privazione di sonno provoca disturbi cognitivi e deficit di memoria (Brown, 2012), compromettendo la capacità di mantenere l'attenzione, prendere decisioni e richiamare i ricordi a lungo termine."
@@ -527,6 +1274,11 @@
      "name": "OpenStax · Psychology 2e",
      "title": "4.2 Sleep and Why We Sleep",
      "url": "https://openstax.org/books/psychology-2e/pages/4-2-sleep-and-why-we-sleep"
+    },
+    {
+     "name": "OpenStax · Psychology 2e",
+     "title": "4.3 Stages of Sleep",
+     "url": "https://openstax.org/books/psychology-2e/pages/4-3-stages-of-sleep"
     }
    ],
    "videos": [
@@ -550,25 +1302,92 @@
     }
    ],
    "videoQuery": "perché dormiamo sonno memoria",
-   "addedAt": "2026-11-03T23:16:40Z"
+   "addedAt": "2026-11-03T23:16:40Z",
+   "chapter": "Cervello e biologia",
+   "mistakes": [
+    "\"Durante il sonno il cervello si spegne\": resta molto attivo, in modi diversi a seconda della fase.",
+    "\"Si sogna solo in fase REM\": si può sognare anche in altre fasi, ma i sogni REM sono più vividi.",
+    "\"Il sonno perso si recupera tutto nel weekend\": il recupero è solo parziale."
+   ],
+   "terms": [
+    {
+     "t": "Ritmo circadiano",
+     "d": "Orologio biologico di circa 24 ore."
+    },
+    {
+     "t": "Melatonina",
+     "d": "Ormone che aumenta col buio e favorisce il sonno."
+    },
+    {
+     "t": "Sonno REM",
+     "d": "Fase con movimenti oculari rapidi e sogni vividi."
+    },
+    {
+     "t": "Rimbalzo del sonno",
+     "d": "Sonno più lungo e profondo dopo una privazione."
+    }
+   ],
+   "sections": [
+    {
+     "h": "Che cos'è il sonno",
+     "p": [
+      "Il sonno è uno stato caratterizzato da bassa attività fisica e ridotta consapevolezza di ciò che succede intorno. Non è però uno spegnimento: il cervello resta molto attivo, con schemi di attività tipici che si possono registrare con l'elettroencefalogramma (EEG), cioè elettrodi appoggiati sulla testa.",
+      "Proprio grazie all'EEG i ricercatori hanno scoperto che il sonno non è uniforme, ma attraversa fasi diverse più volte per notte."
+     ]
+    },
+    {
+     "h": "Due meccanismi che regolano il sonno",
+     "p": [
+      "Il primo è il ritmo circadiano, un orologio biologico interno con un ciclo di circa 24 ore che regola vigilanza, temperatura corporea e rilascio di ormoni. Nel cervello, un piccolo gruppo di neuroni nell'ipotalamo funziona da orologio principale ed è sincronizzato soprattutto dalla luce che arriva agli occhi.",
+      "La melatonina, un ormone prodotto dalla ghiandola pineale, aumenta quando fa buio e favorisce il sonno. Per questo la luce intensa degli schermi la sera può rendere più difficile addormentarsi.",
+      "Il secondo meccanismo è omeostatico: più a lungo restiamo svegli, più cresce la \"pressione\" a dormire. Dopo una notte in bianco, la notte successiva il sonno tende a essere più lungo e più profondo: è il cosiddetto rimbalzo del sonno."
+     ]
+    },
+    {
+     "h": "Le fasi del sonno",
+     "p": [
+      "Il sonno si divide in due grandi tipi. Il sonno NREM (non-REM) comprende più stadi, dal sonno leggero dell'addormentamento al sonno profondo, chiamato anche sonno a onde lente perché l'EEG mostra onde ampie e lente. Nel sonno profondo è difficile svegliarsi.",
+      "Il sonno REM (dall'inglese Rapid Eye Movement, movimenti oculari rapidi) è la fase in cui gli occhi si muovono velocemente sotto le palpebre e l'attività cerebrale assomiglia a quella della veglia. È la fase in cui si fanno i sogni più vividi e narrativi. Intanto i muscoli del corpo sono quasi paralizzati, e questo impedisce di \"recitare\" i sogni.",
+      "Durante la notte attraversiamo più cicli di sonno NREM e REM. Nella prima parte della notte prevale il sonno profondo; verso il mattino le fasi REM diventano più lunghe."
+     ]
+    },
+    {
+     "h": "Perché dormiamo? Le teorie",
+     "p": [
+      "Non esiste una risposta unica, e probabilmente il sonno ha più funzioni. Una teoria evolutiva suggerisce che dormire nelle ore in cui una specie è più vulnerabile, per noi la notte, aiutasse a stare al sicuro e a risparmiare energia.",
+      "Altre teorie sottolineano il recupero del corpo: durante il sonno vengono rilasciati ormoni importanti, come l'ormone della crescita, e l'organismo ripara i tessuti.",
+      "Una teoria molto studiata riguarda la cognizione e la memoria: il sonno sembra importante per consolidare ciò che abbiamo imparato durante il giorno, cioè per stabilizzare i ricordi e integrarli con quelli già presenti."
+     ]
+    },
+    {
+     "h": "Cosa succede quando dormiamo poco",
+     "p": [
+      "La prova più chiara dell'importanza del sonno viene dalla sua mancanza. La privazione di sonno peggiora la capacità di mantenere l'attenzione, di prendere decisioni e di richiamare i ricordi a lungo termine. Rende anche più irritabili e aumenta il rischio di incidenti.",
+      "Il bisogno di sonno cambia con l'età: neonati e bambini dormono molto di più degli adulti, e gli adolescenti tendono naturalmente ad addormentarsi e svegliarsi più tardi.",
+      "Per gli adulti le principali raccomandazioni internazionali indicano almeno 7 ore per notte. Dormire regolarmente poco crea un \"debito di sonno\" che non si recupera del tutto dormendo tanto nel weekend."
+     ]
+    },
+    {
+     "h": "Un sonno migliore",
+     "p": [
+      "Alcune abitudini, raccolte sotto il nome di igiene del sonno, aiutano: orari regolari anche nel fine settimana, una stanza buia e fresca, meno caffeina nel pomeriggio, meno schermi luminosi prima di dormire e un po' di luce naturale al mattino per sincronizzare l'orologio interno."
+     ]
+    }
+   ],
+   "formulas": []
   },
   {
    "id": "rinforzo",
    "subject": "psicologia",
-   "title": "Premi e punizioni: come impariamo dalle conseguenze",
-   "hook": "Il condizionamento operante di Skinner spiega abitudini, addestramento e anche le notifiche del telefono.",
-   "body": [
-    "Il condizionamento operante è un tipo di apprendimento in cui un comportamento diventa più o meno frequente a seconda delle conseguenze che produce.",
-    "Lo psicologo B. F. Skinner sosteneva che il comportamento è guidato dalle conseguenze: rinforzi (che lo rafforzano) e punizioni (che lo indeboliscono).",
-    "\"Positivo\" e \"negativo\" non vogliono dire buono o cattivo, ma aggiungere o togliere. Rinforzo positivo: aggiungi qualcosa di piacevole (un complimento). Rinforzo negativo: togli qualcosa di sgradevole (il cicalino dell'auto smette quando allacci la cintura).",
-    "Secondo il manuale, il modo più efficace per insegnare un nuovo comportamento a una persona o a un animale è il rinforzo positivo."
-   ],
+   "title": "Condizionamento: come impariamo da premi, punizioni e associazioni",
+   "hook": "Da Pavlov a Skinner: due scoperte che spiegano abitudini, paure, addestramento degli animali e perfino il fascino delle notifiche.",
    "points": [
-    "Le conseguenze modellano il comportamento.",
-    "Positivo = aggiungere, negativo = togliere.",
-    "Il rinforzo positivo è il più efficace per insegnare."
+    "Il condizionamento classico di Pavlov",
+    "Il condizionamento operante di Skinner",
+    "Rinforzo e punizione, positivi e negativi",
+    "Perché le ricompense imprevedibili creano abitudini forti"
    ],
-   "example": "Un cane che riceve un premio quando si siede impara a sedersi più spesso: è rinforzo positivo.",
+   "example": "Le app che ti danno una \"striscia\" di giorni consecutivi usano il rinforzo positivo: ogni giorno la striscia cresce e ti motiva a tornare. Lumen fa lo stesso con la fiamma.",
    "quote": {
     "text": "In positive reinforcement, a desirable stimulus is added to increase a behavior.",
     "translation": "Nel rinforzo positivo si aggiunge uno stimolo desiderabile per aumentare un comportamento."
@@ -583,6 +1402,11 @@
      "name": "OpenStax · Psychology 2e",
      "title": "6.2 Classical Conditioning",
      "url": "https://openstax.org/books/psychology-2e/pages/6-2-classical-conditioning"
+    },
+    {
+     "name": "OpenStax · Psychology 2e",
+     "title": "6.4 Observational Learning (Modeling)",
+     "url": "https://openstax.org/books/psychology-2e/pages/6-4-observational-learning-modeling"
     }
    ],
    "videos": [
@@ -600,25 +1424,95 @@
     }
    ],
    "videoQuery": "condizionamento operante Skinner rinforzo",
-   "addedAt": "2026-11-03T23:16:40Z"
+   "addedAt": "2026-11-03T23:16:40Z",
+   "chapter": "Apprendimento",
+   "mistakes": [
+    "\"Rinforzo negativo = punizione\": il rinforzo negativo aumenta un comportamento togliendo qualcosa di sgradevole.",
+    "\"La punizione è il modo migliore per educare\": il rinforzo positivo è più efficace per insegnare.",
+    "\"Il condizionamento vale solo per gli animali\": spiega molte abitudini umane."
+   ],
+   "terms": [
+    {
+     "t": "Stimolo condizionato",
+     "d": "Stimolo neutro che, per associazione, provoca una risposta."
+    },
+    {
+     "t": "Rinforzo",
+     "d": "Conseguenza che aumenta un comportamento."
+    },
+    {
+     "t": "Punizione",
+     "d": "Conseguenza che diminuisce un comportamento."
+    },
+    {
+     "t": "Modellaggio (shaping)",
+     "d": "Rinforzo di passi via via più vicini al comportamento finale."
+    },
+    {
+     "t": "Estinzione",
+     "d": "Indebolimento di una risposta quando cessa l'associazione."
+    }
+   ],
+   "sections": [
+    {
+     "h": "Imparare per associazione",
+     "p": [
+      "In psicologia l'apprendimento è un cambiamento relativamente duraturo del comportamento dovuto all'esperienza. Due forme fondamentali sono il condizionamento classico e il condizionamento operante: il primo lega tra loro due stimoli, il secondo lega un comportamento alle sue conseguenze."
+     ]
+    },
+    {
+     "h": "Pavlov e il condizionamento classico",
+     "p": [
+      "Il fisiologo russo Ivan Pavlov studiava la digestione dei cani e notò che gli animali cominciavano a salivare non solo quando vedevano il cibo, ma anche al suono dei passi dell'assistente che glielo portava.",
+      "Lo studiò in modo sistematico: il cibo (stimolo incondizionato) provoca la salivazione in modo naturale (risposta incondizionata). Se un suono neutro viene presentato più volte subito prima del cibo, alla fine il suono da solo provoca la salivazione. Il suono è diventato uno stimolo condizionato e la salivazione una risposta condizionata.",
+      "Se poi il suono viene presentato tante volte senza cibo, la risposta si indebolisce: si chiama estinzione. Il condizionamento classico aiuta a capire, per esempio, perché un odore può riportare un'emozione legata a un ricordo, o come possono nascere certe paure."
+     ]
+    },
+    {
+     "h": "Skinner e il condizionamento operante",
+     "p": [
+      "Lo psicologo americano B. F. Skinner si concentrò su un altro tipo di apprendimento: quello in cui un comportamento diventa più o meno frequente in base alle conseguenze che produce. Secondo Skinner il comportamento è guidato dalle conseguenze che riceviamo: i rinforzi e le punizioni.",
+      "Nei suoi esperimenti usava una gabbia speciale, poi chiamata \"scatola di Skinner\", in cui un ratto o un piccione poteva premere una leva o beccare un disco per ottenere cibo. Gli animali imparavano rapidamente a ripetere l'azione che portava la ricompensa."
+     ]
+    },
+    {
+     "h": "Positivo e negativo: aggiungere o togliere",
+     "p": [
+      "Rinforzo significa che un comportamento aumenta; punizione che diminuisce. \"Positivo\" e \"negativo\" non vogliono dire buono o cattivo, ma aggiungere o togliere qualcosa.",
+      "Rinforzo positivo: si aggiunge qualcosa di piacevole (un complimento, un premio, un bonus). Rinforzo negativo: si toglie qualcosa di sgradevole (il cicalino dell'auto si spegne quando allacci la cintura, quindi allacciarla diventa un'abitudine).",
+      "Punizione positiva: si aggiunge qualcosa di sgradevole (una multa, un rimprovero). Punizione negativa: si toglie qualcosa di piacevole (niente telefono per una sera).",
+      "Secondo il manuale, il modo più efficace per insegnare un nuovo comportamento è il rinforzo positivo. La punizione può fermare un comportamento, ma non insegna cosa fare al suo posto e può avere effetti collaterali come paura e rabbia."
+     ]
+    },
+    {
+     "h": "Piccoli passi e premi imprevedibili",
+     "p": [
+      "Per insegnare comportamenti complessi si usa il modellaggio (shaping): si rinforzano approssimazioni sempre più vicine al comportamento desiderato. È così che si addestrano animali a fare sequenze di azioni, ed è il principio dietro i livelli dei videogiochi.",
+      "Conta molto anche quando arriva il rinforzo. Un rinforzo continuo (ogni volta) fa imparare in fretta, ma il comportamento si estingue in fretta quando il premio smette di arrivare. Un rinforzo intermittente e imprevedibile, detto a rapporto variabile, produce comportamenti molto persistenti.",
+      "Le slot machine funzionano proprio così: la vincita arriva dopo un numero imprevedibile di giocate. Lo stesso principio spiega perché è difficile smettere di controllare il telefono: a volte c'è un messaggio interessante, a volte no."
+     ]
+    },
+    {
+     "h": "Imparare guardando gli altri",
+     "p": [
+      "Non impariamo solo dalle conseguenze che viviamo direttamente. Lo psicologo Albert Bandura mostrò che si impara molto anche osservando gli altri e le conseguenze delle loro azioni: è l'apprendimento osservativo, o per modellamento. Bambini che avevano visto un adulto colpire una bambola gonfiabile tendevano a imitarlo."
+     ]
+    }
+   ],
+   "formulas": []
   },
   {
    "id": "memoria",
    "subject": "psicologia",
-   "title": "Come funziona la memoria: entrare, restare, tornare",
-   "hook": "Ricordare è un processo in tre fasi. E capirlo ti aiuta a studiare meglio.",
-   "body": [
-    "La psicologia descrive la memoria come un sistema in tre fasi: codifica (far entrare un'informazione), immagazzinamento (conservarla) e recupero (ritrovarla quando serve).",
-    "La codifica può essere automatica, come quando ricordi senza sforzo cosa hai mangiato a pranzo, oppure richiedere impegno, come quando studi.",
-    "Prima di arrivare nella memoria a lungo termine, un'informazione passa dalla memoria sensoriale, brevissima, e dalla memoria a breve termine, che ne tiene poche alla volta.",
-    "Ricordiamo meglio ciò che colleghiamo al significato e a noi stessi. Si chiama effetto di autoriferimento: le informazioni che ci riguardano si fissano di più."
-   ],
+   "title": "Come funziona la memoria: codificare, conservare, ricordare",
+   "hook": "Ricordare non è come guardare un video registrato. Capire le tre fasi della memoria ti aiuta anche a studiare meglio.",
    "points": [
-    "Codifica, immagazzinamento, recupero.",
-    "Sensoriale → breve termine → lungo termine.",
-    "Ciò che riguarda te si ricorda meglio."
+    "Le tre fasi: codifica, immagazzinamento, recupero",
+    "Memoria sensoriale, a breve e a lungo termine",
+    "Perché ricordiamo meglio ciò che ha significato",
+    "Come la memoria si ricostruisce e può sbagliare"
    ],
-   "example": "Per ricordare un concetto, prova a collegarlo a un tuo esempio personale invece di ripeterlo a memoria.",
+   "example": "Un numero come 3 9 3 4 7 1 2 3 4 5 si ricorda meglio a blocchi: 393 · 471 · 2345. È chunking.",
    "quote": {
     "text": "Encoding We get information into our brains through a process called encoding, which is the input of information into the memory system.",
     "translation": "Codifica: facciamo entrare le informazioni nel cervello attraverso un processo chiamato codifica, cioè l'ingresso delle informazioni nel sistema della memoria."
@@ -633,6 +1527,11 @@
      "name": "OpenStax · Psychology 2e",
      "title": "8.4 Ways to Enhance Memory",
      "url": "https://openstax.org/books/psychology-2e/pages/8-4-ways-to-enhance-memory"
+    },
+    {
+     "name": "OpenStax · Psychology 2e",
+     "title": "8.3 Problems with Memory",
+     "url": "https://openstax.org/books/psychology-2e/pages/8-3-problems-with-memory"
     }
    ],
    "videos": [
@@ -650,25 +1549,92 @@
     }
    ],
    "videoQuery": "come funziona la memoria psicologia",
-   "addedAt": "2026-11-03T23:16:40Z"
+   "addedAt": "2026-11-03T23:16:40Z",
+   "chapter": "Memoria e pensiero",
+   "mistakes": [
+    "\"La memoria è come una videocamera\": è ricostruttiva e può cambiare.",
+    "\"Rileggere tante volte è il modo migliore di studiare\": mettersi alla prova funziona meglio.",
+    "\"Se non ricordo, il ricordo è perso\": spesso è un problema di recupero."
+   ],
+   "terms": [
+    {
+     "t": "Codifica",
+     "d": "Ingresso delle informazioni nella memoria."
+    },
+    {
+     "t": "Memoria di lavoro",
+     "d": "Sistema attivo per tenere e manipolare informazioni a breve."
+    },
+    {
+     "t": "Chunking",
+     "d": "Raggruppare elementi in blocchi per ricordarne di più."
+    },
+    {
+     "t": "Curva dell'oblio",
+     "d": "Andamento con cui si dimentica nel tempo."
+    }
+   ],
+   "sections": [
+    {
+     "h": "Un sistema in tre fasi",
+     "p": [
+      "La psicologia descrive la memoria come un sistema che elabora informazioni in tre fasi. La codifica è l'ingresso delle informazioni nel sistema della memoria. L'immagazzinamento è il loro mantenimento nel tempo. Il recupero è la capacità di ritrovarle e riportarle alla coscienza quando servono.",
+      "Un ricordo può \"mancare\" per problemi in una qualsiasi di queste fasi: forse non l'abbiamo mai codificato bene, forse si è indebolito, forse c'è ma non riusciamo a raggiungerlo, come quando un nome è \"sulla punta della lingua\"."
+     ]
+    },
+    {
+     "h": "La codifica: far entrare le informazioni",
+     "p": [
+      "Alcune informazioni entrano senza sforzo: è l'elaborazione automatica. Sai dove hai parcheggiato o cosa hai mangiato a pranzo senza aver deciso di memorizzarlo. Altre richiedono attenzione e impegno: è l'elaborazione controllata, quella dello studio.",
+      "Possiamo codificare il significato (codifica semantica), il suono (acustica) o l'immagine (visiva). In esperimenti classici, le parole elaborate per il loro significato venivano ricordate molto meglio di quelle elaborate solo per l'aspetto o il suono.",
+      "Un caso particolare è l'effetto di autoriferimento: ricordiamo meglio le informazioni che collegiamo a noi stessi. Chiedersi \"questo riguarda la mia vita?\" mentre si studia aiuta a ricordare."
+     ]
+    },
+    {
+     "h": "Il modello a tre magazzini",
+     "p": [
+      "Un modello classico, proposto da Atkinson e Shiffrin, descrive tre tappe. La memoria sensoriale trattiene per un attimo, meno di qualche secondo, ciò che arriva dai sensi; quasi tutto viene perso subito, tranne ciò a cui prestiamo attenzione.",
+      "La memoria a breve termine trattiene poche informazioni per un tempo breve, a meno che non le ripetiamo. È lo spazio in cui tieni a mente un numero di telefono il tempo necessario per comporlo. Raggruppare gli elementi in blocchi dotati di senso, una tecnica chiamata chunking, permette di trattenerne di più.",
+      "La memoria a lungo termine ha una capacità enorme e può durare tutta la vita. Comprende la memoria esplicita, ciò che si può dichiarare (fatti, eventi personali), e quella implicita, che si manifesta senza consapevolezza, come andare in bicicletta.",
+      "Baddeley e Hitch hanno poi proposto il concetto di memoria di lavoro: non un semplice magazzino, ma un sistema attivo con componenti diverse per le informazioni verbali e per quelle visive e spaziali, usato per ragionare e fare calcoli a mente."
+     ]
+    },
+    {
+     "h": "Il recupero e l'oblio",
+     "p": [
+      "Il recupero può avvenire per rievocazione (ricordare senza aiuti, come in una domanda aperta), riconoscimento (identificare la risposta giusta tra varie opzioni) o riapprendimento (imparare di nuovo qualcosa è più veloce la seconda volta).",
+      "Hermann Ebbinghaus, alla fine dell'Ottocento, studiò l'oblio su sé stesso e descrisse la curva dell'oblio: si dimentica molto nelle prime ore e nei primi giorni, poi più lentamente.",
+      "Spesso dimentichiamo per interferenza: le informazioni nuove disturbano il ricordo di quelle vecchie, o viceversa. Per questo studiare due materie simili una dopo l'altra può confondere."
+     ]
+    },
+    {
+     "h": "Una memoria ricostruttiva",
+     "p": [
+      "Ricordare non significa riprodurre una registrazione: ogni volta il cervello ricostruisce il ricordo, e in questo processo può modificarlo. Le ricerche di Elizabeth Loftus hanno mostrato che domande formulate in modo suggestivo possono alterare il ricordo di un evento, per esempio la stima della velocità di un'auto in un incidente.",
+      "È una scoperta importante anche in tribunale: un testimone può essere sincero e sbagliarsi allo stesso tempo."
+     ]
+    },
+    {
+     "h": "Come ricordare meglio",
+     "p": [
+      "Alcune strategie sono sostenute dalla ricerca: ripassare distribuendo lo studio nel tempo invece di concentrarlo tutto prima dell'esame; mettersi alla prova cercando di ricordare senza guardare; collegare le informazioni nuove a ciò che si sa già e alla propria esperienza; usare tecniche mnemoniche come acronimi e immagini; dormire bene."
+     ]
+    }
+   ],
+   "formulas": []
   },
   {
    "id": "euristiche",
    "subject": "psicologia",
-   "title": "Le scorciatoie della mente e i loro tranelli",
-   "hook": "Il cervello usa regole rapide per decidere. Spesso funzionano, a volte ci ingannano.",
-   "body": [
-    "Per risolvere problemi possiamo seguire un algoritmo, una procedura passo per passo che porta sempre al risultato giusto, oppure usare un'euristica, una \"regola pratica\" più veloce ma non infallibile.",
-    "L'euristica della disponibilità ci fa giudicare in base agli esempi che ci vengono in mente più facilmente. Dopo aver visto in TV la notizia di un incidente aereo, volare può sembrarci più pericoloso di quanto sia.",
-    "Il bias di conferma è la tendenza a notare soprattutto le informazioni che confermano ciò che pensiamo già, trascurando quelle contrarie.",
-    "La fissità funzionale ci impedisce di vedere un oggetto usato in modo diverso da quello per cui è nato. Superarla è spesso la chiave della creatività."
-   ],
+   "title": "Euristiche e bias: le scorciatoie (e i tranelli) della mente",
+   "hook": "Per decidere in fretta il cervello usa regole pratiche. Di solito funzionano, ma a volte ci portano fuori strada in modo prevedibile.",
    "points": [
-    "Algoritmo = sicuro ma lento; euristica = rapida ma fallibile.",
-    "Disponibilità: giudichiamo con gli esempi più vividi.",
-    "Bias di conferma: cerchiamo ciò che ci dà ragione."
+    "Algoritmi ed euristiche: due modi di risolvere problemi",
+    "Le euristiche della disponibilità e della rappresentatività",
+    "Bias di conferma, ancoraggio, senno di poi",
+    "Fissità funzionale e come superarla"
    ],
-   "example": "Se pensi che un ristorante sia pessimo, noterai ogni piatto sbagliato e dimenticherai quelli buoni: è il bias di conferma.",
+   "example": "Al supermercato un cartello \"Prima 20 €, ora 12 €\" ti fa sembrare 12 € un affare: è l'effetto ancoraggio del primo prezzo.",
    "quote": {
     "text": "The confirmation bias is the tendency to focus on information that confirms your existing beliefs.",
     "translation": "Il bias di conferma è la tendenza a concentrarsi sulle informazioni che confermano le proprie convinzioni."
@@ -695,25 +1661,91 @@
     }
    ],
    "videoQuery": "euristiche bias cognitivi psicologia",
-   "addedAt": "2026-11-03T23:16:40Z"
+   "addedAt": "2026-11-03T23:16:40Z",
+   "chapter": "Memoria e pensiero",
+   "mistakes": [
+    "\"I bias riguardano solo le persone poco intelligenti\": li hanno tutti, esperti compresi.",
+    "\"Le euristiche sono sempre sbagliate\": spesso funzionano e fanno risparmiare tempo.",
+    "\"Se ci penso un attimo li evito di sicuro\": servono strategie consapevoli, e anche così non sempre."
+   ],
+   "terms": [
+    {
+     "t": "Algoritmo",
+     "d": "Procedura passo per passo che garantisce il risultato."
+    },
+    {
+     "t": "Euristica",
+     "d": "Regola pratica rapida ma fallibile."
+    },
+    {
+     "t": "Bias cognitivo",
+     "d": "Errore sistematico di giudizio."
+    },
+    {
+     "t": "Fissità funzionale",
+     "d": "Difficoltà a vedere usi nuovi di un oggetto."
+    }
+   ],
+   "sections": [
+    {
+     "h": "Risolvere problemi",
+     "p": [
+      "Ogni giorno risolviamo problemi, dal decidere cosa cucinare al trovare la strada in una città nuova. La psicologia studia le strategie che usiamo. Alcune sono semplici: per tentativi ed errori, si provano soluzioni finché una funziona.",
+      "Un algoritmo è una procedura passo per passo che, se seguita esattamente, garantisce il risultato corretto, come la ricetta per una divisione in colonna. È affidabile ma può essere lento o impraticabile."
+     ]
+    },
+    {
+     "h": "Le euristiche: regole pratiche",
+     "p": [
+      "Un'euristica è una regola pratica, una strategia generale per risolvere un problema in fretta. Non garantisce la soluzione giusta, ma spesso ci arriva abbastanza bene con poco sforzo. \"Se è più caro probabilmente è migliore\" è un'euristica.",
+      "Le euristiche sono indispensabili: se dovessimo ragionare a fondo su ogni scelta, non arriveremmo a sera. Gli psicologi Amos Tversky e Daniel Kahneman hanno però mostrato, dagli anni Settanta, che alcune euristiche producono errori sistematici, chiamati bias cognitivi."
+     ]
+    },
+    {
+     "h": "Disponibilità e rappresentatività",
+     "p": [
+      "L'euristica della disponibilità ci fa giudicare frequenza o probabilità di un evento in base a quanto facilmente ci vengono in mente esempi. Dopo un incidente aereo molto raccontato dai media, volare può sembrare più pericoloso di guidare, anche se le statistiche dicono il contrario.",
+      "L'euristica della rappresentatività ci fa giudicare se qualcosa appartiene a una categoria in base a quanto somiglia al nostro stereotipo di quella categoria, trascurando altre informazioni importanti, come quante persone appartengono davvero a quella categoria. È una delle strade attraverso cui gli stereotipi influenzano i giudizi."
+     ]
+    },
+    {
+     "h": "I bias più comuni",
+     "p": [
+      "Bias di conferma: la tendenza a concentrarsi sulle informazioni che confermano ciò che pensiamo già, ignorando quelle contrarie. È il motivo per cui due persone possono leggere gli stessi dati e uscirne ancora più convinte delle loro idee opposte.",
+      "Ancoraggio: il primo numero che sentiamo influenza le stime successive. Un prezzo \"di listino\" alto fa sembrare conveniente uno sconto anche quando il prezzo finale non lo è.",
+      "Bias del senno di poi: dopo che qualcosa è successo, ci sembra di averlo sempre saputo. Bias di eccessiva fiducia: tendiamo a sopravvalutare quanto sono accurate le nostre conoscenze e previsioni."
+     ]
+    },
+    {
+     "h": "Quando la mente si blocca",
+     "p": [
+      "A volte non riusciamo a risolvere un problema perché restiamo incastrati in un modo di pensare: è il set mentale, la tendenza a ripetere strategie che hanno funzionato in passato anche quando non sono adatte.",
+      "Un caso particolare è la fissità funzionale: non riuscire a vedere un oggetto usato in modo diverso da quello per cui è nato. Nell'esperimento classico di Duncker, i partecipanti dovevano fissare una candela alla parete con una scatola di puntine e dei fiammiferi; la soluzione era svuotare la scatola e usarla come supporto, ma molti non ci pensavano perché la vedevano solo come contenitore.",
+      "Superare la fissità funzionale è spesso alla base delle idee creative: usare una cosa nota in un modo nuovo."
+     ]
+    },
+    {
+     "h": "Come difendersi",
+     "p": [
+      "Non possiamo eliminare i bias, ma possiamo ridurne l'effetto: rallentare quando la decisione è importante, cercare attivamente informazioni che smentiscano la nostra idea, chiederci da dove viene un numero che ci è stato proposto, confrontare gli esempi vividi con i dati reali.",
+      "Conoscere questi meccanismi è utile anche per riconoscere quando qualcuno, in pubblicità o in politica, li sta sfruttando."
+     ]
+    }
+   ],
+   "formulas": []
   },
   {
    "id": "emozioni",
    "subject": "psicologia",
-   "title": "Cosa sono le emozioni: corpo, mente e volto insieme",
-   "hook": "Prima si accelera il cuore o prima arriva la paura? Le teorie non sono d'accordo.",
-   "body": [
-    "Un'emozione è uno stato soggettivo, quello che di solito chiamiamo \"sentimento\". Secondo gli psicologi nasce dall'unione di quattro elementi: l'esperienza personale, l'espressione, la valutazione mentale della situazione e le reazioni del corpo.",
-    "Da più di un secolo si discute sull'ordine. Per la teoria di James-Lange prima viene la reazione del corpo (cuore che batte, sudore) e solo dopo proviamo paura.",
-    "Altre teorie danno più peso al pensiero: la stessa agitazione fisica può diventare paura o entusiasmo a seconda di come interpretiamo la situazione.",
-    "Il volto non solo mostra le emozioni ma può influenzarle: secondo l'ipotesi del feedback facciale, l'espressione che facciamo può modificare ciò che proviamo."
-   ],
+   "title": "Le emozioni: corpo, mente ed espressione",
+   "hook": "Prima batte il cuore o prima arriva la paura? Da oltre un secolo gli psicologi discutono su come nascono le emozioni.",
    "points": [
-    "Emozione = esperienza + espressione + valutazione + corpo.",
-    "James-Lange: prima il corpo, poi il sentimento.",
-    "L'espressione del volto può influenzare l'emozione."
+    "Che cos'è un'emozione e da quali componenti è fatta",
+    "Le grandi teorie: James-Lange, Cannon-Bard, Schachter-Singer",
+    "Il ruolo del sistema limbico e dell'amigdala",
+    "Espressioni facciali e feedback facciale"
    ],
-   "example": "Il batticuore prima di un esame e quello prima di un concerto sono simili nel corpo: cambia come li interpreti.",
+   "example": "Il batticuore prima di salire sul palco può sembrarti ansia o entusiasmo: secondo la teoria dei due fattori, cambia l'etichetta che gli dai.",
    "quote": {
     "text": "An emotion is a subjective state of being that we often describe as our feelings.",
     "translation": "Un'emozione è uno stato soggettivo che spesso descriviamo come i nostri sentimenti."
@@ -740,25 +1772,89 @@
     }
    ],
    "videoQuery": "teorie delle emozioni psicologia",
-   "addedAt": "2026-11-03T23:16:40Z"
+   "addedAt": "2026-11-03T23:16:40Z",
+   "chapter": "Emozioni e motivazione",
+   "mistakes": [
+    "\"Le emozioni sono il contrario della ragione\": la valutazione cognitiva fa parte dell'emozione stessa.",
+    "\"Esiste un'unica area del cervello per ogni emozione\": sono coinvolte reti diverse.",
+    "\"Le espressioni sono identiche in tutte le culture\": alcune sono universali, ma le regole per mostrarle cambiano."
+   ],
+   "terms": [
+    {
+     "t": "Sistema limbico",
+     "d": "Insieme di strutture cerebrali legate a emozioni e memoria."
+    },
+    {
+     "t": "Amigdala",
+     "d": "Struttura coinvolta soprattutto nella paura."
+    },
+    {
+     "t": "Valutazione cognitiva",
+     "d": "Interpretazione di un evento che orienta l'emozione."
+    },
+    {
+     "t": "Feedback facciale",
+     "d": "Ipotesi che l'espressione influenzi l'emozione."
+    }
+   ],
+   "sections": [
+    {
+     "h": "Che cos'è un'emozione",
+     "p": [
+      "Un'emozione è uno stato soggettivo che di solito descriviamo come i nostri sentimenti. Gli psicologi la considerano il risultato di più componenti insieme: l'esperienza soggettiva, l'espressione (volto, voce, postura), la valutazione cognitiva della situazione e le risposte fisiologiche del corpo.",
+      "Spesso si distingue tra emozioni e stati d'animo: le emozioni sono di solito intense, brevi e legate a qualcosa di preciso; gli stati d'animo, come il buonumore, sono più deboli, durano di più e non hanno sempre una causa chiara."
+     ]
+    },
+    {
+     "h": "Il corpo nelle emozioni",
+     "p": [
+      "Molte emozioni forti attivano il sistema nervoso autonomo. Davanti a un pericolo il ramo simpatico prepara il corpo alla reazione \"combatti o fuggi\": il cuore accelera, il respiro diventa più rapido, i muscoli si tendono, si suda. Passato il pericolo, il ramo parasimpatico riporta il corpo alla calma.",
+      "Nel cervello, un ruolo importante è svolto dal sistema limbico, e in particolare dall'amigdala, una piccola struttura coinvolta soprattutto nella paura e nel riconoscimento delle minacce. L'ippocampo, vicino, collega le emozioni ai ricordi: per questo gli eventi carichi di emozione si ricordano meglio."
+     ]
+    },
+    {
+     "h": "Teoria di James-Lange: prima il corpo",
+     "p": [
+      "Alla fine dell'Ottocento William James e Carl Lange proposero, indipendentemente, un'idea controintuitiva: l'emozione è la percezione delle reazioni del nostro corpo. Secondo questa teoria, se vedi un serpente prima il cuore accelera e tremi, e solo dopo, percependo queste reazioni, provi paura.",
+      "In altre parole: non tremi perché hai paura, hai paura perché tremi."
+     ]
+    },
+    {
+     "h": "Teoria di Cannon-Bard: insieme",
+     "p": [
+      "Walter Cannon e Philip Bard obiettarono che reazioni fisiche molto simili accompagnano emozioni diverse: il cuore batte forte sia per la paura sia per l'eccitazione. Proposero quindi che la reazione del corpo e l'esperienza emotiva avvengano contemporaneamente e in modo indipendente, entrambe scatenate dallo stimolo."
+     ]
+    },
+    {
+     "h": "Teoria di Schachter-Singer: conta l'interpretazione",
+     "p": [
+      "Stanley Schachter e Jerome Singer proposero la teoria dei due fattori: per provare un'emozione serve sia un'attivazione fisiologica, sia un'etichetta cognitiva che la interpreti in base al contesto. La stessa agitazione può diventare paura, rabbia o entusiasmo a seconda di come leggiamo la situazione.",
+      "Su una linea simile, altri studiosi come Lazarus hanno sottolineato il ruolo della valutazione cognitiva: è il modo in cui valutiamo un evento (minaccia? sfida? perdita?) a determinare quale emozione proveremo. Altri ancora, come Zajonc, hanno sostenuto che alcune reazioni emotive possono precedere il pensiero consapevole."
+     ]
+    },
+    {
+     "h": "Il volto delle emozioni",
+     "p": [
+      "Alcune espressioni facciali di base, come felicità, tristezza, paura, rabbia, disgusto e sorpresa, sono riconosciute in molte culture diverse, anche se ogni cultura ha regole proprie su quando è opportuno mostrarle.",
+      "Secondo l'ipotesi del feedback facciale, l'espressione del volto non si limita a mostrare l'emozione, ma può influenzarla. Alcune ricerche hanno trovato che sopprimere l'espressione di un'emozione ne riduce l'intensità vissuta. L'entità di questo effetto è però ancora discussa.",
+      "Saper riconoscere e gestire le emozioni, proprie e altrui, è una capacità che si può allenare, ed è importante per le relazioni e per la salute."
+     ]
+    }
+   ],
+   "formulas": []
   },
   {
    "id": "conformismo",
    "subject": "psicologia",
-   "title": "Asch e Milgram: quanto ci influenzano gli altri",
-   "hook": "Due esperimenti famosi mostrano quanto è facile seguire il gruppo o l'autorità.",
-   "body": [
-    "Negli anni '50 Solomon Asch mostrava ai partecipanti delle linee di lunghezza diversa. Nel gruppo c'erano complici che davano apposta una risposta palesemente sbagliata.",
-    "Il 76% dei partecipanti si adeguò al gruppo almeno una volta, scegliendo la linea sbagliata. Molti, però, in privato non credevano davvero che quella risposta fosse giusta.",
-    "Stanley Milgram, a Yale, volle verificare la difesa del criminale nazista Eichmann, che diceva di aver \"solo eseguito gli ordini\". I partecipanti credevano di dare scosse elettriche sempre più forti, fino a 450 volt, a un'altra persona (in realtà nessuno riceveva scosse).",
-    "Su ordine dello sperimentatore, il 65% arrivò fino alla scossa massima. Cambiando la situazione l'obbedienza calava: in un ufficio fuori dall'università la percentuale scese al 48%."
-   ],
+   "title": "Conformismo e obbedienza: gli esperimenti di Asch e Milgram",
+   "hook": "Quanto siamo disposti a seguire il gruppo o un'autorità, anche contro ciò che vediamo o crediamo? Due esperimenti famosi danno risposte inquietanti.",
    "points": [
-    "Asch: il 76% si adeguò al gruppo almeno una volta.",
-    "Milgram: il 65% obbedì fino alla fine.",
-    "Il contesto cambia molto i risultati."
+    "L'esperimento delle linee di Asch",
+    "L'esperimento sull'obbedienza di Milgram",
+    "I fattori che aumentano o riducono l'influenza sociale",
+    "Il pensiero di gruppo e come evitarlo"
    ],
-   "example": "Quando in una riunione nessuno contraddice il capo, anche chi ha dubbi spesso tace: è la stessa pressione studiata da Asch.",
+   "example": "In una riunione in cui tutti approvano un'idea, la prima persona che esprime un dubbio rende molto più facile, anche per gli altri, dire cosa pensano davvero.",
    "quote": {
     "text": "Asch (1955) found that 76% of participants conformed to group pressure at least once by indicating the incorrect line.",
     "translation": "Asch (1955) scoprì che il 76% dei partecipanti si adeguò alla pressione del gruppo almeno una volta, indicando la linea sbagliata."
@@ -785,25 +1881,92 @@
     }
    ],
    "videoQuery": "esperimento Asch Milgram conformismo",
-   "addedAt": "2026-11-03T23:16:40Z"
+   "addedAt": "2026-11-03T23:16:40Z",
+   "chapter": "Psicologia sociale",
+   "mistakes": [
+    "\"Io non mi sarei mai adeguato\": quasi tutti pensano così, ma i risultati dicono il contrario per molte persone.",
+    "\"Chi obbediva era sadico\": molti partecipanti erano visibilmente in difficoltà; conta la situazione.",
+    "\"Conformarsi è sempre negativo\": seguire le norme sociali è spesso utile; il problema nasce quando va contro fatti o valori."
+   ],
+   "terms": [
+    {
+     "t": "Conformismo",
+     "d": "Adeguarsi al comportamento del gruppo."
+    },
+    {
+     "t": "Obbedienza",
+     "d": "Eseguire gli ordini di un'autorità."
+    },
+    {
+     "t": "Influenza normativa",
+     "d": "Adeguarsi per essere accettati."
+    },
+    {
+     "t": "Pensiero di gruppo",
+     "d": "Decisioni sbagliate per desiderio di armonia nel gruppo."
+    }
+   ],
+   "sections": [
+    {
+     "h": "L'influenza degli altri",
+     "p": [
+      "La psicologia sociale studia come i pensieri, i sentimenti e i comportamenti delle persone sono influenzati dalla presenza, reale o immaginata, degli altri. Il conformismo è la tendenza a modificare il proprio comportamento per adeguarsi a quello del gruppo. L'obbedienza è il cambiamento di comportamento per eseguire l'ordine di un'autorità."
+     ]
+    },
+    {
+     "h": "Asch e le linee",
+     "p": [
+      "Negli anni Cinquanta Solomon Asch organizzò un esperimento apparentemente semplice. Ai partecipanti veniva mostrata una linea di riferimento e tre linee di confronto: dovevano dire ad alta voce quale aveva la stessa lunghezza. La risposta era ovvia.",
+      "Il partecipante però non sapeva che gli altri membri del gruppo erano complici dello sperimentatore. In alcune prove, i complici davano tutti la stessa risposta palesemente sbagliata.",
+      "Il 76% dei partecipanti si adeguò alla pressione del gruppo almeno una volta, indicando la linea sbagliata. Molti, però, in privato non credevano davvero che quella risposta fosse corretta: si adeguavano pubblicamente senza cambiare idea."
+     ]
+    },
+    {
+     "h": "Quando ci si conforma di più o di meno",
+     "p": [
+      "Le ricerche successive hanno individuato diversi fattori. Il conformismo è più forte quando il gruppo è unanime; basta una sola persona che dissente perché crolli drasticamente. Aumenta con la dimensione del gruppo fino a un certo punto, quando il compito è difficile o ambiguo, e quando la risposta va data in pubblico.",
+      "Diminuisce quando si risponde in privato. Non a caso nelle democrazie il voto è segreto: serve anche a ridurre la pressione a conformarsi.",
+      "Si distinguono due spinte: l'influenza normativa (ci adeguiamo per essere accettati ed evitare il rifiuto) e l'influenza informativa (ci adeguiamo perché pensiamo che gli altri ne sappiano di più)."
+     ]
+    },
+    {
+     "h": "Milgram e l'obbedienza",
+     "p": [
+      "Stanley Milgram, professore a Yale, fu colpito dal processo al criminale nazista Adolf Eichmann, che si difendeva dicendo di aver \"solo eseguito gli ordini\". Nel 1963 pubblicò un esperimento per capire fin dove arriva l'obbedienza.",
+      "I partecipanti, nel ruolo di \"insegnanti\", dovevano dare una scossa elettrica a un \"allievo\" in un'altra stanza a ogni errore, aumentando ogni volta l'intensità di 15 volt, fino a 450 volt. In realtà l'allievo era un attore e nessuna scossa era reale, ma i partecipanti non lo sapevano e sentivano lamenti e proteste.",
+      "Quando esitavano, lo sperimentatore li invitava con calma a continuare. Il 65% dei partecipanti, cioè due su tre, arrivò fino alla scossa massima, anche quando l'allievo non rispondeva più. Molti lo fecero mostrando forte disagio."
+     ]
+    },
+    {
+     "h": "Il contesto conta moltissimo",
+     "p": [
+      "Milgram ripeté l'esperimento in molte varianti. Quando lo spostò dall'università prestigiosa a un ufficio anonimo in città, la percentuale di chi arrivò al massimo scese al 48%. L'obbedienza calava anche quando lo sperimentatore dava ordini al telefono invece che di persona, o quando l'insegnante doveva toccare fisicamente l'allievo.",
+      "Il messaggio più importante non è che le persone siano crudeli, ma che la situazione, l'autorità percepita e la responsabilità \"scaricata\" su chi dà gli ordini possono spingere persone comuni a fare cose che non farebbero mai da sole.",
+      "L'esperimento sollevò anche grandi questioni etiche, per lo stress causato ai partecipanti: oggi le regole della ricerca non permetterebbero di ripeterlo nella stessa forma."
+     ]
+    },
+    {
+     "h": "Il pensiero di gruppo",
+     "p": [
+      "Lo psicologo Irving Janis descrisse il groupthink, o pensiero di gruppo: in gruppi molto coesi e sotto pressione, il desiderio di armonia può portare a decisioni pessime, perché nessuno vuole sollevare dubbi.",
+      "Per evitarlo aiutano: un leader che non dice subito la sua opinione, l'invito esplicito alle critiche, qualcuno incaricato di fare l'avvocato del diavolo, il parere di esperti esterni."
+     ]
+    }
+   ],
+   "formulas": []
   },
   {
    "id": "stagioni",
    "subject": "astronomia",
-   "title": "Le stagioni non dipendono dalla distanza dal Sole",
-   "hook": "In gennaio la Terra è più vicina al Sole che in luglio. Il segreto è l'inclinazione.",
-   "body": [
-    "Molti pensano che d'estate faccia caldo perché la Terra è più vicina al Sole. Non è così: la Terra è più vicina al Sole a gennaio, quando nel nostro emisfero è pieno inverno.",
-    "La vera causa è che l'asse della Terra è inclinato di circa 23,5 gradi rispetto all'orbita, e l'inclinazione resta orientata nello stesso modo per tutto l'anno.",
-    "Quando il nostro emisfero è inclinato verso il Sole, i raggi arrivano più dritti e concentrano più energia su ogni metro quadrato, e il Sole resta sopra l'orizzonte più a lungo: è estate.",
-    "Sei mesi dopo è il contrario: raggi più obliqui e giornate corte. Per questo, quando da noi è estate, in Australia è inverno."
-   ],
+   "title": "Le stagioni: perché l'estate non dipende dalla distanza dal Sole",
+   "hook": "La Terra è più vicina al Sole a gennaio che a luglio. Allora perché in Italia a gennaio fa freddo? La risposta è un'inclinazione di 23,5 gradi.",
    "points": [
-    "La Terra è più vicina al Sole a gennaio.",
-    "La causa è l'asse inclinato di 23,5°.",
-    "Raggi più dritti e giornate lunghe = estate."
+    "Perché la distanza dal Sole non spiega le stagioni",
+    "L'inclinazione dell'asse terrestre",
+    "Come altezza del Sole e durata del giorno cambiano il riscaldamento",
+    "Solstizi, equinozi e stagioni invertite tra i due emisferi"
    ],
-   "example": "A mezzogiorno d'estate la tua ombra è corta perché il Sole è alto; d'inverno è lunga perché i raggi arrivano obliqui.",
+   "example": "A mezzogiorno di giugno la tua ombra è cortissima perché il Sole è alto; a dicembre, alla stessa ora, è molto più lunga.",
    "quote": {
     "text": "As we shall show, the seasons are actually caused by the 23.5° tilt of Earth’s axis.",
     "translation": "Come mostreremo, le stagioni sono in realtà causate dall'inclinazione di 23,5° dell'asse terrestre."
@@ -830,25 +1993,90 @@
     }
    ],
    "videoQuery": "perché ci sono le stagioni asse terrestre",
-   "addedAt": "2026-11-03T23:16:40Z"
+   "addedAt": "2026-11-03T23:16:40Z",
+   "chapter": "Terra, Luna e cielo",
+   "mistakes": [
+    "\"D'estate siamo più vicini al Sole\": nell'emisfero nord è vero il contrario.",
+    "\"L'asse della Terra oscilla avanti e indietro ogni anno\": resta orientato nella stessa direzione dello spazio.",
+    "\"Il giorno più lungo è anche il più caldo\": il caldo massimo arriva settimane dopo."
+   ],
+   "terms": [
+    {
+     "t": "Asse terrestre",
+     "d": "Linea immaginaria intorno a cui la Terra ruota."
+    },
+    {
+     "t": "Solstizio",
+     "d": "Giorno più lungo o più corto dell'anno."
+    },
+    {
+     "t": "Equinozio",
+     "d": "Giorno in cui luce e buio durano circa uguale ovunque."
+    },
+    {
+     "t": "Eclittica",
+     "d": "Il percorso apparente del Sole nel cielo durante l'anno."
+    }
+   ],
+   "sections": [
+    {
+     "h": "Un'idea sbagliata molto diffusa",
+     "p": [
+      "Molte persone pensano che faccia caldo d'estate perché la Terra è più vicina al Sole. È un'idea intuitiva, ma non regge. La distanza tra Terra e Sole cambia durante l'anno di pochi punti percentuali, troppo poco per spiegare la differenza tra estate e inverno.",
+      "C'è una prova ancora più semplice: la Terra è più vicina al Sole a gennaio, quando nell'emisfero nord è pieno inverno. E quando in Italia è estate, in Australia e in Argentina è inverno. Se contasse la distanza, le stagioni sarebbero uguali in tutto il pianeta."
+     ]
+    },
+    {
+     "h": "La vera causa: l'asse inclinato",
+     "p": [
+      "La Terra ruota su sé stessa intorno a un asse immaginario che passa per i poli. Questo asse non è perpendicolare al piano dell'orbita, ma inclinato di circa 23,5 gradi. Ed è proprio questa inclinazione a causare le stagioni.",
+      "La cosa fondamentale è che durante il viaggio intorno al Sole l'asse resta orientato sempre nella stessa direzione dello spazio, puntato più o meno verso la Stella Polare. Così, in una parte dell'orbita, l'emisfero nord è inclinato verso il Sole; sei mesi dopo, dal lato opposto dell'orbita, è inclinato dalla parte opposta."
+     ]
+    },
+    {
+     "h": "Raggi dritti e raggi obliqui",
+     "p": [
+      "Quando un emisfero è inclinato verso il Sole, il Sole a mezzogiorno sale più alto nel cielo e i suoi raggi arrivano più vicini alla perpendicolare. Un fascio di luce che arriva dritto concentra la sua energia su una superficie piccola; lo stesso fascio che arriva obliquo si distribuisce su una superficie più ampia, e ogni metro quadrato riceve meno energia.",
+      "Puoi provarlo con una torcia: puntata dritta su un tavolo fa un cerchio piccolo e luminoso; inclinata fa un'ellisse più grande e più debole.",
+      "In più, quando un emisfero è inclinato verso il Sole, le giornate sono più lunghe delle notti: il Sole ha più ore per scaldare il suolo e meno ore di buio per raffreddarsi. Più energia per metro quadrato e più ore di luce insieme fanno l'estate."
+     ]
+    },
+    {
+     "h": "Solstizi ed equinozi",
+     "p": [
+      "Il solstizio d'estate, intorno al 21 giugno per l'emisfero nord, è il giorno in cui il polo nord è più inclinato verso il Sole: è il giorno più lungo dell'anno. Il solstizio d'inverno, intorno al 21 dicembre, è il giorno più corto.",
+      "Agli equinozi, intorno al 21 marzo e al 23 settembre, nessuno dei due emisferi è inclinato verso il Sole: il giorno e la notte durano circa 12 ore in tutto il mondo.",
+      "Vicino ai poli gli effetti sono estremi: d'estate il Sole non tramonta per settimane o mesi (il \"sole di mezzanotte\"), d'inverno non sorge. Vicino all'equatore, invece, le stagioni nel senso di caldo e freddo sono poco marcate."
+     ]
+    },
+    {
+     "h": "Il ritardo delle stagioni",
+     "p": [
+      "Se il giorno più lungo è a giugno, perché i giorni più caldi in Italia arrivano di solito a luglio e agosto? Perché terre e soprattutto oceani impiegano tempo a scaldarsi e a raffreddarsi. Anche dopo il solstizio continuano ad accumulare più calore di quanto ne perdono, per qualche settimana.",
+      "Succede lo stesso in piccolo durante una giornata: il Sole è più alto a mezzogiorno, ma le ore più calde sono di solito nel primo pomeriggio."
+     ]
+    },
+    {
+     "h": "E sugli altri pianeti?",
+     "p": [
+      "Anche altri pianeti hanno stagioni, se il loro asse è inclinato. Marte ha un'inclinazione simile a quella terrestre e ha stagioni, ma lunghe circa il doppio perché il suo anno è quasi due anni terrestri. Urano ha l'asse quasi sdraiato sul piano dell'orbita e vive stagioni estreme, in cui ciascun polo resta per decenni alla luce o al buio."
+     ]
+    }
+   ],
+   "formulas": []
   },
   {
    "id": "fasi-luna",
    "subject": "astronomia",
-   "title": "Le fasi della Luna non sono l'ombra della Terra",
-   "hook": "La Luna è sempre illuminata a metà. Cambia solo quanta di quella metà vediamo noi.",
-   "body": [
-    "Seguendo la Luna per un mese si vede un ciclo di fasi: da invisibile (luna nuova) diventa sempre più illuminata per circa due settimane fino alla luna piena, poi cala di nuovo.",
-    "Un errore molto comune è pensare che le fasi dipendano dall'ombra della Terra. In realtà la Luna, come ogni palla sotto il Sole, ha sempre una metà illuminata e una al buio.",
-    "Le fasi dipendono da quanta parte della metà illuminata vediamo dalla Terra, che cambia mentre la Luna ci gira intorno.",
-    "L'ombra della Terra entra in gioco solo in un caso particolare: le eclissi di Luna, che avvengono quando Sole, Terra e Luna sono allineati."
-   ],
+   "title": "Le fasi della Luna e le eclissi: cosa vediamo davvero",
+   "hook": "La Luna è sempre illuminata per metà. Le fasi dipendono solo dal punto da cui la guardiamo, non dall'ombra della Terra.",
    "points": [
-    "La Luna è sempre illuminata a metà.",
-    "Le fasi dipendono dal punto di vista della Terra.",
-    "L'ombra della Terra crea le eclissi, non le fasi."
+    "Perché la Luna cambia aspetto in un mese",
+    "I nomi delle fasi e quando sorge la Luna",
+    "Perché vediamo sempre la stessa faccia",
+    "Come funzionano le eclissi di Sole e di Luna"
    ],
-   "example": "Prova con una lampada e una palla: girando la palla intorno alla testa vedrai comparire tutte le fasi.",
+   "example": "Se vedi una mezza Luna nel pomeriggio, in cielo insieme al Sole, è quasi sempre il primo quarto.",
    "quote": {
     "text": "Note that in every position on Figure 4.14, the Moon is half illuminated and half dark (as a ball in sunlight should be).",
     "translation": "Nota che in ogni posizione della Figura 4.14 la Luna è per metà illuminata e per metà al buio (come dovrebbe essere una palla sotto la luce del Sole)."
@@ -880,25 +2108,91 @@
     }
    ],
    "videoQuery": "fasi lunari spiegazione",
-   "addedAt": "2026-11-03T23:16:40Z"
+   "addedAt": "2026-11-03T23:16:40Z",
+   "chapter": "Terra, Luna e cielo",
+   "mistakes": [
+    "\"Le fasi sono l'ombra della Terra\": l'ombra della Terra causa solo le eclissi di Luna.",
+    "\"La Luna non ruota\": ruota, nello stesso tempo in cui ci gira intorno.",
+    "\"Il lato oscuro della Luna è sempre buio\": è solo il lato che non vediamo."
+   ],
+   "terms": [
+    {
+     "t": "Fase lunare",
+     "d": "La parte illuminata della Luna visibile dalla Terra."
+    },
+    {
+     "t": "Rotazione sincrona",
+     "d": "Rotazione nello stesso tempo della rivoluzione."
+    },
+    {
+     "t": "Eclissi di Luna",
+     "d": "La Luna entra nell'ombra della Terra."
+    },
+    {
+     "t": "Eclissi di Sole",
+     "d": "La Luna copre il Sole visto dalla Terra."
+    }
+   ],
+   "sections": [
+    {
+     "h": "Un ciclo di circa un mese",
+     "p": [
+      "Se segui la Luna per un mese, vedi un ciclo di fasi: parte invisibile, poi diventa una sottile falce, cresce per circa due settimane fino a diventare piena, poi cala di nuovo. Il ciclo completo dura circa 29 giorni e mezzo, ed è all'origine della parola \"mese\".",
+      "La Luna non produce luce propria: brilla perché riflette la luce del Sole. E come qualsiasi palla illuminata da una sola lampada, ha sempre una metà illuminata e una metà al buio."
+     ]
+    },
+    {
+     "h": "L'errore dell'ombra",
+     "p": [
+      "Anche oggi molte persone pensano che le fasi siano causate dall'ombra della Terra che copre una parte della Luna. Non è così. Se lo fosse, la luna piena, quando Terra e Sole sono da parti opposte, sarebbe la fase più rara, e invece succede ogni mese.",
+      "Le fasi dipendono da quanta parte della metà illuminata riusciamo a vedere dalla Terra. Mentre la Luna gira intorno a noi, cambia l'angolo tra Sole, Terra e Luna, e con esso la porzione illuminata rivolta verso di noi."
+     ]
+    },
+    {
+     "h": "Le fasi una per una",
+     "p": [
+      "Luna nuova: la Luna si trova più o meno tra la Terra e il Sole, e ci mostra la faccia al buio. Non si vede, anche perché è in cielo di giorno, vicino al Sole.",
+      "Luna crescente: nei giorni successivi compare una falce sottile la sera, dopo il tramonto, che ogni giorno si ingrandisce. Dopo circa una settimana si arriva al primo quarto: vediamo illuminata metà del disco.",
+      "Luna piena: dopo circa due settimane la Luna è dalla parte opposta al Sole rispetto alla Terra. Vediamo tutta la faccia illuminata, e la Luna sorge al tramonto e resta in cielo tutta la notte.",
+      "Poi la parte visibile cala: ultimo quarto (di nuovo mezzo disco, visibile soprattutto nella seconda metà della notte e al mattino) e infine luna calante, fino a una nuova luna nuova. Attenzione ai nomi: \"ultimo quarto\" indica che la Luna ha percorso tre quarti del suo giro, non che è illuminata per un quarto."
+     ]
+    },
+    {
+     "h": "Sempre la stessa faccia",
+     "p": [
+      "Dalla Terra vediamo sempre la stessa faccia della Luna. Questo non significa che la Luna non ruoti: ruota su sé stessa esattamente nello stesso tempo in cui ci gira intorno. È un effetto della gravità terrestre, chiamato rotazione sincrona.",
+      "Il \"lato oscuro\" della Luna quindi non è sempre al buio: è il lato nascosto, che riceve la luce del Sole quanto l'altro. Durante la luna nuova, per esempio, è completamente illuminato."
+     ]
+    },
+    {
+     "h": "Le eclissi: quando entrano in gioco le ombre",
+     "p": [
+      "L'ombra della Terra conta solo in un caso speciale: l'eclissi di Luna. Succede quando Sole, Terra e Luna si allineano con la Terra in mezzo, quindi sempre con la luna piena. La Luna entra nell'ombra della Terra e si scurisce, assumendo spesso un colore rossastro, perché un po' di luce solare viene deviata e arrossata attraversando l'atmosfera terrestre.",
+      "Nell'eclissi di Sole, invece, è la Luna a passare tra Sole e Terra, quindi sempre con la luna nuova, e la sua ombra cade su una piccola striscia della superficie terrestre. Per una coincidenza notevole il Sole è circa 400 volte più grande della Luna ma anche circa 400 volte più lontano, e così nel cielo hanno quasi la stessa dimensione apparente: la Luna può coprire esattamente il disco solare.",
+      "Perché le eclissi non avvengono ogni mese? Perché l'orbita della Luna è leggermente inclinata, di circa 5 gradi, rispetto a quella della Terra. Quasi sempre la Luna passa un po' sopra o un po' sotto la linea Terra-Sole, e l'allineamento perfetto avviene solo in alcuni periodi dell'anno."
+     ]
+    },
+    {
+     "h": "Come osservarla",
+     "p": [
+      "La Luna è il miglior oggetto per iniziare a osservare il cielo: anche con un binocolo si vedono crateri e mari. Il momento migliore non è la luna piena, quando la luce frontale appiattisce i rilievi, ma i giorni vicini ai quarti, quando le ombre lungo il confine tra luce e buio fanno risaltare montagne e crateri. Il Sole invece non va mai guardato direttamente, nemmeno durante un'eclissi parziale, senza filtri specifici."
+     ]
+    }
+   ],
+   "formulas": []
   },
   {
    "id": "keplero",
    "subject": "astronomia",
-   "title": "Keplero e le orbite: i pianeti non girano in cerchio",
-   "hook": "Studiando Marte, Keplero scoprì che le orbite sono ellissi. Tre leggi che valgono ancora oggi.",
-   "body": [
-    "All'inizio del Seicento Johannes Keplero analizzò anni di osservazioni precise di Marte, raccolte dall'astronomo Tycho Brahe.",
-    "Scoprì che l'orbita di Marte non era un cerchio ma un cerchio un po' schiacciato, un'ellisse. Prima legge: ogni pianeta si muove su un'ellisse, con il Sole in uno dei due fuochi.",
-    "Seconda legge: un pianeta va più veloce quando è vicino al Sole e più lento quando è lontano.",
-    "Terza legge: più un pianeta è lontano dal Sole, più tempo impiega a completare l'orbita, secondo un rapporto matematico preciso. Decenni dopo Newton spiegò queste leggi con la gravità."
-   ],
+   "title": "Keplero e le orbite dei pianeti: tre leggi che valgono ancora",
+   "hook": "Studiando per anni l'orbita di Marte, Keplero scoprì che i pianeti non girano in cerchio. Le sue tre leggi aprirono la strada a Newton.",
    "points": [
-    "Le orbite sono ellissi, con il Sole in un fuoco.",
-    "Vicino al Sole il pianeta accelera.",
-    "Più lontano = anno più lungo."
+    "Perché le osservazioni di Tycho Brahe furono decisive",
+    "Prima legge: orbite ellittiche",
+    "Seconda legge: velocità variabile lungo l'orbita",
+    "Terza legge: periodo e distanza, e la spiegazione di Newton"
    ],
-   "example": "Giove è circa cinque volte più lontano dal Sole della Terra e impiega quasi 12 anni a fare un giro.",
+   "example": "Marte è a circa 1,5 UA dal Sole: con P² = a³ si ottiene un anno marziano di quasi 1,9 anni terrestri.",
    "quote": {
     "text": "Kepler generalized this result in his first law and said that the orbits of all the planets are ellipses.",
     "translation": "Keplero generalizzò questo risultato nella sua prima legge e affermò che le orbite di tutti i pianeti sono ellissi."
@@ -925,25 +2219,95 @@
     }
    ],
    "videoQuery": "leggi di Keplero orbite",
-   "addedAt": "2026-11-03T23:16:40Z"
+   "addedAt": "2026-11-03T23:16:40Z",
+   "chapter": "Pianeti e orbite",
+   "mistakes": [
+    "\"Le orbite sono cerchi\": sono ellissi, spesso quasi circolari.",
+    "\"Un pianeta va sempre alla stessa velocità\": accelera vicino al Sole e rallenta lontano.",
+    "\"Il Sole è al centro dell'ellisse\": è in uno dei due fuochi."
+   ],
+   "terms": [
+    {
+     "t": "Ellisse",
+     "d": "Curva chiusa simile a un cerchio schiacciato."
+    },
+    {
+     "t": "Fuoco",
+     "d": "Uno dei due punti speciali di un'ellisse."
+    },
+    {
+     "t": "Periodo orbitale",
+     "d": "Tempo per completare un'orbita."
+    },
+    {
+     "t": "Unità astronomica (UA)",
+     "d": "Distanza media tra Terra e Sole."
+    }
+   ],
+   "sections": [
+    {
+     "h": "Dal cerchio perfetto ai dati",
+     "p": [
+      "Per secoli si era dato per scontato che i corpi celesti si muovessero su cerchi perfetti, considerati la forma più armoniosa. Anche Copernico, che nel Cinquecento mise il Sole al centro, usava orbite circolari.",
+      "La svolta arrivò dai dati. L'astronomo danese Tycho Brahe passò anni a misurare con grande precisione le posizioni dei pianeti, senza telescopio, con strumenti enormi. Alla sua morte i dati passarono al suo assistente, Johannes Keplero."
+     ]
+    },
+    {
+     "h": "Prima legge: ellissi",
+     "p": [
+      "Keplero lavorò per anni sui dati di Marte. I cerchi non funzionavano: c'era sempre una piccola differenza tra calcoli e osservazioni. Alla fine capì che l'orbita di Marte aveva la forma di un cerchio un po' schiacciato: un'ellisse.",
+      "Un'ellisse si può disegnare con una matita, un filo e due chiodi: i due chiodi sono i fuochi. Più i fuochi sono distanti, più l'ellisse è schiacciata; se coincidono, è un cerchio.",
+      "La prima legge di Keplero dice che ogni pianeta si muove intorno al Sole su un'orbita ellittica, con il Sole in uno dei due fuochi. Le orbite di molti pianeti sono comunque ellissi poco schiacciate, quasi circolari: per questo era stato così difficile accorgersene."
+     ]
+    },
+    {
+     "h": "Seconda legge: più veloce vicino al Sole",
+     "p": [
+      "La seconda legge dice che la linea immaginaria che collega il pianeta al Sole spazza aree uguali in tempi uguali. Detto in modo semplice: quando il pianeta è più vicino al Sole si muove più veloce, quando è più lontano più lento.",
+      "La Terra, per esempio, è un po' più veloce a gennaio, quando è più vicina al Sole, e un po' più lenta a luglio. Per le comete, che hanno orbite molto allungate, l'effetto è enorme: sfrecciano vicino al Sole e poi rallentano moltissimo nelle regioni lontane."
+     ]
+    },
+    {
+     "h": "Terza legge: distanza e anno",
+     "p": [
+      "La terza legge lega la dimensione dell'orbita al tempo che il pianeta impiega a percorrerla, il suo periodo. Il quadrato del periodo è proporzionale al cubo della distanza media dal Sole.",
+      "Misurando i periodi in anni e le distanze in unità astronomiche (la distanza media Terra-Sole), la legge diventa semplicissima: periodo al quadrato uguale a distanza al cubo. Un pianeta a 4 unità astronomiche dal Sole impiegherebbe 8 anni a fare un giro, perché 8 × 8 = 64 e 4 × 4 × 4 = 64.",
+      "Con questa legge si possono ricavare le distanze relative di tutti i pianeti semplicemente osservando quanto tempo impiegano a tornare nella stessa posizione. Giove, a circa 5,2 unità astronomiche, impiega quasi 12 anni."
+     ]
+    },
+    {
+     "h": "Newton spiega perché",
+     "p": [
+      "Keplero aveva scoperto come si muovono i pianeti, ma non perché. La risposta arrivò circa settant'anni dopo con Isaac Newton. Usando le sue leggi del moto e la legge di gravitazione universale, Newton dimostrò che un corpo attratto dal Sole con una forza che cala con il quadrato della distanza deve muoversi proprio su un'ellisse, rispettando tutte e tre le leggi di Keplero.",
+      "La versione di Newton della terza legge include anche le masse: per questo, osservando un satellite o una luna in orbita intorno a un corpo, si può calcolare la massa del corpo centrale. È così che si misurano le masse dei pianeti, delle stelle doppie e perfino dei buchi neri al centro delle galassie."
+     ]
+    },
+    {
+     "h": "Leggi che valgono ovunque",
+     "p": [
+      "Le leggi di Keplero non valgono solo per i pianeti: descrivono le lune intorno ai pianeti, i satelliti artificiali intorno alla Terra, le stelle doppie e i pianeti che girano intorno ad altre stelle. Gli ingegneri spaziali le usano ogni giorno per progettare le traiettorie delle sonde."
+     ]
+    }
+   ],
+   "formulas": [
+    {
+     "f": "P² = a³",
+     "d": "Terza legge con il periodo P in anni e la distanza media a in unità astronomiche."
+    }
+   ]
   },
   {
    "id": "spettroscopia",
    "subject": "astronomia",
-   "title": "Come sappiamo di cosa sono fatte le stelle",
-   "hook": "Nessuno è mai andato su una stella. Eppure conosciamo la loro composizione grazie alla luce.",
-   "body": [
-    "Facendo passare la luce bianca del Sole attraverso un prisma si ottiene un arcobaleno di colori, uno spettro continuo.",
-    "Guardando bene lo spettro del Sole compaiono sottili righe scure. Ogni elemento chimico, come idrogeno, sodio o ferro, assorbe ed emette luce solo a certi colori precisi: è come un'impronta digitale.",
-    "Confrontando le righe della luce di una stella con quelle misurate in laboratorio, gli astronomi capiscono quali elementi contiene.",
-    "Questa tecnica si chiama spettroscopia. Permette anche di misurare temperatura e movimento delle stelle, ed è uno degli strumenti più potenti di tutta l'astronomia."
-   ],
+   "title": "Spettroscopia: come sappiamo di cosa sono fatte le stelle",
+   "hook": "Nessuno è mai andato su una stella, eppure conosciamo la loro composizione, temperatura e velocità. Il segreto è scomporre la loro luce.",
    "points": [
-    "La luce bianca contiene tutti i colori.",
-    "Ogni elemento ha righe spettrali uniche.",
-    "Dalle righe si capisce di cosa è fatta una stella."
+    "Che cos'è uno spettro e come si ottiene",
+    "Spettri continui, di emissione e di assorbimento",
+    "Perché ogni elemento ha un'impronta luminosa unica",
+    "Cosa ci dice la luce: composizione, temperatura, movimento"
    ],
-   "example": "L'elio fu scoperto prima nello spettro del Sole che sulla Terra: il nome viene da Helios, il Sole in greco.",
+   "example": "Un CD o un DVD inclinato sotto la luce scompone i colori come un piccolo spettroscopio: è un esperimento che puoi fare a casa.",
    "quote": {
     "text": "When we pass a beam of white sunlight through a prism, we see a rainbow-colored band of light that we call a continuous spectrum.",
     "translation": "Quando facciamo passare un fascio di luce bianca del Sole attraverso un prisma, vediamo una banda di luce con i colori dell'arcobaleno che chiamiamo spettro continuo."
@@ -953,6 +2317,11 @@
      "name": "OpenStax · Astronomy 2e",
      "title": "5.3 Spectroscopy in Astronomy",
      "url": "https://openstax.org/books/astronomy-2e/pages/5-3-spectroscopy-in-astronomy"
+    },
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "5.6 The Doppler Effect",
+     "url": "https://openstax.org/books/astronomy-2e/pages/5-6-the-doppler-effect"
     }
    ],
    "videos": [
@@ -970,25 +2339,92 @@
     }
    ],
    "videoQuery": "spettroscopia stelle composizione",
-   "addedAt": "2026-11-03T23:16:40Z"
+   "addedAt": "2026-11-03T23:16:40Z",
+   "chapter": "Luce e strumenti",
+   "mistakes": [
+    "\"Le righe scure sono difetti dello strumento\": sono le impronte degli elementi.",
+    "\"Il colore di una stella è un effetto dell'atmosfera\": dipende soprattutto dalla sua temperatura.",
+    "\"Per sapere di cosa è fatta una stella bisogna raggiungerla\": basta analizzarne la luce."
+   ],
+   "terms": [
+    {
+     "t": "Spettro",
+     "d": "La luce scomposta nelle sue lunghezze d'onda."
+    },
+    {
+     "t": "Riga di assorbimento",
+     "d": "Riga scura dove un gas ha assorbito un colore preciso."
+    },
+    {
+     "t": "Spettrografo",
+     "d": "Strumento che scompone e registra la luce."
+    },
+    {
+     "t": "Effetto Doppler",
+     "d": "Spostamento delle righe dovuto al moto della sorgente."
+    }
+   ],
+   "sections": [
+    {
+     "h": "Scomporre la luce",
+     "p": [
+      "Quando un fascio di luce bianca del Sole attraversa un prisma, si apre in una banda con tutti i colori dell'arcobaleno, dal violetto al rosso: uno spettro continuo. Newton lo studiò già nel Seicento.",
+      "Ogni colore corrisponde a una diversa lunghezza d'onda della luce: il violetto ha onde più corte, il rosso più lunghe. Uno strumento che scompone la luce in questo modo e la misura si chiama spettrometro o spettrografo, e oggi è montato su quasi tutti i grandi telescopi."
+     ]
+    },
+    {
+     "h": "Le righe misteriose",
+     "p": [
+      "All'inizio dell'Ottocento si scoprì che, osservando con attenzione lo spettro del Sole, comparivano centinaia di sottili righe scure, come se mancassero alcuni colori precisi. Il fisico tedesco Joseph von Fraunhofer le catalogò con cura, e ancora oggi si chiamano righe di Fraunhofer.",
+      "La spiegazione arrivò alcuni decenni dopo, in laboratorio. Riscaldando sostanze diverse si vide che ogni elemento chimico, allo stato di gas caldo, emette luce solo a certe lunghezze d'onda precise, producendo righe luminose sempre uguali. E se luce con tutti i colori attraversa un gas più freddo dello stesso elemento, quel gas assorbe proprio quei colori, lasciando righe scure nelle stesse posizioni."
+     ]
+    },
+    {
+     "h": "Tre tipi di spettro",
+     "p": [
+      "Spettro continuo: lo produce un oggetto caldo e denso, come il filamento di una lampadina o l'interno di una stella. Contiene tutti i colori senza interruzioni.",
+      "Spettro di emissione: lo produce un gas caldo e rarefatto. Si vedono solo alcune righe luminose su fondo scuro. Le insegne al neon ne sono un esempio: il colore dipende dal gas contenuto nel tubo.",
+      "Spettro di assorbimento: si ottiene quando luce continua attraversa un gas più freddo. Si vede l'arcobaleno con righe scure. Le stelle mostrano soprattutto spettri di questo tipo, perché la luce dell'interno caldo attraversa gli strati esterni più freddi."
+     ]
+    },
+    {
+     "h": "Impronte digitali atomiche",
+     "p": [
+      "Perché ogni elemento ha righe proprie? Gli elettroni degli atomi possono stare solo a certi livelli di energia, come i gradini di una scala. Quando un elettrone salta da un gradino all'altro assorbe o emette luce con un'energia precisa, e quindi un colore preciso. Ogni elemento ha una scala diversa, e quindi una serie di righe unica.",
+      "Confrontando le righe della luce di una stella con quelle misurate in laboratorio, gli astronomi riconoscono gli elementi presenti come si riconosce una persona dalle impronte digitali. Così si è scoperto che le stelle sono fatte soprattutto di idrogeno ed elio.",
+      "L'elio fu addirittura scoperto prima nello spettro del Sole, durante un'eclissi nel 1868, che sulla Terra: il suo nome viene da Helios, il Sole in greco."
+     ]
+    },
+    {
+     "h": "Cosa si può misurare",
+     "p": [
+      "Composizione: quali elementi ci sono e in che proporzioni, dall'intensità delle righe.",
+      "Temperatura: le stelle più calde appaiono azzurre, quelle più fredde rossastre, e lo spettro permette di misurarlo con precisione. Anche le righe presenti cambiano con la temperatura.",
+      "Movimento: se una stella si allontana, tutte le sue righe si spostano un po' verso il rosso; se si avvicina, verso il blu. È l'effetto Doppler, lo stesso che fa cambiare il suono di un'ambulanza che passa. Questo spostamento ha permesso di scoprire pianeti intorno ad altre stelle e l'espansione dell'universo.",
+      "Si possono ricavare anche la rotazione delle stelle, i loro campi magnetici e la composizione delle atmosfere di alcuni pianeti extrasolari."
+     ]
+    },
+    {
+     "h": "Una rivoluzione",
+     "p": [
+      "Nel 1835 il filosofo Auguste Comte scrisse che non avremmo mai potuto conoscere la composizione chimica delle stelle. Pochi decenni dopo la spettroscopia lo smentì. Oggi è uno degli strumenti più potenti dell'astronomia: gran parte di ciò che sappiamo dell'universo viene dall'analisi della luce."
+     ]
+    }
+   ],
+   "formulas": []
   },
   {
    "id": "fusione-sole",
    "subject": "astronomia",
-   "title": "Come brilla il Sole: 4 milioni di tonnellate al secondo",
-   "hook": "Nel cuore del Sole l'idrogeno diventa elio e una piccola parte di massa diventa luce.",
-   "body": [
-    "Il Sole produce energia con la fusione nucleare: nuclei di atomi leggeri si uniscono e formano nuclei più pesanti, liberando energia.",
-    "Nel nucleo del Sole l'idrogeno si trasforma in elio. Il nucleo di elio pesa un po' meno dei pezzi di partenza, e quella massa \"mancante\" diventa energia secondo la formula di Einstein E = mc².",
-    "Per produrre tutta l'energia che emette, il Sole trasforma in elio circa 600 milioni di tonnellate di idrogeno al secondo. Di queste, circa 4 milioni di tonnellate diventano pura energia.",
-    "Sembra un'enormità, ma il Sole è così grande che ha combustibile per miliardi di anni."
-   ],
+   "title": "Come brilla il Sole: la fusione nucleare spiegata",
+   "hook": "Né fuoco né carbone: nel cuore del Sole l'idrogeno diventa elio e una piccola parte della massa si trasforma in luce, ogni secondo.",
    "points": [
-    "Fusione: nuclei leggeri si uniscono e liberano energia.",
-    "Nel Sole l'idrogeno diventa elio.",
-    "La massa persa diventa energia: E = mc²."
+    "Perché il Sole non può essere un \"fuoco\"",
+    "Cos'è la fusione nucleare",
+    "Come E = mc² spiega l'energia del Sole",
+    "Quanto durerà il Sole"
    ],
-   "example": "La luce che ti scalda il viso in spiaggia è nata da questa trasformazione di massa in energia nel cuore del Sole.",
+   "example": "La luce che ti scalda la pelle in spiaggia è nata come massa scomparsa nel cuore del Sole ed è arrivata fino a te in circa 8 minuti dalla superficie.",
    "quote": {
     "text": "This joining together of atomic nuclei is called nuclear fusion.",
     "translation": "Questa unione di nuclei atomici si chiama fusione nucleare."
@@ -998,6 +2434,11 @@
      "name": "OpenStax · Astronomy 2e",
      "title": "16.2 Mass, Energy, and the Theory of Relativity",
      "url": "https://openstax.org/books/astronomy-2e/pages/16-2-mass-energy-and-the-theory-of-relativity"
+    },
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "16.3 The Solar Interior: Theory",
+     "url": "https://openstax.org/books/astronomy-2e/pages/16-3-the-solar-interior-theory"
     }
    ],
    "videos": [
@@ -1009,25 +2450,99 @@
     }
    ],
    "videoQuery": "fusione nucleare Sole energia",
-   "addedAt": "2026-11-03T23:16:40Z"
+   "addedAt": "2026-11-03T23:16:40Z",
+   "chapter": "Stelle",
+   "mistakes": [
+    "\"Il Sole è una palla di fuoco\": non brucia come un fuoco, è fusione nucleare.",
+    "\"Il Sole si sta esaurendo presto\": ha combustibile per miliardi di anni.",
+    "\"Fusione e fissione sono la stessa cosa\": la fusione unisce nuclei, la fissione li spezza."
+   ],
+   "terms": [
+    {
+     "t": "Fusione nucleare",
+     "d": "Unione di nuclei leggeri in nuclei più pesanti."
+    },
+    {
+     "t": "Fissione",
+     "d": "Rottura di nuclei pesanti."
+    },
+    {
+     "t": "Fotosfera",
+     "d": "La superficie visibile del Sole."
+    },
+    {
+     "t": "Convezione",
+     "d": "Trasporto di calore tramite movimento di gas o liquidi."
+    }
+   ],
+   "sections": [
+    {
+     "h": "Un enigma antico",
+     "p": [
+      "Il Sole emette una quantità enorme di energia, ogni secondo, da miliardi di anni. Per molto tempo nessuno sapeva spiegare come. Se fosse una gigantesca palla di carbone che brucia, si sarebbe esaurito in poche migliaia di anni, troppo poco rispetto all'età della Terra rivelata da geologia e fossili.",
+      "Nell'Ottocento si ipotizzò che il Sole brillasse perché si contrae lentamente sotto il proprio peso, trasformando energia gravitazionale in calore. Anche questo però avrebbe dato al Sole un'età di decine di milioni di anni, ancora troppo poca. Serviva una fonte di energia molto più potente."
+     ]
+    },
+    {
+     "h": "La risposta: massa che diventa energia",
+     "p": [
+      "La soluzione arrivò con la relatività di Einstein, che dimostrò che massa ed energia sono equivalenti: E = mc². La c è la velocità della luce, un numero enorme, e al quadrato diventa gigantesco. Significa che una piccolissima quantità di massa corrisponde a una quantità immensa di energia.",
+      "Con questa equazione si calcola che l'energia irradiata dal Sole equivale alla trasformazione completa in energia di circa 4 milioni di tonnellate di materia ogni secondo. Restava da capire come il Sole trasformasse massa in energia."
+     ]
+    },
+    {
+     "h": "La fusione nucleare",
+     "p": [
+      "Esistono due modi per ottenere energia dai nuclei degli atomi. Nella fissione, usata nelle centrali nucleari, nuclei pesanti come l'uranio si spezzano. Nella fusione, nuclei leggeri si uniscono per formarne di più pesanti. È la fusione che alimenta il Sole e le stelle.",
+      "Nel nucleo del Sole quattro nuclei di idrogeno, attraverso una catena di reazioni, diventano un nucleo di elio. Il nucleo di elio pesa un po' meno, circa lo 0,7% in meno, dei quattro nuclei di partenza. Quella massa mancante diventa energia.",
+      "Per produrre la sua luminosità il Sole trasforma in elio circa 600 milioni di tonnellate di idrogeno al secondo; di queste, circa 4 milioni di tonnellate diventano energia. Sembra moltissimo, ma il Sole è così massiccio che può continuare così per miliardi di anni."
+     ]
+    },
+    {
+     "h": "Perché servono temperature estreme",
+     "p": [
+      "I nuclei di idrogeno hanno tutti carica positiva e si respingono con forza. Per unirsi devono avvicinarsi tantissimo, e questo succede solo se si muovono velocissimi, cioè a temperature altissime. Nel nucleo del Sole ci sono circa 15 milioni di gradi e una pressione enorme, dovuta al peso di tutti gli strati sovrastanti.",
+      "È per questo che la fusione è così difficile da riprodurre sulla Terra: nei laboratori di tutto il mondo si cerca da decenni di costruire reattori a fusione per produrre elettricità pulita, ma mantenere le condizioni necessarie è una sfida tecnologica enorme."
+     ]
+    },
+    {
+     "h": "Il lungo viaggio della luce",
+     "p": [
+      "L'energia prodotta nel nucleo non esce subito. Nelle regioni interne la luce viene continuamente assorbita e riemessa dalla materia densissima, in un percorso a zig-zag che può durare moltissimo tempo, secondo le stime decine o centinaia di migliaia di anni. Più all'esterno l'energia viene trasportata dalla convezione, con gas caldo che sale e gas più freddo che scende, come in una pentola che bolle.",
+      "Una volta raggiunta la superficie visibile, la fotosfera, la luce viaggia nello spazio e raggiunge la Terra in circa 8 minuti."
+     ]
+    },
+    {
+     "h": "Quanto durerà",
+     "p": [
+      "Il Sole ha circa 4,6 miliardi di anni ed è più o meno a metà della sua vita di stella \"tranquilla\". Fra miliardi di anni l'idrogeno nel nucleo si esaurirà e il Sole cambierà profondamente, gonfiandosi fino a diventare una gigante rossa.",
+      "Ogni stella che vedi in cielo funziona con lo stesso principio: sono tutte fornaci a fusione nucleare, ed è al loro interno che si sono formati molti degli elementi di cui siamo fatti."
+     ]
+    }
+   ],
+   "formulas": [
+    {
+     "f": "E = m · c²",
+     "d": "Energia = massa × velocità della luce al quadrato."
+    },
+    {
+     "f": "4 H → He + energia",
+     "d": "Nel nucleo del Sole quattro nuclei di idrogeno diventano un nucleo di elio."
+    }
+   ]
   },
   {
    "id": "giganti-rosse",
    "subject": "astronomia",
-   "title": "Quando una stella finisce l'idrogeno diventa una gigante rossa",
-   "hook": "Anche il Sole, tra miliardi di anni, si gonfierà. Ecco cosa succede a una stella che invecchia.",
-   "body": [
-    "Per la maggior parte della loro vita le stelle bruciano idrogeno nel nucleo. In questa fase gli astronomi dicono che sono sulla \"sequenza principale\".",
-    "Prima o poi l'idrogeno nel nucleo, l'unica zona abbastanza calda per la fusione, si esaurisce. Il nucleo allora si contrae e si scalda, mentre la fusione continua in un guscio intorno.",
-    "Gli strati esterni della stella si espandono enormemente e si raffreddano: la stella diventa più grande, più luminosa e di colore rossastro, una gigante rossa.",
-    "Il Sole è ancora a metà della sua vita: mancano miliardi di anni prima che inizi a espandersi in questo modo."
-   ],
+   "title": "La vita delle stelle: dalla sequenza principale alle giganti rosse",
+   "hook": "Le stelle nascono, cambiano e muoiono. Ecco cosa succede quando finiscono l'idrogeno, e cosa toccherà al nostro Sole.",
    "points": [
-    "Le stelle passano la vita a fondere idrogeno.",
-    "Finito l'idrogeno nel nucleo, gli strati esterni si gonfiano.",
-    "Il Sole lo farà tra miliardi di anni."
+    "Come nascono le stelle",
+    "La sequenza principale: la lunga età adulta",
+    "Perché una stella diventa una gigante rossa",
+    "Destini diversi per stelle piccole e grandi"
    ],
-   "example": "Betelgeuse, la stella rossa nella costellazione di Orione, è un esempio di stella in una fase avanzata della sua vita.",
+   "example": "Guarda Orione in una sera d'inverno: Betelgeuse, rossastra, è una supergigante; Rigel, azzurra, è una stella molto calda e massiccia.",
    "quote": {
     "text": "From Main-Sequence Star to Red Giant Eventually, all the hydrogen in a star’s core, where it is hot enough for fusion reactions, is used up.",
     "translation": "Da stella di sequenza principale a gigante rossa: alla fine tutto l'idrogeno nel nucleo della stella, dove fa abbastanza caldo per le reazioni di fusione, si esaurisce."
@@ -1037,6 +2552,16 @@
      "name": "OpenStax · Astronomy 2e",
      "title": "22.1 Evolution from the Main Sequence to Red Giants",
      "url": "https://openstax.org/books/astronomy-2e/pages/22-1-evolution-from-the-main-sequence-to-red-giants"
+    },
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "21.1 Star Formation",
+     "url": "https://openstax.org/books/astronomy-2e/pages/21-1-star-formation"
+    },
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "23.1 The Death of Low-Mass Stars",
+     "url": "https://openstax.org/books/astronomy-2e/pages/23-1-the-death-of-low-mass-stars"
     }
    ],
    "videos": [
@@ -1054,25 +2579,90 @@
     }
    ],
    "videoQuery": "evoluzione stellare gigante rossa",
-   "addedAt": "2026-11-03T23:16:40Z"
+   "addedAt": "2026-11-03T23:16:40Z",
+   "chapter": "Stelle",
+   "mistakes": [
+    "\"Le stelle bruciano come il fuoco\": producono energia con la fusione nucleare.",
+    "\"Le stelle grandi vivono di più perché hanno più combustibile\": lo consumano molto più in fretta e vivono meno.",
+    "\"Il Sole esploderà come supernova\": non ha massa sufficiente, diventerà una nana bianca."
+   ],
+   "terms": [
+    {
+     "t": "Sequenza principale",
+     "d": "Fase in cui una stella fonde idrogeno nel nucleo."
+    },
+    {
+     "t": "Gigante rossa",
+     "d": "Stella espansa e più fredda in superficie dopo l'esaurimento dell'idrogeno nel nucleo."
+    },
+    {
+     "t": "Nana bianca",
+     "d": "Nucleo densissimo che resta di una stella come il Sole."
+    },
+    {
+     "t": "Diagramma H-R",
+     "d": "Grafico che confronta luminosità e temperatura delle stelle."
+    }
+   ],
+   "sections": [
+    {
+     "h": "Le stelle hanno una vita",
+     "p": [
+      "Il cielo sembra immutabile, ma le stelle cambiano su tempi lunghissimi, milioni o miliardi di anni. Non possiamo seguire una singola stella dalla nascita alla morte, ma possiamo osservare moltissime stelle in fasi diverse, come fotografare una folla di persone di tutte le età per capire come si invecchia.",
+      "Gli astronomi organizzano le stelle in un grafico chiamato diagramma H-R (dai nomi di Hertzsprung e Russell), che mette in relazione luminosità e temperatura. La posizione di una stella in questo diagramma racconta in che fase della vita si trova."
+     ]
+    },
+    {
+     "h": "La nascita",
+     "p": [
+      "Le stelle nascono in grandi nubi di gas e polvere. Una zona particolarmente densa della nube collassa sotto la propria gravità; mentre si contrae, si scalda. Quando il centro raggiunge temperature di milioni di gradi, si accende la fusione dell'idrogeno: nasce una stella.",
+      "Spesso dallo stesso materiale si formano anche dischi di gas e polvere intorno alla giovane stella, da cui possono nascere i pianeti."
+     ]
+    },
+    {
+     "h": "La sequenza principale",
+     "p": [
+      "Per la maggior parte della loro vita le stelle fondono idrogeno in elio nel nucleo. In questa fase sono stabili: la pressione del gas caldo, che spinge verso l'esterno, bilancia la gravità, che tira verso l'interno. Nel diagramma H-R queste stelle formano una larga fascia chiamata sequenza principale. Il Sole ci si trova da circa 4,6 miliardi di anni.",
+      "Il fattore che decide quasi tutto è la massa. Le stelle più massicce sono più calde, più luminose e più azzurre, ma consumano il combustibile molto più in fretta: vivono pochi milioni di anni. Le stelle piccole, rossastre e deboli, sono parsimoniose e possono durare molto più a lungo dell'età attuale dell'universo."
+     ]
+    },
+    {
+     "h": "Quando finisce l'idrogeno nel nucleo",
+     "p": [
+      "Prima o poi tutto l'idrogeno nel nucleo, l'unica zona abbastanza calda per la fusione, viene trasformato in elio. Senza la fusione nel centro, la gravità prende il sopravvento e il nucleo di elio si contrae e si scalda.",
+      "Il calore fa accendere la fusione dell'idrogeno in un guscio intorno al nucleo. Questa nuova fonte di energia è molto intensa e spinge gli strati esterni della stella a espandersi enormemente. Espandendosi si raffreddano, e la superficie diventa rossastra.",
+      "La stella è diventata una gigante rossa: molto più grande, molto più luminosa, ma con una superficie più fredda di prima. Le più massicce diventano supergiganti, come Betelgeuse nella costellazione di Orione."
+     ]
+    },
+    {
+     "h": "Il destino del Sole",
+     "p": [
+      "Fra miliardi di anni anche il Sole lascerà la sequenza principale e diventerà una gigante rossa. Si gonfierà a tal punto da inghiottire probabilmente Mercurio e Venere; il destino della Terra è ancora discusso, ma in ogni caso diventerebbe inabitabile molto prima.",
+      "Più avanti il nucleo del Sole diventerà abbastanza caldo da fondere l'elio in carbonio e ossigeno. Alla fine gli strati esterni verranno espulsi formando una nebulosa planetaria, una delle strutture più belle del cielo, e del Sole resterà il nucleo: una nana bianca, piccola come la Terra ma densissima, che si raffredderà lentamente."
+     ]
+    },
+    {
+     "h": "Stelle grandi, finali spettacolari",
+     "p": [
+      "Le stelle molto più massicce del Sole continuano a fondere elementi sempre più pesanti nel nucleo, fino al ferro. Il ferro non può più produrre energia con la fusione: il nucleo collassa all'improvviso e la stella esplode come supernova.",
+      "Ciò che resta può diventare una stella di neutroni o, per le stelle più massicce, un buco nero. Le esplosioni disperdono nello spazio gli elementi prodotti dalla stella, che entreranno a far parte di nuove stelle, nuovi pianeti e, almeno in un caso, di esseri viventi. Il carbonio, l'ossigeno e il ferro del nostro corpo sono stati prodotti all'interno di stelle."
+     ]
+    }
+   ],
+   "formulas": []
   },
   {
    "id": "buchi-neri",
    "subject": "astronomia",
-   "title": "Buchi neri: il confine da cui nemmeno la luce torna indietro",
-   "hook": "L'orizzonte degli eventi è una superficie invisibile. Superata quella, non si esce più.",
-   "body": [
-    "Per lasciare la Terra un razzo deve superare una certa velocità, la velocità di fuga. Più un oggetto è compatto e massiccio, più alta è la velocità di fuga.",
-    "Se una stella enorme collassa fino a diventare piccolissima, a un certo punto la velocità di fuga supera quella della luce. Nemmeno la luce può uscire: si è formato un buco nero.",
-    "La superficie che segna il punto di non ritorno si chiama orizzonte degli eventi. Il suo raggio porta il nome di Karl Schwarzschild, che ne calcolò per primo le caratteristiche.",
-    "Un buco nero non \"aspira\" tutto come un aspirapolvere: da lontano la sua gravità è come quella di qualsiasi altro oggetto con la stessa massa. Il pericolo è solo avvicinarsi troppo."
-   ],
+   "title": "Buchi neri: dove la gravità vince anche sulla luce",
+   "hook": "Velocità di fuga, orizzonte degli eventi e spaghettificazione: cosa sono davvero i buchi neri e come sappiamo che esistono.",
    "points": [
-    "La velocità di fuga cresce con massa e compattezza.",
-    "Oltre l'orizzonte degli eventi nemmeno la luce esce.",
-    "Da lontano un buco nero attrae come ogni altra massa."
+    "Che cos'è la velocità di fuga",
+    "Come si forma un buco nero",
+    "L'orizzonte degli eventi e il raggio di Schwarzschild",
+    "Come si osservano i buchi neri se non emettono luce"
    ],
-   "example": "Se il Sole diventasse per magia un buco nero della stessa massa, la Terra continuerebbe a girargli intorno come prima, solo al buio.",
+   "example": "Se il Sole diventasse un buco nero della stessa massa, l'orbita della Terra non cambierebbe: il Sole sarebbe solo una sfera di circa 3 km invece di 1,4 milioni.",
    "quote": {
     "text": "The size of the star at this moment defines a surface that we call the event horizon.",
     "translation": "La dimensione della stella in quel momento definisce una superficie che chiamiamo orizzonte degli eventi."
@@ -1099,25 +2689,91 @@
     }
    ],
    "videoQuery": "buchi neri orizzonte degli eventi",
-   "addedAt": "2026-11-03T23:16:40Z"
+   "addedAt": "2026-11-03T23:16:40Z",
+   "chapter": "Stelle",
+   "mistakes": [
+    "\"I buchi neri risucchiano tutto\": da lontano attraggono come qualsiasi altra massa uguale.",
+    "\"Sono buchi nello spazio\": sono regioni con enorme massa concentrata.",
+    "\"Non si possono studiare perché sono invisibili\": si osservano dal loro effetto su gas, stelle e spazio-tempo."
+   ],
+   "terms": [
+    {
+     "t": "Velocità di fuga",
+     "d": "Velocità minima per allontanarsi per sempre da un corpo."
+    },
+    {
+     "t": "Orizzonte degli eventi",
+     "d": "Confine oltre il quale nulla può uscire."
+    },
+    {
+     "t": "Raggio di Schwarzschild",
+     "d": "Il raggio dell'orizzonte, proporzionale alla massa."
+    },
+    {
+     "t": "Disco di accrescimento",
+     "d": "Disco di gas caldissimo che spiraleggia verso il buco nero."
+    }
+   ],
+   "sections": [
+    {
+     "h": "Partiamo da una palla lanciata in alto",
+     "p": [
+      "Se lanci una palla in alto, ricade. Se la lanci più forte, sale di più prima di ricadere. Esiste una velocità, detta velocità di fuga, oltre la quale l'oggetto si allontana per sempre senza ricadere. Per la Terra è di circa 11 chilometri al secondo.",
+      "La velocità di fuga dipende dalla massa del corpo e dalle sue dimensioni: più un oggetto è massiccio e compatto, più alta è la velocità necessaria per sfuggirgli. Se comprimessi la Terra senza cambiarne la massa, la velocità di fuga dalla sua superficie aumenterebbe."
+     ]
+    },
+    {
+     "h": "Quando nemmeno la luce può scappare",
+     "p": [
+      "Immagina di comprimere un corpo sempre di più. A un certo punto la velocità di fuga supera quella della luce, circa 300.000 chilometri al secondo. Poiché nulla può viaggiare più veloce della luce, a quel punto nulla può più uscire: si è formato un buco nero.",
+      "Nella relatività generale di Einstein la gravità è la curvatura dello spazio-tempo prodotta dalla massa. Un buco nero è una regione in cui questa curvatura è così estrema che tutti i percorsi possibili, anche quelli della luce, portano verso l'interno."
+     ]
+    },
+    {
+     "h": "Come si forma",
+     "p": [
+      "I buchi neri di massa stellare nascono dalla morte di stelle molto massicce. Quando il nucleo di una di queste stelle esaurisce il combustibile e non riesce più a sostenere il proprio peso, collassa. Se la massa residua è abbastanza grande, nessuna forza conosciuta può fermare il collasso.",
+      "La stella si contrae fino a quando la sua superficie supera un confine speciale, oltre il quale anche un raggio di luce diretto verso l'alto ricade indietro. Quel confine è l'orizzonte degli eventi."
+     ]
+    },
+    {
+     "h": "L'orizzonte degli eventi",
+     "p": [
+      "L'orizzonte degli eventi non è una superficie solida: è un confine invisibile, un punto di non ritorno. Ciò che lo attraversa non può più comunicare con l'esterno. Le sue caratteristiche furono calcolate per primo dall'astronomo Karl Schwarzschild, e il suo raggio si chiama raggio di Schwarzschild.",
+      "Il raggio dipende solo dalla massa: per un buco nero con la massa del Sole sarebbe di circa 3 chilometri. Se la Terra diventasse un buco nero, sarebbe grande più o meno come una biglia.",
+      "Vicino a un buco nero di massa stellare la differenza di gravità tra testa e piedi sarebbe così grande da stirare un corpo come uno spaghetto: gli astrofisici lo chiamano, letteralmente, spaghettificazione. Inoltre il tempo, visto da lontano, sembra rallentare per chi si avvicina all'orizzonte."
+     ]
+    },
+    {
+     "h": "Non sono aspirapolvere cosmici",
+     "p": [
+      "Un errore comune è pensare che i buchi neri risucchino tutto ciò che hanno intorno. Da lontano, la gravità di un buco nero è uguale a quella di qualsiasi altro oggetto con la stessa massa. Se il Sole fosse sostituito da un buco nero della stessa massa, la Terra continuerebbe a orbitare come prima, solo al buio e al freddo.",
+      "Il pericolo è avvicinarsi molto: solo nelle regioni vicine all'orizzonte la gravità diventa estrema."
+     ]
+    },
+    {
+     "h": "Come si vedono se sono neri",
+     "p": [
+      "I buchi neri non emettono luce, ma ciò che hanno intorno sì. Il gas che cade verso un buco nero forma un disco vorticoso, il disco di accrescimento, che si scalda a milioni di gradi ed emette raggi X osservabili con telescopi spaziali.",
+      "Si può anche osservare l'effetto della loro gravità su stelle vicine. Al centro della nostra galassia, le orbite di alcune stelle mostrano che girano intorno a un oggetto invisibile di circa 4 milioni di masse solari: un buco nero supermassiccio. Nel 2019 il progetto Event Horizon Telescope ha pubblicato la prima immagine dell'ombra di un buco nero, nella galassia M87, e nel 2022 quella del buco nero al centro della Via Lattea.",
+      "Infine, quando due buchi neri si fondono, producono increspature dello spazio-tempo chiamate onde gravitazionali, rilevate per la prima volta nel 2015 dagli strumenti LIGO."
+     ]
+    }
+   ],
+   "formulas": []
   },
   {
    "id": "universo-espansione",
    "subject": "astronomia",
-   "title": "L'universo si sta espandendo: le galassie si allontanano",
-   "hook": "Più una galassia è lontana, più velocemente si allontana da noi. Da qui nasce l'idea del Big Bang.",
-   "body": [
-    "Negli anni '10 del Novecento l'astronomo Vesto Slipher notò che la luce di quasi tutte le \"nebulose a spirale\" era spostata verso il rosso: segno che si stavano allontanando.",
-    "Negli anni '20 Edwin Hubble dimostrò che quelle nebulose erano altre galassie e misurò le loro distanze. Scoprì una regola: la velocità con cui una galassia si allontana è proporzionale alla sua distanza. È la legge di Hubble.",
-    "Ancora prima, nel 1927, il sacerdote e astronomo belga Georges Lemaître aveva proposto che l'universo fosse in espansione, usando proprio i dati di Slipher.",
-    "Se tutte le galassie lontane si allontanano, e le più distanti più in fretta, viviamo in un universo che si espande. Andando indietro nel tempo, tutto era più vicino: è il punto di partenza dell'idea del Big Bang."
-   ],
+   "title": "L'universo in espansione: dalle galassie in fuga al Big Bang",
+   "hook": "Quasi tutte le galassie si allontanano da noi, e le più lontane più in fretta. Da questa scoperta nasce la nostra storia dell'universo.",
    "points": [
-    "Quasi tutte le galassie si allontanano da noi.",
-    "Più lontane = più veloci (legge di Hubble).",
-    "Lemaître propose per primo l'espansione."
+    "Il redshift e le misure di Slipher",
+    "Le galassie di Hubble e la legge di Hubble-Lemaître",
+    "Cosa significa che lo spazio si espande",
+    "Le prove del Big Bang"
    ],
-   "example": "Immagina un panettone che lievita con l'uvetta: ogni uvetta vede le altre allontanarsi, e quelle più lontane si allontanano più in fretta.",
+   "example": "La luce della galassia di Andromeda, una delle più lontane visibili a occhio nudo, è partita circa 2,5 milioni di anni fa: guardarla significa guardare nel passato.",
    "quote": {
     "text": "Since all but the nearest galaxies appear to be in motion away from us, with the most distant ones moving the fastest, we must be living in an expanding universe.",
     "translation": "Poiché tutte le galassie, tranne le più vicine, sembrano allontanarsi da noi, e le più distanti si muovono più velocemente, dobbiamo vivere in un universo in espansione."
@@ -1127,6 +2783,11 @@
      "name": "OpenStax · Astronomy 2e",
      "title": "26.5 The Expanding Universe",
      "url": "https://openstax.org/books/astronomy-2e/pages/26-5-the-expanding-universe"
+    },
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "29.3 The Beginning of the Universe",
+     "url": "https://openstax.org/books/astronomy-2e/pages/29-3-the-beginning-of-the-universe"
     }
    ],
    "videos": [
@@ -1150,7 +2811,83 @@
     }
    ],
    "videoQuery": "universo in espansione legge di Hubble Big Bang",
-   "addedAt": "2026-11-03T23:16:40Z"
+   "addedAt": "2026-11-03T23:16:40Z",
+   "chapter": "Galassie e cosmo",
+   "mistakes": [
+    "\"Siamo al centro dell'espansione\": da qualsiasi galassia si vedrebbe la stessa cosa.",
+    "\"Il Big Bang fu un'esplosione in un punto dello spazio\": fu l'espansione dello spazio stesso.",
+    "\"Si espande tutto, anche il Sistema solare\": le strutture legate dalla gravità non si espandono."
+   ],
+   "terms": [
+    {
+     "t": "Redshift",
+     "d": "Spostamento verso il rosso delle righe spettrali di un oggetto che si allontana."
+    },
+    {
+     "t": "Legge di Hubble-Lemaître",
+     "d": "Velocità proporzionale alla distanza per le galassie lontane."
+    },
+    {
+     "t": "Radiazione cosmica di fondo",
+     "d": "Bagliore di microonde residuo dell'universo primordiale."
+    },
+    {
+     "t": "Energia oscura",
+     "d": "Nome dato alla causa sconosciuta dell'espansione accelerata."
+    }
+   ],
+   "sections": [
+    {
+     "h": "Le nebulose che scappano",
+     "p": [
+      "Nei primi decenni del Novecento l'astronomo americano Vesto Slipher misurò gli spettri di alcune \"nebulose a spirale\". Scoprì che in quasi tutte le righe spettrali erano spostate verso il rosso. Per l'effetto Doppler, significava che quelle nebulose si stavano allontanando da noi, alcune a velocità di centinaia di chilometri al secondo.",
+      "Slipher annunciò la scoperta nel 1914, anni prima che qualcuno sapesse cosa fossero davvero quegli oggetti e quanto fossero lontani."
+     ]
+    },
+    {
+     "h": "Le galassie di Hubble",
+     "p": [
+      "Negli anni Venti Edwin Hubble, con il telescopio da 2,5 metri del Monte Wilson in California, riuscì a individuare singole stelle variabili dentro alcune di queste nebulose. Misurandone la luminosità, calcolò le distanze: erano enormi, molto oltre i confini della Via Lattea. Le nebulose a spirale erano altre galassie, simili alla nostra.",
+      "Combinando le sue distanze con le velocità di Slipher e di altri, Hubble trovò una relazione semplice: più una galassia è lontana, più velocemente si allontana. La velocità è proporzionale alla distanza. È la legge di Hubble, oggi chiamata anche legge di Hubble-Lemaître."
+     ]
+    },
+    {
+     "h": "Il ruolo di Lemaître",
+     "p": [
+      "Due anni prima, nel 1927, il sacerdote e astronomo belga Georges Lemaître aveva pubblicato su una rivista belga poco nota un articolo in francese in cui proponeva che l'universo fosse in espansione, usando proprio i dati di Slipher, e ne stimava il ritmo.",
+      "Il suo lavoro rimase poco conosciuto per qualche anno. Oggi molti astronomi, e anche il manuale da cui viene questa spiegazione, sottolineano il suo contributo. Lemaître propose anche che l'universo fosse partito da uno stato iniziale estremamente denso, l'idea che diventerà il Big Bang."
+     ]
+    },
+    {
+     "h": "Cosa vuol dire che l'universo si espande",
+     "p": [
+      "Se tutte le galassie lontane si allontanano, e le più distanti più in fretta, viviamo in un universo che si espande. Ma attenzione: non siamo al centro. Da qualunque galassia si osserverebbe la stessa cosa.",
+      "Un'analogia classica è il panettone con l'uvetta che lievita in forno: ogni uvetta vede tutte le altre allontanarsi, e quelle più lontane si allontanano più velocemente, perché c'è più impasto in mezzo che si gonfia. Nessuna uvetta è al centro. Le galassie sono le uvette, lo spazio è l'impasto.",
+      "Non sono le galassie a correre attraverso lo spazio: è lo spazio stesso tra le galassie lontane a dilatarsi. Galassie vicine e legate dalla gravità, come la Via Lattea e Andromeda, non si allontanano; anzi, Andromeda si sta avvicinando a noi."
+     ]
+    },
+    {
+     "h": "Tornare indietro nel tempo: il Big Bang",
+     "p": [
+      "Se oggi le galassie si allontanano, in passato erano più vicine. Andando abbastanza indietro, tutto l'universo che osserviamo era concentrato in uno stato estremamente caldo e denso. Questa è l'idea del Big Bang, che non va immaginato come un'esplosione in un punto dello spazio, ma come l'espansione di tutto lo spazio a partire da quello stato iniziale.",
+      "Misurando il ritmo dell'espansione, la costante di Hubble, si può stimare l'età dell'universo: le misure attuali indicano circa 13,8 miliardi di anni."
+     ]
+    },
+    {
+     "h": "Le prove",
+     "p": [
+      "Oltre all'espansione, il Big Bang è sostenuto da altre prove indipendenti. La radiazione cosmica di fondo, scoperta nel 1965, è un debolissimo bagliore di microonde che arriva da ogni direzione: è la luce residua di quando l'universo, circa 380.000 anni dopo l'inizio, diventò trasparente.",
+      "Anche le quantità di idrogeno, elio e altri elementi leggeri osservate nell'universo corrispondono a quelle previste dai calcoli sui primi minuti dopo il Big Bang.",
+      "E alla fine degli anni Novanta si è scoperto che l'espansione sta accelerando, una sorpresa ancora non del tutto spiegata, attribuita a una misteriosa energia oscura."
+     ]
+    }
+   ],
+   "formulas": [
+    {
+     "f": "v = H₀ · d",
+     "d": "Legge di Hubble-Lemaître: velocità di allontanamento = costante di Hubble × distanza."
+    }
+   ]
   }
  ]
 }
