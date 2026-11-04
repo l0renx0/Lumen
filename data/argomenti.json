@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-04T00:46:51Z",
+ "updatedAt": "2026-11-04T00:51:16Z",
  "subjects": [
   {
    "id": "fisica",
@@ -4884,6 +4884,11 @@
      "name": "OpenStax · College Physics 2e",
      "title": "15.6 Entropy and the Second Law of Thermodynamics",
      "url": "https://openstax.org/books/college-physics-2e/pages/15-6-entropy-and-the-second-law-of-thermodynamics-disorder-and-the-unavailability-of-energy"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "15.7 Statistical Interpretation of Entropy",
+     "url": "https://openstax.org/books/college-physics-2e/pages/15-7-statistical-interpretation-of-entropy-and-the-second-law-of-thermodynamics-the-underlying-explanation"
     },
     {
      "name": "OpenStax · College Physics 2e",
@@ -10932,6 +10937,579 @@
    "addedAt": "2026-11-04T00:46:51Z"
   },
   {
+   "id": "cos-e-la-psicologia",
+   "subject": "psicologia",
+   "chapter": "La psicologia",
+   "title": "Che cos'è la psicologia (e cosa non è)",
+   "hook": "Non è leggere nel pensiero né solo sedersi sul lettino: la psicologia è la scienza della mente e del comportamento. Ecco di cosa si occupa e come lavora.",
+   "points": [
+    "La definizione di psicologia",
+    "Il pensiero critico e il metodo scientifico",
+    "Le prospettive della psicologia contemporanea",
+    "Le professioni della psicologia"
+   ],
+   "sections": [
+    {
+     "h": "Una scienza della mente",
+     "p": [
+      "La parola psicologia viene dal greco psyche, anima o mente, e logos, studio. Oggi la psicologia si definisce come lo studio scientifico della mente e del comportamento: come pensiamo, sentiamo, ricordiamo, impariamo, ci relazioniamo con gli altri e agiamo.",
+      "La parola chiave è \"scientifico\". Molte idee sulla mente sembrano ovvie al buon senso, ma alla prova dei fatti si rivelano sbagliate. Gli psicologi verificano le proprie ipotesi con osservazioni ed esperimenti, e una teoria è la migliore comprensione che abbiamo di una parte del mondo naturale, sempre aperta a revisione."
+     ]
+    },
+    {
+     "h": "Pensare in modo critico",
+     "p": [
+      "Il pensiero critico è l'applicazione attiva di un insieme di abilità alle informazioni, per comprenderle e valutarle. Significa chiedersi da dove viene un'affermazione, quali prove la sostengono, se ci sono spiegazioni alternative.",
+      "È uno degli insegnamenti più utili della psicologia, anche fuori dall'università: aiuta a valutare titoli di giornale, pubblicità, consigli sulla salute e affermazioni che circolano sui social."
+     ]
+    },
+    {
+     "h": "Tante prospettive",
+     "p": [
+      "La psicologia contemporanea è molto varia. La prospettiva biologica studia il cervello, gli ormoni e i geni; quella cognitiva i processi mentali come memoria, linguaggio e ragionamento; quella dello sviluppo come cambiamo dalla nascita alla vecchiaia.",
+      "La psicologia sociale studia come gli altri influenzano i nostri pensieri e comportamenti; la psicologia della personalità le differenze stabili tra le persone; la psicologia clinica i disturbi psicologici e il loro trattamento. Altri campi studiano lo sport, il lavoro, la salute, la legge.",
+      "Queste prospettive non si escludono: per capire un fenomeno complesso, come la depressione o il linguaggio, servono spesso tutte insieme."
+     ]
+    },
+    {
+     "h": "Che lavoro fa uno psicologo",
+     "p": [
+      "Molte persone associano lo psicologo solo alla psicoterapia, ma le professioni sono molte. Gli psicologi ricercatori lavorano nelle università e studiano i meccanismi della mente. Gli psicologi clinici valutano e trattano i disturbi psicologici.",
+      "Altri lavorano nelle scuole, nelle aziende, negli ospedali, nello sport, nelle carceri e nei tribunali, nella progettazione di prodotti e interfacce facili da usare. In Italia, per esercitare la professione di psicologo servono una laurea magistrale, un tirocinio, un esame di Stato e l'iscrizione all'Albo; per fare lo psicoterapeuta serve anche una specializzazione di quattro anni.",
+      "Lo psicologo non va confuso con lo psichiatra, che è un medico specializzato e può prescrivere farmaci."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Un titolo come \"Chi beve caffè vive di più\" invita al pensiero critico: lo studio ha dimostrato una causa o solo una correlazione?",
+   "mistakes": [
+    "\"La psicologia è solo buon senso\": molte intuizioni comuni si rivelano sbagliate alla prova dei fatti.",
+    "\"Gli psicologi fanno solo terapia\": lavorano anche in ricerca, scuole, aziende, sport.",
+    "\"Psicologo e psichiatra sono la stessa cosa\": lo psichiatra è un medico."
+   ],
+   "terms": [
+    {
+     "t": "Psicologia",
+     "d": "Studio scientifico della mente e del comportamento."
+    },
+    {
+     "t": "Pensiero critico",
+     "d": "Valutazione attiva delle informazioni e delle prove."
+    },
+    {
+     "t": "Teoria",
+     "d": "La migliore spiegazione disponibile, sostenuta da prove."
+    }
+   ],
+   "quote": {
+    "text": "Psychology refers to the scientific study of the mind and behavior.",
+    "translation": "Con psicologia si intende lo studio scientifico della mente e del comportamento."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Psychology 2e",
+     "title": "1.1 What is psychology",
+     "url": "https://openstax.org/books/psychology-2e/pages/1-1-what-is-psychology"
+    },
+    {
+     "name": "OpenStax · Psychology 2e",
+     "title": "1.3 Contemporary psychology",
+     "url": "https://openstax.org/books/psychology-2e/pages/1-3-contemporary-psychology"
+    },
+    {
+     "name": "OpenStax · Psychology 2e",
+     "title": "1.4 Careers in psychology",
+     "url": "https://openstax.org/books/psychology-2e/pages/1-4-careers-in-psychology"
+    }
+   ],
+   "videos": [
+    {
+     "id": "vo4pMVb0R6M",
+     "title": "Intro to Psychology: Crash Course Psychology #1",
+     "channel": "CrashCourse",
+     "length": "10:54"
+    }
+   ],
+   "videoQuery": "intro to psychology crash course",
+   "addedAt": "2026-11-04T00:51:16Z"
+  },
+  {
+   "id": "storia-della-psicologia",
+   "subject": "psicologia",
+   "chapter": "La psicologia",
+   "title": "Breve storia della psicologia: da Wundt a oggi",
+   "hook": "In meno di 150 anni la psicologia è passata dai laboratori di introspezione al comportamentismo, alla rivoluzione cognitiva e alle neuroscienze.",
+   "points": [
+    "Wundt, James e la nascita della psicologia scientifica",
+    "Freud e la psicoanalisi",
+    "Gestalt, comportamentismo e umanismo",
+    "La rivoluzione cognitiva e le prospettive moderne"
+   ],
+   "sections": [
+    {
+     "h": "Dalla filosofia al laboratorio",
+     "p": [
+      "Per secoli le domande sulla mente sono state affrontate dai filosofi. Due studiosi dell'Ottocento, Wilhelm Wundt e William James, sono generalmente considerati i fondatori della psicologia come scienza e disciplina accademica distinta dalla filosofia.",
+      "Wundt, scienziato tedesco, fu la prima persona a essere chiamata psicologo. Nel 1879 aprì a Lipsia il primo laboratorio di psicologia sperimentale. Cercava di scomporre l'esperienza cosciente nei suoi elementi di base usando l'introspezione: persone addestrate descrivevano con precisione le proprie sensazioni. Il suo allievo Titchener sviluppò questo approccio, chiamato strutturalismo.",
+      "Negli Stati Uniti William James, influenzato dalle idee di Darwin sulla selezione naturale, si chiese invece a che cosa servissero i processi mentali, cioè come aiutassero ad adattarsi all'ambiente: è il funzionalismo."
+     ]
+    },
+    {
+     "h": "Freud e l'inconscio",
+     "p": [
+      "Il medico viennese Sigmund Freud, tra fine Ottocento e inizio Novecento, sviluppò la psicoanalisi: un'idea della mente in cui gran parte dei pensieri e dei desideri è inconscia e influenza il comportamento senza che ce ne accorgiamo. Usava l'analisi dei sogni, dei lapsus e delle associazioni libere.",
+      "Le teorie di Freud sono state molto influenti nella cultura, ma molte sono difficili da verificare scientificamente e sono state criticate o abbandonate. Resta l'idea, oggi sostenuta anche da ricerche moderne, che molti processi mentali avvengano fuori dalla consapevolezza."
+     ]
+    },
+    {
+     "h": "Gestalt, comportamentismo, umanismo",
+     "p": [
+      "Gli psicologi della Gestalt, in Germania, studiarono come percepiamo forme e insiemi, sostenendo che il tutto è diverso dalla somma delle parti.",
+      "Negli Stati Uniti, all'inizio del Novecento, John Watson e poi B. F. Skinner fondarono il comportamentismo: la psicologia doveva studiare solo il comportamento osservabile, non la mente, e spiegarlo con l'apprendimento. Le tecniche di modificazione del comportamento nate da questo approccio sono ancora usate, per esempio nelle classi scolastiche.",
+      "Negli anni Cinquanta la psicologia umanistica di Carl Rogers e Abraham Maslow reagì sia alla psicoanalisi sia al comportamentismo, mettendo al centro il potenziale umano e la crescita personale. Rogers introdusse l'idea di accettazione positiva incondizionata: il terapeuta accetta il cliente per quello che è, qualunque cosa dica."
+     ]
+    },
+    {
+     "h": "La rivoluzione cognitiva e oggi",
+     "p": [
+      "Negli anni Cinquanta e Sessanta, anche grazie ai computer e alla linguistica, la psicologia tornò a studiare la mente: memoria, attenzione, linguaggio, ragionamento, intesi come processi di elaborazione delle informazioni. È la rivoluzione cognitiva.",
+      "Oggi le neuroscienze permettono di osservare il cervello al lavoro con tecniche di immagine; la psicologia evoluzionistica si chiede quali comportamenti siano stati favoriti dalla selezione naturale; la psicologia culturale studia come le culture modellano la mente.",
+      "Una storia spesso dimenticata è quella delle donne e delle minoranze, a lungo escluse dalle università, che hanno comunque dato contributi importanti, come Mary Whiton Calkins, prima presidente donna dell'American Psychological Association."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Quando un insegnante usa un sistema di punti e premi per migliorare il comportamento in classe, sta applicando idee nate con il comportamentismo.",
+   "mistakes": [
+    "\"La psicologia è nata con Freud\": il primo laboratorio fu di Wundt nel 1879.",
+    "\"Il comportamentismo è solo storia\": le sue tecniche sono ancora usate.",
+    "\"Freud è la base della psicologia scientifica attuale\": molte sue teorie non hanno retto alle verifiche."
+   ],
+   "terms": [
+    {
+     "t": "Strutturalismo",
+     "d": "Studio degli elementi della coscienza tramite introspezione."
+    },
+    {
+     "t": "Funzionalismo",
+     "d": "Studio della funzione adattiva dei processi mentali."
+    },
+    {
+     "t": "Comportamentismo",
+     "d": "Studio del solo comportamento osservabile."
+    },
+    {
+     "t": "Rivoluzione cognitiva",
+     "d": "Ritorno allo studio dei processi mentali."
+    }
+   ],
+   "quote": {
+    "text": "Two 19th century scholars, Wilhelm Wundt and William James, are generally credited as being the founders of psychology as a science and academic discipline that was distinct from philosophy.",
+    "translation": "Due studiosi dell'Ottocento, Wilhelm Wundt e William James, sono generalmente considerati i fondatori della psicologia come scienza e disciplina accademica distinta dalla filosofia."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Psychology 2e",
+     "title": "1.2 History of psychology",
+     "url": "https://openstax.org/books/psychology-2e/pages/1-2-history-of-psychology"
+    }
+   ],
+   "videos": [
+    {
+     "id": "_qqwq8EmTY4",
+     "title": "A Brief History of Psychology: From Plato to Pavlov",
+     "channel": "Professor Dave Explains",
+     "length": "11:34"
+    },
+    {
+     "id": "mKG-PEVYOR8",
+     "title": "History vs. Sigmund Freud - Todd Dufresne",
+     "channel": "TED-Ed",
+     "length": "5:55"
+    }
+   ],
+   "videoQuery": "history of psychology",
+   "addedAt": "2026-11-04T00:51:16Z"
+  },
+  {
+   "id": "metodo-di-ricerca",
+   "subject": "psicologia",
+   "chapter": "La psicologia",
+   "title": "Come fa ricerca la psicologia: osservazioni, sondaggi, esperimenti",
+   "hook": "Studi di caso, osservazioni sul campo, questionari, archivi, studi longitudinali: ogni metodo ha punti di forza e limiti. Ecco come gli psicologi raccolgono le prove.",
+   "points": [
+    "Perché serve la ricerca empirica",
+    "Ragionamento deduttivo e induttivo",
+    "I metodi descrittivi",
+    "Studi trasversali e longitudinali"
+   ],
+   "sections": [
+    {
+     "h": "Prove, non opinioni",
+     "p": [
+      "La conoscenza scientifica è empirica: si basa su prove oggettive e tangibili che si possono osservare più volte, indipendentemente da chi osserva. Nella comunità scientifica i fatti si stabiliscono solo con prove raccolte attraverso la ricerca empirica.",
+      "La ricerca è importante anche per la vita pubblica: decisioni politiche su scuola, salute e giustizia dovrebbero basarsi su ciò che funziona davvero, non su intuizioni. E aiuta ognuno di noi a distinguere informazioni affidabili da affermazioni senza fondamento."
+     ]
+    },
+    {
+     "h": "Idee e osservazioni",
+     "p": [
+      "La scienza procede con un ciclo: le idee, sotto forma di teorie e ipotesi, vengono messe alla prova nel mondo reale con osservazioni, e le osservazioni portano a nuove idee da verificare, e così via.",
+      "Il ragionamento deduttivo parte da una premessa generale e ne ricava previsioni specifiche: se la teoria è vera, allora in questa situazione dovrei osservare questo. Il ragionamento induttivo fa il contrario: da molte osservazioni particolari ricava una conclusione generale. La ricerca usa entrambi."
+     ]
+    },
+    {
+     "h": "Descrivere: studi di caso, osservazione, sondaggi",
+     "p": [
+      "Nello studio di caso, o clinico, i ricercatori si concentrano su una o poche persone, raccogliendo moltissime informazioni. Sono utili per fenomeni rari, come lesioni cerebrali particolari, ma i risultati non si possono generalizzare con sicurezza.",
+      "Nell'osservazione naturalistica si osserva il comportamento nel suo ambiente naturale, senza intervenire, come Jane Goodall con gli scimpanzé. Descrivere un comportamento è più facile che capirne il motivo, che resta spesso più difficile da determinare.",
+      "Nei sondaggi si fanno domande a molte persone. Se il campione è abbastanza grande e vario, i risultati si possono generalizzare alla popolazione con più sicurezza di quelli di uno studio di caso, ma non si raccoglie lo stesso livello di dettaglio su ogni persona. Inoltre le persone non sempre rispondono con sincerità o si ricordano bene. La ricerca d'archivio usa dati già esistenti, come cartelle cliniche o registri."
+     ]
+    },
+    {
+     "h": "Nel tempo",
+     "p": [
+      "Per studiare come le persone cambiano si usano due approcci. Negli studi trasversali si confrontano nello stesso momento gruppi di età diverse: sono rapidi, ma le differenze potrebbero dipendere dall'epoca in cui ciascun gruppo è cresciuto.",
+      "Negli studi longitudinali si seguono le stesse persone per anni o decenni. Sono più informativi, ma costosi e lunghi, e alcuni partecipanti si perdono per strada. Alcuni studi longitudinali famosi seguono migliaia di persone dalla nascita all'età adulta."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Le ricerche che seguono bambini fino all'età adulta permettono di capire quali esperienze infantili sono collegate alla salute da grandi.",
+   "mistakes": [
+    "\"Un caso eclatante dimostra una regola\": uno studio di caso non si può generalizzare con sicurezza.",
+    "\"Un sondaggio dice sempre la verità\": dipende dal campione e dalla sincerità delle risposte.",
+    "\"Osservare un comportamento spiega perché avviene\": descrivere non è spiegare."
+   ],
+   "terms": [
+    {
+     "t": "Ricerca empirica",
+     "d": "Ricerca basata su osservazioni e prove."
+    },
+    {
+     "t": "Studio di caso",
+     "d": "Studio approfondito di una o poche persone."
+    },
+    {
+     "t": "Campione",
+     "d": "Gruppo di persone studiate per trarre conclusioni su una popolazione."
+    },
+    {
+     "t": "Studio longitudinale",
+     "d": "Ricerca che segue le stesse persone nel tempo."
+    }
+   ],
+   "quote": {
+    "text": "Scientific knowledge is empirical: It is grounded in objective, tangible evidence that can be observed time and time again, regardless of who is observing.",
+    "translation": "La conoscenza scientifica è empirica: si basa su prove oggettive e tangibili che si possono osservare più e più volte, indipendentemente da chi osserva."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Psychology 2e",
+     "title": "2.1 Why is research important",
+     "url": "https://openstax.org/books/psychology-2e/pages/2-1-why-is-research-important"
+    },
+    {
+     "name": "OpenStax · Psychology 2e",
+     "title": "2.2 Approaches to research",
+     "url": "https://openstax.org/books/psychology-2e/pages/2-2-approaches-to-research"
+    }
+   ],
+   "videos": [
+    {
+     "id": "hFV71QPvX2I",
+     "title": "Psychological Research: Crash Course Psychology #2",
+     "channel": "CrashCourse",
+     "length": "10:51"
+    }
+   ],
+   "videoQuery": "psychological research crash course psychology",
+   "addedAt": "2026-11-04T00:51:16Z"
+  },
+  {
+   "id": "correlazione-causalita",
+   "subject": "psicologia",
+   "chapter": "La psicologia",
+   "title": "Correlazione non è causalità: come si leggono i risultati",
+   "hook": "Le vendite di gelati e gli annegamenti crescono insieme, ma i gelati non fanno annegare. Correlazioni, esperimenti, variabili e i trucchi che ingannano anche i ricercatori.",
+   "points": [
+    "Che cos'è una correlazione",
+    "Perché correlazione non significa causa",
+    "Come un esperimento dimostra una causa",
+    "Affidabilità, validità e bias"
+   ],
+   "sections": [
+    {
+     "h": "Andare insieme",
+     "p": [
+      "Una correlazione indica che due variabili tendono a variare insieme. È positiva se crescono insieme, come l'altezza e il peso; negativa se una cresce mentre l'altra diminuisce, come le ore passate al telefono e le ore di sonno. Il coefficiente di correlazione va da −1 a +1: più è lontano da zero, più il legame è forte.",
+      "Le correlazioni sono utili per fare previsioni, ma hanno un limite fondamentale."
+     ]
+    },
+    {
+     "h": "Il problema della causa",
+     "p": [
+      "Il fatto che due cose siano correlate non significa che una causi l'altra. Le vendite di gelati e gli annegamenti aumentano insieme, ma la causa è una terza variabile: il caldo estivo, che fa comprare più gelati e fa nuotare più persone.",
+      "A volte la causa va nella direzione opposta a quella che si pensa, o il legame è una coincidenza. Inoltre il nostro cervello vede correlazioni anche dove non ci sono: sono le correlazioni illusorie. Una molto nota è il presunto effetto delle fasi lunari sul comportamento umano: molte persone credono che con la luna piena ci siano più nascite o più accessi al pronto soccorso, ma gli studi non lo confermano."
+     ]
+    },
+    {
+     "h": "L'esperimento",
+     "p": [
+      "Per stabilire una causa serve un esperimento. Il ricercatore manipola una variabile, detta indipendente, e misura l'effetto su un'altra, detta dipendente. Per esempio, per verificare se un metodo di studio migliora l'apprendimento, la variabile indipendente è il metodo e quella dipendente è l'apprendimento misurato dai partecipanti.",
+      "I partecipanti vengono assegnati a caso al gruppo sperimentale, che riceve il trattamento, o al gruppo di controllo, che non lo riceve. L'assegnazione casuale fa sì che i due gruppi siano simili in tutto il resto, così l'unica differenza sistematica è il trattamento.",
+      "Per evitare che le aspettative influenzino i risultati si usano disegni in cieco: i partecipanti non sanno in che gruppo sono, e nel doppio cieco non lo sa nemmeno chi raccoglie i dati. Il bias dello sperimentatore è infatti la possibilità che le aspettative del ricercatore distorcano i risultati. Il gruppo di controllo riceve spesso un placebo, un trattamento finto, perché anche credere di essere curati può avere effetti."
+     ]
+    },
+    {
+     "h": "Fidarsi dei risultati",
+     "p": [
+      "Una misura è affidabile se produce risultati coerenti ogni volta che la si usa; è valida se misura davvero ciò che dichiara di misurare. Una bilancia che segna sempre due chili in più è affidabile ma non valida.",
+      "I risultati vengono analizzati con la statistica per capire se una differenza è abbastanza grande da non essere probabilmente dovuta al caso. Poi vengono sottoposti alla revisione di altri esperti prima della pubblicazione, e idealmente replicati da altri gruppi. Negli ultimi anni la psicologia ha scoperto che alcuni risultati famosi non si replicano, e ha introdotto pratiche più rigorose."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "\"Chi fa colazione ha voti migliori\": forse la colazione aiuta, o forse le famiglie che fanno colazione insieme sono diverse anche in altro.",
+   "mistakes": [
+    "\"Se due cose vanno insieme, una causa l'altra\": può esserci una terza variabile o una coincidenza.",
+    "\"Un singolo studio chiude la questione\": servono repliche.",
+    "\"Il placebo non fa nulla\": le aspettative possono produrre effetti reali."
+   ],
+   "terms": [
+    {
+     "t": "Correlazione",
+     "d": "Tendenza di due variabili a variare insieme."
+    },
+    {
+     "t": "Variabile indipendente",
+     "d": "Quella manipolata dal ricercatore."
+    },
+    {
+     "t": "Gruppo di controllo",
+     "d": "Gruppo che non riceve il trattamento."
+    },
+    {
+     "t": "Doppio cieco",
+     "d": "Né partecipanti né sperimentatori sanno chi riceve cosa."
+    }
+   ],
+   "quote": {
+    "text": "One well-known illusory correlation is the supposed effect that the moon’s phases have on human behavior.",
+    "translation": "Una correlazione illusoria ben nota è il presunto effetto delle fasi lunari sul comportamento umano."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Psychology 2e",
+     "title": "2.3 Analyzing findings",
+     "url": "https://openstax.org/books/psychology-2e/pages/2-3-analyzing-findings"
+    }
+   ],
+   "videos": [
+    {
+     "id": "ofweqU0Lz4I",
+     "title": "Correlation vs Causation Explained: Why Patterns Can Mislead Us",
+     "channel": "Sprouts",
+     "length": "4:51"
+    },
+    {
+     "id": "GtV-VYdNt_g",
+     "title": "Correlation Doesn't Equal Causation: Crash Course Statistics #8",
+     "channel": "CrashCourse",
+     "length": "12:18"
+    }
+   ],
+   "videoQuery": "correlation causation explained",
+   "addedAt": "2026-11-04T00:51:16Z"
+  },
+  {
+   "id": "etica-della-ricerca",
+   "subject": "psicologia",
+   "chapter": "La psicologia",
+   "title": "L'etica della ricerca: proteggere chi partecipa",
+   "hook": "Dopo esperimenti come quelli di Milgram, la ricerca ha adottato regole severe: consenso informato, comitati etici e tutela degli animali.",
+   "points": [
+    "Perché servono regole etiche",
+    "Il consenso informato",
+    "L'inganno e il debriefing",
+    "La ricerca con gli animali"
+   ],
+   "sections": [
+    {
+     "h": "Una lezione dalla storia",
+     "p": [
+      "Alcuni esperimenti del passato hanno causato sofferenze gravi ai partecipanti. Il caso più drammatico in medicina è lo studio di Tuskegee negli Stati Uniti, in cui per decenni a uomini afroamericani malati di sifilide non fu offerta la cura disponibile, per osservare l'evoluzione della malattia. In psicologia, studi come quelli di Milgram hanno sottoposto i partecipanti a forti stress.",
+      "Da queste esperienze sono nate regole etiche precise. Oggi qualsiasi ricerca con persone deve essere approvata in anticipo da un comitato etico, che valuta se i rischi sono giustificati dai benefici e se i partecipanti sono tutelati."
+     ]
+    },
+    {
+     "h": "Il consenso informato",
+     "p": [
+      "Prima di partecipare, le persone devono ricevere informazioni chiare sullo studio: che cosa dovranno fare, quanto durerà, quali rischi corrono. Devono dare il loro consenso liberamente, e sapere di potersi ritirare in qualsiasi momento senza conseguenze.",
+      "Per i minori serve il consenso dei genitori, insieme all'assenso del bambino. I dati devono essere protetti e, di solito, resi anonimi."
+     ]
+    },
+    {
+     "h": "Inganno e debriefing",
+     "p": [
+      "A volte uno studio non funzionerebbe se i partecipanti conoscessero l'ipotesi: per esempio, se si studia il conformismo, dire che i complici daranno risposte sbagliate rovinerebbe l'esperimento. In questi casi un inganno limitato può essere permesso, se non ci sono alternative e i rischi sono minimi.",
+      "Alla fine, però, i partecipanti devono ricevere un debriefing: una spiegazione completa di cosa è successo davvero e perché, con la possibilità di ritirare i propri dati. Lo scopo è che lascino lo studio senza danni e capendo il proprio contributo."
+     ]
+    },
+    {
+     "h": "Gli animali",
+     "p": [
+      "Una parte della ricerca psicologica e neuroscientifica usa animali, soprattutto roditori, per studiare per esempio l'apprendimento, la memoria o gli effetti dei farmaci. È un tema eticamente delicato.",
+      "Anche qui esistono comitati che devono approvare ogni progetto: nessuna ricerca con animali può procedere senza la loro approvazione. Le regole impongono di ridurre il numero di animali usati, di sostituirli con alternative quando possibile e di ridurre al minimo dolore e stress, secondo il principio delle \"tre R\": sostituire, ridurre, perfezionare.",
+      "Il dibattito su quando la ricerca sugli animali sia giustificata resta aperto, e le persone ragionevoli possono arrivare a conclusioni diverse."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Se partecipi a un questionario universitario, la prima pagina spiega lo scopo e ti chiede il consenso: è il consenso informato.",
+   "mistakes": [
+    "\"Gli psicologi possono fare qualsiasi esperimento\": ogni studio deve essere approvato da un comitato etico.",
+    "\"Chi partecipa non può ritirarsi\": può farlo in qualsiasi momento.",
+    "\"L'inganno è sempre vietato\": è ammesso in casi limitati, con debriefing finale."
+   ],
+   "terms": [
+    {
+     "t": "Comitato etico",
+     "d": "Organo che approva le ricerche valutando rischi e benefici."
+    },
+    {
+     "t": "Consenso informato",
+     "d": "Accordo libero dato dopo aver ricevuto informazioni complete."
+    },
+    {
+     "t": "Debriefing",
+     "d": "Spiegazione finale dello studio ai partecipanti."
+    },
+    {
+     "t": "Tre R",
+     "d": "Sostituire, ridurre, perfezionare l'uso degli animali."
+    }
+   ],
+   "quote": {
+    "text": "No animal research project can proceed without the committee’s approval.",
+    "translation": "Nessun progetto di ricerca con animali può procedere senza l'approvazione del comitato."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Psychology 2e",
+     "title": "2.4 Ethics",
+     "url": "https://openstax.org/books/psychology-2e/pages/2-4-ethics"
+    }
+   ],
+   "videos": [
+    {
+     "id": "hFV71QPvX2I",
+     "title": "Psychological Research: Crash Course Psychology #2",
+     "channel": "CrashCourse",
+     "length": "10:51"
+    }
+   ],
+   "videoQuery": "research ethics psychology",
+   "addedAt": "2026-11-04T00:51:16Z"
+  },
+  {
+   "id": "geni-e-comportamento",
+   "subject": "psicologia",
+   "chapter": "Cervello e biologia",
+   "title": "Geni, ambiente e comportamento: natura o cultura?",
+   "hook": "Siamo il risultato dei geni o dell'educazione? La risposta della ricerca: entrambi, e intrecciati in modi sorprendenti.",
+   "points": [
+    "DNA, geni, genotipo e fenotipo",
+    "Gli studi su gemelli e adozioni",
+    "L'interazione tra geni e ambiente",
+    "L'epigenetica"
+   ],
+   "sections": [
+    {
+     "h": "Il codice della vita",
+     "p": [
+      "Il DNA è una molecola a forma di doppia elica formata da coppie di basi. Contiene le istruzioni per costruire e far funzionare il nostro corpo, organizzate in geni. Ereditiamo metà dei nostri geni dalla madre e metà dal padre.",
+      "Il genotipo di una persona è il suo corredo genetico; il fenotipo è l'insieme delle caratteristiche osservabili, fisiche e psicologiche, che nascono dall'interazione tra genotipo e ambiente. Due persone con lo stesso genotipo, come i gemelli identici, possono avere fenotipi in parte diversi."
+     ]
+    },
+    {
+     "h": "Gemelli e adozioni",
+     "p": [
+      "Per capire quanto contano i geni, gli psicologi confrontano gemelli identici, che condividono quasi tutti i geni, con gemelli fraterni, che ne condividono circa la metà come normali fratelli. Se per una caratteristica i gemelli identici si somigliano molto più dei fraterni, è probabile un'influenza genetica.",
+      "Gli studi sulle adozioni confrontano i figli adottivi con i genitori biologici e con quelli adottivi. Insieme, questi studi mostrano che quasi tutte le caratteristiche psicologiche, dall'intelligenza alla personalità alla predisposizione a vari disturbi, hanno una componente genetica e una ambientale.",
+      "Un tratto molto ereditabile non è però un destino: l'ereditabilità descrive le differenze in una popolazione in un certo ambiente, non dice nulla di fisso su una singola persona."
+     ]
+    },
+    {
+     "h": "Geni e ambiente insieme",
+     "p": [
+      "Geni e ambiente non si sommano semplicemente: interagiscono. Secondo il concetto di intervallo di reazione, i geni fissano dei limiti entro cui l'ambiente determina il risultato: una persona può avere una predisposizione genetica per l'altezza, ma l'altezza raggiunta dipenderà anche dall'alimentazione.",
+      "Un'altra prospettiva è la correlazione genetico-ambientale: i geni influenzano anche gli ambienti che cerchiamo e che gli altri ci offrono. Un bambino portato per la musica ascolterà più musica e riceverà più incoraggiamenti a suonare, e queste esperienze rafforzeranno la sua inclinazione.",
+      "Molti disturbi psicologici sembrano nascere dall'incontro tra una vulnerabilità genetica e fattori ambientali stressanti."
+     ]
+    },
+    {
+     "h": "L'epigenetica",
+     "p": [
+      "L'epigenetica studia come l'ambiente può accendere o spegnere i geni senza cambiare la sequenza del DNA. Esperienze come lo stress, l'alimentazione o le cure ricevute nei primi anni possono lasciare \"segni\" chimici che modificano l'attività dei geni.",
+      "Esperimenti sui ratti hanno mostrato che i piccoli accuditi molto dalla madre sviluppano una diversa reattività allo stress, legata a cambiamenti epigenetici. È un campo giovane, e molte affermazioni divulgative vanno oltre ciò che le prove sostengono, ma mostra che la vecchia contrapposizione tra natura e cultura è troppo semplice."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Due gemelli identici cresciuti in famiglie diverse possono avere gusti sorprendentemente simili, ma anche differenze legate alle loro esperienze.",
+   "mistakes": [
+    "\"Se è genetico non si può cambiare\": l'ambiente modula quasi sempre l'espressione dei geni.",
+    "\"I gemelli identici sono uguali in tutto\": hanno lo stesso genotipo, ma fenotipi in parte diversi.",
+    "\"Natura e cultura sono alternative\": interagiscono di continuo."
+   ],
+   "terms": [
+    {
+     "t": "Genotipo",
+     "d": "Il corredo genetico di una persona."
+    },
+    {
+     "t": "Fenotipo",
+     "d": "Caratteristiche osservabili, frutto di geni e ambiente."
+    },
+    {
+     "t": "Ereditabilità",
+     "d": "Quota delle differenze in una popolazione dovuta ai geni."
+    },
+    {
+     "t": "Epigenetica",
+     "d": "Modifiche dell'attività dei geni senza cambiare il DNA."
+    }
+   ],
+   "quote": {
+    "text": "A person’s genotype is the genetic makeup of that individual.",
+    "translation": "Il genotipo di una persona è il suo corredo genetico."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Psychology 2e",
+     "title": "3.1 Human genetics",
+     "url": "https://openstax.org/books/psychology-2e/pages/3-1-human-genetics"
+    }
+   ],
+   "videos": [
+    {
+     "id": "tbSgU41FIac",
+     "title": "Nature vs Nurture: Behaviorism or Genetics?",
+     "channel": "Sprouts",
+     "length": "8:10"
+    },
+    {
+     "id": "9zwq8N4Ufd8",
+     "title": "Genetic Traits: Nature? Nurture? Not That Simple: Crash Course Biology #32",
+     "channel": "CrashCourse",
+     "length": "12:34"
+    }
+   ],
+   "videoQuery": "behavioral genetics nature nurture",
+   "addedAt": "2026-11-04T00:51:16Z"
+  },
+  {
    "id": "neuroni",
    "subject": "psicologia",
    "title": "Neuroni e sinapsi: come il cervello trasmette i messaggi",
@@ -11047,6 +11625,386 @@
     }
    ],
    "formulas": []
+  },
+  {
+   "id": "sistema-nervoso",
+   "subject": "psicologia",
+   "chapter": "Cervello e biologia",
+   "title": "Il sistema nervoso: centrale, periferico, simpatico e parasimpatico",
+   "hook": "Il cervello comanda, ma il sistema nervoso arriva ovunque. Le sue divisioni e il sistema che ci prepara a combattere o ci riporta alla calma.",
+   "points": [
+    "Sistema nervoso centrale e periferico",
+    "Sistema somatico e autonomo",
+    "Simpatico e parasimpatico",
+    "Stress e regolazione del corpo"
+   ],
+   "sections": [
+    {
+     "h": "Una rete in tutto il corpo",
+     "p": [
+      "Il sistema nervoso si divide in due grandi parti. Il sistema nervoso centrale comprende il cervello e il midollo spinale: elabora le informazioni e prende le decisioni. Il sistema nervoso periferico è l'insieme dei nervi che collegano il sistema centrale al resto del corpo: muscoli, organi, pelle.",
+      "Il sistema periferico ha due grandi suddivisioni: il sistema nervoso somatico e il sistema nervoso autonomo."
+     ]
+    },
+    {
+     "h": "Somatico: i movimenti volontari",
+     "p": [
+      "Il sistema somatico trasmette le informazioni sensoriali, come tatto, dolore e temperatura, dalla pelle e dai muscoli al sistema centrale, e porta i comandi motori dal cervello ai muscoli scheletrici. È il sistema che usiamo per camminare, afferrare, parlare.",
+      "Alcune risposte non passano nemmeno dal cervello: nei riflessi, come ritirare la mano da una superficie bollente, il midollo spinale risponde direttamente, guadagnando tempo prezioso."
+     ]
+    },
+    {
+     "h": "Autonomo: il pilota automatico",
+     "p": [
+      "Il sistema nervoso autonomo controlla gli organi interni e le ghiandole, e in genere sfugge al controllo volontario: battito cardiaco, respirazione, digestione, sudorazione, dilatazione della pupilla. Funziona da solo, anche mentre dormiamo.",
+      "Ha due divisioni con effetti opposti. Il sistema simpatico prepara il corpo all'azione in situazioni di stress o pericolo: accelera il cuore, dilata le pupille e i bronchi, rallenta la digestione, libera energia. È la base della risposta \"combatti o fuggi\".",
+      "Il sistema parasimpatico riporta il corpo alla calma e favorisce le funzioni di mantenimento: rallenta il cuore, stimola la digestione, conserva energia. È spesso descritto come il sistema del \"riposa e digerisci\"."
+     ]
+    },
+    {
+     "h": "L'equilibrio tra i due",
+     "p": [
+      "Nella vita normale i due sistemi lavorano in equilibrio, regolando il corpo istante per istante. Il simpatico non è \"cattivo\": senza di esso non potremmo reagire alle emergenze, fare sport o concentrarci sotto pressione.",
+      "I problemi nascono quando il sistema dello stress resta attivato troppo a lungo. La tendenza a reagire forte allo stress può essere in parte modellata anche da esperienze traumatiche precoci.",
+      "Molte tecniche di rilassamento, come la respirazione lenta e profonda, funzionano proprio stimolando il sistema parasimpatico: espirare lentamente rallenta il battito cardiaco e segnala al corpo che il pericolo è passato."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Prima di un esame ti batte il cuore e hai la bocca secca: è il simpatico. Qualche respiro lento attiva il parasimpatico e ti calma.",
+   "mistakes": [
+    "\"Il cervello controlla consapevolmente il battito cardiaco\": lo regola il sistema autonomo, senza volontà.",
+    "\"I riflessi sono decisi dal cervello\": molti passano solo dal midollo spinale.",
+    "\"Il sistema simpatico è dannoso\": è essenziale; il problema è l'attivazione cronica."
+   ],
+   "terms": [
+    {
+     "t": "Sistema nervoso centrale",
+     "d": "Cervello e midollo spinale."
+    },
+    {
+     "t": "Sistema somatico",
+     "d": "Controlla sensazioni e movimenti volontari."
+    },
+    {
+     "t": "Sistema simpatico",
+     "d": "Prepara il corpo all'azione."
+    },
+    {
+     "t": "Sistema parasimpatico",
+     "d": "Riporta il corpo alla calma."
+    }
+   ],
+   "quote": {
+    "text": "The autonomic nervous system controls our internal organs and glands and is generally considered to be outside the realm of voluntary control.",
+    "translation": "Il sistema nervoso autonomo controlla i nostri organi interni e le ghiandole ed è generalmente considerato al di fuori del controllo volontario."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Psychology 2e",
+     "title": "3.3 Parts of the nervous system",
+     "url": "https://openstax.org/books/psychology-2e/pages/3-3-parts-of-the-nervous-system"
+    }
+   ],
+   "videos": [
+    {
+     "id": "DPWEhl7gbu4",
+     "title": "The Autonomic Nervous System: Sympathetic and Parasympathetic Divisions",
+     "channel": "Professor Dave Explains",
+     "length": "6:38"
+    },
+    {
+     "id": "RNLceVI8jcc",
+     "title": "Nervous System",
+     "channel": "Amoeba Sisters",
+     "length": "11:32"
+    }
+   ],
+   "videoQuery": "nervous system divisions sympathetic parasympathetic",
+   "addedAt": "2026-11-04T00:51:16Z"
+  },
+  {
+   "id": "cervello",
+   "subject": "psicologia",
+   "chapter": "Cervello e biologia",
+   "title": "Il cervello: le sue parti e cosa fanno",
+   "hook": "Corteccia, lobi, emisferi, sistema limbico, tronco encefalico: una mappa del cervello e una scoperta importante, la plasticità.",
+   "points": [
+    "Il midollo spinale",
+    "Le grandi parti del cervello",
+    "Emisferi e lobi della corteccia",
+    "Neuroplasticità e studio del cervello"
+   ],
+   "sections": [
+    {
+     "h": "Il midollo spinale",
+     "p": [
+      "Il midollo spinale è un fascio di nervi che scende lungo la colonna vertebrale. Collega il cervello al resto del corpo, trasportando informazioni sensoriali verso l'alto e comandi motori verso il basso, e gestisce da solo alcuni riflessi.",
+      "Una lesione del midollo interrompe questa comunicazione: a seconda del punto colpito, può causare la perdita di sensibilità e movimento sotto la lesione."
+     ]
+    },
+    {
+     "h": "Tronco, cervelletto e sistema limbico",
+     "p": [
+      "Alla base del cervello, il tronco encefalico controlla funzioni vitali automatiche come respirazione, battito cardiaco e ciclo sonno-veglia. Dietro, il cervelletto coordina i movimenti, l'equilibrio e l'apprendimento di abilità motorie, come andare in bicicletta.",
+      "Più in profondità c'è il sistema limbico, coinvolto in emozioni e memoria. L'amigdala ha un ruolo nella paura e nel riconoscere le minacce; l'ippocampo è fondamentale per formare nuovi ricordi. L'ipotalamo regola fame, sete, temperatura e ormoni; il talamo smista le informazioni sensoriali verso la corteccia."
+     ]
+    },
+    {
+     "h": "La corteccia e i suoi lobi",
+     "p": [
+      "La corteccia cerebrale, la superficie esterna del cervello, è associata ai processi più elevati: coscienza, pensiero, emozione, ragionamento, linguaggio e memoria. È ripiegata in solchi e circonvoluzioni, che aumentano la superficie dentro il cranio.",
+      "Il solco più evidente, la scissura longitudinale, divide il cervello in due metà, gli emisferi destro e sinistro, collegati da un fascio di fibre chiamato corpo calloso. In generale ogni emisfero controlla la metà opposta del corpo. Alcune funzioni sono più lateralizzate, come il linguaggio, che nella maggior parte delle persone dipende soprattutto dall'emisfero sinistro; ma l'idea di persone \"da cervello destro\" creative e \"da cervello sinistro\" logiche è un mito.",
+      "Ogni emisfero ha quattro lobi. Il frontale si occupa di pianificazione, decisioni, autocontrollo e movimenti volontari. Il parietale elabora tatto e informazioni spaziali. Il temporale l'udito, parte del linguaggio e della memoria. L'occipitale, sul retro, la vista."
+     ]
+    },
+    {
+     "h": "Un cervello che cambia",
+     "p": [
+      "Per molto tempo si è pensato che il cervello adulto fosse fisso. Oggi sappiamo che la neuroplasticità, cioè la capacità del sistema nervoso di cambiare e adattarsi, dura tutta la vita. Imparare una nuova abilità rafforza certe connessioni; dopo un ictus, altre aree possono in parte prendere il posto di quelle danneggiate.",
+      "Il cervello si studia con molte tecniche: lo studio di persone con lesioni, l'elettroencefalogramma che misura l'attività elettrica, la risonanza magnetica funzionale che mostra quali aree consumano più ossigeno durante un compito. Il caso di Phineas Gage, un operaio dell'Ottocento la cui personalità cambiò dopo che una sbarra di ferro gli trapassò il lobo frontale, è uno dei più famosi della storia."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Imparare a suonare uno strumento da adulto modifica davvero il cervello: le aree legate al controllo delle dita e all'udito si rafforzano.",
+   "mistakes": [
+    "\"Usiamo solo il 10% del cervello\": usiamo tutto il cervello, in momenti diversi.",
+    "\"Le persone sono da cervello destro o sinistro\": i due emisferi lavorano insieme.",
+    "\"Il cervello adulto non cambia\": la neuroplasticità dura tutta la vita."
+   ],
+   "terms": [
+    {
+     "t": "Corteccia cerebrale",
+     "d": "Strato esterno del cervello, sede dei processi più elevati."
+    },
+    {
+     "t": "Corpo calloso",
+     "d": "Fibre che collegano i due emisferi."
+    },
+    {
+     "t": "Ippocampo",
+     "d": "Struttura importante per formare ricordi."
+    },
+    {
+     "t": "Neuroplasticità",
+     "d": "Capacità del cervello di cambiare e adattarsi."
+    }
+   ],
+   "quote": {
+    "text": "Neuroplasticity refers to how the nervous system can change and adapt.",
+    "translation": "Con neuroplasticità si indica il modo in cui il sistema nervoso può cambiare e adattarsi."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Psychology 2e",
+     "title": "3.4 The brain and spinal cord",
+     "url": "https://openstax.org/books/psychology-2e/pages/3-4-the-brain-and-spinal-cord"
+    }
+   ],
+   "videos": [
+    {
+     "id": "vHrmiy4W9C0",
+     "title": "Meet Your Master - Getting to Know Your Brain: Crash Course Psychology #4",
+     "channel": "CrashCourse",
+     "length": "12:34"
+    }
+   ],
+   "videoQuery": "meet your master brain crash course psychology",
+   "addedAt": "2026-11-04T00:51:16Z"
+  },
+  {
+   "id": "ormoni",
+   "subject": "psicologia",
+   "chapter": "Cervello e biologia",
+   "title": "Il sistema endocrino: ormoni, ghiandole e comportamento",
+   "hook": "Adrenalina, cortisolo, ossitocina, testosterone: messaggeri chimici che viaggiano nel sangue e influenzano umore, crescita, stress e comportamento.",
+   "points": [
+    "Che cosa sono gli ormoni",
+    "Le principali ghiandole",
+    "Ormoni e stress",
+    "Il rapporto tra ormoni e comportamento"
+   ],
+   "sections": [
+    {
+     "h": "Un secondo sistema di comunicazione",
+     "p": [
+      "Oltre al sistema nervoso, il corpo ha un secondo sistema di comunicazione: il sistema endocrino, fatto di ghiandole che rilasciano nel sangue sostanze chiamate ormoni. Il sangue li porta in tutto il corpo, ma ciascun ormone agisce solo sulle cellule che hanno i recettori giusti.",
+      "Rispetto ai segnali nervosi, rapidissimi e precisi, gli ormoni sono più lenti ad agire e tendono a durare più a lungo. Regolano processi come la crescita, il metabolismo, la riproduzione, la risposta allo stress e i ritmi del sonno."
+     ]
+    },
+    {
+     "h": "Le ghiandole principali",
+     "p": [
+      "L'ipofisi, alla base del cervello, è spesso chiamata ghiandola principale perché controlla molte altre ghiandole. È a sua volta comandata dall'ipotalamo: è il punto di contatto tra sistema nervoso ed endocrino. L'ipofisi produce, tra l'altro, l'ormone della crescita.",
+      "La tiroide, nel collo, regola il metabolismo: troppo o troppo poco ormone tiroideo può causare stanchezza, nervosismo, variazioni di peso e d'umore. Le ghiandole surrenali, sopra i reni, producono adrenalina e cortisolo. Il pancreas produce insulina, che regola lo zucchero nel sangue. Le gonadi, ovaie e testicoli, producono gli ormoni sessuali. La ghiandola pineale produce melatonina, che favorisce il sonno."
+     ]
+    },
+    {
+     "h": "Gli ormoni dello stress",
+     "p": [
+      "Davanti a un pericolo, le ghiandole surrenali rilasciano adrenalina e noradrenalina, che sostengono la risposta \"combatti o fuggi\": cuore più veloce, più zucchero nel sangue, muscoli pronti.",
+      "Se lo stress dura, entra in gioco il cortisolo, che mobilita energia e regola la risposta immunitaria. Nel breve periodo è utile, ma livelli alti per lungo tempo possono avere effetti negativi sulla salute, dal sonno al sistema immunitario."
+     ]
+    },
+    {
+     "h": "Ormoni e comportamento",
+     "p": [
+      "Gli ormoni influenzano il comportamento e il comportamento influenza gli ormoni. Il testosterone, presente in quantità diverse in uomini e donne, è associato a desiderio sessuale e in parte a competitività e aggressività, ma il legame è complesso e dipende molto dal contesto.",
+      "L'ossitocina, prodotta dall'ipotalamo e rilasciata dall'ipofisi, ha un ruolo nel parto, nell'allattamento e nei legami sociali, ed è stata chiamata nei giornali \"ormone dell'amore\". La ricerca mostra però effetti più sfumati: può aumentare la fiducia verso il proprio gruppo ma anche la diffidenza verso gli estranei.",
+      "Come per i neurotrasmettitori, è sempre meglio diffidare delle spiegazioni con \"una molecola per ogni emozione\"."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Dopo uno spavento il cuore continua a battere forte per alcuni minuti anche quando sai di essere al sicuro: l'adrenalina impiega un po' a smaltirsi.",
+   "mistakes": [
+    "\"Gli ormoni agiscono rapidamente come i nervi\": sono più lenti ma più duraturi.",
+    "\"L'ossitocina è semplicemente l'ormone dell'amore\": i suoi effetti dipendono molto dal contesto.",
+    "\"Il comportamento dipende solo dagli ormoni\": l'influenza va in entrambe le direzioni."
+   ],
+   "terms": [
+    {
+     "t": "Sistema endocrino",
+     "d": "Insieme di ghiandole che producono ormoni."
+    },
+    {
+     "t": "Ormone",
+     "d": "Messaggero chimico trasportato dal sangue."
+    },
+    {
+     "t": "Ipofisi",
+     "d": "Ghiandola che controlla molte altre ghiandole."
+    },
+    {
+     "t": "Cortisolo",
+     "d": "Ormone dello stress prolungato."
+    }
+   ],
+   "quote": {
+    "text": "Also, hormones are slower to take effect, and tend to be longer lasting.",
+    "translation": "Inoltre gli ormoni impiegano più tempo ad agire e tendono a durare più a lungo."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Psychology 2e",
+     "title": "3.5 The endocrine system",
+     "url": "https://openstax.org/books/psychology-2e/pages/3-5-the-endocrine-system"
+    }
+   ],
+   "videos": [
+    {
+     "id": "eWHH9je2zG4",
+     "title": "Endocrine System, Part 1 - Glands & Hormones: Crash Course Anatomy & Physiology #23",
+     "channel": "CrashCourse",
+     "length": "10:25"
+    },
+    {
+     "id": "SCV_m91mN-Q",
+     "title": "Endocrine System, Part 2 - Hormone Cascades: Crash Course Anatomy & Physiology #24",
+     "channel": "CrashCourse",
+     "length": "9:34"
+    }
+   ],
+   "videoQuery": "endocrine system crash course",
+   "addedAt": "2026-11-04T00:51:16Z"
+  },
+  {
+   "id": "coscienza",
+   "subject": "psicologia",
+   "chapter": "Cervello e biologia",
+   "title": "La coscienza e i ritmi biologici",
+   "hook": "Essere svegli, assonnati, concentrati o distratti: la coscienza ha molti stati. E un orologio interno decide quando siamo più vigili.",
+   "points": [
+    "Che cos'è la coscienza",
+    "Livelli e stati di consapevolezza",
+    "I ritmi biologici e la melatonina",
+    "Turni, jet lag e debito di sonno"
+   ],
+   "sections": [
+    {
+     "h": "Essere consapevoli",
+     "p": [
+      "La coscienza è la nostra consapevolezza di noi stessi e dell'ambiente. Riguarda stimoli interni, come dolore, fame, sete, sonnolenza e la consapevolezza dei nostri pensieri ed emozioni, e stimoli esterni, come vedere la luce del sole, sentire il calore di una stanza o ascoltare la voce di un amico.",
+      "Viviamo regolarmente stati di coscienza diversi e livelli diversi di consapevolezza: dalla piena attenzione al sogno ad occhi aperti, dalla sonnolenza al sonno profondo. Gran parte di ciò che fa il cervello avviene senza che ne siamo consapevoli."
+     ]
+    },
+    {
+     "h": "L'orologio interno",
+     "p": [
+      "Molte funzioni del corpo seguono ritmi biologici. Il più importante è il ritmo circadiano, di circa 24 ore, che regola vigilanza, temperatura, appetito e ormoni. Un importante regolatore del ciclo sonno-veglia è l'ormone melatonina, prodotto quando fa buio.",
+      "Il ritmo circadiano è sincronizzato soprattutto dalla luce che arriva agli occhi. Per questo la luce intensa la sera, compresa quella degli schermi, può ritardare il sonno, mentre la luce del mattino aiuta a svegliarsi.",
+      "Il corpo cerca di mantenere un equilibrio interno: l'omeostasi è la tendenza a mantenere un livello ottimale in un sistema biologico. La regolazione del sonno è il controllo cerebrale del passaggio tra sonno e veglia e la sua coordinazione con il mondo esterno."
+     ]
+    },
+    {
+     "h": "Quando l'orologio va fuori tempo",
+     "p": [
+      "Il jet lag nasce quando attraversiamo più fusi orari: l'orologio interno resta sull'ora di partenza, e servono alcuni giorni per riallinearlo. Di solito viaggiare verso est è più faticoso che verso ovest.",
+      "Il lavoro a turni rotanti, cioè con orari che cambiano da presto a tardi ogni giorno o ogni settimana, mette a dura prova il ritmo circadiano. Chi lavora di notte dorme spesso meno e peggio, e nel lungo periodo può avere più problemi di salute.",
+      "Anche gli adolescenti hanno un ritmo naturalmente spostato in avanti: tendono ad addormentarsi e svegliarsi più tardi. Per questo alcuni esperti propongono di far iniziare le lezioni più tardi."
+     ]
+    },
+    {
+     "h": "Il debito di sonno",
+     "p": [
+      "Dormire meno del necessario per più giorni crea un debito di sonno che si accumula. Gli effetti si sentono su attenzione, umore, memoria e tempi di reazione, anche quando la persona si sente abituata.",
+      "Recuperare un po' di sonno nel fine settimana aiuta, ma non annulla del tutto gli effetti. Mantenere orari regolari è uno dei modi più efficaci per dormire meglio."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Dopo un volo da Roma a New York, ti svegli all'alba e alle 9 di sera crolli dal sonno: il tuo orologio interno è ancora sull'ora italiana.",
+   "mistakes": [
+    "\"La coscienza è tutto o niente\": esistono molti stati e livelli.",
+    "\"Ci si abitua a dormire poco\": gli effetti negativi restano anche se non li percepiamo.",
+    "\"Gli adolescenti sono pigri al mattino\": il loro ritmo circadiano è spostato."
+   ],
+   "terms": [
+    {
+     "t": "Coscienza",
+     "d": "Consapevolezza di sé e dell'ambiente."
+    },
+    {
+     "t": "Ritmo circadiano",
+     "d": "Ciclo biologico di circa 24 ore."
+    },
+    {
+     "t": "Melatonina",
+     "d": "Ormone che favorisce il sonno."
+    },
+    {
+     "t": "Omeostasi",
+     "d": "Mantenimento di un equilibrio interno."
+    }
+   ],
+   "quote": {
+    "text": "We experience different states of consciousness and different levels of awareness on a regular basis.",
+    "translation": "Sperimentiamo regolarmente stati di coscienza diversi e livelli diversi di consapevolezza."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Psychology 2e",
+     "title": "4.1 What is consciousness",
+     "url": "https://openstax.org/books/psychology-2e/pages/4-1-what-is-consciousness"
+    }
+   ],
+   "videos": [
+    {
+     "id": "jReX7qKU2yc",
+     "title": "Consciousness: Crash Course Psychology #8",
+     "channel": "CrashCourse",
+     "length": "9:34"
+    },
+    {
+     "id": "9PW1fwKjo-Y",
+     "title": "Altered States: Crash Course Psychology #10",
+     "channel": "CrashCourse",
+     "length": "11:19"
+    }
+   ],
+   "videoQuery": "consciousness crash course psychology",
+   "addedAt": "2026-11-04T00:51:16Z"
   },
   {
    "id": "sonno",
@@ -11172,6 +12130,278 @@
    "formulas": []
   },
   {
+   "id": "disturbi-del-sonno",
+   "subject": "psicologia",
+   "chapter": "Cervello e biologia",
+   "title": "I disturbi del sonno: insonnia, apnee, narcolessia",
+   "hook": "L'insonnia è il disturbo del sonno più comune, ma non l'unico. Apnee, sonnambulismo, narcolessia e cosa si sa delle cure.",
+   "points": [
+    "L'insonnia e come si affronta",
+    "Le apnee notturne",
+    "Sonnambulismo e altre parasonnie",
+    "La narcolessia"
+   ],
+   "sections": [
+    {
+     "h": "L'insonnia",
+     "p": [
+      "L'insonnia, una difficoltà persistente ad addormentarsi o a restare addormentati, è il più comune dei disturbi del sonno. Può durare qualche notte, per esempio prima di un esame, o diventare cronica. Spesso è legata a stress, ansia, depressione, abitudini irregolari, caffeina o alcol.",
+      "Per l'insonnia cronica, la terapia cognitivo-comportamentale specifica per l'insonnia è considerata il trattamento di prima scelta: insegna abitudini regolari, a usare il letto solo per dormire, a ridurre il tempo passato a letto svegli e a gestire i pensieri che tengono svegli. I farmaci per dormire possono aiutare a breve termine, ma possono dare dipendenza ed effetti collaterali."
+     ]
+    },
+    {
+     "h": "Le apnee notturne",
+     "p": [
+      "Le apnee notturne sono caratterizzate da episodi durante i quali il respiro di chi dorme si ferma. Nella forma più comune, ostruttiva, le vie aeree si chiudono durante il sonno; la persona si risveglia per un istante per riprendere a respirare, spesso senza accorgersene, anche decine di volte all'ora.",
+      "Il risultato è un sonno frammentato e una forte sonnolenza di giorno. Segni tipici sono il russare forte e le pause nel respiro notate da chi dorme accanto. È più frequente in chi è in sovrappeso. Si tratta spesso con un apparecchio che soffia aria attraverso una maschera per tenere aperte le vie respiratorie."
+     ]
+    },
+    {
+     "h": "Le parasonnie",
+     "p": [
+      "Le parasonnie sono comportamenti indesiderati durante il sonno. Nel sonnambulismo la persona si alza e compie azioni anche complesse durante il sonno profondo, e di solito non ricorda nulla. È più comune nei bambini. I terrori notturni sono episodi di paura intensa, con urla, che avvengono anch'essi nel sonno profondo.",
+      "Nel disturbo comportamentale del sonno REM manca la normale paralisi muscolare della fase REM, e la persona \"recita\" i sogni, a volte in modo violento. Gli incubi sono invece sogni spaventosi della fase REM che svegliano la persona con un ricordo vivido.",
+      "La sindrome delle gambe senza riposo provoca sensazioni fastidiose alle gambe e un bisogno irresistibile di muoverle, soprattutto la sera."
+     ]
+    },
+    {
+     "h": "La narcolessia",
+     "p": [
+      "La narcolessia è un disturbo raro in cui la persona ha attacchi irresistibili di sonno durante il giorno, anche nel mezzo di un'attività. Alcune persone hanno anche episodi di cataplessia: perdita improvvisa del tono muscolare, spesso scatenata da emozioni forti come una risata.",
+      "Nella narcolessia la persona entra molto rapidamente nella fase REM. È spesso legata alla perdita di neuroni che producono una sostanza chiamata orexina, che aiuta a mantenere la veglia. Si tratta con farmaci e con pisolini programmati.",
+      "In generale, l'efficacia di alcuni trattamenti dei disturbi del sonno è ancora discussa: per problemi persistenti è utile rivolgersi a un medico o a un centro di medicina del sonno."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Se chi dorme accanto a te nota che russi forte e a tratti smetti di respirare, vale la pena parlarne con un medico.",
+   "mistakes": [
+    "\"Russare è sempre innocuo\": può essere segno di apnee notturne.",
+    "\"Non si deve mai svegliare un sonnambulo\": è meglio accompagnarlo con calma a letto, ma svegliarlo non è pericoloso in sé.",
+    "\"I sonniferi sono la soluzione migliore per l'insonnia cronica\": la prima scelta è la terapia cognitivo-comportamentale."
+   ],
+   "terms": [
+    {
+     "t": "Insonnia",
+     "d": "Difficoltà persistente ad addormentarsi o restare addormentati."
+    },
+    {
+     "t": "Apnea notturna",
+     "d": "Interruzioni del respiro durante il sonno."
+    },
+    {
+     "t": "Parasonnia",
+     "d": "Comportamento indesiderato durante il sonno."
+    },
+    {
+     "t": "Narcolessia",
+     "d": "Attacchi di sonno irresistibili durante il giorno."
+    }
+   ],
+   "quote": {
+    "text": "Insomnia, a consistent difficulty in falling or staying asleep, is the most common of the sleep disorders.",
+    "translation": "L'insonnia, una difficoltà persistente ad addormentarsi o a restare addormentati, è il più comune dei disturbi del sonno."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Psychology 2e",
+     "title": "4.4 Sleep problems and disorders",
+     "url": "https://openstax.org/books/psychology-2e/pages/4-4-sleep-problems-and-disorders"
+    }
+   ],
+   "videos": [
+    {
+     "id": "j5Sl8LyI7k8",
+     "title": "What causes insomnia? - Dan Kwartler",
+     "channel": "TED-Ed",
+     "length": "5:12"
+    },
+    {
+     "id": "cHKs2aVxOmQ",
+     "title": "How to deal with your insomnia — and finally get to sleep | Sleeping with Science",
+     "channel": "TED",
+     "length": "1:59"
+    }
+   ],
+   "videoQuery": "sleep disorders insomnia",
+   "addedAt": "2026-11-04T00:51:16Z"
+  },
+  {
+   "id": "sostanze-psicoattive",
+   "subject": "psicologia",
+   "chapter": "Cervello e biologia",
+   "title": "Sostanze psicoattive: come agiscono sul cervello",
+   "hook": "Caffè, alcol, nicotina, cannabis, oppioidi: ogni sostanza cambia la chimica del cervello in modo diverso. Tolleranza, astinenza e dipendenza spiegate senza moralismi.",
+   "points": [
+    "Come le sostanze agiscono sulle sinapsi",
+    "Tolleranza, astinenza e dipendenza",
+    "Depressori, stimolanti, oppioidi, allucinogeni",
+    "Perché alcune sostanze creano più dipendenza"
+   ],
+   "sections": [
+    {
+     "h": "Chimica e cervello",
+     "p": [
+      "Le sostanze psicoattive modificano il funzionamento del cervello agendo soprattutto sulle sinapsi: alcune imitano un neurotrasmettitore, altre ne bloccano i recettori, altre ancora ne aumentano il rilascio o ne impediscono la ricaptazione.",
+      "Molte sostanze che creano dipendenza agiscono, direttamente o indirettamente, sul sistema della ricompensa del cervello, aumentando la dopamina in alcune aree. Il cervello impara ad associare la sostanza a una sensazione piacevole e a cercarla di nuovo."
+     ]
+    },
+    {
+     "h": "Tolleranza, astinenza, dipendenza",
+     "p": [
+      "Con l'uso ripetuto il cervello si adatta: servono dosi maggiori per ottenere lo stesso effetto. È la tolleranza.",
+      "Quando la sostanza viene sospesa, il cervello abituato a funzionare con essa va in squilibrio: compaiono i sintomi di astinenza, che di solito sono opposti agli effetti della sostanza. Chi è abituato al caffè può avere mal di testa e sonnolenza smettendo; l'astinenza da alcol o da alcuni farmaci può essere grave e va gestita da un medico.",
+      "Il disturbo da uso di sostanze, o dipendenza, si riconosce da un insieme di segni: uso compulsivo, perdita di controllo, uso che continua nonostante le conseguenze negative su salute, lavoro e relazioni."
+     ]
+    },
+    {
+     "h": "Le principali famiglie",
+     "p": [
+      "I depressori rallentano l'attività del sistema nervoso: l'alcol è il più diffuso, insieme ai farmaci sedativi. A basse dosi l'alcol riduce le inibizioni; a dosi alte compromette coordinazione, giudizio e memoria, e può essere mortale.",
+      "Gli stimolanti aumentano l'attività: caffeina, nicotina, cocaina e anfetamine. Ad alte dosi aumentano agitazione e paranoia e possono causare allucinazioni. La nicotina è tra le sostanze che creano più dipendenza.",
+      "Gli oppioidi, come morfina, eroina e alcuni antidolorifici, hanno proprietà analgesiche, cioè riducono il dolore, e producono euforia. Sono molto efficaci in medicina, ma creano dipendenza rapidamente, e dosi eccessive possono fermare il respiro. Gli allucinogeni, come LSD e psilocibina, alterano profondamente la percezione. La cannabis ha effetti misti: rilassamento, alterazioni della percezione e della memoria."
+     ]
+    },
+    {
+     "h": "Fattori di rischio",
+     "p": [
+      "Non tutte le persone che provano una sostanza sviluppano una dipendenza. Contano la sostanza stessa, la via di assunzione (le più rapide, come fumo e iniezione, sono più rischiose), la frequenza, l'età di inizio (il cervello adolescente è più vulnerabile), la genetica, lo stress e il contesto sociale.",
+      "La dipendenza oggi è considerata un disturbo che coinvolge il cervello e il comportamento, non semplicemente una mancanza di volontà, e si può trattare con terapie psicologiche, farmaci e gruppi di sostegno."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Chi beve molti caffè al giorno e salta quello del mattino può avere mal di testa: è una piccola astinenza da caffeina.",
+   "mistakes": [
+    "\"La dipendenza è solo mancanza di volontà\": coinvolge cambiamenti nel cervello.",
+    "\"Le sostanze legali sono innocue\": alcol e nicotina causano enormi danni alla salute.",
+    "\"L'astinenza è sempre lieve\": per alcune sostanze può essere pericolosa."
+   ],
+   "terms": [
+    {
+     "t": "Tolleranza",
+     "d": "Bisogno di dosi maggiori per lo stesso effetto."
+    },
+    {
+     "t": "Astinenza",
+     "d": "Sintomi alla sospensione di una sostanza."
+    },
+    {
+     "t": "Depressore",
+     "d": "Sostanza che rallenta il sistema nervoso."
+    },
+    {
+     "t": "Analgesico",
+     "d": "Che riduce il dolore."
+    }
+   ],
+   "quote": {
+    "text": "Opioids have analgesic properties; that is, they decrease pain.",
+    "translation": "Gli oppioidi hanno proprietà analgesiche, cioè riducono il dolore."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Psychology 2e",
+     "title": "4.5 Substance use and abuse",
+     "url": "https://openstax.org/books/psychology-2e/pages/4-5-substance-use-and-abuse"
+    }
+   ],
+   "videos": [
+    {
+     "id": "9PW1fwKjo-Y",
+     "title": "Altered States: Crash Course Psychology #10",
+     "channel": "CrashCourse",
+     "length": "11:19"
+    }
+   ],
+   "videoQuery": "altered states drugs crash course psychology",
+   "addedAt": "2026-11-04T00:51:16Z"
+  },
+  {
+   "id": "ipnosi-meditazione",
+   "subject": "psicologia",
+   "chapter": "Cervello e biologia",
+   "title": "Ipnosi e meditazione: altri stati di coscienza",
+   "hook": "L'ipnosi non è un potere magico e la meditazione non è solo relax. Cosa succede davvero nel cervello e cosa dicono le prove.",
+   "points": [
+    "Che cos'è davvero l'ipnosi",
+    "Cosa può e non può fare",
+    "La meditazione e la consapevolezza",
+    "Gli effetti misurati dalla ricerca"
+   ],
+   "sections": [
+    {
+     "h": "L'ipnosi",
+     "p": [
+      "L'ipnosi è uno stato di attenzione estremamente focalizzata, con una ridotta attenzione per gli stimoli esterni e una maggiore disponibilità a seguire le suggestioni. Di solito inizia con istruzioni per rilassarsi e concentrarsi.",
+      "Non è sonno, e la persona ipnotizzata non perde il controllo: non si può far fare a qualcuno, sotto ipnosi, qualcosa che va contro i suoi valori. Le persone differiscono molto nella suscettibilità all'ipnosi: alcune rispondono molto, altre quasi per niente."
+     ]
+    },
+    {
+     "h": "Cosa può fare",
+     "p": [
+      "L'ipnosi ha mostrato una certa efficacia nel ridurre la percezione del dolore, per esempio durante procedure mediche o dentistiche, e può aiutare in alcuni programmi per smettere di fumare o gestire l'ansia, di solito come complemento ad altre terapie.",
+      "Non migliora invece la memoria. Anzi, l'idea che sotto ipnosi si possano recuperare ricordi sepolti è pericolosa: le persone ipnotizzate sono più suggestionabili e possono creare ricordi falsi con grande convinzione. Per questo i ricordi ottenuti con l'ipnosi non sono considerati affidabili in tribunale.",
+      "Gli studiosi discutono se l'ipnosi sia uno stato di coscienza speciale, in cui la consapevolezza si \"divide\", o soprattutto un effetto delle aspettative e del ruolo sociale. Probabilmente entrambi gli aspetti contano."
+     ]
+    },
+    {
+     "h": "La meditazione",
+     "p": [
+      "La meditazione è l'atto di concentrarsi su un unico oggetto, come il respiro o un suono ripetuto, per aumentare la consapevolezza del momento presente. Esistono molte forme, nate in diverse tradizioni culturali e religiose.",
+      "Una forma molto studiata è la mindfulness, o consapevolezza: osservare momento per momento pensieri, sensazioni ed emozioni senza giudicarli e senza lasciarsene trascinare. Quando la mente si distrae, e succede di continuo, si riporta gentilmente l'attenzione all'oggetto scelto."
+     ]
+    },
+    {
+     "h": "Che cosa dicono le prove",
+     "p": [
+      "Programmi strutturati di mindfulness hanno mostrato benefici moderati nel ridurre stress, ansia e sintomi depressivi in molte persone, e alcuni programmi sono usati per prevenire le ricadute nella depressione.",
+      "Studi con tecniche di immagine hanno osservato cambiamenti nell'attività di aree coinvolte nell'attenzione e nella regolazione delle emozioni. Va detto però che molti studi sono piccoli e che l'entusiasmo mediatico spesso supera le prove. La meditazione non è una cura miracolosa, e in rari casi può far emergere emozioni difficili.",
+      "Come per l'esercizio fisico, gli effetti sembrano legati alla pratica regolare più che alle singole sessioni."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Durante una meditazione di cinque minuti sul respiro è normale distrarsi decine di volte: l'esercizio sta proprio nel tornare al respiro.",
+   "mistakes": [
+    "\"Sotto ipnosi si perde il controllo\": la persona non fa cose contrarie ai suoi valori.",
+    "\"L'ipnosi recupera ricordi nascosti\": aumenta il rischio di ricordi falsi.",
+    "\"Meditare significa svuotare la mente\": significa osservare e riportare l'attenzione."
+   ],
+   "terms": [
+    {
+     "t": "Ipnosi",
+     "d": "Stato di attenzione focalizzata e maggiore suggestionabilità."
+    },
+    {
+     "t": "Suggestionabilità",
+     "d": "Disponibilità ad accettare suggestioni."
+    },
+    {
+     "t": "Meditazione",
+     "d": "Pratica di concentrazione su un oggetto per aumentare la consapevolezza."
+    },
+    {
+     "t": "Mindfulness",
+     "d": "Attenzione non giudicante al momento presente."
+    }
+   ],
+   "quote": {
+    "text": "Meditation is the act of focusing on a single target (such as the breath or a repeated sound) to increase awareness of the moment.",
+    "translation": "La meditazione è l'atto di concentrarsi su un unico oggetto (come il respiro o un suono ripetuto) per aumentare la consapevolezza del momento."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Psychology 2e",
+     "title": "4.6 Other states of consciousness",
+     "url": "https://openstax.org/books/psychology-2e/pages/4-6-other-states-of-consciousness"
+    }
+   ],
+   "videos": [],
+   "videoQuery": "hypnosis meditation brain",
+   "addedAt": "2026-11-04T00:51:16Z"
+  },
+  {
    "id": "percezione",
    "subject": "psicologia",
    "title": "Sensazione e percezione: il cervello costruisce ciò che vedi",
@@ -11289,6 +12519,287 @@
    "formulas": []
   },
   {
+   "id": "la-vista",
+   "subject": "psicologia",
+   "chapter": "Sensi e percezione",
+   "title": "La vista: dall'onda di luce all'immagine nel cervello",
+   "hook": "Coni, bastoncelli, punto cieco, percezione della profondità: come gli occhi e il cervello trasformano la luce in un mondo tridimensionale e colorato.",
+   "points": [
+    "Le onde: lunghezza d'onda e ampiezza",
+    "Il percorso della luce nell'occhio",
+    "Coni, bastoncelli e il punto cieco",
+    "Colori e profondità"
+   ],
+   "sections": [
+    {
+     "h": "Le onde della percezione",
+     "p": [
+      "Vista e udito si basano su onde. La lunghezza d'onda è la distanza da una cresta alla successiva; l'ampiezza è la distanza tra la linea centrale e la cima della cresta o il fondo della valle. Per la luce, la lunghezza d'onda corrisponde al colore e l'ampiezza alla luminosità.",
+      "Lo spettro visibile è la porzione dello spettro elettromagnetico che riusciamo a vedere, da circa 380 a 740 nanometri. Altri animali vedono porzioni diverse: le api l'ultravioletto, alcuni serpenti l'infrarosso."
+     ]
+    },
+    {
+     "h": "Il percorso nell'occhio",
+     "p": [
+      "La luce entra attraverso la cornea, passa per la pupilla, regolata dall'iride, e viene messa a fuoco dal cristallino sulla retina, lo strato sensibile sul fondo dell'occhio. Al centro della retina c'è la fovea, una piccola zona ricca di coni dove la visione è più nitida: è dove puntiamo lo sguardo per leggere.",
+      "Le cellule della retina trasformano la luce in segnali nervosi, che viaggiano lungo il nervo ottico. I nervi dei due occhi si incrociano parzialmente, in modo che le informazioni del campo visivo sinistro arrivino all'emisfero destro e viceversa, fino alla corteccia visiva nel lobo occipitale."
+     ]
+    },
+    {
+     "h": "Coni, bastoncelli e punto cieco",
+     "p": [
+      "La retina contiene due tipi di fotorecettori. I bastoncelli sono sensibilissimi alla luce debole e alla visione periferica, ma non distinguono i colori: sono loro a farci vedere di notte, in bianco e nero. I coni funzionano con più luce, sono concentrati nella fovea e ci danno i colori e i dettagli.",
+      "Nel punto in cui il nervo ottico esce dall'occhio non ci sono fotorecettori: è il punto cieco. Non ce ne accorgiamo perché il cervello \"riempie\" il buco con ciò che c'è intorno e perché l'altro occhio copre quella zona."
+     ]
+    },
+    {
+     "h": "Colori e profondità",
+     "p": [
+      "Due teorie spiegano la visione dei colori a livelli diversi. Secondo la teoria tricromatica, tre tipi di coni rispondono a lunghezze d'onda corte, medie e lunghe. Secondo la teoria dei processi opponenti, a livelli successivi i colori vengono elaborati in coppie opposte: rosso-verde, giallo-blu, bianco-nero. Lo dimostrano le immagini residue: fissando a lungo una macchia rossa e poi un foglio bianco, si vede una macchia verde.",
+      "Per percepire la profondità il cervello usa indizi binoculari, come la disparità retinica: ogni occhio vede il mondo da un punto leggermente diverso, e il cervello confronta le due immagini. Usa anche indizi monoculari, che funzionano con un occhio solo: oggetti più lontani appaiono più piccoli, più in alto nel campo visivo, parzialmente coperti da quelli vicini, e le linee parallele convergono in lontananza. I pittori del Rinascimento hanno sfruttato questi indizi per dare profondità ai quadri."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Di notte, guardando una stella debole, la vedi meglio se la guardi un po' di lato: la periferia della retina è ricca di bastoncelli.",
+   "mistakes": [
+    "\"Vediamo il mondo così com'è\": il cervello riempie e interpreta, come nel punto cieco.",
+    "\"Al buio vediamo i colori più scuri\": al buio lavorano i bastoncelli e i colori spariscono.",
+    "\"Per vedere la profondità servono due occhi\": molti indizi funzionano anche con un occhio."
+   ],
+   "terms": [
+    {
+     "t": "Lunghezza d'onda",
+     "d": "Distanza tra due creste di un'onda."
+    },
+    {
+     "t": "Fovea",
+     "d": "Zona centrale della retina con la visione più nitida."
+    },
+    {
+     "t": "Punto cieco",
+     "d": "Zona senza fotorecettori dove esce il nervo ottico."
+    },
+    {
+     "t": "Disparità retinica",
+     "d": "Differenza tra le immagini dei due occhi, usata per la profondità."
+    }
+   ],
+   "quote": {
+    "text": "The visible spectrum is the portion of the larger electromagnetic spectrum that we can see.",
+    "translation": "Lo spettro visibile è la porzione dello spettro elettromagnetico più ampio che riusciamo a vedere."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Psychology 2e",
+     "title": "5.2 Waves and wavelengths",
+     "url": "https://openstax.org/books/psychology-2e/pages/5-2-waves-and-wavelengths"
+    },
+    {
+     "name": "OpenStax · Psychology 2e",
+     "title": "5.3 Vision",
+     "url": "https://openstax.org/books/psychology-2e/pages/5-3-vision"
+    }
+   ],
+   "videos": [
+    {
+     "id": "o0DYP-u1rNM",
+     "title": "Vision: Crash Course Anatomy & Physiology #18",
+     "channel": "CrashCourse",
+     "length": "9:39"
+    }
+   ],
+   "videoQuery": "vision crash course anatomy physiology",
+   "addedAt": "2026-11-04T00:51:16Z"
+  },
+  {
+   "id": "udito",
+   "subject": "psicologia",
+   "chapter": "Sensi e percezione",
+   "title": "L'udito in psicologia: dall'orecchio alla percezione dei suoni",
+   "hook": "Come il cervello capisce l'altezza dei suoni, da dove arrivano e perché a volte smettiamo di sentirli. E i diversi tipi di perdita dell'udito.",
+   "points": [
+    "Le parti dell'orecchio",
+    "Come percepiamo l'altezza",
+    "Localizzare i suoni",
+    "Tipi di perdita dell'udito"
+   ],
+   "sections": [
+    {
+     "h": "Le parti dell'orecchio",
+     "p": [
+      "L'orecchio esterno comprende il padiglione, la parte visibile che sporge dalla testa, il condotto uditivo e la membrana timpanica, o timpano. L'orecchio medio contiene i tre ossicini, martello, incudine e staffa, che trasmettono le vibrazioni. L'orecchio interno contiene la coclea, a forma di chiocciola e piena di liquido.",
+      "Nella coclea la membrana basilare vibra in punti diversi a seconda della frequenza, e le cellule ciliate che vi poggiano trasformano il movimento in segnali nervosi per il nervo acustico."
+     ]
+    },
+    {
+     "h": "Percepire l'altezza",
+     "p": [
+      "Due teorie spiegano come il cervello capisce se un suono è acuto o grave. Secondo la teoria del luogo, frequenze diverse fanno vibrare punti diversi della membrana basilare: gli acuti vicino alla base della coclea, i gravi verso l'apice. Il cervello sa quale punto è stato attivato.",
+      "Secondo la teoria della frequenza, i neuroni scaricano al ritmo del suono, e il cervello legge l'altezza dalla frequenza degli impulsi. Oggi si pensa che entrambi i meccanismi siano usati: la frequenza per i suoni gravi, il luogo per quelli acuti."
+     ]
+    },
+    {
+     "h": "Da dove arriva un suono",
+     "p": [
+      "Per localizzare un suono il cervello confronta ciò che arriva alle due orecchie. Un suono a destra arriva all'orecchio destro una frazione di millisecondo prima e un po' più forte, perché la testa fa da ostacolo per l'orecchio sinistro. Il cervello è sensibilissimo a queste minuscole differenze.",
+      "Anche la forma del padiglione aiuta, modificando il suono in base alla direzione da cui proviene, soprattutto per capire se viene dall'alto o dal basso. Per questo i suoni esattamente davanti o dietro di noi sono più difficili da localizzare: arrivano uguali alle due orecchie, e istintivamente giriamo la testa."
+     ]
+    },
+    {
+     "h": "Perdere l'udito",
+     "p": [
+      "Si distinguono due grandi tipi di perdita dell'udito. Nella perdita trasmissiva le vibrazioni non arrivano bene alla coclea, per esempio per un tappo di cerume, un'otite o un danno agli ossicini: spesso si può curare.",
+      "Quando il problema è nella trasmissione dei segnali nervosi dalla coclea al cervello, o nelle cellule ciliate, si parla di perdita neurosensoriale, la forma più comune, spesso dovuta all'età o all'esposizione a rumori forti. Gli apparecchi acustici amplificano i suoni; nei casi gravi gli impianti cocleari stimolano direttamente il nervo acustico.",
+      "Esiste anche la sordità congenita. Molte persone sorde fanno parte di una comunità con una propria cultura e una propria lingua dei segni, che per loro non è un ripiego ma una lingua completa."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Ad occhi chiusi, se qualcuno schiocca le dita esattamente dietro la tua testa, fatichi a dire se è davanti o dietro: arriva uguale alle due orecchie.",
+   "mistakes": [
+    "\"Tutte le perdite dell'udito sono uguali\": trasmissive e neurosensoriali hanno cause e cure diverse.",
+    "\"Sentiamo con le orecchie\": l'interpretazione dei suoni avviene nel cervello.",
+    "\"La lingua dei segni è una semplice mimica\": è una lingua vera con una sua grammatica."
+   ],
+   "terms": [
+    {
+     "t": "Timpano",
+     "d": "Membrana che vibra con il suono."
+    },
+    {
+     "t": "Membrana basilare",
+     "d": "Membrana della coclea che vibra a frequenze diverse in punti diversi."
+    },
+    {
+     "t": "Perdita neurosensoriale",
+     "d": "Danno alle cellule ciliate o al nervo acustico."
+    },
+    {
+     "t": "Impianto cocleare",
+     "d": "Dispositivo che stimola il nervo acustico."
+    }
+   ],
+   "quote": {
+    "text": "When the hearing problem is associated with a failure to transmit neural signals from the cochlea to the brain, it is called sensorineural hearing loss.",
+    "translation": "Quando il problema uditivo è legato all'incapacità di trasmettere i segnali nervosi dalla coclea al cervello, si parla di perdita dell'udito neurosensoriale."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Psychology 2e",
+     "title": "5.4 Hearing",
+     "url": "https://openstax.org/books/psychology-2e/pages/5-4-hearing"
+    }
+   ],
+   "videos": [
+    {
+     "id": "r-c5GpoD8wI",
+     "title": "How your ear works - Inside the Human Body: Building Your Brain - BBC",
+     "channel": "BBC",
+     "length": "1:43"
+    },
+    {
+     "id": "-R307w05iJc",
+     "title": "Can loud music damage your hearing? - Heather Malyuk",
+     "channel": "TED-Ed",
+     "length": "5:10"
+    }
+   ],
+   "videoQuery": "how do we hear ted-ed",
+   "addedAt": "2026-11-04T00:51:16Z"
+  },
+  {
+   "id": "altri-sensi",
+   "subject": "psicologia",
+   "chapter": "Sensi e percezione",
+   "title": "Gusto, olfatto, tatto, dolore ed equilibrio",
+   "hook": "Il sapore è in gran parte olfatto, il dolore può essere amplificato o attenuato dal cervello, e l'equilibrio ha un suo organo nell'orecchio. Gli altri sensi.",
+   "points": [
+    "Gusto e olfatto, i sensi chimici",
+    "Il tatto e la temperatura",
+    "Il dolore e come il cervello lo modula",
+    "Equilibrio e posizione del corpo"
+   ],
+   "sections": [
+    {
+     "h": "I sensi chimici",
+     "p": [
+      "Gusto e olfatto sono detti sensi chimici, perché rispondono a molecole. Sulla lingua le papille contengono i bottoni gustativi, che riconoscono almeno cinque sapori di base: dolce, salato, acido, amaro e umami, il sapore \"saporito\" del brodo e del parmigiano.",
+      "Nel naso, i recettori olfattivi riconoscono migliaia di odori diversi. Tra i due sensi c'è una forte interazione: gran parte di ciò che chiamiamo sapore è in realtà olfatto. Con il naso chiuso, per esempio con il raffreddore, una mela e una cipolla cruda sono difficili da distinguere.",
+      "L'olfatto ha un collegamento diretto con le aree delle emozioni e della memoria: per questo un profumo può riportarci di colpo un ricordo dell'infanzia."
+     ]
+    },
+    {
+     "h": "Il tatto",
+     "p": [
+      "La pelle contiene diversi tipi di recettori: per la pressione leggera, le vibrazioni, lo stiramento, il caldo e il freddo. Alcune zone, come i polpastrelli e le labbra, ne hanno moltissimi e sono molto sensibili; la schiena ne ha pochi.",
+      "Anche la temperatura è percepita in modo relativo: mettendo una mano nell'acqua fredda e una in quella calda e poi entrambe in acqua tiepida, la stessa acqua sembra calda a una mano e fredda all'altra."
+     ]
+    },
+    {
+     "h": "Il dolore",
+     "p": [
+      "Il dolore è un segnale di allarme: avvisa di un danno ai tessuti. Recettori chiamati nocicettori rispondono a stimoli potenzialmente dannosi. Le rare persone che nascono senza capacità di provare dolore si feriscono spesso gravemente senza accorgersene.",
+      "Il dolore non è però una semplice misura del danno: il cervello lo modula. Secondo la teoria del cancello, segnali non dolorosi possono \"chiudere un cancello\" nel midollo spinale e ridurre il dolore percepito: per questo strofiniamo istintivamente il punto in cui ci siamo colpiti. Anche attenzione, emozioni e aspettative influenzano molto quanto fa male.",
+      "In alcune condizioni il sistema diventa ipersensibile e i segnali di dolore inviati al cervello vengono amplificati: è uno dei meccanismi del dolore cronico, che può persistere anche dopo che il danno è guarito. Il cervello produce anche sostanze antidolorifiche naturali, le endorfine."
+     ]
+    },
+    {
+     "h": "Equilibrio e posizione",
+     "p": [
+      "Il senso vestibolare, nell'orecchio interno, ci informa sulla posizione della testa e sui suoi movimenti: canali pieni di liquido percepiscono le rotazioni, altre strutture l'inclinazione e l'accelerazione. Quando le informazioni del sistema vestibolare non corrispondono a quelle degli occhi, come leggendo in auto, possiamo soffrire di mal d'auto.",
+      "La propriocezione, o cinestesia, è il senso della posizione e del movimento delle parti del corpo, grazie a recettori nei muscoli e nelle articolazioni. Ci permette di toccarci il naso a occhi chiusi o di salire le scale senza guardare i piedi."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Tappati il naso e assaggia una caramella alla frutta: senti il dolce, ma non capisci il gusto finché non riapri il naso.",
+   "mistakes": [
+    "\"Abbiamo cinque sensi\": ce ne sono di più, come equilibrio, propriocezione, temperatura e dolore.",
+    "\"Il sapore lo sentiamo solo con la lingua\": l'olfatto conta moltissimo.",
+    "\"Il dolore misura esattamente il danno\": il cervello lo modula."
+   ],
+   "terms": [
+    {
+     "t": "Umami",
+     "d": "Quinto sapore di base, tipico del brodo e del parmigiano."
+    },
+    {
+     "t": "Nocicettori",
+     "d": "Recettori del dolore."
+    },
+    {
+     "t": "Teoria del cancello",
+     "d": "Il midollo spinale può modulare i segnali di dolore."
+    },
+    {
+     "t": "Propriocezione",
+     "d": "Senso della posizione del corpo."
+    }
+   ],
+   "quote": {
+    "text": "There is a pronounced interaction between our chemical senses.",
+    "translation": "C'è una forte interazione tra i nostri sensi chimici."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Psychology 2e",
+     "title": "5.5 The other senses",
+     "url": "https://openstax.org/books/psychology-2e/pages/5-5-the-other-senses"
+    }
+   ],
+   "videos": [
+    {
+     "id": "mFm3yA1nslE",
+     "title": "Taste & Smell: Crash Course Anatomy & Physiology #16",
+     "channel": "CrashCourse",
+     "length": "10:30"
+    }
+   ],
+   "videoQuery": "taste smell touch senses",
+   "addedAt": "2026-11-04T00:51:16Z"
+  },
+  {
    "id": "rinforzo",
    "subject": "psicologia",
    "title": "Condizionamento: come impariamo da premi, punizioni e associazioni",
@@ -11319,6 +12830,11 @@
      "name": "OpenStax · Psychology 2e",
      "title": "6.4 Observational Learning (Modeling)",
      "url": "https://openstax.org/books/psychology-2e/pages/6-4-observational-learning-modeling"
+    },
+    {
+     "name": "OpenStax · Psychology 2e",
+     "title": "6.1 What Is Learning?",
+     "url": "https://openstax.org/books/psychology-2e/pages/6-1-what-is-learning"
     },
     {
      "name": "OpenStax · Psychology 2e",
