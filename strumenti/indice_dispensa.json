@@ -194,17 +194,23 @@
       {
        "title": "6.2 Centripetal acceleration",
        "url": "https://openstax.org/books/college-physics-2e/pages/6-2-centripetal-acceleration",
-       "argomenti": []
+       "argomenti": [
+        "moto-circolare"
+       ]
       },
       {
        "title": "6.3 Centripetal force",
        "url": "https://openstax.org/books/college-physics-2e/pages/6-3-centripetal-force",
-       "argomenti": []
+       "argomenti": [
+        "moto-circolare"
+       ]
       },
       {
        "title": "6.4 Fictitious forces and non inertial frames the coriolis force",
        "url": "https://openstax.org/books/college-physics-2e/pages/6-4-fictitious-forces-and-non-inertial-frames-the-coriolis-force",
-       "argomenti": []
+       "argomenti": [
+        "moto-circolare"
+       ]
       },
       {
        "title": "6.5 Newtons universal law of gravitation",
@@ -285,12 +291,16 @@
       {
        "title": "8.2 Impulse",
        "url": "https://openstax.org/books/college-physics-2e/pages/8-2-impulse",
-       "argomenti": []
+       "argomenti": [
+        "quantita-di-moto"
+       ]
       },
       {
        "title": "8.3 Conservation of momentum",
        "url": "https://openstax.org/books/college-physics-2e/pages/8-3-conservation-of-momentum",
-       "argomenti": []
+       "argomenti": [
+        "quantita-di-moto"
+       ]
       },
       {
        "title": "8.4 Elastic collisions in one dimension",
@@ -300,7 +310,9 @@
       {
        "title": "8.5 Inelastic collisions in one dimension",
        "url": "https://openstax.org/books/college-physics-2e/pages/8-5-inelastic-collisions-in-one-dimension",
-       "argomenti": []
+       "argomenti": [
+        "quantita-di-moto"
+       ]
       },
       {
        "title": "8.6 Collisions of point masses in two dimensions",
@@ -408,12 +420,16 @@
       {
        "title": "11.3 Pressure",
        "url": "https://openstax.org/books/college-physics-2e/pages/11-3-pressure",
-       "argomenti": []
+       "argomenti": [
+        "archimede"
+       ]
       },
       {
        "title": "11.4 Variation of pressure with depth in a fluid",
        "url": "https://openstax.org/books/college-physics-2e/pages/11-4-variation-of-pressure-with-depth-in-a-fluid",
-       "argomenti": []
+       "argomenti": [
+        "archimede"
+       ]
       },
       {
        "title": "11.5 Pascals principle",
@@ -428,7 +444,9 @@
       {
        "title": "11.7 Archimedes principle",
        "url": "https://openstax.org/books/college-physics-2e/pages/11-7-archimedes-principle",
-       "argomenti": []
+       "argomenti": [
+        "archimede"
+       ]
       },
       {
        "title": "11.8 Cohesion and adhesion in liquids surface tension and capillary action",
@@ -880,7 +898,9 @@
       {
        "title": "22.1 Magnets",
        "url": "https://openstax.org/books/college-physics-2e/pages/22-1-magnets",
-       "argomenti": []
+       "argomenti": [
+        "induzione"
+       ]
       },
       {
        "title": "22.2 Ferromagnets and electromagnets",
@@ -946,7 +966,9 @@
       {
        "title": "23.2 Faradays law of induction lenzs law",
        "url": "https://openstax.org/books/college-physics-2e/pages/23-2-faradays-law-of-induction-lenzs-law",
-       "argomenti": []
+       "argomenti": [
+        "induzione"
+       ]
       },
       {
        "title": "23.3 Motional emf",
@@ -961,7 +983,9 @@
       {
        "title": "23.5 Electric generators",
        "url": "https://openstax.org/books/college-physics-2e/pages/23-5-electric-generators",
-       "argomenti": []
+       "argomenti": [
+        "induzione"
+       ]
       },
       {
        "title": "23.6 Back emf",
@@ -1043,17 +1067,23 @@
       {
        "title": "25.3 The law of refraction",
        "url": "https://openstax.org/books/college-physics-2e/pages/25-3-the-law-of-refraction",
-       "argomenti": []
+       "argomenti": [
+        "rifrazione"
+       ]
       },
       {
        "title": "25.4 Total internal reflection",
        "url": "https://openstax.org/books/college-physics-2e/pages/25-4-total-internal-reflection",
-       "argomenti": []
+       "argomenti": [
+        "rifrazione"
+       ]
       },
       {
        "title": "25.5 Dispersion the rainbow and prisms",
        "url": "https://openstax.org/books/college-physics-2e/pages/25-5-dispersion-the-rainbow-and-prisms",
-       "argomenti": []
+       "argomenti": [
+        "rifrazione"
+       ]
       },
       {
        "title": "25.6 Image formation by lenses",
@@ -1204,7 +1234,9 @@
       {
        "title": "29.2 The photoelectric effect",
        "url": "https://openstax.org/books/college-physics-2e/pages/29-2-the-photoelectric-effect",
-       "argomenti": []
+       "argomenti": [
+        "effetto-fotoelettrico"
+       ]
       },
       {
        "title": "29.3 Photon energies and the electromagnetic spectrum",
@@ -1219,7 +1251,9 @@
       {
        "title": "29.5 The particle wave duality",
        "url": "https://openstax.org/books/college-physics-2e/pages/29-5-the-particle-wave-duality",
-       "argomenti": []
+       "argomenti": [
+        "effetto-fotoelettrico"
+       ]
       },
       {
        "title": "29.6 The wave nature of matter",
@@ -1296,7 +1330,9 @@
       {
        "title": "31.1 Nuclear radioactivity",
        "url": "https://openstax.org/books/college-physics-2e/pages/31-1-nuclear-radioactivity",
-       "argomenti": []
+       "argomenti": [
+        "radioattivita"
+       ]
       },
       {
        "title": "31.2 Radiation detection and detectors",
@@ -1316,7 +1352,9 @@
       {
        "title": "31.5 Half life and activity",
        "url": "https://openstax.org/books/college-physics-2e/pages/31-5-half-life-and-activity",
-       "argomenti": []
+       "argomenti": [
+        "radioattivita"
+       ]
       },
       {
        "title": "31.6 Binding energy",
@@ -1674,17 +1712,23 @@
       {
        "title": "7.4 What are intelligence and creativity",
        "url": "https://openstax.org/books/psychology-2e/pages/7-4-what-are-intelligence-and-creativity",
-       "argomenti": []
+       "argomenti": [
+        "intelligenza"
+       ]
       },
       {
        "title": "7.5 Measures of intelligence",
        "url": "https://openstax.org/books/psychology-2e/pages/7-5-measures-of-intelligence",
-       "argomenti": []
+       "argomenti": [
+        "intelligenza"
+       ]
       },
       {
        "title": "7.6 The source of intelligence",
        "url": "https://openstax.org/books/psychology-2e/pages/7-6-the-source-of-intelligence",
-       "argomenti": []
+       "argomenti": [
+        "intelligenza"
+       ]
       }
      ]
     },
@@ -1732,7 +1776,9 @@
       {
        "title": "9.2 Lifespan theories",
        "url": "https://openstax.org/books/psychology-2e/pages/9-2-lifespan-theories",
-       "argomenti": []
+       "argomenti": [
+        "piaget"
+       ]
       },
       {
        "title": "9.3 Stages of development",
@@ -1753,7 +1799,9 @@
       {
        "title": "10.1 Motivation",
        "url": "https://openstax.org/books/psychology-2e/pages/10-1-motivation",
-       "argomenti": []
+       "argomenti": [
+        "motivazione"
+       ]
       },
       {
        "title": "10.2 Hunger and eating",
@@ -1811,7 +1859,9 @@
       {
        "title": "11.7 Trait theorists",
        "url": "https://openstax.org/books/psychology-2e/pages/11-7-trait-theorists",
-       "argomenti": []
+       "argomenti": [
+        "big-five"
+       ]
       },
       {
        "title": "11.8 Cultural understandings of personality",
@@ -1821,7 +1871,9 @@
       {
        "title": "11.9 Personality assessment",
        "url": "https://openstax.org/books/psychology-2e/pages/11-9-personality-assessment",
-       "argomenti": []
+       "argomenti": [
+        "big-five"
+       ]
       }
      ]
     },
@@ -1901,12 +1953,16 @@
       {
        "title": "14.1 What is stress",
        "url": "https://openstax.org/books/psychology-2e/pages/14-1-what-is-stress",
-       "argomenti": []
+       "argomenti": [
+        "stress"
+       ]
       },
       {
        "title": "14.2 Stressors",
        "url": "https://openstax.org/books/psychology-2e/pages/14-2-stressors",
-       "argomenti": []
+       "argomenti": [
+        "stress"
+       ]
       },
       {
        "title": "14.3 Stress and illness",
@@ -1916,12 +1972,16 @@
       {
        "title": "14.4 Regulation of stress",
        "url": "https://openstax.org/books/psychology-2e/pages/14-4-regulation-of-stress",
-       "argomenti": []
+       "argomenti": [
+        "stress"
+       ]
       },
       {
        "title": "14.5 The pursuit of happiness",
        "url": "https://openstax.org/books/psychology-2e/pages/14-5-the-pursuit-of-happiness",
-       "argomenti": []
+       "argomenti": [
+        "felicita"
+       ]
       }
      ]
     },
@@ -2231,7 +2291,9 @@
       {
        "title": "6.1 Telescopes",
        "url": "https://openstax.org/books/astronomy-2e/pages/6-1-telescopes",
-       "argomenti": []
+       "argomenti": [
+        "telescopi"
+       ]
       },
       {
        "title": "6.2 Telescopes today",
@@ -2251,7 +2313,9 @@
       {
        "title": "6.5 Observations outside earths atmosphere",
        "url": "https://openstax.org/books/astronomy-2e/pages/6-5-observations-outside-earths-atmosphere",
-       "argomenti": []
+       "argomenti": [
+        "telescopi"
+       ]
       },
       {
        "title": "6.6 The future of large telescopes",
@@ -2370,12 +2434,16 @@
       {
        "title": "10.4 The geology of mars",
        "url": "https://openstax.org/books/astronomy-2e/pages/10-4-the-geology-of-mars",
-       "argomenti": []
+       "argomenti": [
+        "marte-acqua"
+       ]
       },
       {
        "title": "10.5 Water and life on mars",
        "url": "https://openstax.org/books/astronomy-2e/pages/10-5-water-and-life-on-mars",
-       "argomenti": []
+       "argomenti": [
+        "marte-acqua"
+       ]
       },
       {
        "title": "10.6 Divergent planetary evolution",
@@ -2417,7 +2485,9 @@
       {
        "title": "12.2 The galilean moons of jupiter",
        "url": "https://openstax.org/books/astronomy-2e/pages/12-2-the-galilean-moons-of-jupiter",
-       "argomenti": []
+       "argomenti": [
+        "lune-giove"
+       ]
       },
       {
        "title": "12.3 Titan and triton",
@@ -2687,12 +2757,16 @@
       {
        "title": "21.4 Planets beyond the solar system search and discovery",
        "url": "https://openstax.org/books/astronomy-2e/pages/21-4-planets-beyond-the-solar-system-search-and-discovery",
-       "argomenti": []
+       "argomenti": [
+        "esopianeti"
+       ]
       },
       {
        "title": "21.5 Exoplanets everywhere what we are learning",
        "url": "https://openstax.org/books/astronomy-2e/pages/21-5-exoplanets-everywhere-what-we-are-learning",
-       "argomenti": []
+       "argomenti": [
+        "esopianeti"
+       ]
       },
       {
        "title": "21.6 New perspectives on planet formation",
@@ -2748,7 +2822,9 @@
       {
        "title": "23.2 Evolution of massive stars an explosive finish",
        "url": "https://openstax.org/books/astronomy-2e/pages/23-2-evolution-of-massive-stars-an-explosive-finish",
-       "argomenti": []
+       "argomenti": [
+        "supernove"
+       ]
       },
       {
        "title": "23.3 Supernova observations",
@@ -2758,7 +2834,9 @@
       {
        "title": "23.4 Pulsars and the discovery of neutron stars",
        "url": "https://openstax.org/books/astronomy-2e/pages/23-4-pulsars-and-the-discovery-of-neutron-stars",
-       "argomenti": []
+       "argomenti": [
+        "supernove"
+       ]
       },
       {
        "title": "23.5 The evolution of binary star systems",
@@ -2822,7 +2900,9 @@
       {
        "title": "25.1 The architecture of the galaxy",
        "url": "https://openstax.org/books/astronomy-2e/pages/25-1-the-architecture-of-the-galaxy",
-       "argomenti": []
+       "argomenti": [
+        "via-lattea"
+       ]
       },
       {
        "title": "25.2 Spiral structure",
@@ -2832,12 +2912,16 @@
       {
        "title": "25.3 The mass of the galaxy",
        "url": "https://openstax.org/books/astronomy-2e/pages/25-3-the-mass-of-the-galaxy",
-       "argomenti": []
+       "argomenti": [
+        "materia-oscura"
+       ]
       },
       {
        "title": "25.4 The center of the galaxy",
        "url": "https://openstax.org/books/astronomy-2e/pages/25-4-the-center-of-the-galaxy",
-       "argomenti": []
+       "argomenti": [
+        "via-lattea"
+       ]
       },
       {
        "title": "25.5 Stellar populations in the galaxy",
@@ -2927,7 +3011,9 @@
       {
        "title": "28.4 The challenge of dark matter",
        "url": "https://openstax.org/books/astronomy-2e/pages/28-4-the-challenge-of-dark-matter",
-       "argomenti": []
+       "argomenti": [
+        "materia-oscura"
+       ]
       },
       {
        "title": "28.5 The formation and evolution of galaxies and structure in the universe",

@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-03T23:50:26Z",
+ "updatedAt": "2026-11-04T00:12:22Z",
  "subjects": [
   {
    "id": "fisica",
@@ -11,8 +11,10 @@
    },
    "chapters": [
     "Meccanica",
+    "Fluidi",
     "Termodinamica",
     "Onde e suono",
+    "Luce e ottica",
     "Elettricità e magnetismo",
     "Fisica moderna"
    ]
@@ -31,7 +33,10 @@
     "Apprendimento",
     "Memoria e pensiero",
     "Emozioni e motivazione",
-    "Psicologia sociale"
+    "Sviluppo",
+    "Personalità",
+    "Psicologia sociale",
+    "Salute e benessere"
    ]
   },
   {
@@ -1020,6 +1025,848 @@
    ]
   },
   {
+   "id": "quantita-di-moto",
+   "subject": "fisica",
+   "chapter": "Meccanica",
+   "title": "Quantità di moto e urti: perché un camion lento fa più danni di una palla veloce",
+   "hook": "La quantità di moto unisce massa e velocità, e in un sistema isolato non cambia mai. Spiega urti, airbag, rinculi e razzi.",
+   "points": [
+    "Che cos'è la quantità di moto",
+    "Cos'è l'impulso e perché gli airbag salvano vite",
+    "La conservazione della quantità di moto",
+    "Urti elastici e anelastici"
+   ],
+   "sections": [
+    {
+     "h": "Massa in movimento",
+     "p": [
+      "Fermare un pallone da calcio che rotola piano è facile; fermare un'auto che va alla stessa velocità è impossibile a mani nude. E una pallina da tennis lanciata fortissimo può far male più di un pallone lanciato piano. Per descrivere questa \"forza d'urto\" la fisica usa una grandezza precisa: la quantità di moto.",
+      "La quantità di moto (in inglese momentum) è il prodotto della massa per la velocità: p = m · v. Un oggetto ne ha tanta se è pesante, se è veloce, o entrambe le cose. Come la velocità, è un vettore: ha anche una direzione.",
+      "Un camion di 10 tonnellate a 10 km/h ha la stessa quantità di moto di un'auto di una tonnellata a 100 km/h. Fermarli richiede, in un certo senso, lo stesso sforzo complessivo."
+     ]
+    },
+    {
+     "h": "L'impulso: forza per tempo",
+     "p": [
+      "Per cambiare la quantità di moto di un oggetto serve una forza che agisca per un certo tempo. Il prodotto di forza e tempo si chiama impulso, ed è uguale alla variazione della quantità di moto.",
+      "Questa relazione ha una conseguenza molto pratica: per fermare un oggetto si può usare una forza grande per un tempo breve, oppure una forza piccola per un tempo lungo. Il risultato finale sulla quantità di moto è lo stesso, ma gli effetti sul corpo sono molto diversi.",
+      "È il principio degli airbag, dei caschi imbottiti, dei materassi per il salto in alto e delle zone deformabili delle auto: allungano il tempo dell'urto, e così riducono la forza che agisce sulle persone. Anche piegare le gambe quando atterri da un salto serve allo stesso scopo."
+     ]
+    },
+    {
+     "h": "La grande legge: si conserva",
+     "p": [
+      "La quantità di moto è una grandezza importante soprattutto perché si conserva. In un sistema isolato, cioè un insieme di oggetti su cui la forza esterna netta è zero, la quantità di moto totale resta sempre la stessa, qualunque cosa succeda tra gli oggetti al suo interno.",
+      "Quando due pattinatori fermi sul ghiaccio si spingono a vicenda, partono in direzioni opposte. All'inizio la quantità di moto totale era zero, e resta zero: quella di uno verso destra compensa quella dell'altro verso sinistra. Il pattinatore più leggero va più veloce.",
+      "Lo stesso spiega il rinculo di un fucile: il proiettile parte in avanti con una certa quantità di moto, e il fucile, molto più pesante, si muove all'indietro più lentamente. E spiega i razzi: espellono gas verso il basso a grande velocità e il razzo guadagna una quantità di moto uguale e opposta verso l'alto. Non serve aria su cui spingere: funziona anche nel vuoto."
+     ]
+    },
+    {
+     "h": "Urti elastici e anelastici",
+     "p": [
+      "In ogni urto tra oggetti isolati la quantità di moto totale si conserva. L'energia cinetica invece non sempre.",
+      "In un urto elastico si conserva anche l'energia cinetica: gli oggetti rimbalzano senza perdere energia. Le palle da biliardo ci vanno vicino. Se una palla ne colpisce in pieno un'altra ferma e uguale, la prima si ferma e la seconda parte con la stessa velocità.",
+      "In un urto anelastico una parte dell'energia cinetica si trasforma in calore, suono e deformazione. Se gli oggetti restano attaccati, come due vagoni che si agganciano o due auto che si incastrano, l'urto è perfettamente anelastico. Anche in questo caso, però, la quantità di moto totale prima e dopo è la stessa: è così che gli esperti ricostruiscono la dinamica degli incidenti stradali."
+     ]
+    },
+    {
+     "h": "Perché è così utile",
+     "p": [
+      "La conservazione della quantità di moto permette di prevedere il risultato di un urto senza sapere nulla dei dettagli delle forze durante il contatto, che sono complicatissime. Basta conoscere masse e velocità prima.",
+      "Vale dalle particelle subatomiche, studiate negli acceleratori, fino alle galassie che si scontrano. È una delle leggi di conservazione fondamentali della fisica, insieme alla conservazione dell'energia e della carica elettrica."
+     ]
+    }
+   ],
+   "formulas": [
+    {
+     "f": "p = m · v",
+     "d": "Quantità di moto = massa (kg) × velocità (m/s)."
+    },
+    {
+     "f": "F · Δt = Δp",
+     "d": "L'impulso (forza per tempo) è uguale alla variazione della quantità di moto."
+    }
+   ],
+   "example": "Quando prendi al volo una palla pesante, tiri indietro le mani: allunghi il tempo della frenata e senti meno colpo.",
+   "mistakes": [
+    "\"In un urto si perde quantità di moto\": in un sistema isolato si conserva sempre; è l'energia cinetica che può trasformarsi.",
+    "\"L'airbag ferma la persona più in fretta\": la ferma più lentamente, e per questo con meno forza.",
+    "\"Un razzo ha bisogno dell'aria per spingersi\": funziona anche nel vuoto, per la conservazione della quantità di moto."
+   ],
+   "terms": [
+    {
+     "t": "Quantità di moto",
+     "d": "Massa per velocità di un oggetto."
+    },
+    {
+     "t": "Impulso",
+     "d": "Forza per il tempo in cui agisce."
+    },
+    {
+     "t": "Sistema isolato",
+     "d": "Insieme di oggetti con forza esterna netta nulla."
+    },
+    {
+     "t": "Urto anelastico",
+     "d": "Urto in cui parte dell'energia cinetica si trasforma in altre forme."
+    }
+   ],
+   "quote": {
+    "text": "Momentum is an important quantity because it is conserved.",
+    "translation": "La quantità di moto è una grandezza importante perché si conserva."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "8.3 Conservation of Momentum",
+     "url": "https://openstax.org/books/college-physics-2e/pages/8-3-conservation-of-momentum"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "8.2 Impulse",
+     "url": "https://openstax.org/books/college-physics-2e/pages/8-2-impulse"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "8.5 Inelastic Collisions in One Dimension",
+     "url": "https://openstax.org/books/college-physics-2e/pages/8-5-inelastic-collisions-in-one-dimension"
+    }
+   ],
+   "videos": [
+    {
+     "id": "Y-QOfc2XqOk",
+     "title": "Collisions: Crash Course Physics #10",
+     "channel": "CrashCourse",
+     "length": "9:21"
+    }
+   ],
+   "videoQuery": "quantità di moto conservazione urti",
+   "addedAt": "2026-11-04T00:12:22Z"
+  },
+  {
+   "id": "moto-circolare",
+   "subject": "fisica",
+   "chapter": "Meccanica",
+   "title": "Moto circolare: la forza che ti tiene in curva",
+   "hook": "Giostre, curve in auto, satelliti e centrifughe: girare in tondo richiede sempre una forza rivolta verso il centro.",
+   "points": [
+    "Perché un moto circolare è sempre accelerato",
+    "La forza centripeta e da cosa è prodotta",
+    "Perché la forza \"centrifuga\" non è una forza vera",
+    "Curve sopraelevate, giri della morte e centrifughe"
+   ],
+   "sections": [
+    {
+     "h": "Girare significa accelerare",
+     "p": [
+      "Un oggetto che percorre un cerchio a velocità costante, come un cavallo di una giostra, sembra muoversi in modo semplice. Ma la sua velocità, intesa come vettore, cambia continuamente direzione. E un cambiamento di velocità, come abbiamo visto, è un'accelerazione.",
+      "Nel moto circolare uniforme questa accelerazione punta sempre verso il centro del cerchio: si chiama accelerazione centripeta, dal latino \"che cerca il centro\". È più grande se l'oggetto va più veloce e se il cerchio è più stretto. Raddoppiare la velocità in curva quadruplica l'accelerazione necessaria."
+     ]
+    },
+    {
+     "h": "La forza centripeta",
+     "p": [
+      "Per la seconda legge di Newton, se c'è un'accelerazione c'è una forza netta nella stessa direzione. Qualsiasi forza netta che causa un moto circolare uniforme si chiama forza centripeta, ed è diretta verso il centro della curva.",
+      "La forza centripeta non è un nuovo tipo di forza: è un ruolo che può essere svolto da forze diverse. Per un'auto in curva è l'attrito tra pneumatici e asfalto. Per un sasso fatto roteare con una corda è la tensione della corda. Per la Luna intorno alla Terra è la gravità. Per un elettrone intorno al nucleo, nel modello semplice dell'atomo, è la forza elettrica.",
+      "Se la forza centripeta viene a mancare, l'oggetto non vola via verso l'esterno: prosegue in linea retta, lungo la tangente al cerchio, per inerzia. Se la corda si spezza, il sasso parte dritto nella direzione in cui si stava muovendo in quel momento."
+     ]
+    },
+    {
+     "h": "E la forza centrifuga?",
+     "p": [
+      "In curva in auto ti senti spinto verso l'esterno, contro la portiera. Lo chiamiamo spesso \"forza centrifuga\", ma visto da fuori non c'è nessuna forza che ti spinge verso l'esterno: il tuo corpo, per inerzia, tende ad andare dritto, mentre l'auto curva. È la portiera che ti spinge verso l'interno per farti curvare insieme a lei.",
+      "I fisici chiamano forze apparenti, o fittizie, quelle che sembrano esistere solo perché si osserva il moto da un sistema di riferimento che accelera, come un'auto in curva o una giostra che gira. Sono utili per fare calcoli dal punto di vista di chi sta dentro, ma non nascono da un'interazione tra oggetti."
+     ]
+    },
+    {
+     "h": "Curve, strade e piste",
+     "p": [
+      "Su una strada piana, in curva, tutta la forza centripeta deve venire dall'attrito. Se l'asfalto è bagnato o ghiacciato l'attrito diminuisce, e oltre una certa velocità l'auto non riesce più a curvare e scivola verso l'esterno.",
+      "Per questo molte curve di autostrade, piste ciclabili e circuiti sono sopraelevate, cioè inclinate verso l'interno. In questo modo anche la spinta della strada sulle ruote, la forza normale, ha una componente diretta verso il centro e aiuta a curvare, riducendo la dipendenza dall'attrito."
+     ]
+    },
+    {
+     "h": "Giri della morte e centrifughe",
+     "p": [
+      "Sulle montagne russe con il giro della morte, in cima al giro sei a testa in giù ma non cadi: se il vagone va abbastanza veloce, la forza centripeta necessaria è almeno uguale al tuo peso, e il sedile o le rotaie forniscono il resto.",
+      "Le centrifughe sfruttano lo stesso principio in laboratorio e in casa. Nella centrifuga della lavatrice il cestello spinge i vestiti verso il centro, ma l'acqua passa attraverso i fori e prosegue dritta, separandosi dai panni. Nei laboratori, centrifughe velocissime separano i componenti del sangue in base alla densità.",
+      "Anche gli astronauti si allenano in grandi centrifughe, che simulano accelerazioni molto superiori a quella di gravità, come quelle del lancio di un razzo."
+     ]
+    }
+   ],
+   "formulas": [
+    {
+     "f": "a = v² / r",
+     "d": "Accelerazione centripeta: velocità al quadrato divisa per il raggio della curva."
+    },
+    {
+     "f": "F = m · v² / r",
+     "d": "Forza centripeta necessaria per un oggetto di massa m."
+    }
+   ],
+   "example": "Se raddoppi la velocità in una curva, serve una forza quattro volte maggiore per restare in strada: è per questo che si rallenta prima di curvare, soprattutto sul bagnato.",
+   "mistakes": [
+    "\"Se la corda si spezza, il sasso vola via verso l'esterno\": prosegue dritto lungo la tangente.",
+    "\"La forza centrifuga ti spinge fuori dalla curva\": è l'inerzia; la forza vera spinge verso il centro.",
+    "\"La forza centripeta è un tipo di forza a parte\": è il ruolo svolto da attrito, tensione, gravità o altre forze."
+   ],
+   "terms": [
+    {
+     "t": "Accelerazione centripeta",
+     "d": "Accelerazione rivolta verso il centro di una traiettoria curva."
+    },
+    {
+     "t": "Forza centripeta",
+     "d": "Forza netta che mantiene un corpo su una traiettoria circolare."
+    },
+    {
+     "t": "Forza apparente",
+     "d": "Forza che sembra esistere in un sistema di riferimento accelerato."
+    },
+    {
+     "t": "Curva sopraelevata",
+     "d": "Curva inclinata verso l'interno per aiutare a curvare."
+    }
+   ],
+   "quote": {
+    "text": "Any net force causing uniform circular motion is called a centripetal force.",
+    "translation": "Qualsiasi forza netta che causa un moto circolare uniforme si chiama forza centripeta."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "6.3 Centripetal Force",
+     "url": "https://openstax.org/books/college-physics-2e/pages/6-3-centripetal-force"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "6.2 Centripetal Acceleration",
+     "url": "https://openstax.org/books/college-physics-2e/pages/6-2-centripetal-acceleration"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "6.4 Fictitious Forces and Non-inertial Frames",
+     "url": "https://openstax.org/books/college-physics-2e/pages/6-4-fictitious-forces-and-non-inertial-frames-the-coriolis-force"
+    }
+   ],
+   "videos": [
+    {
+     "id": "bpFK2VCRHUs",
+     "title": "Uniform Circular Motion: Crash Course Physics #7",
+     "channel": "CrashCourse",
+     "length": "9:54"
+    }
+   ],
+   "videoQuery": "moto circolare forza centripeta",
+   "addedAt": "2026-11-04T00:12:22Z"
+  },
+  {
+   "id": "archimede",
+   "subject": "fisica",
+   "chapter": "Fluidi",
+   "title": "Pressione e principio di Archimede: perché le navi d'acciaio galleggiano",
+   "hook": "Una nave da migliaia di tonnellate galleggia, un sassolino affonda. Tutto dipende dalla pressione dei fluidi e da un'idea vecchia di oltre duemila anni.",
+   "points": [
+    "Che cos'è la pressione e perché cresce con la profondità",
+    "La spinta di Archimede",
+    "Quando un oggetto galleggia, affonda o resta sospeso",
+    "Densità, sottomarini, mongolfiere e pesci"
+   ],
+   "sections": [
+    {
+     "h": "Che cos'è un fluido e che cos'è la pressione",
+     "p": [
+      "In fisica si chiamano fluidi sia i liquidi sia i gas: sostanze che possono scorrere e prendere la forma del recipiente. Un fluido spinge su tutte le superfici con cui è a contatto, e questa spinta, distribuita su una superficie, si chiama pressione: forza divisa per area.",
+      "La stessa forza produce una pressione molto diversa a seconda della superficie. Per questo un chiodo appuntito entra nel legno e uno smussato no, e per questo con le racchette da neve non si sprofonda: il peso è lo stesso, ma distribuito su un'area più grande.",
+      "Anche l'aria ha una pressione: l'atmosfera che ci sta sopra pesa. A livello del mare la pressione atmosferica equivale più o meno al peso di un chilogrammo su ogni centimetro quadrato. Non lo sentiamo perché il nostro corpo spinge verso l'esterno con una pressione uguale."
+     ]
+    },
+    {
+     "h": "Più vai giù, più spinge",
+     "p": [
+      "In un liquido la pressione aumenta con la profondità, perché ogni strato deve sostenere il peso di tutto il liquido che ha sopra. In acqua, ogni 10 metri circa la pressione aumenta di quanto vale tutta la pressione atmosferica. È per questo che le orecchie fanno male in fondo a una piscina profonda e che i sottomarini devono avere scafi robustissimi.",
+      "La pressione a una certa profondità non dipende dalla forma del recipiente, ma solo dalla profondità e dalla densità del liquido, e spinge in tutte le direzioni."
+     ]
+    },
+    {
+     "h": "La spinta verso l'alto",
+     "p": [
+      "Immagina un oggetto immerso in acqua. La parte bassa è più in profondità della parte alta, quindi l'acqua lo spinge da sotto più forte di quanto lo spinga da sopra. Il risultato è una forza netta verso l'alto, presente su qualsiasi oggetto immerso in qualsiasi fluido: la spinta idrostatica, o spinta di Archimede.",
+      "Il principio di Archimede dice quanto vale: la spinta verso l'alto su un oggetto è uguale al peso del fluido che l'oggetto sposta. Se immergi un oggetto che occupa un litro, sposta un litro d'acqua, che pesa circa un chilogrammo: riceve una spinta verso l'alto pari al peso di un chilogrammo.",
+      "Secondo il racconto tradizionale, Archimede di Siracusa ebbe l'intuizione entrando nella vasca da bagno e vedendo salire il livello dell'acqua. Che l'aneddoto sia vero o no, il principio porta il suo nome da oltre duemila anni."
+     ]
+    },
+    {
+     "h": "Galleggiare, affondare o restare sospesi",
+     "p": [
+      "Ora basta confrontare due forze: il peso dell'oggetto, verso il basso, e la spinta di Archimede, verso l'alto. Se la spinta è maggiore del peso, l'oggetto sale e galleggia; se è minore, affonda; se sono uguali, resta sospeso.",
+      "In pratica conta la densità, cioè quanta massa c'è in un certo volume. Un oggetto più denso dell'acqua affonda, uno meno denso galleggia. Un cubetto di ghiaccio galleggia perché il ghiaccio è un po' meno denso dell'acqua liquida, e infatti ne resta fuori solo una piccola parte: lo stesso vale per gli iceberg, la cui parte nascosta è la maggior parte.",
+      "Una nave d'acciaio galleggia, anche se l'acciaio è molto più denso dell'acqua, perché la sua forma è cava: lo scafo sposta un enorme volume d'acqua, il cui peso uguaglia quello di tutta la nave. Se la stessa quantità d'acciaio fosse un blocco compatto, affonderebbe."
+     ]
+    },
+    {
+     "h": "Sottomarini, pesci e mongolfiere",
+     "p": [
+      "Un sottomarino controlla la propria densità media riempiendo d'acqua o svuotando dei serbatoi chiamati casse di zavorra: più acqua significa più peso e quindi immersione, più aria significa risalita. Molti pesci fanno qualcosa di simile con la vescica natatoria, un sacchetto di gas che regola il galleggiamento.",
+      "Il principio vale anche per i gas. Una mongolfiera sale perché l'aria calda al suo interno è meno densa dell'aria fredda intorno: il pallone sposta un grande volume d'aria più pesante e riceve una spinta verso l'alto. Lo stesso fanno i palloncini a elio.",
+      "Il nostro corpo ha una densità vicina a quella dell'acqua. Con i polmoni pieni d'aria si galleggia più facilmente, e nell'acqua molto salata, più densa, come quella del Mar Morto, si galleggia quasi senza sforzo."
+     ]
+    }
+   ],
+   "formulas": [
+    {
+     "f": "p = F / A",
+     "d": "Pressione = forza diviso area (in pascal)."
+    },
+    {
+     "f": "S = ρ · V · g",
+     "d": "Spinta di Archimede = densità del fluido × volume spostato × gravità, cioè il peso del fluido spostato."
+    }
+   ],
+   "example": "Prova a spingere sott'acqua un pallone: più lo immergi, più acqua sposta e più forte ti spinge verso l'alto.",
+   "mistakes": [
+    "\"Gli oggetti pesanti affondano e quelli leggeri galleggiano\": conta la densità, non il peso totale.",
+    "\"Nell'acqua le cose perdono peso\": il peso resta lo stesso, ma la spinta verso l'alto lo compensa in parte.",
+    "\"Un ago d'acciaio non può mai stare a galla\": può farlo grazie alla tensione superficiale, che è un altro fenomeno."
+   ],
+   "terms": [
+    {
+     "t": "Pressione",
+     "d": "Forza distribuita su una superficie."
+    },
+    {
+     "t": "Spinta di Archimede",
+     "d": "Forza verso l'alto pari al peso del fluido spostato."
+    },
+    {
+     "t": "Densità",
+     "d": "Massa contenuta in un certo volume."
+    },
+    {
+     "t": "Fluido",
+     "d": "Liquido o gas, una sostanza che può scorrere."
+    }
+   ],
+   "quote": {
+    "text": "Stated in words, Archimedes’ principle is as follows: The buoyant force on an object equals the weight of the fluid it displaces.",
+    "translation": "Detto a parole, il principio di Archimede è il seguente: la spinta di galleggiamento su un oggetto è uguale al peso del fluido che sposta."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "11.7 Archimedes' Principle",
+     "url": "https://openstax.org/books/college-physics-2e/pages/11-7-archimedes-principle"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "11.3 Pressure",
+     "url": "https://openstax.org/books/college-physics-2e/pages/11-3-pressure"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "11.4 Variation of Pressure with Depth in a Fluid",
+     "url": "https://openstax.org/books/college-physics-2e/pages/11-4-variation-of-pressure-with-depth-in-a-fluid"
+    }
+   ],
+   "videos": [
+    {
+     "id": "b5SqYuWT4-4",
+     "title": "Fluids at Rest: Crash Course Physics #14",
+     "channel": "CrashCourse",
+     "length": "9:59"
+    },
+    {
+     "id": "ijj58xD5fDI",
+     "title": "How taking a bath led to Archimedes' principle",
+     "channel": "TED-Ed",
+     "length": "3:01"
+    }
+   ],
+   "videoQuery": "principio di Archimede galleggiamento",
+   "addedAt": "2026-11-04T00:12:22Z"
+  },
+  {
+   "id": "rifrazione",
+   "subject": "fisica",
+   "chapter": "Luce e ottica",
+   "title": "Rifrazione e arcobaleni: perché la luce si piega",
+   "hook": "La cannuccia che sembra spezzata nel bicchiere, le lenti degli occhiali, l'arcobaleno: tutto nasce dal fatto che la luce cambia velocità.",
+   "points": [
+    "Perché la luce cambia direzione passando da un materiale all'altro",
+    "L'indice di rifrazione",
+    "La riflessione totale e le fibre ottiche",
+    "Come nasce un arcobaleno"
+   ],
+   "sections": [
+    {
+     "h": "La luce come raggio",
+     "p": [
+      "In molte situazioni quotidiane la luce si può descrivere come un insieme di raggi che viaggiano in linea retta. È il modello dell'ottica geometrica, che spiega ombre, specchi e lenti senza bisogno di pensare alla luce come onda.",
+      "Quando un raggio incontra una superficie, una parte può tornare indietro (riflessione) e una parte può entrare nel nuovo materiale. È quest'ultima parte la protagonista di questo argomento."
+     ]
+    },
+    {
+     "h": "La luce rallenta, e si piega",
+     "p": [
+      "Nel vuoto la luce viaggia a circa 300.000 chilometri al secondo, ma nei materiali trasparenti va più piano: nell'acqua a circa tre quarti di quella velocità, nel vetro a circa due terzi. Il rapporto tra la velocità della luce nel vuoto e quella in un materiale si chiama indice di rifrazione: per l'acqua è circa 1,33, per il vetro comune circa 1,5, per il diamante circa 2,4.",
+      "Quando un raggio passa obliquamente da un materiale a un altro in cui la luce ha velocità diversa, cambia direzione. Questo cambio di direzione, chiamato spesso in modo approssimativo \"piegamento\", si chiama rifrazione. Passando dall'aria all'acqua, dove rallenta, il raggio si avvicina alla perpendicolare alla superficie; passando dall'acqua all'aria si allontana.",
+      "Un'immagine aiuta: pensa a un'auto che passa obliquamente dall'asfalto alla sabbia. La ruota che tocca per prima la sabbia rallenta prima dell'altra, e l'auto gira. La regola matematica che descrive di quanto si piega il raggio si chiama legge di Snell."
+     ]
+    },
+    {
+     "h": "Illusioni di tutti i giorni",
+     "p": [
+      "Una cannuccia in un bicchiere d'acqua sembra spezzata proprio sul pelo dell'acqua: la luce che arriva dalla parte immersa cambia direzione uscendo, e il cervello, che presume che la luce viaggi dritta, colloca l'immagine nel posto sbagliato.",
+      "Per lo stesso motivo una piscina sembra meno profonda di quanto è, e un pesce visto dall'alto non è esattamente dove sembra. I pescatori che usano la lancia lo sanno: bisogna mirare più in basso di dove si vede il pesce.",
+      "Le lenti, dagli occhiali alle macchine fotografiche fino al cristallino del nostro occhio, sono superfici curve progettate per piegare i raggi in modo da farli convergere o divergere e formare immagini nitide."
+     ]
+    },
+    {
+     "h": "Riflessione totale e fibre ottiche",
+     "p": [
+      "Quando la luce passa da un materiale più \"lento\" a uno più \"veloce\", come dall'acqua all'aria, si allontana dalla perpendicolare. Se l'angolo con cui arriva sulla superficie è abbastanza inclinato, oltre un certo angolo limite, non riesce più a uscire: viene riflessa completamente all'interno. È la riflessione totale interna.",
+      "Le fibre ottiche sfruttano questo fenomeno: sottili fili di vetro in cui la luce rimbalza continuamente sulle pareti interne senza uscire, anche se la fibra curva. Così si trasportano dati internet, telefonate e video per migliaia di chilometri, e i medici possono guardare dentro il corpo con gli endoscopi.",
+      "La riflessione totale contribuisce anche alla brillantezza dei diamanti: grazie al loro indice di rifrazione molto alto, la luce che entra rimbalza più volte all'interno prima di uscire."
+     ]
+    },
+    {
+     "h": "La dispersione e l'arcobaleno",
+     "p": [
+      "L'indice di rifrazione di un materiale cambia leggermente con il colore della luce: il violetto viene piegato un po' di più del rosso. Per questo un prisma separa la luce bianca nei suoi colori. Il fenomeno si chiama dispersione.",
+      "Un arcobaleno nasce quando la luce del Sole entra in miliardi di goccioline d'acqua sospese nell'aria. In ogni goccia la luce si rifrange entrando, si riflette sulla parete interna posteriore e si rifrange di nuovo uscendo. Ogni colore esce con un angolo leggermente diverso, e da ogni goccia ti arriva solo un colore: le gocce a un certo angolo ti mandano rosso, quelle un po' più in basso violetto.",
+      "Per questo l'arcobaleno si vede solo con il Sole alle spalle e la pioggia davanti, ed è sempre un arco centrato sul punto opposto al Sole. A volte se ne vede un secondo, più debole e con i colori invertiti, dovuto a una doppia riflessione dentro le gocce. Ogni persona, in realtà, vede il proprio arcobaleno, formato da gocce diverse."
+     ]
+    }
+   ],
+   "formulas": [
+    {
+     "f": "n = c / v",
+     "d": "Indice di rifrazione: velocità della luce nel vuoto divisa per la velocità nel materiale."
+    },
+    {
+     "f": "n₁ · sen θ₁ = n₂ · sen θ₂",
+     "d": "Legge di Snell: lega gli angoli dei raggi agli indici di rifrazione dei due materiali."
+    }
+   ],
+   "example": "Metti una moneta sul fondo di una tazza e allontanati finché non la vedi più; se qualcuno versa acqua nella tazza, la moneta ricompare: è la rifrazione.",
+   "mistakes": [
+    "\"La luce viaggia sempre alla stessa velocità\": è costante nel vuoto, ma rallenta nei materiali.",
+    "\"L'arcobaleno è un oggetto in un punto preciso del cielo\": dipende dalla posizione di chi guarda.",
+    "\"Il prisma colora la luce\": la luce bianca contiene già tutti i colori, il prisma li separa."
+   ],
+   "terms": [
+    {
+     "t": "Rifrazione",
+     "d": "Cambio di direzione della luce passando tra materiali diversi."
+    },
+    {
+     "t": "Indice di rifrazione",
+     "d": "Quanto un materiale rallenta la luce rispetto al vuoto."
+    },
+    {
+     "t": "Riflessione totale interna",
+     "d": "Riflessione completa della luce oltre l'angolo limite."
+    },
+    {
+     "t": "Dispersione",
+     "d": "Separazione dei colori dovuta a indici di rifrazione diversi."
+    }
+   ],
+   "quote": {
+    "text": "The changing of a light ray’s direction (loosely called bending) when it passes through variations in matter is called refraction.",
+    "translation": "Il cambiamento di direzione di un raggio di luce (chiamato in modo approssimativo \"piegamento\") quando attraversa variazioni nella materia si chiama rifrazione."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "25.3 The Law of Refraction",
+     "url": "https://openstax.org/books/college-physics-2e/pages/25-3-the-law-of-refraction"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "25.4 Total Internal Reflection",
+     "url": "https://openstax.org/books/college-physics-2e/pages/25-4-total-internal-reflection"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "25.5 Dispersion: The Rainbow and Prisms",
+     "url": "https://openstax.org/books/college-physics-2e/pages/25-5-dispersion-the-rainbow-and-prisms"
+    }
+   ],
+   "videos": [
+    {
+     "id": "Oh4m8Ees-3Q",
+     "title": "Geometric Optics: Crash Course Physics #38",
+     "channel": "CrashCourse",
+     "length": "9:40"
+    },
+    {
+     "id": "24GfgNtnjXc",
+     "title": "What They (Probably) Don't Teach You About Rainbows At School",
+     "channel": "Veritasium",
+     "length": "27:11"
+    }
+   ],
+   "videoQuery": "rifrazione della luce arcobaleno",
+   "addedAt": "2026-11-04T00:12:22Z"
+  },
+  {
+   "id": "induzione",
+   "subject": "fisica",
+   "chapter": "Elettricità e magnetismo",
+   "title": "Magneti e induzione: come si produce l'elettricità che usi ogni giorno",
+   "hook": "Elettricità e magnetismo sono due facce della stessa forza. Muovendo un magnete vicino a un filo nasce una corrente: così funzionano centrali e generatori.",
+   "points": [
+    "Poli magnetici, campi e la bussola",
+    "Come una corrente elettrica crea un campo magnetico",
+    "La legge di Faraday: un campo che cambia crea corrente",
+    "Generatori, trasformatori e piastre a induzione"
+   ],
+   "sections": [
+    {
+     "h": "I magneti",
+     "p": [
+      "Ogni magnete ha due estremità chiamate polo nord e polo sud. Poli uguali si respingono, poli opposti si attraggono. Se spezzi un magnete a metà non ottieni un polo nord e un polo sud separati, ma due magneti più piccoli, ciascuno con entrambi i poli.",
+      "Intorno a un magnete c'è un campo magnetico, che si può rendere visibile spargendo limatura di ferro su un foglio: i granelli si dispongono lungo linee che escono dal polo nord e rientrano nel polo sud.",
+      "Anche la Terra si comporta come un enorme magnete. L'ago di una bussola è un piccolo magnete libero di ruotare che si allinea con il campo terrestre. Curiosamente, il polo magnetico che si trova vicino al Polo Nord geografico è, dal punto di vista fisico, un polo sud magnetico: è per questo che attira il polo nord dell'ago."
+     ]
+    },
+    {
+     "h": "Le correnti creano magneti",
+     "p": [
+      "Nel 1820 il danese Hans Christian Ørsted notò che un filo percorso da corrente faceva deviare l'ago di una bussola vicina. Era la prima prova che elettricità e magnetismo sono collegati: le cariche elettriche in movimento producono campi magnetici.",
+      "Avvolgendo un filo in tante spire intorno a un nucleo di ferro si ottiene un elettromagnete, un magnete che si accende e si spegne con la corrente. Gli elettromagneti sono ovunque: nei campanelli, negli altoparlanti, nelle gru che sollevano rottami di ferro, nei macchinari per la risonanza magnetica.",
+      "Anche i magneti permanenti, come quelli da frigorifero, devono il loro magnetismo al movimento degli elettroni dentro gli atomi del materiale."
+     ]
+    },
+    {
+     "h": "La scoperta di Faraday",
+     "p": [
+      "Se una corrente crea un campo magnetico, si può fare il contrario? Lo scienziato inglese Michael Faraday, negli anni Trenta dell'Ottocento, scoprì che un campo magnetico fermo non produce corrente, ma un campo magnetico che cambia sì.",
+      "Se avvicini o allontani un magnete da una bobina di filo, nella bobina nasce una corrente, che si ferma appena il magnete si ferma. Questo fenomeno si chiama induzione elettromagnetica. La tensione indotta è tanto maggiore quanto più rapidamente cambia il campo magnetico che attraversa la bobina e quante più spire ha la bobina. È la legge di Faraday.",
+      "La legge di Lenz aggiunge un dettaglio importante sul verso: la corrente indotta crea a sua volta un campo magnetico che si oppone al cambiamento che l'ha prodotta. È una conseguenza della conservazione dell'energia: per generare corrente bisogna faticare, spingendo contro questa resistenza."
+     ]
+    },
+    {
+     "h": "I generatori: dal movimento all'elettricità",
+     "p": [
+      "Quasi tutta l'elettricità del mondo viene prodotta grazie all'induzione. In un generatore una bobina ruota dentro un campo magnetico, o un magnete ruota dentro una bobina, e il campo che attraversa la bobina cambia continuamente, producendo corrente.",
+      "Cambia solo ciò che fa girare il generatore: il vapore prodotto bruciando gas o carbone o con il calore nucleare, l'acqua che scende da una diga, il vento sulle pale di una turbina. Anche la dinamo di una vecchia bicicletta è un piccolo generatore.",
+      "Il motore elettrico fa il percorso inverso: la corrente in una bobina immersa in un campo magnetico produce una forza che la fa ruotare. Molti motori possono funzionare anche come generatori: le auto elettriche e ibride recuperano energia in frenata proprio così."
+     ]
+    },
+    {
+     "h": "Induzione in casa",
+     "p": [
+      "I trasformatori usano l'induzione per alzare o abbassare la tensione della corrente alternata: due bobine con un numero diverso di spire avvolte sullo stesso nucleo di ferro. Grazie a loro l'elettricità viaggia sulle linee ad alta tensione e arriva nelle case a 230 volt, e i caricabatterie riducono la tensione per i telefoni.",
+      "Le piastre a induzione producono un campo magnetico che cambia rapidamente; nel fondo metallico della pentola nascono correnti indotte che la scaldano direttamente, mentre la piastra resta relativamente fredda. Anche la ricarica wireless dei telefoni e i lettori di carte contactless sfruttano l'induzione.",
+      "Pochi decenni dopo Faraday, James Clerk Maxwell riunì tutte queste scoperte in poche equazioni e capì che un campo elettrico e uno magnetico che si generano a vicenda possono viaggiare nello spazio: è la luce, un'onda elettromagnetica."
+     ]
+    }
+   ],
+   "formulas": [
+    {
+     "f": "ε = −N · ΔΦ / Δt",
+     "d": "Legge di Faraday: la tensione indotta dipende dal numero di spire N e da quanto rapidamente cambia il flusso magnetico Φ. Il segno meno esprime la legge di Lenz."
+    }
+   ],
+   "example": "Quando appoggi il telefono sulla basetta di ricarica wireless, una bobina nella base crea un campo magnetico variabile che induce corrente in una bobina dentro il telefono.",
+   "mistakes": [
+    "\"Un magnete fermo vicino a un filo produce corrente\": serve un campo magnetico che cambia.",
+    "\"Elettricità e magnetismo sono fenomeni separati\": sono aspetti della stessa interazione elettromagnetica.",
+    "\"Il polo nord della bussola punta a un polo nord magnetico\": quello vicino al Polo Nord geografico è fisicamente un polo sud magnetico."
+   ],
+   "terms": [
+    {
+     "t": "Campo magnetico",
+     "d": "Regione in cui agiscono forze magnetiche."
+    },
+    {
+     "t": "Elettromagnete",
+     "d": "Magnete prodotto da una corrente in una bobina."
+    },
+    {
+     "t": "Induzione elettromagnetica",
+     "d": "Produzione di corrente da un campo magnetico che cambia."
+    },
+    {
+     "t": "Trasformatore",
+     "d": "Dispositivo che cambia la tensione della corrente alternata."
+    }
+   ],
+   "quote": {
+    "text": "This relationship is known as Faraday’s law of induction.",
+    "translation": "Questa relazione è nota come legge di Faraday dell'induzione."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "23.2 Faraday's Law of Induction: Lenz's Law",
+     "url": "https://openstax.org/books/college-physics-2e/pages/23-2-faradays-law-of-induction-lenzs-law"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "22.1 Magnets",
+     "url": "https://openstax.org/books/college-physics-2e/pages/22-1-magnets"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "23.5 Electric Generators",
+     "url": "https://openstax.org/books/college-physics-2e/pages/23-5-electric-generators"
+    }
+   ],
+   "videos": [
+    {
+     "id": "s94suB5uLWw",
+     "title": "Magnetism: Crash Course Physics #32",
+     "channel": "CrashCourse",
+     "length": "9:47"
+    },
+    {
+     "id": "pQp6bmJPU_0",
+     "title": "Induction - An Introduction: Crash Course Physics #34",
+     "channel": "CrashCourse",
+     "length": "9:49"
+    }
+   ],
+   "videoQuery": "induzione elettromagnetica legge di Faraday",
+   "addedAt": "2026-11-04T00:12:22Z"
+  },
+  {
+   "id": "effetto-fotoelettrico",
+   "subject": "fisica",
+   "chapter": "Fisica moderna",
+   "title": "L'effetto fotoelettrico: quando la luce si comporta come una pioggia di particelle",
+   "hook": "Un esperimento che la fisica classica non sapeva spiegare portò Einstein a un'idea rivoluzionaria: la luce arriva in pacchetti, i fotoni.",
+   "points": [
+    "Che cosa succede quando la luce colpisce un metallo",
+    "Perché la fisica classica non funzionava",
+    "L'idea di Einstein: i fotoni",
+    "La dualità onda-particella e le applicazioni"
+   ],
+   "sections": [
+    {
+     "h": "Luce che fa uscire elettroni",
+     "p": [
+      "Quando la luce colpisce la superficie di certi metalli, può strappare via degli elettroni. Questo fenomeno, osservato alla fine dell'Ottocento, si chiama effetto fotoelettrico: la luce (\"foto\") produce elettricità.",
+      "In un tipico esperimento si illumina una placca metallica dentro un tubo a vuoto e si misura la corrente prodotta dagli elettroni che ne escono. Sembra un esperimento semplice, ma i risultati misero in crisi la fisica del tempo."
+     ]
+    },
+    {
+     "h": "I risultati che non tornavano",
+     "p": [
+      "All'epoca la luce era considerata un'onda elettromagnetica, e le prove erano solidissime. Secondo la teoria delle onde, una luce più intensa porta più energia, quindi dovrebbe strappare elettroni con più energia, di qualunque colore sia. E anche una luce debole, accumulando energia per un po', dovrebbe prima o poi far uscire qualche elettrone.",
+      "Gli esperimenti dicevano altro. Per ogni materiale esiste una frequenza minima della luce, detta frequenza di soglia, sotto la quale non esce nessun elettrone, per quanto intensa sia la luce. Una luce rossa fortissima può non fare nulla, mentre una debole luce ultravioletta strappa subito elettroni.",
+      "Inoltre l'energia degli elettroni emessi dipende solo dalla frequenza della luce, non dalla sua intensità. Aumentare l'intensità aumenta solo il numero di elettroni. E gli elettroni escono subito, senza alcun ritardo."
+     ]
+    },
+    {
+     "h": "L'idea di Einstein",
+     "p": [
+      "Nel 1905, lo stesso anno della relatività ristretta, Albert Einstein propose una spiegazione audace. La luce trasporta energia in pacchetti indivisibili, che oggi chiamiamo fotoni. L'energia di ciascun fotone è proporzionale alla frequenza della luce: E = h · f, dove h è la costante di Planck.",
+      "Con questa idea tutto torna. Ogni elettrone viene strappato da un singolo fotone. Se il fotone non ha abbastanza energia per liberarlo dal metallo, non succede nulla, e mandare più fotoni deboli non aiuta, perché un elettrone non può sommare l'energia di più fotoni. Sopra la soglia, l'energia in più del fotone diventa energia di movimento dell'elettrone.",
+      "Una luce più intensa significa più fotoni, quindi più elettroni, ma ciascuno con la stessa energia. Una luce di frequenza più alta, come il blu o l'ultravioletto, significa fotoni più energetici. Per questa spiegazione Einstein ricevette il premio Nobel per la fisica."
+     ]
+    },
+    {
+     "h": "Onda o particella?",
+     "p": [
+      "Allora la luce è un'onda o un insieme di particelle? La risposta della fisica moderna è: entrambe, a seconda di come la si osserva. In esperimenti come l'interferenza si comporta da onda; nell'effetto fotoelettrico si comporta da particella. È la dualità onda-particella.",
+      "Ci sembra contraddittorio perché nella vita quotidiana gli oggetti grandi non si comportano mai sia da onda sia da particella. Ma alla scala degli atomi la natura funziona in modo diverso dalla nostra intuizione.",
+      "Pochi anni dopo si scoprì che vale anche al contrario: anche gli elettroni e le altre particelle hanno un comportamento ondulatorio. Queste scoperte furono le fondamenta della meccanica quantistica."
+     ]
+    },
+    {
+     "h": "Fotoni al lavoro",
+     "p": [
+      "L'effetto fotoelettrico e i suoi parenti sono alla base di molte tecnologie. I sensori delle fotocamere e dei telefoni trasformano i fotoni in segnali elettrici; i pannelli solari usano un fenomeno strettamente collegato, l'effetto fotovoltaico, per produrre elettricità; gli esposimetri e le fotocellule delle porte automatiche funzionano sullo stesso principio.",
+      "Anche la scottatura solare si spiega con i fotoni: la luce ultravioletta danneggia la pelle e la luce visibile no, anche se è molto più abbondante, perché ogni singolo fotone ultravioletto porta abbastanza energia per rompere legami nelle molecole delle cellule."
+     ]
+    }
+   ],
+   "formulas": [
+    {
+     "f": "E = h · f",
+     "d": "Energia di un fotone = costante di Planck × frequenza della luce."
+    },
+    {
+     "f": "Ec = h · f − BE",
+     "d": "Energia cinetica dell'elettrone = energia del fotone meno l'energia di legame del metallo."
+    }
+   ],
+   "example": "Una lampada a infrarossi può scaldarti molto ma non abbronzarti né scottarti: i suoi fotoni, uno per uno, non hanno abbastanza energia per danneggiare le cellule della pelle.",
+   "mistakes": [
+    "\"Una luce più forte strappa elettroni più veloci\": aumenta solo il numero di elettroni, non la loro energia.",
+    "\"La luce è o un'onda o una particella\": mostra entrambi i comportamenti.",
+    "\"Einstein vinse il Nobel per la relatività\": il premio citò l'effetto fotoelettrico."
+   ],
+   "terms": [
+    {
+     "t": "Fotone",
+     "d": "Pacchetto indivisibile di energia luminosa."
+    },
+    {
+     "t": "Frequenza di soglia",
+     "d": "Frequenza minima per strappare elettroni da un materiale."
+    },
+    {
+     "t": "Costante di Planck (h)",
+     "d": "Costante che lega energia e frequenza dei fotoni."
+    },
+    {
+     "t": "Dualità onda-particella",
+     "d": "Il doppio comportamento di luce e materia."
+    }
+   ],
+   "quote": {
+    "text": "There is a threshold frequency below which no electrons are ejected, because the individual photon interacting with an individual electron has insufficient energy to break it away.",
+    "translation": "Esiste una frequenza di soglia sotto la quale non vengono emessi elettroni, perché il singolo fotone che interagisce con un singolo elettrone non ha energia sufficiente per staccarlo."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "29.2 The Photoelectric Effect",
+     "url": "https://openstax.org/books/college-physics-2e/pages/29-2-the-photoelectric-effect"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "29.5 The Particle-Wave Duality",
+     "url": "https://openstax.org/books/college-physics-2e/pages/29-5-the-particle-wave-duality"
+    }
+   ],
+   "videos": [
+    {
+     "id": "7kb1VT0J3DE",
+     "title": "Quantum Mechanics - Part 1: Crash Course Physics #43",
+     "channel": "CrashCourse",
+     "length": "8:45"
+    }
+   ],
+   "videoQuery": "effetto fotoelettrico Einstein fotoni",
+   "addedAt": "2026-11-04T00:12:22Z"
+  },
+  {
+   "id": "radioattivita",
+   "subject": "fisica",
+   "chapter": "Fisica moderna",
+   "title": "Radioattività: nuclei che si trasformano e il tempo di dimezzamento",
+   "hook": "Alcuni atomi sono instabili e prima o poi si trasformano emettendo radiazioni. Il loro ritmo regolare permette perfino di datare i fossili.",
+   "points": [
+    "Com'è fatto il nucleo di un atomo",
+    "La scoperta della radioattività",
+    "Radiazioni alfa, beta e gamma",
+    "Il tempo di dimezzamento e la datazione al carbonio-14"
+   ],
+   "sections": [
+    {
+     "h": "Dentro il nucleo",
+     "p": [
+      "Ogni atomo ha al centro un nucleo minuscolo, fatto di protoni (con carica positiva) e neutroni (senza carica). Il numero di protoni decide di quale elemento si tratta: sei protoni sono sempre carbonio, otto sempre ossigeno.",
+      "Lo stesso elemento può però avere un numero diverso di neutroni: queste varianti si chiamano isotopi. Il carbonio-12 ha 6 protoni e 6 neutroni, il carbonio-14 ne ha 6 e 8. Alcune combinazioni sono stabili e durano per sempre; altre sono instabili e prima o poi si trasformano."
+     ]
+    },
+    {
+     "h": "Una scoperta per caso",
+     "p": [
+      "Nel 1896 il fisico francese Henri Becquerel scoprì che i sali di uranio emettevano qualcosa capace di annerire lastre fotografiche avvolte nella carta, anche al buio. Presto fu chiaro che quei raggi provenivano dai nuclei degli atomi.",
+      "Marie e Pierre Curie approfondirono le ricerche, scoprirono nuovi elementi radioattivi come il polonio e il radio e coniarono il termine radioattività. Marie Curie fu la prima persona a vincere due premi Nobel, in due scienze diverse."
+     ]
+    },
+    {
+     "h": "Alfa, beta, gamma",
+     "p": [
+      "Studi successivi, avviati tra gli altri dal neozelandese Ernest Rutherford, mostrarono che esistono tipi diversi di radiazione, chiamati con le prime lettere dell'alfabeto greco perché all'inizio nessuno sapeva cosa fossero.",
+      "Le particelle alfa sono nuclei di elio (due protoni e due neutroni): sono pesanti e lente, e un foglio di carta o lo strato esterno della pelle basta a fermarle, ma sono pericolose se il materiale che le emette viene inalato o ingerito. Le particelle beta sono elettroni (o la loro antiparticella, il positrone) emessi dal nucleo: penetrano di più, ma qualche millimetro di alluminio le ferma. I raggi gamma sono luce di altissima energia: molto penetranti, servono spessi strati di piombo o cemento per attenuarli.",
+      "Quando un nucleo emette una particella alfa o beta cambia il numero di protoni, e quindi diventa un elemento diverso. È la trasmutazione che gli alchimisti sognavano, ma avviene spontaneamente."
+     ]
+    },
+    {
+     "h": "Il tempo di dimezzamento",
+     "p": [
+      "Non si può prevedere quando un singolo nucleo instabile decadrà: è un evento casuale. Ma con un numero enorme di nuclei il comportamento complessivo è regolarissimo.",
+      "Il tempo di dimezzamento è il tempo in cui metà dei nuclei di un campione decade. Dopo un tempo di dimezzamento resta metà del materiale originale, dopo due un quarto, dopo tre un ottavo, e così via. Non si arriva mai a zero di colpo: la quantità si dimezza a ogni intervallo.",
+      "I tempi di dimezzamento variano enormemente: da frazioni di secondo per alcuni isotopi a miliardi di anni per l'uranio-238. Il carbonio-14 ha un tempo di dimezzamento di 5730 anni."
+     ]
+    },
+    {
+     "h": "Datare il passato",
+     "p": [
+      "Gli organismi viventi assorbono carbonio dall'ambiente, e una piccolissima frazione è carbonio-14, prodotto continuamente nell'atmosfera. Finché un organismo vive, la proporzione resta più o meno costante. Quando muore smette di assorbirne, e il carbonio-14 presente decade lentamente.",
+      "Misurando quanto carbonio-14 resta in un osso, in un pezzo di legno o in un tessuto e confrontandolo con quello di un organismo vivente, si calcola da quanto tempo è morto. Il metodo funziona fino a qualche decina di migliaia di anni; per rocce molto più antiche si usano isotopi con tempi di dimezzamento più lunghi, come quelli dell'uranio o del potassio. È così che si è stabilito che la Terra ha circa 4,5 miliardi di anni."
+     ]
+    },
+    {
+     "h": "Pericoli e usi",
+     "p": [
+      "Le radiazioni ionizzanti possono danneggiare il DNA delle cellule; per questo l'esposizione va limitata. Ma una piccola dose di radiazione naturale ci accompagna sempre, dal suolo, dalle rocce e dallo spazio.",
+      "Usate con controllo, le radiazioni sono preziose: in medicina per la diagnostica e per la radioterapia contro i tumori, per sterilizzare strumenti e alimenti, nelle centrali nucleari e nei rilevatori di fumo."
+     ]
+    }
+   ],
+   "formulas": [
+    {
+     "f": "N = N₀ · (½)^(t / T½)",
+     "d": "Quantità rimasta dopo un tempo t, con tempo di dimezzamento T½."
+    }
+   ],
+   "example": "Un reperto con un quarto del carbonio-14 di un organismo vivente ha circa due tempi di dimezzamento, cioè circa 11.500 anni.",
+   "mistakes": [
+    "\"Dopo due tempi di dimezzamento non resta niente\": ne resta un quarto.",
+    "\"Tutta la radioattività è artificiale\": esiste ovunque in natura.",
+    "\"Un oggetto irradiato diventa radioattivo\": nella maggior parte dei casi, come con raggi X e gamma, no."
+   ],
+   "terms": [
+    {
+     "t": "Isotopo",
+     "d": "Variante di un elemento con un diverso numero di neutroni."
+    },
+    {
+     "t": "Decadimento radioattivo",
+     "d": "Trasformazione spontanea di un nucleo instabile."
+    },
+    {
+     "t": "Tempo di dimezzamento",
+     "d": "Tempo in cui metà dei nuclei decade."
+    },
+    {
+     "t": "Radiazione ionizzante",
+     "d": "Radiazione capace di strappare elettroni agli atomi."
+    }
+   ],
+   "quote": {
+    "text": "It was soon evident that Becquerel’s rays originate in the nuclei of the atoms and have other unique characteristics.",
+    "translation": "Fu presto evidente che i raggi di Becquerel hanno origine nei nuclei degli atomi e hanno altre caratteristiche uniche."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "31.1 Nuclear Radioactivity",
+     "url": "https://openstax.org/books/college-physics-2e/pages/31-1-nuclear-radioactivity"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "31.5 Half-Life and Activity",
+     "url": "https://openstax.org/books/college-physics-2e/pages/31-5-half-life-and-activity"
+    }
+   ],
+   "videos": [
+    {
+     "id": "lUhJL7o6_cA",
+     "title": "Nuclear Physics: Crash Course Physics #45",
+     "channel": "CrashCourse",
+     "length": "10:24"
+    },
+    {
+     "id": "TJgc28csgV0",
+     "title": "Radioactivity: Expect the unexpected",
+     "channel": "TED-Ed",
+     "length": "4:16"
+    }
+   ],
+   "videoQuery": "radioattività tempo di dimezzamento",
+   "addedAt": "2026-11-04T00:12:22Z"
+  },
+  {
    "id": "neuroni",
    "subject": "psicologia",
    "title": "Neuroni e sinapsi: come il cervello trasmette i messaggi",
@@ -1956,6 +2803,680 @@
    "formulas": []
   },
   {
+   "id": "big-five",
+   "subject": "psicologia",
+   "chapter": "Personalità",
+   "title": "La personalità e i Big Five: cinque dimensioni per descrivere chi siamo",
+   "hook": "Apertura, coscienziosità, estroversione, amicalità, nevroticismo: il modello più usato dagli psicologi, e perché è più affidabile dei test virali.",
+   "points": [
+    "Che cosa intendono gli psicologi per personalità",
+    "Dai tipi ai tratti: Allport, Cattell, Eysenck",
+    "Le cinque dimensioni del modello Big Five",
+    "Quanto è stabile la personalità e da cosa dipende"
+   ],
+   "sections": [
+    {
+     "h": "Che cos'è la personalità",
+     "p": [
+      "In psicologia la personalità è l'insieme di schemi relativamente stabili di pensieri, emozioni e comportamenti che rendono una persona riconoscibile nel tempo e nelle situazioni. Il vicino che è sempre puntuale, l'amica che ama le feste, il collega che si preoccupa per tutto: stiamo descrivendo personalità.",
+      "Nella storia della psicologia ci sono stati molti approcci: quello psicodinamico di Freud, quelli umanistici, quelli legati all'apprendimento. L'approccio oggi più usato nella ricerca è quello dei tratti."
+     ]
+    },
+    {
+     "h": "Dai tipi ai tratti",
+     "p": [
+      "Un tipo è una categoria netta: o sei introverso o sei estroverso. Un tratto invece è una dimensione continua: puoi essere molto, poco o mediamente estroverso. La ricerca mostra che i tratti descrivono le persone molto meglio dei tipi, perché la maggior parte di noi sta da qualche parte nel mezzo.",
+      "Gordon Allport, negli anni Trenta, cercò nel dizionario inglese tutte le parole che descrivono le persone e ne trovò migliaia. Raymond Cattell ridusse quell'elenco con metodi statistici a 16 fattori di base. Hans Eysenck propose un modello più semplice, basato su due grandi dimensioni: introversione-estroversione e stabilità emotiva-nevroticismo.",
+      "Il modello a cinque fattori, o Big Five, si colloca a metà strada tra la complessità di Cattell e la semplicità di Eysenck."
+     ]
+    },
+    {
+     "h": "Le cinque dimensioni",
+     "p": [
+      "Apertura all'esperienza: curiosità intellettuale, fantasia, interesse per l'arte e le idee nuove. Chi è alto in apertura ama sperimentare; chi è basso preferisce il noto e il concreto.",
+      "Coscienziosità: organizzazione, affidabilità, autodisciplina, attenzione agli obiettivi. È tra i tratti più legati al rendimento negli studi e al lavoro. Chi è basso tende a essere più spontaneo e meno pianificatore.",
+      "Estroversione: socievolezza, energia, ricerca di stimoli e di compagnia. Gli introversi non sono necessariamente timidi: semplicemente si ricaricano di più stando tranquilli o da soli.",
+      "Amicalità (o gradevolezza): fiducia, gentilezza, disponibilità a collaborare. Chi è basso tende a essere più competitivo e diffidente.",
+      "Nevroticismo: tendenza a provare emozioni negative come ansia, tristezza e irritabilità, e a reagire forte allo stress. Il suo opposto è la stabilità emotiva.",
+      "Un trucco per ricordarle è l'acronimo inglese OCEAN: Openness, Conscientiousness, Extraversion, Agreeableness, Neuroticism."
+     ]
+    },
+    {
+     "h": "Uno spettro, non una casella",
+     "p": [
+      "Nel modello Big Five ogni persona possiede tutti e cinque i fattori, ma in misura diversa, lungo uno spettro. Nessuno è \"un estroverso\" e basta: si può essere molto estroversi, molto coscienziosi e mediamente aperti, e ogni combinazione è possibile.",
+      "I tratti si misurano con questionari validati statisticamente, in cui si indica quanto si è d'accordo con frasi come \"mi piace stare al centro dell'attenzione\". La differenza con i test virali online è che questi strumenti vengono controllati per affidabilità (danno risultati simili se ripetuti) e validità (misurano davvero ciò che dichiarano).",
+      "Per questo molti psicologi sono critici verso strumenti popolari che dividono le persone in tipi rigidi: le persone vere non si distribuiscono in poche caselle."
+     ]
+    },
+    {
+     "h": "Quanto è stabile, e da dove viene",
+     "p": [
+      "I fattori Big Five sono relativamente stabili nel corso della vita, con leggere tendenze a crescere o diminuire con l'età: in media, per esempio, le persone diventano un po' più coscienziose e amichevoli e un po' meno nevrotiche passando dalla giovinezza all'età adulta.",
+      "I cinque fattori sono stati trovati in molte etnie, culture ed età diverse, e studi su gemelli suggeriscono che abbiano componenti biologiche e genetiche sostanziali. Questo non significa che siano un destino: anche l'ambiente, le relazioni e le esperienze contano molto, e il comportamento dipende sempre anche dalla situazione.",
+      "Conoscere il proprio profilo può essere utile: aiuta a capire in quali contesti ci si trova bene, quali abitudini richiedono più sforzo e come mai si reagisce in modo diverso dagli altri alle stesse situazioni."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Due amici possono essere entrambi estroversi ma molto diversi: uno coscienzioso e puntuale, l'altro spontaneo e disordinato. I tratti si combinano.",
+   "mistakes": [
+    "\"Si è o introversi o estroversi\": è una dimensione continua, e molti stanno nel mezzo.",
+    "\"La personalità non cambia mai\": è relativamente stabile, ma cambia un po' con l'età e le esperienze.",
+    "\"Un test online di 10 domande dice chi sei\": i test scientifici sono validati e misurano tratti, non tipi."
+   ],
+   "terms": [
+    {
+     "t": "Tratto",
+     "d": "Caratteristica stabile che varia per gradi tra le persone."
+    },
+    {
+     "t": "Big Five",
+     "d": "Modello a cinque fattori della personalità."
+    },
+    {
+     "t": "Nevroticismo",
+     "d": "Tendenza a provare emozioni negative e a reagire forte allo stress."
+    },
+    {
+     "t": "Validità",
+     "d": "Quanto un test misura davvero ciò che dichiara di misurare."
+    }
+   ],
+   "quote": {
+    "text": "In the Five Factor Model, each person has each factor, but they occur along a spectrum.",
+    "translation": "Nel modello a cinque fattori ogni persona possiede ciascun fattore, ma questi si presentano lungo uno spettro."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Psychology 2e",
+     "title": "11.7 Trait Theorists",
+     "url": "https://openstax.org/books/psychology-2e/pages/11-7-trait-theorists"
+    },
+    {
+     "name": "OpenStax · Psychology 2e",
+     "title": "11.9 Personality Assessment",
+     "url": "https://openstax.org/books/psychology-2e/pages/11-9-personality-assessment"
+    }
+   ],
+   "videos": [
+    {
+     "id": "sUrV6oZ3zsk",
+     "title": "Measuring Personality: Crash Course Psychology #22",
+     "channel": "CrashCourse",
+     "length": "11:08"
+    },
+    {
+     "id": "IB1FVbo8TSs",
+     "title": "The Big Five Personality Traits",
+     "channel": "Sprouts",
+     "length": "5:40"
+    }
+   ],
+   "videoQuery": "big five personalità psicologia",
+   "addedAt": "2026-11-04T00:12:22Z"
+  },
+  {
+   "id": "stress",
+   "subject": "psicologia",
+   "chapter": "Salute e benessere",
+   "title": "Lo stress: cosa succede nel corpo e perché dipende da come leggiamo le cose",
+   "hook": "Lo stress non è solo ciò che ci capita, ma come lo valutiamo. Ecco la reazione \"combatti o fuggi\", le fasi di Selye e cosa dice la ricerca su come gestirlo.",
+   "points": [
+    "Perché lo stress è difficile da definire",
+    "Valutazione primaria e secondaria",
+    "La risposta \"combatti o fuggi\" e la sindrome generale di adattamento",
+    "Eventi di vita, seccature quotidiane e salute"
+   ],
+   "sections": [
+    {
+     "h": "Una parola usata per tutto",
+     "p": [
+      "Diciamo di essere \"stressati\" quando siamo frustrati, arrabbiati, in conflitto, sopraffatti o stanchi. Nonostante l'uso diffusissimo, lo stress è un concetto piuttosto vago e difficile da definire con precisione, tanto che i ricercatori stessi hanno faticato a mettersi d'accordo.",
+      "Una definizione molto usata lo descrive come un processo: un evento ci mette davanti a una richiesta (il fattore di stress, o stressor) e noi reagiamo con risposte fisiche, emotive e di comportamento. Il punto cruciale è come valutiamo quell'evento."
+     ]
+    },
+    {
+     "h": "Valutare la minaccia",
+     "p": [
+      "Gli psicologi Richard Lazarus e Susan Folkman distinsero due valutazioni. Nella valutazione primaria ci chiediamo quanto l'evento possa danneggiarci: è irrilevante, positivo o minaccioso? Nella valutazione secondaria ci chiediamo se abbiamo le risorse per affrontarlo.",
+      "Lo stesso esame può essere vissuto come una minaccia devastante da chi si sente impreparato e come una sfida stimolante da chi si sente pronto. Per questo si dice che lo stress è in buona parte negli occhi di chi guarda: conta non solo ciò che ci succede, ma come reagiamo.",
+      "Non tutto lo stress è negativo. Hans Selye chiamò eustress (dal greco eu, \"bene\") lo stress positivo: fino a un certo livello, un po' di tensione migliora prestazioni e benessere; oltre quel punto, le prestazioni calano."
+     ]
+    },
+    {
+     "h": "Il corpo sotto pressione",
+     "p": [
+      "Negli anni Trenta il fisiologo di Harvard Walter Cannon descrisse la risposta \"combatti o fuggi\": davanti a una minaccia, il sistema nervoso simpatico e le ghiandole surrenali rilasciano adrenalina e noradrenalina. Il cuore accelera, la pressione sale, il respiro si fa veloce, il sangue va ai muscoli, la digestione rallenta. Il corpo si prepara a lottare o a scappare.",
+      "È una reazione utilissima davanti a un pericolo fisico immediato. Il problema è che si attiva anche per scadenze, discussioni e preoccupazioni, che non si risolvono né lottando né fuggendo.",
+      "Il medico Hans Selye, studiando animali di laboratorio, descrisse la sindrome generale di adattamento, la risposta fisiologica non specifica del corpo a qualsiasi stress, in tre fasi: la reazione di allarme; la fase di resistenza, in cui il corpo mantiene uno stato di allerta e produce ormoni come il cortisolo; e, se lo stress dura troppo, la fase di esaurimento, in cui le risorse si consumano e aumenta la vulnerabilità alle malattie."
+     ]
+    },
+    {
+     "h": "Grandi eventi e piccole seccature",
+     "p": [
+      "Thomas Holmes e Richard Rahe crearono nel 1967 una scala con 43 eventi di vita che richiedono un riadattamento, dalla morte di un coniuge al divorzio, dal matrimonio al trasloco, fino alle vacanze. Ogni evento ha un punteggio, e chi accumula molti eventi in poco tempo ha, secondo i loro studi, un rischio maggiore di ammalarsi. Notevole è che anche eventi felici, come sposarsi, richiedono adattamento.",
+      "Altre ricerche hanno mostrato che contano molto anche le seccature quotidiane: traffico, code, piccoli litigi, oggetti persi. In uno studio noto su residenti di San Francisco, la frequenza delle seccature quotidiane era più legata ai problemi di salute fisica dei grandi eventi di vita."
+     ]
+    },
+    {
+     "h": "Stress e salute",
+     "p": [
+      "Lo stress prolungato, o cronico, è associato a molti problemi: disturbi del sonno, problemi digestivi, minore efficacia del sistema immunitario, maggior rischio di malattie cardiovascolari. Il legame passa sia dagli effetti diretti degli ormoni dello stress, sia da comportamenti come dormire poco, mangiare male, fumare o bere di più.",
+      "Le strategie che la ricerca trova utili sono di due tipi. Quelle centrate sul problema cercano di cambiare la situazione: organizzarsi, chiedere aiuto, risolvere la causa. Quelle centrate sulle emozioni aiutano a gestire la reazione quando la situazione non si può cambiare.",
+      "Funzionano bene l'attività fisica, le tecniche di rilassamento e respirazione, la meditazione, il sostegno sociale e la sensazione di avere un certo controllo sugli eventi. Quando lo stress diventa ingestibile, è giusto rivolgersi a un professionista."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Prima di un colloquio di lavoro, pensare \"ho preparato bene le risposte\" cambia la valutazione secondaria: la stessa situazione diventa più una sfida che una minaccia.",
+   "mistakes": [
+    "\"Lo stress è sempre dannoso\": a livelli moderati può migliorare le prestazioni (eustress).",
+    "\"Solo i grandi eventi negativi stressano\": anche cambiamenti felici e piccole seccature quotidiane contano.",
+    "\"Lo stress dipende solo dagli eventi esterni\": conta molto come li valutiamo e quali risorse sentiamo di avere."
+   ],
+   "terms": [
+    {
+     "t": "Stressor",
+     "d": "Evento o situazione che richiede adattamento."
+    },
+    {
+     "t": "Valutazione primaria",
+     "d": "Giudizio su quanto un evento sia minaccioso."
+    },
+    {
+     "t": "Combatti o fuggi",
+     "d": "Risposta del sistema simpatico a una minaccia."
+    },
+    {
+     "t": "Eustress",
+     "d": "Stress positivo che migliora prestazioni e benessere."
+    }
+   ],
+   "quote": {
+    "text": "Despite the widespread use of the term, stress is a fairly vague concept that is difficult to define with precision.",
+    "translation": "Nonostante l'uso diffuso del termine, lo stress è un concetto piuttosto vago, difficile da definire con precisione."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Psychology 2e",
+     "title": "14.1 What Is Stress?",
+     "url": "https://openstax.org/books/psychology-2e/pages/14-1-what-is-stress"
+    },
+    {
+     "name": "OpenStax · Psychology 2e",
+     "title": "14.2 Stressors",
+     "url": "https://openstax.org/books/psychology-2e/pages/14-2-stressors"
+    },
+    {
+     "name": "OpenStax · Psychology 2e",
+     "title": "14.4 Regulation of Stress",
+     "url": "https://openstax.org/books/psychology-2e/pages/14-4-regulation-of-stress"
+    }
+   ],
+   "videos": [
+    {
+     "id": "4KbSRXP0wik",
+     "title": "Emotion, Stress, and Health: Crash Course Psychology #26",
+     "channel": "CrashCourse",
+     "length": "10:20"
+    }
+   ],
+   "videoQuery": "stress psicologia risposta combatti o fuggi",
+   "addedAt": "2026-11-04T00:12:22Z"
+  },
+  {
+   "id": "motivazione",
+   "subject": "psicologia",
+   "chapter": "Emozioni e motivazione",
+   "title": "La motivazione: perché facciamo quello che facciamo",
+   "hook": "Motivazione intrinseca ed estrinseca, il livello giusto di attivazione, la piramide di Maslow e il potere di credere in sé stessi.",
+   "points": [
+    "Motivazione intrinseca ed estrinseca",
+    "L'effetto di sovragiustificazione",
+    "La legge di Yerkes-Dodson",
+    "Autoefficacia e gerarchia dei bisogni di Maslow"
+   ],
+   "sections": [
+    {
+     "h": "Che cosa ci spinge",
+     "p": [
+      "La motivazione è ciò che dà energia e direzione al comportamento: il desiderio o il bisogno che ci fa agire. Alcune motivazioni sono biologiche, come la fame e la sete; altre sono sociali e psicologiche, come il desiderio di riuscire, di essere accettati o di capire.",
+      "Gli psicologi hanno proposto molte teorie, perché nessuna da sola spiega tutto. Messe insieme, però, danno un quadro utile per capire anche la propria motivazione."
+     ]
+    },
+    {
+     "h": "Dentro o fuori",
+     "p": [
+      "La motivazione può essere intrinseca, cioè nascere da fattori interni, o estrinseca, cioè nascere da fattori esterni. I comportamenti motivati intrinsecamente si fanno per la soddisfazione personale che danno: leggere un libro perché ci appassiona, suonare per il piacere di farlo. Quelli motivati estrinsecamente si fanno per ottenere qualcosa dagli altri: un voto, uno stipendio, un complimento.",
+      "Spesso le due si mescolano: si può amare il proprio lavoro ed essere contenti di essere pagati. Ma il loro rapporto ha una sorpresa."
+     ]
+    },
+    {
+     "h": "Quando il premio rovina il piacere",
+     "p": [
+      "Cosa succede se cominciamo a pagare qualcuno per fare una cosa che già gli piaceva? Molti esperimenti mostrano che, in certe condizioni, la motivazione intrinseca diminuisce quando viene aggiunta una motivazione estrinseca. Si chiama effetto di sovragiustificazione.",
+      "In studi classici, bambini a cui piaceva disegnare e che venivano premiati per farlo, una volta tolto il premio disegnavano meno di bambini che non erano mai stati premiati. Il premio aveva cambiato il significato dell'attività: da \"lo faccio perché mi piace\" a \"lo faccio per il premio\".",
+      "Non tutti i premi hanno questo effetto: un riconoscimento inatteso o un feedback che fa sentire competenti può anzi rafforzare la motivazione. Il rischio maggiore è con premi attesi e percepiti come un modo di controllare."
+     ]
+    },
+    {
+     "h": "Il livello giusto di attivazione",
+     "p": [
+      "Alcune teorie descrivono la motivazione in termini di attivazione (arousal), cioè quanto siamo carichi e in allerta. La ricerca mostra che in genere un'attivazione moderata è la migliore: quando è troppo alta o troppo bassa, le prestazioni peggiorano.",
+      "Robert Yerkes e John Dodson scoprirono già nel 1908 che il livello ottimale dipende dalla difficoltà del compito. È la legge di Yerkes-Dodson: un compito semplice si esegue meglio con un'attivazione relativamente alta, mentre un compito complesso riesce meglio con un'attivazione più bassa.",
+      "Per questo un po' di adrenalina aiuta a fare uno sprint, ma l'ansia eccessiva può bloccare durante un esame difficile."
+     ]
+    },
+    {
+     "h": "Credere di farcela",
+     "p": [
+      "Albert Bandura introdusse il concetto di autoefficacia: la convinzione di essere capaci di portare a termine un compito. Secondo Bandura ha un ruolo centrale nella motivazione: chi si sente capace affronta sfide più difficili, insiste di più davanti agli ostacoli e si riprende meglio dagli insuccessi.",
+      "L'autoefficacia cresce soprattutto con le esperienze di successo, anche piccole, con l'osservazione di persone simili a noi che ce la fanno e con l'incoraggiamento credibile degli altri. Dividere un obiettivo grande in passi raggiungibili funziona proprio perché accumula piccole vittorie."
+     ]
+    },
+    {
+     "h": "La piramide di Maslow",
+     "p": [
+      "Lo psicologo umanista Abraham Maslow propose una gerarchia dei bisogni, spesso disegnata come una piramide. Alla base ci sono i bisogni fisiologici (cibo, acqua, sonno), poi la sicurezza, l'appartenenza e l'amore, la stima, e in cima l'autorealizzazione, cioè diventare pienamente ciò che si può essere.",
+      "Secondo Maslow, i bisogni più bassi devono essere almeno in parte soddisfatti prima che quelli più alti diventino una forte spinta. Considerava l'autorealizzazione un processo che dura tutta la vita, raggiunto pienamente da poche persone.",
+      "La piramide è molto famosa ed è un modo utile per pensare alle priorità, ma la ricerca non ha confermato un ordine rigido: le persone possono cercare relazioni e significato anche quando i bisogni di base non sono del tutto soddisfatti."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Se studi una lingua solo per il certificato, dopo l'esame probabilmente smetti; se trovi un motivo personale, come le serie TV in lingua originale, è più facile continuare.",
+   "mistakes": [
+    "\"Più premi danno sempre più motivazione\": i premi attesi possono ridurre il piacere di un'attività.",
+    "\"Più si è carichi, meglio si rende\": oltre un certo livello l'attivazione peggiora le prestazioni, soprattutto nei compiti difficili.",
+    "\"La piramide di Maslow è una legge rigida\": è un modello utile, ma la ricerca non conferma un ordine fisso."
+   ],
+   "terms": [
+    {
+     "t": "Motivazione intrinseca",
+     "d": "Spinta che nasce dalla soddisfazione personale."
+    },
+    {
+     "t": "Motivazione estrinseca",
+     "d": "Spinta che nasce da premi o pressioni esterne."
+    },
+    {
+     "t": "Sovragiustificazione",
+     "d": "Calo della motivazione intrinseca dopo l'introduzione di un premio esterno."
+    },
+    {
+     "t": "Autoefficacia",
+     "d": "Convinzione di essere capaci di riuscire in un compito."
+    }
+   ],
+   "quote": {
+    "text": "Intrinsically motivated behaviors are performed because of the sense of personal satisfaction that they bring, while extrinsically motivated behaviors are performed in order to receive something from others.",
+    "translation": "I comportamenti motivati intrinsecamente vengono messi in atto per il senso di soddisfazione personale che portano, mentre quelli motivati estrinsecamente vengono messi in atto per ricevere qualcosa dagli altri."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Psychology 2e",
+     "title": "10.1 Motivation",
+     "url": "https://openstax.org/books/psychology-2e/pages/10-1-motivation"
+    }
+   ],
+   "videos": [
+    {
+     "id": "9hdSLiHaJz8",
+     "title": "The Power of Motivation: Crash Course Psychology #17",
+     "channel": "CrashCourse",
+     "length": "11:20"
+    }
+   ],
+   "videoQuery": "motivazione intrinseca estrinseca psicologia",
+   "addedAt": "2026-11-04T00:12:22Z"
+  },
+  {
+   "id": "piaget",
+   "subject": "psicologia",
+   "chapter": "Sviluppo",
+   "title": "Piaget e lo sviluppo del pensiero: come ragionano i bambini",
+   "hook": "I bambini non sono adulti in miniatura: pensano in modo diverso. Le quattro fasi di Piaget spiegano come si costruisce il ragionamento.",
+   "points": [
+    "Schemi, assimilazione e accomodamento",
+    "Le quattro fasi dello sviluppo cognitivo",
+    "Permanenza dell'oggetto, egocentrismo e conservazione",
+    "Cosa ha confermato e corretto la ricerca successiva"
+   ],
+   "sections": [
+    {
+     "h": "Un'idea nuova di infanzia",
+     "p": [
+      "Lo svizzero Jean Piaget passò oltre 50 anni a studiare come si sviluppa la mente dei bambini. A differenza di altri studiosi del suo tempo, che guardavano allo sviluppo emotivo o sociale, Piaget si concentrò sulla crescita cognitiva: come i bambini imparano a pensare, ragionare e capire il mondo.",
+      "La sua intuizione centrale fu che i bambini non sono semplicemente adulti con meno informazioni: pensano e ragionano in modo diverso dagli adulti, e attraversano fasi qualitativamente diverse."
+     ]
+    },
+    {
+     "h": "Schemi: le mappe della mente",
+     "p": [
+      "Secondo Piaget costruiamo la conoscenza attraverso schemi, cioè concetti o modelli mentali che organizzano l'esperienza. Un bambino piccolo può avere lo schema \"cane\": quattro zampe, peloso, abbaia.",
+      "Quando incontra qualcosa di nuovo che entra nello schema esistente, lo assimila: vede un altro cane e lo riconosce. Quando incontra qualcosa che non ci sta, deve modificare lo schema: è l'accomodamento. Se chiama \"cane\" anche un gatto e scopre che è un'altra cosa, deve creare uno schema nuovo.",
+      "Per Piaget lo sviluppo nasce dall'equilibrio continuo tra assimilazione e accomodamento: il bambino è un piccolo scienziato che costruisce attivamente le proprie teorie sul mondo."
+     ]
+    },
+    {
+     "h": "Fase sensomotoria: da 0 a 2 anni",
+     "p": [
+      "Nei primi due anni il bambino conosce il mondo attraverso i sensi e le azioni: guardare, toccare, mettere in bocca, afferrare.",
+      "Una conquista fondamentale di questa fase è la permanenza dell'oggetto: la comprensione che una cosa continua a esistere anche quando non si vede. Piaget osservava che i bambini molto piccoli, se si nasconde un giocattolo sotto una coperta, smettono di cercarlo, come se fosse sparito; in genere tra i 5 e gli 8 mesi cominciano invece a cercarlo. Il gioco del \"cucù\" diverte tanto proprio in questo periodo."
+     ]
+    },
+    {
+     "h": "Fase preoperatoria: da 2 a 7 anni",
+     "p": [
+      "Il bambino comincia a usare simboli: parole, disegni, giochi di finzione in cui un bastone diventa una spada. Il linguaggio esplode.",
+      "Il pensiero però è ancora egocentrico, nel senso che il bambino fatica a mettersi dal punto di vista degli altri: può pensare che tutti vedano quello che vede lui. E non ha ancora acquisito la conservazione, cioè l'idea che quantità, volume e numero restano gli stessi anche se cambia la forma.",
+      "Nell'esperimento classico, si versa la stessa quantità d'acqua in un bicchiere basso e largo e in uno alto e stretto. Un bambino di 4 anni di solito dice che nel bicchiere alto c'è più acqua, perché il livello è più alto."
+     ]
+    },
+    {
+     "h": "Operazioni concrete e operazioni formali",
+     "p": [
+      "Dai 7 agli 11 anni circa, nella fase operatoria concreta, il bambino padroneggia la conservazione e comincia a ragionare in modo logico, ma soprattutto su cose concrete, che può vedere o immaginare facilmente. Capisce che si possono invertire certe operazioni e sa classificare e ordinare oggetti.",
+      "Dagli 11 anni circa all'età adulta, nella fase operatoria formale, compare il ragionamento astratto e ipotetico: si può pensare a situazioni che non esistono, formulare ipotesi e verificarle in modo sistematico, ragionare su concetti come giustizia o libertà. È il tipo di pensiero richiesto dall'algebra e dalla filosofia."
+     ]
+    },
+    {
+     "h": "Cosa resta oggi",
+     "p": [
+      "Piaget ha cambiato per sempre il modo di vedere l'infanzia e ha influenzato profondamente la scuola: l'idea che i bambini imparino meglio esplorando e facendo esperienza viene in gran parte da lui.",
+      "La ricerca successiva ha però corretto alcuni punti. Con metodi più raffinati si è visto che i neonati hanno alcune capacità prima di quanto Piaget pensasse, che lo sviluppo è più graduale e meno a gradini netti, e che la cultura e le interazioni sociali contano più di quanto lui sottolineasse: un tema centrale nel lavoro dello psicologo russo Lev Vygotskij.",
+      "Le età delle fasi vanno quindi prese come indicazioni medie, non come scadenze precise."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Se tagli in più pezzi il panino di un bambino di 4 anni, può sembrargli di averne di più: non ha ancora acquisito la conservazione.",
+   "mistakes": [
+    "\"I bambini sono adulti con meno informazioni\": pensano in modo qualitativamente diverso.",
+    "\"Ogni bambino passa le fasi esattamente a quell'età\": le età sono medie indicative.",
+    "\"Egocentrico significa egoista\": per Piaget significa faticare a vedere il punto di vista altrui."
+   ],
+   "terms": [
+    {
+     "t": "Schema",
+     "d": "Modello mentale che organizza l'esperienza."
+    },
+    {
+     "t": "Accomodamento",
+     "d": "Modifica di uno schema per adattarlo a nuove esperienze."
+    },
+    {
+     "t": "Permanenza dell'oggetto",
+     "d": "Capire che le cose esistono anche quando non si vedono."
+    },
+    {
+     "t": "Conservazione",
+     "d": "Capire che quantità e numero non cambiano se cambia la forma."
+    }
+   ],
+   "quote": {
+    "text": "Instead of approaching development from a psychoanalytical or psychosocial perspective, Piaget focused on children’s cognitive growth.",
+    "translation": "Invece di affrontare lo sviluppo da una prospettiva psicoanalitica o psicosociale, Piaget si concentrò sulla crescita cognitiva dei bambini."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Psychology 2e",
+     "title": "9.2 Lifespan Theories",
+     "url": "https://openstax.org/books/psychology-2e/pages/9-2-lifespan-theories"
+    }
+   ],
+   "videos": [
+    {
+     "id": "8nz2dtv--ok",
+     "title": "The Growth of Knowledge: Crash Course Psychology #18",
+     "channel": "CrashCourse",
+     "length": "9:50"
+    },
+    {
+     "id": "IhcgYgx7aAA",
+     "title": "Piaget's Theory of Cognitive Development",
+     "channel": "Sprouts",
+     "length": "6:56"
+    }
+   ],
+   "videoQuery": "Piaget sviluppo cognitivo fasi",
+   "addedAt": "2026-11-04T00:12:22Z"
+  },
+  {
+   "id": "intelligenza",
+   "subject": "psicologia",
+   "chapter": "Memoria e pensiero",
+   "title": "Che cos'è l'intelligenza (e cosa misura davvero il QI)",
+   "hook": "Un'unica capacità generale o tante intelligenze diverse? Come nascono i test, cosa significa un punteggio di 100 e perché i punteggi sono saliti per decenni.",
+   "points": [
+    "Intelligenza generale e teorie alternative",
+    "Le intelligenze multiple di Gardner e la teoria triarchica di Sternberg",
+    "Come funzionano i test del QI",
+    "L'effetto Flynn e il rapporto tra geni e ambiente"
+   ],
+   "sections": [
+    {
+     "h": "Una parola difficile da definire",
+     "p": [
+      "Tutti abbiamo un'idea di cosa sia l'intelligenza, ma definirla con precisione è sorprendentemente difficile. In generale gli psicologi la descrivono come la capacità di imparare dall'esperienza, risolvere problemi, ragionare e adattarsi a situazioni nuove.",
+      "Il grande dibattito è se si tratti di un'unica capacità generale o di un insieme di abilità diverse."
+     ]
+    },
+    {
+     "h": "Un fattore generale?",
+     "p": [
+      "All'inizio del Novecento lo psicologo Charles Spearman notò che le persone che vanno bene in un tipo di test tendono ad andare bene anche negli altri. Propose l'esistenza di un fattore generale di intelligenza, chiamato g, che sta alla base delle diverse abilità specifiche.",
+      "Altri ricercatori distinsero tra intelligenza fluida, la capacità di ragionare e risolvere problemi nuovi, e intelligenza cristallizzata, l'insieme di conoscenze e abilità accumulate con l'esperienza. La seconda tende a crescere o restare stabile con l'età più a lungo della prima."
+     ]
+    },
+    {
+     "h": "Tante intelligenze",
+     "p": [
+      "Lo psicologo di Harvard Howard Gardner propose la teoria delle intelligenze multiple: secondo lui ogni persona possiede almeno otto intelligenze, tra cui linguistica, logico-matematica, spaziale, musicale, corporeo-cinestetica, interpersonale, intrapersonale e naturalistica. La teoria è molto popolare nella scuola perché valorizza talenti diversi.",
+      "Tra gli psicologi cognitivi, però, la teoria di Gardner è stata fortemente criticata per la mancanza di prove empiriche: alcune delle sue \"intelligenze\" sono forse meglio descritte come talenti o abilità.",
+      "Robert Sternberg propose invece la teoria triarchica, secondo cui l'intelligenza ha tre componenti: analitica (risolvere problemi di tipo scolastico), creativa (affrontare situazioni nuove) e pratica (cavarsela nella vita di tutti i giorni). Un'altra idea influente è quella di intelligenza emotiva, la capacità di riconoscere e gestire le emozioni proprie e altrui."
+     ]
+    },
+    {
+     "h": "Come nascono i test",
+     "p": [
+      "I primi test affidabili nacquero in Francia all'inizio del Novecento, quando il governo chiese ad Alfred Binet uno strumento per individuare i bambini che avrebbero potuto avere difficoltà a scuola. Il test di Binet conteneva molti compiti verbali. Più tardi Lewis Terman, a Stanford, lo standardizzò, e in seguito David Wechsler creò i test oggi più usati.",
+      "Nei test moderni il punteggio non è un \"voto\" assoluto, ma un confronto con un ampio gruppo di persone della stessa età. Il punteggio medio è fissato a 100, e una deviazione standard vale 15 punti: circa due persone su tre ottengono un punteggio tra 85 e 115. I punteggi si distribuiscono secondo una curva a campana.",
+      "I test sono buoni predittori di alcune cose, come il rendimento scolastico, ma non misurano tutto ciò che conta: creatività, motivazione, abilità sociali e molte altre qualità restano in gran parte fuori."
+     ]
+    },
+    {
+     "h": "L'effetto Flynn",
+     "p": [
+      "Poiché la media deve restare 100, i test vengono ricalibrati periodicamente su nuovi campioni. Facendolo, si è osservato un fenomeno curioso chiamato effetto Flynn, dal nome di James Flynn, tra i primi a descriverlo: in molti paesi, per buona parte del Novecento, ogni generazione ha ottenuto punteggi nettamente più alti della precedente.",
+      "Un cambiamento così rapido non può essere genetico. Le spiegazioni proposte riguardano alimentazione, istruzione più lunga, ambienti più ricchi di stimoli astratti. Lo stesso Flynn sosteneva che punteggi più alti non significano necessariamente che le nuove generazioni siano più intelligenti in senso assoluto."
+     ]
+    },
+    {
+     "h": "Geni, ambiente e usi sbagliati",
+     "p": [
+      "Gli studi su gemelli e adozioni mostrano che sia i geni sia l'ambiente influenzano i punteggi. Ambiente significa molte cose: nutrizione, salute, istruzione, stimoli in famiglia, condizioni economiche.",
+      "La storia dei test ha anche pagine buie: all'inizio del Novecento furono usati per sostenere idee discriminatorie e politiche di eugenetica. È un promemoria di quanto sia importante usare questi strumenti con cautela, sapendo cosa misurano e cosa no."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Un punteggio di 115 non significa \"15% più intelligente\": significa che si è più alti della media di una deviazione standard, cioè sopra circa l'84% delle persone.",
+   "mistakes": [
+    "\"Il QI misura tutto il valore di una persona\": misura alcune abilità cognitive, non creatività, carattere o abilità sociali.",
+    "\"L'intelligenza è fissata alla nascita\": geni e ambiente contano entrambi.",
+    "\"Le intelligenze multiple sono un fatto dimostrato\": è una teoria popolare ma con scarse prove empiriche."
+   ],
+   "terms": [
+    {
+     "t": "Fattore g",
+     "d": "Ipotetica intelligenza generale alla base di abilità diverse."
+    },
+    {
+     "t": "Intelligenza fluida",
+     "d": "Capacità di ragionare e risolvere problemi nuovi."
+    },
+    {
+     "t": "Intelligenza cristallizzata",
+     "d": "Conoscenze e abilità accumulate."
+    },
+    {
+     "t": "Effetto Flynn",
+     "d": "Aumento dei punteggi medi ai test da una generazione all'altra."
+    }
+   ],
+   "quote": {
+    "text": "Among cognitive psychologists, Gardner’s theory has been heavily criticized for lacking empirical evidence.",
+    "translation": "Tra gli psicologi cognitivi, la teoria di Gardner è stata fortemente criticata per mancanza di prove empiriche."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Psychology 2e",
+     "title": "7.4 What Are Intelligence and Creativity?",
+     "url": "https://openstax.org/books/psychology-2e/pages/7-4-what-are-intelligence-and-creativity"
+    },
+    {
+     "name": "OpenStax · Psychology 2e",
+     "title": "7.5 Measures of Intelligence",
+     "url": "https://openstax.org/books/psychology-2e/pages/7-5-measures-of-intelligence"
+    },
+    {
+     "name": "OpenStax · Psychology 2e",
+     "title": "7.6 The Source of Intelligence",
+     "url": "https://openstax.org/books/psychology-2e/pages/7-6-the-source-of-intelligence"
+    }
+   ],
+   "videos": [
+    {
+     "id": "9xTz3QjcloI",
+     "title": "Controversy of Intelligence: Crash Course Psychology #23",
+     "channel": "CrashCourse",
+     "length": "12:39"
+    },
+    {
+     "id": "75g4d5sF3xI",
+     "title": "Brains vs. Bias: Crash Course Psychology #24",
+     "channel": "CrashCourse",
+     "length": "11:04"
+    }
+   ],
+   "videoQuery": "intelligenza QI psicologia",
+   "addedAt": "2026-11-04T00:12:22Z"
+  },
+  {
+   "id": "felicita",
+   "subject": "psicologia",
+   "chapter": "Salute e benessere",
+   "title": "La scienza della felicità: cosa ci rende davvero felici",
+   "hook": "Soldi, successo, relazioni? La psicologia positiva ha studiato cosa conta davvero, e perché ci abituiamo così in fretta alle cose belle.",
+   "points": [
+    "Come si studia la felicità",
+    "Il ruolo delle relazioni e del denaro",
+    "L'adattamento edonico",
+    "Il flusso e le abitudini che aiutano"
+   ],
+   "sections": [
+    {
+     "h": "Una scienza del lato positivo",
+     "p": [
+      "Per gran parte del Novecento la psicologia si è occupata soprattutto di problemi: disturbi, traumi, malattie. Negli ultimi decenni è cresciuta la psicologia positiva, che studia invece ciò che fa stare bene le persone, tra cui la ricerca della felicità.",
+      "La felicità è un concetto un po' ambiguo e si può definire in modi diversi. Per alcuni è soprattutto provare spesso emozioni piacevoli; per altri è appagamento, la serenità che viene da una soddisfazione profonda per la propria vita, le relazioni e i risultati. I ricercatori parlano spesso di benessere soggettivo: un insieme di emozioni positive, poche emozioni negative e soddisfazione generale per la propria vita."
+     ]
+    },
+    {
+     "h": "Come si misura",
+     "p": [
+      "Il modo più comune è chiederlo direttamente con questionari validati: \"Quanto sei soddisfatto della tua vita, da 0 a 10?\". Può sembrare ingenuo, ma le risposte sono abbastanza coerenti nel tempo e si accordano con altri indicatori, come i giudizi di amici e familiari.",
+      "Altri metodi chiedono alle persone, tramite messaggi in momenti casuali della giornata, cosa stanno facendo e come si sentono in quel momento. Così si misura l'umore della vita reale, non solo il ricordo."
+     ]
+    },
+    {
+     "h": "Le persone contano più delle cose",
+     "p": [
+      "Uno dei risultati più solidi è che la famiglia e le altre relazioni sociali sono fattori chiave legati alla felicità. Le persone più felici tendono ad avere più amici, relazioni di qualità migliore e reti di sostegno più forti.",
+      "Uno studio dell'Università di Harvard, che segue alcune centinaia di uomini e poi le loro famiglie dalla fine degli anni Trenta, è arrivato a conclusioni simili: la qualità delle relazioni è tra i migliori predittori di una vita lunga e soddisfacente.",
+      "Contano anche la salute, avere un lavoro e uno scopo, sentirsi parte di una comunità. Alcune caratteristiche personali, come l'ottimismo e un certo senso di controllo, sono associate a un maggiore benessere."
+     ]
+    },
+    {
+     "h": "E i soldi?",
+     "p": [
+      "Il denaro conta, ma meno di quanto pensiamo. Nella misura in cui aumenta il potere d'acquisto, più reddito è associato a più felicità, soprattutto quando permette di uscire dalla povertà e di non preoccuparsi per le necessità di base.",
+      "All'interno di una società, però, il legame tra reddito e felicità sembra valere solo fino a un certo punto. In uno studio molto citato del 2010 su oltre 450.000 statunitensi, Daniel Kahneman e Angus Deaton trovarono che il benessere emotivo quotidiano cresceva con il reddito fino a circa 75.000 dollari l'anno, per poi stabilizzarsi. Ricerche più recenti hanno discusso e in parte rivisto questa soglia, ma resta l'idea che oltre un certo livello ogni euro in più aggiunga poca felicità.",
+      "Diversi studi suggeriscono anche che spendere soldi per esperienze o per gli altri renda più felici che spenderli in oggetti."
+     ]
+    },
+    {
+     "h": "Il tapis roulant della felicità",
+     "p": [
+      "Un vincitore della lotteria prova un'ondata di felicità, ma dopo un po' quella vincita diventa la normalità. Qualcosa di simile all'adattamento sensoriale avviene anche con le emozioni: ci abituiamo ai cambiamenti, belli o brutti, e tendiamo a tornare verso il nostro livello abituale. Si chiama adattamento edonico.",
+      "L'adattamento però non è sempre completo. Ricerche su grandi campioni mostrano che ci si adatta in genere al matrimonio, che dopo qualche tempo non rende più felici né meno felici di prima, mentre spesso non ci si adatta del tutto alla disoccupazione o a gravi disabilità.",
+      "Sbagliamo spesso anche nel prevedere come ci sentiremo: sopravvalutiamo quanto ci renderà felici un acquisto o quanto ci farà soffrire una delusione."
+     ]
+    },
+    {
+     "h": "Flusso e abitudini",
+     "p": [
+      "Lo psicologo Mihaly Csikszentmihalyi descrisse il flusso (flow): un'esperienza così coinvolgente e assorbente da valere la pena di essere vissuta per sé stessa. Si perde la nozione del tempo mentre si suona, si scrive, si fa sport o si lavora a qualcosa di stimolante. Il flusso nasce di solito quando la difficoltà di un'attività è ben bilanciata con le proprie capacità.",
+      "Tra le abitudini associate a un maggior benessere ci sono coltivare le relazioni, l'attività fisica regolare, dormire bene, praticare la gratitudine, fare gentilezze agli altri, dedicarsi ad attività che danno flusso. Nessuna è una bacchetta magica, ma insieme fanno la differenza."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Invece di comprare un altro oggetto, organizzare una cena con gli amici tende a lasciare un ricordo e un benessere più duraturi.",
+   "mistakes": [
+    "\"Più soldi danno sempre più felicità\": oltre un certo livello l'effetto diminuisce molto.",
+    "\"Un grande evento positivo cambia la felicità per sempre\": spesso ci adattiamo.",
+    "\"La felicità è solo una questione di carattere\": conta, ma relazioni, abitudini e circostanze pesano molto."
+   ],
+   "terms": [
+    {
+     "t": "Psicologia positiva",
+     "d": "Studio scientifico di ciò che fa stare bene le persone."
+    },
+    {
+     "t": "Benessere soggettivo",
+     "d": "Combinazione di emozioni positive e soddisfazione per la vita."
+    },
+    {
+     "t": "Adattamento edonico",
+     "d": "Tendenza a tornare al livello abituale di felicità."
+    },
+    {
+     "t": "Flusso",
+     "d": "Stato di completo coinvolgimento in un'attività."
+    }
+   ],
+   "quote": {
+    "text": "Family and other social relationships appear to be key factors correlated with happiness.",
+    "translation": "La famiglia e le altre relazioni sociali sembrano essere fattori chiave correlati alla felicità."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Psychology 2e",
+     "title": "14.5 The Pursuit of Happiness",
+     "url": "https://openstax.org/books/psychology-2e/pages/14-5-the-pursuit-of-happiness"
+    }
+   ],
+   "videos": [
+    {
+     "id": "8KkKuTCFvzI",
+     "title": "What Makes a Good Life? Lessons from the Longest Study on Happiness",
+     "channel": "TED",
+     "length": "12:47"
+    },
+    {
+     "id": "m4Ics03xzUQ",
+     "title": "How to increase your happiness",
+     "channel": "TED-Ed",
+     "length": "6:09"
+    }
+   ],
+   "videoQuery": "scienza della felicità psicologia positiva",
+   "addedAt": "2026-11-04T00:12:22Z"
+  },
+  {
    "id": "stagioni",
    "subject": "astronomia",
    "title": "Le stagioni: perché l'estate non dipende dalla distanza dal Sole",
@@ -2888,6 +4409,750 @@
      "d": "Legge di Hubble-Lemaître: velocità di allontanamento = costante di Hubble × distanza."
     }
    ]
+  },
+  {
+   "id": "telescopi",
+   "subject": "astronomia",
+   "chapter": "Luce e strumenti",
+   "title": "I telescopi: perché gli astronomi vogliono specchi sempre più grandi",
+   "hook": "Un telescopio è prima di tutto un secchio per raccogliere luce. Rifrattori, riflettori, osservatori in montagna e telescopi spaziali spiegati semplici.",
+   "points": [
+    "Le due funzioni di un telescopio: raccogliere luce e vedere dettagli",
+    "Rifrattori e riflettori",
+    "Perché i telescopi si costruiscono in montagna o nello spazio",
+    "Osservare in luce invisibile: radio, infrarosso, raggi X"
+   ],
+   "sections": [
+    {
+     "h": "Raccogliere luce",
+     "p": [
+      "Molti pensano che un telescopio serva soprattutto a ingrandire. In realtà il suo compito principale è raccogliere più luce possibile. Gli oggetti del cielo profondo sono così deboli che l'occhio umano, con la sua pupilla di pochi millimetri, ne cattura troppo poca.",
+      "La quantità di luce raccolta cresce con l'apertura, cioè il diametro della lente o dello specchio principale. Più grande è l'apertura, più luce si raccoglie e più deboli sono gli oggetti che si possono vedere o fotografare. La superficie cresce con il quadrato del diametro: uno specchio largo il doppio raccoglie quattro volte la luce.",
+      "La seconda funzione è la risoluzione, cioè la capacità di distinguere dettagli fini, come due stelle vicinissime. Anche la risoluzione migliora con l'apertura. L'ingrandimento, invece, dipende dall'oculare e conta molto meno di quanto si creda."
+     ]
+    },
+    {
+     "h": "Rifrattori: le lenti",
+     "p": [
+      "Il primo tipo di telescopio usa una lente. Se le superfici sono curvate nel modo giusto, tutti i raggi paralleli che arrivano da una stella vengono rifratti e convergono in un punto, il fuoco, dove si forma un'immagine. Questo tipo si chiama rifrattore.",
+      "I telescopi di Galileo, all'inizio del Seicento, erano rifrattori, come lo sono oggi i binocoli. Ma le lenti grandi hanno problemi: pesano molto, si possono sostenere solo dai bordi e si deformano, e entrambe le superfici devono essere lavorate con estrema precisione. Inoltre colori diversi vengono messi a fuoco in punti leggermente diversi. Il rifrattore più grande del mondo, costruito alla fine dell'Ottocento, ha una lente di circa un metro: oltre non conviene andare."
+     ]
+    },
+    {
+     "h": "Riflettori: gli specchi",
+     "p": [
+      "La soluzione è usare uno specchio curvo invece di una lente. Il primo telescopio a riflessione funzionante fu costruito da Isaac Newton nel 1668. Uno specchio va lavorato solo su una faccia, può essere sostenuto da dietro e non separa i colori.",
+      "Per questo tutti i grandi telescopi moderni sono riflettori. Gli specchi più grandi sono fatti di tanti segmenti esagonali allineati con precisione da computer, o sono specchi sottili la cui forma viene corretta continuamente da attuatori. In costruzione in Cile c'è l'Extremely Large Telescope dell'ESO, con uno specchio principale di circa 39 metri.",
+      "Oggi l'occhio è quasi sempre sostituito da rivelatori elettronici, simili ai sensori delle fotocamere ma molto più sensibili, che possono accumulare luce per ore."
+     ]
+    },
+    {
+     "h": "Il problema dell'atmosfera",
+     "p": [
+      "L'aria della Terra è il nemico degli astronomi. La turbolenza fa tremolare le stelle e sfoca le immagini; le luci delle città illuminano il cielo; vapore acqueo e altri gas bloccano gran parte della luce infrarossa e ultravioletta.",
+      "Per questo i grandi osservatori si costruiscono in luoghi alti, secchi e bui, come le montagne delle Hawaii, delle Canarie o il deserto di Atacama in Cile. Molti usano anche l'ottica adattiva: uno specchio deformabile corregge centinaia di volte al secondo la distorsione dell'atmosfera, spesso usando come riferimento una stella artificiale creata con un laser.",
+      "La soluzione definitiva è andare nello spazio, sopra l'atmosfera. Il telescopio spaziale Hubble, lanciato nel 1990, e il James Webb, lanciato nel 2021, hanno prodotto alcune delle immagini più importanti della storia dell'astronomia."
+     ]
+    },
+    {
+     "h": "Vedere l'invisibile",
+     "p": [
+      "La luce visibile è solo una piccola parte dello spettro elettromagnetico. Gli oggetti del cielo emettono anche onde radio, infrarossi, ultravioletti, raggi X e raggi gamma, e ognuna di queste \"luci\" racconta qualcosa di diverso.",
+      "I radiotelescopi sono enormi antenne paraboliche che captano onde radio, anche attraverso le nubi e di giorno. Collegando radiotelescopi in punti diversi del pianeta si ottiene un \"telescopio\" grande come la Terra: è così che è stata ottenuta la prima immagine di un buco nero.",
+      "Il telescopio James Webb osserva soprattutto nell'infrarosso, che attraversa le nubi di polvere dove nascono le stelle e permette di vedere galassie lontanissime, la cui luce è stata allungata dall'espansione dell'universo. I raggi X e gamma, che l'atmosfera blocca del tutto, si osservano solo con telescopi spaziali e rivelano gli ambienti più violenti, come i dintorni dei buchi neri."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Un binocolo 10×50 ha lenti di 50 mm: raccoglie circa 50 volte più luce della pupilla al buio, e per questo mostra migliaia di stelle in più.",
+   "mistakes": [
+    "\"La cosa più importante di un telescopio è l'ingrandimento\": contano soprattutto apertura e risoluzione.",
+    "\"I telescopi spaziali stanno nello spazio per essere più vicini alle stelle\": servono a evitare l'atmosfera.",
+    "\"Si osserva solo la luce visibile\": gran parte dell'astronomia usa radio, infrarossi, raggi X e altro."
+   ],
+   "terms": [
+    {
+     "t": "Apertura",
+     "d": "Diametro della lente o dello specchio principale."
+    },
+    {
+     "t": "Rifrattore",
+     "d": "Telescopio che usa una lente per formare l'immagine."
+    },
+    {
+     "t": "Riflettore",
+     "d": "Telescopio che usa uno specchio curvo."
+    },
+    {
+     "t": "Ottica adattiva",
+     "d": "Tecnica che corregge in tempo reale la turbolenza dell'aria."
+    }
+   ],
+   "quote": {
+    "text": "The larger the aperture, the more light you can gather, and the fainter the objects you can see or photograph.",
+    "translation": "Più grande è l'apertura, più luce si può raccogliere e più deboli sono gli oggetti che si possono vedere o fotografare."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "6.1 Telescopes",
+     "url": "https://openstax.org/books/astronomy-2e/pages/6-1-telescopes"
+    },
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "6.5 Observations outside Earth's Atmosphere",
+     "url": "https://openstax.org/books/astronomy-2e/pages/6-5-observations-outside-earths-atmosphere"
+    }
+   ],
+   "videos": [
+    {
+     "id": "mYhy7eaazIk",
+     "title": "Telescopes: Crash Course Astronomy #6",
+     "channel": "CrashCourse",
+     "length": "12:00"
+    }
+   ],
+   "videoQuery": "come funzionano i telescopi",
+   "addedAt": "2026-11-04T00:12:22Z"
+  },
+  {
+   "id": "marte-acqua",
+   "subject": "astronomia",
+   "chapter": "Pianeti e orbite",
+   "title": "Marte e l'acqua: il pianeta rosso è mai stato abitabile?",
+   "hook": "Oggi Marte è un deserto gelido, ma fiumi, laghi e delta antichi raccontano un passato diverso. Ecco cosa hanno scoperto rover e sonde.",
+   "points": [
+    "Perché la ricerca della vita parte dall'acqua",
+    "Perché oggi l'acqua liquida non resiste in superficie",
+    "Le prove di un Marte antico più umido",
+    "Rover, campioni e domande ancora aperte"
+   ],
+   "sections": [
+    {
+     "h": "Seguire l'acqua",
+     "p": [
+      "L'unica cosa che tutte le forme di vita conosciute sulla Terra hanno in comune è il bisogno di acqua liquida. Per questo, nel valutare se Marte o un altro mondo possa essere o essere stato abitabile, il principio guida dei ricercatori è stato \"seguire l'acqua\".",
+      "Marte è il pianeta più studiato dopo la Terra: ha più o meno metà del diametro terrestre, giornate di poco più di 24 ore, stagioni grazie a un asse inclinato in modo simile al nostro e calotte polari visibili anche con piccoli telescopi."
+     ]
+    },
+    {
+     "h": "Un deserto freddo e sottile",
+     "p": [
+      "Oggi la superficie di Marte è un deserto gelido. La temperatura media è molto sotto lo zero, e l'atmosfera, fatta quasi tutta di anidride carbonica, è sottilissima: la pressione al suolo è meno di un centesimo di quella terrestre.",
+      "Con una pressione così bassa l'acqua liquida non è stabile: il punto di ebollizione scende fino a coincidere o a stare sotto il punto di congelamento, e il ghiaccio passa direttamente a vapore, come il ghiaccio secco sulla Terra. Nell'atmosfera ci sono piccole quantità di vapore e a volte nubi di ghiaccio, ma niente laghi o fiumi.",
+      "L'acqua però non è sparita: c'è in grande quantità sotto forma di ghiaccio, nelle calotte polari e nel sottosuolo. E i sali disciolti possono abbassare il punto di congelamento, come il sale sparso sulle strade d'inverno, permettendo forse a piccole quantità di salamoia di esistere per brevi periodi."
+     ]
+    },
+    {
+     "h": "Le tracce di un passato umido",
+     "p": [
+      "Le sonde in orbita hanno fotografato antiche valli fluviali ramificate, canali scavati da enormi inondazioni e delta a ventaglio, dove un fiume sfociava in un lago. Molte di queste strutture risalgono a oltre tre miliardi di anni fa.",
+      "Sul terreno, i rover hanno trovato rocce sedimentarie formate in acqua, ciottoli arrotondati come quelli dei torrenti terrestri e minerali che si formano solo in presenza di acqua, come argille e solfati. Il rover Curiosity è atterrato nel cratere Gale, dove le foto dall'orbita suggerivano antica erosione da acqua, e vi ha trovato le tracce di un lago durato a lungo.",
+      "Il quadro che emerge è quello di un Marte giovane più caldo e umido, con un'atmosfera più densa. Poi il pianeta, più piccolo della Terra, ha perso gran parte della sua atmosfera nello spazio, e l'acqua in superficie è scomparsa o si è congelata."
+     ]
+    },
+    {
+     "h": "Senza acqua, il vento",
+     "p": [
+      "In assenza di acqua in superficie, oggi è soprattutto il vento a modellare Marte: dune, rocce levigate e tempeste di polvere che a volte avvolgono l'intero pianeta per settimane.",
+      "Anche i \"diavoli di polvere\", piccoli vortici simili a trombe d'aria, attraversano spesso la superficie, e in qualche caso hanno ripulito i pannelli solari dei rover, allungandone la vita."
+     ]
+    },
+    {
+     "h": "Cerchiamo la vita",
+     "p": [
+      "Il rover Perseverance, atterrato nel 2021, esplora il cratere Jezero, largo circa 45 chilometri: un antico lago con il delta di un fiume e grandi massi trasportati da inondazioni. È il tipo di ambiente in cui sulla Terra i resti di microrganismi si conservano bene nei sedimenti.",
+      "Perseverance sta raccogliendo campioni di roccia sigillati in piccoli tubi, nella speranza di riportarli un giorno sulla Terra per analizzarli nei laboratori, ma al momento non c'è ancora un modo per farlo.",
+      "Nel frattempo Marte ci manda già dei campioni gratuiti: i meteoriti marziani, frammenti staccati da impatti e finiti sulla Terra. Ad oggi non ci sono prove convincenti di vita su Marte, né passata né presente. La domanda resta aperta, ed è una delle più affascinanti della scienza."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Su Marte un bicchiere d'acqua lasciato all'aperto non resterebbe liquido: in parte congelerebbe e in parte evaporerebbe rapidamente.",
+   "mistakes": [
+    "\"Su Marte non c'è acqua\": ce n'è molta, ma soprattutto ghiacciata.",
+    "\"Marte è sempre stato un deserto\": le prove indicano un passato con laghi e fiumi.",
+    "\"È stata trovata vita su Marte\": finora non ci sono prove convincenti."
+   ],
+   "terms": [
+    {
+     "t": "Abitabilità",
+     "d": "Insieme di condizioni che permetterebbero la vita."
+    },
+    {
+     "t": "Delta",
+     "d": "Deposito a ventaglio dove un fiume sfocia in un lago o in un mare."
+    },
+    {
+     "t": "Rocce sedimentarie",
+     "d": "Rocce formate da strati di materiale depositato, spesso in acqua."
+    },
+    {
+     "t": "Meteorite marziano",
+     "d": "Frammento di Marte caduto sulla Terra."
+    }
+   ],
+   "quote": {
+    "text": "We know that the one requirement shared by all life on Earth is liquid water.",
+    "translation": "Sappiamo che l'unico requisito comune a tutta la vita sulla Terra è l'acqua liquida."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "10.5 Water and Life on Mars",
+     "url": "https://openstax.org/books/astronomy-2e/pages/10-5-water-and-life-on-mars"
+    },
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "10.4 The Geology of Mars",
+     "url": "https://openstax.org/books/astronomy-2e/pages/10-4-the-geology-of-mars"
+    }
+   ],
+   "videos": [
+    {
+     "id": "I-88YWx71gE",
+     "title": "Mars: Crash Course Astronomy #15",
+     "channel": "CrashCourse",
+     "length": "10:12"
+    }
+   ],
+   "videoQuery": "Marte acqua vita rover",
+   "addedAt": "2026-11-04T00:12:22Z"
+  },
+  {
+   "id": "esopianeti",
+   "subject": "astronomia",
+   "chapter": "Pianeti e orbite",
+   "title": "Esopianeti: come si scoprono i pianeti intorno ad altre stelle",
+   "hook": "Fino al 1995 non ne conoscevamo nessuno; oggi sono migliaia. Quasi nessuno è stato visto direttamente: ecco i trucchi per trovarli.",
+   "points": [
+    "Perché è così difficile vedere un pianeta lontano",
+    "Il metodo Doppler: la stella che oscilla",
+    "Il metodo dei transiti: la stella che si abbassa",
+    "Cosa abbiamo imparato e dove cerchiamo la vita"
+   ],
+   "sections": [
+    {
+     "h": "Un problema di luce",
+     "p": [
+      "Un pianeta extrasolare, o esopianeta, è un pianeta che orbita intorno a una stella diversa dal Sole. Per secoli si è pensato che dovessero esistere, ma trovarli è stato difficilissimo.",
+      "Il motivo è che un pianeta non brilla di luce propria e sta vicinissimo, vista da lontano, a una stella miliardi di volte più luminosa. È come cercare di vedere una lucciola accanto a un faro da chilometri di distanza. Per questo quasi tutti gli esopianeti sono stati scoperti in modo indiretto, osservando l'effetto che hanno sulla loro stella."
+     ]
+    },
+    {
+     "h": "La stella che oscilla",
+     "p": [
+      "Un pianeta non gira esattamente intorno al centro della stella: stella e pianeta girano entrambi intorno al loro centro di massa comune. La stella, molto più massiccia, si muove poco, ma si muove: descrive un piccolo cerchio, avvicinandosi e allontanandosi da noi a ogni orbita del pianeta.",
+      "Questo moto si misura con l'effetto Doppler nello spettro della stella: le righe si spostano leggermente verso il blu quando la stella si avvicina e verso il rosso quando si allontana. Dal ritmo dell'oscillazione si ricava il periodo del pianeta, dall'ampiezza una stima della sua massa.",
+      "Nel 1995 Didier Queloz e Michel Mayor, dell'Osservatorio di Ginevra, scoprirono così il primo pianeta intorno a una stella simile al Sole, 51 Pegasi, e per questo ricevettero il premio Nobel per la fisica nel 2019. Fu una sorpresa: era un pianeta gigante come Giove, ma così vicino alla sua stella da compiere un'orbita in pochi giorni."
+     ]
+    },
+    {
+     "h": "La stella che si abbassa",
+     "p": [
+      "Il secondo metodo indiretto non si basa sul movimento della stella ma sulla sua luminosità. Se l'orbita di un pianeta è vista di taglio dalla Terra, una volta per orbita il pianeta passa davanti alla stella e ne blocca una minuscola parte della luce: la stella si abbassa leggermente. Questo evento si chiama transito.",
+      "Un pianeta grande come Giove davanti a una stella come il Sole riduce la luce di circa l'1%; uno come la Terra di circa un centesimo dell'1%. Misurando di quanto cala la luce si ricava il diametro del pianeta; l'intervallo tra un transito e l'altro dà la durata del suo anno e, con le leggi di Keplero, la distanza dalla stella.",
+      "Il telescopio spaziale Kepler della NASA, con misure di luminosità precisissime, ha scoperto così migliaia di esopianeti, compresi molti sistemi con più pianeti. Oggi la missione TESS sta cercando transiti sulle stelle più vicine e luminose di tutto il cielo."
+     ]
+    },
+    {
+     "h": "Pianeti ovunque",
+     "p": [
+      "Combinando i due metodi si ottengono massa e diametro, quindi la densità: si capisce se un pianeta è roccioso come la Terra o gassoso come Nettuno. In alcuni casi, analizzando la luce della stella che filtra attraverso l'atmosfera del pianeta durante il transito, si riesce perfino a riconoscere alcune molecole presenti, come vapore acqueo e anidride carbonica.",
+      "La lezione più importante è che i pianeti sono comunissimi: la maggior parte delle stelle sembra averne. E la varietà è enorme: giganti gassosi bollenti vicinissimi alla loro stella, pianeti a metà tra la Terra e Nettuno (assenti nel nostro Sistema solare), sistemi compatti con sette pianeti intorno a una piccola stella rossa."
+     ]
+    },
+    {
+     "h": "Una seconda Terra?",
+     "p": [
+      "Gli astronomi parlano di zona abitabile: la fascia di distanze da una stella in cui, in linea di principio, un pianeta roccioso potrebbe avere acqua liquida sulla superficie. Sono già stati trovati diversi pianeti di dimensioni simili alla Terra in questa zona.",
+      "Essere nella zona abitabile però non significa essere abitabili: contano l'atmosfera, l'attività della stella e molto altro. La prossima grande sfida è studiare le atmosfere di questi mondi alla ricerca di combinazioni di gas che potrebbero indicare la presenza di vita, con telescopi come il James Webb e quelli in costruzione."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Se un alieno lontano osservasse il Sole durante il passaggio della Terra, vedrebbe la sua luce calare di circa un centesimo dell'1% per circa 13 ore, una volta all'anno.",
+   "mistakes": [
+    "\"Gli esopianeti si fotografano con i telescopi\": quasi tutti si scoprono in modo indiretto.",
+    "\"I pianeti sono rari nell'universo\": la maggior parte delle stelle sembra averne.",
+    "\"Zona abitabile vuol dire che c'è vita\": indica solo dove l'acqua liquida sarebbe possibile."
+   ],
+   "terms": [
+    {
+     "t": "Esopianeta",
+     "d": "Pianeta che orbita intorno a una stella diversa dal Sole."
+    },
+    {
+     "t": "Metodo Doppler",
+     "d": "Scoperta di pianeti misurando l'oscillazione della stella."
+    },
+    {
+     "t": "Transito",
+     "d": "Passaggio di un pianeta davanti alla sua stella."
+    },
+    {
+     "t": "Zona abitabile",
+     "d": "Distanza dalla stella a cui l'acqua potrebbe essere liquida."
+    }
+   ],
+   "quote": {
+    "text": "When the orbital plane of the planet is tilted or inclined so that it is viewed edge-on, we will see the planet cross in front of the star once per orbit, causing the star to dim slightly; this event is known as transit.",
+    "translation": "Quando il piano dell'orbita del pianeta è inclinato in modo da essere visto di taglio, vediamo il pianeta passare davanti alla stella una volta per orbita, facendo diminuire leggermente la luce della stella; questo evento si chiama transito."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "21.4 Planets beyond the Solar System: Search and Discovery",
+     "url": "https://openstax.org/books/astronomy-2e/pages/21-4-planets-beyond-the-solar-system-search-and-discovery"
+    },
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "21.5 Exoplanets Everywhere: What We Are Learning",
+     "url": "https://openstax.org/books/astronomy-2e/pages/21-5-exoplanets-everywhere-what-we-are-learning"
+    }
+   ],
+   "videos": [
+    {
+     "id": "7ATtD8x7vV0",
+     "title": "Exoplanets: Crash Course Astronomy #27",
+     "channel": "CrashCourse",
+     "length": "11:50"
+    },
+    {
+     "id": "0ZOhJe_7GrE",
+     "title": "What Is an Exoplanet?",
+     "channel": "NASA",
+     "length": "4:35"
+    }
+   ],
+   "videoQuery": "esopianeti metodo dei transiti",
+   "addedAt": "2026-11-04T00:12:22Z"
+  },
+  {
+   "id": "supernove",
+   "subject": "astronomia",
+   "chapter": "Stelle",
+   "title": "Supernove e stelle di neutroni: la fine esplosiva delle stelle giganti",
+   "hook": "Le stelle molto massicce finiscono con un'esplosione che per qualche settimana può brillare come una galassia. Ciò che resta è un nucleo incredibilmente denso.",
+   "points": [
+    "Come una stella massiccia costruisce elementi pesanti",
+    "Perché il ferro segna la fine",
+    "Il collasso del nucleo e l'esplosione",
+    "Stelle di neutroni e pulsar"
+   ],
+   "sections": [
+    {
+     "h": "Una cipolla di elementi",
+     "p": [
+      "Le stelle con una massa molto superiore a quella del Sole vivono in fretta e muoiono in modo spettacolare. Dopo aver esaurito l'idrogeno nel nucleo, iniziano a fondere elementi via via più pesanti: elio in carbonio, poi ossigeno, neon, silicio e infine ferro. Ogni nuova fase richiede temperature più alte e dura meno della precedente.",
+      "A questo punto della sua evoluzione una stella massiccia somiglia a una cipolla con un nucleo di ferro: intorno ci sono strati di silicio e zolfo, ossigeno, neon, carbonio, elio e, all'esterno, idrogeno."
+     ]
+    },
+    {
+     "h": "Il problema del ferro",
+     "p": [
+      "Fondere nuclei leggeri libera energia, ed è ciò che tiene in vita le stelle. Ma con il ferro questa strada finisce: fondere il ferro non libera energia, anzi ne richiede. Quando il nucleo è diventato di ferro, la stella perde la sua fonte di energia nel centro.",
+      "Senza energia prodotta nel nucleo non c'è più pressione sufficiente a contrastare l'enorme gravità della stella. Il nucleo continua a crescere grazie alla fusione negli strati intorno, finché supera un limite oltre il quale non riesce più a sostenersi."
+     ]
+    },
+    {
+     "h": "Il collasso e l'esplosione",
+     "p": [
+      "Il nucleo collassa in una frazione di secondo. Diventa così denso che gli elettroni vengono letteralmente schiacciati dentro i nuclei atomici, dove si combinano con i protoni formando neutroni e liberando particelle chiamate neutrini.",
+      "Quando il nucleo raggiunge densità simili a quelle dei nuclei atomici, il collasso si arresta di colpo e rimbalza. Gli strati esterni, che stavano cadendo verso l'interno, vengono investiti da un'onda d'urto e da un'enorme quantità di neutrini, e vengono scagliati nello spazio. Questa esplosione si chiama supernova.",
+      "Nel primo secondo, la potenza trasportata dai neutrini supera quella di tutte le stelle di oltre un miliardo di galassie messe insieme. Per qualche settimana una supernova può brillare quanto un'intera galassia ed essere visibile a distanze enormi."
+     ]
+    },
+    {
+     "h": "Polvere di stelle",
+     "p": [
+      "Le supernove hanno un ruolo fondamentale nella storia dell'universo. Disperdono nello spazio gli elementi prodotti dalla stella durante la sua vita, e nell'esplosione stessa se ne formano altri. Quel materiale si mescola alle nubi di gas da cui nasceranno nuove stelle e nuovi pianeti.",
+      "Il calcio nelle nostre ossa, il ferro nel sangue, l'ossigeno che respiriamo sono stati prodotti dentro stelle che sono vissute e morte prima che nascesse il Sole. Le onde d'urto delle supernove possono anche comprimere nubi vicine e innescare la nascita di nuove stelle.",
+      "Nel 1054 astronomi cinesi registrarono una \"stella ospite\" così brillante da essere visibile anche di giorno: era una supernova, i cui resti oggi formano la Nebulosa del Granchio."
+     ]
+    },
+    {
+     "h": "Stelle di neutroni e pulsar",
+     "p": [
+      "Dopo l'esplosione, il nucleo collassato può restare come una palla compatta fatta soprattutto di neutroni: una stella di neutroni. Ha una massa paragonabile o superiore a quella del Sole, ma compressa in una sfera di una ventina di chilometri. Un cucchiaino della sua materia peserebbe sulla Terra centinaia di milioni di tonnellate. Se il nucleo è troppo massiccio, nessuna forza conosciuta ferma il collasso e si forma un buco nero.",
+      "Nel 1967 la studentessa Jocelyn Bell, a Cambridge, notò un segnale radio fatto di impulsi rapidissimi e regolarissimi. Era la prima pulsar. Oggi se ne conoscono oltre 4000, con periodi da poco più di un millesimo di secondo a quasi 10 secondi.",
+      "Le pulsar sono stelle di neutroni che ruotano velocissime e hanno campi magnetici intensissimi. Emettono fasci di radiazione dai poli magnetici che, ruotando con la stella, spazzano lo spazio come il fascio di un faro. Se il fascio passa sulla Terra, vediamo un impulso a ogni giro. Al centro della Nebulosa del Granchio c'è proprio una pulsar, che lampeggia 30 volte al secondo."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Guardando la Nebulosa del Granchio con un telescopio vedi i resti di un'esplosione che fu notata a occhio nudo quasi mille anni fa.",
+   "mistakes": [
+    "\"Tutte le stelle finiscono come supernova\": solo le più massicce; il Sole diventerà una nana bianca.",
+    "\"Le pulsar pulsano\": ruotano, e il loro fascio ci colpisce a ogni giro, come un faro.",
+    "\"Gli elementi del nostro corpo si sono formati sulla Terra\": molti sono stati prodotti dentro le stelle."
+   ],
+   "terms": [
+    {
+     "t": "Supernova",
+     "d": "Esplosione finale di una stella molto massiccia."
+    },
+    {
+     "t": "Stella di neutroni",
+     "d": "Resto densissimo fatto soprattutto di neutroni."
+    },
+    {
+     "t": "Pulsar",
+     "d": "Stella di neutroni rotante che emette fasci di radiazione."
+    },
+    {
+     "t": "Neutrino",
+     "d": "Particella leggerissima che attraversa quasi tutto senza interagire."
+    }
+   ],
+   "quote": {
+    "text": "At this stage of its evolution, a massive star resembles an onion with an iron core.",
+    "translation": "A questo stadio della sua evoluzione, una stella massiccia somiglia a una cipolla con un nucleo di ferro."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "23.2 Evolution of Massive Stars: An Explosive Finish",
+     "url": "https://openstax.org/books/astronomy-2e/pages/23-2-evolution-of-massive-stars-an-explosive-finish"
+    },
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "23.4 Pulsars and the Discovery of Neutron Stars",
+     "url": "https://openstax.org/books/astronomy-2e/pages/23-4-pulsars-and-the-discovery-of-neutron-stars"
+    }
+   ],
+   "videos": [
+    {
+     "id": "RrMvUL8HFlM",
+     "title": "Neutron Stars: Crash Course Astronomy #32",
+     "channel": "CrashCourse",
+     "length": "12:57"
+    },
+    {
+     "id": "udFxKZRyQt4",
+     "title": "Neutron Stars – The Most Extreme Things that are not Black Holes",
+     "channel": "Kurzgesagt – In a Nutshell",
+     "length": "7:26"
+    }
+   ],
+   "videoQuery": "supernova stella di neutroni pulsar",
+   "addedAt": "2026-11-04T00:12:22Z"
+  },
+  {
+   "id": "via-lattea",
+   "subject": "astronomia",
+   "chapter": "Galassie e cosmo",
+   "title": "La Via Lattea: com'è fatta la nostra galassia e dove ci troviamo",
+   "hook": "Una striscia chiara nel cielo, centinaia di miliardi di stelle e un buco nero al centro. E noi non siamo al centro di niente.",
+   "points": [
+    "Cos'è la striscia chiara della Via Lattea",
+    "Come Herschel e Shapley ne disegnarono la forma",
+    "Disco, bracci a spirale, rigonfiamento e alone",
+    "Dove si trova il Sole e cosa c'è al centro"
+   ],
+   "sections": [
+    {
+     "h": "La striscia nel cielo",
+     "p": [
+      "Lontano dalle luci delle città, in una notte senza Luna, si vede una fascia lattiginosa che attraversa il cielo. Già Galileo, con il suo cannocchiale, scoprì che è fatta di innumerevoli stelle troppo deboli per essere viste una per una.",
+      "Quella fascia è la nostra galassia vista dall'interno. Viviamo dentro un disco di stelle: quando guardiamo lungo il piano del disco vediamo moltissime stelle accumulate, quando guardiamo in altre direzioni ne vediamo molte meno. La parola galassia viene dal greco gala, latte."
+     ]
+    },
+    {
+     "h": "Disegnare una mappa dall'interno",
+     "p": [
+      "Alla fine del Settecento William Herschel contò le stelle in centinaia di direzioni del cielo. Concluse che il sistema di stelle a cui appartiene il Sole ha la forma di un disco, o di una ruota, e che il Sole si trova vicino al centro. Aveva ragione sulla forma, ma torto sulla posizione: la polvere tra le stelle gli impediva di vedere lontano, e così sembrava che il disco finisse più o meno alla stessa distanza in tutte le direzioni.",
+      "Nel primo Novecento Harlow Shapley studiò gli ammassi globulari, sfere compatte di centinaia di migliaia di stelle. Notò che non erano distribuiti in modo uniforme nel cielo, ma concentrati verso la costellazione del Sagittario. Ipotizzò che il loro centro fosse anche il centro della Galassia, e che quindi il Sole fosse molto lontano da esso. Le osservazioni successive gli hanno dato ragione."
+     ]
+    },
+    {
+     "h": "L'architettura della Galassia",
+     "p": [
+      "La Via Lattea è una galassia a spirale. La sua parte più evidente è un disco sottile di stelle, gas e polvere largo circa 100.000 anni luce, dove si trovano le stelle giovani e le nubi in cui ne nascono di nuove. Le stelle si concentrano in bracci a spirale, che gli astronomi riescono a mappare soprattutto con le onde radio emesse dal gas.",
+      "Al centro c'è un rigonfiamento di stelle più vecchie, a forma di barra allungata: la nostra è infatti una spirale barrata. Il disco e il rigonfiamento sono immersi in un alone sferico di stelle vecchie e deboli, che si estende fino ad almeno 150.000 anni luce dal centro e contiene la maggior parte degli ammassi globulari.",
+      "In tutto, la Galassia contiene tra 200 e 400 miliardi di stelle. E c'è anche un alone molto più grande di materia oscura, invisibile, di cui conosciamo l'esistenza grazie ai suoi effetti gravitazionali sulle orbite degli ammassi stellari lontani e delle galassie nane che ci girano intorno."
+     ]
+    },
+    {
+     "h": "Il nostro indirizzo",
+     "p": [
+      "Il Sole si trova all'incirca a metà strada tra il centro della Galassia e il bordo del disco, e solo circa 70 anni luce sopra il piano centrale, sul bordo interno di un braccio minore chiamato Braccio di Orione-Cigno. Siamo in una zona del tutto ordinaria, una stella tra centinaia di miliardi.",
+      "Il Sole gira intorno al centro della Galassia, come tutte le altre stelle del disco, a una velocità di oltre 200 chilometri al secondo; ma la Galassia è così grande che un giro completo richiede più di 200 milioni di anni. L'ultima volta che il Sole era in questo punto dell'orbita, sulla Terra stavano comparendo i primi dinosauri."
+     ]
+    },
+    {
+     "h": "Il cuore della Galassia",
+     "p": [
+      "Il centro della Via Lattea, nella direzione del Sagittario, è nascosto alla luce visibile da dense nubi di polvere, ma si può osservare con infrarossi, onde radio e raggi X. Lì le stelle sono affollatissime.",
+      "Seguendo per anni le orbite di alcune stelle vicinissime al centro, gli astronomi hanno scoperto che girano intorno a un oggetto invisibile di circa 4 milioni di masse solari, concentrato in uno spazio piccolissimo: un buco nero supermassiccio, chiamato Sagittarius A*. Per questa scoperta Reinhard Genzel e Andrea Ghez hanno ricevuto il premio Nobel per la fisica nel 2020, e nel 2022 è stata pubblicata la prima immagine della sua ombra."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "In estate, la parte più luminosa della Via Lattea è verso sud, nel Sagittario: in quella direzione, dietro la polvere, c'è il centro della Galassia.",
+   "mistakes": [
+    "\"Il Sole è al centro della Galassia\": è a metà strada tra centro e bordo.",
+    "\"La Via Lattea è una nebulosa\": è la nostra galassia vista dall'interno.",
+    "\"Le stelle della Galassia sono ferme\": tutte girano intorno al centro."
+   ],
+   "terms": [
+    {
+     "t": "Galassia a spirale",
+     "d": "Galassia con un disco e bracci a spirale."
+    },
+    {
+     "t": "Ammasso globulare",
+     "d": "Sfera compatta di centinaia di migliaia di stelle antiche."
+    },
+    {
+     "t": "Alone",
+     "d": "Regione sferica che circonda il disco della Galassia."
+    },
+    {
+     "t": "Anno luce",
+     "d": "Distanza percorsa dalla luce in un anno, circa 9.500 miliardi di km."
+    }
+   ],
+   "quote": {
+    "text": "The Sun is located about halfway between the center of the Galaxy and the edge of the disk and only about 70 light-years above its central plane.",
+    "translation": "Il Sole si trova circa a metà strada tra il centro della Galassia e il bordo del disco, e solo circa 70 anni luce sopra il suo piano centrale."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "25.1 The Architecture of the Galaxy",
+     "url": "https://openstax.org/books/astronomy-2e/pages/25-1-the-architecture-of-the-galaxy"
+    },
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "25.4 The Center of the Galaxy",
+     "url": "https://openstax.org/books/astronomy-2e/pages/25-4-the-center-of-the-galaxy"
+    }
+   ],
+   "videos": [
+    {
+     "id": "tj_QPnO8vpQ",
+     "title": "The Milky Way: Crash Course Astronomy #37",
+     "channel": "CrashCourse",
+     "length": "11:14"
+    },
+    {
+     "id": "wEZBNsU4dMU",
+     "title": "The best Milky Way animation, by Gaia",
+     "channel": "European Space Agency, ESA",
+     "length": "2:14"
+    }
+   ],
+   "videoQuery": "Via Lattea struttura galassia",
+   "addedAt": "2026-11-04T00:12:22Z"
+  },
+  {
+   "id": "materia-oscura",
+   "subject": "astronomia",
+   "chapter": "Galassie e cosmo",
+   "title": "Materia oscura: la massa invisibile che tiene insieme le galassie",
+   "hook": "Le galassie girano troppo in fretta e gli ammassi sono troppo pesanti per la materia che vediamo. Qualcosa di invisibile c'è, ma non sappiamo cosa sia.",
+   "points": [
+    "Come si \"pesa\" una galassia",
+    "Le prove: velocità di rotazione, ammassi, lenti gravitazionali",
+    "Cosa non può essere la materia oscura",
+    "Le ipotesi sulla sua natura"
+   ],
+   "sections": [
+    {
+     "h": "Pesare con la gravità",
+     "p": [
+      "Non possiamo mettere una galassia su una bilancia, ma possiamo pesarla con la gravità. Come le leggi di Keplero e Newton permettono di calcolare la massa del Sole dalla velocità dei pianeti, così la velocità con cui stelle e gas girano intorno a una galassia rivela quanta massa contiene.",
+      "Il confronto chiave è tra due misure: la massa che vediamo, stimata dalla luce di stelle e gas, e la massa che serve per spiegare i movimenti osservati. Il problema è che non tornano."
+     ]
+    },
+    {
+     "h": "Galassie che girano troppo veloci",
+     "p": [
+      "Nel Sistema solare i pianeti lontani girano più lentamente di quelli vicini, perché quasi tutta la massa è concentrata nel Sole. Ci si aspetterebbe lo stesso nelle galassie: la maggior parte delle stelle è vicino al centro, quindi le stelle e il gas nelle regioni esterne dovrebbero girare più piano.",
+      "Invece, misurando le velocità con l'effetto Doppler, gli astronomi, a partire dai lavori di Vera Rubin e colleghi negli anni Settanta, hanno trovato che nelle regioni esterne delle galassie le velocità restano più o meno costanti, anche dove le stelle visibili si diradano. Significa che lì c'è molta massa che non vediamo.",
+      "La spiegazione accettata è che ogni galassia sia immersa in un enorme alone di materia oscura, più esteso e molto più massiccio della parte luminosa."
+     ]
+    },
+    {
+     "h": "Ammassi troppo pesanti",
+     "p": [
+      "Già negli anni Trenta l'astronomo svizzero Fritz Zwicky aveva notato qualcosa di simile negli ammassi di galassie: le galassie si muovono così in fretta che, con la sola massa visibile, l'ammasso si sarebbe dovuto disperdere da tempo.",
+      "Oggi la massa degli ammassi si misura in altri due modi indipendenti, che danno risultati in generale accordo con le velocità delle galassie. Il primo è la temperatura del gas caldissimo tra le galassie, che emette raggi X: per trattenerlo serve molta più gravità di quella fornita dalla materia visibile.",
+      "Il secondo sono le lenti gravitazionali. Come prevede la relatività generale, la massa curva il percorso della luce: un ammasso molto massiccio deforma e moltiplica le immagini delle galassie che stanno dietro, come una lente imperfetta. Dalla deformazione si ricostruisce dove si trova la massa e quanta ce n'è. Così gli astronomi oggi determinano regolarmente la posizione e la quantità di materia oscura misurando i suoi effetti gravitazionali su ciò che possiamo vedere."
+     ]
+    },
+    {
+     "h": "Un'idea meno strana di quanto sembri",
+     "p": [
+      "Che gran parte dell'universo sia piena di materia invisibile può sembrare bizzarro, ma esiste un precedente storico. Nell'Ottocento piccole irregolarità nell'orbita di Urano fecero pensare a un pianeta sconosciuto che lo attraeva. Calcolandone la posizione, nel 1846 fu scoperto Nettuno: un caso di \"materia oscura\" rivelata dalla gravità prima di essere vista.",
+      "Le stime attuali indicano che la materia oscura è circa cinque volte più abbondante della materia ordinaria, quella di cui sono fatti stelle, pianeti e persone."
+     ]
+    },
+    {
+     "h": "Cos'è? Non lo sappiamo ancora",
+     "p": [
+      "La materia oscura non emette, non assorbe e non riflette luce in modo apprezzabile. Le osservazioni escludono che possa essere fatta soltanto di oggetti comuni ma poco luminosi, come pianeti vaganti o stelle spente: non ce ne sono abbastanza.",
+      "L'ipotesi più diffusa è che si tratti di un tipo di particella ancora sconosciuta, che interagisce quasi solo attraverso la gravità. Gli astronomi distinguono tra materia oscura \"calda\", fatta di particelle veloci, e \"fredda\", fatta di particelle lente: i modelli con materia oscura fredda spiegano meglio come si sono formate galassie e strutture.",
+      "Esperimenti sotterranei, acceleratori di particelle e telescopi la cercano da decenni, finora senza un rilevamento diretto. Alcuni ricercatori propongono invece di modificare le leggi della gravità su grandi scale, ma queste alternative faticano a spiegare tutte le osservazioni insieme. È uno dei grandi misteri aperti della fisica."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Se una giostra girasse più veloce di quanto dovrebbe con il peso dei bambini che vedi, penseresti che ci sia qualcosa di pesante che non vedi: è il ragionamento degli astronomi sulle galassie.",
+   "mistakes": [
+    "\"Materia oscura ed energia oscura sono la stessa cosa\": la prima attrae con la gravità, la seconda accelera l'espansione.",
+    "\"La materia oscura sono buchi neri o nubi di gas scure\": le osservazioni escludono che possano spiegarla da soli.",
+    "\"È solo un'ipotesi inventata\": è sostenuta da molte prove indipendenti, anche se la sua natura è ignota."
+   ],
+   "terms": [
+    {
+     "t": "Materia oscura",
+     "d": "Massa che si rivela solo con la gravità."
+    },
+    {
+     "t": "Curva di rotazione",
+     "d": "Grafico della velocità delle stelle in funzione della distanza dal centro della galassia."
+    },
+    {
+     "t": "Lente gravitazionale",
+     "d": "Deviazione della luce causata dalla massa."
+    },
+    {
+     "t": "Materia ordinaria",
+     "d": "Materia fatta di atomi, come stelle, pianeti e persone."
+    }
+   ],
+   "quote": {
+    "text": "In the same way, astronomers now routinely determine the location and amount of dark matter in galaxies by measuring its gravitational effects on objects we can see.",
+    "translation": "Allo stesso modo, oggi gli astronomi determinano regolarmente la posizione e la quantità di materia oscura nelle galassie misurando i suoi effetti gravitazionali sugli oggetti che possiamo vedere."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "28.4 The Challenge of Dark Matter",
+     "url": "https://openstax.org/books/astronomy-2e/pages/28-4-the-challenge-of-dark-matter"
+    },
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "25.3 The Mass of the Galaxy",
+     "url": "https://openstax.org/books/astronomy-2e/pages/25-3-the-mass-of-the-galaxy"
+    }
+   ],
+   "videos": [
+    {
+     "id": "9W3RsaWuCuE",
+     "title": "Dark Matter: Crash Course Astronomy #41",
+     "channel": "CrashCourse",
+     "length": "12:00"
+    },
+    {
+     "id": "HneiEA1B8ks",
+     "title": "Dark matter: The matter we can't see",
+     "channel": "TED-Ed",
+     "length": "5:35"
+    }
+   ],
+   "videoQuery": "materia oscura galassie",
+   "addedAt": "2026-11-04T00:12:22Z"
+  },
+  {
+   "id": "lune-giove",
+   "subject": "astronomia",
+   "chapter": "Pianeti e orbite",
+   "title": "Le lune di Giove: vulcani, oceani nascosti e la luna più grande del Sistema solare",
+   "hook": "Io, Europa, Ganimede e Callisto sono mondi diversissimi: uno è il luogo più vulcanico che conosciamo, un altro nasconde forse un oceano.",
+   "points": [
+    "La scoperta di Galileo e perché fu rivoluzionaria",
+    "Callisto e Ganimede, i giganti di ghiaccio",
+    "Europa e il suo oceano sotto la crosta",
+    "Io, la luna dei vulcani, e il riscaldamento di marea"
+   ],
+   "sections": [
+    {
+     "h": "Quattro puntini che cambiarono la scienza",
+     "p": [
+      "Nel 1610 Galileo Galilei puntò il suo cannocchiale verso Giove e vide quattro piccoli puntini luminosi che cambiavano posizione di notte in notte. Capì che giravano intorno a Giove. Era la prima prova che non tutto nel cielo gira intorno alla Terra, un colpo decisivo a favore del modello di Copernico.",
+      "In suo onore Io, Europa, Ganimede e Callisto si chiamano lune galileiane. Giove ne ha in tutto molte decine, ma quasi tutte sono piccoli corpi irregolari. Queste quattro, invece, sono mondi veri e propri, grandi come la nostra Luna o di più, e ciascuno è molto diverso dagli altri."
+     ]
+    },
+    {
+     "h": "Callisto: un mondo antico",
+     "p": [
+      "Callisto, la più esterna delle quattro, orbita a circa 2 milioni di chilometri da Giove e compie un giro in 17 giorni. Come la nostra Luna, ruota nello stesso tempo in cui compie l'orbita, e mostra a Giove sempre la stessa faccia.",
+      "La sua densità bassa indica che è fatta in gran parte di ghiaccio, con meno rocce e metalli dei pianeti interni. La sua superficie è coperta di crateri, segno che è rimasta quasi immutata per miliardi di anni: è uno dei paesaggi più antichi del Sistema solare."
+     ]
+    },
+    {
+     "h": "Ganimede: la luna più grande",
+     "p": [
+      "Ganimede è la luna più grande dell'intero Sistema solare, più grande anche del pianeta Mercurio, anche se meno massiccia. Circa un quarto della sua superficie è antico e pieno di crateri come Callisto; il resto è più giovane, solcato da strisce di creste e avvallamenti prodotte da forze tettoniche.",
+      "La sonda Galileo della NASA scoprì che Ganimede ha un proprio campo magnetico, l'unica luna conosciuta ad averlo: un indizio che l'interno è almeno in parte fuso. Si pensa che anche Ganimede nasconda uno strato d'acqua liquida sotto il ghiaccio."
+     ]
+    },
+    {
+     "h": "Europa: un oceano sotto il ghiaccio",
+     "p": [
+      "Europa è fatta soprattutto di roccia, ma ha una superficie coperta di ghiaccio, come sapevano da tempo gli astronomi analizzando lo spettro della luce solare che riflette. In questo somiglia alla Terra, che ha uno strato d'acqua in superficie, ma nel caso di Europa l'acqua è coperta da una spessa crosta di ghiaccio.",
+      "La superficie è liscissima, con pochissimi crateri e solcata da lunghe fratture e doppie creste: segno che il ghiaccio si rinnova continuamente. Le misure del campo magnetico fatte dalla sonda Galileo sono compatibili con un oceano salato di acqua liquida sotto la crosta, che potrebbe contenere più acqua di tutti gli oceani terrestri.",
+      "Acqua liquida, sostanze chimiche e una fonte di energia sono gli ingredienti che riteniamo necessari per la vita. Per questo Europa è uno dei luoghi più interessanti dove cercarla. La sonda Europa Clipper della NASA è stata lanciata nell'ottobre 2024 ed è previsto che arrivi nel sistema di Giove nel 2030."
+     ]
+    },
+    {
+     "h": "Io: la luna dei vulcani",
+     "p": [
+      "Io, la più interna, ha dimensioni e densità quasi uguali a quelle della nostra Luna, ma non potrebbe essere più diversa: è il corpo con più attività vulcanica che conosciamo. Le sonde hanno fotografato pennacchi alti centinaia di chilometri e laghi di lava, e la superficie, colorata di giallo, rosso e bianco dai composti dello zolfo, cambia nel giro di pochi anni.",
+      "Da dove viene tutto questo calore, su una luna così piccola? Dalle maree. Io è vicinissima all'enorme Giove, e la sua orbita viene resa leggermente ellittica dalle spinte regolari di Europa e Ganimede. Avvicinandosi e allontanandosi da Giove, Io viene deformata in continuazione, come una pallina di gomma strizzata, e l'attrito interno la riscalda.",
+      "Lo stesso riscaldamento di marea, in misura minore, mantiene probabilmente liquido l'oceano di Europa. È un esempio di come la gravità, oltre a muovere i corpi, possa anche scaldarli."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Con un normale binocolo tenuto ben fermo puoi vedere le quattro lune di Giove come puntini allineati: è la stessa vista di Galileo nel 1610.",
+   "mistakes": [
+    "\"Le lune sono tutte mondi morti come la nostra\": Io è vulcanico ed Europa ha probabilmente un oceano.",
+    "\"I vulcani hanno bisogno di un grande pianeta\": su Io il calore viene dalle maree di Giove.",
+    "\"Giove ha quattro lune\": ne ha molte decine, ma quattro sono grandi."
+   ],
+   "terms": [
+    {
+     "t": "Lune galileiane",
+     "d": "Le quattro grandi lune di Giove scoperte da Galileo."
+    },
+    {
+     "t": "Riscaldamento di marea",
+     "d": "Calore prodotto dalla deformazione dovuta alla gravità."
+    },
+    {
+     "t": "Crosta",
+     "d": "Strato solido esterno di un corpo celeste."
+    },
+    {
+     "t": "Rotazione sincrona",
+     "d": "Rotazione nello stesso tempo dell'orbita, che mostra sempre la stessa faccia."
+    }
+   ],
+   "quote": {
+    "text": "In this it resembles Earth, which has a layer of water on its surface, but in Europa’s case the water is capped by a thick crust of ice.",
+    "translation": "In questo somiglia alla Terra, che ha uno strato d'acqua in superficie, ma nel caso di Europa l'acqua è coperta da una spessa crosta di ghiaccio."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "12.2 The Galilean Moons of Jupiter",
+     "url": "https://openstax.org/books/astronomy-2e/pages/12-2-the-galilean-moons-of-jupiter"
+    }
+   ],
+   "videos": [
+    {
+     "id": "HaFaf7vbgpE",
+     "title": "Jupiter's Moons: Crash Course Astronomy #17",
+     "channel": "CrashCourse",
+     "length": "10:30"
+    }
+   ],
+   "videoQuery": "lune di Giove Europa Io Ganimede",
+   "addedAt": "2026-11-04T00:12:22Z"
   }
  ]
 }
