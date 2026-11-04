@@ -3138,7 +3138,9 @@
       {
        "title": "12.1 Ring and moon systems introduced",
        "url": "https://openstax.org/books/astronomy-2e/pages/12-1-ring-and-moon-systems-introduced",
-       "argomenti": []
+       "argomenti": [
+        "anelli-encelado"
+       ]
       },
       {
        "title": "12.2 The galilean moons of jupiter",
@@ -3150,17 +3152,23 @@
       {
        "title": "12.3 Titan and triton",
        "url": "https://openstax.org/books/astronomy-2e/pages/12-3-titan-and-triton",
-       "argomenti": []
+       "argomenti": [
+        "titano-tritone"
+       ]
       },
       {
        "title": "12.4 Pluto and charon",
        "url": "https://openstax.org/books/astronomy-2e/pages/12-4-pluto-and-charon",
-       "argomenti": []
+       "argomenti": [
+        "plutone"
+       ]
       },
       {
        "title": "12.5 Planetary rings and enceladus",
        "url": "https://openstax.org/books/astronomy-2e/pages/12-5-planetary-rings-and-enceladus",
-       "argomenti": []
+       "argomenti": [
+        "anelli-encelado"
+       ]
       }
      ]
     },
@@ -3171,22 +3179,30 @@
       {
        "title": "13.1 Asteroids",
        "url": "https://openstax.org/books/astronomy-2e/pages/13-1-asteroids",
-       "argomenti": []
+       "argomenti": [
+        "asteroidi"
+       ]
       },
       {
        "title": "13.2 Asteroids and planetary defense",
        "url": "https://openstax.org/books/astronomy-2e/pages/13-2-asteroids-and-planetary-defense",
-       "argomenti": []
+       "argomenti": [
+        "difesa-planetaria"
+       ]
       },
       {
        "title": "13.3 The long haired comets",
        "url": "https://openstax.org/books/astronomy-2e/pages/13-3-the-long-haired-comets",
-       "argomenti": []
+       "argomenti": [
+        "comete"
+       ]
       },
       {
        "title": "13.4 The origin and fate of comets and related objects",
        "url": "https://openstax.org/books/astronomy-2e/pages/13-4-the-origin-and-fate-of-comets-and-related-objects",
-       "argomenti": []
+       "argomenti": [
+        "comete"
+       ]
       }
      ]
     },
@@ -3197,12 +3213,16 @@
       {
        "title": "14.1 Meteors",
        "url": "https://openstax.org/books/astronomy-2e/pages/14-1-meteors",
-       "argomenti": []
+       "argomenti": [
+        "meteore-meteoriti"
+       ]
       },
       {
        "title": "14.2 Meteorites stones from heaven",
        "url": "https://openstax.org/books/astronomy-2e/pages/14-2-meteorites-stones-from-heaven",
-       "argomenti": []
+       "argomenti": [
+        "meteore-meteoriti"
+       ]
       },
       {
        "title": "14.3 Formation of the solar system",
@@ -3234,22 +3254,30 @@
       {
        "title": "15.1 The structure and composition of the sun",
        "url": "https://openstax.org/books/astronomy-2e/pages/15-1-the-structure-and-composition-of-the-sun",
-       "argomenti": []
+       "argomenti": [
+        "struttura-del-sole"
+       ]
       },
       {
        "title": "15.2 The solar cycle",
        "url": "https://openstax.org/books/astronomy-2e/pages/15-2-the-solar-cycle",
-       "argomenti": []
+       "argomenti": [
+        "ciclo-solare"
+       ]
       },
       {
        "title": "15.3 Solar activity above the photosphere",
        "url": "https://openstax.org/books/astronomy-2e/pages/15-3-solar-activity-above-the-photosphere",
-       "argomenti": []
+       "argomenti": [
+        "ciclo-solare"
+       ]
       },
       {
        "title": "15.4 Space weather",
        "url": "https://openstax.org/books/astronomy-2e/pages/15-4-space-weather",
-       "argomenti": []
+       "argomenti": [
+        "meteo-spaziale"
+       ]
       }
      ]
     },
@@ -3260,7 +3288,9 @@
       {
        "title": "16.1 Sources of sunshine thermal and gravitational energy",
        "url": "https://openstax.org/books/astronomy-2e/pages/16-1-sources-of-sunshine-thermal-and-gravitational-energy",
-       "argomenti": []
+       "argomenti": [
+        "dentro-il-sole"
+       ]
       },
       {
        "title": "16.2 Mass energy and the theory of relativity",
@@ -3279,7 +3309,9 @@
       {
        "title": "16.4 The solar interior observations",
        "url": "https://openstax.org/books/astronomy-2e/pages/16-4-the-solar-interior-observations",
-       "argomenti": []
+       "argomenti": [
+        "dentro-il-sole"
+       ]
       }
      ]
     },
@@ -3290,22 +3322,30 @@
       {
        "title": "17.1 The brightness of stars",
        "url": "https://openstax.org/books/astronomy-2e/pages/17-1-the-brightness-of-stars",
-       "argomenti": []
+       "argomenti": [
+        "luminosita-colori-stelle"
+       ]
       },
       {
        "title": "17.2 Colors of stars",
        "url": "https://openstax.org/books/astronomy-2e/pages/17-2-colors-of-stars",
-       "argomenti": []
+       "argomenti": [
+        "luminosita-colori-stelle"
+       ]
       },
       {
        "title": "17.3 The spectra of stars and brown dwarfs",
        "url": "https://openstax.org/books/astronomy-2e/pages/17-3-the-spectra-of-stars-and-brown-dwarfs",
-       "argomenti": []
+       "argomenti": [
+        "spettri-stelle"
+       ]
       },
       {
        "title": "17.4 Using spectra to measure stellar radius composition and motion",
        "url": "https://openstax.org/books/astronomy-2e/pages/17-4-using-spectra-to-measure-stellar-radius-composition-and-motion",
-       "argomenti": []
+       "argomenti": [
+        "spettri-stelle"
+       ]
       }
      ]
     },
@@ -3316,22 +3356,30 @@
       {
        "title": "18.1 A stellar census",
        "url": "https://openstax.org/books/astronomy-2e/pages/18-1-a-stellar-census",
-       "argomenti": []
+       "argomenti": [
+        "censimento-stelle"
+       ]
       },
       {
        "title": "18.2 Measuring stellar masses",
        "url": "https://openstax.org/books/astronomy-2e/pages/18-2-measuring-stellar-masses",
-       "argomenti": []
+       "argomenti": [
+        "masse-diametri-stelle"
+       ]
       },
       {
        "title": "18.3 Diameters of stars",
        "url": "https://openstax.org/books/astronomy-2e/pages/18-3-diameters-of-stars",
-       "argomenti": []
+       "argomenti": [
+        "masse-diametri-stelle"
+       ]
       },
       {
        "title": "18.4 The h r diagram",
        "url": "https://openstax.org/books/astronomy-2e/pages/18-4-the-h-r-diagram",
-       "argomenti": []
+       "argomenti": [
+        "diagramma-hr"
+       ]
       }
      ]
     },
@@ -3342,12 +3390,16 @@
       {
        "title": "19.1 Fundamental units of distance",
        "url": "https://openstax.org/books/astronomy-2e/pages/19-1-fundamental-units-of-distance",
-       "argomenti": []
+       "argomenti": [
+        "parallasse"
+       ]
       },
       {
        "title": "19.2 Surveying the stars",
        "url": "https://openstax.org/books/astronomy-2e/pages/19-2-surveying-the-stars",
-       "argomenti": []
+       "argomenti": [
+        "parallasse"
+       ]
       },
       {
        "title": "19.3 Variable stars one key to cosmic distances",
@@ -3411,7 +3463,9 @@
       {
        "title": "21.2 The h r diagram and the study of stellar evolution",
        "url": "https://openstax.org/books/astronomy-2e/pages/21-2-the-h-r-diagram-and-the-study-of-stellar-evolution",
-       "argomenti": []
+       "argomenti": [
+        "diagramma-hr"
+       ]
       },
       {
        "title": "21.3 Evidence that planets form around other stars",

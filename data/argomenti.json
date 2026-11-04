@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-04T11:19:31Z",
+ "updatedAt": "2026-11-04T11:24:52Z",
  "subjects": [
   {
    "id": "fisica",
@@ -4884,6 +4884,11 @@
      "name": "OpenStax · College Physics 2e",
      "title": "15.6 Entropy and the Second Law of Thermodynamics",
      "url": "https://openstax.org/books/college-physics-2e/pages/15-6-entropy-and-the-second-law-of-thermodynamics-disorder-and-the-unavailability-of-energy"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "15.7 Statistical Interpretation of Entropy",
+     "url": "https://openstax.org/books/college-physics-2e/pages/15-7-statistical-interpretation-of-entropy-and-the-second-law-of-thermodynamics-the-underlying-explanation"
     },
     {
      "name": "OpenStax · College Physics 2e",
@@ -12850,6 +12855,11 @@
      "name": "OpenStax · Psychology 2e",
      "title": "6.4 Observational Learning (Modeling)",
      "url": "https://openstax.org/books/psychology-2e/pages/6-4-observational-learning-modeling"
+    },
+    {
+     "name": "OpenStax · Psychology 2e",
+     "title": "6.1 What Is Learning?",
+     "url": "https://openstax.org/books/psychology-2e/pages/6-1-what-is-learning"
     },
     {
      "name": "OpenStax · Psychology 2e",
@@ -21163,6 +21173,691 @@
    "addedAt": "2026-11-04T00:12:22Z"
   },
   {
+   "id": "titano-tritone",
+   "subject": "astronomia",
+   "chapter": "Sistema solare",
+   "title": "Titano e Tritone: laghi di metano e geyser di azoto",
+   "hook": "Su Titano piove metano e ci sono laghi e fiumi. Su Tritone geyser spruzzano azoto a -235 °C. Due lune tra le più strane del Sistema solare.",
+   "points": [
+    "L'atmosfera di Titano",
+    "Laghi, fiumi e dune di idrocarburi",
+    "Tritone, una luna catturata",
+    "Le missioni future"
+   ],
+   "sections": [
+    {
+     "h": "Titano, una luna con atmosfera",
+     "p": [
+      "Titano, la luna più grande di Saturno, è più grande del pianeta Mercurio ed è l'unica luna con un'atmosfera densa. È fatta soprattutto di azoto, come quella terrestre, ma la pressione al suolo è circa una volta e mezza quella terrestre e la temperatura è di circa −180 °C.",
+      "Nell'alta atmosfera la luce solare trasforma il metano in molecole organiche più complesse, che formano una foschia arancione che nasconde la superficie. Per questo Titano rimase un mistero fino all'arrivo della sonda Cassini e della sonda Huygens, costruita dall'Agenzia Spaziale Europea con un importante contributo italiano, che nel 2005 atterrò sulla sua superficie."
+     ]
+    },
+    {
+     "h": "Un mondo di idrocarburi",
+     "p": [
+      "Titano è l'unico corpo oltre alla Terra in cui abbiamo trovato prove di distese di liquidi in superficie. Ma non si tratta di acqua: a quelle temperature il ghiaccio d'acqua è duro come la roccia, e i liquidi sono metano ed etano.",
+      "Il radar di Cassini ha rivelato laghi e mari, alcuni più grandi del lago Superiore americano, soprattutto vicino al polo nord, e canali scavati da fiumi. Su Titano esiste un ciclo del metano simile al ciclo dell'acqua terrestre: nubi, piogge, fiumi, laghi ed evaporazione. Ci sono anche vasti campi di dune, fatte di granelli di materiale organico, e regioni misteriose di terreno caotico o montuoso.",
+      "Huygens, scendendo con il paracadute, fotografò reti di canali e atterrò su un terreno umido coperto di sassi arrotondati di ghiaccio, come il letto asciutto di un fiume."
+     ]
+    },
+    {
+     "h": "Tritone",
+     "p": [
+      "Tritone, la luna più grande di Nettuno, gira intorno al pianeta in senso opposto alla sua rotazione: è quasi certamente un oggetto della fascia di Kuiper catturato in passato, una specie di cugino di Plutone.",
+      "Il Voyager 2, nel 1989, vi misurò una temperatura superficiale di circa −235 °C, una delle più basse del Sistema solare. La sua superficie mostra terreni curiosi, come il \"terreno a buccia di melone\", e pochi crateri: è geologicamente giovane. La zona rosata è la grande calotta polare sud di Tritone, di ghiaccio di azoto e metano.",
+      "Sorprendentemente, Voyager vide pennacchi scuri alti chilometri, geyser di azoto probabilmente spinti dal debole calore del Sole che scalda il ghiaccio trasparente. Le maree di Nettuno stanno lentamente avvicinando Tritone, che tra centinaia di milioni o miliardi di anni potrebbe frantumarsi e formare un anello."
+     ]
+    },
+    {
+     "h": "Tornare su Titano",
+     "p": [
+      "La NASA sta preparando Dragonfly, un drone a eliche che dovrebbe arrivare su Titano negli anni Trenta e volare da un punto all'altro della superficie, studiando la chimica organica che potrebbe somigliare a quella della Terra primordiale.",
+      "Titano è considerato un laboratorio naturale per capire i passi che precedono la vita: un mondo ricchissimo di molecole organiche, anche se troppo freddo per la vita come la conosciamo in superficie."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Su Titano, con la gravità bassa e l'aria densa, una persona con ali attaccate alle braccia potrebbe volare sbattendole.",
+   "mistakes": [
+    "\"Su Titano ci sono laghi d'acqua\": sono di metano ed etano.",
+    "\"Tritone si è formato con Nettuno\": è probabilmente un oggetto catturato.",
+    "\"Le lune lontane sono geologicamente morte\": Tritone ha geyser e superficie giovane."
+   ],
+   "terms": [
+    {
+     "t": "Titano",
+     "d": "Luna più grande di Saturno, con atmosfera densa."
+    },
+    {
+     "t": "Ciclo del metano",
+     "d": "Piogge, fiumi e laghi di metano su Titano."
+    },
+    {
+     "t": "Tritone",
+     "d": "Luna più grande di Nettuno, in orbita retrograda."
+    },
+    {
+     "t": "Huygens",
+     "d": "Sonda europea atterrata su Titano nel 2005."
+    }
+   ],
+   "quote": {
+    "text": "Titan is the only moon or planet other than Earth where we have found evidence of bodies of surface liquids.",
+    "translation": "Titano è l'unica luna o pianeta, oltre alla Terra, in cui abbiamo trovato prove di distese di liquidi in superficie."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "12.3 Titan and triton",
+     "url": "https://openstax.org/books/astronomy-2e/pages/12-3-titan-and-triton"
+    }
+   ],
+   "videos": [
+    {
+     "id": "lr4r70DWShk",
+     "title": "What You Need to Know About Saturn's Moon Titan",
+     "channel": "NASA",
+     "length": "1:46"
+    },
+    {
+     "id": "xn3-0a19sC8",
+     "title": "Dragonfly: NASA's New Mission to Explore Saturn's Moon Titan",
+     "channel": "NASA",
+     "length": "1:22"
+    }
+   ],
+   "videoQuery": "titan saturn moon",
+   "addedAt": "2026-11-04T11:24:52Z"
+  },
+  {
+   "id": "plutone",
+   "subject": "astronomia",
+   "chapter": "Sistema solare",
+   "title": "Plutone e Caronte: il pianeta nano che ha sorpreso tutti",
+   "hook": "Declassato a pianeta nano nel 2006, Plutone si è rivelato un mondo attivo, con ghiacciai di azoto, montagne di ghiaccio e un cuore gigante.",
+   "points": [
+    "Scoperta e declassamento",
+    "Caronte, una luna enorme",
+    "Le scoperte di New Horizons",
+    "La fascia di Kuiper"
+   ],
+   "sections": [
+    {
+     "h": "Il nono pianeta, poi no",
+     "p": [
+      "Plutone fu scoperto nel 1930 dal giovane astronomo americano Clyde Tombaugh, confrontando fotografie del cielo scattate a giorni di distanza. Per 76 anni fu considerato il nono pianeta.",
+      "Ma è piccolo, più piccolo della nostra Luna, e dagli anni Novanta si è scoperto che è solo uno dei tanti corpi ghiacciati oltre Nettuno, nella fascia di Kuiper. Dopo la scoperta di Eris, quasi grande quanto Plutone, nel 2006 l'Unione Astronomica Internazionale definì cos'è un pianeta e classificò Plutone come pianeta nano, perché non ha \"ripulito\" la sua orbita da altri corpi."
+     ]
+    },
+    {
+     "h": "Caronte",
+     "p": [
+      "Plutone ha cinque lune; la più grande, Caronte, scoperta nel 1978, ha un diametro di circa metà di quello di Plutone. Questo rende Caronte la luna più grande in proporzione al proprio pianeta.",
+      "Plutone e Caronte ruotano entrambi in modo sincrono: si mostrano sempre la stessa faccia, come due ballerini che si tengono per mano. Il loro centro di massa comune sta fuori da Plutone, nello spazio tra i due: per questo alcuni li considerano un sistema doppio."
+     ]
+    },
+    {
+     "h": "New Horizons",
+     "p": [
+      "Nel luglio 2015 la sonda New Horizons della NASA passò accanto a Plutone dopo un viaggio di nove anni e mezzo, inviando le prime immagini dettagliate. Ci si aspettava un mondo gelido e morto, pieno di crateri; si trovò invece un pianeta nano sorprendentemente vario e attivo.",
+      "La caratteristica più famosa è una grande regione chiara a forma di cuore. La sua parte sinistra, chiamata Sputnik Planitia, è una vasta pianura liscia di ghiaccio di azoto congelato, che si comporta come i ghiacciai sulla Terra: scorre lentamente e si rinnova, tanto che non ha crateri. Intorno ci sono montagne di ghiaccio d'acqua alte fino a 3-4 chilometri.",
+      "Plutone ha anche una sottile atmosfera di azoto con strati di foschia blu, dune, e forse un oceano sotterraneo. Caronte mostra canyon enormi e un polo coperto da una macchia rossastra di materiale organico."
+     ]
+    },
+    {
+     "h": "La fascia di Kuiper",
+     "p": [
+      "Oltre Nettuno si estende la fascia di Kuiper, una regione ricchissima di corpi ghiacciati, residui della formazione del Sistema solare. Ne conosciamo migliaia, e ce ne sono probabilmente centinaia di migliaia più grandi di 100 chilometri.",
+      "Dopo Plutone, New Horizons ha sorvolato nel 2019 Arrokoth, un piccolo oggetto della fascia di Kuiper a forma di pupazzo di neve, formato da due corpi che si sono uniti dolcemente: uno degli oggetti più primitivi mai visti da vicino, che conserva le tracce di come si formarono i planetesimi."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "A bordo di New Horizons viaggiava un po' delle ceneri di Clyde Tombaugh, lo scopritore di Plutone.",
+   "mistakes": [
+    "\"Plutone è stato declassato perché è troppo piccolo\": è stato riclassificato perché non domina la sua orbita.",
+    "\"Plutone è un mondo morto\": ha ghiacciai attivi e un'atmosfera.",
+    "\"Caronte è una luna normale\": è enorme rispetto a Plutone."
+   ],
+   "terms": [
+    {
+     "t": "Pianeta nano",
+     "d": "Corpo rotondo che orbita intorno al Sole ma non ha ripulito la sua orbita."
+    },
+    {
+     "t": "Fascia di Kuiper",
+     "d": "Regione di corpi ghiacciati oltre Nettuno."
+    },
+    {
+     "t": "Sputnik Planitia",
+     "d": "Pianura di ghiaccio di azoto su Plutone."
+    },
+    {
+     "t": "New Horizons",
+     "d": "Sonda NASA che ha sorvolato Plutone nel 2015."
+    }
+   ],
+   "quote": {
+    "text": "This makes Charon the moon whose size is the largest fraction of its parent planet.",
+    "translation": "Questo rende Caronte la luna le cui dimensioni sono la frazione più grande rispetto al suo pianeta."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "12.4 Pluto and charon",
+     "url": "https://openstax.org/books/astronomy-2e/pages/12-4-pluto-and-charon"
+    }
+   ],
+   "videos": [
+    {
+     "id": "g1fPhhTT2Oo",
+     "title": "New Horizons Flyover of Pluto",
+     "channel": "NASA Video",
+     "length": "2:00"
+    },
+    {
+     "id": "pWoUlzQvrxw",
+     "title": "New Horizons first probe to reach pluto!",
+     "channel": "Physics Girl",
+     "length": "5:11"
+    }
+   ],
+   "videoQuery": "pluto new horizons",
+   "addedAt": "2026-11-04T11:24:52Z"
+  },
+  {
+   "id": "anelli-encelado",
+   "subject": "astronomia",
+   "chapter": "Sistema solare",
+   "title": "Gli anelli dei pianeti e i geyser di Encelado",
+   "hook": "Tutti i pianeti giganti hanno anelli, ma quelli di Saturno sono spettacolari. E una piccola luna ghiacciata spruzza nello spazio l'acqua di un oceano nascosto.",
+   "points": [
+    "Lune regolari e irregolari",
+    "Di cosa sono fatti gli anelli",
+    "Come nascono gli anelli",
+    "Encelado e il suo oceano"
+   ],
+   "sections": [
+    {
+     "h": "Sistemi in miniatura",
+     "p": [
+      "I pianeti giganti hanno sistemi di lune e anelli che ricordano piccoli sistemi solari. Le lune regolari orbitano vicino all'equatore del pianeta, nello stesso verso della sua rotazione, e si sono probabilmente formate insieme al pianeta. Le lune irregolari, spesso piccole, su orbite inclinate o al contrario, sono probabilmente oggetti catturati.",
+      "La luna più grande di Saturno, Titano, è grande quasi come Ganimede di Giove, ed è l'unica luna con un'atmosfera consistente e laghi o mari di idrocarburi liquidi sulla superficie."
+     ]
+    },
+    {
+     "h": "Gli anelli",
+     "p": [
+      "Tutti e quattro i pianeti giganti hanno anelli, ma solo quelli di Saturno sono vistosi. Sono fatti di miliardi di particelle di ghiaccio d'acqua quasi puro, da granelli di polvere a blocchi grandi come case, ciascuno in orbita come una minuscola luna.",
+      "Gli anelli principali di Saturno misurano circa 270.000 chilometri da un bordo all'altro, ma sono sottilissimi: in genere poche decine di metri di spessore. In proporzione, sono più sottili di un foglio di carta grande come un campo da calcio. Le lacune tra gli anelli, come la divisione di Cassini, sono prodotte dalle attrazioni gravitazionali delle lune; piccole lune \"pastore\" tengono confinati alcuni anelli stretti.",
+      "Gli anelli di Giove, Urano e Nettuno sono invece sottili, scuri e fatti di polvere o di materiale scuro, e furono scoperti solo negli anni Settanta e Ottanta."
+     ]
+    },
+    {
+     "h": "Come nascono",
+     "p": [
+      "Ci sono due ipotesi. Secondo la prima, gli anelli sono i resti di una luna frantumata, da un impatto o dalle forze di marea del pianeta. Secondo la seconda, sono particelle che non sono mai riuscite ad aggregarsi in una luna: troppo vicino al pianeta, le forze di marea impediscono a un satellite di formarsi.",
+      "Non sappiamo quale spiegazione valga per ciascun anello, anche se molti scienziati pensano che almeno alcuni anelli siano relativamente giovani e quindi frutto di una frantumazione. Le misure della sonda Cassini suggeriscono che gli anelli di Saturno potrebbero avere solo poche centinaia di milioni di anni, anche se la questione è dibattuta."
+     ]
+    },
+    {
+     "h": "Encelado",
+     "p": [
+      "C'è un anello molto debole e diffuso, l'anello E, associato alla piccola luna ghiacciata di Saturno Encelado, larga appena 500 chilometri. Poiché una nube così tenue di cristalli di ghiaccio tende a disperdersi, la sua esistenza indica che viene continuamente rifornita da una sorgente su Encelado.",
+      "Con grande attesa, a partire dal 2005, gli scienziati della missione Cassini fecero passare la sonda più volte vicino a Encelado. Scoprirono getti di vapore acqueo e cristalli di ghiaccio che escono da fratture vicino al polo sud, chiamate \"strisce di tigre\": geyser alimentati da un oceano di acqua salata sotto la crosta di ghiaccio.",
+      "Attraversando i getti, Cassini ha rilevato sali, composti organici e idrogeno molecolare, un possibile segno di reazioni tra acqua e roccia calda sul fondale. Encelado è così diventato uno dei luoghi più promettenti del Sistema solare per cercare la vita."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Con un piccolo telescopio gli anelli di Saturno si vedono già a 30 ingrandimenti: è uno degli spettacoli più emozionanti per chi inizia.",
+   "mistakes": [
+    "\"Solo Saturno ha gli anelli\": li hanno tutti i pianeti giganti.",
+    "\"Gli anelli sono dischi solidi\": sono miliardi di particelle separate.",
+    "\"Le lune ghiacciate sono mondi morti\": Encelado ha geyser e un oceano."
+   ],
+   "terms": [
+    {
+     "t": "Luna regolare",
+     "d": "Luna in orbita vicino all'equatore, nello stesso verso della rotazione."
+    },
+    {
+     "t": "Luna pastore",
+     "d": "Piccola luna che confina un anello."
+    },
+    {
+     "t": "Divisione di Cassini",
+     "d": "Grande lacuna negli anelli di Saturno."
+    },
+    {
+     "t": "Geyser",
+     "d": "Getto di vapore e ghiaccio da una fessura."
+    }
+   ],
+   "quote": {
+    "text": "Since such a tenuous cloud of ice crystals will tend to dissipate, the ongoing existence of the E Ring strongly suggests that it is being continually replenished by a source at Enceladus.",
+    "translation": "Poiché una nube così tenue di cristalli di ghiaccio tende a disperdersi, l'esistenza continua dell'anello E suggerisce fortemente che venga rifornito di continuo da una sorgente su Encelado."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "12.5 Planetary rings and enceladus",
+     "url": "https://openstax.org/books/astronomy-2e/pages/12-5-planetary-rings-and-enceladus"
+    },
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "12.1 Ring and moon systems introduced",
+     "url": "https://openstax.org/books/astronomy-2e/pages/12-1-ring-and-moon-systems-introduced"
+    }
+   ],
+   "videos": [
+    {
+     "id": "6Bv8g5xBJSo",
+     "title": "How Saturn Got Its Rings | The Planets | BBC Earth Science",
+     "channel": "BBC Earth Science",
+     "length": "6:56"
+    },
+    {
+     "id": "PQSagzssvUQ",
+     "title": "What You Need to Know About Enceladus",
+     "channel": "NASA",
+     "length": "1:35"
+    }
+   ],
+   "videoQuery": "saturn rings enceladus",
+   "addedAt": "2026-11-04T11:24:52Z"
+  },
+  {
+   "id": "asteroidi",
+   "subject": "astronomia",
+   "chapter": "Sistema solare",
+   "title": "Gli asteroidi: detriti rocciosi del Sistema solare",
+   "hook": "Milioni di corpi rocciosi tra Marte e Giove e non solo. Di cosa sono fatti, che forme hanno e cosa hanno scoperto le sonde che li hanno visitati e toccati.",
+   "points": [
+    "La fascia principale",
+    "Tipi e composizione",
+    "Forme, dimensioni e lune",
+    "Le missioni sugli asteroidi"
+   ],
+   "sections": [
+    {
+     "h": "La fascia degli asteroidi",
+     "p": [
+      "Il primo asteroide, Cerere, fu scoperto nel 1801 dall'astronomo italiano Giuseppe Piazzi a Palermo. Oggi Cerere, con circa 940 chilometri di diametro, è classificato come pianeta nano; si conoscono oltre un milione di asteroidi.",
+      "La maggior parte si trova nella fascia principale, tra Marte e Giove. Nonostante i film, la fascia è quasi vuota: gli asteroidi sono separati in media da milioni di chilometri, e le sonde la attraversano senza problemi. La massa totale di tutta la fascia è solo una piccola frazione di quella della Luna. La gravità di Giove impedì a questi corpi di unirsi in un pianeta."
+     ]
+    },
+    {
+     "h": "Di cosa sono fatti",
+     "p": [
+      "Dagli spettri della luce riflessa, gli astronomi distinguono diversi tipi. I più numerosi sono i tipi C, scuri e ricchi di carbonio e di composti primitivi. Il secondo gruppo più popoloso è quello dei tipi S, dove la S sta per composizione rocciosa o silicatica. Esistono anche tipi M, metallici, fatti di ferro e nichel: forse i nuclei di corpi più grandi distrutti da collisioni.",
+      "Molti meteoriti caduti sulla Terra sono frammenti di asteroidi, e il confronto permette di collegare certi meteoriti a specifiche famiglie di asteroidi."
+     ]
+    },
+    {
+     "h": "Forme e lune",
+     "p": [
+      "Solo i più grandi sono abbastanza massicci da essere sferici. Gli altri hanno forme irregolari: Eros, visitato dalla sonda NEAR, è molto allungato, a forma di cilindro approssimativo; altri somigliano a patate o a ossa per cani.",
+      "Molti asteroidi piccoli non sono blocchi solidi ma \"cumuli di macerie\", insiemi di sassi tenuti insieme dalla debole gravità. Alcuni hanno piccole lune: la prima fu scoperta nel 1993 dalla sonda Galileo, intorno all'asteroide Ida."
+     ]
+    },
+    {
+     "h": "Andare a toccarli",
+     "p": [
+      "Diverse missioni hanno visitato asteroidi. La sonda Dawn ha orbitato intorno a Vesta e Cerere, scoprendo su Cerere depositi di sali, residui di acqua salata salita dall'interno. Le missioni giapponesi Hayabusa e Hayabusa2 hanno riportato sulla Terra campioni degli asteroidi Itokawa e Ryugu.",
+      "La missione OSIRIS-REx della NASA ha raccolto campioni da Bennu, un piccolo asteroide scuro di circa mezzo chilometro che ruota rapidamente, e li ha riportati sulla Terra nel 2023: contengono acqua legata nei minerali e composti organici, compresi alcuni mattoni della vita. Questi campioni sono una finestra sull'infanzia del Sistema solare."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Cerere, il primo asteroide scoperto, fu trovato da Giuseppe Piazzi la notte del primo gennaio 1801 dall'osservatorio di Palermo.",
+   "mistakes": [
+    "\"La fascia degli asteroidi è piena di rocce vicine\": sono separate da milioni di chilometri.",
+    "\"La fascia è un pianeta esploso\": è materiale che non è mai riuscito a formare un pianeta.",
+    "\"Gli asteroidi sono tutti blocchi di roccia compatti\": molti sono cumuli di macerie."
+   ],
+   "terms": [
+    {
+     "t": "Fascia principale",
+     "d": "Regione degli asteroidi tra Marte e Giove."
+    },
+    {
+     "t": "Asteroide di tipo C",
+     "d": "Asteroide scuro ricco di carbonio."
+    },
+    {
+     "t": "Cumulo di macerie",
+     "d": "Asteroide fatto di frammenti tenuti insieme dalla gravità."
+    },
+    {
+     "t": "Ritorno di campioni",
+     "d": "Missione che riporta materiale sulla Terra."
+    }
+   ],
+   "quote": {
+    "text": "The second most populous group is the S-type asteroids, where “S” stands for a stony or silicate composition.",
+    "translation": "Il secondo gruppo più popoloso è quello degli asteroidi di tipo S, dove la \"S\" indica una composizione rocciosa o silicatica."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "13.1 Asteroids",
+     "url": "https://openstax.org/books/astronomy-2e/pages/13-1-asteroids"
+    }
+   ],
+   "videos": [
+    {
+     "id": "auxpcdQimCs",
+     "title": "Asteroids: Crash Course Astronomy #20",
+     "channel": "CrashCourse",
+     "length": "11:33"
+    },
+    {
+     "id": "TuDfZ2Md5x8",
+     "title": "Meteors: Crash Course Astronomy #23",
+     "channel": "CrashCourse",
+     "length": "11:22"
+    }
+   ],
+   "videoQuery": "asteroids crash course astronomy",
+   "addedAt": "2026-11-04T11:24:52Z"
+  },
+  {
+   "id": "difesa-planetaria",
+   "subject": "astronomia",
+   "chapter": "Sistema solare",
+   "title": "Difesa planetaria: come proteggere la Terra dagli asteroidi",
+   "hook": "Gli asteroidi vicini alla Terra vengono cercati e seguiti uno per uno. E nel 2022 abbiamo spostato per la prima volta l'orbita di un asteroide.",
+   "points": [
+    "Gli asteroidi vicini alla Terra",
+    "Come si valuta il rischio",
+    "La missione DART",
+    "Cosa fare se ne arrivasse uno"
+   ],
+   "sections": [
+    {
+     "h": "Asteroidi vicini",
+     "p": [
+      "Alcuni asteroidi hanno orbite che si avvicinano a quella della Terra: si chiamano oggetti vicini alla Terra (NEO). Sono frammenti spinti fuori dalla fascia principale dalle perturbazioni di Giove e da altri effetti, e hanno una vita relativamente breve: prima o poi cadono sul Sole, su un pianeta o vengono espulsi.",
+      "Se ne conoscono oltre trentamila. Programmi di sorveglianza in tutto il mondo scansionano il cielo ogni notte per scoprirne di nuovi e calcolarne le orbite con precisione."
+     ]
+    },
+    {
+     "h": "Misurare il rischio",
+     "p": [
+      "Per ogni asteroide scoperto si calcola la probabilità di impatto nei decenni successivi. Spesso, appena scoperto, un oggetto mostra una piccola probabilità che poi scende a zero con nuove osservazioni che precisano l'orbita.",
+      "Si stima che quasi tutti gli asteroidi più grandi di un chilometro vicini alla Terra, quelli capaci di catastrofi globali, siano già stati trovati, e nessuno è in rotta di collisione. Restano da trovare molti oggetti di qualche centinaio di metri, capaci di devastare una regione. Il futuro osservatorio Vera Rubin e il telescopio spaziale NEO Surveyor ne scopriranno molti."
+     ]
+    },
+    {
+     "h": "DART",
+     "p": [
+      "Nel 2022 la missione DART della NASA ha fatto un esperimento senza precedenti: ha lanciato una sonda contro Dimorphos, una piccola luna dell'asteroide Didymos. Dimorphos ha più o meno le dimensioni di una delle grandi piramidi egizie, e la coppia non rappresentava alcun pericolo per la Terra.",
+      "L'urto, a oltre 6 chilometri al secondo, ha accorciato il periodo orbitale di Dimorphos intorno a Didymos di circa 33 minuti, molto più del minimo previsto, anche grazie alla spinta dei detriti espulsi. Il piccolo satellite italiano LICIACube, staccatosi da DART, ha fotografato l'impatto. È stata la prima dimostrazione che l'umanità può deviare un corpo celeste. La missione europea Hera studierà da vicino il risultato."
+     ]
+    },
+    {
+     "h": "Se ne arrivasse uno",
+     "p": [
+      "Il segreto della difesa planetaria è scoprire gli oggetti pericolosi con molti anni di anticipo. Una piccola spinta data presto basta a far mancare la Terra all'asteroide, grazie all'accumulo dello spostamento lungo molte orbite.",
+      "Le tecniche studiate includono l'impatto cinetico come DART, il \"trattore gravitazionale\", una sonda che resta vicino all'asteroide e lo attira lentamente con la propria gravità, e, solo come ultima risorsa per oggetti grandi scoperti tardi, esplosioni nucleari vicine. Per piccoli oggetti scoperti all'ultimo momento, l'unica soluzione sarebbe evacuare la zona di impatto."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Quando leggi \"asteroide in rotta verso la Terra\", di solito significa che passerà a milioni di chilometri, più lontano della Luna.",
+   "mistakes": [
+    "\"Non possiamo fare niente contro un asteroide\": DART ha dimostrato di poterne deviare uno.",
+    "\"Bisogna farlo esplodere come nei film\": meglio spostarlo con largo anticipo.",
+    "\"Ogni allarme sui giornali è un pericolo reale\": quasi sempre la probabilità scende a zero con nuove misure."
+   ],
+   "terms": [
+    {
+     "t": "NEO",
+     "d": "Oggetto vicino alla Terra."
+    },
+    {
+     "t": "Impattore cinetico",
+     "d": "Sonda che urta un asteroide per cambiarne l'orbita."
+    },
+    {
+     "t": "Trattore gravitazionale",
+     "d": "Sonda che sposta un asteroide con la propria gravità."
+    },
+    {
+     "t": "Dimorphos",
+     "d": "Luna asteroidale colpita da DART."
+    }
+   ],
+   "quote": {
+    "text": "Dimorphos is roughly the size of one of the great Egyptian pyramids.",
+    "translation": "Dimorphos ha all'incirca le dimensioni di una delle grandi piramidi egizie."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "13.2 Asteroids and planetary defense",
+     "url": "https://openstax.org/books/astronomy-2e/pages/13-2-asteroids-and-planetary-defense"
+    }
+   ],
+   "videos": [
+    {
+     "id": "vMu5bNadlGo",
+     "title": "NASA's DART Mission Confirms Crashing Spacecraft into Asteroids Can Deflect Them",
+     "channel": "NASA",
+     "length": "1:48"
+    },
+    {
+     "id": "iTLy9gvhN5c",
+     "title": "DARTing Forward in Planetary Defense | Lindley Johnson | TEDxFoggyBottom",
+     "channel": "TEDx Talks",
+     "length": "12:11"
+    }
+   ],
+   "videoQuery": "DART planetary defense",
+   "addedAt": "2026-11-04T11:24:52Z"
+  },
+  {
+   "id": "comete",
+   "subject": "astronomia",
+   "chapter": "Sistema solare",
+   "title": "Le comete: palle di neve sporca con code di milioni di chilometri",
+   "hook": "Un nucleo di pochi chilometri di ghiaccio e polvere che, avvicinandosi al Sole, sviluppa una chioma e due code. Da dove vengono le comete e che fine fanno.",
+   "points": [
+    "Com'è fatta una cometa",
+    "La chioma e le due code",
+    "Da dove vengono",
+    "Le missioni e il destino delle comete"
+   ],
+   "sections": [
+    {
+     "h": "Un nucleo nascosto",
+     "p": [
+      "Le comete sono state per millenni presagi misteriosi. Oggi sappiamo che la sorgente di tutto è un piccolo nucleo solido, largo pochi chilometri, di solito nascosto dal bagliore dell'atmosfera molto più grande che lo circonda.",
+      "Il nucleo è una \"palla di neve sporca\", secondo la definizione dell'astronomo Fred Whipple: ghiacci di acqua, anidride carbonica, monossido di carbonio e altre sostanze, mescolati a polvere e composti organici. Siamo meno sicuri della componente non ghiacciata. La superficie è scurissima, più nera del carbone."
+     ]
+    },
+    {
+     "h": "Chioma e code",
+     "p": [
+      "Lontano dal Sole una cometa è solo un nucleo gelido. Avvicinandosi, il calore fa sublimare i ghiacci, che passano direttamente a gas trascinando con sé la polvere: si forma una nube luminosa intorno al nucleo, la chioma, che può essere più grande di Giove.",
+      "La pressione della luce solare e il vento solare spingono gas e polvere lontano dal Sole, formando le code, che possono essere lunghe decine di milioni di chilometri e puntano sempre in direzione opposta al Sole. La parte più brillante è la coda di polvere, curva e giallastra, distinta da una coda più debole e diritta di gas ionizzato, la coda di ioni, bluastra."
+     ]
+    },
+    {
+     "h": "Da dove vengono",
+     "p": [
+      "Le comete sono residui ghiacciati della formazione del Sistema solare. Le comete di corto periodo, che tornano ogni meno di 200 anni, come la cometa di Halley ogni 76 anni circa, provengono soprattutto dalla fascia di Kuiper, oltre Nettuno.",
+      "Le comete di lungo periodo, con orbite che le portano lontanissimo e le fanno tornare dopo migliaia o milioni di anni, provengono dalla nube di Oort, un'enorme sfera ipotetica di miliardi di nuclei cometari che circonda il Sistema solare fino a forse un anno luce di distanza. Una stella che passa vicina o le maree della galassia possono spingerne qualcuna verso il Sole."
+     ]
+    },
+    {
+     "h": "Missioni e destino",
+     "p": [
+      "Nel 1986 la sonda europea Giotto, chiamata così in onore del pittore che dipinse la cometa nella Cappella degli Scrovegni, fotografò per prima un nucleo cometario, quello di Halley. La missione europea Rosetta orbitò per due anni intorno alla cometa 67P/Churyumov-Gerasimenko, e nel 2014 il lander Philae vi atterrò.",
+      "Ogni passaggio vicino al Sole consuma un po' di ghiaccio: alla fine una cometa può esaurirsi, diventando un nucleo inerte simile a un asteroide, o frantumarsi. Alcune finiscono sul Sole o su un pianeta: nel 1994 i frammenti della cometa Shoemaker-Levy 9 si schiantarono su Giove, lasciando macchie scure grandi come la Terra. Le polveri che lasciano lungo l'orbita producono le stelle cadenti."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Nel 2020 la cometa NEOWISE era visibile a occhio nudo da tutta Italia: chi l'ha vista non la rivedrà, tornerà fra circa 6800 anni.",
+   "mistakes": [
+    "\"La coda di una cometa segue la cometa\": punta sempre lontano dal Sole.",
+    "\"Le comete sono palle di fuoco\": sono ghiaccio e polvere illuminati dal Sole.",
+    "\"Le comete si muovono velocemente nel cielo in una notte\": si spostano lentamente tra le stelle in giorni e settimane."
+   ],
+   "terms": [
+    {
+     "t": "Nucleo cometario",
+     "d": "Corpo solido di ghiaccio e polvere."
+    },
+    {
+     "t": "Chioma",
+     "d": "Nube di gas e polvere intorno al nucleo."
+    },
+    {
+     "t": "Coda di ioni",
+     "d": "Coda dritta di gas ionizzato."
+    },
+    {
+     "t": "Nube di Oort",
+     "d": "Serbatoio lontanissimo di comete."
+    }
+   ],
+   "quote": {
+    "text": "The brightest part of the tail is called the dust tail, to differentiate it from a fainter, straight tail made of ionized gas, called the ion tail.",
+    "translation": "La parte più brillante della coda si chiama coda di polvere, per distinguerla da una coda più debole e diritta fatta di gas ionizzato, chiamata coda di ioni."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "13.3 The long haired comets",
+     "url": "https://openstax.org/books/astronomy-2e/pages/13-3-the-long-haired-comets"
+    },
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "13.4 The origin and fate of comets and related objects",
+     "url": "https://openstax.org/books/astronomy-2e/pages/13-4-the-origin-and-fate-of-comets-and-related-objects"
+    }
+   ],
+   "videos": [
+    {
+     "id": "yB9HHyPpKds",
+     "title": "Comets: Crash Course Astronomy #21",
+     "channel": "CrashCourse",
+     "length": "11:55"
+    },
+    {
+     "id": "TuDfZ2Md5x8",
+     "title": "Meteors: Crash Course Astronomy #23",
+     "channel": "CrashCourse",
+     "length": "11:22"
+    }
+   ],
+   "videoQuery": "comets crash course astronomy",
+   "addedAt": "2026-11-04T11:24:52Z"
+  },
+  {
+   "id": "meteore-meteoriti",
+   "subject": "astronomia",
+   "chapter": "Sistema solare",
+   "title": "Stelle cadenti e meteoriti: pezzi di cielo sulla Terra",
+   "hook": "Le stelle cadenti sono granelli di polvere che bruciano nell'atmosfera; i meteoriti sono i pochi frammenti che arrivano a terra. Cosa ci raccontano sull'origine del Sistema solare.",
+   "points": [
+    "Meteore e sciami meteorici",
+    "Da dove vengono le stelle cadenti",
+    "Meteoriti: tipi e origini",
+    "Cosa ci insegnano"
+   ],
+   "sections": [
+    {
+     "h": "Le stelle cadenti",
+     "p": [
+      "Una meteora, o stella cadente, è la scia luminosa prodotta da un piccolo frammento, di solito grande come un granello di sabbia, che entra nell'atmosfera a decine di chilometri al secondo e si vaporizza per l'attrito, a circa 100 chilometri di quota. Gli oggetti più grandi producono bolidi, palle di fuoco molto luminose.",
+      "In una notte buia si vedono alcune meteore all'ora che arrivano da direzioni casuali: sono le meteore sporadiche, non associate a uno sciame. La polvere delle comete è apparentemente soffice e inconsistente, e brucia rapidamente."
+     ]
+    },
+    {
+     "h": "Gli sciami",
+     "p": [
+      "Molte, forse la maggior parte, delle meteore che colpiscono la Terra sono legate a specifiche comete. Una cometa lascia lungo la sua orbita una scia di polvere. Quando la Terra, nel suo giro intorno al Sole, attraversa una di queste scie, si vede un improvviso aumento di meteore che dura di solito alcune ore: è uno sciame meteorico.",
+      "Le meteore di uno sciame sembrano partire tutte da un punto del cielo, il radiante, per un effetto di prospettiva, come i fiocchi di neve visti da un'auto in corsa. Lo sciame più famoso in Italia sono le Perseidi, le \"lacrime di San Lorenzo\", attorno al 10-12 agosto, prodotte dalla cometa Swift-Tuttle. Altri sciami importanti sono le Geminidi a dicembre e le Leonidi a novembre. C'è anche polvere proveniente da asteroidi che si sono scontrati e frantumati."
+     ]
+    },
+    {
+     "h": "I meteoriti",
+     "p": [
+      "Un frammento di materiale interplanetario che sopravvive alla discesa infuocata nell'atmosfera e arriva a terra si chiama meteorite. In un singolo luogo i meteoriti cadono molto raramente, ma su tutta la Terra ne cadono migliaia ogni anno. Alcuni sono solitari, ma molti sono frammenti di un oggetto più grande che si è spezzato nell'atmosfera.",
+      "Ne esistono tre grandi tipi: i meteoriti rocciosi, i più comuni; quelli ferrosi, di ferro e nichel, più facili da riconoscere; e quelli misti. Quasi tutti provengono da asteroidi, ma alcuni sono arrivati dalla Luna e da Marte, scagliati nello spazio da grandi impatti. L'Antartide è il posto migliore per trovarli: sul ghiaccio bianco una roccia scura spicca subito."
+     ]
+    },
+    {
+     "h": "Messaggeri dal passato",
+     "p": [
+      "Alcuni meteoriti, le condriti carbonacee, sono tra i materiali più primitivi che conosciamo: quasi immutati da 4,56 miliardi di anni, contengono le prime sostanze solide condensate nel Sistema solare e misurano la sua età.",
+      "Alcuni contengono acqua legata nei minerali e molecole organiche, tra cui amminoacidi, i mattoni delle proteine. Il meteorite di Murchison, caduto in Australia nel 1969, ne contiene decine: un indizio che gli ingredienti della vita sono comuni nello spazio."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Per vedere le Perseidi ad agosto vai lontano dalle luci, sdraiati e guarda verso nord-est dopo mezzanotte: lascia agli occhi 20 minuti per abituarsi al buio.",
+   "mistakes": [
+    "\"Le stelle cadenti sono stelle\": sono granelli di polvere che bruciano nell'atmosfera.",
+    "\"I meteoriti arrivano roventi\": l'interno resta freddo, spesso arrivano solo tiepidi.",
+    "\"I meteoriti cadono raramente\": su tutta la Terra ne cadono migliaia all'anno."
+   ],
+   "terms": [
+    {
+     "t": "Meteora",
+     "d": "Scia luminosa di un frammento che brucia nell'atmosfera."
+    },
+    {
+     "t": "Sciame meteorico",
+     "d": "Aumento di meteore quando la Terra attraversa una scia di polvere."
+    },
+    {
+     "t": "Radiante",
+     "d": "Punto da cui sembrano provenire le meteore di uno sciame."
+    },
+    {
+     "t": "Meteorite",
+     "d": "Frammento che arriva fino al suolo."
+    }
+   ],
+   "quote": {
+    "text": "When Earth, in its travels around the Sun, crosses such a dust stream, we see a sudden burst of meteor activity that usually lasts several hours; such an event is called a meteor shower.",
+    "translation": "Quando la Terra, nel suo viaggio intorno al Sole, attraversa una di queste scie di polvere, vediamo un improvviso aumento di meteore che di solito dura alcune ore; un evento simile si chiama sciame meteorico."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "14.1 Meteors",
+     "url": "https://openstax.org/books/astronomy-2e/pages/14-1-meteors"
+    },
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "14.2 Meteorites stones from heaven",
+     "url": "https://openstax.org/books/astronomy-2e/pages/14-2-meteorites-stones-from-heaven"
+    }
+   ],
+   "videos": [
+    {
+     "id": "TuDfZ2Md5x8",
+     "title": "Meteors: Crash Course Astronomy #23",
+     "channel": "CrashCourse",
+     "length": "11:22"
+    },
+    {
+     "id": "auxpcdQimCs",
+     "title": "Asteroids: Crash Course Astronomy #20",
+     "channel": "CrashCourse",
+     "length": "11:33"
+    }
+   ],
+   "videoQuery": "meteors meteorites crash course astronomy",
+   "addedAt": "2026-11-04T11:24:52Z"
+  },
+  {
    "id": "pianeti-a-confronto",
    "subject": "astronomia",
    "chapter": "Sistema solare",
@@ -21248,6 +21943,298 @@
    "videos": [],
    "videoQuery": "comparative planetology",
    "addedAt": "2026-11-04T11:19:31Z"
+  },
+  {
+   "id": "struttura-del-sole",
+   "subject": "astronomia",
+   "chapter": "Stelle",
+   "title": "La struttura del Sole: dal nucleo alla corona",
+   "hook": "Il Sole è una sfera di plasma a strati: nucleo, zona radiativa, zona convettiva, fotosfera, cromosfera e una corona da milioni di gradi.",
+   "points": [
+    "Di cosa è fatto il Sole",
+    "L'interno a strati",
+    "La fotosfera e la granulazione",
+    "Cromosfera e corona"
+   ],
+   "sections": [
+    {
+     "h": "Una stella qualunque",
+     "p": [
+      "Il Sole è una stella di dimensioni medie, ma per noi è speciale: è l'unica che possiamo studiare da vicino. Il suo diametro è circa 109 volte quello terrestre, e la sua massa circa 333.000 volte. È fatto per circa tre quarti di idrogeno e un quarto di elio, con piccole quantità di elementi più pesanti.",
+      "Il Sole non ha una superficie solida: è una sfera di plasma, gas così caldo che gli atomi hanno perso parte dei loro elettroni."
+     ]
+    },
+    {
+     "h": "L'interno",
+     "p": [
+      "Il nucleo del Sole è estremamente denso e caldo, circa 15 milioni di gradi, ed è la sorgente di tutta la sua energia, prodotta dalla fusione dell'idrogeno in elio. Occupa circa un quarto del raggio.",
+      "Intorno al nucleo c'è la zona radiativa, dove l'energia viaggia sotto forma di luce, assorbita e riemessa innumerevoli volte, in un lento percorso a zig-zag. La zona convettiva è lo strato più esterno dell'interno solare: lì il gas caldo sale, si raffredda in superficie e riscende, come l'acqua in una pentola che bolle, trasportando l'energia fino in superficie."
+     ]
+    },
+    {
+     "h": "La fotosfera",
+     "p": [
+      "La fotosfera è lo strato da cui arriva quasi tutta la luce visibile: è ciò che chiamiamo \"superficie\" del Sole. Ha una temperatura di circa 5800 gradi kelvin ed è sottile, poche centinaia di chilometri.",
+      "Al telescopio, con filtri adeguati, appare coperta di granuli, celle di circa 1000 chilometri che durano pochi minuti: sono le sommità delle colonne di gas convettivo, calde e chiare al centro e più fredde ai bordi dove il gas riscende. Il bordo del Sole appare più scuro del centro, perché lì vediamo strati più alti e freddi. Non bisogna mai guardare il Sole direttamente, nemmeno con un binocolo, senza filtri specifici."
+     ]
+    },
+    {
+     "h": "Cromosfera e corona",
+     "p": [
+      "La regione dell'atmosfera solare immediatamente sopra la fotosfera si chiama cromosfera. Si vede durante le eclissi totali come un sottile anello rossastro, dovuto alla luce dell'idrogeno.",
+      "La parte più esterna dell'atmosfera del Sole si chiama corona. Durante un'eclissi totale appare come un alone perlaceo che si estende per milioni di chilometri. Sorprendentemente, la corona è caldissima, oltre un milione di gradi, molto più della fotosfera sottostante. Come si scaldi così tanto è ancora oggetto di ricerca: probabilmente c'entrano i campi magnetici, che trasportano energia in onde e piccole esplosioni continue.",
+      "La sonda Parker Solar Probe della NASA, la più veloce mai costruita, è passata a pochi milioni di chilometri dalla superficie, \"toccando\" la corona; la sonda europea Solar Orbiter ne osserva i poli."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Durante un'eclissi totale di Sole, per pochi minuti, la corona diventa visibile a occhio nudo: è uno degli spettacoli più emozionanti della natura.",
+   "mistakes": [
+    "\"Il Sole è una palla di fuoco\": è plasma che brilla per fusione nucleare.",
+    "\"Più ci si allontana dal Sole più fa freddo, sempre\": la corona è molto più calda della fotosfera.",
+    "\"Il Sole ha una superficie solida\": la fotosfera è uno strato di gas."
+   ],
+   "terms": [
+    {
+     "t": "Nucleo solare",
+     "d": "Regione centrale dove avviene la fusione."
+    },
+    {
+     "t": "Zona convettiva",
+     "d": "Strato esterno dell'interno dove il gas sale e scende."
+    },
+    {
+     "t": "Fotosfera",
+     "d": "Strato da cui arriva la luce visibile."
+    },
+    {
+     "t": "Corona",
+     "d": "Atmosfera esterna del Sole, a milioni di gradi."
+    }
+   ],
+   "quote": {
+    "text": "The Sun’s core is extremely dense and is the source of all of its energy.",
+    "translation": "Il nucleo del Sole è estremamente denso ed è la sorgente di tutta la sua energia."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "15.1 The structure and composition of the sun",
+     "url": "https://openstax.org/books/astronomy-2e/pages/15-1-the-structure-and-composition-of-the-sun"
+    }
+   ],
+   "videos": [
+    {
+     "id": "2HoTK_Gqi2Q",
+     "title": "Sun 101 | National Geographic",
+     "channel": "National Geographic",
+     "length": "5:01"
+    },
+    {
+     "id": "WIbr-ja1a-g",
+     "title": "Structure and Composition of the Sun",
+     "channel": "Launch Pad Astronomy",
+     "length": "10:34"
+    }
+   ],
+   "videoQuery": "structure of the sun",
+   "addedAt": "2026-11-04T11:24:52Z"
+  },
+  {
+   "id": "ciclo-solare",
+   "subject": "astronomia",
+   "chapter": "Stelle",
+   "title": "Macchie solari, brillamenti e il ciclo di 11 anni",
+   "hook": "Il Sole cambia: le macchie aumentano e diminuiscono in un ciclo di circa 11 anni, guidato da un campo magnetico che si attorciglia e si inverte.",
+   "points": [
+    "Le macchie solari",
+    "Il ciclo solare",
+    "La dinamo magnetica del Sole",
+    "Protuberanze, brillamenti ed espulsioni di massa"
+   ],
+   "sections": [
+    {
+     "h": "Macchie scure",
+     "p": [
+      "Le macchie solari sono regioni scure sulla fotosfera, spesso più grandi della Terra. Appaiono scure perché sono più fredde dell'ambiente circostante, circa 4000 gradi invece di 5800: in realtà brillerebbero intensamente se fossero isolate.",
+      "Sono zone in cui il campo magnetico è intensissimo, migliaia di volte quello terrestre, e ostacola la risalita del gas caldo dalla zona convettiva. Per questo appaiono come regioni più scure e più fredde. Galileo, osservandole spostarsi, scoprì che il Sole ruota, in circa un mese."
+     ]
+    },
+    {
+     "h": "Il ciclo di 11 anni",
+     "p": [
+      "Il numero di macchie solari non è costante: aumenta e diminuisce con un ciclo medio di circa 11 anni, tra un massimo, con centinaia di macchie, e un minimo, con quasi nessuna. A ogni ciclo il campo magnetico generale del Sole si inverte: il ciclo magnetico completo dura quindi circa 22 anni.",
+      "Nel corso di un ciclo le macchie compaiono prima ad alte latitudini solari e poi sempre più vicino all'equatore, disegnando nei grafici una figura chiamata diagramma a farfalla."
+     ]
+    },
+    {
+     "h": "La dinamo solare",
+     "p": [
+      "Gli astronomi hanno scoperto che è la dinamo del Sole a generare il campo magnetico. Una dinamo trasforma energia di movimento in energia magnetica; nel Sole la sorgente di energia di movimento è il rimescolamento degli strati turbolenti di gas ionizzato all'interno.",
+      "Il Sole ruota più velocemente all'equatore, circa 25 giorni, che vicino ai poli, oltre 30. Questa rotazione differenziale stira e attorciglia le linee del campo magnetico come elastici, finché fasci di campo affiorano in superficie formando coppie di macchie. Accumulandosi e riorganizzandosi, il campo alla fine si inverte."
+     ]
+    },
+    {
+     "h": "Attività sopra la fotosfera",
+     "p": [
+      "Sopra le regioni attive il campo magnetico solleva archi di gas luminoso, le protuberanze, che possono restare sospese per settimane o essere scagliate nello spazio.",
+      "I brillamenti sono esplosioni improvvise in cui l'energia magnetica accumulata viene liberata in pochi minuti, emettendo raggi X e particelle velocissime: un grande brillamento libera l'energia di milioni di bombe nucleari. Le espulsioni di massa coronale scagliano nello spazio miliardi di tonnellate di plasma magnetizzato.",
+      "Questi fenomeni sono più frequenti vicino al massimo del ciclo, e quando sono diretti verso la Terra possono influenzare il nostro ambiente spaziale."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Con un apposito filtro solare su un piccolo telescopio, negli anni di massimo puoi vedere decine di macchie spostarsi giorno dopo giorno.",
+   "mistakes": [
+    "\"Le macchie solari sono buchi o zone spente\": sono zone più fredde con forti campi magnetici.",
+    "\"Il Sole è sempre uguale\": la sua attività varia con un ciclo di 11 anni.",
+    "\"Il Sole ruota come un corpo rigido\": l'equatore ruota più velocemente dei poli."
+   ],
+   "terms": [
+    {
+     "t": "Macchia solare",
+     "d": "Zona più fredda e scura con forte campo magnetico."
+    },
+    {
+     "t": "Ciclo solare",
+     "d": "Variazione dell'attività in circa 11 anni."
+    },
+    {
+     "t": "Rotazione differenziale",
+     "d": "Rotazione più veloce all'equatore che ai poli."
+    },
+    {
+     "t": "Brillamento",
+     "d": "Esplosione improvvisa di energia magnetica."
+    }
+   ],
+   "quote": {
+    "text": "Astronomers have found that it is the Sun’s dynamo that generates the magnetic field.",
+    "translation": "Gli astronomi hanno scoperto che è la dinamo del Sole a generare il campo magnetico."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "15.2 The solar cycle",
+     "url": "https://openstax.org/books/astronomy-2e/pages/15-2-the-solar-cycle"
+    },
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "15.3 Solar activity above the photosphere",
+     "url": "https://openstax.org/books/astronomy-2e/pages/15-3-solar-activity-above-the-photosphere"
+    }
+   ],
+   "videos": [
+    {
+     "id": "sASbVkK-p0w",
+     "title": "NASA | Solar Cycle",
+     "channel": "NASA Goddard",
+     "length": "3:26"
+    },
+    {
+     "id": "Z0uIcLZ5rh8",
+     "title": "The Solar Cycle As Seen From Space",
+     "channel": "NASA Goddard",
+     "length": "1:25"
+    }
+   ],
+   "videoQuery": "sunspots solar cycle",
+   "addedAt": "2026-11-04T11:24:52Z"
+  },
+  {
+   "id": "meteo-spaziale",
+   "subject": "astronomia",
+   "chapter": "Stelle",
+   "title": "Il meteo spaziale: quando le tempeste solari colpiscono la Terra",
+   "hook": "Le tempeste solari creano aurore spettacolari, ma possono anche danneggiare satelliti, reti elettriche e GPS. Come si prevedono e cosa è successo in passato.",
+   "points": [
+    "Che cos'è il meteo spaziale",
+    "Aurore e tempeste geomagnetiche",
+    "I rischi per la tecnologia",
+    "Il Sole e il clima: il minimo di Maunder"
+   ],
+   "sections": [
+    {
+     "h": "Il tempo tra il Sole e la Terra",
+     "p": [
+      "Il Sole emette continuamente vento solare e, durante i periodi attivi, brillamenti ed espulsioni di massa coronale. Lo studio di come queste emissioni influenzano l'ambiente vicino alla Terra si chiama meteo spaziale; quando questo tempo diventa tempestoso, la nostra tecnologia è a rischio.",
+      "Satelliti come SOHO e SDO osservano il Sole continuamente, e sonde posizionate tra Sole e Terra misurano il vento solare in arrivo, dando un preavviso di circa un'ora. Le espulsioni di massa coronale impiegano da uno a tre giorni per arrivare."
+     ]
+    },
+    {
+     "h": "Aurore e tempeste",
+     "p": [
+      "Quando un'espulsione di massa coronale colpisce la magnetosfera terrestre, la scuote e la comprime: è una tempesta geomagnetica. Particelle cariche vengono accelerate verso le regioni polari e urtano gli atomi dell'alta atmosfera, facendoli brillare: sono le aurore, verdi e rosse per l'ossigeno, violacee per l'azoto.",
+      "Durante le tempeste più forti le aurore si vedono molto più lontano dai poli: nel maggio 2024 una grande tempesta le ha rese visibili anche in Italia."
+     ]
+    },
+    {
+     "h": "I rischi",
+     "p": [
+      "Le tempeste solari possono danneggiare i satelliti, disturbare le comunicazioni radio e la precisione del GPS, aumentare la dose di radiazioni per gli astronauti e per i passeggeri dei voli polari. Le correnti indotte nelle lunghe linee elettriche possono danneggiare i trasformatori: nel 1989 una tempesta lasciò senza corrente per nove ore milioni di persone in Québec, in Canada.",
+      "La più grande tempesta registrata è l'evento di Carrington del 1859: le aurore si videro fino ai Caraibi e i telegrafi diedero scosse agli operatori e presero fuoco. Un evento simile oggi potrebbe causare danni enormi. Come per gli uragani sulla Terra, gli eventi più difficili da prevedere sono proprio i più grandi e dannosi: tempeste rare ed estreme."
+     ]
+    },
+    {
+     "h": "Il Sole e il clima",
+     "p": [
+      "La luminosità del Sole varia pochissimo durante il ciclo, circa lo 0,1%. Ci sono però periodi lunghi di attività insolitamente bassa: tra il 1645 e il 1715 si osservarono pochissime macchie, il cosiddetto minimo di Maunder. Oltre al minimo di Maunder del Seicento, il numero di macchie fu un po' più basso anche nella prima parte dell'Ottocento: è il periodo chiamato piccolo minimo di Maunder.",
+      "Il minimo di Maunder coincise in parte con un periodo freddo in Europa, la \"piccola era glaciale\", ma il legame è dibattuto e probabilmente contarono anche le eruzioni vulcaniche. In ogni caso le variazioni solari non spiegano il riscaldamento globale attuale: negli ultimi decenni l'attività solare è rimasta stabile o è diminuita leggermente, mentre le temperature sono salite."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Nel maggio 2024 molte persone in Italia hanno fotografato con il telefono un cielo rosa e viola: era un'aurora causata da una tempesta solare.",
+   "mistakes": [
+    "\"Le tempeste solari sono pericolose per le persone a terra\": l'atmosfera e il campo magnetico ci proteggono; il rischio è per la tecnologia.",
+    "\"Le aurore si vedono solo ai poli\": nelle grandi tempeste arrivano anche in Italia.",
+    "\"Il riscaldamento globale è colpa del Sole\": l'attività solare non è aumentata."
+   ],
+   "terms": [
+    {
+     "t": "Meteo spaziale",
+     "d": "Condizioni dell'ambiente spaziale influenzate dal Sole."
+    },
+    {
+     "t": "Tempesta geomagnetica",
+     "d": "Perturbazione della magnetosfera terrestre."
+    },
+    {
+     "t": "Evento di Carrington",
+     "d": "La più grande tempesta solare registrata, nel 1859."
+    },
+    {
+     "t": "Minimo di Maunder",
+     "d": "Periodo di pochissime macchie solari, 1645-1715."
+    }
+   ],
+   "quote": {
+    "text": "This field of research is called space weather; when that weather turns stormy, our technology turns out to be at risk.",
+    "translation": "Questo campo di ricerca si chiama meteo spaziale; quando questo tempo diventa tempestoso, la nostra tecnologia risulta a rischio."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "15.4 Space weather",
+     "url": "https://openstax.org/books/astronomy-2e/pages/15-4-space-weather"
+    }
+   ],
+   "videos": [
+    {
+     "id": "HJfy8acFaOg",
+     "title": "Space Weather and Earth's Aurora",
+     "channel": "NASA Video",
+     "length": "4:49"
+    },
+    {
+     "id": "oHHSSJDJ4oo",
+     "title": "Could Solar Storms Destroy Civilization? Solar Flares & Coronal Mass Ejections",
+     "channel": "Kurzgesagt – In a Nutshell",
+     "length": "8:23"
+    }
+   ],
+   "videoQuery": "space weather solar storms",
+   "addedAt": "2026-11-04T11:24:52Z"
   },
   {
    "id": "fusione-sole",
@@ -21366,6 +22353,685 @@
      "d": "Nel nucleo del Sole quattro nuclei di idrogeno diventano un nucleo di elio."
     }
    ]
+  },
+  {
+   "id": "dentro-il-sole",
+   "subject": "astronomia",
+   "chapter": "Stelle",
+   "title": "Guardare dentro il Sole: neutrini e terremoti solari",
+   "hook": "Non si può vedere l'interno del Sole, ma si può ascoltare e misurare. Le onde sismiche solari e i neutrini hanno confermato come funziona la fornace al suo centro.",
+   "points": [
+    "Quanto può durare il Sole",
+    "L'eliosismologia",
+    "I neutrini solari",
+    "Il problema dei neutrini mancanti"
+   ],
+   "sections": [
+    {
+     "h": "Il mistero dell'energia",
+     "p": [
+      "Nell'Ottocento si cercò di capire quale fonte potesse alimentare il Sole. Se fosse carbone in fiamme, sarebbe durato poche migliaia di anni. Lord Kelvin e Hermann von Helmholtz proposero che il Sole brillasse contraendosi lentamente sotto la propria gravità, liberando calore: ma anche così sarebbe durato solo qualche decina di milioni di anni.",
+      "Geologi e biologi, intanto, mostravano che la Terra e la vita avevano bisogno di centinaia di milioni o miliardi di anni. Gli scienziati si trovarono così davanti a un enigma di proporzioni enormi, risolto solo con la scoperta dell'energia nucleare e della fusione."
+     ]
+    },
+    {
+     "h": "Il Sole vibra",
+     "p": [
+      "Come si può verificare che i modelli dell'interno solare siano giusti? Una tecnica è l'eliosismologia. La superficie del Sole oscilla avanti e indietro, con periodi di circa cinque minuti, a causa di onde sonore che rimbalzano all'interno, come le onde sismiche dei terremoti all'interno della Terra.",
+      "Misurando milioni di queste oscillazioni con satelliti e reti di telescopi, gli astronomi ricostruiscono temperatura, densità e movimenti degli strati interni. L'eliosismologia ha mostrato che la convezione si estende dalla superficie verso l'interno per il 30% del raggio, e che la quantità di elio all'interno, tranne nel nucleo dove la fusione ha trasformato idrogeno in elio, è circa la stessa che in superficie. Le onde impiegano poco più di un'ora ad attraversare il Sole, quindi ci informano sul suo stato attuale."
+     ]
+    },
+    {
+     "h": "I neutrini",
+     "p": [
+      "La seconda tecnica per sondare l'interno del Sole consiste nel rivelare alcuni degli sfuggenti neutrini prodotti dalla fusione nucleare. La luce prodotta nel nucleo impiega moltissimo tempo per uscire; i neutrini invece attraversano il Sole quasi senza interagire e arrivano sulla Terra in poco più di 8 minuti: sono messaggeri diretti di ciò che succede ora nel nucleo.",
+      "Rivelarli è difficilissimo, proprio perché attraversano quasi tutto: ogni secondo decine di miliardi di neutrini solari attraversano ogni centimetro quadrato del tuo corpo senza lasciare traccia. Servono rivelatori giganteschi, sepolti in profondità per schermarli da altre radiazioni, come quelli dei Laboratori Nazionali del Gran Sasso, sotto 1400 metri di roccia."
+     ]
+    },
+    {
+     "h": "I neutrini mancanti",
+     "p": [
+      "Quando, dagli anni Sessanta, si cominciarono a misurare i neutrini solari, se ne trovò circa un terzo di quelli previsti. Per decenni il \"problema dei neutrini solari\" mise in dubbio i modelli del Sole.",
+      "La soluzione arrivò all'inizio degli anni Duemila: i neutrini esistono in tre tipi, e durante il viaggio dal Sole alla Terra possono trasformarsi da un tipo all'altro, oscillando. I primi rivelatori vedevano solo un tipo. Misurando tutti i tipi, il totale torna perfettamente con le previsioni. Il modello del Sole era giusto, ed è stata la fisica dei neutrini a dover cambiare: le oscillazioni significano che i neutrini hanno una massa, scoperta premiata con il Nobel nel 2015."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Di notte i neutrini del Sole ti attraversano dal basso, dopo aver attraversato tutta la Terra: per loro il pianeta è quasi trasparente.",
+   "mistakes": [
+    "\"Il Sole brucia come un combustibile\": la sua energia viene dalla fusione nucleare.",
+    "\"I neutrini si fermano facilmente\": attraversano la Terra quasi senza interagire.",
+    "\"Il problema dei neutrini dimostrava che il modello solare era sbagliato\": dipendeva dalle proprietà dei neutrini."
+   ],
+   "terms": [
+    {
+     "t": "Eliosismologia",
+     "d": "Studio dell'interno del Sole tramite le sue oscillazioni."
+    },
+    {
+     "t": "Neutrino",
+     "d": "Particella leggerissima prodotta dalla fusione."
+    },
+    {
+     "t": "Oscillazione dei neutrini",
+     "d": "Trasformazione dei neutrini da un tipo all'altro."
+    },
+    {
+     "t": "Laboratori del Gran Sasso",
+     "d": "Laboratori sotterranei italiani per la fisica delle particelle."
+    }
+   ],
+   "quote": {
+    "text": "It takes a little over an hour for waves to traverse the Sun from center to surface, so the waves, like neutrinos, provide information about what the solar interior is like at the present time.",
+    "translation": "Le onde impiegano poco più di un'ora ad attraversare il Sole dal centro alla superficie, quindi, come i neutrini, forniscono informazioni su com'è l'interno solare nel momento attuale."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "16.4 The solar interior observations",
+     "url": "https://openstax.org/books/astronomy-2e/pages/16-4-the-solar-interior-observations"
+    },
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "16.1 Sources of sunshine thermal and gravitational energy",
+     "url": "https://openstax.org/books/astronomy-2e/pages/16-1-sources-of-sunshine-thermal-and-gravitational-energy"
+    }
+   ],
+   "videos": [
+    {
+     "id": "nN5hnznAVX0",
+     "title": "The solar neutrino problem | Even Bananas 08",
+     "channel": "Fermilab",
+     "length": "7:15"
+    }
+   ],
+   "videoQuery": "solar neutrinos helioseismology",
+   "addedAt": "2026-11-04T11:24:52Z"
+  },
+  {
+   "id": "luminosita-colori-stelle",
+   "subject": "astronomia",
+   "chapter": "Stelle",
+   "title": "Luminosità e colori delle stelle: magnitudini e temperature",
+   "hook": "Una stella può sembrare debole perché è lontana o perché è davvero poco luminosa. Come si misura la luce delle stelle e cosa ci dice il loro colore.",
+   "points": [
+    "Luminosità e luminosità apparente",
+    "La scala delle magnitudini",
+    "Il colore come termometro",
+    "Indici di colore e filtri"
+   ],
+   "sections": [
+    {
+     "h": "Quanto brilla davvero",
+     "p": [
+      "Bisogna distinguere due grandezze. La luminosità di una stella è l'energia totale che emette ogni secondo: è una proprietà della stella. La luminosità apparente è quanta luce ci arriva, e dipende anche dalla distanza: diminuisce con il quadrato della distanza.",
+      "Immagina tre lampadine identiche da 25 watt a distanze diverse: la loro luminosità, cioè l'energia emessa, è la stessa, ma la più lontana sembra più debole. Lo stesso vale per le stelle: Sirio, la stella più brillante del cielo notturno, è luminosa 25 volte il Sole, ma appare così brillante soprattutto perché è vicina, a meno di 9 anni luce."
+     ]
+    },
+    {
+     "h": "Le magnitudini",
+     "p": [
+      "Il processo di misura della luminosità apparente delle stelle si chiama fotometria. Gli astronomi usano ancora una scala nata nell'antichità con Ipparco, che classificò le stelle visibili a occhio nudo dalla prima alla sesta grandezza, o magnitudine: le più brillanti di prima, le più deboli di sesta.",
+      "Oggi la scala è definita con precisione: 5 magnitudini di differenza corrispondono a un fattore 100 in luminosità apparente. Attenzione, la scala è al contrario: numeri più piccoli indicano oggetti più brillanti, e gli oggetti brillantissimi hanno magnitudini negative. Sirio ha magnitudine circa −1,5, Venere arriva a −4,6, il Sole −27. I telescopi più potenti vedono oggetti oltre la magnitudine 30."
+     ]
+    },
+    {
+     "h": "Il colore è la temperatura",
+     "p": [
+      "Guardando il cielo con attenzione si nota che le stelle hanno colori diversi: Betelgeuse è arancione, Rigel azzurra, Capella giallastra. Il colore di una stella dipende dalla sua temperatura superficiale, come quello di un pezzo di metallo che si scalda: prima rosso, poi giallo, poi bianco-azzurro.",
+      "Le stelle più fredde, intorno ai 3000 gradi, emettono soprattutto luce rossa; il Sole, a circa 5800, appare bianco-giallastro; le stelle più calde, oltre i 20.000-30.000 gradi, sono azzurre. È l'opposto dell'uso comune nei rubinetti, dove il rosso indica il caldo."
+     ]
+    },
+    {
+     "h": "Misurare il colore",
+     "p": [
+      "Per misurare il colore in modo preciso, gli astronomi misurano la luminosità di una stella attraverso filtri diversi, per esempio uno blu e uno giallo-verde. La differenza tra le due magnitudini si chiama indice di colore: per le stelle azzurre è piccolo o negativo, per quelle rosse grande.",
+      "L'indice di colore funziona come un termometro: permette di stimare la temperatura superficiale di una stella anche lontanissima con poche misure. Bisogna però tenere conto della polvere interstellare, che arrossa la luce delle stelle lontane come l'atmosfera arrossa il Sole al tramonto."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "In inverno, in Orione, confronta l'arancione Betelgeuse con l'azzurra Rigel: stai vedendo stelle con temperature molto diverse.",
+   "mistakes": [
+    "\"Una stella brillante è sempre una stella molto luminosa\": può essere solo vicina.",
+    "\"Magnitudine più alta significa più brillante\": è il contrario.",
+    "\"Le stelle rosse sono le più calde\": sono le più fredde."
+   ],
+   "terms": [
+    {
+     "t": "Luminosità",
+     "d": "Energia totale emessa da una stella ogni secondo."
+    },
+    {
+     "t": "Luminosità apparente",
+     "d": "Quanta luce ci arriva."
+    },
+    {
+     "t": "Magnitudine",
+     "d": "Scala della luminosità apparente, al contrario."
+    },
+    {
+     "t": "Indice di colore",
+     "d": "Differenza di magnitudine tra due filtri, legata alla temperatura."
+    }
+   ],
+   "quote": {
+    "text": "For example, the luminosity of Sirius is 25 times that of the Sun.",
+    "translation": "Per esempio, la luminosità di Sirio è 25 volte quella del Sole."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "17.1 The brightness of stars",
+     "url": "https://openstax.org/books/astronomy-2e/pages/17-1-the-brightness-of-stars"
+    },
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "17.2 Colors of stars",
+     "url": "https://openstax.org/books/astronomy-2e/pages/17-2-colors-of-stars"
+    }
+   ],
+   "videos": [
+    {
+     "id": "sQeopdIfPMQ",
+     "title": "Analyzing Starlight Part 1: Brightness",
+     "channel": "Launch Pad Astronomy",
+     "length": "8:03"
+    }
+   ],
+   "videoQuery": "star brightness magnitude color",
+   "addedAt": "2026-11-04T11:24:52Z"
+  },
+  {
+   "id": "spettri-stelle",
+   "subject": "astronomia",
+   "chapter": "Stelle",
+   "title": "Le classi spettrali delle stelle e le nane brune",
+   "hook": "O, B, A, F, G, K, M: le stelle si classificano per le righe dello spettro, legate alla temperatura. E ci sono oggetti a metà tra stelle e pianeti.",
+   "points": [
+    "La classificazione spettrale",
+    "Le donne di Harvard",
+    "Nane brune",
+    "Cosa si misura dagli spettri"
+   ],
+   "sections": [
+    {
+     "h": "Una sequenza di temperature",
+     "p": [
+      "Gli spettri delle stelle mostrano righe di assorbimento diverse da una stella all'altra. Alla fine dell'Ottocento si capì che queste differenze dipendono soprattutto dalla temperatura superficiale, non dalla composizione, che è simile in quasi tutte le stelle.",
+      "Le stelle si classificano nelle classi spettrali O, B, A, F, G, K, M, dalle più calde alle più fredde. Le stelle O sono azzurre e caldissime, oltre 30.000 gradi; le M rosse e fredde, sotto i 3500. Il Sole è una stella G. Ogni classe è divisa in sottoclassi da 0 a 9: una stella B0 è la più calda delle B, una B9 la più fredda, solo poco più calda di una A0. Una frase inglese per ricordare l'ordine è \"Oh Be A Fine Girl/Guy, Kiss Me\"."
+     ]
+    },
+    {
+     "h": "Le calcolatrici di Harvard",
+     "p": [
+      "La classificazione fu costruita all'Osservatorio di Harvard tra la fine dell'Ottocento e l'inizio del Novecento, in gran parte da un gruppo di donne assunte per analizzare migliaia di lastre fotografiche, chiamate allora \"calcolatrici\".",
+      "Annie Jump Cannon classificò da sola centinaia di migliaia di spettri stellari e sistemò l'ordine delle classi. Cecilia Payne, nella sua tesi del 1925, dimostrò per prima che le stelle sono fatte soprattutto di idrogeno ed elio: un risultato inizialmente accolto con scetticismo e poi confermato. Henrietta Leavitt scoprì la relazione delle cefeidi che permise di misurare le distanze cosmiche."
+     ]
+    },
+    {
+     "h": "Le nane brune",
+     "p": [
+      "Sotto le stelle M ci sono oggetti ancora più freddi, classificati nelle classi L, T e Y. Sono le nane brune: corpi con una massa tra circa 13 e 80 volte quella di Giove, troppo piccoli per accendere la fusione dell'idrogeno in modo stabile.",
+      "Le nane brune brillano debolmente nell'infrarosso per il calore residuo della loro formazione, e si raffreddano lentamente per tutta la vita. Le più fredde hanno temperature simili a quelle di un forno o addirittura di una giornata estiva. Sono un anello di congiunzione tra stelle e pianeti giganti."
+     ]
+    },
+    {
+     "h": "Cosa raccontano gli spettri",
+     "p": [
+      "Dallo spettro di una stella si ricavano molte informazioni oltre alla temperatura. La larghezza delle righe dipende dalla pressione dell'atmosfera, che è più alta nelle stelle compatte e più bassa nelle giganti: così si capisce se una stella è una nana o una gigante, e se ne stima il raggio.",
+      "Lo spostamento delle righe per effetto Doppler dà la velocità con cui la stella si avvicina o si allontana; l'allargamento delle righe indica la velocità di rotazione. L'intensità delle righe rivela la composizione chimica, che nelle stelle più antiche contiene meno elementi pesanti."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Il Sole è una G2: una stella gialla di temperatura media, né tra le più calde né tra le più fredde.",
+   "mistakes": [
+    "\"Le stelle hanno spettri diversi perché sono fatte di cose diverse\": dipende soprattutto dalla temperatura.",
+    "\"Le nane brune sono stelle fallite rarissime\": sono probabilmente numerose.",
+    "\"La classificazione stellare è opera di un solo astronomo\": fu un lavoro collettivo di molte donne di Harvard."
+   ],
+   "terms": [
+    {
+     "t": "Classe spettrale",
+     "d": "Categoria O, B, A, F, G, K, M in base allo spettro."
+    },
+    {
+     "t": "Nana bruna",
+     "d": "Oggetto troppo piccolo per la fusione stabile dell'idrogeno."
+    },
+    {
+     "t": "Annie Jump Cannon",
+     "d": "Astronoma che classificò centinaia di migliaia di stelle."
+    },
+    {
+     "t": "Cecilia Payne",
+     "d": "Astronoma che scoprì che le stelle sono fatte di idrogeno ed elio."
+    }
+   ],
+   "quote": {
+    "text": "A B0 star is the hottest type of B star; a B9 star is the coolest type of B star and is only slightly hotter than an A0 star.",
+    "translation": "Una stella B0 è il tipo più caldo di stella B; una stella B9 è il tipo più freddo di stella B ed è solo leggermente più calda di una stella A0."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "17.3 The spectra of stars and brown dwarfs",
+     "url": "https://openstax.org/books/astronomy-2e/pages/17-3-the-spectra-of-stars-and-brown-dwarfs"
+    },
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "17.4 Using spectra to measure stellar radius composition and motion",
+     "url": "https://openstax.org/books/astronomy-2e/pages/17-4-using-spectra-to-measure-stellar-radius-composition-and-motion"
+    }
+   ],
+   "videos": [
+    {
+     "id": "4zKVx29_A1w",
+     "title": "Brown Dwarfs: Crash Course Astronomy #28",
+     "channel": "CrashCourse",
+     "length": "11:06"
+    }
+   ],
+   "videoQuery": "stellar classification spectral types brown dwarfs",
+   "addedAt": "2026-11-04T11:24:52Z"
+  },
+  {
+   "id": "censimento-stelle",
+   "subject": "astronomia",
+   "chapter": "Stelle",
+   "title": "Un censimento delle stelle: le più comuni sono le più piccole",
+   "hook": "Contando le stelle vicine al Sole si scopre che la maggior parte sono nane rosse, troppo deboli per vederle a occhio nudo. Il Sole è più brillante della maggioranza.",
+   "points": [
+    "Perché serve un censimento",
+    "Le stelle più vicine",
+    "Nane rosse e stelle rare",
+    "Il Sole nella classifica"
+   ],
+   "sections": [
+    {
+     "h": "Contare in modo corretto",
+     "p": [
+      "Se contassimo le stelle che vediamo a occhio nudo, avremmo un'idea sbagliata: vediamo soprattutto stelle molto luminose, visibili anche da lontano, e quasi nessuna delle stelle deboli, anche se vicine. È un effetto di selezione: le stelle brillanti sono sovrarappresentate.",
+      "Per avere un campione rappresentativo bisogna invece contare tutte le stelle entro un certo volume intorno al Sole, per esempio entro qualche decina di anni luce. Un anno luce è la distanza che la luce, il segnale più veloce che conosciamo, percorre in un anno."
+     ]
+    },
+    {
+     "h": "I nostri vicini",
+     "p": [
+      "La stella più vicina è Proxima Centauri, una piccola nana rossa a 4,2 anni luce, troppo debole per essere vista a occhio nudo. Fa parte del sistema di Alfa Centauri, insieme a due stelle simili al Sole. Proxima ha almeno un pianeta di massa simile alla Terra nella sua zona abitabile.",
+      "Entro una ventina di anni luce dal Sole ci sono circa un centinaio di stelle, e molte sono in sistemi doppi o multipli. La maggior parte non si vede a occhio nudo."
+     ]
+    },
+    {
+     "h": "Le nane rosse dominano",
+     "p": [
+      "Il risultato del censimento è sorprendente: le stelle più comuni di gran lunga sono le nane rosse, stelle di classe M piccole, fredde e deboli, con masse tra circa un decimo e metà di quella del Sole. Sono circa tre quarti di tutte le stelle.",
+      "Le stelle molto luminose e massicce, come le giganti azzurre O e B, sono rarissime: per ognuna ci sono migliaia di stelle piccole. Ci sono anche molte nane bianche, i resti di stelle morte, e probabilmente moltissime nane brune.",
+      "Le nane rosse consumano il loro combustibile così lentamente che possono vivere migliaia di miliardi di anni, molto più dell'età attuale dell'universo: nessuna è ancora morta di vecchiaia. Saranno le ultime stelle a brillare."
+     ]
+    },
+    {
+     "h": "Il Sole non è una stella media",
+     "p": [
+      "Spesso si dice che il Sole è una stella media. In realtà, nel censimento, il Sole è più luminoso e più massiccio di circa il 90% delle stelle della nostra zona. Stelle così sono relativamente poche.",
+      "Questo ha implicazioni per la ricerca della vita: le nane rosse sono le stelle più comuni e hanno spesso pianeti rocciosi, ma i loro pianeti abitabili devono stare molto vicini alla stella, e sono esposti a forti brillamenti. Non sappiamo ancora se possano ospitare la vita."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Delle stelle più vicine al Sole, quasi nessuna si vede a occhio nudo: le stelle che vedi la notte sono in gran parte rare giganti lontane.",
+   "mistakes": [
+    "\"Le stelle che vediamo sono le più comuni\": vediamo soprattutto le più luminose.",
+    "\"Il Sole è una stella media\": è più luminoso della grande maggioranza.",
+    "\"La stella più vicina è visibile a occhio nudo\": Proxima Centauri è troppo debole."
+   ],
+   "terms": [
+    {
+     "t": "Effetto di selezione",
+     "d": "Distorsione dovuta al fatto che vediamo più facilmente certi oggetti."
+    },
+    {
+     "t": "Nana rossa",
+     "d": "Stella piccola, fredda e poco luminosa, la più comune."
+    },
+    {
+     "t": "Proxima Centauri",
+     "d": "La stella più vicina al Sole."
+    },
+    {
+     "t": "Sistema multiplo",
+     "d": "Più stelle legate dalla gravità."
+    }
+   ],
+   "quote": {
+    "text": "A light-year is the distance that light (the fastest signal we know) travels in 1 year.",
+    "translation": "Un anno luce è la distanza che la luce (il segnale più veloce che conosciamo) percorre in un anno."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "18.1 A stellar census",
+     "url": "https://openstax.org/books/astronomy-2e/pages/18-1-a-stellar-census"
+    }
+   ],
+   "videos": [
+    {
+     "id": "LS-VPyLaJFM",
+     "title": "The Last Star in the Universe – Red Dwarfs Explained",
+     "channel": "Kurzgesagt – In a Nutshell",
+     "length": "5:51"
+    }
+   ],
+   "videoQuery": "red dwarfs most common stars",
+   "addedAt": "2026-11-04T11:24:52Z"
+  },
+  {
+   "id": "masse-diametri-stelle",
+   "subject": "astronomia",
+   "chapter": "Stelle",
+   "title": "Come si pesano e si misurano le stelle",
+   "hook": "Le stelle doppie permettono di pesare le stelle con le leggi di Keplero. Le eclissi e le leggi della radiazione ne misurano il diametro, dalle nane bianche alle supergiganti.",
+   "points": [
+    "Stelle doppie visuali e spettroscopiche",
+    "Pesare una stella con Keplero",
+    "La relazione massa-luminosità",
+    "Misurare il diametro delle stelle"
+   ],
+   "sections": [
+    {
+     "h": "Stelle in coppia",
+     "p": [
+      "La massa di una stella è molto difficile da misurare direttamente. L'unico metodo diretto è osservare il suo effetto gravitazionale su un altro corpo. Per fortuna molte stelle sono in coppia: le stelle doppie, o binarie, che girano intorno al centro di massa comune.",
+      "Un sistema in cui entrambe le stelle si vedono separate al telescopio si chiama binaria visuale. Altre volte le stelle sono troppo vicine per essere separate: una stella come Mizar A, che appare singola nelle fotografie o al telescopio ma che la spettroscopia rivela essere doppia, si chiama binaria spettroscopica. Il suo spettro mostra righe che si sdoppiano e oscillano periodicamente per effetto Doppler mentre le stelle girano."
+     ]
+    },
+    {
+     "h": "Keplero pesa le stelle",
+     "p": [
+      "Misurando il periodo dell'orbita e la distanza tra le due stelle, la terza legge di Keplero nella forma di Newton dà la somma delle loro masse. Osservando come ciascuna si muove rispetto al centro di massa si ricava anche la massa di ognuna.",
+      "Le masse delle stelle vanno da circa 0,08 masse solari, il minimo per accendere la fusione dell'idrogeno, a oltre 100 masse solari per le stelle più massicce conosciute. È un intervallo molto più piccolo di quello delle luminosità."
+     ]
+    },
+    {
+     "h": "Massa e luminosità",
+     "p": [
+      "Per le stelle che bruciano idrogeno nel nucleo, come il Sole, esiste una relazione stretta tra massa e luminosità: le stelle più massicce sono molto più luminose. Raddoppiando la massa, la luminosità aumenta di circa dieci volte.",
+      "Una stella di 10 masse solari è migliaia di volte più luminosa del Sole: consuma il combustibile tanto più in fretta da vivere molto meno. La massa è la proprietà che decide quasi tutto della vita di una stella."
+     ]
+    },
+    {
+     "h": "Quanto sono grandi",
+     "p": [
+      "Le stelle sono così lontane che quasi sempre appaiono come punti anche nei telescopi più grandi. Il diametro si può misurare in alcuni modi. Nelle binarie a eclisse, in cui una stella passa davanti all'altra, la durata delle eclissi, insieme alla velocità orbitale, dà le dimensioni delle stelle.",
+      "Si può anche usare la fisica: conoscendo la luminosità e la temperatura di una stella, si calcola il suo raggio, perché una stella più grande, a parità di temperatura, emette più luce. Con l'interferometria si misura direttamente il diametro di alcune stelle vicine e grandi.",
+      "Le dimensioni variano enormemente: le nane bianche sono grandi come la Terra, le nane rosse una frazione del Sole, le supergiganti come Betelgeuse centinaia di volte il Sole: messa al posto del Sole, inghiottirebbe le orbite di Mercurio, Venere, Terra e Marte."
+     ]
+    }
+   ],
+   "formulas": [
+    {
+     "f": "M₁ + M₂ = a³ / P²",
+     "d": "Terza legge di Keplero per stelle doppie (masse solari, UA, anni)."
+    },
+    {
+     "f": "L ∝ M^3,5 circa",
+     "d": "Relazione massa-luminosità per le stelle di sequenza principale."
+    }
+   ],
+   "example": "Mizar, nel Grande Carro, ha accanto una stellina debole, Alcor, visibile a occhio nudo: era un test della vista per gli antichi, e Mizar stessa è in realtà un sistema di più stelle.",
+   "mistakes": [
+    "\"Le stelle sono quasi tutte solitarie come il Sole\": moltissime sono in sistemi doppi o multipli.",
+    "\"Una stella grande è sempre massiccia\": le giganti rosse sono enormi ma non molto massicce.",
+    "\"Al telescopio si vedono i dischi delle stelle\": appaiono quasi sempre come punti."
+   ],
+   "terms": [
+    {
+     "t": "Binaria visuale",
+     "d": "Stella doppia separabile al telescopio."
+    },
+    {
+     "t": "Binaria spettroscopica",
+     "d": "Stella doppia rivelata dallo spettro."
+    },
+    {
+     "t": "Binaria a eclisse",
+     "d": "Coppia in cui le stelle si eclissano a vicenda."
+    },
+    {
+     "t": "Relazione massa-luminosità",
+     "d": "Le stelle più massicce sono molto più luminose."
+    }
+   ],
+   "quote": {
+    "text": "A binary star system in which both of the stars can be seen with a telescope is called a visual binary.",
+    "translation": "Un sistema di stelle doppie in cui entrambe le stelle si possono vedere con un telescopio si chiama binaria visuale."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "18.2 Measuring stellar masses",
+     "url": "https://openstax.org/books/astronomy-2e/pages/18-2-measuring-stellar-masses"
+    },
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "18.3 Diameters of stars",
+     "url": "https://openstax.org/books/astronomy-2e/pages/18-3-diameters-of-stars"
+    }
+   ],
+   "videos": [],
+   "videoQuery": "binary stars measuring stellar mass",
+   "addedAt": "2026-11-04T11:24:52Z"
+  },
+  {
+   "id": "diagramma-hr",
+   "subject": "astronomia",
+   "chapter": "Stelle",
+   "title": "Il diagramma H-R: la mappa delle vite delle stelle",
+   "hook": "Mettendo in un grafico la luminosità e la temperatura delle stelle, si scopre un ordine nascosto: sequenza principale, giganti e nane bianche. È la chiave dell'evoluzione stellare.",
+   "points": [
+    "Com'è costruito il diagramma H-R",
+    "La sequenza principale",
+    "Giganti, supergiganti e nane bianche",
+    "Il diagramma come racconto dell'evoluzione"
+   ],
+   "sections": [
+    {
+     "h": "Un grafico rivoluzionario",
+     "p": [
+      "All'inizio del Novecento il danese Ejnar Hertzsprung e l'americano Henry Norris Russell ebbero, indipendentemente, l'idea di mettere in un grafico la luminosità delle stelle contro la loro temperatura, o classe spettrale. Il risultato, chiamato diagramma di Hertzsprung-Russell o H-R, è uno degli strumenti più importanti dell'astronomia.",
+      "Per convenzione la temperatura cresce verso sinistra: le stelle calde e azzurre stanno a sinistra, le fredde e rosse a destra; le più luminose in alto, le più deboli in basso."
+     ]
+    },
+    {
+     "h": "La sequenza principale",
+     "p": [
+      "Le stelle non si distribuiscono a caso: circa il 90% si trova lungo una fascia diagonale, dalle calde e luminose in alto a sinistra alle fredde e deboli in basso a destra. È la sequenza principale, dove le stelle passano la maggior parte della vita, fondendo idrogeno nel nucleo.",
+      "La posizione di una stella lungo la sequenza principale dipende soprattutto dalla massa: le massicce stanno in alto a sinistra, le piccole in basso a destra. Le nane rosse, in fondo alla sequenza, sono le meno luminose e le più fredde in superficie. Il Sole sta più o meno a metà."
+     ]
+    },
+    {
+     "h": "Fuori dalla sequenza",
+     "p": [
+      "In alto a destra ci sono stelle fredde ma luminosissime: per brillare tanto con una superficie così fredda devono essere enormi. Sono le giganti rosse e, ancora più in alto, le supergiganti, come Betelgeuse. Sono le stelle che sarebbero più evidenti a grandi distanze nello spazio.",
+      "In basso a sinistra ci sono stelle calde ma debolissime: devono essere piccolissime. Sono le nane bianche, grandi come la Terra. Un esempio tipico è la vicina 40 Eridani B. Sirio ha una compagna nana bianca, Sirio B, scoperta nell'Ottocento: nelle immagini in raggi X è l'oggetto brillante, perché la sua superficie è caldissima."
+     ]
+    },
+    {
+     "h": "Una storia in un grafico",
+     "p": [
+      "Il diagramma H-R non è solo una classificazione: racconta l'evoluzione delle stelle. Una stella nasce e si stabilizza sulla sequenza principale, dove resta a lungo; poi, esaurito l'idrogeno nel nucleo, si sposta verso la regione delle giganti; infine, per le stelle come il Sole, finisce tra le nane bianche.",
+      "Confrontando i modelli teorici con i diagrammi H-R di ammassi stellari di età diverse, gli astronomi verificano le teorie dell'evoluzione stellare e misurano l'età degli ammassi. Il diagramma H-R è, per gli astronomi, ciò che la tavola periodica è per i chimici."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Il Sole, nel diagramma H-R, sta tranquillo sulla sequenza principale da 4,6 miliardi di anni; tra circa 5 miliardi salirà verso le giganti.",
+   "mistakes": [
+    "\"Le stelle si distribuiscono a caso\": la maggior parte sta sulla sequenza principale.",
+    "\"Una stella si muove sulla sequenza principale invecchiando\": vi resta quasi ferma, poi la lascia.",
+    "\"Le stelle fredde sono sempre deboli\": le giganti rosse sono fredde ma luminosissime."
+   ],
+   "terms": [
+    {
+     "t": "Diagramma H-R",
+     "d": "Grafico luminosità-temperatura delle stelle."
+    },
+    {
+     "t": "Sequenza principale",
+     "d": "Fascia dove le stelle fondono idrogeno nel nucleo."
+    },
+    {
+     "t": "Gigante rossa",
+     "d": "Stella fredda ma grande e luminosa."
+    },
+    {
+     "t": "Nana bianca",
+     "d": "Resto stellare piccolo, caldo e debole."
+    }
+   ],
+   "quote": {
+    "text": "A good example of a typical white dwarf is the nearby star 40 Eridani B.",
+    "translation": "Un buon esempio di nana bianca tipica è la vicina stella 40 Eridani B."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "18.4 The h r diagram",
+     "url": "https://openstax.org/books/astronomy-2e/pages/18-4-the-h-r-diagram"
+    },
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "21.2 The h r diagram and the study of stellar evolution",
+     "url": "https://openstax.org/books/astronomy-2e/pages/21-2-the-h-r-diagram-and-the-study-of-stellar-evolution"
+    }
+   ],
+   "videos": [
+    {
+     "id": "ld75W1dz-h0",
+     "title": "Stars: Crash Course Astronomy #26",
+     "channel": "CrashCourse",
+     "length": "10:41"
+    },
+    {
+     "id": "Y5VU3Mp6abI",
+     "title": "Classification of Stars: Spectral Analysis and the H-R Diagram",
+     "channel": "Professor Dave Explains",
+     "length": "7:05"
+    }
+   ],
+   "videoQuery": "hertzsprung russell diagram crash course astronomy",
+   "addedAt": "2026-11-04T11:24:52Z"
+  },
+  {
+   "id": "parallasse",
+   "subject": "astronomia",
+   "chapter": "Stelle",
+   "title": "Misurare le distanze delle stelle: la parallasse",
+   "hook": "Le stelle vicine si spostano di pochissimo mentre la Terra gira intorno al Sole: da quello spostamento si ricava la loro distanza.",
+   "points": [
+    "Le unità di distanza",
+    "La parallasse stellare",
+    "Il parsec",
+    "Hipparcos e Gaia"
+   ],
+   "sections": [
+    {
+     "h": "Unità di misura",
+     "p": [
+      "L'unità fondamentale di lunghezza del sistema metrico è il metro, definito in origine come un decimilionesimo della distanza sulla superficie terrestre dall'equatore al polo. Per il Sistema solare si usa l'unità astronomica: la distanza media tra Terra e Sole, cioè la media tra la distanza minima e la massima, circa 150 milioni di chilometri.",
+      "Oggi le distanze nel Sistema solare si misurano con grande precisione con il radar, inviando onde radio e misurando il tempo che impiegano a tornare dopo essersi riflesse su pianeti e asteroidi."
+     ]
+    },
+    {
+     "h": "La parallasse",
+     "p": [
+      "Tieni un dito davanti al viso e guardalo prima con un occhio e poi con l'altro: sembra spostarsi rispetto allo sfondo. È la parallasse, e più l'oggetto è vicino più si sposta. Lo stesso principio si usa per le stelle: mentre la Terra gira intorno al Sole, una stella vicina sembra spostarsi leggermente rispetto alle stelle lontanissime sullo sfondo.",
+      "Osservando una stella a sei mesi di distanza, da due punti opposti dell'orbita terrestre separati da 300 milioni di chilometri, se ne misura lo spostamento angolare. Con un po' di geometria si ricava la distanza.",
+      "Gli spostamenti sono minuscoli: anche per la stella più vicina, meno di un secondo d'arco, cioè l'angolo sotto cui si vedrebbe una moneta a qualche chilometro. Per questo la prima parallasse fu misurata solo nel 1838, da Friedrich Bessel, per la stella 61 Cygni."
+     ]
+    },
+    {
+     "h": "Il parsec",
+     "p": [
+      "Dalla parallasse nasce un'unità di distanza usata dagli astronomi: il parsec, la distanza a cui una stella avrebbe una parallasse di un secondo d'arco. Un parsec vale circa 3,26 anni luce.",
+      "La distanza in parsec è semplicemente l'inverso della parallasse in secondi d'arco: una stella con parallasse di 0,1 secondi d'arco è a 10 parsec. Gli astronomi parlano spesso di kiloparsec e megaparsec per le distanze galattiche ed extragalattiche."
+     ]
+    },
+    {
+     "h": "Misurare dallo spazio",
+     "p": [
+      "Dal suolo la turbolenza atmosferica limita la precisione. Nel 1989 l'Agenzia Spaziale Europea lanciò Hipparcos, il primo satellite dedicato a misurare parallassi, che misurò con precisione le distanze di oltre centomila stelle.",
+      "Il suo successore, Gaia, lanciato nel 2013 con un forte contributo italiano, ha misurato posizioni, distanze e moti di quasi due miliardi di stelle con una precisione straordinaria, creando la mappa tridimensionale più dettagliata della Via Lattea. Le distanze misurate con la parallasse sono il primo gradino di tutta la scala delle distanze cosmiche."
+     ]
+    }
+   ],
+   "formulas": [
+    {
+     "f": "d (parsec) = 1 / p (secondi d'arco)",
+     "d": "Distanza da parallasse."
+    },
+    {
+     "f": "1 parsec ≈ 3,26 anni luce",
+     "d": "Conversione."
+    }
+   ],
+   "example": "Alterna un occhio e l'altro guardando il pollice a braccio teso: il salto rispetto allo sfondo è parallasse, e diventa più grande se avvicini il pollice.",
+   "mistakes": [
+    "\"Le stelle sono fisse nel cielo\": quelle vicine si spostano leggermente per parallasse e per moto proprio.",
+    "\"La parallasse si vede a occhio nudo\": serve una precisione enorme.",
+    "\"Il parsec è un'unità di tempo\": è una distanza, come ricordano i fan di Star Wars."
+   ],
+   "terms": [
+    {
+     "t": "Parallasse stellare",
+     "d": "Spostamento apparente di una stella vicina per il moto della Terra."
+    },
+    {
+     "t": "Parsec",
+     "d": "Distanza corrispondente a una parallasse di un secondo d'arco."
+    },
+    {
+     "t": "Secondo d'arco",
+     "d": "1/3600 di grado."
+    },
+    {
+     "t": "Gaia",
+     "d": "Satellite ESA che misura le distanze di miliardi di stelle."
+    }
+   ],
+   "quote": {
+    "text": "The fundamental metric unit of length is the meter, originally defined as one ten-millionth of the distance along Earth’s surface from the equator to the pole.",
+    "translation": "L'unità metrica fondamentale di lunghezza è il metro, definito in origine come un decimilionesimo della distanza sulla superficie terrestre dall'equatore al polo."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "19.1 Fundamental units of distance",
+     "url": "https://openstax.org/books/astronomy-2e/pages/19-1-fundamental-units-of-distance"
+    },
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "19.2 Surveying the stars",
+     "url": "https://openstax.org/books/astronomy-2e/pages/19-2-surveying-the-stars"
+    }
+   ],
+   "videos": [
+    {
+     "id": "CWMh61yutjU",
+     "title": "Distances: Crash Course Astronomy #25",
+     "channel": "CrashCourse",
+     "length": "11:21"
+    },
+    {
+     "id": "ETzUpoqZIHY",
+     "title": "Parallax in observing stars | Cosmology & Astronomy | Khan Academy",
+     "channel": "Khan Academy",
+     "length": "7:22"
+    }
+   ],
+   "videoQuery": "parallax distances crash course astronomy",
+   "addedAt": "2026-11-04T11:24:52Z"
   },
   {
    "id": "esopianeti",
