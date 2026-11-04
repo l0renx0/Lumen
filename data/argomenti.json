@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-04T06:14:13Z",
+ "updatedAt": "2026-11-04T11:14:46Z",
  "subjects": [
   {
    "id": "fisica",
@@ -4884,6 +4884,11 @@
      "name": "OpenStax · College Physics 2e",
      "title": "15.6 Entropy and the Second Law of Thermodynamics",
      "url": "https://openstax.org/books/college-physics-2e/pages/15-6-entropy-and-the-second-law-of-thermodynamics-disorder-and-the-unavailability-of-energy"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "15.7 Statistical Interpretation of Entropy",
+     "url": "https://openstax.org/books/college-physics-2e/pages/15-7-statistical-interpretation-of-entropy-and-the-second-law-of-thermodynamics-the-underlying-explanation"
     },
     {
      "name": "OpenStax · College Physics 2e",
@@ -12885,6 +12890,11 @@
      "name": "OpenStax · Psychology 2e",
      "title": "6.1 What Is Learning?",
      "url": "https://openstax.org/books/psychology-2e/pages/6-1-what-is-learning"
+    },
+    {
+     "name": "OpenStax · Psychology 2e",
+     "title": "6.1 What Is Learning?",
+     "url": "https://openstax.org/books/psychology-2e/pages/6-1-what-is-learning"
     }
    ],
    "videos": [
@@ -17248,6 +17258,692 @@
    "addedAt": "2026-11-04T06:14:13Z"
   },
   {
+   "id": "cos-e-astronomia",
+   "subject": "astronomia",
+   "chapter": "Le basi",
+   "title": "Che cos'è l'astronomia e come lavora la scienza del cielo",
+   "hook": "L'astronomia studia tutto ciò che sta oltre la Terra, ma non può toccare quasi nulla di ciò che studia. Come fa a scoprire le leggi dell'universo?",
+   "points": [
+    "Di cosa si occupa l'astronomia",
+    "Come funziona la scienza: ipotesi, modelli, verifiche",
+    "Le leggi della natura valgono ovunque",
+    "Perché l'astronomia ci riguarda"
+   ],
+   "sections": [
+    {
+     "h": "Una scienza antichissima",
+     "p": [
+      "L'astronomia è lo studio degli oggetti che si trovano oltre il nostro pianeta e dei processi con cui interagiscono tra loro: pianeti, stelle, galassie, l'universo intero. È una delle scienze più antiche: le civiltà di tutto il mondo hanno osservato il cielo per misurare il tempo, orientarsi e coltivare.",
+      "Oggi gli astronomi lavorano con telescopi giganti, sonde spaziali e computer, ma la curiosità di fondo è la stessa: che cosa c'è là fuori, come funziona, da dove veniamo."
+     ]
+    },
+    {
+     "h": "Una scienza senza laboratorio",
+     "p": [
+      "A differenza di chimici e biologi, gli astronomi non possono quasi mai fare esperimenti con gli oggetti che studiano: non si può portare una stella in laboratorio. Raccolgono invece la luce e le altre radiazioni che arrivano dal cielo, e le confrontano con ciò che si misura sulla Terra.",
+      "Il metodo è quello di tutta la scienza: si osserva, si formula un'ipotesi, la si usa per fare previsioni e le si verificano con nuove osservazioni. Un modello scientifico deve poter essere smentito dai fatti: se le previsioni falliscono, va corretto o abbandonato. Le teorie meglio confermate restano comunque aperte a revisione."
+     ]
+    },
+    {
+     "h": "Le stesse leggi ovunque",
+     "p": [
+      "Uno dei risultati più straordinari della scienza è che le leggi della natura sembrano valere in tutto l'universo. La gravità che fa cadere una mela tiene insieme le galassie; gli atomi di idrogeno in una stella lontanissima emettono gli stessi colori di quelli in un laboratorio.",
+      "È questo che permette agli astronomi di studiare oggetti irraggiungibili: applicano le leggi della fisica scoperte sulla Terra e verificano che le previsioni corrispondano a ciò che osservano. Finora l'universo ha confermato questa ipotesi di fondo con impressionante coerenza."
+     ]
+    },
+    {
+     "h": "Perché ci riguarda",
+     "p": [
+      "L'astronomia ha dato strumenti concreti alla vita quotidiana: calendari, navigazione, satelliti per comunicazioni e GPS, previsioni del meteo spaziale che protegge le reti elettriche. Le tecnologie nate per i telescopi sono finite nelle fotocamere dei telefoni e negli strumenti medici.",
+      "Ma soprattutto risponde a domande che ogni persona si è posta: quanto è grande l'universo, quanto è antico, siamo soli? Studiare il cosmo significa anche capire la nostra origine: gli atomi del nostro corpo sono stati forgiati dentro antiche stelle. È, come dice il manuale, una conclusione che è anche un inizio."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Ogni volta che il navigatore del telefono ti dice dove girare, usi satelliti la cui orbita si calcola con le leggi della gravità.",
+   "mistakes": [
+    "\"Astronomia e astrologia sono la stessa cosa\": l'astrologia non ha basi scientifiche.",
+    "\"Senza esperimenti non si può fare scienza\": l'astronomia usa osservazioni e previsioni verificabili.",
+    "\"Le leggi della fisica potrebbero essere diverse lontano da qui\": tutte le osservazioni indicano che valgono ovunque."
+   ],
+   "terms": [
+    {
+     "t": "Astronomia",
+     "d": "Studio degli oggetti oltre la Terra e dei loro processi."
+    },
+    {
+     "t": "Ipotesi",
+     "d": "Spiegazione provvisoria da verificare."
+    },
+    {
+     "t": "Modello",
+     "d": "Descrizione semplificata che fa previsioni."
+    },
+    {
+     "t": "Legge di natura",
+     "d": "Regola che descrive un comportamento costante."
+    }
+   ],
+   "quote": {
+    "text": "Astronomy is defined as the study of the objects that lie beyond our planet Earth and the processes by which these objects interact with one another.",
+    "translation": "L'astronomia è definita come lo studio degli oggetti che si trovano oltre il nostro pianeta Terra e dei processi con cui interagiscono tra loro."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "1.1 The nature of astronomy",
+     "url": "https://openstax.org/books/astronomy-2e/pages/1-1-the-nature-of-astronomy"
+    },
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "1.2 The nature of science",
+     "url": "https://openstax.org/books/astronomy-2e/pages/1-2-the-nature-of-science"
+    },
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "1.3 The laws of nature",
+     "url": "https://openstax.org/books/astronomy-2e/pages/1-3-the-laws-of-nature"
+    },
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "1.9 A conclusion and a beginning",
+     "url": "https://openstax.org/books/astronomy-2e/pages/1-9-a-conclusion-and-a-beginning"
+    }
+   ],
+   "videos": [
+    {
+     "id": "0rHUDWjR5gg",
+     "title": "Introduction to Astronomy: Crash Course Astronomy #1",
+     "channel": "CrashCourse",
+     "length": "12:12"
+    }
+   ],
+   "videoQuery": "introduction to astronomy crash course",
+   "addedAt": "2026-11-04T11:14:46Z"
+  },
+  {
+   "id": "numeri-astronomici",
+   "subject": "astronomia",
+   "chapter": "Le basi",
+   "title": "I numeri dell'astronomia: anni luce e notazione scientifica",
+   "hook": "Le distanze nel cosmo sono così grandi che servono unità speciali. E guardare lontano significa guardare nel passato.",
+   "points": [
+    "La notazione scientifica",
+    "L'anno luce e l'unità astronomica",
+    "Guardare lontano è guardare indietro nel tempo",
+    "Perché non vediamo l'universo \"adesso\""
+   ],
+   "sections": [
+    {
+     "h": "Numeri troppo grandi",
+     "p": [
+      "In astronomia i numeri sono enormi. Per non scrivere file interminabili di zeri si usa la notazione scientifica: un numero tra 1 e 10 moltiplicato per una potenza di dieci. La distanza media tra Terra e Sole, circa 150.000.000 di chilometri, si scrive 1,5 × 10⁸ km.",
+      "Per oggetti piccolissimi si usano potenze negative: un atomo misura circa 10⁻¹⁰ metri. Così si confrontano facilmente scale diversissime."
+     ]
+    },
+    {
+     "h": "Unità su misura",
+     "p": [
+      "Per le distanze nel Sistema solare si usa l'unità astronomica (UA), la distanza media Terra-Sole. Giove è a circa 5 UA, Nettuno a circa 30.",
+      "Per le stelle anche l'UA è troppo piccola. Un'unità comune è l'anno luce: la distanza che la luce percorre in un anno, circa 9.500 miliardi di chilometri. Attenzione: nonostante il nome, è una distanza, non un tempo.",
+      "La stella più vicina dopo il Sole, Proxima Centauri, è a poco più di 4 anni luce. La nostra galassia è larga circa 100.000 anni luce; la galassia di Andromeda è a circa 2,5 milioni di anni luce."
+     ]
+    },
+    {
+     "h": "Una macchina del tempo",
+     "p": [
+      "La luce viaggia velocissima, circa 300.000 chilometri al secondo, ma non istantaneamente. La luce della Luna impiega poco più di un secondo per arrivarci, quella del Sole circa 8 minuti. Vediamo quindi il Sole com'era 8 minuti fa.",
+      "Più un oggetto è lontano, più indietro nel tempo lo vediamo. Una stella a 500 anni luce ci appare com'era 500 anni fa: potrebbe anche non esistere più. La luce di Andromeda che vediamo stasera è partita quando sulla Terra camminavano i primi antenati del genere umano."
+     ]
+    },
+    {
+     "h": "Il passato dell'universo",
+     "p": [
+      "Questa conseguenza del tempo di viaggio della luce è un enorme vantaggio per gli astronomi. Osservando galassie sempre più lontane, vedono l'universo in epoche sempre più antiche, come sfogliando un album di famiglia del cosmo.",
+      "I telescopi più potenti, come il James Webb, osservano galassie la cui luce è partita poche centinaia di milioni di anni dopo il Big Bang. Non possiamo vedere l'universo \"com'è adesso\" nel suo insieme: possiamo solo vedere ogni sua parte com'era quando la luce è partita."
+     ]
+    }
+   ],
+   "formulas": [
+    {
+     "f": "1 anno luce ≈ 9,46 × 10¹² km",
+     "d": "Distanza percorsa dalla luce in un anno."
+    },
+    {
+     "f": "1 UA ≈ 1,5 × 10⁸ km",
+     "d": "Distanza media Terra-Sole."
+    }
+   ],
+   "example": "Se il Sole si spegnesse all'improvviso, ce ne accorgeremmo solo dopo circa 8 minuti.",
+   "mistakes": [
+    "\"L'anno luce è un'unità di tempo\": è una distanza.",
+    "\"Le stelle che vediamo esistono sicuramente ancora\": le vediamo com'erano quando la luce è partita.",
+    "\"La luce arriva istantaneamente\": impiega 8 minuti dal Sole."
+   ],
+   "terms": [
+    {
+     "t": "Notazione scientifica",
+     "d": "Numeri scritti con potenze di dieci."
+    },
+    {
+     "t": "Unità astronomica",
+     "d": "Distanza media Terra-Sole."
+    },
+    {
+     "t": "Anno luce",
+     "d": "Distanza percorsa dalla luce in un anno."
+    },
+    {
+     "t": "Tempo di viaggio della luce",
+     "d": "Tempo che la luce impiega ad arrivare fino a noi."
+    }
+   ],
+   "quote": {
+    "text": "A common unit astronomers use to describe distances in the universe is a light-year, which is the distance light travels during one year.",
+    "translation": "Un'unità comune usata dagli astronomi per descrivere le distanze nell'universo è l'anno luce, cioè la distanza che la luce percorre in un anno."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "1.4 Numbers in astronomy",
+     "url": "https://openstax.org/books/astronomy-2e/pages/1-4-numbers-in-astronomy"
+    },
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "1.5 Consequences of light travel time",
+     "url": "https://openstax.org/books/astronomy-2e/pages/1-5-consequences-of-light-travel-time"
+    }
+   ],
+   "videos": [
+    {
+     "id": "Op3AYaJc0Xw",
+     "title": "Light seconds, light years, light centuries: How to measure extreme distances - Yuan-Sen Ting",
+     "channel": "TED-Ed",
+     "length": "5:29"
+    },
+    {
+     "id": "uEprorLV0HE",
+     "title": "A Tour of the Universe Using Powers of Ten and Scientific Notation",
+     "channel": "Launch Pad Astronomy",
+     "length": "10:06"
+    }
+   ],
+   "videoQuery": "light year scientific notation astronomy",
+   "addedAt": "2026-11-04T11:14:46Z"
+  },
+  {
+   "id": "viaggio-nell-universo",
+   "subject": "astronomia",
+   "chapter": "Le basi",
+   "title": "Un viaggio nell'universo: dalla Terra ai confini del cosmo",
+   "hook": "Dalla Terra al Sistema solare, dalla Via Lattea agli ammassi di galassie, fino agli atomi: una panoramica delle scale dell'universo.",
+   "points": [
+    "La Terra e il Sistema solare",
+    "Le stelle e la Via Lattea",
+    "Galassie, ammassi e la struttura su grande scala",
+    "L'universo del molto piccolo"
+   ],
+   "sections": [
+    {
+     "h": "Il nostro quartiere",
+     "p": [
+      "Partiamo da casa. La Terra è uno degli otto pianeti che girano intorno al Sole, una stella di dimensioni medie. Il Sole contiene oltre il 99% della massa del Sistema solare, che comprende anche lune, pianeti nani, asteroidi e comete.",
+      "Le distanze sono enormi rispetto alle dimensioni dei corpi: se il Sole fosse un pallone da calcio, la Terra sarebbe un granello di pepe a circa 25 metri, e Nettuno un chicco a quasi un chilometro."
+     ]
+    },
+    {
+     "h": "Le stelle",
+     "p": [
+      "Il Sole è solo una stella tra moltissime. Le altre stelle ci sembrano deboli solo perché sono lontanissime: molte sono più grandi e luminose del Sole. Anche la più vicina è a più di 4 anni luce; con le sonde più veloci servirebbero decine di migliaia di anni per raggiungerla.",
+      "Molte stelle hanno pianeti: ne conosciamo ormai migliaia. Le stelle nascono in grandi nubi di gas e polvere, vivono milioni o miliardi di anni e muoiono in modi diversi a seconda della massa."
+     ]
+    },
+    {
+     "h": "Galassie e oltre",
+     "p": [
+      "Il Sole fa parte della Via Lattea, una galassia a spirale con centinaia di miliardi di stelle, larga circa 100.000 anni luce. Le galassie si raggruppano in gruppi e ammassi: la Via Lattea fa parte del Gruppo Locale, insieme ad Andromeda e a decine di galassie più piccole.",
+      "Su scale ancora più grandi, gli ammassi formano superammassi, e la distribuzione delle galassie assomiglia a una ragnatela: filamenti e pareti di galassie che circondano enormi vuoti. Nell'universo osservabile ci sono centinaia di miliardi di galassie. E tutto è in espansione."
+     ]
+    },
+    {
+     "h": "Il molto piccolo",
+     "p": [
+      "L'universo è sorprendente anche nella direzione opposta. Tutto ciò che vediamo è fatto di atomi, a loro volta fatti di un nucleo minuscolo circondato da elettroni. Il nucleo è fatto di protoni e neutroni, a loro volta composti da quark.",
+      "Studiare il molto piccolo è essenziale per capire il molto grande: le reazioni nucleari fanno brillare le stelle, e le particelle prodotte nei primi istanti dopo il Big Bang hanno determinato la composizione dell'universo. Esistono anche particelle elusive, come i neutrini, che attraversano la Terra quasi senza accorgersene: miliardi di neutrini dal Sole ti attraversano ogni secondo."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Mentre leggi questa frase, decine di miliardi di neutrini nati nel cuore del Sole stanno attraversando ogni centimetro quadrato del tuo corpo.",
+   "mistakes": [
+    "\"Le stelle deboli sono piccole\": spesso sono solo molto lontane.",
+    "\"Il Sistema solare è affollato\": è quasi tutto spazio vuoto.",
+    "\"Le galassie sono distribuite a caso\": formano una rete di filamenti e vuoti."
+   ],
+   "terms": [
+    {
+     "t": "Sistema solare",
+     "d": "Il Sole e tutto ciò che gli orbita intorno."
+    },
+    {
+     "t": "Galassia",
+     "d": "Enorme sistema di stelle, gas e polvere."
+    },
+    {
+     "t": "Gruppo Locale",
+     "d": "Il gruppo di galassie di cui fa parte la Via Lattea."
+    },
+    {
+     "t": "Neutrino",
+     "d": "Particella leggerissima che attraversa quasi tutto."
+    }
+   ],
+   "quote": {
+    "text": "The other stars look faint only because they are so very far away.",
+    "translation": "Le altre stelle ci appaiono deboli solo perché sono lontanissime."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "1.6 A tour of the universe",
+     "url": "https://openstax.org/books/astronomy-2e/pages/1-6-a-tour-of-the-universe"
+    },
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "1.7 The universe on the large scale",
+     "url": "https://openstax.org/books/astronomy-2e/pages/1-7-the-universe-on-the-large-scale"
+    },
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "1.8 The universe of the very small",
+     "url": "https://openstax.org/books/astronomy-2e/pages/1-8-the-universe-of-the-very-small"
+    }
+   ],
+   "videos": [
+    {
+     "id": "x896_J1k8rM",
+     "title": "Zooming out from Earth to the Observable Universe",
+     "channel": "ScienceClic English",
+     "length": "3:54"
+    }
+   ],
+   "videoQuery": "scale of the universe",
+   "addedAt": "2026-11-04T11:14:46Z"
+  },
+  {
+   "id": "sfera-celeste",
+   "subject": "astronomia",
+   "chapter": "Terra, Luna e cielo",
+   "title": "Il cielo sopra di noi: sfera celeste e costellazioni",
+   "hook": "Orizzonte, zenit, poli celesti e costellazioni: le coordinate antiche che usiamo ancora per orientarci nel cielo notturno.",
+   "points": [
+    "La sfera celeste",
+    "Il moto apparente del cielo",
+    "Le costellazioni",
+    "Il lento abbandono della visione geocentrica"
+   ],
+   "sections": [
+    {
+     "h": "Una grande cupola",
+     "p": [
+      "Guardando il cielo sembra di stare sotto una grande cupola su cui sono incollate le stelle. Gli astronomi usano questa immagine, la sfera celeste, come modello comodo per descrivere le posizioni degli astri, anche se sanno che le stelle sono a distanze diversissime.",
+      "L'orizzonte è il punto in cui il cielo incontra il terreno; lo zenit di un osservatore è il punto esattamente sopra la sua testa. Prolungando l'asse di rotazione della Terra si trovano i poli celesti; a metà strada tra loro c'è l'equatore celeste."
+     ]
+    },
+    {
+     "h": "Il cielo che gira",
+     "p": [
+      "Nel corso di una notte le stelle sorgono a est e tramontano a ovest, come il Sole: è un effetto della rotazione della Terra da ovest verso est. Le stelle vicine al polo celeste nord, intorno alla Stella Polare, non tramontano mai e descrivono cerchi completi: si chiamano circumpolari.",
+      "Da un luogo all'altro della Terra cambia la parte di cielo visibile: dall'Italia non si vede la Croce del Sud, visibile invece dall'emisfero australe. L'altezza della Stella Polare sull'orizzonte è circa uguale alla latitudine dell'osservatore, ed è stata usata per secoli per navigare."
+     ]
+    },
+    {
+     "h": "Le costellazioni",
+     "p": [
+      "Lo sfondo su cui si muovono i \"vagabondi\" del cielo, i pianeti, è la volta delle stelle. Fin dall'antichità le persone hanno collegato le stelle in figure, le costellazioni, legate a miti e storie. Molte che usiamo oggi vengono dalla tradizione greco-romana, come Orione, il cacciatore: la stella rossa sopra la sua cintura, Betelgeuse, segna la sua ascella.",
+      "Le stelle di una costellazione di solito non hanno nulla in comune: si trovano a distanze diversissime e sembrano vicine solo per prospettiva. Oggi l'Unione Astronomica Internazionale divide il cielo in 88 costellazioni ufficiali, con confini precisi, come le regioni su una mappa."
+     ]
+    },
+    {
+     "h": "Al centro di tutto?",
+     "p": [
+      "Per migliaia di anni sembrava ovvio che la Terra fosse ferma al centro e che tutto le girasse intorno. Uno dei grandi temi della storia del pensiero è proprio il superamento di questa visione geocentrica.",
+      "Passo dopo passo abbiamo scoperto che la Terra gira intorno al Sole, che il Sole è una stella qualsiasi alla periferia di una galassia, che la nostra galassia è una tra miliardi. Ogni scoperta ci ha tolto dal centro, ma ci ha anche fatto capire meglio il nostro posto nell'universo."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Trova il Grande Carro e prolunga cinque volte la distanza tra le due stelle del bordo: arrivi alla Stella Polare, che indica il nord.",
+   "mistakes": [
+    "\"Le stelle di una costellazione sono vicine tra loro\": sembrano vicine solo per prospettiva.",
+    "\"La Stella Polare è la più luminosa del cielo\": non lo è; è utile perché sta quasi al polo celeste.",
+    "\"Il cielo è uguale da ogni luogo della Terra\": cambia con la latitudine."
+   ],
+   "terms": [
+    {
+     "t": "Sfera celeste",
+     "d": "Modello del cielo come grande sfera intorno alla Terra."
+    },
+    {
+     "t": "Zenit",
+     "d": "Punto del cielo sopra la testa dell'osservatore."
+    },
+    {
+     "t": "Stelle circumpolari",
+     "d": "Stelle che non tramontano mai."
+    },
+    {
+     "t": "Costellazione",
+     "d": "Area del cielo con un gruppo di stelle riconoscibile."
+    }
+   ],
+   "quote": {
+    "text": "The horizon is where the sky meets the ground; an observer’s zenith is the point directly overhead.",
+    "translation": "L'orizzonte è il punto in cui il cielo incontra il terreno; lo zenit di un osservatore è il punto direttamente sopra di lui."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "2.1 The sky above",
+     "url": "https://openstax.org/books/astronomy-2e/pages/2-1-the-sky-above"
+    }
+   ],
+   "videos": [
+    {
+     "id": "L-Wtlev6suc",
+     "title": "Naked Eye Observations: Crash Course Astronomy #2",
+     "channel": "CrashCourse",
+     "length": "11:17"
+    },
+    {
+     "id": "0rHUDWjR5gg",
+     "title": "Introduction to Astronomy: Crash Course Astronomy #1",
+     "channel": "CrashCourse",
+     "length": "12:12"
+    }
+   ],
+   "videoQuery": "naked eye observations crash course astronomy",
+   "addedAt": "2026-11-04T11:14:46Z"
+  },
+  {
+   "id": "astronomia-antica",
+   "subject": "astronomia",
+   "chapter": "Le basi",
+   "title": "L'astronomia antica: come i greci misurarono la Terra",
+   "hook": "Senza telescopi, gli antichi capirono che la Terra è rotonda, ne misurarono la circonferenza e costruirono modelli del cielo usati per 1400 anni.",
+   "points": [
+    "Come i greci capirono che la Terra è sferica",
+    "Eratostene misura la Terra",
+    "Il moto retrogrado dei pianeti",
+    "Tolomeo e l'Almagesto"
+   ],
+   "sections": [
+    {
+     "h": "Una Terra rotonda",
+     "p": [
+      "Già nel IV secolo avanti Cristo Aristotele aveva buone prove che la Terra fosse una sfera. Durante le eclissi di Luna, l'ombra della Terra sulla Luna è sempre curva. E viaggiando verso sud si vedono stelle nuove sorgere sopra l'orizzonte, cosa impossibile su una Terra piatta.",
+      "Un esperimento mentale moderno lo rende evidente: se chiami amici in città lontane alla stessa ora e chiedi dove si trova il Sole, su una Terra piatta tutti darebbero più o meno la stessa risposta; in realtà per alcuni è mezzogiorno, per altri notte."
+     ]
+    },
+    {
+     "h": "Misurare il pianeta",
+     "p": [
+      "Nel III secolo avanti Cristo Eratostene, bibliotecario di Alessandria d'Egitto, notò che a mezzogiorno del solstizio d'estate a Siene, più a sud, il Sole illuminava il fondo dei pozzi, cioè era esattamente allo zenit, mentre ad Alessandria era inclinato di circa 7 gradi.",
+      "Sette gradi sono circa un cinquantesimo di un cerchio. Conoscendo la distanza tra le due città, Eratostene calcolò che la circonferenza della Terra doveva essere cinquanta volte quella distanza. Il risultato era molto vicino al valore reale, circa 40.000 chilometri: una delle misure più belle della storia della scienza.",
+      "Altri greci, come Aristarco, tentarono di misurare distanze e dimensioni di Luna e Sole, e Aristarco propose persino che fosse la Terra a girare intorno al Sole, ma l'idea non ebbe seguito."
+     ]
+    },
+    {
+     "h": "I pianeti vagabondi",
+     "p": [
+      "Le stelle mantengono le loro posizioni relative, ma cinque \"stelle\" si muovono sullo sfondo: i pianeti, dal greco \"vagabondi\". Di solito si spostano verso est rispetto alle stelle, ma a volte rallentano, tornano indietro verso ovest per qualche settimana e poi riprendono il cammino.",
+      "Questo moto apparente all'indietro si chiama moto retrogrado. Oggi sappiamo che è un effetto di prospettiva: la Terra, più interna e più veloce, sorpassa un pianeta esterno come un'auto ne sorpassa una più lenta in autostrada, e per un po' l'altra sembra andare all'indietro.",
+      "I greci cercarono anche la parallasse, lo spostamento apparente di un oggetto dovuto al movimento dell'osservatore. Se la Terra girasse intorno al Sole, pensavano, le stelle dovrebbero mostrarla; non vedendola, conclusero che la Terra fosse ferma. In realtà le stelle sono così lontane che la parallasse fu misurata solo nel 1838."
+     ]
+    },
+    {
+     "h": "Tolomeo",
+     "p": [
+      "Nel II secolo dopo Cristo Claudio Tolomeo, ad Alessandria, scrisse una gigantesca raccolta del sapere astronomico, oggi nota con il suo nome arabo, Almagesto, \"il più grande\". Il suo modello, con la Terra al centro, spiegava il moto retrogrado con gli epicicli: ogni pianeta girava su un piccolo cerchio il cui centro girava su un cerchio più grande.",
+      "Era un sistema complicato ma capace di prevedere le posizioni dei pianeti con buona precisione, e fu usato per circa 1400 anni, conservato e migliorato dagli astronomi del mondo islamico prima di tornare in Europa."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Guardando dal finestrino del treno, i pali vicini sfrecciano mentre le montagne lontane sembrano ferme: è parallasse.",
+   "mistakes": [
+    "\"Nel Medioevo si credeva che la Terra fosse piatta\": le persone istruite sapevano da secoli che era sferica.",
+    "\"I pianeti tornano davvero indietro\": il moto retrogrado è un effetto di prospettiva.",
+    "\"Il modello di Tolomeo era inutile\": prevedeva bene le posizioni dei pianeti."
+   ],
+   "terms": [
+    {
+     "t": "Moto retrogrado",
+     "d": "Apparente moto all'indietro di un pianeta."
+    },
+    {
+     "t": "Parallasse",
+     "d": "Spostamento apparente dovuto al moto dell'osservatore."
+    },
+    {
+     "t": "Epiciclo",
+     "d": "Cerchio su cui girava un pianeta nel modello di Tolomeo."
+    },
+    {
+     "t": "Almagesto",
+     "d": "L'opera astronomica di Tolomeo."
+    }
+   ],
+   "quote": {
+    "text": "The temporary apparent westward motion of a planet as Earth swings between it and the Sun is called retrograde motion.",
+    "translation": "Il temporaneo moto apparente verso ovest di un pianeta, quando la Terra passa tra esso e il Sole, si chiama moto retrogrado."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "2.2 Ancient astronomy",
+     "url": "https://openstax.org/books/astronomy-2e/pages/2-2-ancient-astronomy"
+    }
+   ],
+   "videos": [
+    {
+     "id": "BMPaq8sf8Ko",
+     "title": "Ancient Greek Astronomy",
+     "channel": "Launch Pad Astronomy",
+     "length": "15:47"
+    },
+    {
+     "id": "7s52u4qExE0",
+     "title": "How Did Ancient Greece View the Cosmos? | History Of Science | BBC Earth Science",
+     "channel": "BBC Earth Science",
+     "length": "5:01"
+    }
+   ],
+   "videoQuery": "ancient astronomy greeks",
+   "addedAt": "2026-11-04T11:14:46Z"
+  },
+  {
+   "id": "astrologia",
+   "subject": "astronomia",
+   "chapter": "Le basi",
+   "title": "Astrologia e astronomia: perché l'oroscopo non funziona",
+   "hook": "Astronomia e astrologia hanno radici comuni, ma solo una è una scienza. Cosa dicono gli studi controllati sull'oroscopo.",
+   "points": [
+    "Origini comuni",
+    "Che cos'è un oroscopo",
+    "Perché l'astrologia non regge alle verifiche",
+    "Perché sembra funzionare"
+   ],
+   "sections": [
+    {
+     "h": "Stesse radici, strade diverse",
+     "p": [
+      "Nell'antichità astronomia e astrologia erano intrecciate: chi osservava il cielo per prevedere le stagioni spesso cercava anche presagi per i re e le persone. Molti astronomi famosi, come Keplero, compilavano oroscopi per guadagnarsi da vivere.",
+      "Con la rivoluzione scientifica le due strade si separarono. L'astronomia divenne una scienza basata su osservazioni, misure e previsioni verificabili; l'astrologia rimase un sistema di credenze."
+     ]
+    },
+    {
+     "h": "L'oroscopo",
+     "p": [
+      "La chiave dell'astrologia natale è l'oroscopo: una mappa che mostra le posizioni dei pianeti nel cielo al momento della nascita di una persona. Secondo l'astrologia, queste posizioni e i segni zodiacali influenzerebbero personalità e destino.",
+      "Ci sono subito problemi. A causa della precessione, la lenta oscillazione dell'asse terrestre, oggi il Sole si trova in una costellazione diversa da quella indicata dal segno tradizionale per quasi tutti: i segni non corrispondono più alle costellazioni reali. E non è noto alcun meccanismo fisico per cui pianeti lontanissimi possano influenzare una persona alla nascita: la gravità dell'ostetrica è più grande di quella di Marte."
+     ]
+    },
+    {
+     "h": "Le verifiche",
+     "p": [
+      "La domanda decisiva però è un'altra: le previsioni astrologiche funzionano? Sono state messe alla prova molte volte con studi controllati. In un esperimento famoso pubblicato su Nature nel 1985, gli astrologi dovevano abbinare oroscopi a profili di personalità delle persone corrispondenti: il risultato non fu migliore del caso.",
+      "Altri studi hanno cercato se il segno zodiacale sia legato alla professione, alla personalità o alla compatibilità di coppia. Per esempio, analizzando i militari arruolati, si è visto che erano distribuiti a caso tra tutti i segni. Nessuna correlazione affidabile è emersa."
+     ]
+    },
+    {
+     "h": "Perché sembra vero",
+     "p": [
+      "Se non funziona, perché molte persone si riconoscono nell'oroscopo? Una ragione è l'effetto Barnum, o Forer: le descrizioni vaghe e generiche (\"a volte sei estroverso, altre volte hai bisogno di stare da solo\") sembrano adattarsi perfettamente a chiunque.",
+      "Poi c'è il bias di conferma: ricordiamo le previsioni che si sono avverate e dimentichiamo quelle sbagliate. Infine, leggere l'oroscopo può essere un piacevole rituale, ed è innocuo se preso come gioco; diventa un problema quando guida decisioni importanti su salute, soldi o persone."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Prova a leggere l'oroscopo di un segno diverso dal tuo senza sapere quale sia: probabilmente ti sembrerà ugualmente adatto.",
+   "mistakes": [
+    "\"L'oroscopo è basato sulle costellazioni attuali\": a causa della precessione non corrispondono più.",
+    "\"Se mi riconosco nel mio segno l'astrologia funziona\": è l'effetto Barnum.",
+    "\"L'astrologia è stata provata scientificamente\": gli studi controllati non trovano effetti."
+   ],
+   "terms": [
+    {
+     "t": "Astrologia",
+     "d": "Credenza nell'influenza degli astri sulla vita umana."
+    },
+    {
+     "t": "Oroscopo",
+     "d": "Mappa delle posizioni dei pianeti alla nascita."
+    },
+    {
+     "t": "Precessione",
+     "d": "Lenta oscillazione dell'asse terrestre."
+    },
+    {
+     "t": "Effetto Barnum",
+     "d": "Tendenza a riconoscersi in descrizioni generiche."
+    }
+   ],
+   "quote": {
+    "text": "The key to natal astrology is the horoscope, a chart showing the positions of the planets in the sky at the moment of an individual’s birth.",
+    "translation": "La chiave dell'astrologia natale è l'oroscopo, una mappa che mostra le posizioni dei pianeti nel cielo al momento della nascita di una persona."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "2.3 Astrology and astronomy",
+     "url": "https://openstax.org/books/astronomy-2e/pages/2-3-astrology-and-astronomy"
+    }
+   ],
+   "videos": [
+    {
+     "id": "S7G-ruj22Uo",
+     "title": "Astrology: Fact or Fiction?",
+     "channel": "Professor Dave Explains",
+     "length": "18:34"
+    }
+   ],
+   "videoQuery": "astrology vs astronomy",
+   "addedAt": "2026-11-04T11:14:46Z"
+  },
+  {
+   "id": "copernico-galileo",
+   "subject": "astronomia",
+   "chapter": "Le basi",
+   "title": "Copernico e Galileo: la Terra non è al centro",
+   "hook": "Un canonico polacco rimise il Sole al centro, uno scienziato toscano puntò un cannocchiale al cielo e trovò le prove. La nascita dell'astronomia moderna.",
+   "points": [
+    "Il modello eliocentrico di Copernico",
+    "Tycho Brahe e i dati",
+    "Le scoperte di Galileo con il cannocchiale",
+    "Galileo e il moto"
+   ],
+   "sections": [
+    {
+     "h": "Copernico",
+     "p": [
+      "Nel 1543 Niccolò Copernico pubblicò il De revolutionibus, in cui proponeva che il Sole, non la Terra, fosse al centro, e che la Terra fosse un pianeta che ruota su sé stesso e gira intorno al Sole.",
+      "Il modello spiegava in modo naturale il moto retrogrado dei pianeti, come effetto dei sorpassi tra la Terra e gli altri pianeti, e permetteva di calcolare le distanze relative dei pianeti dal Sole. Ma Copernico conservava le orbite circolari, e per questo le sue previsioni non erano molto più precise di quelle di Tolomeo."
+     ]
+    },
+    {
+     "h": "Tycho e Keplero",
+     "p": [
+      "Il danese Tycho Brahe, nella seconda metà del Cinquecento, costruì strumenti enormi e misurò le posizioni di stelle e pianeti con una precisione mai vista, senza telescopio. Proponeva un modello intermedio, con i pianeti intorno al Sole e il Sole intorno alla Terra.",
+      "Furono i suoi dati, analizzati da Keplero, a mostrare che le orbite sono ellissi intorno al Sole, rendendo finalmente il modello eliocentrico più preciso di quello geocentrico."
+     ]
+    },
+    {
+     "h": "Il cannocchiale di Galileo",
+     "p": [
+      "Nel 1609 Galileo Galilei costruì un cannocchiale e lo puntò al cielo, primo a farlo in modo sistematico. Vide che la Luna ha montagne e crateri, non è una sfera perfetta; che la Via Lattea è fatta di innumerevoli stelle; che Giove ha quattro lune che gli girano intorno, prova che non tutto ruota intorno alla Terra.",
+      "Osservò anche che Venere, l'oggetto più brillante del cielo dopo il Sole e la Luna, mostra fasi complete come la Luna, cosa possibile solo se gira intorno al Sole. E notò le macchie solari, prova che anche il Sole cambia.",
+      "Le sue idee lo portarono in conflitto con la Chiesa: nel 1633 fu processato e costretto ad abiurare. La Chiesa ha riconosciuto ufficialmente gli errori del processo solo nel 1992."
+     ]
+    },
+    {
+     "h": "Una nuova idea di movimento",
+     "p": [
+      "Galileo rivoluzionò anche la fisica del moto. Per Aristotele la quiete era lo stato naturale della materia: un oggetto si muove solo finché qualcosa lo spinge. Galileo mostrò invece, con esperimenti su piani inclinati e ragionamenti, che la quiete non è più naturale del movimento: senza attrito, un oggetto in movimento continuerebbe a muoversi.",
+      "Era il principio d'inerzia, che Newton avrebbe messo alla base della sua meccanica. Spiegava anche un'obiezione classica al moto della Terra: se la Terra si muove, perché non veniamo sbalzati via? Perché ci muoviamo insieme a lei."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Con un binocolo puoi ripetere una scoperta di Galileo: le quattro lune di Giove, che cambiano posizione di sera in sera.",
+   "mistakes": [
+    "\"Copernico fu il primo a proporre il Sole al centro\": ci aveva già pensato Aristarco nell'antichità.",
+    "\"Galileo inventò il cannocchiale\": lo perfezionò e lo usò per primo in modo sistematico in astronomia.",
+    "\"Il modello di Copernico era subito più preciso\": lo divenne con le ellissi di Keplero."
+   ],
+   "terms": [
+    {
+     "t": "Eliocentrismo",
+     "d": "Modello con il Sole al centro."
+    },
+    {
+     "t": "Fasi di Venere",
+     "d": "Prova che Venere gira intorno al Sole."
+    },
+    {
+     "t": "Principio d'inerzia",
+     "d": "Un corpo mantiene il suo moto se nessuna forza agisce."
+    }
+   ],
+   "quote": {
+    "text": "Galileo showed, however, that rest is no more natural than motion.",
+    "translation": "Galileo mostrò invece che la quiete non è più naturale del movimento."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "2.4 The birth of modern astronomy",
+     "url": "https://openstax.org/books/astronomy-2e/pages/2-4-the-birth-of-modern-astronomy"
+    }
+   ],
+   "videos": [
+    {
+     "id": "khIzr6610cQ",
+     "title": "How We Figured Out That Earth Goes Around the Sun",
+     "channel": "SciShow Space",
+     "length": "4:40"
+    },
+    {
+     "id": "ZGr1nHdzLyk",
+     "title": "History of Astronomy Part 3: Copernicus and Heliocentrism",
+     "channel": "Professor Dave Explains",
+     "length": "7:01"
+    }
+   ],
+   "videoQuery": "copernicus galileo heliocentric",
+   "addedAt": "2026-11-04T11:14:46Z"
+  },
+  {
    "id": "keplero",
    "subject": "astronomia",
    "title": "Keplero e le orbite dei pianeti: tre leggi che valgono ancora",
@@ -17363,6 +18059,308 @@
    ]
   },
   {
+   "id": "newton-orbite",
+   "subject": "astronomia",
+   "chapter": "Pianeti e orbite",
+   "title": "Newton e la gravità: perché i pianeti seguono le leggi di Keplero",
+   "hook": "Le tre leggi del moto e la gravitazione universale spiegano le orbite dei pianeti, la massa del Sole e perché i pianeti accelerano vicino al Sole.",
+   "points": [
+    "Le leggi di Newton applicate al cielo",
+    "Massa, peso e gravitazione universale",
+    "Il momento angolare e la seconda legge di Keplero",
+    "Orbite del Sistema solare"
+   ],
+   "sections": [
+    {
+     "h": "Una grande sintesi",
+     "p": [
+      "Isaac Newton, nella seconda metà del Seicento, unì il lavoro di Galileo sul moto e quello di Keplero sulle orbite in un'unica teoria. Le sue tre leggi del moto dicono che un corpo mantiene il suo stato di moto se non agisce una forza; che una forza produce un'accelerazione, cioè una variazione della velocità; che a ogni azione corrisponde una reazione uguale e contraria.",
+      "La terza legge è il principio dei motori a reazione e dei razzi: la forza che spinge fuori i gas di scarico dal retro del razzo è accompagnata dalla forza che spinge il razzo in avanti."
+     ]
+    },
+    {
+     "h": "La gravitazione universale",
+     "p": [
+      "Newton propose che tra due corpi qualsiasi agisca una forza di attrazione proporzionale al prodotto delle masse e inversamente proporzionale al quadrato della distanza. La massa misura la quantità di materia di un corpo; non va confusa con il volume, la misura dello spazio fisico che occupa, né con il peso, che è la forza di gravità su di esso.",
+      "La stessa legge spiega la caduta di una mela e l'orbita della Luna. Newton calcolò che l'accelerazione della Luna verso la Terra è circa 3600 volte più piccola di quella di una mela, proprio perché la Luna è circa 60 volte più lontana dal centro della Terra: 60 al quadrato fa 3600."
+     ]
+    },
+    {
+     "h": "Il momento angolare",
+     "p": [
+      "La seconda legge di Keplero, i pianeti più veloci vicino al Sole, si spiega con una grandezza che si conserva: il momento angolare, definito come il prodotto della massa, della velocità e della distanza dal punto fisso intorno a cui l'oggetto gira.",
+      "Quando un pianeta si avvicina al Sole la distanza diminuisce, quindi la velocità deve aumentare perché il prodotto resti costante, come una pattinatrice che gira più veloce stringendo le braccia. Lo stesso vale per le comete, velocissime vicino al Sole e lentissime lontano."
+     ]
+    },
+    {
+     "h": "Pesare il Sole",
+     "p": [
+      "Con la gravitazione Newton riformulò la terza legge di Keplero, che ora conteneva anche le masse dei corpi. Questo permette di \"pesare\" i corpi celesti: dal periodo e dalla distanza della Terra si ricava la massa del Sole, circa 330.000 volte quella terrestre; dalle orbite delle lune si ricavano le masse dei pianeti.",
+      "Nel Sistema solare le orbite dei pianeti sono ellissi quasi circolari, tutte su piani simili e percorse nello stesso verso: un indizio della loro origine comune da un disco di gas e polvere. Comete e asteroidi hanno invece spesso orbite molto allungate e inclinate."
+     ]
+    }
+   ],
+   "formulas": [
+    {
+     "f": "F = G · M · m / d²",
+     "d": "Legge di gravitazione universale."
+    },
+    {
+     "f": "P² = 4π² · a³ / (G · (M + m))",
+     "d": "Terza legge di Keplero nella forma di Newton."
+    }
+   ],
+   "example": "Sapendo quanto dura l'anno terrestre e quanto dista il Sole, si calcola che il Sole pesa circa 2 × 10³⁰ kg.",
+   "mistakes": [
+    "\"Massa e peso sono la stessa cosa\": il peso è la forza di gravità sulla massa.",
+    "\"La Luna non è attratta dalla Terra perché non cade\": cade continuamente, ma va di lato abbastanza veloce da restare in orbita.",
+    "\"I pianeti si muovono a velocità costante\": accelerano vicino al Sole."
+   ],
+   "terms": [
+    {
+     "t": "Massa",
+     "d": "Quantità di materia di un corpo."
+    },
+    {
+     "t": "Gravitazione universale",
+     "d": "Attrazione tra tutte le masse."
+    },
+    {
+     "t": "Momento angolare",
+     "d": "Massa × velocità × distanza dal centro di rotazione."
+    },
+    {
+     "t": "Terza legge di Newton",
+     "d": "A ogni azione corrisponde una reazione uguale e contraria."
+    }
+   ],
+   "quote": {
+    "text": "The angular momentum of an object is defined as the product of its mass, its velocity, and its distance from the fixed point around which it revolves.",
+    "translation": "Il momento angolare di un oggetto è definito come il prodotto della sua massa, della sua velocità e della sua distanza dal punto fisso intorno a cui ruota."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "3.2 Newtons great synthesis",
+     "url": "https://openstax.org/books/astronomy-2e/pages/3-2-newtons-great-synthesis"
+    },
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "3.3 Newtons universal law of gravitation",
+     "url": "https://openstax.org/books/astronomy-2e/pages/3-3-newtons-universal-law-of-gravitation"
+    },
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "3.4 Orbits in the solar system",
+     "url": "https://openstax.org/books/astronomy-2e/pages/3-4-orbits-in-the-solar-system"
+    }
+   ],
+   "videos": [
+    {
+     "id": "kxkFaBG6a-A",
+     "title": "Newton's Law of Universal Gravitation",
+     "channel": "Professor Dave Explains",
+     "length": "8:25"
+    },
+    {
+     "id": "KlWpFLfLFBI",
+     "title": "Tides: Crash Course Astronomy #8",
+     "channel": "CrashCourse",
+     "length": "9:47"
+    }
+   ],
+   "videoQuery": "newton gravity orbits crash course astronomy",
+   "addedAt": "2026-11-04T11:14:46Z"
+  },
+  {
+   "id": "sonde-spaziali",
+   "subject": "astronomia",
+   "chapter": "Pianeti e orbite",
+   "title": "Satelliti, sonde e fionde gravitazionali",
+   "hook": "Come si mette in orbita un satellite, come si raggiunge Marte risparmiando carburante e come le sonde usano i pianeti per accelerare gratis.",
+   "points": [
+    "Velocità orbitale e velocità di fuga",
+    "I viaggi interplanetari",
+    "La fionda gravitazionale",
+    "Gravità con più di due corpi"
+   ],
+   "sections": [
+    {
+     "h": "Mettere in orbita",
+     "p": [
+      "Immagina di sparare un proiettile in orizzontale da una montagna altissima, senza aria. Una volta uscito dalla canna, l'unica forza che agisce è la gravità tra il proiettile e la Terra. Più è veloce, più lontano cade. A circa 8 chilometri al secondo cade esattamente quanto si incurva la superficie terrestre: non tocca mai terra, è in orbita.",
+      "I satelliti in orbita bassa viaggiano a circa 28.000 km/h e girano intorno alla Terra in circa un'ora e mezza. Per allontanarsi per sempre dalla Terra serve la velocità di fuga, circa 11 chilometri al secondo."
+     ]
+    },
+    {
+     "h": "Andare sugli altri pianeti",
+     "p": [
+      "Una sonda diretta a Marte non vola in linea retta: una volta lasciata la Terra, è in orbita intorno al Sole. Il percorso più economico è un'ellisse che tocca l'orbita della Terra alla partenza e quella di Marte all'arrivo, detta orbita di trasferimento.",
+      "Per questo le missioni partono in finestre di lancio precise, quando i pianeti sono nelle posizioni giuste: per Marte succede circa ogni 26 mesi. Il viaggio dura alcuni mesi. Pianificare queste traiettorie richiede di calcolare con precisione le leggi di Keplero e Newton."
+     ]
+    },
+    {
+     "h": "La fionda gravitazionale",
+     "p": [
+      "Per raggiungere i pianeti esterni servirebbe moltissimo carburante. Gli ingegneri usano un trucco: la fionda gravitazionale, o assistenza gravitazionale. La sonda passa vicino a un pianeta, che con la sua gravità ne devia la traiettoria; poiché il pianeta si muove intorno al Sole, la sonda può guadagnare velocità rispetto al Sole, \"rubandone\" un pochino al pianeta.",
+      "Le sonde Voyager, lanciate nel 1977, sfruttarono un raro allineamento dei pianeti esterni per visitare Giove, Saturno, Urano e Nettuno usando le fionde gravitazionali. Oggi viaggiano nello spazio interstellare, le macchine umane più lontane da casa."
+     ]
+    },
+    {
+     "h": "Più di due corpi",
+     "p": [
+      "Le leggi di Keplero valgono esattamente per due corpi. Con tre o più corpi i calcoli diventano complicatissimi e in genere si risolvono al computer. Le piccole attrazioni reciproche tra i pianeti modificano leggermente le loro orbite: sono le perturbazioni.",
+      "Studiando le perturbazioni nell'orbita di Urano, nel 1846 gli astronomi Le Verrier e Adams calcolarono la posizione di un pianeta sconosciuto: Nettuno fu trovato quasi esattamente dove previsto. Fu un trionfo della gravitazione di Newton."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "La sonda europea BepiColombo, diretta verso Mercurio, usa diversi passaggi vicino a Terra, Venere e Mercurio per frenare risparmiando carburante.",
+   "mistakes": [
+    "\"Un satellite resta in orbita perché lassù non c'è gravità\": la gravità c'è; il satellite cade continuamente.",
+    "\"Per andare su Marte si punta verso Marte\": si segue un'orbita intorno al Sole.",
+    "\"La fionda gravitazionale crea energia dal nulla\": la prende dal moto del pianeta."
+   ],
+   "terms": [
+    {
+     "t": "Velocità orbitale",
+     "d": "Velocità necessaria per restare in orbita."
+    },
+    {
+     "t": "Velocità di fuga",
+     "d": "Velocità necessaria per sfuggire alla gravità."
+    },
+    {
+     "t": "Orbita di trasferimento",
+     "d": "Ellisse usata per passare da un'orbita all'altra."
+    },
+    {
+     "t": "Fionda gravitazionale",
+     "d": "Uso della gravità di un pianeta per cambiare velocità."
+    }
+   ],
+   "quote": {
+    "text": "Then the only force that acts on the bullet after it leaves the muzzle is the gravitational force between the bullet and Earth.",
+    "translation": "Allora l'unica forza che agisce sul proiettile dopo che è uscito dalla canna è la forza gravitazionale tra il proiettile e la Terra."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "3.5 Motions of satellites and spacecraft",
+     "url": "https://openstax.org/books/astronomy-2e/pages/3-5-motions-of-satellites-and-spacecraft"
+    },
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "3.6 Gravity with more than two bodies",
+     "url": "https://openstax.org/books/astronomy-2e/pages/3-6-gravity-with-more-than-two-bodies"
+    }
+   ],
+   "videos": [
+    {
+     "id": "1s6_4qX-u2o",
+     "title": "27.5 Worked Example: Gravitational Slingshot",
+     "channel": "MIT OpenCourseWare",
+     "length": "4:45"
+    },
+    {
+     "id": "UQ3kVx-ZVAk",
+     "title": "Gravity assists: trading energy with the planets",
+     "channel": "European Space Agency, ESA",
+     "length": "3:03"
+    }
+   ],
+   "videoQuery": "gravity assist spacecraft orbits",
+   "addedAt": "2026-11-04T11:14:46Z"
+  },
+  {
+   "id": "misurare-il-tempo",
+   "subject": "astronomia",
+   "chapter": "Terra, Luna e cielo",
+   "title": "Coordinate e tempo: latitudine, longitudine, giorni e fusi orari",
+   "hook": "Come si indica la posizione sulla Terra e nel cielo, perché il giorno solare non è uguale a quello delle stelle e da dove vengono i fusi orari.",
+   "points": [
+    "Latitudine e longitudine",
+    "Coordinate celesti",
+    "Giorno solare e giorno siderale",
+    "Fusi orari e ora legale"
+   ],
+   "sections": [
+    {
+     "h": "Un indirizzo sulla Terra",
+     "p": [
+      "Per indicare un punto sulla Terra si usano due coordinate. La latitudine è il numero di gradi a nord o a sud dell'equatore; la longitudine è il numero di gradi a est o a ovest del meridiano fondamentale, che per convenzione passa per Greenwich, vicino a Londra.",
+      "I meridiani sono cerchi che passano per i poli, perpendicolari all'equatore. La rotazione terrestre definisce anche le direzioni: l'est è la direzione verso cui la Terra ruota, l'ovest quella opposta. Roma si trova a circa 42 gradi di latitudine nord e 12 di longitudine est."
+     ]
+    },
+    {
+     "h": "Un indirizzo nel cielo",
+     "p": [
+      "Il cielo ha un sistema simile. A metà strada tra i poli celesti c'è l'equatore celeste, un grande cerchio sulla sfera celeste che si trova sullo stesso piano dell'equatore terrestre. La declinazione corrisponde alla latitudine, l'ascensione retta alla longitudine.",
+      "Con queste coordinate ogni stella ha un indirizzo preciso, che gli astronomi usano per puntare i telescopi. Le posizioni cambiano molto lentamente nei secoli a causa della precessione dell'asse terrestre."
+     ]
+    },
+    {
+     "h": "Quanto dura un giorno",
+     "p": [
+      "Il giorno solare è il tempo tra due passaggi successivi del Sole al punto più alto del cielo: 24 ore in media. Il giorno siderale, misurato rispetto alle stelle lontane, è circa 4 minuti più corto, circa 23 ore e 56 minuti.",
+      "La differenza nasce dal fatto che, mentre la Terra ruota, si sposta anche lungo l'orbita intorno al Sole: deve girare un po' di più per riportare il Sole nella stessa posizione. Per questo le stelle sorgono ogni sera circa 4 minuti prima, e nel corso dell'anno il cielo notturno cambia.",
+      "Anche il giorno solare non è uguale tutto l'anno, per l'orbita ellittica e l'inclinazione dell'asse: le meridiane possono anticipare o ritardare fino a circa un quarto d'ora rispetto agli orologi."
+     ]
+    },
+    {
+     "h": "Fusi orari",
+     "p": [
+      "Un tempo ogni città usava la propria ora solare locale, con il mezzogiorno quando il Sole era più alto. Con le ferrovie dell'Ottocento questo divenne un caos per gli orari dei treni, e si adottarono i fusi orari: il mondo è diviso in fasce di circa 15 gradi di longitudine, ciascuna con la stessa ora, un'ora di differenza dalla successiva.",
+      "L'Italia usa l'ora dell'Europa centrale, un'ora avanti rispetto a Greenwich. Con l'ora legale, d'estate, gli orologi vengono spostati avanti di un'ora per sfruttare meglio la luce serale. La linea internazionale del cambio di data, nel Pacifico, è il punto in cui il calendario avanza o torna indietro di un giorno."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Se ogni sera alle 22 guardi la stessa stella, dopo un mese la vedrai circa due ore più avanti nel suo percorso: il giorno siderale è più corto.",
+   "mistakes": [
+    "\"Un giorno è esattamente il tempo di una rotazione della Terra\": rispetto alle stelle la rotazione dura circa 23 ore e 56 minuti.",
+    "\"Il mezzogiorno dell'orologio coincide con il Sole più alto\": dipende dal fuso e dalla stagione.",
+    "\"Il meridiano di Greenwich ha qualcosa di speciale in natura\": è una convenzione."
+   ],
+   "terms": [
+    {
+     "t": "Latitudine",
+     "d": "Gradi a nord o a sud dell'equatore."
+    },
+    {
+     "t": "Longitudine",
+     "d": "Gradi a est o a ovest del meridiano di Greenwich."
+    },
+    {
+     "t": "Giorno siderale",
+     "d": "Rotazione della Terra rispetto alle stelle."
+    },
+    {
+     "t": "Fuso orario",
+     "d": "Fascia della Terra con la stessa ora."
+    }
+   ],
+   "quote": {
+    "text": "Latitude is the number of degrees north or south of the equator, and longitude is the number of degrees east or west of the Prime Meridian.",
+    "translation": "La latitudine è il numero di gradi a nord o a sud dell'equatore, e la longitudine è il numero di gradi a est o a ovest del meridiano fondamentale."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "4.1 Earth and sky",
+     "url": "https://openstax.org/books/astronomy-2e/pages/4-1-earth-and-sky"
+    },
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "4.3 Keeping time",
+     "url": "https://openstax.org/books/astronomy-2e/pages/4-3-keeping-time"
+    }
+   ],
+   "videos": [],
+   "videoQuery": "sidereal day solar day time zones",
+   "addedAt": "2026-11-04T11:14:46Z"
+  },
+  {
    "id": "stagioni",
    "subject": "astronomia",
    "title": "Le stagioni: perché l'estate non dipende dalla distanza dal Sole",
@@ -17471,6 +18469,102 @@
     }
    ],
    "formulas": []
+  },
+  {
+   "id": "calendario",
+   "subject": "astronomia",
+   "chapter": "Terra, Luna e cielo",
+   "title": "Il calendario: perché esistono gli anni bisestili",
+   "hook": "Giorni, mesi e anni non si incastrano perfettamente. Dai calendari lunari a Giulio Cesare a papa Gregorio: la lunga storia del calendario.",
+   "points": [
+    "Perché il calendario è un problema",
+    "Calendari lunari e solari",
+    "Il calendario giuliano",
+    "La riforma gregoriana e gli anni bisestili"
+   ],
+   "sections": [
+    {
+     "h": "Unità che non si incastrano",
+     "p": [
+      "Le unità naturali del tempo sono tre: il giorno (una rotazione della Terra), il mese (il ciclo delle fasi lunari, circa 29,5 giorni) e l'anno (un'orbita intorno al Sole, circa 365,24 giorni). Il problema è che i loro rapporti non sono numeri interi comodi per i calcoli.",
+      "Un anno non contiene un numero intero di giorni né di mesi lunari. Conciliarli è la sfida storica del calendario, affrontata in modi diversi dalle diverse culture."
+     ]
+    },
+    {
+     "h": "Lunari e solari",
+     "p": [
+      "Alcuni calendari seguono la Luna. Il calendario islamico è puramente lunare: 12 mesi lunari formano un anno di circa 354 giorni. Per questo il Ramadan cade ogni anno circa 11 giorni prima e nel corso dei decenni attraversa tutte le stagioni.",
+      "Altri, come quello ebraico e quello cinese tradizionale, sono lunisolari: seguono la Luna ma aggiungono ogni tanto un mese in più per restare in fase con le stagioni. Il nostro calendario è solare: i mesi non seguono più le fasi lunari, ma l'anno segue le stagioni."
+     ]
+    },
+    {
+     "h": "Giulio Cesare",
+     "p": [
+      "Il calendario romano più antico era confuso e veniva aggiustato in modo irregolare, tanto che ai tempi di Giulio Cesare le date erano sfasate di mesi rispetto alle stagioni. Nel 46 avanti Cristo Cesare, consigliato dall'astronomo Sosigene di Alessandria, introdusse il calendario giuliano: anni di 365 giorni, con un giorno in più ogni quattro anni.",
+      "Così l'anno medio durava 365,25 giorni, molto vicino al valore reale. Molto vicino, ma non esatto: l'anno solare è circa 11 minuti più corto. In un secolo l'errore accumulato era di quasi un giorno."
+     ]
+    },
+    {
+     "h": "La riforma gregoriana",
+     "p": [
+      "Nel Cinquecento l'equinozio di primavera cadeva ormai intorno all'11 marzo invece che intorno al 21, con problemi per il calcolo della Pasqua. Nel 1582 papa Gregorio XIII, sulla base dei calcoli dell'astronomo calabrese Luigi Lilio, introdusse una riforma: furono cancellati 10 giorni, e dal 4 ottobre si passò direttamente al 15 ottobre.",
+      "Per evitare nuovi errori cambiò la regola degli anni bisestili: sono bisestili gli anni divisibili per 4, tranne quelli secolari non divisibili per 400. Così il 1900 non fu bisestile, il 2000 sì. L'anno medio diventa di 365,2425 giorni: l'errore è di un giorno ogni circa 3000 anni.",
+      "I paesi cattolici adottarono subito il calendario gregoriano; altri lo fecero molto più tardi: la Gran Bretagna nel 1752, la Russia nel 1918. Per questo la Rivoluzione d'ottobre russa, nel nostro calendario, cadde a novembre."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Il 2100 non sarà bisestile: è un anno secolare non divisibile per 400.",
+   "mistakes": [
+    "\"Gli anni bisestili sono ogni quattro anni senza eccezioni\": gli anni secolari lo sono solo se divisibili per 400.",
+    "\"Il calendario è sempre stato com'è oggi\": nel 1582 sono stati cancellati 10 giorni.",
+    "\"I mesi seguono la Luna\": nel nostro calendario no."
+   ],
+   "terms": [
+    {
+     "t": "Mese sinodico",
+     "d": "Ciclo delle fasi lunari, circa 29,5 giorni."
+    },
+    {
+     "t": "Anno tropico",
+     "d": "Durata del ciclo delle stagioni, circa 365,24 giorni."
+    },
+    {
+     "t": "Calendario giuliano",
+     "d": "Calendario di Cesare con un anno bisestile ogni quattro."
+    },
+    {
+     "t": "Calendario gregoriano",
+     "d": "Calendario riformato nel 1582, in uso oggi."
+    }
+   ],
+   "quote": {
+    "text": "This is the historic challenge of the calendar, dealt with in various ways by different cultures.",
+    "translation": "È questa la sfida storica del calendario, affrontata in modi diversi dalle diverse culture."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "4.4 The calendar",
+     "url": "https://openstax.org/books/astronomy-2e/pages/4-4-the-calendar"
+    }
+   ],
+   "videos": [
+    {
+     "id": "yd1i3vkkh-0",
+     "title": "The Leap Year as Explained by Neil deGrasse Tyson | StarTalk",
+     "channel": "National Geographic",
+     "length": "3:22"
+    },
+    {
+     "id": "gvuz0BVy5TM",
+     "title": "Leap years and why we need them - BBC News",
+     "channel": "BBC News",
+     "length": "2:38"
+    }
+   ],
+   "videoQuery": "history of the calendar leap year",
+   "addedAt": "2026-11-04T11:14:46Z"
   },
   {
    "id": "fasi-luna",
@@ -17587,6 +18681,213 @@
     }
    ],
    "formulas": []
+  },
+  {
+   "id": "maree",
+   "subject": "astronomia",
+   "chapter": "Terra, Luna e cielo",
+   "title": "Le maree: come la Luna muove gli oceani",
+   "hook": "Due alte maree al giorno, non una: la Luna tira gli oceani in modo diverso da una parte e dall'altra della Terra. E sta rallentando la rotazione terrestre.",
+   "points": [
+    "Perché le maree dipendono dalla Luna",
+    "Perché le alte maree sono due",
+    "Maree vive e morte",
+    "Gli effetti delle maree sulla Terra e sulla Luna"
+   ],
+   "sections": [
+    {
+     "h": "Il legame con la Luna",
+     "p": [
+      "Fin dall'antichità era chiaro che le maree dovevano essere legate alla Luna: il ritardo giornaliero dell'alta marea è uguale al ritardo giornaliero del sorgere della Luna, circa 50 minuti.",
+      "La spiegazione arrivò con la gravitazione di Newton. La gravità della Luna diminuisce con la distanza. Il lato della Terra più vicino alla Luna è attratto più fortemente del centro della Terra, che a sua volta è attratto più fortemente del lato opposto."
+     ]
+    },
+    {
+     "h": "Due rigonfiamenti",
+     "p": [
+      "Questa differenza di attrazione stira la Terra lungo la linea che la collega alla Luna. Gli oceani, liberi di muoversi, formano due rigonfiamenti: uno sul lato rivolto verso la Luna, dove l'acqua è tirata più del centro della Terra, e uno sul lato opposto, dove il centro della Terra è tirato più dell'acqua, che \"resta indietro\".",
+      "Mentre la Terra ruota, ogni località passa sotto entrambi i rigonfiamenti: per questo ci sono in genere due alte maree e due basse maree al giorno, circa ogni 12 ore e 25 minuti.",
+      "Nella realtà le maree sono molto complicate dalla forma delle coste e dei fondali. Nel Mediterraneo sono piccole, pochi decimetri; nella baia di Fundy, in Canada, superano i 15 metri."
+     ]
+    },
+    {
+     "h": "Il Sole e le maree vive",
+     "p": [
+      "Anche il Sole produce maree, circa la metà di quelle lunari: è molto più massiccio ma anche molto più lontano, e l'effetto di marea diminuisce rapidamente con la distanza.",
+      "Con la Luna nuova e la Luna piena, Sole e Luna sono allineati e i loro effetti si sommano: si hanno le maree vive, con escursioni maggiori. Ai quarti di Luna gli effetti si contrastano in parte: maree morte, più deboli."
+     ]
+    },
+    {
+     "h": "Un freno per la Terra",
+     "p": [
+      "L'attrito delle maree sui fondali rallenta lentamente la rotazione della Terra: il giorno si allunga di circa 2 millesimi di secondo ogni secolo. Centinaia di milioni di anni fa il giorno durava molto meno di 24 ore, come mostrano gli anelli di crescita di coralli fossili.",
+      "In cambio, la Luna si allontana dalla Terra di circa 3,8 centimetri all'anno, misurati con laser riflessi da specchi lasciati sulla Luna dagli astronauti. Le maree terrestri hanno anche bloccato la rotazione della Luna, che ci mostra sempre la stessa faccia. Lo stesso fenomeno si osserva altrove: Plutone e la sua luna Caronte si mostrano a vicenda sempre la stessa faccia, e la rotazione e il periodo orbitale di Caronte durano quanto un giorno di Plutone."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "A Venezia l'acqua alta è più probabile con la Luna piena o nuova, quando la marea viva si somma al vento di scirocco.",
+   "mistakes": [
+    "\"La Luna attira l'acqua solo dal lato rivolto verso di lei\": c'è un rigonfiamento anche dal lato opposto.",
+    "\"Il Sole non influisce sulle maree\": contribuisce per circa metà dell'effetto lunare.",
+    "\"La distanza della Luna è fissa\": si allontana di quasi 4 cm all'anno."
+   ],
+   "terms": [
+    {
+     "t": "Forza di marea",
+     "d": "Differenza di attrazione gravitazionale tra punti diversi di un corpo."
+    },
+    {
+     "t": "Marea viva",
+     "d": "Marea ampia con Sole e Luna allineati."
+    },
+    {
+     "t": "Marea morta",
+     "d": "Marea debole ai quarti di Luna."
+    },
+    {
+     "t": "Rotazione sincrona",
+     "d": "Rotazione bloccata che mostra sempre la stessa faccia."
+    }
+   ],
+   "quote": {
+    "text": "Early in history, it was clear that tides must be related to the Moon because the daily delay in high tide is the same as the daily delay in the Moon’s rising.",
+    "translation": "Fin dall'antichità era chiaro che le maree dovevano essere legate alla Luna, perché il ritardo giornaliero dell'alta marea è uguale al ritardo giornaliero del sorgere della Luna."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "4.6 Ocean tides and the moon",
+     "url": "https://openstax.org/books/astronomy-2e/pages/4-6-ocean-tides-and-the-moon"
+    }
+   ],
+   "videos": [
+    {
+     "id": "mpRJhhbKLFc",
+     "title": "Why are there two tides a day? - Elise Cutts",
+     "channel": "TED-Ed",
+     "length": "5:21"
+    },
+    {
+     "id": "KlWpFLfLFBI",
+     "title": "Tides: Crash Course Astronomy #8",
+     "channel": "CrashCourse",
+     "length": "9:47"
+    }
+   ],
+   "videoQuery": "tides crash course astronomy",
+   "addedAt": "2026-11-04T11:14:46Z"
+  },
+  {
+   "id": "natura-della-luce",
+   "subject": "astronomia",
+   "chapter": "Luce e strumenti",
+   "title": "La luce e lo spettro elettromagnetico in astronomia",
+   "hook": "Quasi tutto ciò che sappiamo dell'universo arriva come luce. Cos'è un'onda elettromagnetica, cosa sono i colori e perché servono telescopi per ogni tipo di luce.",
+   "points": [
+    "La luce come onda elettromagnetica",
+    "Lunghezza d'onda, frequenza e colori",
+    "Lo spettro elettromagnetico",
+    "Cosa lascia passare l'atmosfera"
+   ],
+   "sections": [
+    {
+     "h": "Messaggeri dal cosmo",
+     "p": [
+      "Gli astronomi non possono toccare le stelle: tutto ciò che sanno arriva sotto forma di radiazione. Per questo capire la luce è fondamentale per l'astronomia.",
+      "La luce è un'onda elettromagnetica: campi elettrici e magnetici che oscillano e si propagano nello spazio, anche nel vuoto, alla velocità di circa 300.000 km/s. Che si tratti del movimento su e giù di un'onda d'acqua o dei campi che cambiano in un'onda di luce, lo schema del disturbo si ripete in modo ciclico."
+     ]
+    },
+    {
+     "h": "Onde e colori",
+     "p": [
+      "La lunghezza orizzontale coperta da un ciclo si chiama lunghezza d'onda: per le onde del mare è la distanza tra due creste. La frequenza è il numero di cicli che passano in un secondo. Più corta è la lunghezza d'onda, più alta la frequenza.",
+      "Per la luce visibile, i nostri occhi percepiscono lunghezze d'onda diverse come colori diversi: il rosso ha la lunghezza d'onda visibile più lunga, il violetto la più corta. La luce bianca è una miscela di tutti i colori.",
+      "La luce si comporta anche come una pioggia di particelle, i fotoni, ciascuno con un'energia che dipende dalla frequenza: i fotoni blu sono più energetici di quelli rossi."
+     ]
+    },
+    {
+     "h": "Lo spettro completo",
+     "p": [
+      "La luce visibile è solo una piccola parte dello spettro elettromagnetico. A lunghezze d'onda maggiori ci sono gli infrarossi, le microonde e le onde radio; a lunghezze minori gli ultravioletti, i raggi X e i raggi gamma.",
+      "Ogni regione dello spettro racconta qualcosa di diverso. Le onde radio rivelano il gas freddo e le pulsar; gli infrarossi le nubi di polvere dove nascono le stelle e le galassie più lontane; i raggi X il gas caldissimo intorno ai buchi neri e negli ammassi di galassie; i raggi gamma le esplosioni più violente.",
+      "Anche la temperatura di un oggetto determina che luce emette: gli oggetti freddi emettono soprattutto infrarossi e radio, quelli caldissimi ultravioletti e raggi X."
+     ]
+    },
+    {
+     "h": "L'atmosfera fa da filtro",
+     "p": [
+      "Per fortuna della vita sulla Terra, l'atmosfera blocca gran parte delle radiazioni più pericolose: raggi gamma, raggi X e gran parte degli ultravioletti. Blocca anche molte lunghezze d'onda infrarosse.",
+      "Lascia passare bene solo due \"finestre\": la luce visibile, con un po' di infrarosso e ultravioletto vicini, e una gran parte delle onde radio. Per questo da terra si costruiscono telescopi ottici e radiotelescopi, mentre per osservare in raggi X, gamma e in molti infrarossi bisogna andare nello spazio."
+     ]
+    }
+   ],
+   "formulas": [
+    {
+     "f": "c = λ · f",
+     "d": "Velocità della luce = lunghezza d'onda × frequenza."
+    },
+    {
+     "f": "E = h · f",
+     "d": "Energia di un fotone."
+    }
+   ],
+   "example": "Le foto dei telescopi spaziali in raggi X o infrarossi sono a \"falsi colori\": i colori servono a rappresentare luce che i nostri occhi non vedono.",
+   "mistakes": [
+    "\"La luce è solo quella che vediamo\": il visibile è una piccola parte dello spettro.",
+    "\"I raggi X arrivano a terra dalle stelle\": l'atmosfera li blocca.",
+    "\"Il rosso ha più energia del blu\": è il contrario."
+   ],
+   "terms": [
+    {
+     "t": "Onda elettromagnetica",
+     "d": "Campi elettrici e magnetici oscillanti che si propagano."
+    },
+    {
+     "t": "Lunghezza d'onda",
+     "d": "Distanza tra due creste."
+    },
+    {
+     "t": "Frequenza",
+     "d": "Cicli al secondo."
+    },
+    {
+     "t": "Finestra atmosferica",
+     "d": "Intervallo di radiazione che l'atmosfera lascia passare."
+    }
+   ],
+   "quote": {
+    "text": "For visible light, our eyes perceive different wavelengths as different colors: red, for example, is the longest visible wavelength, and violet is the shortest.",
+    "translation": "Per la luce visibile, i nostri occhi percepiscono lunghezze d'onda diverse come colori diversi: il rosso, per esempio, è la lunghezza d'onda visibile più lunga e il violetto la più corta."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "5.1 The behavior of light",
+     "url": "https://openstax.org/books/astronomy-2e/pages/5-1-the-behavior-of-light"
+    },
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "5.2 The electromagnetic spectrum",
+     "url": "https://openstax.org/books/astronomy-2e/pages/5-2-the-electromagnetic-spectrum"
+    }
+   ],
+   "videos": [
+    {
+     "id": "IRBfpBPELmE",
+     "title": "Light Is Waves: Crash Course Physics #39",
+     "channel": "CrashCourse",
+     "length": "9:45"
+    },
+    {
+     "id": "O0PawPSdk28",
+     "title": "Light waves, visible and invisible",
+     "channel": "TED-Ed",
+     "length": "5:58"
+    }
+   ],
+   "videoQuery": "electromagnetic spectrum crash course astronomy light",
+   "addedAt": "2026-11-04T11:14:46Z"
   },
   {
    "id": "spettroscopia",
@@ -17706,6 +19007,106 @@
    "formulas": []
   },
   {
+   "id": "atomi-e-righe-spettrali",
+   "subject": "astronomia",
+   "chapter": "Luce e strumenti",
+   "title": "Atomi e righe spettrali: le impronte digitali degli elementi",
+   "hook": "Ogni elemento chimico assorbe ed emette luce solo a certi colori. Ecco come la struttura degli atomi crea le righe spettrali che rivelano la composizione delle stelle.",
+   "points": [
+    "Com'è fatto un atomo",
+    "Isotopi ed elementi",
+    "Livelli di energia e salti degli elettroni",
+    "Ionizzazione ed eccitazione nelle stelle"
+   ],
+   "sections": [
+    {
+     "h": "Dentro l'atomo",
+     "p": [
+      "Un atomo ha un nucleo minuscolo, con protoni positivi e neutroni senza carica, circondato da elettroni negativi. Il numero di protoni decide l'elemento: qualsiasi atomo con sei protoni è carbonio, con otto ossigeno, con 26 ferro, con 92 uranio.",
+      "Lo stesso elemento può avere un numero diverso di neutroni: sono gli isotopi. L'isotopo più comune dell'idrogeno ha un solo protone e nessun neutrone; il deuterio ha anche un neutrone. L'idrogeno è l'elemento più abbondante dell'universo; l'elio, il secondo, è il secondo elemento più abbondante anche nel Sole."
+     ]
+    },
+    {
+     "h": "Una scala di energia",
+     "p": [
+      "Gli elettroni di un atomo possono occupare solo certi livelli di energia, come i gradini di una scala. Come in un palazzo il piano terra è il più \"economico\", in un atomo il posto più conveniente per un elettrone è il livello più basso, e serve energia per salire a un livello più alto.",
+      "Un elettrone può salire assorbendo un fotone con un'energia esattamente uguale alla differenza tra due livelli. Quando ricade, emette un fotone con la stessa energia precisa. Poiché ogni elemento ha la sua scala di livelli, ogni elemento assorbe ed emette solo certi colori: le sue righe spettrali."
+     ]
+    },
+    {
+     "h": "Righe di emissione e di assorbimento",
+     "p": [
+      "Un gas caldo e rarefatto emette luce solo ai colori delle sue righe: è lo spettro di emissione, fatto di righe luminose. Se la luce continua di una sorgente calda attraversa un gas più freddo, il gas assorbe proprio quei colori, e nello spettro compaiono righe scure: è lo spettro di assorbimento.",
+      "Le stelle mostrano soprattutto spettri di assorbimento: la luce dell'interno caldo attraversa l'atmosfera stellare più fredda. Confrontando le righe con quelle misurate in laboratorio, si scopre quali elementi ci sono."
+     ]
+    },
+    {
+     "h": "Eccitazione e ionizzazione",
+     "p": [
+      "Negli ambienti caldi delle stelle gli atomi si urtano violentemente, e gli elettroni vengono spinti a livelli più alti: l'atomo è eccitato. Se l'energia è abbastanza grande, un elettrone viene strappato del tutto: l'atomo diventa uno ione.",
+      "Gli ioni hanno righe spettrali diverse da quelle degli atomi neutri. Per questo le righe presenti nello spettro di una stella dipendono non solo dalla sua composizione, ma anche dalla sua temperatura: è la chiave per classificare le stelle e misurarne la temperatura superficiale."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Le luci gialle-arancio dei lampioni al sodio emettono quasi solo due righe gialle: attraverso un reticolo vedresti poche righe, non un arcobaleno.",
+   "mistakes": [
+    "\"Un elettrone può avere qualsiasi energia nell'atomo\": solo livelli precisi.",
+    "\"Le righe scure sono difetti\": sono colori assorbiti dagli atomi.",
+    "\"Lo spettro dipende solo dalla composizione\": dipende anche dalla temperatura."
+   ],
+   "terms": [
+    {
+     "t": "Isotopo",
+     "d": "Variante di un elemento con diverso numero di neutroni."
+    },
+    {
+     "t": "Livello di energia",
+     "d": "Energia permessa per un elettrone."
+    },
+    {
+     "t": "Spettro di emissione",
+     "d": "Righe luminose emesse da un gas caldo."
+    },
+    {
+     "t": "Ione",
+     "d": "Atomo che ha perso o acquistato elettroni."
+    }
+   ],
+   "quote": {
+    "text": "In an atom, too, the “cheapest” place for an electron to live is the lowest possible level, and energy is required to move to a higher level.",
+    "translation": "Anche in un atomo il posto più \"economico\" in cui un elettrone può stare è il livello più basso possibile, e serve energia per salire a un livello più alto."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "5.4 The structure of the atom",
+     "url": "https://openstax.org/books/astronomy-2e/pages/5-4-the-structure-of-the-atom"
+    },
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "5.5 Formation of spectral lines",
+     "url": "https://openstax.org/books/astronomy-2e/pages/5-5-formation-of-spectral-lines"
+    }
+   ],
+   "videos": [
+    {
+     "id": "N0lBsW3ZzN8",
+     "title": "Atomic spectra | Physics | Khan Academy",
+     "channel": "Khan Academy",
+     "length": "14:43"
+    },
+    {
+     "id": "7u3rRy97m9Y",
+     "title": "Sodium Absorption Lines",
+     "channel": "Harvard Natural Sciences Lecture Demonstrations",
+     "length": "1:25"
+    }
+   ],
+   "videoQuery": "spectral lines atoms emission absorption",
+   "addedAt": "2026-11-04T11:14:46Z"
+  },
+  {
    "id": "telescopi",
    "subject": "astronomia",
    "chapter": "Luce e strumenti",
@@ -17809,6 +19210,183 @@
    ],
    "videoQuery": "come funzionano i telescopi",
    "addedAt": "2026-11-04T00:12:22Z"
+  },
+  {
+   "id": "grandi-telescopi",
+   "subject": "astronomia",
+   "chapter": "Luce e strumenti",
+   "title": "I grandi telescopi di oggi e di domani",
+   "hook": "Specchi di dieci metri, ottiche che correggono l'atmosfera, osservatori sulle Ande e telescopi da quasi 40 metri in costruzione. Dove e come si osserva oggi il cielo.",
+   "points": [
+    "Risoluzione e dimensioni del telescopio",
+    "Dove si costruiscono gli osservatori",
+    "Ottica adattiva e interferometria",
+    "I telescopi giganti del futuro"
+   ],
+   "sections": [
+    {
+     "h": "Vedere i dettagli",
+     "p": [
+      "Due qualità contano in un telescopio: quanta luce raccoglie e quanti dettagli distingue. La risoluzione indica la precisione dei dettagli presenti in un'immagine, cioè le caratteristiche più piccole che si possono distinguere.",
+      "Un fattore che determina la risoluzione è la dimensione del telescopio: specchi più grandi distinguono dettagli più fini, oltre a raccogliere più luce. Per questo negli ultimi decenni si sono costruiti telescopi sempre più grandi, con specchi di 8-10 metri, fatti spesso di molti segmenti."
+     ]
+    },
+    {
+     "h": "I luoghi migliori",
+     "p": [
+      "Un buon osservatorio ha bisogno di cieli bui, lontani dalle luci delle città, di aria secca e di un'atmosfera stabile. Per questo i grandi telescopi si trovano su montagne alte e isolate: Mauna Kea alle Hawaii, La Palma alle Canarie, il deserto di Atacama in Cile.",
+      "Il Cerro Paranal, una vetta a 2,7 chilometri di quota nel deserto di Atacama, ospita il Very Large Telescope dell'Osservatorio Europeo Australe (ESO): quattro telescopi con specchi di 8,2 metri ciascuno, di cui l'Italia è tra i paesi membri. Anche l'inquinamento luminoso crescente è una minaccia per l'astronomia."
+     ]
+    },
+    {
+     "h": "Correggere l'atmosfera",
+     "p": [
+      "La turbolenza dell'aria fa tremolare le stelle e limita la risoluzione dei telescopi da terra. L'ottica adattiva la corregge: un sensore misura centinaia di volte al secondo come l'atmosfera distorce la luce di una stella di riferimento, spesso una stella artificiale creata con un laser, e uno specchio deformabile compensa la distorsione.",
+      "Con l'ottica adattiva i grandi telescopi da terra possono raggiungere, in alcune lunghezze d'onda, una risoluzione equivalente a quella che il telescopio spaziale Hubble ottiene nella luce visibile. Un'altra tecnica, l'interferometria, combina la luce di più telescopi distanti per ottenere la risoluzione di un telescopio enorme."
+     ]
+    },
+    {
+     "h": "I giganti del futuro",
+     "p": [
+      "Sono in costruzione telescopi ancora più grandi. L'Extremely Large Telescope dell'ESO, sul Cerro Armazones in Cile, avrà uno specchio principale di 39 metri fatto di quasi 800 segmenti esagonali: raccoglierà più luce di tutti i grandi telescopi attuali messi insieme.",
+      "Questi strumenti studieranno le atmosfere dei pianeti di altre stelle alla ricerca di segni di vita, le prime galassie dell'universo, la materia oscura e l'energia oscura. Nello spazio, il telescopio James Webb, lanciato nel 2021, osserva nell'infrarosso con uno specchio di 6,5 metri."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Una parte dei tuoi contributi come cittadino europeo finanzia l'ESO: l'Italia è uno dei paesi che sostengono i telescopi in Cile.",
+   "mistakes": [
+    "\"I telescopi più grandi servono solo a ingrandire\": raccolgono più luce e distinguono dettagli più fini.",
+    "\"I telescopi da terra sono superati\": con l'ottica adattiva sono competitivi.",
+    "\"Gli osservatori sono in montagna per avvicinarsi alle stelle\": servono aria secca, stabile e cieli bui."
+   ],
+   "terms": [
+    {
+     "t": "Risoluzione",
+     "d": "Capacità di distinguere dettagli fini."
+    },
+    {
+     "t": "Ottica adattiva",
+     "d": "Correzione in tempo reale della turbolenza."
+    },
+    {
+     "t": "Interferometria",
+     "d": "Combinazione della luce di più telescopi."
+    },
+    {
+     "t": "ESO",
+     "d": "Osservatorio Europeo Australe."
+    }
+   ],
+   "quote": {
+    "text": "Cerro Paranal, a mountain summit 2.7 kilometers above sea level in Chile’s Atacama Desert, is the site of the European Southern Observatory’s Very Large Telescope.",
+    "translation": "Il Cerro Paranal, una vetta a 2,7 chilometri sul livello del mare nel deserto cileno di Atacama, è la sede del Very Large Telescope dell'Osservatorio Europeo Australe."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "6.2 Telescopes today",
+     "url": "https://openstax.org/books/astronomy-2e/pages/6-2-telescopes-today"
+    },
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "6.6 The future of large telescopes",
+     "url": "https://openstax.org/books/astronomy-2e/pages/6-6-the-future-of-large-telescopes"
+    }
+   ],
+   "videos": [
+    {
+     "id": "fvjhldjESGo",
+     "title": "World's Biggest Optical Telescope - ELT",
+     "channel": "Launch Pad Astronomy",
+     "length": "7:52"
+    }
+   ],
+   "videoQuery": "extremely large telescope",
+   "addedAt": "2026-11-04T11:14:46Z"
+  },
+  {
+   "id": "rivelatori",
+   "subject": "astronomia",
+   "chapter": "Luce e strumenti",
+   "title": "Come si cattura la luce: dalle lastre fotografiche ai sensori digitali",
+   "hook": "L'occhio umano non accumula la luce, i sensori sì. Fotografia, CCD, fotometria e spettrometri: gli strumenti che trasformano i fotoni in scoperte.",
+   "points": [
+    "I limiti dell'occhio umano",
+    "Dalle lastre fotografiche ai CCD",
+    "Pixel ed efficienza",
+    "Spettrometri e strumenti per l'infrarosso"
+   ],
+   "sections": [
+    {
+     "h": "Oltre l'occhio",
+     "p": [
+      "Per secoli gli astronomi hanno osservato con l'occhio al telescopio, disegnando ciò che vedevano. L'occhio però ha grossi limiti: non accumula la luce nel tempo, non conserva una registrazione oggettiva e vede solo i colori visibili.",
+      "Nell'Ottocento arrivò la fotografia: una lastra esposta per ore poteva accumulare la luce di oggetti troppo deboli per l'occhio, e conservarne una registrazione permanente. Per oltre un secolo le lastre furono lo strumento principale dell'astronomia."
+     ]
+    },
+    {
+     "h": "I sensori digitali",
+     "p": [
+      "Oggi le lastre sono state sostituite da rivelatori elettronici, i CCD e sensori simili, gli stessi principi delle fotocamere dei telefoni ma molto più sensibili. Ogni punto in cui la radiazione viene contata si chiama pixel, e i rivelatori moderni contano i fotoni in milioni di pixel.",
+      "Un CCD astronomico registra fino al 90% dei fotoni che lo colpiscono, mentre le lastre ne registravano pochi su cento. È come aver reso i telescopi decine di volte più grandi. Inoltre i dati sono digitali: si possono elaborare, combinare e confrontare al computer.",
+      "Per ridurre il rumore elettronico, i sensori astronomici vengono raffreddati a temperature molto basse. Grandi telecamere possono avere centinaia di milioni o miliardi di pixel, come quella dell'Osservatorio Vera Rubin in Cile, la più grande fotocamera digitale mai costruita."
+     ]
+    },
+    {
+     "h": "Misurare la luce e i colori",
+     "p": [
+      "La fotometria misura con precisione quanta luce arriva da un oggetto, spesso attraverso filtri colorati. Le variazioni di luminosità rivelano stelle variabili, pianeti che transitano davanti alle loro stelle, supernove lontane.",
+      "Lo strumento che scompone la luce nei suoi colori e la misura si chiama spettrometro (o spettrografo), perché permette di misurare lo spettro di una sorgente. La luce viene dispersa con un reticolo, e l'insieme di immagini distribuite per colore è lo spettro che gli astronomi analizzano. Spettrografi moderni registrano gli spettri di migliaia di stelle o galassie contemporaneamente usando fibre ottiche."
+     ]
+    },
+    {
+     "h": "Oltre il visibile",
+     "p": [
+      "Per l'infrarosso servono rivelatori fatti di materiali diversi e raffreddati ancora di più, perché il calore stesso dello strumento produce infrarossi che disturbano le misure. Il telescopio James Webb, per esempio, è protetto da un enorme schermo solare e alcuni suoi strumenti sono raffreddati a pochi gradi sopra lo zero assoluto.",
+      "Ogni nuovo tipo di rivelatore ha aperto una nuova finestra sull'universo, mostrando oggetti e fenomeni prima invisibili."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Le foto del cielo notturno fatte con il telefono in modalità notte accumulano luce per secondi: lo stesso principio dei sensori astronomici.",
+   "mistakes": [
+    "\"Le foto astronomiche mostrano ciò che vedresti all'oculare\": sono esposizioni lunghe, spesso a falsi colori.",
+    "\"I CCD sono come l'occhio\": registrano molti più fotoni e accumulano luce.",
+    "\"Gli spettri sono solo arcobaleni\": contengono informazioni su composizione, temperatura e moto."
+   ],
+   "terms": [
+    {
+     "t": "CCD",
+     "d": "Sensore elettronico che conta i fotoni in milioni di pixel."
+    },
+    {
+     "t": "Pixel",
+     "d": "Singolo elemento di un'immagine digitale."
+    },
+    {
+     "t": "Fotometria",
+     "d": "Misura precisa della luminosità."
+    },
+    {
+     "t": "Spettrometro",
+     "d": "Strumento che misura lo spettro di una sorgente."
+    }
+   ],
+   "quote": {
+    "text": "Each place where the radiation is counted is called a pixel (picture element), and modern detectors can count the photons in millions of pixels (megapixels, or MPs).",
+    "translation": "Ogni punto in cui la radiazione viene contata si chiama pixel (elemento d'immagine), e i rivelatori moderni possono contare i fotoni in milioni di pixel (megapixel)."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "6.3 Visible light detectors and instruments",
+     "url": "https://openstax.org/books/astronomy-2e/pages/6-3-visible-light-detectors-and-instruments"
+    }
+   ],
+   "videos": [],
+   "videoQuery": "CCD astronomy detectors",
+   "addedAt": "2026-11-04T11:14:46Z"
   },
   {
    "id": "marte-acqua",
