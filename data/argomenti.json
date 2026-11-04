@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-04T00:43:11Z",
+ "updatedAt": "2026-11-04T00:46:51Z",
  "subjects": [
   {
    "id": "fisica",
@@ -4909,6 +4909,11 @@
      "name": "OpenStax · College Physics 2e",
      "title": "15.7 Statistical Interpretation of Entropy",
      "url": "https://openstax.org/books/college-physics-2e/pages/15-7-statistical-interpretation-of-entropy-and-the-second-law-of-thermodynamics-the-underlying-explanation"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "15.7 Statistical Interpretation of Entropy",
+     "url": "https://openstax.org/books/college-physics-2e/pages/15-7-statistical-interpretation-of-entropy-and-the-second-law-of-thermodynamics-the-underlying-explanation"
     }
    ],
    "videos": [
@@ -9519,6 +9524,517 @@
    "addedAt": "2026-11-04T00:12:22Z"
   },
   {
+   "id": "indeterminazione",
+   "subject": "fisica",
+   "chapter": "Fisica moderna",
+   "title": "Onde di materia e principio di indeterminazione",
+   "hook": "Anche gli elettroni si comportano come onde, e non si può conoscere con precisione insieme dove sono e quanto vanno veloci. Il cuore strano della meccanica quantistica.",
+   "points": [
+    "L'ipotesi di de Broglie",
+    "La prova: elettroni che fanno interferenza",
+    "Il principio di indeterminazione di Heisenberg",
+    "Probabilità e dualità onda-particella"
+   ],
+   "sections": [
+    {
+     "h": "Un'idea radicale",
+     "p": [
+      "Se la luce, che si pensava un'onda, si comporta anche come particella, forse vale anche il contrario? Nel 1923 un giovane studente di fisica francese, il principe Louis de Broglie, propose che tutta la materia abbia anche una natura ondulatoria, con una lunghezza d'onda inversamente proporzionale alla quantità di moto.",
+      "L'idea, presentata nella sua tesi di dottorato, era così radicale da essere accolta con un certo scetticismo. Con il sostegno di Einstein e di pochi altri fisici importanti, de Broglie ottenne il dottorato; pochi anni dopo avrebbe ricevuto il premio Nobel."
+     ]
+    },
+    {
+     "h": "Elettroni che fanno onde",
+     "p": [
+      "Per gli oggetti di tutti i giorni la lunghezza d'onda di de Broglie è incredibilmente piccola, molto più piccola di un nucleo: per questo non vediamo palloni che fanno interferenza. Per gli elettroni, invece, è paragonabile alle distanze tra gli atomi nei cristalli.",
+      "Nel 1927 alcuni esperimenti mostrarono che un fascio di elettroni riflesso da un cristallo produce figure di interferenza, proprio come i raggi X: una prova diretta che gli elettroni si comportano da onde. Su questo principio si basano i microscopi elettronici, che grazie alla lunghezza d'onda cortissima degli elettroni vedono dettagli migliaia di volte più piccoli di quelli visibili con la luce."
+     ]
+    },
+    {
+     "h": "Il principio di indeterminazione",
+     "p": [
+      "Se una particella è anche un'onda, che cosa significa chiedersi dove si trova esattamente? Un'onda è distribuita nello spazio. Nel 1927 Werner Heisenberg dimostrò che esiste un limite fondamentale: non si possono conoscere contemporaneamente, con precisione arbitraria, la posizione e la quantità di moto di una particella.",
+      "Il prodotto delle due incertezze non può essere minore di una quantità legata alla costante di Planck. Più precisamente misuri la posizione di un elettrone, più diventa incerta la sua velocità, e viceversa. Non è un difetto degli strumenti: è una proprietà della natura.",
+      "Una relazione simile vale tra energia e tempo: uno stato che dura pochissimo ha un'energia poco definita. Per gli oggetti grandi queste incertezze sono del tutto trascurabili, ma per gli elettroni negli atomi sono decisive: spiegano, per esempio, perché un elettrone non può cadere sul nucleo."
+     ]
+    },
+    {
+     "h": "Un mondo di probabilità",
+     "p": [
+      "Nella meccanica quantistica l'onda associata a una particella non è un'onda di materia nel senso classico, ma un'onda di probabilità: la sua intensità in un punto dice quanto è probabile trovare lì la particella se la si cerca.",
+      "Facendo passare elettroni uno alla volta attraverso due fenditure, ognuno arriva in un punto preciso dello schermo, come una particella. Ma dopo migliaia di elettroni, i punti formano le frange di interferenza, come un'onda. Onda e particella sono due aspetti complementari della stessa realtà, che si manifestano a seconda di come la osserviamo.",
+      "Questa visione, difficile da accettare anche per Einstein, è alla base di tutta la tecnologia moderna, dai transistor ai laser."
+     ]
+    }
+   ],
+   "formulas": [
+    {
+     "f": "λ = h / p",
+     "d": "Lunghezza d'onda di de Broglie: costante di Planck divisa per la quantità di moto."
+    },
+    {
+     "f": "Δx · Δp ≥ h / (4π)",
+     "d": "Principio di indeterminazione di Heisenberg."
+    }
+   ],
+   "example": "Le immagini dettagliatissime di virus che vedi nei giornali sono fatte con microscopi elettronici, possibili solo perché gli elettroni si comportano come onde.",
+   "mistakes": [
+    "\"L'indeterminazione è un limite degli strumenti\": è una proprietà fondamentale della natura.",
+    "\"Solo la luce è insieme onda e particella\": vale anche per elettroni e atomi.",
+    "\"L'onda quantistica è fatta di materia\": descrive probabilità."
+   ],
+   "terms": [
+    {
+     "t": "Lunghezza d'onda di de Broglie",
+     "d": "Lunghezza d'onda associata a una particella."
+    },
+    {
+     "t": "Principio di indeterminazione",
+     "d": "Limite alla precisione con cui si conoscono insieme posizione e quantità di moto."
+    },
+    {
+     "t": "Microscopio elettronico",
+     "d": "Microscopio che usa elettroni al posto della luce."
+    }
+   ],
+   "quote": {
+    "text": "De Broglie’s suggestion, made as part of his doctoral thesis, was so radical that it was greeted with some skepticism.",
+    "translation": "La proposta di de Broglie, fatta nella sua tesi di dottorato, era così radicale da essere accolta con un certo scetticismo."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "29.6 The wave nature of matter",
+     "url": "https://openstax.org/books/college-physics-2e/pages/29-6-the-wave-nature-of-matter"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "29.7 Probability the heisenberg uncertainty principle",
+     "url": "https://openstax.org/books/college-physics-2e/pages/29-7-probability-the-heisenberg-uncertainty-principle"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "29.8 The particle wave duality reviewed",
+     "url": "https://openstax.org/books/college-physics-2e/pages/29-8-the-particle-wave-duality-reviewed"
+    }
+   ],
+   "videos": [
+    {
+     "id": "TQKELOE9eY4",
+     "title": "What is the Heisenberg Uncertainty Principle? - Chad Orzel",
+     "channel": "TED-Ed",
+     "length": "4:44"
+    },
+    {
+     "id": "a8FTr2qMutA",
+     "title": "Heisenberg's Uncertainty Principle Explained",
+     "channel": "Veritasium",
+     "length": "4:12"
+    }
+   ],
+   "videoQuery": "heisenberg uncertainty principle de broglie",
+   "addedAt": "2026-11-04T00:46:51Z"
+  },
+  {
+   "id": "scoperta-atomo",
+   "subject": "fisica",
+   "chapter": "Fisica moderna",
+   "title": "Come abbiamo scoperto l'atomo, l'elettrone e il nucleo",
+   "hook": "Dalla filosofia greca all'esperimento della lamina d'oro di Rutherford: la lunga strada per capire di cosa è fatta la materia e com'è fatto un atomo.",
+   "points": [
+    "Dai greci alla chimica dell'Ottocento",
+    "Le prove dell'esistenza degli atomi",
+    "La scoperta dell'elettrone",
+    "L'esperimento di Rutherford e il nucleo"
+   ],
+   "sections": [
+    {
+     "h": "Un'idea antica",
+     "p": [
+      "L'idea che la materia sia fatta di particelle indivisibili risale agli antichi greci: Democrito chiamò queste particelle atomi, \"indivisibili\". Ma per oltre duemila anni rimase una speculazione filosofica.",
+      "All'inizio dell'Ottocento il chimico John Dalton mostrò che gli elementi si combinano sempre in proporzioni fisse, come se fossero fatti di atomi di massa definita. Amedeo Avogadro sviluppò l'idea che una mole contenga un numero fisso di atomi o molecole, oggi chiamato numero di Avogadro in suo onore."
+     ]
+    },
+    {
+     "h": "Le prove dirette",
+     "p": [
+      "Come facciamo a sapere che gli atomi esistono davvero, se non possiamo vederli con gli occhi? Una prova decisiva venne dal moto browniano: granelli di polline sospesi nell'acqua si muovono a scatti in modo casuale. Nel 1905 Einstein spiegò che i granelli vengono urtati da molecole d'acqua invisibili, e calcolò come il moto dipendesse dalle loro dimensioni.",
+      "Gli esperimenti del francese Jean Perrin confermarono le previsioni di Einstein e permisero di stimare le dimensioni delle molecole. Da quel momento quasi nessuno dubitò più degli atomi. Oggi microscopi speciali, come quello a effetto tunnel, permettono di \"vedere\" e persino spostare singoli atomi."
+     ]
+    },
+    {
+     "h": "L'elettrone",
+     "p": [
+      "Nel 1897 il fisico inglese J. J. Thomson studiò i raggi catodici, fasci che si formano nei tubi a vuoto quando si applica un'alta tensione. Deviandoli con campi elettrici e magnetici, scoprì che erano fatti di particelle con carica negativa, molto più leggere di qualsiasi atomo: gli elettroni.",
+      "L'atomo, quindi, non era indivisibile. Thomson immaginò un modello a \"panettone\": una sfera di carica positiva con dentro gli elettroni, come uvette. Qualche anno dopo Robert Millikan misurò con le gocce d'olio la carica dell'elettrone."
+     ]
+    },
+    {
+     "h": "La lamina d'oro di Rutherford",
+     "p": [
+      "Ernest Rutherford usò la radiazione nucleare per esaminare direttamente l'interno degli atomi. Nel 1909, sotto la sua guida, Hans Geiger ed Ernest Marsden bombardarono una sottilissima lamina d'oro con particelle alfa. Quasi tutte la attraversavano senza deviare, ma una piccolissima parte rimbalzava indietro.",
+      "Rutherford disse che era come sparare un proiettile contro un foglio di carta e vederlo tornare indietro. L'unica spiegazione era che quasi tutta la massa e la carica positiva dell'atomo fossero concentrate in un nucleo minuscolo al centro, con gli elettroni intorno e tantissimo spazio vuoto.",
+      "Il nucleo è circa centomila volte più piccolo dell'atomo: se un atomo fosse grande come uno stadio, il nucleo sarebbe una formica al centro del campo. Il modello di Rutherford, con elettroni in orbita come pianeti, era però instabile secondo la fisica classica: servirà la quantistica per sistemarlo."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Una goccia di latte vista al microscopio mostra minuscole gocce di grasso che tremolano: è moto browniano, prova dell'esistenza delle molecole.",
+   "mistakes": [
+    "\"L'atomo è indivisibile\": contiene elettroni, protoni e neutroni.",
+    "\"L'atomo è pieno di materia\": è quasi tutto spazio vuoto.",
+    "\"Nessuno ha mai osservato un singolo atomo\": oggi si possono visualizzare e spostare."
+   ],
+   "terms": [
+    {
+     "t": "Moto browniano",
+     "d": "Moto casuale di particelle dovuto agli urti delle molecole."
+    },
+    {
+     "t": "Elettrone",
+     "d": "Particella con carica negativa scoperta nel 1897."
+    },
+    {
+     "t": "Nucleo",
+     "d": "Centro piccolissimo dell'atomo con quasi tutta la massa."
+    },
+    {
+     "t": "Particella alfa",
+     "d": "Nucleo di elio emesso da sostanze radioattive."
+    }
+   ],
+   "quote": {
+    "text": "Rutherford used nuclear radiation to directly examine the size and mass of the atomic nucleus.",
+    "translation": "Rutherford usò la radiazione nucleare per esaminare direttamente le dimensioni e la massa del nucleo atomico."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "30.2 Discovery of the parts of the atom electrons and nuclei",
+     "url": "https://openstax.org/books/college-physics-2e/pages/30-2-discovery-of-the-parts-of-the-atom-electrons-and-nuclei"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "30.1 Discovery of the atom",
+     "url": "https://openstax.org/books/college-physics-2e/pages/30-1-discovery-of-the-atom"
+    }
+   ],
+   "videos": [
+    {
+     "id": "dNp-vP17asI",
+     "title": "Discovery of the Nucleus: Rutherford's Gold Foil Experiment",
+     "channel": "Tyler DeWitt",
+     "length": "15:59"
+    }
+   ],
+   "videoQuery": "rutherford gold foil discovery of the atom",
+   "addedAt": "2026-11-04T00:46:51Z"
+  },
+  {
+   "id": "modello-di-bohr",
+   "subject": "fisica",
+   "chapter": "Fisica moderna",
+   "title": "Il modello di Bohr e i salti quantici degli elettroni",
+   "hook": "Perché l'idrogeno emette solo certi colori? Bohr capì che gli elettroni stanno solo su orbite permesse e saltano dall'una all'altra emettendo luce.",
+   "points": [
+    "Il problema dell'atomo di Rutherford",
+    "Le orbite permesse di Bohr",
+    "Righe spettrali e salti quantici",
+    "Perché la quantizzazione nasce dalle onde"
+   ],
+   "sections": [
+    {
+     "h": "Un atomo che non dovrebbe esistere",
+     "p": [
+      "Il modello di Rutherford, con gli elettroni in orbita intorno al nucleo, aveva un grosso problema. Secondo la fisica classica una carica che gira accelera e quindi emette onde elettromagnetiche, perdendo energia. L'elettrone dovrebbe cadere a spirale sul nucleo in una frazione di secondo. Gli atomi, invece, sono stabili.",
+      "C'era anche un altro mistero: ogni elemento, scaldato, emette luce solo a certe lunghezze d'onda precise, formando righe spettrali caratteristiche. Per l'idrogeno queste righe seguivano una formula semplice trovata empiricamente, ma nessuno sapeva perché."
+     ]
+    },
+    {
+     "h": "Le orbite permesse",
+     "p": [
+      "Nel 1913 il danese Niels Bohr propose un'idea audace. Gli elettroni possono stare solo su certe orbite permesse, con energie precise, e su queste orbite non emettono radiazione. Ciò che non ci si aspetterebbe è proprio questo: che le orbite atomiche siano quantizzate.",
+      "Un elettrone può saltare da un'orbita a un'altra. Quando scende da un livello di energia più alto a uno più basso, emette un fotone con un'energia esattamente uguale alla differenza tra i due livelli. Quando assorbe un fotone dell'energia giusta, sale."
+     ]
+    },
+    {
+     "h": "Le righe dell'idrogeno",
+     "p": [
+      "Con questa ricetta Bohr calcolò le energie dei livelli dell'idrogeno e quindi i colori dei fotoni emessi. Il risultato riproduceva perfettamente la formula delle righe osservate. Ancora più impressionante, la stessa ricetta prevedeva tutte le righe dello spettro dell'idrogeno, comprese quelle nuove osservate in esperimenti successivi nell'ultravioletto e nell'infrarosso.",
+      "Le energie orbitali degli elettroni sono quantizzate in tutti gli atomi e le molecole. È per questo che ogni elemento ha la sua \"impronta digitale\" di colori, usata dagli astronomi per conoscere la composizione delle stelle. Le insegne al neon brillano di rosso, quelle al sodio di giallo, proprio per i livelli energetici dei loro atomi."
+     ]
+    },
+    {
+     "h": "Perché proprio quelle orbite",
+     "p": [
+      "Bohr aveva imposto le orbite permesse senza una vera spiegazione. La giustificazione arrivò con de Broglie: se l'elettrone è anche un'onda, su un'orbita stabile la sua onda deve chiudersi su sé stessa, formando un'onda stazionaria, con un numero intero di lunghezze d'onda lungo la circonferenza. Solo certe orbite lo permettono.",
+      "È la stessa ragione per cui una corda di chitarra vibra solo a certe frequenze. La natura ondulatoria della materia causa la quantizzazione.",
+      "Il modello di Bohr funziona bene per l'idrogeno ma non per atomi più complessi. È stato superato dalla meccanica quantistica completa, in cui gli elettroni non seguono orbite precise ma occupano nuvole di probabilità chiamate orbitali. Le sue idee chiave, livelli di energia e salti quantici, restano però valide."
+     ]
+    }
+   ],
+   "formulas": [
+    {
+     "f": "E_n = −13,6 eV / n²",
+     "d": "Livelli di energia dell'atomo di idrogeno."
+    },
+    {
+     "f": "h·f = E_iniziale − E_finale",
+     "d": "Energia del fotone emesso in un salto."
+    }
+   ],
+   "example": "I fuochi d'artificio sono colorati grazie ai salti quantici: stronzio per il rosso, sodio per il giallo, rame per il blu-verde.",
+   "mistakes": [
+    "\"Gli elettroni girano come pianeti su orbite precise\": è un modello semplificato superato dagli orbitali.",
+    "\"Un salto quantico è un grande cambiamento\": è un cambiamento minuscolo ma discontinuo.",
+    "\"Gli atomi possono emettere qualsiasi colore\": solo quelli corrispondenti ai loro livelli."
+   ],
+   "terms": [
+    {
+     "t": "Livello di energia",
+     "d": "Energia permessa per un elettrone nell'atomo."
+    },
+    {
+     "t": "Salto quantico",
+     "d": "Passaggio di un elettrone da un livello all'altro."
+    },
+    {
+     "t": "Riga spettrale",
+     "d": "Colore preciso emesso o assorbito da un atomo."
+    },
+    {
+     "t": "Orbitale",
+     "d": "Regione in cui è probabile trovare un elettrone."
+    }
+   ],
+   "quote": {
+    "text": "Electron orbital energies are quantized in all atoms and molecules.",
+    "translation": "Le energie orbitali degli elettroni sono quantizzate in tutti gli atomi e le molecole."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "30.3 Bohrs theory of the hydrogen atom",
+     "url": "https://openstax.org/books/college-physics-2e/pages/30-3-bohrs-theory-of-the-hydrogen-atom"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "30.6 The wave nature of matter causes quantization",
+     "url": "https://openstax.org/books/college-physics-2e/pages/30-6-the-wave-nature-of-matter-causes-quantization"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "30.7 Patterns in spectra reveal more quantization",
+     "url": "https://openstax.org/books/college-physics-2e/pages/30-7-patterns-in-spectra-reveal-more-quantization"
+    }
+   ],
+   "videos": [
+    {
+     "id": "au2HCVn9IJI",
+     "title": "Bohr Model of the Hydrogen Atom",
+     "channel": "Professor Dave Explains",
+     "length": "4:50"
+    }
+   ],
+   "videoQuery": "bohr model hydrogen atom",
+   "addedAt": "2026-11-04T00:46:51Z"
+  },
+  {
+   "id": "raggi-x-laser",
+   "subject": "fisica",
+   "chapter": "Fisica moderna",
+   "title": "Raggi X e laser: due tecnologie nate dagli atomi",
+   "hook": "Le radiografie, la cristallografia che ha svelato il DNA, i lettori di codici a barre e le fibre ottiche: tutto nasce da come gli atomi emettono luce.",
+   "points": [
+    "Come si producono i raggi X",
+    "Radiografie, TAC e diffrazione dei raggi X",
+    "Fluorescenza e fosforescenza",
+    "Come funziona un laser"
+   ],
+   "sections": [
+    {
+     "h": "Raggi X dagli atomi",
+     "p": [
+      "Nel 1895 Wilhelm Röntgen scoprì per caso una radiazione invisibile che attraversava la carta e il legno e impressionava le lastre fotografiche. Non sapendo cosa fosse, la chiamò X. La prima radiografia mostrò le ossa della mano di sua moglie con l'anello.",
+      "In un tubo a raggi X, elettroni accelerati da un'alta tensione colpiscono un bersaglio metallico. Frenando bruscamente emettono raggi X; inoltre possono strappare elettroni dagli strati più interni degli atomi del bersaglio, e quando altri elettroni scendono a riempire il posto vuoto emettono raggi X di energie precise, caratteristiche di quel metallo."
+     ]
+    },
+    {
+     "h": "Vedere dentro le cose",
+     "p": [
+      "I raggi X attraversano facilmente i tessuti molli ma vengono assorbiti di più dalle ossa, ricche di calcio. Per questo nelle radiografie le ossa appaiono chiare. La TAC combina molte radiografie da angolazioni diverse per ricostruire al computer sezioni del corpo. In mammografia si usano raggi X a bassa energia per la diagnosi precoce del tumore al seno, una delle principali cause di morte tra le donne nel mondo.",
+      "I raggi X hanno lunghezze d'onda simili alle distanze tra gli atomi, quindi un cristallo li diffrange producendo disegni caratteristici. Il processo si chiama diffrazione dei raggi X, e analizzando i disegni si ricava la struttura dei cristalli e delle molecole. Fu un'immagine di diffrazione dei raggi X ottenuta da Rosalind Franklin a rivelare la struttura a doppia elica del DNA."
+     ]
+    },
+    {
+     "h": "Luce dagli atomi eccitati",
+     "p": [
+      "Il colore di un materiale dipende da quali lunghezze d'onda i suoi atomi assorbono e quali riflettono o riemettono. Alcune sostanze assorbono luce ultravioletta e la riemettono come luce visibile: è la fluorescenza, usata negli evidenziatori, nelle lampade fluorescenti e nei detersivi che fanno sembrare il bucato \"più bianco\". Se la riemissione continua per un po' dopo che la luce si spegne, si parla di fosforescenza, come nei giocattoli che brillano al buio."
+     ]
+    },
+    {
+     "h": "Il laser",
+     "p": [
+      "La parola laser è un acronimo inglese che significa amplificazione della luce per emissione stimolata di radiazione. Normalmente un atomo eccitato emette un fotone quando vuole, in una direzione a caso. Ma se un fotone dell'energia giusta passa vicino a un atomo eccitato, può stimolarlo a emettere un fotone identico, nella stessa direzione e in fase.",
+      "In un laser si porta la maggior parte degli atomi in uno stato eccitato e si mettono degli specchi alle estremità: i fotoni rimbalzano avanti e indietro stimolando sempre nuove emissioni, e una parte esce da uno specchio semitrasparente. Il risultato è una luce di un solo colore, molto concentrata e con onde tutte in fase.",
+      "I laser oggi sono ovunque: leggono i codici a barre nei negozi e nelle biblioteche, producono spettacoli di luce, stampano nelle stampanti laser e trasmettono enormi quantità di dati nelle fibre ottiche. In medicina servono per la chirurgia dell'occhio e per molti interventi di precisione."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Alla cassa del supermercato lo scanner proietta un laser rosso sul codice a barre e legge le strisce dalla luce riflessa.",
+   "mistakes": [
+    "\"I raggi X sono una forma di radioattività\": sono luce ad alta energia prodotta da elettroni.",
+    "\"Il laser è solo luce molto intensa\": è luce coerente, di un solo colore e in fase.",
+    "\"Fluorescenza e fosforescenza sono uguali\": la fosforescenza continua dopo lo spegnimento."
+   ],
+   "terms": [
+    {
+     "t": "Raggi X",
+     "d": "Radiazione elettromagnetica ad alta energia."
+    },
+    {
+     "t": "Diffrazione dei raggi X",
+     "d": "Tecnica per ricostruire la struttura dei cristalli."
+    },
+    {
+     "t": "Emissione stimolata",
+     "d": "Emissione di un fotone identico a quello che la provoca."
+    },
+    {
+     "t": "Fluorescenza",
+     "d": "Riemissione immediata di luce visibile dopo l'assorbimento."
+    }
+   ],
+   "quote": {
+    "text": "Lasers are used to read bar codes at stores and in libraries, laser shows are staged for entertainment, laser printers produce high-quality images at relatively low cost, and lasers send prodigious numbers of telephone messages through optical fibers.",
+    "translation": "I laser servono a leggere i codici a barre nei negozi e nelle biblioteche, si allestiscono spettacoli laser, le stampanti laser producono immagini di alta qualità a costi relativamente bassi, e i laser trasmettono un numero enorme di messaggi telefonici attraverso le fibre ottiche."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "30.5 Applications of atomic excitations and de excitations",
+     "url": "https://openstax.org/books/college-physics-2e/pages/30-5-applications-of-atomic-excitations-and-de-excitations"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "30.4 X rays atomic origins and applications",
+     "url": "https://openstax.org/books/college-physics-2e/pages/30-4-x-rays-atomic-origins-and-applications"
+    }
+   ],
+   "videos": [
+    {
+     "id": "y3SBSbsdiYg",
+     "title": "How lasers work (in theory)",
+     "channel": "minutephysics",
+     "length": "1:42"
+    },
+    {
+     "id": "gsV7SJDDCY4",
+     "title": "How X-rays see through your skin - Ge Wang",
+     "channel": "TED-Ed",
+     "length": "4:42"
+    }
+   ],
+   "videoQuery": "how lasers work x-rays",
+   "addedAt": "2026-11-04T00:46:51Z"
+  },
+  {
+   "id": "tavola-periodica-pauli",
+   "subject": "fisica",
+   "chapter": "Fisica moderna",
+   "title": "Numeri quantici, principio di Pauli e tavola periodica",
+   "hook": "Perché gli elementi chimici si ripetono in famiglie? Quattro numeri quantici e una regola semplice, due elettroni non possono stare nello stesso stato, spiegano tutta la chimica.",
+   "points": [
+    "I quattro numeri quantici",
+    "Lo spin dell'elettrone",
+    "Il principio di esclusione di Pauli",
+    "Come nasce la tavola periodica"
+   ],
+   "sections": [
+    {
+     "h": "Un indirizzo per ogni elettrone",
+     "p": [
+      "Nella meccanica quantistica lo stato di un elettrone in un atomo è descritto da quattro numeri quantici, una specie di indirizzo. Il numero principale indica il livello di energia, cioè lo \"strato\" e la distanza media dal nucleo. Il secondo descrive la forma dell'orbitale. Il terzo il suo orientamento nello spazio.",
+      "Il quarto riguarda una proprietà intrinseca dell'elettrone: lo spin, che si comporta come se l'elettrone ruotasse su sé stesso, anche se non è davvero una trottola. La direzione dello spin è quantizzata, come quella del momento angolare orbitale: può valere solo \"su\" o \"giù\"."
+     ]
+    },
+    {
+     "h": "Il principio di esclusione",
+     "p": [
+      "Nel 1925 il fisico austriaco Wolfgang Pauli formulò una regola fondamentale: due elettroni nello stesso atomo non possono avere tutti e quattro i numeri quantici uguali. Questa affermazione si chiama principio di esclusione di Pauli, perché esclude che due elettroni si trovino nello stesso stato.",
+      "La conseguenza è che in ogni orbitale ci stanno al massimo due elettroni, con spin opposti. Gli elettroni non possono ammassarsi tutti nel livello più basso: devono riempire progressivamente livelli sempre più alti, come gli spettatori che riempiono un teatro dalle prime file verso il fondo."
+     ]
+    },
+    {
+     "h": "La tavola periodica",
+     "p": [
+      "Nel 1869 il chimico russo Dmitrij Mendeleev ordinò gli elementi conosciuti in una tabella e notò che le proprietà chimiche si ripetevano a intervalli regolari: lasciò perfino caselle vuote per elementi non ancora scoperti, prevedendone le proprietà. Ma nessuno sapeva perché.",
+      "Il principio di Pauli dà la risposta. Riempendo gli strati di elettroni uno dopo l'altro, gli elementi con lo stesso numero di elettroni nello strato più esterno hanno comportamenti chimici simili, perché sono questi elettroni a partecipare ai legami. Ogni riga della tavola corrisponde al riempimento di un nuovo strato.",
+      "I gas nobili, come elio, neon e argon, hanno lo strato esterno completo e sono pochissimo reattivi. I metalli alcalini, come sodio e potassio, hanno un solo elettrone esterno che cedono facilmente, e sono reattivissimi. Gli alogeni, come cloro e fluoro, cercano un elettrone per completare lo strato."
+     ]
+    },
+    {
+     "h": "Perché la materia è solida",
+     "p": [
+      "Il principio di esclusione spiega anche perché la materia occupa spazio e non si comprime all'infinito: gli elettroni degli atomi si oppongono a essere schiacciati negli stessi stati.",
+      "Nelle stelle morte questo effetto diventa protagonista. In una nana bianca, il peso enorme della stella è sostenuto proprio dalla \"pressione di degenerazione\" degli elettroni, conseguenza del principio di Pauli. In una stella di neutroni succede lo stesso con i neutroni."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Il sodio del sale da cucina e il potassio delle banane stanno nella stessa colonna della tavola: entrambi hanno un solo elettrone esterno.",
+   "mistakes": [
+    "\"Lo spin è una vera rotazione dell'elettrone\": è una proprietà quantistica senza analogo classico esatto.",
+    "\"Gli elettroni stanno tutti nel livello più basso\": il principio di Pauli lo impedisce.",
+    "\"La tavola periodica è solo una classificazione comoda\": riflette la struttura quantistica degli atomi."
+   ],
+   "terms": [
+    {
+     "t": "Numeri quantici",
+     "d": "Numeri che descrivono lo stato di un elettrone."
+    },
+    {
+     "t": "Spin",
+     "d": "Momento angolare intrinseco dell'elettrone."
+    },
+    {
+     "t": "Principio di esclusione",
+     "d": "Due elettroni non possono avere lo stesso stato."
+    },
+    {
+     "t": "Strato elettronico",
+     "d": "Insieme di livelli con lo stesso numero quantico principale."
+    }
+   ],
+   "quote": {
+    "text": "This statement is known as the Pauli exclusion principle, because it excludes electrons from being in the same state.",
+    "translation": "Questa affermazione è nota come principio di esclusione di Pauli, perché esclude che gli elettroni si trovino nello stesso stato."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "30.9 The pauli exclusion principle",
+     "url": "https://openstax.org/books/college-physics-2e/pages/30-9-the-pauli-exclusion-principle"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "30.8 Quantum numbers and rules",
+     "url": "https://openstax.org/books/college-physics-2e/pages/30-8-quantum-numbers-and-rules"
+    }
+   ],
+   "videos": [
+    {
+     "id": "Aoi4j8es4gQ",
+     "title": "Quantum Numbers, Atomic Orbitals, and Electron Configurations",
+     "channel": "Professor Dave Explains",
+     "length": "8:42"
+    }
+   ],
+   "videoQuery": "pauli exclusion principle quantum numbers",
+   "addedAt": "2026-11-04T00:46:51Z"
+  },
+  {
    "id": "radioattivita",
    "subject": "fisica",
    "chapter": "Fisica moderna",
@@ -9638,6 +10154,782 @@
    ],
    "videoQuery": "radioattività tempo di dimezzamento",
    "addedAt": "2026-11-04T00:12:22Z"
+  },
+  {
+   "id": "energia-di-legame",
+   "subject": "fisica",
+   "chapter": "Fisica nucleare e particelle",
+   "title": "Il nucleo: forza forte, energia di legame ed effetto tunnel",
+   "hook": "Protoni che dovrebbero respingersi restano incollati nel nucleo. Quanto è forte questa colla, perché il ferro è il nucleo più stabile e come una particella attraversa un muro.",
+   "points": [
+    "Protoni, neutroni e isotopi",
+    "Decadimenti e leggi di conservazione",
+    "L'energia di legame e la curva del ferro",
+    "L'effetto tunnel"
+   ],
+   "sections": [
+    {
+     "h": "Dentro il nucleo",
+     "p": [
+      "Il nucleo è fatto di protoni e neutroni, chiamati insieme nucleoni. Una specifica combinazione di protoni e neutroni si chiama nuclide ed è un nucleo unico. Il numero di protoni determina l'elemento, il numero totale di nucleoni la massa.",
+      "I nuclei sono densissimi: i nucleoni stanno stretti uno contro l'altro, e il volume del nucleo è circa la somma dei loro volumi. La densità della materia nucleare è circa cento milioni di miliardi di volte quella dell'acqua.",
+      "A tenere insieme il nucleo, contro la fortissima repulsione elettrica tra i protoni, è la forza nucleare forte, che agisce solo tra nucleoni vicinissimi. I neutroni aiutano: aggiungono attrazione forte senza aggiungere repulsione elettrica. Per questo i nuclei pesanti hanno più neutroni che protoni."
+     ]
+    },
+    {
+     "h": "Decadimenti e conservazione",
+     "p": [
+      "I nuclei instabili decadono emettendo radiazioni. In ogni decadimento si conservano alcune grandezze: la carica elettrica totale, il numero totale di nucleoni, l'energia e la quantità di moto.",
+      "Nel decadimento alfa il nucleo perde due protoni e due neutroni. Nel decadimento beta un neutrone si trasforma in un protone emettendo un elettrone e un antineutrino. Proprio il bilancio dell'energia nel decadimento beta, che sembrava non tornare, portò Pauli a ipotizzare il neutrino nel 1930, osservato sperimentalmente solo nel 1956."
+     ]
+    },
+    {
+     "h": "L'energia di legame",
+     "p": [
+      "L'energia di legame di un nucleo è l'energia necessaria per smontarlo completamente in protoni e neutroni separati. Per E = mc², un nucleo pesa meno della somma dei suoi nucleoni separati: la differenza di massa corrisponde all'energia di legame.",
+      "Ciò che conta per la stabilità è l'energia di legame per nucleone. Cresce rapidamente passando dai nuclei leggeri a quelli medi, raggiunge il massimo intorno al ferro e al nichel, poi diminuisce lentamente per i nuclei pesanti. Il ferro è quindi tra i nuclei più stabili.",
+      "Questa curva spiega le due fonti di energia nucleare: unire nuclei leggeri (fusione) o spezzare nuclei pesanti (fissione) produce nuclei più legati, e la differenza viene liberata come energia. E spiega perché nelle stelle la fusione si ferma al ferro."
+     ]
+    },
+    {
+     "h": "Attraversare un muro: l'effetto tunnel",
+     "p": [
+      "Nel decadimento alfa succede qualcosa di impossibile per la fisica classica. La particella alfa dentro il nucleo non ha abbastanza energia per superare la barriera che la trattiene, eppure riesce a uscire. È come una pallina in una ciotola che non ha energia per superarne il bordo ma si ritrova fuori.",
+      "Il processo si chiama penetrazione di barriera o effetto tunnel quantistico. Poiché la particella è anche un'onda, la sua onda di probabilità non si annulla di colpo dentro la barriera ma si attenua, e una piccola parte arriva dall'altra parte. Più la barriera è sottile e bassa, più è probabile attraversarla.",
+      "L'effetto tunnel è essenziale per la fusione nel Sole, dove permette ai protoni di avvicinarsi abbastanza da fondere a temperature più basse di quanto servirebbe classicamente. È anche alla base delle memorie flash delle chiavette USB e del microscopio a effetto tunnel, che visualizza singoli atomi."
+     ]
+    }
+   ],
+   "formulas": [
+    {
+     "f": "BE = (Z·m_p + N·m_n − m_nucleo)·c²",
+     "d": "Energia di legame dal difetto di massa."
+    },
+    {
+     "f": "BE/A",
+     "d": "Energia di legame per nucleone: massima vicino al ferro."
+    }
+   ],
+   "example": "La chiavetta USB conserva i dati intrappolando elettroni che entrano ed escono da una zona isolata per effetto tunnel.",
+   "mistakes": [
+    "\"Nel nucleo i protoni si attraggono elettricamente\": si respingono; li tiene la forza forte.",
+    "\"Il nucleo pesa quanto i suoi nucleoni\": pesa un po' meno, per l'energia di legame.",
+    "\"Una particella non può mai superare una barriera più alta della sua energia\": con l'effetto tunnel sì."
+   ],
+   "terms": [
+    {
+     "t": "Nucleone",
+     "d": "Protone o neutrone."
+    },
+    {
+     "t": "Nuclide",
+     "d": "Nucleo con un numero preciso di protoni e neutroni."
+    },
+    {
+     "t": "Energia di legame",
+     "d": "Energia per separare tutti i nucleoni di un nucleo."
+    },
+    {
+     "t": "Effetto tunnel",
+     "d": "Attraversamento quantistico di una barriera."
+    }
+   ],
+   "quote": {
+    "text": "We define the binding energy (BE) of a nucleus to be the energy required to completely disassemble it into separate protons and neutrons.",
+    "translation": "Definiamo energia di legame (BE) di un nucleo l'energia necessaria per smontarlo completamente in protoni e neutroni separati."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "31.6 Binding energy",
+     "url": "https://openstax.org/books/college-physics-2e/pages/31-6-binding-energy"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "31.3 Substructure of the nucleus",
+     "url": "https://openstax.org/books/college-physics-2e/pages/31-3-substructure-of-the-nucleus"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "31.4 Nuclear decay and conservation laws",
+     "url": "https://openstax.org/books/college-physics-2e/pages/31-4-nuclear-decay-and-conservation-laws"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "31.7 Tunneling",
+     "url": "https://openstax.org/books/college-physics-2e/pages/31-7-tunneling"
+    }
+   ],
+   "videos": [
+    {
+     "id": "c3nGE8Z3-lo",
+     "title": "The Strong Nuclear Force",
+     "channel": "Fermilab",
+     "length": "5:06"
+    },
+    {
+     "id": "y1px8hBl7zg",
+     "title": "What Makes The Strong Force Strong?",
+     "channel": "PBS Space Time",
+     "length": "21:37"
+    }
+   ],
+   "videoQuery": "nuclear binding energy strong force",
+   "addedAt": "2026-11-04T00:46:51Z"
+  },
+  {
+   "id": "medicina-nucleare",
+   "subject": "fisica",
+   "chapter": "Fisica nucleare e particelle",
+   "title": "Radiazioni in medicina: diagnosi, terapia e rischi",
+   "hook": "Contatori Geiger, PET, radioterapia, cibi irradiati: come si misurano le radiazioni, che cosa fanno alle cellule e come la medicina le usa per curare.",
+   "points": [
+    "Come si rivelano le radiazioni",
+    "Gli effetti biologici e le dosi",
+    "La medicina nucleare diagnostica",
+    "Radioterapia e irraggiamento dei cibi"
+   ],
+   "sections": [
+    {
+     "h": "Misurare l'invisibile",
+     "p": [
+      "Le radiazioni ionizzanti non si vedono né si sentono, ma si possono rivelare. Il contatore Geiger contiene un gas: quando una radiazione lo attraversa, ionizza alcuni atomi e produce un piccolo impulso elettrico, il famoso \"clic\".",
+      "Gli scintillatori, che possono essere liquidi o solidi e molto efficienti, emettono un lampo di luce quando vengono colpiti da una radiazione; un sensore lo trasforma in segnale. I dosimetri portati da chi lavora con le radiazioni registrano la dose accumulata nel tempo."
+     ]
+    },
+    {
+     "h": "Che cosa fanno alle cellule",
+     "p": [
+      "Le radiazioni ionizzanti possono danneggiare il DNA: rompere legami chimici o modificare la struttura della catena, alterando il codice genetico. Questo può uccidere la cellula o, più raramente, trasformarla in una cellula tumorale.",
+      "Il DNA però viene danneggiato continuamente anche per cause naturali: nelle cellule umane possono verificarsi fino a un milione di danni al DNA per cellula al giorno. È notevole che il DNA contenga istruzioni per controllare se è danneggiato e ripararsi da solo. Le radiazioni diventano un problema quando i danni superano la capacità di riparazione.",
+      "Gli effetti dipendono dalla dose, misurata in sievert. Tutti riceviamo ogni anno una piccola dose naturale, dalle rocce, dal gas radon, dallo spazio e dal cibo. Dosi molto alte ricevute in breve tempo causano danni gravi e immediati; dosi più basse aumentano leggermente il rischio di tumori nel lungo periodo. Le cellule che si dividono rapidamente sono le più sensibili."
+     ]
+    },
+    {
+     "h": "Vedere il corpo dall'interno",
+     "p": [
+      "La medicina nucleare usa piccole quantità di sostanze radioattive, chiamate radiotraccianti, che vengono iniettate e si concentrano in organi o tessuti specifici. Dall'esterno, rivelatori registrano la radiazione emessa e costruiscono immagini che mostrano non solo la forma degli organi, ma anche come funzionano.",
+      "Nella PET si usano sostanze che emettono positroni; ogni positrone si annichila con un elettrone producendo due raggi gamma in direzioni opposte, che i rivelatori registrano. Poiché le cellule tumorali consumano molto zucchero, uno zucchero radioattivo si accumula nei tumori e li rende visibili."
+     ]
+    },
+    {
+     "h": "Curare con le radiazioni",
+     "p": [
+      "La radioterapia sfrutta la sensibilità delle cellule tumorali, che si dividono rapidamente. Fasci di raggi X o gamma, o di particelle, vengono diretti sul tumore da più direzioni, in modo da concentrare la dose sul bersaglio e risparmiare il più possibile i tessuti sani. Le dosi vengono spesso suddivise in molte sedute per dare ai tessuti sani il tempo di ripararsi.",
+      "In altri casi si mettono sorgenti radioattive direttamente nel tumore, o si somministrano sostanze che si concentrano in un organo: lo iodio radioattivo, per esempio, si accumula nella tiroide e viene usato per alcune sue malattie.",
+      "Le radiazioni servono anche a sterilizzare strumenti medici e a irradiare alcuni cibi per eliminare batteri e parassiti e allungarne la conservazione. I cibi irradiati non diventano radioattivi."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Un volo intercontinentale espone a una dose di radiazione cosmica paragonabile a quella di una radiografia del torace.",
+   "mistakes": [
+    "\"Qualsiasi radiazione è pericolosa\": siamo sempre esposti a una dose naturale bassa.",
+    "\"Un cibo irradiato diventa radioattivo\": no, non diventa radioattivo.",
+    "\"La radioterapia colpisce solo le cellule malate\": colpisce anche le sane, per questo si concentra la dose."
+   ],
+   "terms": [
+    {
+     "t": "Contatore Geiger",
+     "d": "Rivelatore di radiazioni ionizzanti."
+    },
+    {
+     "t": "Sievert",
+     "d": "Unità di misura degli effetti biologici della dose."
+    },
+    {
+     "t": "Radiotracciante",
+     "d": "Sostanza radioattiva usata per seguire un processo nel corpo."
+    },
+    {
+     "t": "PET",
+     "d": "Tomografia a emissione di positroni."
+    }
+   ],
+   "quote": {
+    "text": "In human cells, we can have as many as a million individual instances of damage to DNA per cell per day.",
+    "translation": "Nelle cellule umane possono verificarsi fino a un milione di singoli danni al DNA per cellula al giorno."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "32.2 Biological effects of ionizing radiation",
+     "url": "https://openstax.org/books/college-physics-2e/pages/32-2-biological-effects-of-ionizing-radiation"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "31.2 Radiation detection and detectors",
+     "url": "https://openstax.org/books/college-physics-2e/pages/31-2-radiation-detection-and-detectors"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "32.1 Diagnostics and medical imaging",
+     "url": "https://openstax.org/books/college-physics-2e/pages/32-1-diagnostics-and-medical-imaging"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "32.3 Therapeutic uses of ionizing radiation",
+     "url": "https://openstax.org/books/college-physics-2e/pages/32-3-therapeutic-uses-of-ionizing-radiation"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "32.4 Food irradiation",
+     "url": "https://openstax.org/books/college-physics-2e/pages/32-4-food-irradiation"
+    }
+   ],
+   "videos": [
+    {
+     "id": "qlvKhMJibPY",
+     "title": "GCSE Physics - Using Radiation in Medicine - Radiotherapy | Medical Tracers (2027/28 exams)",
+     "channel": "Cognito",
+     "length": "5:13"
+    },
+    {
+     "id": "KXzONBPcPIk",
+     "title": "Using radioactive drugs to see inside your body - Pedro Brugarolas",
+     "channel": "TED-Ed",
+     "length": "4:47"
+    }
+   ],
+   "videoQuery": "nuclear medicine PET scan radiation therapy",
+   "addedAt": "2026-11-04T00:46:51Z"
+  },
+  {
+   "id": "fissione-fusione",
+   "subject": "fisica",
+   "chapter": "Fisica nucleare e particelle",
+   "title": "Fissione e fusione: centrali nucleari, stelle e bombe",
+   "hook": "Spezzare nuclei pesanti o unire nuclei leggeri libera enormi quantità di energia. Come funzionano le centrali di oggi, perché la fusione è così difficile e cosa sono le armi nucleari.",
+   "points": [
+    "La fissione e la reazione a catena",
+    "Come funziona una centrale nucleare",
+    "La fusione e la sfida di ITER",
+    "Le armi nucleari"
+   ],
+   "sections": [
+    {
+     "h": "Spezzare l'atomo",
+     "p": [
+      "Nella fissione un nucleo pesante, come l'uranio-235, assorbe un neutrone e si spezza in due nuclei più leggeri, liberando una grande quantità di energia e due o tre neutroni. Fu scoperta nel 1938 da Otto Hahn e Fritz Strassmann e interpretata da Lise Meitner e Otto Frisch.",
+      "I neutroni liberati possono colpire altri nuclei di uranio e provocare nuove fissioni: è la reazione a catena. Se ogni fissione ne provoca in media esattamente un'altra, la reazione si mantiene costante; se ne provoca di più, cresce rapidamente."
+     ]
+    },
+    {
+     "h": "La centrale nucleare",
+     "p": [
+      "In un reattore la reazione a catena è tenuta sotto controllo. Le barre di controllo, fatte di materiali che assorbono neutroni, vengono inserite o estratte per regolare la reazione. Un moderatore, spesso acqua, rallenta i neutroni, perché i neutroni lenti provocano più facilmente la fissione dell'uranio-235.",
+      "L'energia delle fissioni scalda l'acqua, che produce vapore e fa girare turbine e generatori, come in una centrale tradizionale. La differenza è la fonte del calore: un chilogrammo di uranio produce l'energia di migliaia di tonnellate di carbone, senza emettere anidride carbonica.",
+      "I problemi principali sono la sicurezza, come mostrano gli incidenti di Chernobyl e Fukushima, e le scorie radioattive, che restano pericolose per migliaia di anni e devono essere conservate in modo sicuro."
+     ]
+    },
+    {
+     "h": "La fusione",
+     "p": [
+      "La fusione unisce nuclei leggeri, come gli isotopi dell'idrogeno deuterio e trizio, formando elio e liberando energia. È ciò che alimenta il Sole. Il combustibile è abbondante, e le scorie molto meno problematiche di quelle della fissione.",
+      "Il grande ostacolo è la repulsione elettrica tra i nuclei: per vincerla servono temperature di oltre cento milioni di gradi, più calde del centro del Sole. A queste temperature la materia è plasma, che va tenuto lontano dalle pareti con potenti campi magnetici, nei reattori a forma di ciambella chiamati tokamak, oppure compresso con laser potentissimi.",
+      "Si parla di ignizione quando le reazioni producono abbastanza energia da sostenersi da sole senza energia esterna. Il progetto internazionale ITER, in costruzione in Francia, è un reattore su scala reale che punta a dimostrare la fattibilità dell'energia da fusione. La fusione per produrre elettricità in modo commerciale resta però un obiettivo per i prossimi decenni."
+     ]
+    },
+    {
+     "h": "Le armi nucleari",
+     "p": [
+      "Una bomba a fissione porta rapidamente insieme abbastanza uranio o plutonio da superare la massa critica, in modo che la reazione a catena cresca in modo esplosivo in un milionesimo di secondo. Le bombe di Hiroshima e Nagasaki, nel 1945, erano di questo tipo.",
+      "Le bombe termonucleari, o all'idrogeno, usano una bomba a fissione per innescare la fusione, e possono essere migliaia di volte più potenti. Oltre all'esplosione, liberano radiazioni e producono ricadute radioattive.",
+      "Il controllo e la riduzione degli arsenali nucleari restano tra le questioni più importanti della politica internazionale."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Una pastiglia di combustibile nucleare grande come una gomma da cancellare produce circa quanta energia una tonnellata di carbone.",
+   "mistakes": [
+    "\"Una centrale nucleare può esplodere come una bomba\": l'uranio delle centrali non è abbastanza arricchito.",
+    "\"La fusione è già usata nelle centrali\": è ancora sperimentale.",
+    "\"Fusione e fissione sono la stessa cosa\": una unisce nuclei, l'altra li spezza."
+   ],
+   "terms": [
+    {
+     "t": "Fissione",
+     "d": "Rottura di un nucleo pesante."
+    },
+    {
+     "t": "Reazione a catena",
+     "d": "Fissioni che ne provocano altre tramite i neutroni."
+    },
+    {
+     "t": "Moderatore",
+     "d": "Materiale che rallenta i neutroni."
+    },
+    {
+     "t": "Tokamak",
+     "d": "Reattore a fusione a forma di ciambella con campi magnetici."
+    }
+   ],
+   "quote": {
+    "text": "The major obstruction to fusion is the Coulomb repulsion between nuclei.",
+    "translation": "Il principale ostacolo alla fusione è la repulsione coulombiana tra i nuclei."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "32.5 Fusion",
+     "url": "https://openstax.org/books/college-physics-2e/pages/32-5-fusion"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "32.6 Fission",
+     "url": "https://openstax.org/books/college-physics-2e/pages/32-6-fission"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "32.7 Nuclear weapons",
+     "url": "https://openstax.org/books/college-physics-2e/pages/32-7-nuclear-weapons"
+    }
+   ],
+   "videos": [
+    {
+     "id": "fES21E0qebw",
+     "title": "Nuclear Reactions, Radioactivity, Fission and Fusion",
+     "channel": "Professor Dave Explains",
+     "length": "14:12"
+    },
+    {
+     "id": "mZsaaturR6E",
+     "title": "Fusion Power Explained – Future or Failure",
+     "channel": "Kurzgesagt – In a Nutshell",
+     "length": "6:16"
+    }
+   ],
+   "videoQuery": "nuclear fission and fusion explained",
+   "addedAt": "2026-11-04T00:46:51Z"
+  },
+  {
+   "id": "acceleratori-particelle",
+   "subject": "fisica",
+   "chapter": "Fisica nucleare e particelle",
+   "title": "Acceleratori di particelle: creare materia dall'energia",
+   "hook": "Al CERN si scontrano protoni quasi alla velocità della luce, e dall'energia dell'urto nascono particelle nuove. Come funzionano e cosa ci hanno insegnato.",
+   "points": [
+    "Particelle virtuali e forze",
+    "Come funziona un acceleratore",
+    "Creare particelle con E = mc²",
+    "Famiglie di particelle e leggi di conservazione"
+   ],
+   "sections": [
+    {
+     "h": "Particelle che portano le forze",
+     "p": [
+      "Negli anni Trenta il fisico giapponese Hideki Yukawa propose che la forza nucleare forte fosse trasmessa dallo scambio di una particella tra protoni e neutroni. Usando il principio di indeterminazione, calcolò che, per agire solo a distanze nucleari, questa particella doveva avere una massa intermedia tra elettrone e protone.",
+      "La particella prevista, il pione, fu scoperta nel 1947 nei raggi cosmici. Una particella scambiata in questo modo non è osservabile direttamente durante lo scambio e si chiama particella virtuale. L'idea che le forze nascano da scambi di particelle è alla base di tutta la fisica delle particelle moderna."
+     ]
+    },
+    {
+     "h": "Come si accelera una particella",
+     "p": [
+      "Un acceleratore usa campi elettrici per spingere particelle cariche, come protoni o elettroni, a velocità vicinissime a quella della luce, e campi magnetici per guidarle e concentrarle. I primi acceleratori erano lineari; il ciclotrone, inventato negli anni Trenta, faceva girare le particelle a spirale dando loro una spinta a ogni giro.",
+      "Oggi i grandi acceleratori sono anelli enormi. Il Large Hadron Collider del CERN, vicino a Ginevra, è un anello di 27 chilometri sotto il confine tra Svizzera e Francia: due fasci di protoni girano in versi opposti e si scontrano in punti dove enormi rivelatori registrano i prodotti degli urti."
+     ]
+    },
+    {
+     "h": "Materia dall'energia",
+     "p": [
+      "Grazie a E = mc², l'energia degli urti può trasformarsi in massa: dallo scontro nascono particelle nuove, anche molto più pesanti delle particelle iniziali. Più energia ha l'acceleratore, più pesanti sono le particelle che può creare.",
+      "Si rivelano così nuove leggi, e la grande maggioranza di ciò che sappiamo sulla fisica delle particelle viene dai laboratori degli acceleratori. Nel 2012 il CERN annunciò la scoperta del bosone di Higgs, l'ultimo tassello mancante del modello standard, legato al meccanismo che dà massa alle particelle."
+     ]
+    },
+    {
+     "h": "Ordine nel caos delle particelle",
+     "p": [
+      "Negli anni Cinquanta e Sessanta gli acceleratori scoprirono centinaia di particelle diverse: si parlava di \"zoo delle particelle\". I fisici le classificarono in famiglie: i leptoni, come l'elettrone e il neutrino, che non sentono la forza forte; e gli adroni, come protoni, neutroni e pioni, che la sentono.",
+      "Studiando quali reazioni avvengono e quali no, si scoprirono nuove leggi di conservazione oltre a quelle di energia, quantità di moto e carica: per esempio il numero totale di leptoni e quello di barioni restano costanti. Questi schemi suggerirono che gli adroni non fossero elementari, ma fatti di componenti più piccoli: i quark."
+     ]
+    }
+   ],
+   "formulas": [
+    {
+     "f": "E = m·c²",
+     "d": "L'energia dell'urto può trasformarsi in massa di nuove particelle."
+    }
+   ],
+   "example": "Il World Wide Web è nato al CERN nel 1989, inventato da Tim Berners-Lee per far condividere dati ai fisici.",
+   "mistakes": [
+    "\"Gli acceleratori rompono le particelle in pezzi più piccoli\": spesso creano particelle nuove dall'energia.",
+    "\"Le particelle virtuali sono finzioni\": sono un modo per descrivere come agiscono le forze.",
+    "\"Il CERN serve solo alla ricerca astratta\": ha prodotto anche tecnologie come il web."
+   ],
+   "terms": [
+    {
+     "t": "Acceleratore",
+     "d": "Macchina che porta le particelle ad altissime energie."
+    },
+    {
+     "t": "Particella virtuale",
+     "d": "Particella scambiata che trasmette una forza."
+    },
+    {
+     "t": "Adrone",
+     "d": "Particella che sente la forza forte."
+    },
+    {
+     "t": "Leptone",
+     "d": "Particella che non sente la forza forte, come l'elettrone."
+    }
+   ],
+   "quote": {
+    "text": "New laws are revealed, and the vast majority of what we know about particle physics has come from accelerator laboratories.",
+    "translation": "Si rivelano nuove leggi, e la grande maggioranza di ciò che sappiamo sulla fisica delle particelle viene dai laboratori degli acceleratori."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "33.3 Accelerators create matter from energy",
+     "url": "https://openstax.org/books/college-physics-2e/pages/33-3-accelerators-create-matter-from-energy"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "33.1 The yukawa particle and the heisenberg uncertainty principle revisited",
+     "url": "https://openstax.org/books/college-physics-2e/pages/33-1-the-yukawa-particle-and-the-heisenberg-uncertainty-principle-revisited"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "33.4 Particles patterns and conservation laws",
+     "url": "https://openstax.org/books/college-physics-2e/pages/33-4-particles-patterns-and-conservation-laws"
+    }
+   ],
+   "videos": [
+    {
+     "id": "euaPmKtjfR8",
+     "title": "How does the Large Hadron Collider Work? | Colossal Machines | National Geographic UK",
+     "channel": "National Geographic UK",
+     "length": "2:05"
+    },
+    {
+     "id": "G6mmIzRz_f8",
+     "title": "How does an atom-smashing particle accelerator work? - Don Lincoln",
+     "channel": "TED-Ed",
+     "length": "3:36"
+    }
+   ],
+   "videoQuery": "particle accelerators CERN how they work",
+   "addedAt": "2026-11-04T00:46:51Z"
+  },
+  {
+   "id": "quark",
+   "subject": "fisica",
+   "chapter": "Fisica nucleare e particelle",
+   "title": "Quark e modello standard: i mattoni della materia",
+   "hook": "Protoni e neutroni sono fatti di quark tenuti insieme da gluoni. Il modello standard riassume tutte le particelle conosciute, e i fisici sognano di unificare le forze.",
+   "points": [
+    "Leptoni, quark e particelle mediatrici",
+    "Il colore dei quark e il confinamento",
+    "Il modello standard",
+    "Le teorie di grande unificazione"
+   ],
+   "sections": [
+    {
+     "h": "Tre famiglie di mattoni",
+     "p": [
+      "Secondo la fisica attuale, la materia è costruita con poche particelle fondamentali. I leptoni sono il primo gruppo: l'elettrone, i suoi parenti più pesanti muone e tau, e tre tipi di neutrini. I quark sono il secondo gruppo di particelle fondamentali.",
+      "Il terzo gruppo, forse l'ultimo, è quello delle particelle mediatrici delle quattro forze fondamentali: il fotone per l'elettromagnetismo, i gluoni per la forza forte, i bosoni W e Z per la forza debole. Il gravitone, per la gravità, è solo ipotizzato."
+     ]
+    },
+    {
+     "h": "I quark",
+     "p": [
+      "Negli anni Sessanta Murray Gell-Mann e George Zweig proposero che protoni, neutroni e tutti gli altri adroni fossero fatti di particelle più piccole, che Gell-Mann chiamò quark, prendendo il nome da una frase del romanzo Finnegans Wake di James Joyce. Esistono sei tipi di quark, con nomi fantasiosi: up, down, strange, charm, bottom e top.",
+      "Un protone è fatto di due quark up e uno down; un neutrone di un up e due down. I quark hanno cariche frazionarie, due terzi o un terzo di quella dell'elettrone, che si sommano per dare cariche intere. Esperimenti di diffusione di elettroni ad alta energia sui protoni, alla fine degli anni Sessanta, mostrarono che dentro il protone ci sono davvero piccoli costituenti puntiformi."
+     ]
+    },
+    {
+     "h": "Colore e confinamento",
+     "p": [
+      "I quark possiedono una proprietà chiamata carica di colore, che non ha niente a che vedere con i colori visibili: è solo un nome per tre tipi di carica della forza forte. La teoria dei quark con il colore si chiama cromodinamica quantistica, nome coniato anch'esso da Gell-Mann.",
+      "I quark si combinano sempre in modo che il risultato sia \"bianco\", cioè neutro di colore. Una conseguenza strana è che non si possono mai osservare quark isolati: più li si allontana, più la forza tra loro cresce, finché l'energia spesa crea nuove coppie di quark. È il confinamento.",
+      "La forza nucleare che tiene insieme protoni e neutroni nel nucleo è in un certo senso un residuo della forza forte tra i quark, come le forze tra molecole neutre sono residui della forza elettrica."
+     ]
+    },
+    {
+     "h": "Il modello standard e oltre",
+     "p": [
+      "Il modello standard è la teoria che descrive tutte le particelle conosciute e tre delle quattro forze. Le sue previsioni sono state confermate con precisione straordinaria; l'ultimo tassello, il bosone di Higgs, è stato trovato nel 2012.",
+      "Non è però una teoria completa: non include la gravità, non spiega la materia oscura né perché ci sia più materia che antimateria. Le teorie di grande unificazione cercano di riunire forza forte, debole ed elettromagnetica in un'unica forza, che si manifesterebbe a energie altissime come quelle dei primi istanti dell'universo. Alcune prevedono che il protone possa decadere, ma finora nessun esperimento lo ha osservato."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Il tuo corpo è fatto quasi solo di quark up e down ed elettroni: tutte le altre particelle sono rare o instabili.",
+   "mistakes": [
+    "\"Protoni e neutroni sono particelle fondamentali\": sono fatti di quark.",
+    "\"Il colore dei quark è un colore vero\": è un nome per un tipo di carica.",
+    "\"Il modello standard spiega tutto\": non include la gravità né la materia oscura."
+   ],
+   "terms": [
+    {
+     "t": "Quark",
+     "d": "Particella fondamentale che forma protoni e neutroni."
+    },
+    {
+     "t": "Gluone",
+     "d": "Particella che trasmette la forza forte."
+    },
+    {
+     "t": "Confinamento",
+     "d": "Impossibilità di osservare quark isolati."
+    },
+    {
+     "t": "Modello standard",
+     "d": "Teoria delle particelle e di tre forze fondamentali."
+    }
+   ],
+   "quote": {
+    "text": "Quarks are the second group of fundamental particles (leptons are the first).",
+    "translation": "I quark sono il secondo gruppo di particelle fondamentali (i leptoni sono il primo)."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "33.5 Quarks is that all there is",
+     "url": "https://openstax.org/books/college-physics-2e/pages/33-5-quarks-is-that-all-there-is"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "33.6 Guts the unification of forces",
+     "url": "https://openstax.org/books/college-physics-2e/pages/33-6-guts-the-unification-of-forces"
+    }
+   ],
+   "videos": [
+    {
+     "id": "LraNu_78sCw",
+     "title": "Quarks Explained in Four Minutes - Physics Girl",
+     "channel": "Physics Girl",
+     "length": "4:19"
+    },
+    {
+     "id": "nlv06lSAC7c",
+     "title": "What Are Quarks? | Radioactivity | Physics | FuseSchool",
+     "channel": "FuseSchool - Global Education",
+     "length": "3:18"
+    }
+   ],
+   "videoQuery": "standard model quarks crash course physics",
+   "addedAt": "2026-11-04T00:46:51Z"
+  },
+  {
+   "id": "frontiere-cosmologia",
+   "subject": "fisica",
+   "chapter": "Frontiere della fisica",
+   "title": "Le frontiere della fisica: cosmologia, gravità quantistica e stringhe",
+   "hook": "Le particelle più piccole e l'universo intero sono collegati. Le grandi domande aperte: cosa c'era all'inizio, come unire gravità e quanti, che cos'è la materia oscura.",
+   "points": [
+    "Cosmologia e fisica delle particelle",
+    "Il problema della gravità quantistica",
+    "La teoria delle stringhe",
+    "Materia oscura e destino dell'universo"
+   ],
+   "sections": [
+    {
+     "h": "Il più piccolo e il più grande",
+     "p": [
+      "La cosmologia è lo studio delle caratteristiche e dell'evoluzione dell'universo nel suo insieme. Sembra lontanissima dalla fisica delle particelle, eppure le due sono strettamente legate: nei primi istanti dopo il Big Bang l'universo era così caldo e denso che le particelle si scontravano con energie superiori a quelle di qualsiasi acceleratore.",
+      "Guardare lontano nello spazio significa guardare indietro nel tempo: la luce di una galassia a un miliardo di anni luce è partita un miliardo di anni fa. Tra i fatti che la cosmologia deve spiegare ci sono il predominio della materia sull'antimateria, l'uniformità quasi perfetta della radiazione cosmica di fondo e la stessa esistenza delle galassie."
+     ]
+    },
+    {
+     "h": "Gravità e quanti",
+     "p": [
+      "Le due grandi teorie della fisica del Novecento, la relatività generale per la gravità e la meccanica quantistica per il mondo microscopico, funzionano benissimo ciascuna nel proprio campo, ma sono incompatibili. Nei casi in cui servono entrambe, al centro dei buchi neri o nel primissimo istante dell'universo, le equazioni danno risultati senza senso.",
+      "Prima di un tempo brevissimo dopo il Big Bang, circa 10⁻⁴³ secondi, c'è un'epoca di cui non sappiamo quasi nulla, perché non abbiamo una teoria funzionante della gravità quantistica. Trovarla è uno degli obiettivi principali della fisica teorica."
+     ]
+    },
+    {
+     "h": "Le stringhe",
+     "p": [
+      "Una delle proposte più famose è la teoria delle stringhe: le particelle non sarebbero punti, ma minuscole stringhe vibranti, e i diversi modi di vibrare corrisponderebbero alle diverse particelle, come le note di una corda di violino. La teoria include in modo naturale la gravità.",
+      "Richiede però dimensioni spaziali in più, arrotolate su scale piccolissime, e finora non ha fatto previsioni verificabili con gli esperimenti attuali. Esistono anche approcci alternativi, come la gravità quantistica a loop. Per ora, nessuna teoria della gravità quantistica è confermata."
+     ]
+    },
+    {
+     "h": "Materia oscura e destino dell'universo",
+     "p": [
+      "Le osservazioni mostrano che la materia che vediamo è solo una piccola parte della materia totale: la maggior parte è materia oscura, che si rivela solo con la gravità. I fisici delle particelle cercano candidati per la materia oscura, finora senza successo.",
+      "Il destino dell'universo dipende da quanta materia ed energia contiene. In passato ci si chiedeva se l'espansione si sarebbe fermata e rovesciata in un \"Big Crunch\"; oggi sappiamo che l'espansione sta accelerando, spinta da una misteriosa energia oscura. Capire che cosa siano materia ed energia oscura è una delle grandi sfide di questo secolo."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Ogni stella che vedi la notte la vedi com'era quando la sua luce è partita: anni, secoli o millenni fa.",
+   "mistakes": [
+    "\"La fisica ha già una teoria del tutto\": relatività e meccanica quantistica non sono ancora unificate.",
+    "\"La teoria delle stringhe è dimostrata\": finora non ha conferme sperimentali.",
+    "\"Guardando lontano vediamo l'universo com'è ora\": lo vediamo com'era quando la luce è partita."
+   ],
+   "terms": [
+    {
+     "t": "Cosmologia",
+     "d": "Studio dell'universo nel suo insieme."
+    },
+    {
+     "t": "Gravità quantistica",
+     "d": "Teoria cercata che unisca gravità e meccanica quantistica."
+    },
+    {
+     "t": "Teoria delle stringhe",
+     "d": "Ipotesi in cui le particelle sono stringhe vibranti."
+    },
+    {
+     "t": "Energia oscura",
+     "d": "Causa ignota dell'espansione accelerata."
+    }
+   ],
+   "quote": {
+    "text": "Cosmology is the study of the character and evolution of the universe.",
+    "translation": "La cosmologia è lo studio delle caratteristiche e dell'evoluzione dell'universo."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "34.1 Cosmology and particle physics",
+     "url": "https://openstax.org/books/college-physics-2e/pages/34-1-cosmology-and-particle-physics"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "34.2 General relativity and quantum gravity",
+     "url": "https://openstax.org/books/college-physics-2e/pages/34-2-general-relativity-and-quantum-gravity"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "34.3 Superstrings",
+     "url": "https://openstax.org/books/college-physics-2e/pages/34-3-superstrings"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "34.4 Dark matter and closure",
+     "url": "https://openstax.org/books/college-physics-2e/pages/34-4-dark-matter-and-closure"
+    }
+   ],
+   "videos": [
+    {
+     "id": "Da-2h2B4faU",
+     "title": "String Theory Explained – What is The True Nature of Reality?",
+     "channel": "Kurzgesagt – In a Nutshell",
+     "length": "8:00"
+    },
+    {
+     "id": "L2suMPiuog4",
+     "title": "Loop Quantum Gravity Explained",
+     "channel": "PBS Space Time",
+     "length": "17:33"
+    }
+   ],
+   "videoQuery": "quantum gravity string theory",
+   "addedAt": "2026-11-04T00:46:51Z"
+  },
+  {
+   "id": "caos-superconduttori",
+   "subject": "fisica",
+   "chapter": "Frontiere della fisica",
+   "title": "Caos, complessità e superconduttori: la fisica che resta da capire",
+   "hook": "L'effetto farfalla, i sistemi che si auto-organizzano, materiali che conducono senza resistenza: altri campi aperti della fisica, e le domande che sappiamo di non saper rispondere.",
+   "points": [
+    "Che cos'è il caos deterministico",
+    "La complessità e i sistemi adattivi",
+    "I superconduttori ad alta temperatura",
+    "Le grandi domande aperte"
+   ],
+   "sections": [
+    {
+     "h": "Il caos",
+     "p": [
+      "Un precursore della complessità è il caos, un tema molto popolare diventato una disciplina a sé. Un sistema caotico segue leggi precise e deterministiche, eppure è imprevedibile nel lungo periodo, perché piccolissime differenze nelle condizioni iniziali crescono in modo esponenziale.",
+      "Il meteorologo Edward Lorenz lo scoprì negli anni Sessanta: arrotondando un numero nella sua simulazione del tempo atmosferico, ottenne previsioni completamente diverse. Da qui l'immagine dell'effetto farfalla: il battito d'ali di una farfalla in Brasile potrebbe, in linea di principio, influenzare la formazione di un tornado in Texas.",
+      "Per questo le previsioni del tempo sono affidabili per pochi giorni e non per mesi, anche con computer potentissimi. Sono caotici anche un pendolo doppio, il gocciolare di un rubinetto, alcune popolazioni animali e le orbite di certi asteroidi."
+     ]
+    },
+    {
+     "h": "La complessità",
+     "p": [
+      "I sistemi complessi sono fatti di molte parti che interagiscono e producono comportamenti collettivi che non si vedono guardando le singole parti: uno stormo di storni, un formicaio, il traffico, il cervello, l'economia. Di particolare interesse è la capacità dei sistemi complessi di adattarsi ed evolvere.",
+      "I sistemi di organismi viventi sono essi stessi sistemi complessi adattivi. Studiarli richiede strumenti nuovi, spesso simulazioni al computer, e collega la fisica con la biologia, l'informatica e le scienze sociali."
+     ]
+    },
+    {
+     "h": "I superconduttori",
+     "p": [
+      "Alcuni materiali, raffreddati sotto una certa temperatura critica, perdono completamente la resistenza elettrica: una corrente può circolare in un anello superconduttore per anni senza diminuire. Inoltre respingono i campi magnetici, e un magnete può levitare sopra di loro.",
+      "Per molto tempo i superconduttori funzionavano solo vicino allo zero assoluto, raffreddati con elio liquido, costoso. Nel 1986 si scoprirono ceramiche superconduttrici a temperature molto più alte, raggiungibili con l'azoto liquido, molto più economico. Ma non esiste ancora una teoria completa che spieghi la superconduttività ad alta temperatura.",
+      "Un superconduttore a temperatura ambiente rivoluzionerebbe il trasporto dell'energia e molte tecnologie. Nonostante alcuni annunci clamorosi negli ultimi anni, nessuno è stato confermato."
+     ]
+    },
+    {
+     "h": "Domande che sappiamo di porci",
+     "p": [
+      "La fisica conosce bene i propri limiti. Alcune domande aperte: che cosa sono la materia oscura e l'energia oscura? Perché c'è più materia che antimateria? Come si uniscono gravità e meccanica quantistica? Quanto pesano esattamente i neutrini? Il protone è eterno?",
+      "Alcune domande sono ancora più profonde: perché le costanti della natura hanno proprio quei valori? Esistono altri universi? Come nasce la coscienza dalla materia del cervello?",
+      "È proprio questa lista di domande aperte a rendere la fisica viva: ogni risposta trovata nella storia ha aperto domande nuove."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Le previsioni meteo a 3 giorni sono molto affidabili, a 15 giorni poco: non per colpa dei meteorologi, ma del caos dell'atmosfera.",
+   "mistakes": [
+    "\"Caotico vuol dire casuale\": un sistema caotico segue leggi precise ma è imprevedibile a lungo termine.",
+    "\"Con computer più potenti prevedremo il meteo per mesi\": il caos lo impedisce.",
+    "\"I superconduttori funzionano a temperatura ambiente\": finora no."
+   ],
+   "terms": [
+    {
+     "t": "Caos deterministico",
+     "d": "Imprevedibilità di sistemi con leggi precise, sensibili alle condizioni iniziali."
+    },
+    {
+     "t": "Effetto farfalla",
+     "d": "Grandi conseguenze da piccolissime differenze iniziali."
+    },
+    {
+     "t": "Sistema complesso",
+     "d": "Sistema di molte parti con comportamenti collettivi."
+    },
+    {
+     "t": "Superconduttività",
+     "d": "Assenza totale di resistenza elettrica sotto una certa temperatura."
+    }
+   ],
+   "quote": {
+    "text": "A predecessor to complexity is the topic of chaos, which has been widely publicized and has become a discipline of its own.",
+    "translation": "Un precursore della complessità è il tema del caos, molto divulgato e diventato una disciplina a sé."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "34.5 Complexity and chaos",
+     "url": "https://openstax.org/books/college-physics-2e/pages/34-5-complexity-and-chaos"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "34.6 High temperature superconductors",
+     "url": "https://openstax.org/books/college-physics-2e/pages/34-6-high-temperature-superconductors"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "34.7 Some questions we know to ask",
+     "url": "https://openstax.org/books/college-physics-2e/pages/34-7-some-questions-we-know-to-ask"
+    }
+   ],
+   "videos": [
+    {
+     "id": "r_ahZOgPTsk",
+     "title": "A simple guide to chaos theory - BBC World Service",
+     "channel": "BBC World Service",
+     "length": "5:10"
+    },
+    {
+     "id": "fDek6cYijxI",
+     "title": "Chaos: The Science of the Butterfly Effect",
+     "channel": "Veritasium",
+     "length": "12:51"
+    }
+   ],
+   "videoQuery": "chaos theory superconductors",
+   "addedAt": "2026-11-04T00:46:51Z"
   },
   {
    "id": "neuroni",
@@ -10027,6 +11319,11 @@
      "name": "OpenStax · Psychology 2e",
      "title": "6.4 Observational Learning (Modeling)",
      "url": "https://openstax.org/books/psychology-2e/pages/6-4-observational-learning-modeling"
+    },
+    {
+     "name": "OpenStax · Psychology 2e",
+     "title": "6.1 What Is Learning?",
+     "url": "https://openstax.org/books/psychology-2e/pages/6-1-what-is-learning"
     },
     {
      "name": "OpenStax · Psychology 2e",

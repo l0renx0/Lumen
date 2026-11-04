@@ -1614,17 +1614,23 @@
       {
        "title": "29.6 The wave nature of matter",
        "url": "https://openstax.org/books/college-physics-2e/pages/29-6-the-wave-nature-of-matter",
-       "argomenti": []
+       "argomenti": [
+        "indeterminazione"
+       ]
       },
       {
        "title": "29.7 Probability the heisenberg uncertainty principle",
        "url": "https://openstax.org/books/college-physics-2e/pages/29-7-probability-the-heisenberg-uncertainty-principle",
-       "argomenti": []
+       "argomenti": [
+        "indeterminazione"
+       ]
       },
       {
        "title": "29.8 The particle wave duality reviewed",
        "url": "https://openstax.org/books/college-physics-2e/pages/29-8-the-particle-wave-duality-reviewed",
-       "argomenti": []
+       "argomenti": [
+        "indeterminazione"
+       ]
       }
      ]
     },
@@ -1635,47 +1641,65 @@
       {
        "title": "30.1 Discovery of the atom",
        "url": "https://openstax.org/books/college-physics-2e/pages/30-1-discovery-of-the-atom",
-       "argomenti": []
+       "argomenti": [
+        "scoperta-atomo"
+       ]
       },
       {
        "title": "30.2 Discovery of the parts of the atom electrons and nuclei",
        "url": "https://openstax.org/books/college-physics-2e/pages/30-2-discovery-of-the-parts-of-the-atom-electrons-and-nuclei",
-       "argomenti": []
+       "argomenti": [
+        "scoperta-atomo"
+       ]
       },
       {
        "title": "30.3 Bohrs theory of the hydrogen atom",
        "url": "https://openstax.org/books/college-physics-2e/pages/30-3-bohrs-theory-of-the-hydrogen-atom",
-       "argomenti": []
+       "argomenti": [
+        "modello-di-bohr"
+       ]
       },
       {
        "title": "30.4 X rays atomic origins and applications",
        "url": "https://openstax.org/books/college-physics-2e/pages/30-4-x-rays-atomic-origins-and-applications",
-       "argomenti": []
+       "argomenti": [
+        "raggi-x-laser"
+       ]
       },
       {
        "title": "30.5 Applications of atomic excitations and de excitations",
        "url": "https://openstax.org/books/college-physics-2e/pages/30-5-applications-of-atomic-excitations-and-de-excitations",
-       "argomenti": []
+       "argomenti": [
+        "raggi-x-laser"
+       ]
       },
       {
        "title": "30.6 The wave nature of matter causes quantization",
        "url": "https://openstax.org/books/college-physics-2e/pages/30-6-the-wave-nature-of-matter-causes-quantization",
-       "argomenti": []
+       "argomenti": [
+        "modello-di-bohr"
+       ]
       },
       {
        "title": "30.7 Patterns in spectra reveal more quantization",
        "url": "https://openstax.org/books/college-physics-2e/pages/30-7-patterns-in-spectra-reveal-more-quantization",
-       "argomenti": []
+       "argomenti": [
+        "modello-di-bohr"
+       ]
       },
       {
        "title": "30.8 Quantum numbers and rules",
        "url": "https://openstax.org/books/college-physics-2e/pages/30-8-quantum-numbers-and-rules",
-       "argomenti": []
+       "argomenti": [
+        "tavola-periodica-pauli"
+       ]
       },
       {
        "title": "30.9 The pauli exclusion principle",
        "url": "https://openstax.org/books/college-physics-2e/pages/30-9-the-pauli-exclusion-principle",
-       "argomenti": []
+       "argomenti": [
+        "tavola-periodica-pauli"
+       ]
       }
      ]
     },
@@ -1693,17 +1717,23 @@
       {
        "title": "31.2 Radiation detection and detectors",
        "url": "https://openstax.org/books/college-physics-2e/pages/31-2-radiation-detection-and-detectors",
-       "argomenti": []
+       "argomenti": [
+        "medicina-nucleare"
+       ]
       },
       {
        "title": "31.3 Substructure of the nucleus",
        "url": "https://openstax.org/books/college-physics-2e/pages/31-3-substructure-of-the-nucleus",
-       "argomenti": []
+       "argomenti": [
+        "energia-di-legame"
+       ]
       },
       {
        "title": "31.4 Nuclear decay and conservation laws",
        "url": "https://openstax.org/books/college-physics-2e/pages/31-4-nuclear-decay-and-conservation-laws",
-       "argomenti": []
+       "argomenti": [
+        "energia-di-legame"
+       ]
       },
       {
        "title": "31.5 Half life and activity",
@@ -1715,12 +1745,16 @@
       {
        "title": "31.6 Binding energy",
        "url": "https://openstax.org/books/college-physics-2e/pages/31-6-binding-energy",
-       "argomenti": []
+       "argomenti": [
+        "energia-di-legame"
+       ]
       },
       {
        "title": "31.7 Tunneling",
        "url": "https://openstax.org/books/college-physics-2e/pages/31-7-tunneling",
-       "argomenti": []
+       "argomenti": [
+        "energia-di-legame"
+       ]
       }
      ]
     },
@@ -1731,37 +1765,51 @@
       {
        "title": "32.1 Diagnostics and medical imaging",
        "url": "https://openstax.org/books/college-physics-2e/pages/32-1-diagnostics-and-medical-imaging",
-       "argomenti": []
+       "argomenti": [
+        "medicina-nucleare"
+       ]
       },
       {
        "title": "32.2 Biological effects of ionizing radiation",
        "url": "https://openstax.org/books/college-physics-2e/pages/32-2-biological-effects-of-ionizing-radiation",
-       "argomenti": []
+       "argomenti": [
+        "medicina-nucleare"
+       ]
       },
       {
        "title": "32.3 Therapeutic uses of ionizing radiation",
        "url": "https://openstax.org/books/college-physics-2e/pages/32-3-therapeutic-uses-of-ionizing-radiation",
-       "argomenti": []
+       "argomenti": [
+        "medicina-nucleare"
+       ]
       },
       {
        "title": "32.4 Food irradiation",
        "url": "https://openstax.org/books/college-physics-2e/pages/32-4-food-irradiation",
-       "argomenti": []
+       "argomenti": [
+        "medicina-nucleare"
+       ]
       },
       {
        "title": "32.5 Fusion",
        "url": "https://openstax.org/books/college-physics-2e/pages/32-5-fusion",
-       "argomenti": []
+       "argomenti": [
+        "fissione-fusione"
+       ]
       },
       {
        "title": "32.6 Fission",
        "url": "https://openstax.org/books/college-physics-2e/pages/32-6-fission",
-       "argomenti": []
+       "argomenti": [
+        "fissione-fusione"
+       ]
       },
       {
        "title": "32.7 Nuclear weapons",
        "url": "https://openstax.org/books/college-physics-2e/pages/32-7-nuclear-weapons",
-       "argomenti": []
+       "argomenti": [
+        "fissione-fusione"
+       ]
       }
      ]
     },
@@ -1772,7 +1820,9 @@
       {
        "title": "33.1 The yukawa particle and the heisenberg uncertainty principle revisited",
        "url": "https://openstax.org/books/college-physics-2e/pages/33-1-the-yukawa-particle-and-the-heisenberg-uncertainty-principle-revisited",
-       "argomenti": []
+       "argomenti": [
+        "acceleratori-particelle"
+       ]
       },
       {
        "title": "33.2 The four basic forces",
@@ -1784,22 +1834,30 @@
       {
        "title": "33.3 Accelerators create matter from energy",
        "url": "https://openstax.org/books/college-physics-2e/pages/33-3-accelerators-create-matter-from-energy",
-       "argomenti": []
+       "argomenti": [
+        "acceleratori-particelle"
+       ]
       },
       {
        "title": "33.4 Particles patterns and conservation laws",
        "url": "https://openstax.org/books/college-physics-2e/pages/33-4-particles-patterns-and-conservation-laws",
-       "argomenti": []
+       "argomenti": [
+        "acceleratori-particelle"
+       ]
       },
       {
        "title": "33.5 Quarks is that all there is",
        "url": "https://openstax.org/books/college-physics-2e/pages/33-5-quarks-is-that-all-there-is",
-       "argomenti": []
+       "argomenti": [
+        "quark"
+       ]
       },
       {
        "title": "33.6 Guts the unification of forces",
        "url": "https://openstax.org/books/college-physics-2e/pages/33-6-guts-the-unification-of-forces",
-       "argomenti": []
+       "argomenti": [
+        "quark"
+       ]
       }
      ]
     },
@@ -1810,37 +1868,51 @@
       {
        "title": "34.1 Cosmology and particle physics",
        "url": "https://openstax.org/books/college-physics-2e/pages/34-1-cosmology-and-particle-physics",
-       "argomenti": []
+       "argomenti": [
+        "frontiere-cosmologia"
+       ]
       },
       {
        "title": "34.2 General relativity and quantum gravity",
        "url": "https://openstax.org/books/college-physics-2e/pages/34-2-general-relativity-and-quantum-gravity",
-       "argomenti": []
+       "argomenti": [
+        "frontiere-cosmologia"
+       ]
       },
       {
        "title": "34.3 Superstrings",
        "url": "https://openstax.org/books/college-physics-2e/pages/34-3-superstrings",
-       "argomenti": []
+       "argomenti": [
+        "frontiere-cosmologia"
+       ]
       },
       {
        "title": "34.4 Dark matter and closure",
        "url": "https://openstax.org/books/college-physics-2e/pages/34-4-dark-matter-and-closure",
-       "argomenti": []
+       "argomenti": [
+        "frontiere-cosmologia"
+       ]
       },
       {
        "title": "34.5 Complexity and chaos",
        "url": "https://openstax.org/books/college-physics-2e/pages/34-5-complexity-and-chaos",
-       "argomenti": []
+       "argomenti": [
+        "caos-superconduttori"
+       ]
       },
       {
        "title": "34.6 High temperature superconductors",
        "url": "https://openstax.org/books/college-physics-2e/pages/34-6-high-temperature-superconductors",
-       "argomenti": []
+       "argomenti": [
+        "caos-superconduttori"
+       ]
       },
       {
        "title": "34.7 Some questions we know to ask",
        "url": "https://openstax.org/books/college-physics-2e/pages/34-7-some-questions-we-know-to-ask",
-       "argomenti": []
+       "argomenti": [
+        "caos-superconduttori"
+       ]
       }
      ]
     }
