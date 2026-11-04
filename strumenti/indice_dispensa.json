@@ -11,22 +11,30 @@
       {
        "title": "1.1 Physics an introduction",
        "url": "https://openstax.org/books/college-physics-2e/pages/1-1-physics-an-introduction",
-       "argomenti": []
+       "argomenti": [
+        "metodo-scientifico"
+       ]
       },
       {
        "title": "1.2 Physical quantities and units",
        "url": "https://openstax.org/books/college-physics-2e/pages/1-2-physical-quantities-and-units",
-       "argomenti": []
+       "argomenti": [
+        "misure-unita"
+       ]
       },
       {
        "title": "1.3 Accuracy precision and significant figures",
        "url": "https://openstax.org/books/college-physics-2e/pages/1-3-accuracy-precision-and-significant-figures",
-       "argomenti": []
+       "argomenti": [
+        "misure-unita"
+       ]
       },
       {
        "title": "1.4 Approximation",
        "url": "https://openstax.org/books/college-physics-2e/pages/1-4-approximation",
-       "argomenti": []
+       "argomenti": [
+        "misure-unita"
+       ]
       }
      ]
     },
@@ -37,17 +45,23 @@
       {
        "title": "2.1 Displacement",
        "url": "https://openstax.org/books/college-physics-2e/pages/2-1-displacement",
-       "argomenti": []
+       "argomenti": [
+        "spostamento-velocita"
+       ]
       },
       {
        "title": "2.2 Vectors scalars and coordinate systems",
        "url": "https://openstax.org/books/college-physics-2e/pages/2-2-vectors-scalars-and-coordinate-systems",
-       "argomenti": []
+       "argomenti": [
+        "spostamento-velocita"
+       ]
       },
       {
        "title": "2.3 Time velocity and speed",
        "url": "https://openstax.org/books/college-physics-2e/pages/2-3-time-velocity-and-speed",
-       "argomenti": []
+       "argomenti": [
+        "spostamento-velocita"
+       ]
       },
       {
        "title": "2.4 Acceleration",
@@ -59,22 +73,30 @@
       {
        "title": "2.5 Motion equations for constant acceleration in one dimension",
        "url": "https://openstax.org/books/college-physics-2e/pages/2-5-motion-equations-for-constant-acceleration-in-one-dimension",
-       "argomenti": []
+       "argomenti": [
+        "equazioni-del-moto"
+       ]
       },
       {
        "title": "2.6 Problem solving basics for one dimensional kinematics",
        "url": "https://openstax.org/books/college-physics-2e/pages/2-6-problem-solving-basics-for-one-dimensional-kinematics",
-       "argomenti": []
+       "argomenti": [
+        "equazioni-del-moto"
+       ]
       },
       {
        "title": "2.7 Falling objects",
        "url": "https://openstax.org/books/college-physics-2e/pages/2-7-falling-objects",
-       "argomenti": []
+       "argomenti": [
+        "caduta-libera"
+       ]
       },
       {
        "title": "2.8 Graphical analysis of one dimensional motion",
        "url": "https://openstax.org/books/college-physics-2e/pages/2-8-graphical-analysis-of-one-dimensional-motion",
-       "argomenti": []
+       "argomenti": [
+        "spostamento-velocita"
+       ]
       }
      ]
     },
@@ -85,27 +107,37 @@
       {
        "title": "3.1 Kinematics in two dimensions an introduction",
        "url": "https://openstax.org/books/college-physics-2e/pages/3-1-kinematics-in-two-dimensions-an-introduction",
-       "argomenti": []
+       "argomenti": [
+        "vettori"
+       ]
       },
       {
        "title": "3.2 Vector addition and subtraction graphical methods",
        "url": "https://openstax.org/books/college-physics-2e/pages/3-2-vector-addition-and-subtraction-graphical-methods",
-       "argomenti": []
+       "argomenti": [
+        "vettori"
+       ]
       },
       {
        "title": "3.3 Vector addition and subtraction analytical methods",
        "url": "https://openstax.org/books/college-physics-2e/pages/3-3-vector-addition-and-subtraction-analytical-methods",
-       "argomenti": []
+       "argomenti": [
+        "vettori"
+       ]
       },
       {
        "title": "3.4 Projectile motion",
        "url": "https://openstax.org/books/college-physics-2e/pages/3-4-projectile-motion",
-       "argomenti": []
+       "argomenti": [
+        "moto-dei-proiettili"
+       ]
       },
       {
        "title": "3.5 Addition of velocities",
        "url": "https://openstax.org/books/college-physics-2e/pages/3-5-addition-of-velocities",
-       "argomenti": []
+       "argomenti": [
+        "vettori"
+       ]
       }
      ]
     },
@@ -116,7 +148,9 @@
       {
        "title": "4.1 Development of force concept",
        "url": "https://openstax.org/books/college-physics-2e/pages/4-1-development-of-force-concept",
-       "argomenti": []
+       "argomenti": [
+        "forze-quotidiane"
+       ]
       },
       {
        "title": "4.2 Newtons first law of motion inertia",
@@ -142,22 +176,30 @@
       {
        "title": "4.5 Normal tension and other examples of forces",
        "url": "https://openstax.org/books/college-physics-2e/pages/4-5-normal-tension-and-other-examples-of-forces",
-       "argomenti": []
+       "argomenti": [
+        "forze-quotidiane"
+       ]
       },
       {
        "title": "4.6 Problem solving strategies",
        "url": "https://openstax.org/books/college-physics-2e/pages/4-6-problem-solving-strategies",
-       "argomenti": []
+       "argomenti": [
+        "forze-quotidiane"
+       ]
       },
       {
        "title": "4.7 Further applications of newtons laws of motion",
        "url": "https://openstax.org/books/college-physics-2e/pages/4-7-further-applications-of-newtons-laws-of-motion",
-       "argomenti": []
+       "argomenti": [
+        "forze-quotidiane"
+       ]
       },
       {
        "title": "4.8 Extended topic the four basic forces an introduction",
        "url": "https://openstax.org/books/college-physics-2e/pages/4-8-extended-topic-the-four-basic-forces-an-introduction",
-       "argomenti": []
+       "argomenti": [
+        "forze-fondamentali"
+       ]
       }
      ]
     },
@@ -168,17 +210,23 @@
       {
        "title": "5.1 Friction",
        "url": "https://openstax.org/books/college-physics-2e/pages/5-1-friction",
-       "argomenti": []
+       "argomenti": [
+        "attrito"
+       ]
       },
       {
        "title": "5.2 Drag forces",
        "url": "https://openstax.org/books/college-physics-2e/pages/5-2-drag-forces",
-       "argomenti": []
+       "argomenti": [
+        "attrito"
+       ]
       },
       {
        "title": "5.3 Elasticity stress and strain",
        "url": "https://openstax.org/books/college-physics-2e/pages/5-3-elasticity-stress-and-strain",
-       "argomenti": []
+       "argomenti": [
+        "elasticita"
+       ]
       }
      ]
     },
@@ -189,7 +237,9 @@
       {
        "title": "6.1 Rotation angle and angular velocity",
        "url": "https://openstax.org/books/college-physics-2e/pages/6-1-rotation-angle-and-angular-velocity",
-       "argomenti": []
+       "argomenti": [
+        "rotazioni"
+       ]
       },
       {
        "title": "6.2 Centripetal acceleration",
@@ -222,7 +272,9 @@
       {
        "title": "6.6 Satellites and keplers laws an argument for simplicity",
        "url": "https://openstax.org/books/college-physics-2e/pages/6-6-satellites-and-keplers-laws-an-argument-for-simplicity",
-       "argomenti": []
+       "argomenti": [
+        "satelliti"
+       ]
       }
      ]
     },
@@ -233,27 +285,37 @@
       {
        "title": "7.1 Work the scientific definition",
        "url": "https://openstax.org/books/college-physics-2e/pages/7-1-work-the-scientific-definition",
-       "argomenti": []
+       "argomenti": [
+        "lavoro-energia-cinetica"
+       ]
       },
       {
        "title": "7.2 Kinetic energy and the work energy theorem",
        "url": "https://openstax.org/books/college-physics-2e/pages/7-2-kinetic-energy-and-the-work-energy-theorem",
-       "argomenti": []
+       "argomenti": [
+        "lavoro-energia-cinetica"
+       ]
       },
       {
        "title": "7.3 Gravitational potential energy",
        "url": "https://openstax.org/books/college-physics-2e/pages/7-3-gravitational-potential-energy",
-       "argomenti": []
+       "argomenti": [
+        "energia-potenziale"
+       ]
       },
       {
        "title": "7.4 Conservative forces and potential energy",
        "url": "https://openstax.org/books/college-physics-2e/pages/7-4-conservative-forces-and-potential-energy",
-       "argomenti": []
+       "argomenti": [
+        "energia-potenziale"
+       ]
       },
       {
        "title": "7.5 Nonconservative forces",
        "url": "https://openstax.org/books/college-physics-2e/pages/7-5-nonconservative-forces",
-       "argomenti": []
+       "argomenti": [
+        "energia-potenziale"
+       ]
       },
       {
        "title": "7.6 Conservation of energy",
@@ -265,17 +327,23 @@
       {
        "title": "7.7 Power",
        "url": "https://openstax.org/books/college-physics-2e/pages/7-7-power",
-       "argomenti": []
+       "argomenti": [
+        "potenza-ed-energia-nel-mondo"
+       ]
       },
       {
        "title": "7.8 Work energy and power in humans",
        "url": "https://openstax.org/books/college-physics-2e/pages/7-8-work-energy-and-power-in-humans",
-       "argomenti": []
+       "argomenti": [
+        "potenza-ed-energia-nel-mondo"
+       ]
       },
       {
        "title": "7.9 World energy use",
        "url": "https://openstax.org/books/college-physics-2e/pages/7-9-world-energy-use",
-       "argomenti": []
+       "argomenti": [
+        "potenza-ed-energia-nel-mondo"
+       ]
       }
      ]
     },
@@ -286,7 +354,9 @@
       {
        "title": "8.1 Linear momentum and force",
        "url": "https://openstax.org/books/college-physics-2e/pages/8-1-linear-momentum-and-force",
-       "argomenti": []
+       "argomenti": [
+        "urti-elastici"
+       ]
       },
       {
        "title": "8.2 Impulse",
@@ -305,7 +375,9 @@
       {
        "title": "8.4 Elastic collisions in one dimension",
        "url": "https://openstax.org/books/college-physics-2e/pages/8-4-elastic-collisions-in-one-dimension",
-       "argomenti": []
+       "argomenti": [
+        "urti-elastici"
+       ]
       },
       {
        "title": "8.5 Inelastic collisions in one dimension",
@@ -317,12 +389,16 @@
       {
        "title": "8.6 Collisions of point masses in two dimensions",
        "url": "https://openstax.org/books/college-physics-2e/pages/8-6-collisions-of-point-masses-in-two-dimensions",
-       "argomenti": []
+       "argomenti": [
+        "urti-elastici"
+       ]
       },
       {
        "title": "8.7 Introduction to rocket propulsion",
        "url": "https://openstax.org/books/college-physics-2e/pages/8-7-introduction-to-rocket-propulsion",
-       "argomenti": []
+       "argomenti": [
+        "razzi"
+       ]
       }
      ]
     },
@@ -333,32 +409,44 @@
       {
        "title": "9.1 The first condition for equilibrium",
        "url": "https://openstax.org/books/college-physics-2e/pages/9-1-the-first-condition-for-equilibrium",
-       "argomenti": []
+       "argomenti": [
+        "equilibrio-momento-torcente"
+       ]
       },
       {
        "title": "9.2 The second condition for equilibrium",
        "url": "https://openstax.org/books/college-physics-2e/pages/9-2-the-second-condition-for-equilibrium",
-       "argomenti": []
+       "argomenti": [
+        "equilibrio-momento-torcente"
+       ]
       },
       {
        "title": "9.3 Stability",
        "url": "https://openstax.org/books/college-physics-2e/pages/9-3-stability",
-       "argomenti": []
+       "argomenti": [
+        "stabilita"
+       ]
       },
       {
        "title": "9.4 Applications of statics including problem solving strategies",
        "url": "https://openstax.org/books/college-physics-2e/pages/9-4-applications-of-statics-including-problem-solving-strategies",
-       "argomenti": []
+       "argomenti": [
+        "equilibrio-momento-torcente"
+       ]
       },
       {
        "title": "9.5 Simple machines",
        "url": "https://openstax.org/books/college-physics-2e/pages/9-5-simple-machines",
-       "argomenti": []
+       "argomenti": [
+        "macchine-semplici-corpo"
+       ]
       },
       {
        "title": "9.6 Forces and torques in muscles and joints",
        "url": "https://openstax.org/books/college-physics-2e/pages/9-6-forces-and-torques-in-muscles-and-joints",
-       "argomenti": []
+       "argomenti": [
+        "macchine-semplici-corpo"
+       ]
       }
      ]
     },
@@ -369,37 +457,51 @@
       {
        "title": "10.1 Angular acceleration",
        "url": "https://openstax.org/books/college-physics-2e/pages/10-1-angular-acceleration",
-       "argomenti": []
+       "argomenti": [
+        "rotazioni"
+       ]
       },
       {
        "title": "10.2 Kinematics of rotational motion",
        "url": "https://openstax.org/books/college-physics-2e/pages/10-2-kinematics-of-rotational-motion",
-       "argomenti": []
+       "argomenti": [
+        "rotazioni"
+       ]
       },
       {
        "title": "10.3 Dynamics of rotational motion rotational inertia",
        "url": "https://openstax.org/books/college-physics-2e/pages/10-3-dynamics-of-rotational-motion-rotational-inertia",
-       "argomenti": []
+       "argomenti": [
+        "inerzia-rotazionale"
+       ]
       },
       {
        "title": "10.4 Rotational kinetic energy work and energy revisited",
        "url": "https://openstax.org/books/college-physics-2e/pages/10-4-rotational-kinetic-energy-work-and-energy-revisited",
-       "argomenti": []
+       "argomenti": [
+        "inerzia-rotazionale"
+       ]
       },
       {
        "title": "10.5 Angular momentum and its conservation",
        "url": "https://openstax.org/books/college-physics-2e/pages/10-5-angular-momentum-and-its-conservation",
-       "argomenti": []
+       "argomenti": [
+        "momento-angolare"
+       ]
       },
       {
        "title": "10.6 Collisions of extended bodies in two dimensions",
        "url": "https://openstax.org/books/college-physics-2e/pages/10-6-collisions-of-extended-bodies-in-two-dimensions",
-       "argomenti": []
+       "argomenti": [
+        "momento-angolare"
+       ]
       },
       {
        "title": "10.7 Gyroscopic effects vector aspects of angular momentum",
        "url": "https://openstax.org/books/college-physics-2e/pages/10-7-gyroscopic-effects-vector-aspects-of-angular-momentum",
-       "argomenti": []
+       "argomenti": [
+        "momento-angolare"
+       ]
       }
      ]
     },
@@ -410,12 +512,16 @@
       {
        "title": "11.1 What is a fluid",
        "url": "https://openstax.org/books/college-physics-2e/pages/11-1-what-is-a-fluid",
-       "argomenti": []
+       "argomenti": [
+        "densita"
+       ]
       },
       {
        "title": "11.2 Density",
        "url": "https://openstax.org/books/college-physics-2e/pages/11-2-density",
-       "argomenti": []
+       "argomenti": [
+        "densita"
+       ]
       },
       {
        "title": "11.3 Pressure",
@@ -434,12 +540,16 @@
       {
        "title": "11.5 Pascals principle",
        "url": "https://openstax.org/books/college-physics-2e/pages/11-5-pascals-principle",
-       "argomenti": []
+       "argomenti": [
+        "principio-di-pascal"
+       ]
       },
       {
        "title": "11.6 Gauge pressure absolute pressure and pressure measurement",
        "url": "https://openstax.org/books/college-physics-2e/pages/11-6-gauge-pressure-absolute-pressure-and-pressure-measurement",
-       "argomenti": []
+       "argomenti": [
+        "principio-di-pascal"
+       ]
       },
       {
        "title": "11.7 Archimedes principle",
@@ -451,12 +561,16 @@
       {
        "title": "11.8 Cohesion and adhesion in liquids surface tension and capillary action",
        "url": "https://openstax.org/books/college-physics-2e/pages/11-8-cohesion-and-adhesion-in-liquids-surface-tension-and-capillary-action",
-       "argomenti": []
+       "argomenti": [
+        "tensione-superficiale"
+       ]
       },
       {
        "title": "11.9 Pressures in the body",
        "url": "https://openstax.org/books/college-physics-2e/pages/11-9-pressures-in-the-body",
-       "argomenti": []
+       "argomenti": [
+        "principio-di-pascal"
+       ]
       }
      ]
     },
@@ -617,7 +731,9 @@
       {
        "title": "15.7 Statistical interpretation of entropy and the second law of thermodynamics the underlying explanation",
        "url": "https://openstax.org/books/college-physics-2e/pages/15-7-statistical-interpretation-of-entropy-and-the-second-law-of-thermodynamics-the-underlying-explanation",
-       "argomenti": []
+       "argomenti": [
+        "entropia"
+       ]
       }
      ]
     },
@@ -628,7 +744,9 @@
       {
        "title": "16.1 Hookes law stress and strain revisited",
        "url": "https://openstax.org/books/college-physics-2e/pages/16-1-hookes-law-stress-and-strain-revisited",
-       "argomenti": []
+       "argomenti": [
+        "elasticita"
+       ]
       },
       {
        "title": "16.2 Period and frequency in oscillations",
@@ -1421,7 +1539,9 @@
       {
        "title": "33.2 The four basic forces",
        "url": "https://openstax.org/books/college-physics-2e/pages/33-2-the-four-basic-forces",
-       "argomenti": []
+       "argomenti": [
+        "forze-fondamentali"
+       ]
       },
       {
        "title": "33.3 Accelerators create matter from energy",
@@ -1663,7 +1783,9 @@
       {
        "title": "6.1 What is learning",
        "url": "https://openstax.org/books/psychology-2e/pages/6-1-what-is-learning",
-       "argomenti": []
+       "argomenti": [
+        "rinforzo"
+       ]
       },
       {
        "title": "6.2 Classical conditioning",
