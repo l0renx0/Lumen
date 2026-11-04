@@ -1291,22 +1291,30 @@
       {
        "title": "23.9 Inductance",
        "url": "https://openstax.org/books/college-physics-2e/pages/23-9-inductance",
-       "argomenti": []
+       "argomenti": [
+        "circuiti-ac"
+       ]
       },
       {
        "title": "23.10 Rl circuits",
        "url": "https://openstax.org/books/college-physics-2e/pages/23-10-rl-circuits",
-       "argomenti": []
+       "argomenti": [
+        "circuiti-ac"
+       ]
       },
       {
        "title": "23.11 Reactance inductive and capacitive",
        "url": "https://openstax.org/books/college-physics-2e/pages/23-11-reactance-inductive-and-capacitive",
-       "argomenti": []
+       "argomenti": [
+        "circuiti-ac"
+       ]
       },
       {
        "title": "23.12 Rlc series ac circuits",
        "url": "https://openstax.org/books/college-physics-2e/pages/23-12-rlc-series-ac-circuits",
-       "argomenti": []
+       "argomenti": [
+        "circuiti-ac"
+       ]
       }
      ]
     },
@@ -1317,22 +1325,30 @@
       {
        "title": "24.1 Maxwells equations electromagnetic waves predicted and observed",
        "url": "https://openstax.org/books/college-physics-2e/pages/24-1-maxwells-equations-electromagnetic-waves-predicted-and-observed",
-       "argomenti": []
+       "argomenti": [
+        "onde-elettromagnetiche"
+       ]
       },
       {
        "title": "24.2 Production of electromagnetic waves",
        "url": "https://openstax.org/books/college-physics-2e/pages/24-2-production-of-electromagnetic-waves",
-       "argomenti": []
+       "argomenti": [
+        "onde-elettromagnetiche"
+       ]
       },
       {
        "title": "24.3 The electromagnetic spectrum",
        "url": "https://openstax.org/books/college-physics-2e/pages/24-3-the-electromagnetic-spectrum",
-       "argomenti": []
+       "argomenti": [
+        "spettro-elettromagnetico"
+       ]
       },
       {
        "title": "24.4 Energy in electromagnetic waves",
        "url": "https://openstax.org/books/college-physics-2e/pages/24-4-energy-in-electromagnetic-waves",
-       "argomenti": []
+       "argomenti": [
+        "onde-elettromagnetiche"
+       ]
       }
      ]
     },
@@ -1343,12 +1359,16 @@
       {
        "title": "25.1 The ray aspect of light",
        "url": "https://openstax.org/books/college-physics-2e/pages/25-1-the-ray-aspect-of-light",
-       "argomenti": []
+       "argomenti": [
+        "specchi-riflessione"
+       ]
       },
       {
        "title": "25.2 The law of reflection",
        "url": "https://openstax.org/books/college-physics-2e/pages/25-2-the-law-of-reflection",
-       "argomenti": []
+       "argomenti": [
+        "specchi-riflessione"
+       ]
       },
       {
        "title": "25.3 The law of refraction",
@@ -1374,12 +1394,16 @@
       {
        "title": "25.6 Image formation by lenses",
        "url": "https://openstax.org/books/college-physics-2e/pages/25-6-image-formation-by-lenses",
-       "argomenti": []
+       "argomenti": [
+        "lenti"
+       ]
       },
       {
        "title": "25.7 Image formation by mirrors",
        "url": "https://openstax.org/books/college-physics-2e/pages/25-7-image-formation-by-mirrors",
-       "argomenti": []
+       "argomenti": [
+        "specchi-riflessione"
+       ]
       }
      ]
     },
@@ -1390,32 +1414,44 @@
       {
        "title": "26.1 Physics of the eye",
        "url": "https://openstax.org/books/college-physics-2e/pages/26-1-physics-of-the-eye",
-       "argomenti": []
+       "argomenti": [
+        "occhio-vista"
+       ]
       },
       {
        "title": "26.2 Vision correction",
        "url": "https://openstax.org/books/college-physics-2e/pages/26-2-vision-correction",
-       "argomenti": []
+       "argomenti": [
+        "occhio-vista"
+       ]
       },
       {
        "title": "26.3 Color and color vision",
        "url": "https://openstax.org/books/college-physics-2e/pages/26-3-color-and-color-vision",
-       "argomenti": []
+       "argomenti": [
+        "colore"
+       ]
       },
       {
        "title": "26.4 Microscopes",
        "url": "https://openstax.org/books/college-physics-2e/pages/26-4-microscopes",
-       "argomenti": []
+       "argomenti": [
+        "microscopi"
+       ]
       },
       {
        "title": "26.5 Telescopes",
        "url": "https://openstax.org/books/college-physics-2e/pages/26-5-telescopes",
-       "argomenti": []
+       "argomenti": [
+        "microscopi"
+       ]
       },
       {
        "title": "26.6 Aberrations",
        "url": "https://openstax.org/books/college-physics-2e/pages/26-6-aberrations",
-       "argomenti": []
+       "argomenti": [
+        "microscopi"
+       ]
       }
      ]
     },
@@ -1426,47 +1462,65 @@
       {
        "title": "27.1 The wave aspect of light interference",
        "url": "https://openstax.org/books/college-physics-2e/pages/27-1-the-wave-aspect-of-light-interference",
-       "argomenti": []
+       "argomenti": [
+        "interferenza-luce"
+       ]
       },
       {
        "title": "27.2 Huygenss principle diffraction",
        "url": "https://openstax.org/books/college-physics-2e/pages/27-2-huygenss-principle-diffraction",
-       "argomenti": []
+       "argomenti": [
+        "interferenza-luce"
+       ]
       },
       {
        "title": "27.3 Youngs double slit experiment",
        "url": "https://openstax.org/books/college-physics-2e/pages/27-3-youngs-double-slit-experiment",
-       "argomenti": []
+       "argomenti": [
+        "interferenza-luce"
+       ]
       },
       {
        "title": "27.4 Multiple slit diffraction",
        "url": "https://openstax.org/books/college-physics-2e/pages/27-4-multiple-slit-diffraction",
-       "argomenti": []
+       "argomenti": [
+        "interferenza-luce"
+       ]
       },
       {
        "title": "27.5 Single slit diffraction",
        "url": "https://openstax.org/books/college-physics-2e/pages/27-5-single-slit-diffraction",
-       "argomenti": []
+       "argomenti": [
+        "diffrazione"
+       ]
       },
       {
        "title": "27.6 Limits of resolution the rayleigh criterion",
        "url": "https://openstax.org/books/college-physics-2e/pages/27-6-limits-of-resolution-the-rayleigh-criterion",
-       "argomenti": []
+       "argomenti": [
+        "diffrazione"
+       ]
       },
       {
        "title": "27.7 Thin film interference",
        "url": "https://openstax.org/books/college-physics-2e/pages/27-7-thin-film-interference",
-       "argomenti": []
+       "argomenti": [
+        "polarizzazione-film-sottili"
+       ]
       },
       {
        "title": "27.8 Polarization",
        "url": "https://openstax.org/books/college-physics-2e/pages/27-8-polarization",
-       "argomenti": []
+       "argomenti": [
+        "polarizzazione-film-sottili"
+       ]
       },
       {
        "title": "27.9 Extended topic microscopy enhanced by the wave characteristics of light",
        "url": "https://openstax.org/books/college-physics-2e/pages/27-9-extended-topic-microscopy-enhanced-by-the-wave-characteristics-of-light",
-       "argomenti": []
+       "argomenti": [
+        "diffrazione"
+       ]
       }
      ]
     },
@@ -1477,7 +1531,9 @@
       {
        "title": "28.1 Einsteins postulates",
        "url": "https://openstax.org/books/college-physics-2e/pages/28-1-einsteins-postulates",
-       "argomenti": []
+       "argomenti": [
+        "contrazione-lunghezze"
+       ]
       },
       {
        "title": "28.2 Simultaneity and time dilation",
@@ -1489,22 +1545,30 @@
       {
        "title": "28.3 Length contraction",
        "url": "https://openstax.org/books/college-physics-2e/pages/28-3-length-contraction",
-       "argomenti": []
+       "argomenti": [
+        "contrazione-lunghezze"
+       ]
       },
       {
        "title": "28.4 Relativistic addition of velocities",
        "url": "https://openstax.org/books/college-physics-2e/pages/28-4-relativistic-addition-of-velocities",
-       "argomenti": []
+       "argomenti": [
+        "contrazione-lunghezze"
+       ]
       },
       {
        "title": "28.5 Relativistic momentum",
        "url": "https://openstax.org/books/college-physics-2e/pages/28-5-relativistic-momentum",
-       "argomenti": []
+       "argomenti": [
+        "massa-energia"
+       ]
       },
       {
        "title": "28.6 Relativistic energy",
        "url": "https://openstax.org/books/college-physics-2e/pages/28-6-relativistic-energy",
-       "argomenti": []
+       "argomenti": [
+        "massa-energia"
+       ]
       }
      ]
     },
@@ -1515,7 +1579,9 @@
       {
        "title": "29.1 Quantization of energy",
        "url": "https://openstax.org/books/college-physics-2e/pages/29-1-quantization-of-energy",
-       "argomenti": []
+       "argomenti": [
+        "quanti-di-energia"
+       ]
       },
       {
        "title": "29.2 The photoelectric effect",
@@ -1527,12 +1593,16 @@
       {
        "title": "29.3 Photon energies and the electromagnetic spectrum",
        "url": "https://openstax.org/books/college-physics-2e/pages/29-3-photon-energies-and-the-electromagnetic-spectrum",
-       "argomenti": []
+       "argomenti": [
+        "quanti-di-energia"
+       ]
       },
       {
        "title": "29.4 Photon momentum",
        "url": "https://openstax.org/books/college-physics-2e/pages/29-4-photon-momentum",
-       "argomenti": []
+       "argomenti": [
+        "quanti-di-energia"
+       ]
       },
       {
        "title": "29.5 The particle wave duality",

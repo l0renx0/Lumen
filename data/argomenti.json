@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-04T00:38:59Z",
+ "updatedAt": "2026-11-04T00:43:11Z",
  "subjects": [
   {
    "id": "fisica",
@@ -4904,6 +4904,11 @@
      "name": "OpenStax · College Physics 2e",
      "title": "15.7 Statistical Interpretation of Entropy",
      "url": "https://openstax.org/books/college-physics-2e/pages/15-7-statistical-interpretation-of-entropy-and-the-second-law-of-thermodynamics-the-underlying-explanation"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "15.7 Statistical Interpretation of Entropy",
+     "url": "https://openstax.org/books/college-physics-2e/pages/15-7-statistical-interpretation-of-entropy-and-the-second-law-of-thermodynamics-the-underlying-explanation"
     }
    ],
    "videos": [
@@ -7629,6 +7634,452 @@
    "addedAt": "2026-11-04T00:38:59Z"
   },
   {
+   "id": "circuiti-ac",
+   "subject": "fisica",
+   "chapter": "Elettricità e magnetismo",
+   "title": "Induttanza e circuiti in corrente alternata",
+   "hook": "Bobine che si oppongono ai cambiamenti di corrente, condensatori che lasciano passare solo l'alternata, circuiti che risuonano: così si sintonizza una radio.",
+   "points": [
+    "Che cos'è l'induttanza",
+    "Mutua induttanza e autoinduttanza",
+    "Reattanza di bobine e condensatori",
+    "La risonanza nei circuiti RLC"
+   ],
+   "sections": [
+    {
+     "h": "Una bobina che si oppone",
+     "p": [
+      "L'induzione è il processo per cui un flusso magnetico che cambia produce una forza elettromotrice. Una domanda naturale è se esista una grandezza che misuri quanto un dispositivo è capace di farlo. La risposta è sì: si chiama induttanza, e si misura in henry.",
+      "Quando la corrente in una bobina cambia, cambia il campo magnetico che la bobina stessa produce, e questo induce nella bobina una tensione che si oppone al cambiamento: è l'autoinduttanza. Una bobina, o induttore, si comporta quindi come una sorta di \"inerzia elettrica\": rallenta l'aumento e la diminuzione della corrente.",
+      "La mutua induttanza è invece l'effetto della legge di Faraday di un dispositivo su un altro, come la bobina primaria che trasmette energia alla secondaria in un trasformatore. È anche il principio della ricarica wireless."
+     ]
+    },
+    {
+     "h": "Energia e circuiti RL",
+     "p": [
+      "Un induttore immagazzina energia nel suo campo magnetico, come un condensatore la immagazzina nel campo elettrico. Se si interrompe bruscamente la corrente in una grande bobina, l'energia si scarica in una scintilla: è per questo che gli interruttori di grandi motori devono essere progettati con cura.",
+      "In un circuito con una resistenza e un induttore, la corrente non sale all'istante quando si chiude l'interruttore, ma cresce gradualmente con un tempo caratteristico uguale a induttanza diviso resistenza."
+     ]
+    },
+    {
+     "h": "La reattanza",
+     "p": [
+      "In corrente alternata, induttori e condensatori si oppongono alla corrente in un modo diverso dalle resistenze, chiamato reattanza. La reattanza di un induttore cresce con la frequenza: le bobine bloccano le alte frequenze e lasciano passare le basse e la continua.",
+      "La reattanza di un condensatore fa il contrario: diminuisce con la frequenza. I condensatori lasciano passare l'alternata ad alta frequenza e bloccano la continua.",
+      "Combinando questi componenti si costruiscono filtri. Nelle casse audio, un filtro chiamato crossover manda le basse frequenze al woofer e le alte al tweeter."
+     ]
+    },
+    {
+     "h": "Circuiti che risuonano",
+     "p": [
+      "In un circuito con resistenza, induttore e condensatore in serie, le due reattanze si oppongono tra loro. A una certa frequenza, detta frequenza di risonanza, si annullano esattamente: la corrente diventa massima, limitata solo dalla resistenza.",
+      "È lo stesso fenomeno della risonanza meccanica, in versione elettrica. Il circuito oscilla scambiando energia tra il campo elettrico del condensatore e quello magnetico della bobina, come un pendolo scambia energia potenziale e cinetica.",
+      "Le radio sfruttano proprio questo: girando la manopola si cambia la capacità o l'induttanza del circuito di sintonia, e il circuito risuona solo con la frequenza della stazione scelta, ignorando tutte le altre."
+     ]
+    }
+   ],
+   "formulas": [
+    {
+     "f": "X_L = 2π·f·L",
+     "d": "Reattanza induttiva: cresce con la frequenza."
+    },
+    {
+     "f": "X_C = 1 / (2π·f·C)",
+     "d": "Reattanza capacitiva: diminuisce con la frequenza."
+    },
+    {
+     "f": "f₀ = 1 / (2π·√(L·C))",
+     "d": "Frequenza di risonanza di un circuito LC."
+    }
+   ],
+   "example": "Quando sintonizzi una vecchia radio girando la manopola, stai cambiando la frequenza di risonanza di un circuito LC.",
+   "mistakes": [
+    "\"Una bobina è solo un filo arrotolato senza effetti\": si oppone ai cambiamenti di corrente.",
+    "\"Un condensatore blocca qualsiasi corrente\": blocca la continua, lascia passare l'alternata.",
+    "\"La risonanza esiste solo nei sistemi meccanici\": esiste anche nei circuiti."
+   ],
+   "terms": [
+    {
+     "t": "Induttanza",
+     "d": "Capacità di un dispositivo di indurre una fem quando la corrente cambia."
+    },
+    {
+     "t": "Mutua induttanza",
+     "d": "Induzione di un circuito su un altro."
+    },
+    {
+     "t": "Reattanza",
+     "d": "Opposizione di bobine e condensatori alla corrente alternata."
+    },
+    {
+     "t": "Circuito RLC",
+     "d": "Circuito con resistenza, induttore e condensatore."
+    }
+   ],
+   "quote": {
+    "text": "Mutual inductance is the effect of Faraday’s law of induction for one device upon another, such as the primary coil in transmitting energy to the secondary in a transformer.",
+    "translation": "La mutua induttanza è l'effetto della legge di Faraday dell'induzione di un dispositivo su un altro, come la bobina primaria che trasmette energia alla secondaria in un trasformatore."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "23.9 Inductance",
+     "url": "https://openstax.org/books/college-physics-2e/pages/23-9-inductance"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "23.10 Rl circuits",
+     "url": "https://openstax.org/books/college-physics-2e/pages/23-10-rl-circuits"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "23.11 Reactance inductive and capacitive",
+     "url": "https://openstax.org/books/college-physics-2e/pages/23-11-reactance-inductive-and-capacitive"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "23.12 Rlc series ac circuits",
+     "url": "https://openstax.org/books/college-physics-2e/pages/23-12-rlc-series-ac-circuits"
+    }
+   ],
+   "videos": [
+    {
+     "id": "Jveer7vhjGo",
+     "title": "AC Circuits: Crash Course Physics #36",
+     "channel": "CrashCourse",
+     "length": "10:07"
+    }
+   ],
+   "videoQuery": "inductance AC circuits crash course physics",
+   "addedAt": "2026-11-04T00:43:11Z"
+  },
+  {
+   "id": "onde-elettromagnetiche",
+   "subject": "fisica",
+   "chapter": "Luce e ottica",
+   "title": "Le equazioni di Maxwell e le onde elettromagnetiche",
+   "hook": "Quattro equazioni riunirono elettricità, magnetismo e luce. Maxwell previde onde invisibili che viaggiano alla velocità della luce, e Hertz le produsse davvero.",
+   "points": [
+    "Le quattro equazioni di Maxwell in parole",
+    "Come nasce un'onda elettromagnetica",
+    "La scoperta di Hertz",
+    "L'energia trasportata dalle onde"
+   ],
+   "sections": [
+    {
+     "h": "Una grande sintesi",
+     "p": [
+      "Negli anni Sessanta dell'Ottocento il fisico scozzese James Clerk Maxwell riunì tutto ciò che si sapeva su elettricità e magnetismo in quattro equazioni. In parole semplici dicono: le cariche producono campi elettrici; non esistono cariche magnetiche isolate, le linee di campo magnetico si chiudono sempre; un campo magnetico che cambia produce un campo elettrico (legge di Faraday); correnti e campi elettrici che cambiano producono campi magnetici.",
+      "L'ultima parte fu il contributo decisivo di Maxwell, che introdusse una simmetria: se un campo magnetico variabile crea un campo elettrico, anche un campo elettrico variabile crea un campo magnetico. Le equazioni mostrano come affermazioni matematiche apparentemente semplici possano unire elegantemente moltissimi concetti, e perché la matematica è il linguaggio della scienza."
+     ]
+    },
+    {
+     "h": "Onde che si sostengono da sole",
+     "p": [
+      "Da questa simmetria Maxwell dedusse qualcosa di straordinario. Un campo elettrico che oscilla crea un campo magnetico che oscilla, che a sua volta ricrea un campo elettrico, e così via: i due campi possono sostenersi a vicenda e propagarsi nello spazio, anche nel vuoto, come un'onda.",
+      "Calcolando la velocità di queste onde dalle costanti dell'elettricità e del magnetismo, Maxwell ottenne circa 300.000 chilometri al secondo: proprio la velocità della luce misurata in quegli anni. Concluse che la luce è un'onda elettromagnetica. In un colpo solo, ottica, elettricità e magnetismo diventavano un'unica scienza."
+     ]
+    },
+    {
+     "h": "Hertz e le onde radio",
+     "p": [
+      "Maxwell non visse abbastanza per vedere la conferma. Nel 1887 il fisico tedesco Heinrich Hertz produsse onde elettromagnetiche con scintille tra due sfere metalliche e le rilevò con un anello di filo dall'altra parte della stanza, dove saltava una piccola scintilla. Misurò che viaggiavano alla velocità della luce e si riflettevano e rifrangevano come la luce.",
+      "In suo onore l'unità di frequenza si chiama hertz. Pochi anni dopo Guglielmo Marconi usò queste onde per trasmettere segnali senza fili, aprendo la strada alla radio.",
+      "Ogni volta che una carica accelera, emette onde elettromagnetiche. Nelle antenne le cariche vengono fatte oscillare avanti e indietro e producono onde alla stessa frequenza."
+     ]
+    },
+    {
+     "h": "L'energia delle onde",
+     "p": [
+      "Le onde elettromagnetiche trasportano energia: è così che la luce del Sole scalda la Terra e che un forno a microonde scalda il cibo. L'intensità di un'onda, cioè la potenza per metro quadrato, è proporzionale al quadrato dell'intensità dei campi.",
+      "Al di sopra dell'atmosfera, la luce del Sole porta circa 1360 watt su ogni metro quadrato perpendicolare ai raggi. Le onde trasportano anche quantità di moto: la luce esercita una piccolissima pressione, sfruttata dalle vele solari, sottilissime vele spaziali spinte dalla luce del Sole."
+     ]
+    }
+   ],
+   "formulas": [
+    {
+     "f": "c = 1 / √(ε₀·μ₀) ≈ 3 × 10⁸ m/s",
+     "d": "Velocità delle onde elettromagnetiche ricavata dalle costanti di elettricità e magnetismo."
+    },
+    {
+     "f": "c = f·λ",
+     "d": "Velocità = frequenza × lunghezza d'onda."
+    }
+   ],
+   "example": "Il wi-fi di casa, il telefono e la radio dell'auto usano tutti onde elettromagnetiche previste da Maxwell oltre 150 anni fa.",
+   "mistakes": [
+    "\"La luce e le onde radio sono fenomeni diversi\": sono entrambe onde elettromagnetiche.",
+    "\"Le onde elettromagnetiche hanno bisogno di un mezzo\": viaggiano nel vuoto.",
+    "\"Le equazioni di Maxwell riguardano solo l'elettricità\": unificano anche magnetismo e luce."
+   ],
+   "terms": [
+    {
+     "t": "Equazioni di Maxwell",
+     "d": "Quattro equazioni che descrivono elettricità e magnetismo."
+    },
+    {
+     "t": "Onda elettromagnetica",
+     "d": "Campi elettrico e magnetico oscillanti che si propagano."
+    },
+    {
+     "t": "Antenna",
+     "d": "Dispositivo in cui cariche oscillanti emettono o ricevono onde."
+    }
+   ],
+   "quote": {
+    "text": "However, the equations illustrate how apparently simple mathematical statements can elegantly unite and express a multitude of concepts—why mathematics is the language of science.",
+    "translation": "Tuttavia, le equazioni mostrano come affermazioni matematiche apparentemente semplici possano unire ed esprimere con eleganza moltissimi concetti: ecco perché la matematica è il linguaggio della scienza."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "24.1 Maxwells equations electromagnetic waves predicted and observed",
+     "url": "https://openstax.org/books/college-physics-2e/pages/24-1-maxwells-equations-electromagnetic-waves-predicted-and-observed"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "24.2 Production of electromagnetic waves",
+     "url": "https://openstax.org/books/college-physics-2e/pages/24-2-production-of-electromagnetic-waves"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "24.4 Energy in electromagnetic waves",
+     "url": "https://openstax.org/books/college-physics-2e/pages/24-4-energy-in-electromagnetic-waves"
+    }
+   ],
+   "videos": [
+    {
+     "id": "5yvpsftAZP4",
+     "title": "Maxwell’s Equations Part 1: Gauss’s Law for the Electric Field",
+     "channel": "Professor Dave Explains",
+     "length": "11:51"
+    }
+   ],
+   "videoQuery": "maxwell's equations electromagnetic waves crash course",
+   "addedAt": "2026-11-04T00:43:11Z"
+  },
+  {
+   "id": "spettro-elettromagnetico",
+   "subject": "fisica",
+   "chapter": "Luce e ottica",
+   "title": "Lo spettro elettromagnetico: dalle onde radio ai raggi gamma",
+   "hook": "Radio, microonde, infrarossi, luce, ultravioletti, raggi X e gamma: sono tutti la stessa cosa a frequenze diverse. Ecco cosa le distingue e a cosa servono.",
+   "points": [
+    "Che cos'è lo spettro elettromagnetico",
+    "Le diverse bande e le loro applicazioni",
+    "Perché alcune radiazioni sono pericolose",
+    "Come la natura e la tecnologia usano lo spettro"
+   ],
+   "sections": [
+    {
+     "h": "Un'unica famiglia",
+     "p": [
+      "Tutte le onde elettromagnetiche viaggiano nel vuoto alla stessa velocità, quella della luce. Ciò che le distingue è la frequenza, o equivalentemente la lunghezza d'onda. L'insieme di tutte le frequenze possibili si chiama spettro elettromagnetico.",
+      "Le onde con lunghezze d'onda di chilometri o metri sono onde radio; scendendo si incontrano microonde, infrarossi, luce visibile, ultravioletti, raggi X e raggi gamma, con lunghezze d'onda più piccole di un atomo. La luce che vediamo è solo una minuscola fetta di questo spettro."
+     ]
+    },
+    {
+     "h": "Radio, microonde, infrarossi",
+     "p": [
+      "Le onde radio trasportano radio, televisione, segnali dei telefoni e dei satelliti. Le microonde, con lunghezze d'onda di centimetri, sono usate dai radar, dal wi-fi e dai forni a microonde, dove fanno vibrare le molecole d'acqua del cibo.",
+      "Gli infrarossi sono emessi da tutti gli oggetti caldi, compreso il nostro corpo. Li usano i telecomandi, le termocamere e i visori notturni. Gran parte del calore che sentiamo dal Sole o da un fuoco arriva come infrarossi."
+     ]
+    },
+    {
+     "h": "La luce visibile",
+     "p": [
+      "La luce visibile, tra circa 380 e 760 nanometri, va dal violetto al rosso. È la radiazione più abbondante tra quelle emesse dal Sole che arrivano fino al suolo, ed è attraverso di essa che godiamo della bellezza della natura.",
+      "Non è un caso che i nostri occhi siano sensibili proprio a queste lunghezze d'onda: sono quelle che l'atmosfera lascia passare meglio e che il Sole emette di più. Altri animali vedono leggermente diversamente: le api vedono l'ultravioletto, alcuni serpenti percepiscono l'infrarosso."
+     ]
+    },
+    {
+     "h": "Ultravioletti, raggi X e gamma",
+     "p": [
+      "I raggi ultravioletti abbronzano la pelle, ma possono anche scottarla e danneggiare il DNA, aumentando il rischio di tumori. Gran parte degli ultravioletti più pericolosi è bloccata dallo strato di ozono. Servono anche a sterilizzare l'acqua e gli strumenti.",
+      "I raggi X attraversano i tessuti molli ma vengono assorbiti dalle ossa: per questo si usano per le radiografie e le TAC, e negli aeroporti per i controlli dei bagagli. Si producono, per esempio, frenando bruscamente elettroni veloci contro un bersaglio metallico: questa radiazione si chiama bremsstrahlung, in tedesco \"radiazione di frenamento\".",
+      "I raggi gamma, i più energetici, nascono dai nuclei radioattivi e da eventi cosmici violentissimi. Si usano in radioterapia contro i tumori e per sterilizzare."
+     ]
+    },
+    {
+     "h": "Energia e pericolo",
+     "p": [
+      "Più alta è la frequenza, più energia porta ogni singolo fotone. Ultravioletti, raggi X e gamma hanno fotoni abbastanza energetici da strappare elettroni agli atomi: sono radiazioni ionizzanti, potenzialmente dannose per le cellule.",
+      "Onde radio, microonde, infrarossi e luce visibile non sono ionizzanti: a intensità molto alte possono scaldare i tessuti, ma i loro fotoni non hanno energia sufficiente per rompere direttamente i legami del DNA."
+     ]
+    }
+   ],
+   "formulas": [
+    {
+     "f": "c = f·λ",
+     "d": "Per tutte le onde elettromagnetiche nel vuoto."
+    },
+    {
+     "f": "E = h·f",
+     "d": "Energia di un fotone: cresce con la frequenza."
+    }
+   ],
+   "example": "Guarda il led di un telecomando attraverso la fotocamera del telefono mentre premi un tasto: vedrai la luce infrarossa invisibile all'occhio.",
+   "mistakes": [
+    "\"Le onde radio e la luce sono cose diverse\": sono la stessa radiazione a frequenze diverse.",
+    "\"Tutte le radiazioni sono pericolose allo stesso modo\": solo quelle ad alta frequenza sono ionizzanti.",
+    "\"Vediamo tutta la luce che esiste\": vediamo una piccola fetta dello spettro."
+   ],
+   "terms": [
+    {
+     "t": "Spettro elettromagnetico",
+     "d": "Insieme di tutte le frequenze delle onde elettromagnetiche."
+    },
+    {
+     "t": "Infrarossi",
+     "d": "Radiazione emessa dagli oggetti caldi."
+    },
+    {
+     "t": "Radiazione ionizzante",
+     "d": "Radiazione capace di strappare elettroni agli atomi."
+    },
+    {
+     "t": "Bremsstrahlung",
+     "d": "Radiazione prodotta frenando cariche veloci."
+    }
+   ],
+   "quote": {
+    "text": "Visible light is the most predominant and we enjoy the beauty of nature through visible light.",
+    "translation": "La luce visibile è la più abbondante, ed è attraverso la luce visibile che godiamo della bellezza della natura."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "24.3 The electromagnetic spectrum",
+     "url": "https://openstax.org/books/college-physics-2e/pages/24-3-the-electromagnetic-spectrum"
+    }
+   ],
+   "videos": [
+    {
+     "id": "pj_ya0e20vE",
+     "title": "What is Light? Maxwell and the Electromagnetic Spectrum",
+     "channel": "Professor Dave Explains",
+     "length": "3:56"
+    },
+    {
+     "id": "lwfJPc-rSXw",
+     "title": "Tour of the EMS 01 - Introduction",
+     "channel": "NASA Science",
+     "length": "5:04"
+    }
+   ],
+   "videoQuery": "electromagnetic spectrum explained",
+   "addedAt": "2026-11-04T00:43:11Z"
+  },
+  {
+   "id": "specchi-riflessione",
+   "subject": "fisica",
+   "chapter": "Luce e ottica",
+   "title": "Riflessione e specchi: perché l'immagine sembra dietro il vetro",
+   "hook": "Lo specchio del bagno, lo specchietto dell'auto che rimpicciolisce, lo specchio per il trucco che ingrandisce: la legge della riflessione spiega tutto.",
+   "points": [
+    "L'ottica dei raggi",
+    "La legge della riflessione",
+    "Specchi piani e immagini virtuali",
+    "Specchi concavi e convessi"
+   ],
+   "sections": [
+    {
+     "h": "Pensare la luce come raggi",
+     "p": [
+      "La parte dell'ottica che tratta la luce come raggi che viaggiano in linea retta si chiama ottica geometrica. Funziona bene quando gli oggetti sono molto più grandi della lunghezza d'onda della luce: in queste situazioni le caratteristiche ondulatorie della luce non sono evidenti.",
+      "Due leggi bastano a spiegare gran parte dell'ottica di tutti i giorni: la legge della riflessione, per la luce che rimbalza sulla materia, e la legge della rifrazione, per la luce che la attraversa."
+     ]
+    },
+    {
+     "h": "La legge della riflessione",
+     "p": [
+      "Quando un raggio di luce colpisce una superficie liscia, rimbalza con un angolo uguale a quello con cui è arrivato: l'angolo di riflessione è uguale all'angolo di incidenza, entrambi misurati rispetto alla perpendicolare alla superficie.",
+      "Su una superficie liscia come uno specchio, tutti i raggi paralleli vengono riflessi paralleli: è la riflessione speculare, che forma immagini. Su una superficie ruvida, come un foglio di carta, ogni piccola parte è orientata diversamente e la luce viene diffusa in tutte le direzioni: è la riflessione diffusa, ed è grazie a essa che vediamo gli oggetti che non brillano di luce propria."
+     ]
+    },
+    {
+     "h": "Lo specchio piano",
+     "p": [
+      "Guardandoti allo specchio vedi un'immagine che sembra trovarsi dietro il vetro, alla stessa distanza a cui tu ti trovi davanti. La luce in realtà non va mai dietro lo specchio: il cervello prolunga all'indietro i raggi riflessi e colloca l'immagine dove sembrano provenire. Un'immagine così, che non si può proiettare su uno schermo, si chiama virtuale.",
+      "L'immagine ha le stesse dimensioni dell'oggetto ed è invertita destra-sinistra: alzando la mano destra, l'immagine alza quella che sembra la sinistra. Curiosamente, per vederti per intero basta uno specchio alto metà della tua altezza, a qualunque distanza ti metta."
+     ]
+    },
+    {
+     "h": "Specchi curvi",
+     "p": [
+      "Uno specchio concavo, curvo verso l'interno come l'interno di un cucchiaio, fa convergere i raggi paralleli in un punto, il fuoco. Se ti avvicini molto, vedi un'immagine ingrandita e dritta: è lo specchio per radersi o truccarsi. Se ti allontani oltre il fuoco, l'immagine diventa capovolta e reale, cioè proiettabile.",
+      "Gli specchi concavi concentrano la luce nei fari delle auto e nelle torce, dove la lampadina è nel fuoco e la luce esce in un fascio parallelo, e nei telescopi riflettori e nelle centrali solari a concentrazione.",
+      "Uno specchio convesso, curvo verso l'esterno come il dorso di un cucchiaio, fa divergere i raggi e dà immagini rimpicciolite ma con un campo visivo molto ampio. Per questo si usa negli specchietti delle auto e agli incroci con poca visibilità. Sugli specchietti si legge l'avvertenza che gli oggetti sono più vicini di quanto sembrano."
+     ]
+    }
+   ],
+   "formulas": [
+    {
+     "f": "θ_r = θ_i",
+     "d": "Legge della riflessione."
+    },
+    {
+     "f": "1/d_o + 1/d_i = 1/f",
+     "d": "Equazione degli specchi (e delle lenti): distanze dell'oggetto, dell'immagine e focale."
+    }
+   ],
+   "example": "Lo specchietto destro dell'auto è convesso: mostra un'area più ampia, ma le auto sembrano più lontane di quanto sono.",
+   "mistakes": [
+    "\"Lo specchio inverte alto e basso\": inverte avanti-dietro, che percepiamo come destra-sinistra.",
+    "\"Per vederti tutto serve uno specchio alto quanto te\": basta metà della tua altezza.",
+    "\"Vediamo solo gli oggetti luminosi\": vediamo gli altri grazie alla riflessione diffusa."
+   ],
+   "terms": [
+    {
+     "t": "Ottica geometrica",
+     "d": "Studio della luce come raggi."
+    },
+    {
+     "t": "Riflessione speculare",
+     "d": "Riflessione ordinata da una superficie liscia."
+    },
+    {
+     "t": "Immagine virtuale",
+     "d": "Immagine che non si può proiettare."
+    },
+    {
+     "t": "Fuoco",
+     "d": "Punto in cui convergono i raggi paralleli."
+    }
+   ],
+   "quote": {
+    "text": "The part of optics dealing with the ray aspect of light is called geometric optics.",
+    "translation": "La parte dell'ottica che tratta l'aspetto della luce come raggi si chiama ottica geometrica."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "25.1 The ray aspect of light",
+     "url": "https://openstax.org/books/college-physics-2e/pages/25-1-the-ray-aspect-of-light"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "25.2 The law of reflection",
+     "url": "https://openstax.org/books/college-physics-2e/pages/25-2-the-law-of-reflection"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "25.7 Image formation by mirrors",
+     "url": "https://openstax.org/books/college-physics-2e/pages/25-7-image-formation-by-mirrors"
+    }
+   ],
+   "videos": [
+    {
+     "id": "mjfadOaMySs",
+     "title": "Representation of images formed by spherical mirrors using ray diagrams | Physics | Khan Academy",
+     "channel": "Khan Academy India - English",
+     "length": "5:48"
+    }
+   ],
+   "videoQuery": "reflection mirrors images physics",
+   "addedAt": "2026-11-04T00:43:11Z"
+  },
+  {
    "id": "rifrazione",
    "subject": "fisica",
    "chapter": "Luce e ottica",
@@ -7754,6 +8205,864 @@
    "addedAt": "2026-11-04T00:12:22Z"
   },
   {
+   "id": "lenti",
+   "subject": "fisica",
+   "chapter": "Luce e ottica",
+   "title": "Le lenti: come si formano le immagini",
+   "hook": "Una lente d'ingrandimento brucia un foglio al sole, un proiettore ingrandisce un'immagine sul muro: lenti convergenti e divergenti e il loro fuoco.",
+   "points": [
+    "Lenti convergenti e divergenti",
+    "Fuoco e distanza focale",
+    "Immagini reali e virtuali",
+    "Diottrie e ingrandimento"
+   ],
+   "sections": [
+    {
+     "h": "Piegare la luce con il vetro",
+     "p": [
+      "Una lente è un pezzo di materiale trasparente con superfici curve che sfrutta la rifrazione per far convergere o divergere i raggi di luce. Le lenti più spesse al centro, convesse, fanno convergere i raggi; quelle più sottili al centro, concave, li fanno divergere.",
+      "Il punto in cui i raggi paralleli, per esempio quelli del Sole, si incrociano dopo aver attraversato una lente convergente si chiama fuoco della lente. La distanza tra il fuoco e il centro della lente è la distanza focale. Per una lente divergente il fuoco è il punto da cui i raggi sembrano provenire."
+     ]
+    },
+    {
+     "h": "Concentrare la luce",
+     "p": [
+      "Una lente d'ingrandimento tenuta al sole concentra la luce nel fuoco in un punto piccolissimo e intenso, capace di bruciare un foglio. È un esperimento antico: già nell'antichità si accendevano fuochi così.",
+      "Più una lente è curva, più corta è la sua distanza focale e più è \"potente\". La potenza di una lente si misura in diottrie, l'inverso della distanza focale in metri: una lente con focale di mezzo metro ha 2 diottrie. È l'unità che si legge nelle prescrizioni degli occhiali."
+     ]
+    },
+    {
+     "h": "Immagini reali e virtuali",
+     "p": [
+      "Un oggetto posto oltre la distanza focale di una lente convergente forma, dall'altra parte, un'immagine reale e capovolta, che si può proiettare su uno schermo. La distanza dell'immagine dal centro della lente si chiama distanza dell'immagine. È così che funzionano i proiettori, le macchine fotografiche e anche il nostro occhio, che proietta sulla retina un'immagine capovolta che il cervello raddrizza.",
+      "Se l'oggetto è più vicino alla lente del fuoco, si vede un'immagine dritta e ingrandita dalla stessa parte dell'oggetto. Questa immagine non si può proiettare e si chiama virtuale: è ciò che vedi con una lente d'ingrandimento.",
+      "Le lenti divergenti formano sempre immagini virtuali, dritte e rimpicciolite: sono usate negli spioncini delle porte e negli occhiali per i miopi."
+     ]
+    },
+    {
+     "h": "Disegnare i raggi",
+     "p": [
+      "Per capire dove si forma un'immagine si usano i diagrammi dei raggi: bastano tre raggi particolari. Un raggio parallelo all'asse passa per il fuoco dopo la lente; un raggio che passa per il centro della lente prosegue dritto; un raggio che passa per il fuoco esce parallelo all'asse. Dove i raggi si incontrano, lì c'è l'immagine.",
+      "L'equazione delle lenti lega distanza dell'oggetto, distanza dell'immagine e distanza focale, e permette di calcolare anche l'ingrandimento. Combinando più lenti si costruiscono strumenti come microscopi, telescopi e obiettivi fotografici."
+     ]
+    }
+   ],
+   "formulas": [
+    {
+     "f": "1/d_o + 1/d_i = 1/f",
+     "d": "Equazione delle lenti sottili."
+    },
+    {
+     "f": "P = 1/f",
+     "d": "Potenza in diottrie con f in metri."
+    },
+    {
+     "f": "m = −d_i / d_o",
+     "d": "Ingrandimento."
+    }
+   ],
+   "example": "Con una lente d'ingrandimento puoi proiettare sul muro l'immagine capovolta della finestra illuminata: è un'immagine reale.",
+   "mistakes": [
+    "\"Le lenti ingrandiscono sempre\": dipende dalla distanza dell'oggetto e dal tipo di lente.",
+    "\"L'immagine sulla retina è dritta\": è capovolta, la raddrizza il cervello.",
+    "\"Più diottrie significa lente più debole\": significa lente più potente."
+   ],
+   "terms": [
+    {
+     "t": "Lente convergente",
+     "d": "Lente che fa convergere i raggi, più spessa al centro."
+    },
+    {
+     "t": "Distanza focale",
+     "d": "Distanza tra fuoco e centro della lente."
+    },
+    {
+     "t": "Diottria",
+     "d": "Unità di potenza di una lente."
+    },
+    {
+     "t": "Immagine reale",
+     "d": "Immagine che si può proiettare su uno schermo."
+    }
+   ],
+   "quote": {
+    "text": "The point at which the rays cross is defined to be the focal point F of the lens.",
+    "translation": "Il punto in cui i raggi si incrociano è definito fuoco F della lente."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "25.6 Image formation by lenses",
+     "url": "https://openstax.org/books/college-physics-2e/pages/25-6-image-formation-by-lenses"
+    }
+   ],
+   "videos": [
+    {
+     "id": "0O3NdG0uWM4",
+     "title": "GCSE Physics - How Lenses Work - Convex & Concave Lenses | Real & Virtual Images (2027/28 exams)",
+     "channel": "Cognito",
+     "length": "6:37"
+    },
+    {
+     "id": "9mF21_QDpxY",
+     "title": "GCSE Physics - How to Draw Ray Diagrams - Concave & Convex Lenses (2027/28 exams)",
+     "channel": "Cognito",
+     "length": "6:46"
+    }
+   ],
+   "videoQuery": "how lenses form images physics",
+   "addedAt": "2026-11-04T00:43:11Z"
+  },
+  {
+   "id": "occhio-vista",
+   "subject": "fisica",
+   "chapter": "Luce e ottica",
+   "title": "L'occhio come strumento ottico: miopia, presbiopia e occhiali",
+   "hook": "L'occhio è una macchina fotografica naturale che mette a fuoco cambiando forma. Quando non ci riesce bene, occhiali, lenti a contatto o laser correggono il difetto.",
+   "points": [
+    "Come l'occhio forma le immagini",
+    "L'accomodazione",
+    "Miopia, ipermetropia, presbiopia e astigmatismo",
+    "Come si correggono"
+   ],
+   "sections": [
+    {
+     "h": "Una fotocamera biologica",
+     "p": [
+      "L'occhio funziona come una fotocamera. La luce entra dalla cornea, la superficie trasparente e curva davanti all'occhio, che fa la maggior parte del lavoro di messa a fuoco. Passa poi attraverso la pupilla, un'apertura che si allarga o si restringe come il diaframma di una fotocamera, e attraverso il cristallino, una lente flessibile.",
+      "L'immagine si forma capovolta sulla retina, lo strato sensibile alla luce sul fondo dell'occhio, ricco di cellule fotorecettrici. Il nervo ottico porta i segnali al cervello, che interpreta e raddrizza l'immagine."
+     ]
+    },
+    {
+     "h": "Mettere a fuoco: l'accomodazione",
+     "p": [
+      "Per vedere nitidi oggetti a distanze diverse, l'occhio cambia la forma del cristallino grazie a piccoli muscoli. Il processo di regolazione della distanza focale dell'occhio si chiama accomodazione. Guardando lontano i muscoli sono rilassati e il cristallino è più piatto; guardando vicino si contraggono e il cristallino si arrotonda, diventando più potente.",
+      "C'è un limite: il punto più vicino che si riesce a mettere a fuoco. Nei bambini è a pochi centimetri; con l'età si allontana."
+     ]
+    },
+    {
+     "h": "I difetti più comuni",
+     "p": [
+      "Molti occhi hanno bisogno di qualche correzione per raggiungere la cosiddetta vista \"normale\", che sarebbe più corretto chiamare ideale. Nella miopia l'occhio è troppo lungo o la cornea troppo curva: le immagini degli oggetti lontani si formano davanti alla retina, e si vede sfocato da lontano.",
+      "Nell'ipermetropia succede il contrario: l'occhio è troppo corto e le immagini degli oggetti vicini si formerebbero dietro la retina; si fatica a vedere da vicino. Nell'astigmatismo la cornea non è perfettamente sferica e focalizza in modo diverso in direzioni diverse, deformando le immagini.",
+      "La presbiopia arriva con l'età, di solito dopo i 40-45 anni: il cristallino perde elasticità e l'accomodazione diminuisce. Si allontana il libro per leggere: è il segnale che servono occhiali per vicino."
+     ]
+    },
+    {
+     "h": "Come si corregge",
+     "p": [
+      "Gli occhiali e le lenti a contatto aggiungono una lente davanti all'occhio. Per la miopia si usano lenti divergenti, con diottrie negative; per l'ipermetropia e la presbiopia lenti convergenti, con diottrie positive; per l'astigmatismo lenti cilindriche che correggono in una sola direzione.",
+      "La chirurgia refrattiva con il laser rimodella la cornea, togliendo strati sottilissimi di tessuto per cambiarne la curvatura e quindi la potenza. Per la cataratta, un'opacizzazione del cristallino frequente negli anziani, si sostituisce il cristallino con una lente artificiale."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Se le tue lenti sono -2 diottrie sei miope: sono lenti divergenti con distanza focale di mezzo metro.",
+   "mistakes": [
+    "\"È il cristallino a fare quasi tutta la messa a fuoco\": la fa soprattutto la cornea.",
+    "\"Portare gli occhiali peggiora la vista\": non ci sono prove che la peggiorino.",
+    "\"La presbiopia è una forma di ipermetropia\": dipende dalla perdita di elasticità del cristallino."
+   ],
+   "terms": [
+    {
+     "t": "Cornea",
+     "d": "Superficie trasparente e curva davanti all'occhio."
+    },
+    {
+     "t": "Cristallino",
+     "d": "Lente flessibile dell'occhio."
+    },
+    {
+     "t": "Accomodazione",
+     "d": "Regolazione della messa a fuoco cambiando la forma del cristallino."
+    },
+    {
+     "t": "Miopia",
+     "d": "Difficoltà a vedere da lontano."
+    }
+   ],
+   "quote": {
+    "text": "The process of adjusting the eye’s focal length is called accommodation.",
+    "translation": "Il processo di regolazione della distanza focale dell'occhio si chiama accomodazione."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "26.1 Physics of the eye",
+     "url": "https://openstax.org/books/college-physics-2e/pages/26-1-physics-of-the-eye"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "26.2 Vision correction",
+     "url": "https://openstax.org/books/college-physics-2e/pages/26-2-vision-correction"
+    }
+   ],
+   "videos": [
+    {
+     "id": "XPDVmBg5DeE",
+     "title": "How does laser eye surgery work? - Dan Reinstein",
+     "channel": "TED-Ed",
+     "length": "5:37"
+    },
+    {
+     "id": "8WUEnoxUw6Y",
+     "title": "Defects of vision | The human eye and the colourful world | Physics class 10 | Khan Academy",
+     "channel": "Khan Academy India - English",
+     "length": "6:48"
+    }
+   ],
+   "videoQuery": "physics of the eye vision correction",
+   "addedAt": "2026-11-04T00:43:11Z"
+  },
+  {
+   "id": "colore",
+   "subject": "fisica",
+   "chapter": "Luce e ottica",
+   "title": "Il colore: perché vediamo una mela rossa",
+   "hook": "Il colore non è una proprietà della luce sola, ma dell'incontro tra luce, oggetti e cervello. Tre tipi di coni nell'occhio bastano per milioni di sfumature.",
+   "points": [
+    "Luce bianca e colori",
+    "Perché gli oggetti hanno un colore",
+    "I coni e la visione a tre colori",
+    "Daltonismo e costanza del colore"
+   ],
+   "sections": [
+    {
+     "h": "Dalla luce al colore",
+     "p": [
+      "Il bianco è la miscela uguale di tutte le lunghezze d'onda visibili; il nero è assenza di luce. Quando la luce bianca viene scomposta, per esempio da un prisma o dalle gocce di pioggia, si vedono i colori dell'arcobaleno, ciascuno corrispondente a un intervallo di lunghezze d'onda.",
+      "Il colore però non è solo fisica: è anche percezione. Lo stesso stimolo luminoso può apparire diverso a seconda del contesto, e luci fisicamente diverse possono apparire dello stesso colore."
+     ]
+    },
+    {
+     "h": "Il colore degli oggetti",
+     "p": [
+      "Gli oggetti che non emettono luce propria appaiono colorati perché assorbono alcune lunghezze d'onda e riflettono le altre. Una mela rossa riflette soprattutto il rosso e assorbe gran parte degli altri colori. Il vero colore di un oggetto è definito dalle sue caratteristiche di assorbimento e riflessione.",
+      "Per questo il colore apparente dipende dalla luce che illumina: sotto una luce rossa una maglietta bianca appare rossa e una blu appare quasi nera. I negozi scelgono con cura l'illuminazione, e capita di comprare un vestito che sembra di un colore diverso alla luce del giorno.",
+      "Le vernici e i pigmenti si mescolano in modo sottrattivo: ogni pigmento toglie alcune lunghezze d'onda, e mescolandoli tutti si ottiene un colore scuro. Le luci si mescolano in modo additivo: rosso, verde e blu insieme danno il bianco, ed è così che funzionano gli schermi."
+     ]
+    },
+    {
+     "h": "Tre tipi di coni",
+     "p": [
+      "Nella retina ci sono due tipi di fotorecettori: i bastoncelli, molto sensibili ma incapaci di distinguere i colori, usati soprattutto al buio, e i coni, che funzionano con più luce e ci danno la visione dei colori.",
+      "I coni sono di tre tipi, sensibili in modo diverso a lunghezze d'onda corte, medie e lunghe, che corrispondono grosso modo a blu, verde e rosso. Il cervello confronta le risposte dei tre tipi e ricava il colore. È la teoria tricromatica della visione.",
+      "Per questo uno schermo con soli pixel rossi, verdi e blu riesce a farci vedere milioni di colori: stimola i tre tipi di coni nelle giuste proporzioni. Al buio, quando funzionano solo i bastoncelli, i colori spariscono e tutto appare in grigio."
+     ]
+    },
+    {
+     "h": "Daltonismo e cervello",
+     "p": [
+      "Nel daltonismo uno dei tre tipi di coni manca o funziona diversamente. La forma più comune rende difficile distinguere il rosso dal verde e colpisce molti più uomini che donne, perché i geni coinvolti si trovano sul cromosoma X.",
+      "Il cervello fa anche un lavoro sorprendente di costanza del colore: un foglio bianco ci appare bianco sia alla luce gialla di una lampadina sia alla luce azzurrina di una giornata nuvolosa, anche se la luce che riflette è molto diversa. Alcune famose illusioni ottiche nascono proprio da come il cervello cerca di compensare l'illuminazione."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Avvicina una lente d'ingrandimento allo schermo bianco del telefono: vedrai minuscoli punti rossi, verdi e blu che insieme sembrano bianco.",
+   "mistakes": [
+    "\"Gli oggetti hanno un colore indipendente dalla luce\": il colore percepito dipende dall'illuminazione.",
+    "\"Mescolare luci e pitture dà lo stesso risultato\": le luci si sommano, i pigmenti sottraggono.",
+    "\"Al buio i colori ci sono ma sono scuri\": al buio i coni non lavorano e non vediamo i colori."
+   ],
+   "terms": [
+    {
+     "t": "Coni",
+     "d": "Fotorecettori della retina per la visione dei colori."
+    },
+    {
+     "t": "Bastoncelli",
+     "d": "Fotorecettori sensibili alla luce debole, senza colori."
+    },
+    {
+     "t": "Visione tricromatica",
+     "d": "Visione basata su tre tipi di coni."
+    },
+    {
+     "t": "Daltonismo",
+     "d": "Difficoltà a distinguere alcuni colori."
+    }
+   ],
+   "quote": {
+    "text": "White is the equal mixture of all visible wavelengths; black is the absence of light.",
+    "translation": "Il bianco è la miscela uguale di tutte le lunghezze d'onda visibili; il nero è l'assenza di luce."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "26.3 Color and color vision",
+     "url": "https://openstax.org/books/college-physics-2e/pages/26-3-color-and-color-vision"
+    }
+   ],
+   "videos": [
+    {
+     "id": "l8_fZPHasdo",
+     "title": "How we see color - Colm Kelleher",
+     "channel": "TED-Ed",
+     "length": "3:44"
+    },
+    {
+     "id": "GckqMcaz-3M",
+     "title": "We Didn’t Evolve Color Vision to See Color",
+     "channel": "SciShow",
+     "length": "14:00"
+    }
+   ],
+   "videoQuery": "color vision how we see color",
+   "addedAt": "2026-11-04T00:43:11Z"
+  },
+  {
+   "id": "microscopi",
+   "subject": "fisica",
+   "chapter": "Luce e ottica",
+   "title": "Microscopi, telescopi e i difetti delle lenti",
+   "hook": "Combinando due lenti si vedono cellule e crateri lunari. Ecco come funzionano microscopi e cannocchiali, e perché le lenti semplici fanno aloni colorati.",
+   "points": [
+    "Il microscopio composto",
+    "Il telescopio rifrattore",
+    "Ingrandimento con più lenti",
+    "Aberrazioni e come si correggono"
+   ],
+   "sections": [
+    {
+     "h": "Due lenti in fila",
+     "p": [
+      "Una sola lente d'ingrandimento arriva a ingrandire poche volte. Per andare oltre si usano due o più lenti in sequenza: la prima forma un'immagine, e questa immagine diventa l'oggetto per la seconda lente. Il principio si ripete con ogni elemento ottico aggiunto.",
+      "L'ingrandimento totale è il prodotto degli ingrandimenti delle singole lenti: se la prima ingrandisce 40 volte e la seconda 10, il totale è 400."
+     ]
+    },
+    {
+     "h": "Il microscopio",
+     "p": [
+      "In un microscopio composto, l'obiettivo è una lente con distanza focale molto corta, vicinissima al campione. Forma un'immagine reale ingrandita all'interno del tubo. Questa prima immagine è l'oggetto per la seconda lente, l'oculare, che la ingrandisce ancora come una lente d'ingrandimento.",
+      "Con i microscopi ottici si arriva a circa mille-duemila ingrandimenti, abbastanza per vedere cellule, batteri e strutture interne delle cellule. Oltre, il limite non è più la qualità delle lenti, ma la natura ondulatoria della luce stessa: per vedere più in piccolo servono microscopi elettronici.",
+      "I microscopi rivoluzionarono la biologia nel Seicento, quando Antoni van Leeuwenhoek e Robert Hooke osservarono per primi microrganismi e cellule."
+     ]
+    },
+    {
+     "h": "Il telescopio",
+     "p": [
+      "Il telescopio rifrattore usa lo stesso schema ma al contrario: l'obiettivo è una lente grande con distanza focale lunga, che raccoglie la luce di oggetti lontani e ne forma un'immagine; l'oculare la ingrandisce. L'ingrandimento è il rapporto tra le distanze focali dell'obiettivo e dell'oculare.",
+      "La fisica della messa a fuoco è la stessa nei binocoli, nei cannocchiali e negli obiettivi fotografici, anche se le lenti richiedono tecnologie diverse. I grandi telescopi astronomici moderni usano specchi invece di lenti, per i motivi che vedremo."
+     ]
+    },
+    {
+     "h": "Le aberrazioni",
+     "p": [
+      "Le lenti reali non sono perfette e producono difetti nelle immagini, chiamati aberrazioni. Nell'aberrazione sferica, i raggi che passano vicino al bordo di una lente sferica vengono focalizzati in un punto leggermente diverso da quelli che passano al centro, e l'immagine risulta sfocata.",
+      "Nell'aberrazione cromatica, colori diversi vengono rifratti in modo diverso, quindi ogni colore ha un fuoco leggermente diverso: intorno agli oggetti compaiono aloni colorati. È uno dei motivi per cui i grandi telescopi usano specchi, che riflettono tutti i colori allo stesso modo.",
+      "Le aberrazioni si correggono combinando più lenti di vetri diversi e forme diverse. Un obiettivo fotografico moderno può contenere più di dieci lenti, progettate al computer perché i difetti dell'una compensino quelli delle altre. Anche l'occhio umano ha aberrazioni, ma il cervello in parte le compensa."
+     ]
+    }
+   ],
+   "formulas": [
+    {
+     "f": "M = m_ob · m_oc",
+     "d": "Ingrandimento totale di un microscopio: prodotto degli ingrandimenti."
+    },
+    {
+     "f": "M = −f_ob / f_oc",
+     "d": "Ingrandimento angolare di un telescopio."
+    }
+   ],
+   "example": "Al microscopio della scuola, obiettivo 40× e oculare 10× danno 400 ingrandimenti: abbastanza per vedere le cellule della buccia di cipolla.",
+   "mistakes": [
+    "\"Con lenti migliori un microscopio ottico può ingrandire all'infinito\": la natura ondulatoria della luce pone un limite.",
+    "\"I grandi telescopi usano lenti enormi\": usano specchi.",
+    "\"Gli aloni colorati sono un difetto dell'occhio\": spesso sono aberrazione cromatica delle lenti."
+   ],
+   "terms": [
+    {
+     "t": "Obiettivo",
+     "d": "Lente vicina all'oggetto che forma la prima immagine."
+    },
+    {
+     "t": "Oculare",
+     "d": "Lente vicina all'occhio che ingrandisce l'immagine."
+    },
+    {
+     "t": "Aberrazione cromatica",
+     "d": "Fuochi diversi per colori diversi."
+    },
+    {
+     "t": "Aberrazione sferica",
+     "d": "Sfocatura dovuta alla forma sferica della lente."
+    }
+   ],
+   "quote": {
+    "text": "This first image is the object for the second lens, or eyepiece.",
+    "translation": "Questa prima immagine è l'oggetto per la seconda lente, l'oculare."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "26.4 Microscopes",
+     "url": "https://openstax.org/books/college-physics-2e/pages/26-4-microscopes"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "26.5 Telescopes",
+     "url": "https://openstax.org/books/college-physics-2e/pages/26-5-telescopes"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "26.6 Aberrations",
+     "url": "https://openstax.org/books/college-physics-2e/pages/26-6-aberrations"
+    }
+   ],
+   "videos": [
+    {
+     "id": "SddBPTcmqOk",
+     "title": "Optical Instruments: Crash Course Physics #41",
+     "channel": "CrashCourse",
+     "length": "10:36"
+    },
+    {
+     "id": "V66WBvI7Ufw",
+     "title": "Microscopes: How We See What We Can't See: Crash Course Biology #22",
+     "channel": "CrashCourse",
+     "length": "13:01"
+    }
+   ],
+   "videoQuery": "how microscopes work optical instruments crash course",
+   "addedAt": "2026-11-04T00:43:11Z"
+  },
+  {
+   "id": "interferenza-luce",
+   "subject": "fisica",
+   "chapter": "Luce e ottica",
+   "title": "La luce come onda: diffrazione e l'esperimento di Young",
+   "hook": "Due fenditure, una luce, un disegno di strisce chiare e scure: l'esperimento che dimostrò che la luce è un'onda. E come si leggono i colori di un CD.",
+   "points": [
+    "La lunghezza d'onda della luce visibile",
+    "Il principio di Huygens e la diffrazione",
+    "L'esperimento della doppia fenditura",
+    "I reticoli di diffrazione"
+   ],
+   "sections": [
+    {
+     "h": "Onde piccolissime",
+     "p": [
+      "La luce visibile è il tipo di onda elettromagnetica a cui rispondono i nostri occhi. Le sue lunghezze d'onda vanno all'incirca da 380 a 760 nanometri, cioè meno di un millesimo di millimetro. Per questo, nella vita quotidiana, la luce sembra viaggiare in linea retta e il suo comportamento ondulatorio passa inosservato.",
+      "Il comportamento da onda diventa evidente quando la luce passa attraverso aperture o intorno a ostacoli di dimensioni paragonabili alla sua lunghezza d'onda."
+     ]
+    },
+    {
+     "h": "Huygens e la diffrazione",
+     "p": [
+      "Nel Seicento Christiaan Huygens propose un modo per descrivere come avanza un'onda: ogni punto del fronte d'onda si comporta come una sorgente di piccole onde sferiche, e il nuovo fronte è l'inviluppo di tutte queste ondine. Il principio di Huygens spiega riflessione e rifrazione.",
+      "Spiega anche la diffrazione: quando un'onda passa attraverso un'apertura stretta, si allarga dietro di essa invece di proseguire come un fascio netto. Le onde del mare che passano dall'apertura di un porto si allargano a ventaglio; il suono gira gli angoli. Anche la luce lo fa, ma solo con aperture piccolissime."
+     ]
+    },
+    {
+     "h": "L'esperimento di Young",
+     "p": [
+      "Nel 1801 il medico e fisico inglese Thomas Young fece passare la luce attraverso due fenditure sottili e vicine. Se la luce fosse fatta di particelle che viaggiano dritte, sullo schermo ci si aspetterebbero due strisce luminose. Comparve invece una serie di strisce alternate, chiare e scure: le frange d'interferenza.",
+      "La spiegazione è che le onde uscite dalle due fenditure si sovrappongono. Dove arrivano in fase, con creste che coincidono, si rafforzano e c'è luce; dove arrivano sfasate di mezza lunghezza d'onda, si annullano e c'è buio. Misurando la distanza tra le frange, Young ricavò per la prima volta la lunghezza d'onda della luce.",
+      "Fu una prova decisiva della natura ondulatoria della luce. Un secolo dopo, lo stesso esperimento fatto con elettroni e persino con molecole avrebbe mostrato che anche la materia si comporta come un'onda."
+     ]
+    },
+    {
+     "h": "I reticoli",
+     "p": [
+      "Con molte fenditure parallele invece di due, le frange diventano molto più nette e brillanti. Un reticolo di diffrazione ha migliaia di fenditure o righe per millimetro, e devia ogni colore di un angolo diverso: scompone la luce come un prisma, ma con maggiore precisione.",
+      "I reticoli sono il cuore degli spettrometri, gli strumenti che analizzano la luce delle stelle o identificano sostanze. I solchi fittissimi di un CD o di un DVD fanno da reticolo: è per questo che riflettono la luce in tanti colori. Anche le iridescenze delle ali di alcune farfalle e delle piume del pavone nascono da strutture minuscole che fanno interferire la luce."
+     ]
+    }
+   ],
+   "formulas": [
+    {
+     "f": "d·sen θ = m·λ",
+     "d": "Posizione delle frange luminose: d distanza tra fenditure, m numero intero."
+    },
+    {
+     "f": "380 nm < λ < 760 nm",
+     "d": "Intervallo approssimativo della luce visibile."
+    }
+   ],
+   "example": "Guarda una lampadina lontana attraverso un tessuto fitto, come una tenda: vedrai piccole croci colorate dovute alla diffrazione.",
+   "mistakes": [
+    "\"La luce viaggia sempre in linea retta\": con aperture piccole si diffrange.",
+    "\"Due luci insieme danno sempre più luce\": in alcuni punti si annullano.",
+    "\"I colori del CD sono pigmenti\": nascono dall'interferenza."
+   ],
+   "terms": [
+    {
+     "t": "Diffrazione",
+     "d": "Allargamento di un'onda che passa per un'apertura."
+    },
+    {
+     "t": "Principio di Huygens",
+     "d": "Ogni punto di un fronte d'onda è sorgente di nuove onde."
+    },
+    {
+     "t": "Frange d'interferenza",
+     "d": "Strisce chiare e scure prodotte da onde sovrapposte."
+    },
+    {
+     "t": "Reticolo di diffrazione",
+     "d": "Superficie con moltissime righe che scompone la luce."
+    }
+   ],
+   "quote": {
+    "text": "The range of visible wavelengths is approximately 380 to 760 nm.",
+    "translation": "L'intervallo delle lunghezze d'onda visibili va all'incirca da 380 a 760 nm."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "27.1 The wave aspect of light interference",
+     "url": "https://openstax.org/books/college-physics-2e/pages/27-1-the-wave-aspect-of-light-interference"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "27.2 Huygenss principle diffraction",
+     "url": "https://openstax.org/books/college-physics-2e/pages/27-2-huygenss-principle-diffraction"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "27.3 Youngs double slit experiment",
+     "url": "https://openstax.org/books/college-physics-2e/pages/27-3-youngs-double-slit-experiment"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "27.4 Multiple slit diffraction",
+     "url": "https://openstax.org/books/college-physics-2e/pages/27-4-multiple-slit-diffraction"
+    }
+   ],
+   "videos": [
+    {
+     "id": "uva6gBEpfDY",
+     "title": "The Double-Slit Experiment",
+     "channel": "Professor Dave Explains",
+     "length": "4:23"
+    },
+    {
+     "id": "A9tKncAdlHQ",
+     "title": "Why reality changes when you look at it | The Double Slit Experiment | with Jim Al-Khalili",
+     "channel": "The Royal Institution",
+     "length": "9:08"
+    }
+   ],
+   "videoQuery": "double slit experiment light interference",
+   "addedAt": "2026-11-04T00:43:11Z"
+  },
+  {
+   "id": "diffrazione",
+   "subject": "fisica",
+   "chapter": "Luce e ottica",
+   "title": "Diffrazione e limiti della risoluzione",
+   "hook": "Perché nessun telescopio o microscopio può vedere dettagli infinitamente piccoli? La diffrazione pone un limite, il criterio di Rayleigh.",
+   "points": [
+    "La diffrazione da una singola fenditura",
+    "Il criterio di Rayleigh",
+    "Perché telescopi più grandi vedono più dettagli",
+    "Microscopi che sfruttano le onde"
+   ],
+   "sections": [
+    {
+     "h": "Una sola fenditura",
+     "p": [
+      "Anche una sola fenditura stretta produce un disegno di frange: una banda centrale luminosa e larga, affiancata da bande più deboli. Il motivo è che le onde provenienti da punti diversi della fenditura interferiscono tra loro.",
+      "Più la fenditura è stretta rispetto alla lunghezza d'onda, più la luce si allarga dietro di essa. È un comportamento controintuitivo: restringere l'apertura non rende il fascio più sottile, ma più largo."
+     ]
+    },
+    {
+     "h": "Il limite della risoluzione",
+     "p": [
+      "La diffrazione è utile negli strumenti che analizzano la luce, ma limita anche i dettagli che possiamo vedere nelle immagini. Ogni strumento ottico ha un'apertura, la pupilla dell'occhio, l'obiettivo di un microscopio, lo specchio di un telescopio, e la luce che la attraversa si diffrange. L'immagine di un punto non è mai un punto perfetto, ma una piccola macchia circondata da anelli.",
+      "Se due oggetti sono molto vicini, le loro macchie si sovrappongono e non si riescono più a distinguere. Il criterio di Rayleigh stabilisce il limite: due punti sono appena distinguibili quando il centro della macchia di uno cade sul primo anello scuro dell'altra. Ci sono molte situazioni in cui è la diffrazione a limitare la risoluzione."
+     ]
+    },
+    {
+     "h": "Specchi più grandi, dettagli più fini",
+     "p": [
+      "L'angolo minimo risolvibile è proporzionale alla lunghezza d'onda e inversamente proporzionale al diametro dell'apertura. Per vedere dettagli più fini servono quindi aperture più grandi o lunghezze d'onda più corte.",
+      "È uno dei motivi per cui i telescopi diventano sempre più grandi, e per cui i radioastronomi collegano antenne a migliaia di chilometri di distanza: insieme si comportano come un'unica antenna grande quanto la loro distanza, con una risoluzione straordinaria.",
+      "Lo stesso limite vale per i microscopi: con la luce visibile non si distinguono dettagli molto più piccoli di circa 200 nanometri. Per andare oltre si usano elettroni, che hanno lunghezze d'onda molto più corte. Anche le aquile vedono più nitido di noi in parte grazie a pupille e strutture dell'occhio diverse."
+     ]
+    },
+    {
+     "h": "Sfruttare le onde",
+     "p": [
+      "Le stesse proprietà ondulatorie che limitano gli strumenti possono anche essere sfruttate. Alcuni microscopi usano l'interferenza della luce per rendere visibili cellule trasparenti, che altrimenti sarebbero quasi invisibili: è il microscopio a contrasto di fase, inventato da Frits Zernike, premio Nobel nel 1953.",
+      "Tecniche moderne di microscopia a super-risoluzione, premiate con il Nobel per la chimica nel 2014, aggirano in modo astuto il limite di diffrazione accendendo e spegnendo molecole fluorescenti una alla volta."
+     ]
+    }
+   ],
+   "formulas": [
+    {
+     "f": "θ ≈ 1,22·λ / D",
+     "d": "Criterio di Rayleigh: angolo minimo risolvibile con apertura di diametro D."
+    }
+   ],
+   "example": "Di notte i due fari di un'auto lontanissima sembrano un'unica luce: la pupilla non riesce a risolverli finché l'auto non si avvicina.",
+   "mistakes": [
+    "\"Con abbastanza ingrandimento si vede tutto\": la diffrazione limita i dettagli, non l'ingrandimento.",
+    "\"Un'apertura più stretta dà un fascio più sottile\": con aperture strettissime la luce si allarga.",
+    "\"I microscopi ottici vedono gli atomi\": il limite è centinaia di volte più grande di un atomo."
+   ],
+   "terms": [
+    {
+     "t": "Risoluzione",
+     "d": "Capacità di distinguere due dettagli vicini."
+    },
+    {
+     "t": "Criterio di Rayleigh",
+     "d": "Condizione limite per distinguere due punti."
+    },
+    {
+     "t": "Contrasto di fase",
+     "d": "Tecnica che rende visibili oggetti trasparenti."
+    }
+   ],
+   "quote": {
+    "text": "There are many situations in which diffraction limits the resolution.",
+    "translation": "Ci sono molte situazioni in cui la diffrazione limita la risoluzione."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "27.6 Limits of resolution the rayleigh criterion",
+     "url": "https://openstax.org/books/college-physics-2e/pages/27-6-limits-of-resolution-the-rayleigh-criterion"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "27.5 Single slit diffraction",
+     "url": "https://openstax.org/books/college-physics-2e/pages/27-5-single-slit-diffraction"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "27.9 Extended topic microscopy enhanced by the wave characteristics of light",
+     "url": "https://openstax.org/books/college-physics-2e/pages/27-9-extended-topic-microscopy-enhanced-by-the-wave-characteristics-of-light"
+    }
+   ],
+   "videos": [
+    {
+     "id": "1_FTOuQ0H3w",
+     "title": "How do telescopes see many stars where our eyes see only one? | Wave optics | Physics | Khan Academy",
+     "channel": "Khan Academy India - English",
+     "length": "13:06"
+    }
+   ],
+   "videoQuery": "diffraction resolution limit",
+   "addedAt": "2026-11-04T00:43:11Z"
+  },
+  {
+   "id": "polarizzazione-film-sottili",
+   "subject": "fisica",
+   "chapter": "Luce e ottica",
+   "title": "Bolle di sapone, occhiali polarizzati e schermi LCD",
+   "hook": "I colori cangianti delle bolle e delle macchie d'olio, gli occhiali da sole che tolgono i riflessi, gli schermi dei computer: interferenza nei film sottili e polarizzazione.",
+   "points": [
+    "L'interferenza nei film sottili",
+    "Rivestimenti antiriflesso",
+    "Che cos'è la polarizzazione",
+    "Occhiali polarizzati e schermi LCD"
+   ],
+   "sections": [
+    {
+     "h": "I colori delle bolle",
+     "p": [
+      "Una bolla di sapone o una macchia d'olio su una pozzanghera mostrano colori vivaci che cambiano continuamente. Non sono pigmenti: nascono dall'interferenza della luce riflessa dalle due superfici di uno strato sottilissimo.",
+      "Parte della luce si riflette sulla superficie esterna del film, parte su quella interna. Le due onde riflesse percorrono distanze leggermente diverse e si sovrappongono. Per alcune lunghezze d'onda si rafforzano, per altre si annullano: i colori più brillanti sono quelli che interferiscono in modo costruttivo.",
+      "Lo spessore del film rispetto alla lunghezza d'onda è il fattore decisivo. Poiché la bolla ha spessori diversi in punti diversi e si assottiglia mentre l'acqua scende, i colori cambiano e scorrono. Poco prima di scoppiare, la parte più sottile diventa scura."
+     ]
+    },
+    {
+     "h": "Antiriflesso",
+     "p": [
+      "Lo stesso principio si usa al contrario per eliminare i riflessi. Uno strato sottilissimo depositato sulla superficie di una lente, di spessore scelto con cura, fa sì che la luce riflessa dalle due superfici si annulli per interferenza distruttiva.",
+      "I rivestimenti antiriflesso si usano su occhiali, obiettivi fotografici, pannelli solari e su alcuni vetri di auto e occhiali da sole. Spesso hanno un leggero riflesso violaceo o verdastro, perché non possono annullare perfettamente tutti i colori."
+     ]
+    },
+    {
+     "h": "La polarizzazione",
+     "p": [
+      "La luce è un'onda trasversale: il suo campo elettrico oscilla perpendicolarmente alla direzione di propagazione. Nella luce normale, come quella del Sole o di una lampadina, le oscillazioni avvengono in tutte le direzioni possibili. Se invece il campo oscilla in una sola direzione, la luce si dice polarizzata.",
+      "Un filtro polarizzatore lascia passare solo la luce che oscilla in una certa direzione. Due filtri sovrapposti e ruotati di 90 gradi bloccano completamente la luce. La luce riflessa da superfici come l'acqua, l'asfalto bagnato o il vetro è in gran parte polarizzata orizzontalmente; anche la luce del cielo azzurro è parzialmente polarizzata."
+     ]
+    },
+    {
+     "h": "Nella vita quotidiana",
+     "p": [
+      "Gli occhiali da sole polarizzati contengono filtri che bloccano la luce polarizzata orizzontalmente: eliminano i riflessi abbaglianti dell'acqua e della strada. Per questo sono amati da pescatori e automobilisti, e ruotando la testa si vedono i riflessi comparire e sparire.",
+      "Gli schermi a cristalli liquidi (LCD) funzionano con la polarizzazione: ogni pixel ha due filtri polarizzatori e uno strato di cristalli liquidi in mezzo, che ruota la polarizzazione della luce quando gli si applica una tensione, facendola passare o bloccandola. Se guardi uno schermo LCD con occhiali polarizzati inclinando la testa, a un certo angolo diventa nero.",
+      "Molti animali, come le api e alcuni uccelli, percepiscono la polarizzazione della luce del cielo e la usano per orientarsi."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Con gli occhiali polarizzati guarda il display dell'auto o di una pompa di benzina e inclina la testa: a un certo angolo lo schermo diventa nero.",
+   "mistakes": [
+    "\"I colori delle bolle sono dovuti al sapone colorato\": nascono dall'interferenza.",
+    "\"Gli occhiali polarizzati sono solo più scuri\": bloccano in modo selettivo la luce riflessa.",
+    "\"La luce oscilla sempre in tutte le direzioni\": può essere polarizzata."
+   ],
+   "terms": [
+    {
+     "t": "Film sottile",
+     "d": "Strato di spessore paragonabile alla lunghezza d'onda della luce."
+    },
+    {
+     "t": "Antiriflesso",
+     "d": "Rivestimento che annulla i riflessi per interferenza."
+    },
+    {
+     "t": "Luce polarizzata",
+     "d": "Luce il cui campo oscilla in una sola direzione."
+    },
+    {
+     "t": "LCD",
+     "d": "Schermo a cristalli liquidi basato sulla polarizzazione."
+    }
+   ],
+   "quote": {
+    "text": "The brightest colors are those that interfere constructively.",
+    "translation": "I colori più brillanti sono quelli che interferiscono in modo costruttivo."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "27.7 Thin film interference",
+     "url": "https://openstax.org/books/college-physics-2e/pages/27-7-thin-film-interference"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "27.8 Polarization",
+     "url": "https://openstax.org/books/college-physics-2e/pages/27-8-polarization"
+    }
+   ],
+   "videos": [
+    {
+     "id": "eGJvcBFkHzg",
+     "title": "Why do soap bubbles appear colourful? | Wave optics | Physics | Khan Academy",
+     "channel": "Khan Academy India - English",
+     "length": "11:56"
+    },
+    {
+     "id": "4I34jA1fDp4",
+     "title": "Thin Film Interference (part 1)",
+     "channel": "Harvard Natural Sciences Lecture Demonstrations",
+     "length": "4:26"
+    }
+   ],
+   "videoQuery": "polarization thin film interference soap bubble",
+   "addedAt": "2026-11-04T00:43:11Z"
+  },
+  {
+   "id": "contrazione-lunghezze",
+   "subject": "fisica",
+   "chapter": "Fisica moderna",
+   "title": "Relatività: i postulati, la contrazione delle lunghezze e il limite di velocità",
+   "hook": "Per chi si muove velocissimo le distanze si accorciano, e nessuna velocità sommata supera mai quella della luce. Le altre conseguenze delle idee di Einstein.",
+   "points": [
+    "I postulati della relatività ristretta",
+    "La contrazione delle lunghezze",
+    "Come si sommano le velocità in relatività",
+    "Perché niente supera la luce"
+   ],
+   "sections": [
+    {
+     "h": "Due principi, molte conseguenze",
+     "p": [
+      "La relatività ristretta si basa su due postulati. Il primo dice che le leggi della fisica sono le stesse, e si possono scrivere nella loro forma più semplice, in tutti i sistemi di riferimento inerziali, cioè che si muovono a velocità costante gli uni rispetto agli altri. Il secondo dice che la velocità della luce nel vuoto è la stessa per tutti gli osservatori.",
+      "Da questi due principi seguono cambiamenti profondi nella nostra idea di spazio e tempo: la perdita di accordo sul tempo trascorso per un evento, la variazione delle distanze con la velocità e la scoperta che materia ed energia possono convertirsi l'una nell'altra."
+     ]
+    },
+    {
+     "h": "Le distanze si accorciano",
+     "p": [
+      "Abbiamo visto che un orologio in movimento rallenta. C'è un effetto gemello per lo spazio: un oggetto in movimento appare più corto, nella direzione del moto, a chi lo vede passare. È la contrazione delle lunghezze. Non è un'illusione ottica né una compressione fisica: è la misura stessa della lunghezza a dipendere dal moto.",
+      "Il fattore è lo stesso della dilatazione del tempo. A velocità quotidiane è del tutto trascurabile; all'87% della velocità della luce le lunghezze si dimezzano. Solo la dimensione lungo la direzione del moto cambia.",
+      "Torniamo ai muoni creati in alta atmosfera. Dal nostro punto di vista vivono più a lungo perché il loro tempo rallenta. Dal loro punto di vista, invece, il loro orologio è normale, ma lo spessore dell'atmosfera che devono attraversare è contratto. Entrambe le descrizioni danno lo stesso risultato: i muoni arrivano a terra."
+     ]
+    },
+    {
+     "h": "Sommare le velocità",
+     "p": [
+      "Se un treno va a 100 km/h e tu corri in avanti sul treno a 10 km/h, la tua velocità rispetto ai binari è 110 km/h. In relatività questa somma semplice non funziona più: è solo un'approssimazione valida per velocità piccole.",
+      "La formula relativistica di somma delle velocità fa sì che il risultato non superi mai la velocità della luce. Se un'astronave che viaggia a metà della velocità della luce spara in avanti un razzo che va a metà della velocità della luce rispetto all'astronave, chi sta fermo vede il razzo andare a circa l'80% della velocità della luce, non al 100%.",
+      "E se l'astronave accende un faro in avanti, la luce viaggia per tutti alla velocità della luce, né più né meno: è proprio il secondo postulato."
+     ]
+    },
+    {
+     "h": "Un limite universale",
+     "p": [
+      "Più un oggetto con massa si avvicina alla velocità della luce, più energia serve per accelerarlo ancora; per raggiungerla ne servirebbe una quantità infinita. Per questo la velocità della luce è un limite insuperabile per la materia e per qualsiasi informazione.",
+      "Negli acceleratori di particelle i protoni vengono portati a velocità che differiscono da quella della luce per meno di un milionesimo, ma mai oltre. Il limite di velocità cosmico ha conseguenze anche per i viaggi spaziali: anche alla stella più vicina servirebbero più di quattro anni alla velocità della luce, almeno secondo chi resta sulla Terra."
+     ]
+    }
+   ],
+   "formulas": [
+    {
+     "f": "L = L₀ · √(1 − v²/c²)",
+     "d": "Contrazione delle lunghezze: L₀ è la lunghezza a riposo."
+    },
+    {
+     "f": "u = (v + u') / (1 + v·u'/c²)",
+     "d": "Somma relativistica delle velocità."
+    }
+   ],
+   "example": "Per un fotone, se potesse avere un punto di vista, tutto l'universo sarebbe schiacciato a spessore zero: per la luce il viaggio non richiede tempo.",
+   "mistakes": [
+    "\"Gli oggetti veloci vengono schiacciati fisicamente\": cambia la misura della lunghezza nel sistema di chi osserva.",
+    "\"Sommando velocità abbastanza grandi si supera la luce\": la formula relativistica lo impedisce.",
+    "\"La relatività vale solo per la luce\": vale per tutte le leggi della fisica."
+   ],
+   "terms": [
+    {
+     "t": "Sistema inerziale",
+     "d": "Sistema di riferimento che si muove a velocità costante."
+    },
+    {
+     "t": "Contrazione delle lunghezze",
+     "d": "Accorciamento di un oggetto in moto lungo la direzione del moto."
+    },
+    {
+     "t": "Velocità relativistica",
+     "d": "Velocità vicina a quella della luce."
+    }
+   ],
+   "quote": {
+    "text": "Among the changes are the loss of agreement on the elapsed time for an event, the variation of distance with speed, and the realization that matter and energy can be converted into one another.",
+    "translation": "Tra i cambiamenti ci sono la perdita di accordo sul tempo trascorso per un evento, la variazione delle distanze con la velocità e la scoperta che materia ed energia possono convertirsi l'una nell'altra."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "28.1 Einsteins postulates",
+     "url": "https://openstax.org/books/college-physics-2e/pages/28-1-einsteins-postulates"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "28.3 Length contraction",
+     "url": "https://openstax.org/books/college-physics-2e/pages/28-3-length-contraction"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "28.4 Relativistic addition of velocities",
+     "url": "https://openstax.org/books/college-physics-2e/pages/28-4-relativistic-addition-of-velocities"
+    }
+   ],
+   "videos": [
+    {
+     "id": "FPzGAksFCbs",
+     "title": "Special Relativity Part 3: Length Contraction",
+     "channel": "Professor Dave Explains",
+     "length": "6:02"
+    },
+    {
+     "id": "-NN_m2yKAAk",
+     "title": "Length Contraction and Time Dilation | Special Relativity Ch. 5",
+     "channel": "minutephysics",
+     "length": "7:17"
+    }
+   ],
+   "videoQuery": "length contraction special relativity",
+   "addedAt": "2026-11-04T00:43:11Z"
+  },
+  {
    "id": "relativita",
    "subject": "fisica",
    "title": "Relatività ristretta: tempo e spazio non sono uguali per tutti",
@@ -7873,6 +9182,228 @@
      "d": "Equivalenza tra massa ed energia."
     }
    ]
+  },
+  {
+   "id": "massa-energia",
+   "subject": "fisica",
+   "chapter": "Fisica moderna",
+   "title": "E = mc²: la massa è una forma di energia",
+   "hook": "La formula più famosa della fisica dice che un grammo di materia contiene un'energia enorme. Cosa significa davvero e dove la vediamo all'opera.",
+   "points": [
+    "La quantità di moto relativistica",
+    "L'energia a riposo",
+    "Perché un oggetto carico di energia pesa di più",
+    "Dove si vede E = mc²"
+   ],
+   "sections": [
+    {
+     "h": "Ridefinire la quantità di moto",
+     "p": [
+      "La conservazione della quantità di moto è una delle leggi più importanti della fisica. Con la relatività però la formula classica, massa per velocità, non funziona più alle alte velocità: le leggi di conservazione non risultano valide per tutti gli osservatori.",
+      "La soluzione è ridefinire la quantità di moto con un fattore relativistico, in modo che la sua conservazione valga in tutti i sistemi inerziali. Ogni volta che la forza esterna netta su un sistema è zero, la quantità di moto relativistica si conserva, proprio come quella classica. A basse velocità le due definizioni coincidono."
+     ]
+    },
+    {
+     "h": "L'energia a riposo",
+     "p": [
+      "Einstein mostrò che anche la conservazione dell'energia resta valida in relatività, a patto di definire l'energia includendo il fattore relativistico. Ne viene fuori una sorpresa: anche un oggetto fermo possiede energia, solo per il fatto di avere massa. È l'energia a riposo, E = mc².",
+      "Poiché la velocità della luce al quadrato è un numero enorme, circa 9 × 10¹⁶ in unità SI, anche una piccola massa corrisponde a un'energia gigantesca. Un solo grammo di materia equivale a circa 9 × 10¹³ joule: circa il doppio dell'energia liberata dalla bomba atomica di Hiroshima."
+     ]
+    },
+    {
+     "h": "Massa ed energia, due facce della stessa cosa",
+     "p": [
+      "La formula funziona in entrambe le direzioni: se un oggetto acquista energia, la sua massa a riposo aumenta. Una molla compressa pesa un pochino di più di una scarica, una tazza di tè caldo un pochino di più della stessa tazza fredda. Le differenze sono così piccole da essere impossibili da misurare nella vita quotidiana.",
+      "Diventano invece evidenti nei processi nucleari. Quando i nuclei si uniscono (fusione) o si spezzano (fissione), la massa dei prodotti è un po' minore di quella di partenza: la differenza, chiamata difetto di massa, viene liberata come energia. Così brillano le stelle e funzionano le centrali nucleari.",
+      "Anche nelle reazioni chimiche, come la combustione, c'è una minuscola perdita di massa, ma è miliardi di volte più piccola: per questo l'energia nucleare è milioni di volte più concentrata di quella chimica."
+     ]
+    },
+    {
+     "h": "Materia dall'energia",
+     "p": [
+      "Il processo può anche andare al contrario: l'energia può trasformarsi in materia. Negli acceleratori, scontrando particelle ad altissima energia, si creano particelle nuove, più pesanti di quelle iniziali. Un fotone di alta energia vicino a un nucleo può trasformarsi in un elettrone e nella sua antiparticella, il positrone.",
+      "Quando materia e antimateria si incontrano si annichilano, trasformando tutta la massa in energia. È il principio delle PET, le tomografie a emissione di positroni usate in medicina, che rilevano i raggi gamma prodotti da queste annichilazioni nel corpo.",
+      "Einstein, va notato, capì e descrisse bene il significato e le implicazioni della sua teoria. Ma l'idea che piccole masse nascondessero energie enormi sembrava, all'epoca, quasi solo una curiosità teorica."
+     ]
+    }
+   ],
+   "formulas": [
+    {
+     "f": "E₀ = m·c²",
+     "d": "Energia a riposo di una massa m."
+    },
+    {
+     "f": "E = γ·m·c², γ = 1 / √(1 − v²/c²)",
+     "d": "Energia totale di un oggetto in moto."
+    }
+   ],
+   "example": "Il Sole perde circa 4 milioni di tonnellate di massa ogni secondo: è la massa che diventa la luce che ci scalda.",
+   "mistakes": [
+    "\"E = mc² vale solo per le bombe atomiche\": vale per tutta la materia, anche per una tazza di tè.",
+    "\"La massa si trasforma in energia solo nel nucleare\": avviene anche in chimica, ma in quantità infinitesime.",
+    "\"La massa si conserva sempre\": si conserva l'energia totale, che include la massa."
+   ],
+   "terms": [
+    {
+     "t": "Energia a riposo",
+     "d": "Energia posseduta da un corpo fermo per la sua massa."
+    },
+    {
+     "t": "Difetto di massa",
+     "d": "Massa che scompare in una reazione nucleare diventando energia."
+    },
+    {
+     "t": "Annichilazione",
+     "d": "Trasformazione completa di materia e antimateria in energia."
+    }
+   ],
+   "quote": {
+    "text": "For example, if energy is stored in the object, its rest mass increases.",
+    "translation": "Per esempio, se si immagazzina energia in un oggetto, la sua massa a riposo aumenta."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "28.6 Relativistic energy",
+     "url": "https://openstax.org/books/college-physics-2e/pages/28-6-relativistic-energy"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "28.5 Relativistic momentum",
+     "url": "https://openstax.org/books/college-physics-2e/pages/28-5-relativistic-momentum"
+    }
+   ],
+   "videos": [
+    {
+     "id": "hW7DW9NIO9M",
+     "title": "Einstein's Proof of E=mc²",
+     "channel": "minutephysics",
+     "length": "2:11"
+    },
+    {
+     "id": "Xo232kyTsO0",
+     "title": "The Real Meaning of E=mc²",
+     "channel": "PBS Space Time",
+     "length": "10:24"
+    }
+   ],
+   "videoQuery": "E=mc2 explained",
+   "addedAt": "2026-11-04T00:43:11Z"
+  },
+  {
+   "id": "quanti-di-energia",
+   "subject": "fisica",
+   "chapter": "Fisica moderna",
+   "title": "I quanti di Planck: la nascita della fisica quantistica",
+   "hook": "Perché un ferro rovente diventa prima rosso e poi bianco? Per rispondere, Planck dovette ammettere che l'energia arriva a pacchetti. Nacque la fisica quantistica.",
+   "points": [
+    "La radiazione di corpo nero",
+    "L'idea dei quanti di Planck",
+    "L'energia dei fotoni nello spettro",
+    "La quantità di moto della luce"
+   ],
+   "sections": [
+    {
+     "h": "Il problema del corpo nero",
+     "p": [
+      "Ogni oggetto caldo emette radiazione elettromagnetica. Un pezzo di ferro scaldato diventa prima rosso scuro, poi arancione, poi bianco: più è caldo, più la sua luce si sposta verso lunghezze d'onda corte. I radiatori ideali si chiamano corpi neri, e la loro radiazione radiazione di corpo nero.",
+      "Il Sole è l'esempio più comune di un corpo, fatto di gas, che emette uno spettro comprendente la luce visibile. Alla fine dell'Ottocento la fisica classica prevedeva che un corpo nero dovesse emettere una quantità infinita di energia nell'ultravioletto: una conclusione assurda, chiamata catastrofe ultravioletta."
+     ]
+    },
+    {
+     "h": "L'ipotesi di Planck",
+     "p": [
+      "Nel 1900 il fisico tedesco Max Planck trovò una formula che descriveva perfettamente lo spettro del corpo nero. Ma per giustificarla dovette fare un'ipotesi radicale: che l'energia degli oscillatori atomici non potesse assumere qualsiasi valore, ma solo multipli interi di un'unità minima, proporzionale alla frequenza. Chiamò queste unità quanti.",
+      "La costante di proporzionalità, oggi chiamata costante di Planck, è piccolissima. Per questo nel mondo di tutti i giorni l'energia sembra continua, come una rampa: in realtà è una scala con gradini minuscoli. Planck stesso considerava l'ipotesi un trucco matematico; fu Einstein, cinque anni dopo, a prenderla sul serio applicandola alla luce."
+     ]
+    },
+    {
+     "h": "Fotoni di tutti i tipi",
+     "p": [
+      "L'energia di un fotone è la costante di Planck per la frequenza. Lungo lo spettro elettromagnetico l'energia dei fotoni cambia enormemente: i fotoni radio hanno energie minuscole, quelli della luce visibile qualche elettronvolt, quelli dei raggi X migliaia, quelli gamma milioni.",
+      "Questo spiega perché solo le radiazioni ad alta frequenza sono ionizzanti: un singolo fotone di luce visibile non ha abbastanza energia per rompere un legame del DNA, uno ultravioletto sì. Spiega anche la fotosintesi e la visione: un singolo fotone visibile ha proprio l'energia giusta per eccitare una molecola e innescare una reazione chimica."
+     ]
+    },
+    {
+     "h": "La luce spinge",
+     "p": [
+      "Anche se non hanno massa, i fotoni trasportano quantità di moto, inversamente proporzionale alla lunghezza d'onda. Quando la luce viene assorbita o riflessa, spinge leggermente ciò che colpisce.",
+      "Nel 1923 Arthur Compton mostrò che i raggi X che urtano gli elettroni rimbalzano con una lunghezza d'onda maggiore, proprio come previsto da un urto tra particelle: una prova diretta che i fotoni hanno quantità di moto.",
+      "La pressione della luce è minuscola ma reale: spinge le code delle comete lontano dal Sole e può spingere sonde spaziali dotate di vele solari. Con i laser si possono intrappolare e manipolare singole cellule e molecole: le \"pinzette ottiche\", premiate con il Nobel nel 2018."
+     ]
+    }
+   ],
+   "formulas": [
+    {
+     "f": "E = h·f",
+     "d": "Energia di un quanto di luce, h ≈ 6,63 × 10⁻³⁴ J·s."
+    },
+    {
+     "f": "p = h / λ",
+     "d": "Quantità di moto di un fotone."
+    }
+   ],
+   "example": "La resistenza di un tostapane acceso passa dal rosso scuro all'arancione scaldandosi: la radiazione di corpo nero si sposta verso lunghezze d'onda più corte.",
+   "mistakes": [
+    "\"Planck credeva subito ai fotoni\": considerava i quanti un espediente matematico.",
+    "\"Senza massa non c'è quantità di moto\": i fotoni ne hanno.",
+    "\"L'energia è sempre continua\": a livello atomico è quantizzata."
+   ],
+   "terms": [
+    {
+     "t": "Corpo nero",
+     "d": "Oggetto ideale che assorbe ed emette radiazione perfettamente."
+    },
+    {
+     "t": "Quanto",
+     "d": "Pacchetto minimo di energia."
+    },
+    {
+     "t": "Costante di Planck",
+     "d": "Costante che lega energia e frequenza."
+    },
+    {
+     "t": "Effetto Compton",
+     "d": "Urto tra fotone ed elettrone che allunga la lunghezza d'onda."
+    }
+   ],
+   "quote": {
+    "text": "Ideal radiators are therefore called blackbodies, and their EM radiation is called blackbody radiation.",
+    "translation": "I radiatori ideali si chiamano quindi corpi neri, e la loro radiazione elettromagnetica si chiama radiazione di corpo nero."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "29.1 Quantization of energy",
+     "url": "https://openstax.org/books/college-physics-2e/pages/29-1-quantization-of-energy"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "29.3 Photon energies and the electromagnetic spectrum",
+     "url": "https://openstax.org/books/college-physics-2e/pages/29-3-photon-energies-and-the-electromagnetic-spectrum"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "29.4 Photon momentum",
+     "url": "https://openstax.org/books/college-physics-2e/pages/29-4-photon-momentum"
+    }
+   ],
+   "videos": [
+    {
+     "id": "7BXvc9W97iU",
+     "title": "Quantization of Energy Part 1: Blackbody Radiation and the Ultraviolet Catastrophe",
+     "channel": "Professor Dave Explains",
+     "length": "6:43"
+    },
+    {
+     "id": "DHG61XPuWyk",
+     "title": "Blackbody radiation | Physics | Khan Academy",
+     "channel": "Khan Academy",
+     "length": "14:18"
+    }
+   ],
+   "videoQuery": "planck quantization blackbody radiation",
+   "addedAt": "2026-11-04T00:43:11Z"
   },
   {
    "id": "effetto-fotoelettrico",
@@ -8496,6 +10027,11 @@
      "name": "OpenStax · Psychology 2e",
      "title": "6.4 Observational Learning (Modeling)",
      "url": "https://openstax.org/books/psychology-2e/pages/6-4-observational-learning-modeling"
+    },
+    {
+     "name": "OpenStax · Psychology 2e",
+     "title": "6.1 What Is Learning?",
+     "url": "https://openstax.org/books/psychology-2e/pages/6-1-what-is-learning"
     },
     {
      "name": "OpenStax · Psychology 2e",
