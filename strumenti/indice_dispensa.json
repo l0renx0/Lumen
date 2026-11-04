@@ -3404,12 +3404,16 @@
       {
        "title": "19.3 Variable stars one key to cosmic distances",
        "url": "https://openstax.org/books/astronomy-2e/pages/19-3-variable-stars-one-key-to-cosmic-distances",
-       "argomenti": []
+       "argomenti": [
+        "cefeidi"
+       ]
       },
       {
        "title": "19.4 The h r diagram and cosmic distances",
        "url": "https://openstax.org/books/astronomy-2e/pages/19-4-the-h-r-diagram-and-cosmic-distances",
-       "argomenti": []
+       "argomenti": [
+        "cefeidi"
+       ]
       }
      ]
     },
@@ -3420,32 +3424,44 @@
       {
        "title": "20.1 The interstellar medium",
        "url": "https://openstax.org/books/astronomy-2e/pages/20-1-the-interstellar-medium",
-       "argomenti": []
+       "argomenti": [
+        "mezzo-interstellare"
+       ]
       },
       {
        "title": "20.2 Interstellar gas",
        "url": "https://openstax.org/books/astronomy-2e/pages/20-2-interstellar-gas",
-       "argomenti": []
+       "argomenti": [
+        "mezzo-interstellare"
+       ]
       },
       {
        "title": "20.3 Cosmic dust",
        "url": "https://openstax.org/books/astronomy-2e/pages/20-3-cosmic-dust",
-       "argomenti": []
+       "argomenti": [
+        "polvere-raggi-cosmici"
+       ]
       },
       {
        "title": "20.4 Cosmic rays",
        "url": "https://openstax.org/books/astronomy-2e/pages/20-4-cosmic-rays",
-       "argomenti": []
+       "argomenti": [
+        "polvere-raggi-cosmici"
+       ]
       },
       {
        "title": "20.5 The life cycle of cosmic material",
        "url": "https://openstax.org/books/astronomy-2e/pages/20-5-the-life-cycle-of-cosmic-material",
-       "argomenti": []
+       "argomenti": [
+        "ciclo-materia"
+       ]
       },
       {
        "title": "20.6 Interstellar matter around the sun",
        "url": "https://openstax.org/books/astronomy-2e/pages/20-6-interstellar-matter-around-the-sun",
-       "argomenti": []
+       "argomenti": [
+        "ciclo-materia"
+       ]
       }
      ]
     },
@@ -3470,7 +3486,9 @@
       {
        "title": "21.3 Evidence that planets form around other stars",
        "url": "https://openstax.org/books/astronomy-2e/pages/21-3-evidence-that-planets-form-around-other-stars",
-       "argomenti": []
+       "argomenti": [
+        "nascita-pianeti"
+       ]
       },
       {
        "title": "21.4 Planets beyond the solar system search and discovery",
@@ -3489,7 +3507,9 @@
       {
        "title": "21.6 New perspectives on planet formation",
        "url": "https://openstax.org/books/astronomy-2e/pages/21-6-new-perspectives-on-planet-formation",
-       "argomenti": []
+       "argomenti": [
+        "nascita-pianeti"
+       ]
       }
      ]
     },
@@ -3507,22 +3527,30 @@
       {
        "title": "22.2 Star clusters",
        "url": "https://openstax.org/books/astronomy-2e/pages/22-2-star-clusters",
-       "argomenti": []
+       "argomenti": [
+        "ammassi-stellari"
+       ]
       },
       {
        "title": "22.3 Checking out the theory",
        "url": "https://openstax.org/books/astronomy-2e/pages/22-3-checking-out-the-theory",
-       "argomenti": []
+       "argomenti": [
+        "ammassi-stellari"
+       ]
       },
       {
        "title": "22.4 Further evolution of stars",
        "url": "https://openstax.org/books/astronomy-2e/pages/22-4-further-evolution-of-stars",
-       "argomenti": []
+       "argomenti": [
+        "vecchiaia-stelle"
+       ]
       },
       {
        "title": "22.5 The evolution of more massive stars",
        "url": "https://openstax.org/books/astronomy-2e/pages/22-5-the-evolution-of-more-massive-stars",
-       "argomenti": []
+       "argomenti": [
+        "vecchiaia-stelle"
+       ]
       }
      ]
     },
@@ -3547,7 +3575,9 @@
       {
        "title": "23.3 Supernova observations",
        "url": "https://openstax.org/books/astronomy-2e/pages/23-3-supernova-observations",
-       "argomenti": []
+       "argomenti": [
+        "osservare-supernove"
+       ]
       },
       {
        "title": "23.4 Pulsars and the discovery of neutron stars",
@@ -3559,12 +3589,16 @@
       {
        "title": "23.5 The evolution of binary star systems",
        "url": "https://openstax.org/books/astronomy-2e/pages/23-5-the-evolution-of-binary-star-systems",
-       "argomenti": []
+       "argomenti": [
+        "stelle-binarie"
+       ]
       },
       {
        "title": "23.6 The mystery of the gamma ray bursts",
        "url": "https://openstax.org/books/astronomy-2e/pages/23-6-the-mystery-of-the-gamma-ray-bursts",
-       "argomenti": []
+       "argomenti": [
+        "lampi-gamma"
+       ]
       }
      ]
     },
@@ -3575,22 +3609,30 @@
       {
        "title": "24.1 Introducing general relativity",
        "url": "https://openstax.org/books/astronomy-2e/pages/24-1-introducing-general-relativity",
-       "argomenti": []
+       "argomenti": [
+        "relativita-generale"
+       ]
       },
       {
        "title": "24.2 Spacetime and gravity",
        "url": "https://openstax.org/books/astronomy-2e/pages/24-2-spacetime-and-gravity",
-       "argomenti": []
+       "argomenti": [
+        "relativita-generale"
+       ]
       },
       {
        "title": "24.3 Tests of general relativity",
        "url": "https://openstax.org/books/astronomy-2e/pages/24-3-tests-of-general-relativity",
-       "argomenti": []
+       "argomenti": [
+        "relativita-generale"
+       ]
       },
       {
        "title": "24.4 Time in general relativity",
        "url": "https://openstax.org/books/astronomy-2e/pages/24-4-time-in-general-relativity",
-       "argomenti": []
+       "argomenti": [
+        "relativita-generale"
+       ]
       },
       {
        "title": "24.5 Black holes",
@@ -3602,12 +3644,16 @@
       {
        "title": "24.6 Evidence for black holes",
        "url": "https://openstax.org/books/astronomy-2e/pages/24-6-evidence-for-black-holes",
-       "argomenti": []
+       "argomenti": [
+        "prove-buchi-neri"
+       ]
       },
       {
        "title": "24.7 Gravitational wave astronomy",
        "url": "https://openstax.org/books/astronomy-2e/pages/24-7-gravitational-wave-astronomy",
-       "argomenti": []
+       "argomenti": [
+        "onde-gravitazionali"
+       ]
       }
      ]
     },

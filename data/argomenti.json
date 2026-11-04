@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-04T11:24:52Z",
+ "updatedAt": "2026-11-04T11:28:46Z",
  "subjects": [
   {
    "id": "fisica",
@@ -4884,6 +4884,11 @@
      "name": "OpenStax · College Physics 2e",
      "title": "15.6 Entropy and the Second Law of Thermodynamics",
      "url": "https://openstax.org/books/college-physics-2e/pages/15-6-entropy-and-the-second-law-of-thermodynamics-disorder-and-the-unavailability-of-energy"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "15.7 Statistical Interpretation of Entropy",
+     "url": "https://openstax.org/books/college-physics-2e/pages/15-7-statistical-interpretation-of-entropy-and-the-second-law-of-thermodynamics-the-underlying-explanation"
     },
     {
      "name": "OpenStax · College Physics 2e",
@@ -12855,6 +12860,11 @@
      "name": "OpenStax · Psychology 2e",
      "title": "6.4 Observational Learning (Modeling)",
      "url": "https://openstax.org/books/psychology-2e/pages/6-4-observational-learning-modeling"
+    },
+    {
+     "name": "OpenStax · Psychology 2e",
+     "title": "6.1 What Is Learning?",
+     "url": "https://openstax.org/books/psychology-2e/pages/6-1-what-is-learning"
     },
     {
      "name": "OpenStax · Psychology 2e",
@@ -23034,6 +23044,510 @@
    "addedAt": "2026-11-04T11:24:52Z"
   },
   {
+   "id": "cefeidi",
+   "subject": "astronomia",
+   "chapter": "Stelle",
+   "title": "Le cefeidi: le stelle che misurano l'universo",
+   "hook": "Alcune stelle pulsano con un ritmo legato alla loro luminosità. Henrietta Leavitt lo scoprì, e da allora le cefeidi sono il metro per misurare le galassie.",
+   "points": [
+    "Le stelle variabili",
+    "La scoperta di Henrietta Leavitt",
+    "Candele standard",
+    "Dal diagramma H-R alle distanze"
+   ],
+   "sections": [
+    {
+     "h": "Stelle che pulsano",
+     "p": [
+      "Non tutte le stelle hanno una luminosità costante. Le stelle variabili cambiano luminosità nel tempo; il grafico della loro luminosità si chiama curva di luce, e il massimo è il punto della curva in cui la stella è più brillante, il minimo quello in cui è più debole.",
+      "Le cefeidi, dal nome della stella Delta Cephei, sono stelle giganti gialle che si espandono e si contraggono regolarmente, come se respirassero, con periodi da uno a una cinquantina di giorni. Anche la Stella Polare è una cefeide, con una pulsazione molto debole."
+     ]
+    },
+    {
+     "h": "La scoperta di Leavitt",
+     "p": [
+      "Henrietta Swan Leavitt lavorava come astronoma all'Osservatorio di Harvard. Studiando le lastre fotografiche, scoprì centinaia di stelle variabili nella Grande e nella Piccola Nube di Magellano, due grandi sistemi stellari che oggi sappiamo essere galassie vicine.",
+      "Nel 1912 notò un fatto decisivo: le cefeidi della Piccola Nube con periodo più lungo erano anche le più brillanti. Poiché tutte le stelle della Nube si trovano più o meno alla stessa distanza da noi, le differenze di luminosità apparente riflettevano differenze di luminosità vera. Esisteva quindi una relazione tra periodo e luminosità."
+     ]
+    },
+    {
+     "h": "Una candela standard",
+     "p": [
+      "La relazione periodo-luminosità trasforma le cefeidi in candele standard, oggetti di cui si conosce la luminosità vera. Basta misurare il periodo di pulsazione di una cefeide per conoscere quanto brilla davvero; confrontandolo con quanto appare brillante, si calcola la distanza, perché la luminosità apparente diminuisce con il quadrato della distanza.",
+      "La relazione andava però calibrata con cefeidi vicine di distanza nota, misurata con la parallasse o con altri metodi. Oggi il satellite Gaia ha reso questa calibrazione molto più precisa.",
+      "Negli anni Venti Edwin Hubble usò le cefeidi per misurare la distanza della nebulosa di Andromeda, dimostrando che era una galassia lontanissima oltre la Via Lattea. Più tardi, cefeidi in molte galassie gli permisero di scoprire l'espansione dell'universo."
+     ]
+    },
+    {
+     "h": "Il diagramma H-R e le distanze",
+     "p": [
+      "Anche le stelle normali possono dare distanze. Dallo spettro di una stella si capisce di che tipo è e in quale punto del diagramma H-R si trova: per esempio, una stella di sequenza principale di una certa classe ha una luminosità nota. Confrontandola con la luminosità apparente si stima la distanza: è il metodo della parallasse spettroscopica, meno preciso ma utilizzabile per stelle troppo lontane per la parallasse vera.",
+      "Ogni metodo funziona a una certa scala, e ciascuno è calibrato con quello precedente: è la \"scala delle distanze\" cosmica, su cui si basa tutta la nostra mappa dell'universo."
+     ]
+    }
+   ],
+   "formulas": [
+    {
+     "f": "Periodo lungo → luminosità alta",
+     "d": "Relazione periodo-luminosità delle cefeidi."
+    },
+    {
+     "f": "Luminosità apparente ∝ L / d²",
+     "d": "Da luminosità vera e apparente si ricava la distanza."
+    }
+   ],
+   "example": "È come sapere che una lampadina è da 100 watt: vedendo quanto appare debole, capisci quanto è lontana.",
+   "mistakes": [
+    "\"Le stelle variabili sono rare eccezioni inutili\": le cefeidi sono fondamentali per le distanze.",
+    "\"Hubble scoprì da solo come misurare le galassie\": si basò sulla scoperta di Leavitt.",
+    "\"Basta guardare quanto brilla una stella per sapere quanto è lontana\": serve conoscerne la luminosità vera."
+   ],
+   "terms": [
+    {
+     "t": "Stella variabile",
+     "d": "Stella che cambia luminosità."
+    },
+    {
+     "t": "Cefeide",
+     "d": "Stella che pulsa con periodo legato alla luminosità."
+    },
+    {
+     "t": "Candela standard",
+     "d": "Oggetto di luminosità nota usato per misurare distanze."
+    },
+    {
+     "t": "Curva di luce",
+     "d": "Grafico della luminosità nel tempo."
+    }
+   ],
+   "quote": {
+    "text": "Leavitt discovered hundreds of variable stars in the Large Magellanic Cloud and Small Magellanic Cloud, two great star systems that are actually neighboring galaxies (although they were not known to be galaxies then).",
+    "translation": "Leavitt scoprì centinaia di stelle variabili nella Grande e nella Piccola Nube di Magellano, due grandi sistemi stellari che sono in realtà galassie vicine (anche se allora non si sapeva che fossero galassie)."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "19.3 Variable stars one key to cosmic distances",
+     "url": "https://openstax.org/books/astronomy-2e/pages/19-3-variable-stars-one-key-to-cosmic-distances"
+    },
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "19.4 The h r diagram and cosmic distances",
+     "url": "https://openstax.org/books/astronomy-2e/pages/19-4-the-h-r-diagram-and-cosmic-distances"
+    }
+   ],
+   "videos": [
+    {
+     "id": "BWs-ONRDDG4",
+     "title": "Cepheid variables 1 | Stars, black holes and galaxies | Cosmology & Astronomy | Khan Academy",
+     "channel": "Khan Academy",
+     "length": "9:23"
+    }
+   ],
+   "videoQuery": "cepheid variables standard candles",
+   "addedAt": "2026-11-04T11:28:46Z"
+  },
+  {
+   "id": "mezzo-interstellare",
+   "subject": "astronomia",
+   "chapter": "Stelle",
+   "title": "Il mezzo interstellare: il gas tra le stelle",
+   "hook": "Lo spazio tra le stelle non è vuoto: è pieno di gas rarefatto e nubi, alcune luminose come nebulose, altre fredde e oscure, culle delle nuove stelle.",
+   "points": [
+    "Che cos'è il mezzo interstellare",
+    "Nebulose a emissione e regioni HII",
+    "Idrogeno neutro e gas caldissimo",
+    "Le nubi molecolari"
+   ],
+   "sections": [
+    {
+     "h": "Non è vuoto",
+     "p": [
+      "Lo spazio tra le stelle contiene gas e polvere: è il mezzo interstellare. È estremamente rarefatto, in media circa un atomo per centimetro cubo, molto meno del miglior vuoto ottenibile in laboratorio. Ma la Galassia è così grande che, in totale, il mezzo interstellare contiene una massa pari a miliardi di Soli.",
+      "È fatto per il 99% di gas, soprattutto idrogeno ed elio, e per l'1% di polvere. Parte del gas è in forma di molecole, cioè combinazioni di atomi."
+     ]
+    },
+    {
+     "h": "Nebulose luminose",
+     "p": [
+      "Vicino a stelle molto calde, la radiazione ultravioletta ionizza l'idrogeno circostante. Quando gli elettroni si ricombinano con i protoni, emettono luce, soprattutto un caratteristico rosso. Queste nubi luminose si chiamano nebulose a emissione o regioni HII (idrogeno ionizzato).",
+      "La Nebulosa di Orione, visibile anche a occhio nudo come una macchiolina nella spada del cacciatore, è la più famosa: una regione dove stanno nascendo stelle, illuminata da giovani stelle massicce."
+     ]
+    },
+    {
+     "h": "Gas freddo e gas caldissimo",
+     "p": [
+      "La maggior parte dell'idrogeno interstellare è neutro e freddo, a circa un centinaio di gradi kelvin, e non emette luce visibile. Si rivela però grazie alla riga radio a 21 centimetri, emessa quando l'elettrone dell'atomo cambia orientamento: con questa riga gli astronomi mappano le nubi di idrogeno di tutta la Galassia.",
+      "Esiste anche gas caldissimo, a milioni di gradi, che riempie grandi bolle scavate dalle esplosioni di supernove; si osserva in raggi X. Il mezzo interstellare è quindi un ambiente molto vario, con zone a temperature diversissime."
+     ]
+    },
+    {
+     "h": "Le nubi molecolari",
+     "p": [
+      "Nelle regioni più dense e fredde, protette dalla radiazione dalla polvere, gli atomi si uniscono in molecole: soprattutto idrogeno molecolare, ma anche monossido di carbonio, acqua, ammoniaca e molecole organiche complesse, come alcol e zuccheri semplici. Se ne conoscono oltre 200.",
+      "Le nubi molecolari giganti possono contenere materiale per centinaia di migliaia di Soli e sono le culle delle stelle: al loro interno nascono le nuove generazioni stellari. Quando le stelle muoiono, restituiscono parte della materia al mezzo interstellare, che può formare nuove nubi e ricominciare il ciclo."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "In una notte d'inverno, con un binocolo puntato sotto la cintura di Orione, vedi una macchia nebbiosa: è una nube di gas illuminata dalle stelle appena nate.",
+   "mistakes": [
+    "\"Lo spazio tra le stelle è vuoto\": contiene gas e polvere rarefatti.",
+    "\"Le nebulose sono nuvole che riflettono luce come le nubi terrestri\": molte emettono luce propria.",
+    "\"Nello spazio non esistono molecole organiche\": se ne conoscono molte."
+   ],
+   "terms": [
+    {
+     "t": "Mezzo interstellare",
+     "d": "Gas e polvere tra le stelle."
+    },
+    {
+     "t": "Regione HII",
+     "d": "Nube di idrogeno ionizzato che emette luce."
+    },
+    {
+     "t": "Riga a 21 cm",
+     "d": "Emissione radio dell'idrogeno neutro."
+    },
+    {
+     "t": "Nube molecolare",
+     "d": "Nube densa e fredda dove nascono le stelle."
+    }
+   ],
+   "quote": {
+    "text": "Some of the gas is in the form of molecules—combinations of atoms.",
+    "translation": "Parte del gas è in forma di molecole, cioè combinazioni di atomi."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "20.1 The interstellar medium",
+     "url": "https://openstax.org/books/astronomy-2e/pages/20-1-the-interstellar-medium"
+    },
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "20.2 Interstellar gas",
+     "url": "https://openstax.org/books/astronomy-2e/pages/20-2-interstellar-gas"
+    }
+   ],
+   "videos": [
+    {
+     "id": "W8UI7F43_Yk",
+     "title": "Nebulae: Crash Course Astronomy #36",
+     "channel": "CrashCourse",
+     "length": "12:16"
+    },
+    {
+     "id": "Mj06h8BeeOA",
+     "title": "White Dwarfs & Planetary Nebulae: Crash Course Astronomy #30",
+     "channel": "CrashCourse",
+     "length": "11:10"
+    }
+   ],
+   "videoQuery": "nebulae interstellar medium crash course astronomy",
+   "addedAt": "2026-11-04T11:28:46Z"
+  },
+  {
+   "id": "polvere-raggi-cosmici",
+   "subject": "astronomia",
+   "chapter": "Stelle",
+   "title": "Polvere cosmica e raggi cosmici",
+   "hook": "Granelli microscopici che oscurano e arrossano la luce delle stelle, e particelle velocissime che piovono sulla Terra dallo spazio: altri ingredienti del mezzo interstellare.",
+   "points": [
+    "Le nebulose oscure e la polvere",
+    "Estinzione e arrossamento",
+    "La scoperta dei raggi cosmici",
+    "Da dove vengono i raggi cosmici"
+   ],
+   "sections": [
+    {
+     "h": "Nubi scure",
+     "p": [
+      "Nella Via Lattea si vedono zone scure dove sembrano mancare le stelle: non sono buchi, ma nubi di polvere che bloccano la luce di ciò che sta dietro. Barnard 68 è un esempio di nube relativamente densa, o nebulosa oscura, che contiene minuscoli granelli solidi di polvere.",
+      "La Nebulosa Testa di Cavallo, in Orione, è una nube oscura che si staglia contro una nebulosa luminosa. I granelli di polvere sono piccolissimi, circa un decimillesimo di millimetro, fatti di silicati, carbonio e ghiacci."
+     ]
+    },
+    {
+     "h": "Estinzione e arrossamento",
+     "p": [
+      "I piccoli granelli di polvere assorbono e diffondono con grande efficienza la luce visibile e ultravioletta, attenuando la luce delle stelle lontane: è l'estinzione interstellare. La polvere diffonde soprattutto la luce blu, quindi le stelle viste attraverso la polvere appaiono più rosse di quanto siano: è l'arrossamento interstellare, simile a quello del Sole al tramonto.",
+      "Le nubi di polvere sono troppo fredde per emettere energia misurabile nel visibile, ma brillano intensamente nell'infrarosso. I telescopi infrarossi, come Spitzer e il James Webb, riescono a vedere attraverso la polvere e dentro le nubi, dove nascono le stelle. Alcune nubi di polvere vicine a stelle brillanti riflettono la loro luce, apparendo bluastre: sono nebulose a riflessione."
+     ]
+    },
+    {
+     "h": "Particelle dal cielo",
+     "p": [
+      "I raggi cosmici furono scoperti nel 1911 dal fisico austriaco Victor Hess, che portò strumenti semplici a bordo di palloni aerostatici e mostrò che dallo spazio arrivano sulla Terra particelle velocissime: la radiazione aumentava salendo di quota invece di diminuire.",
+      "Nonostante il nome, non sono raggi ma particelle: soprattutto nuclei atomici ad altissima velocità, per lo più protoni, ed elettroni. Quando colpiscono l'alta atmosfera producono sciami di particelle secondarie che raggiungono il suolo. Gli astronauti nello spazio vedono a volte lampi di luce a occhi chiusi, causati dai raggi cosmici che attraversano gli occhi."
+     ]
+    },
+    {
+     "h": "Da dove vengono",
+     "p": [
+      "La maggior parte dei raggi cosmici della nostra galassia viene probabilmente accelerata dalle onde d'urto dei resti di supernova, che li fanno rimbalzare avanti e indietro aumentando la loro energia. I campi magnetici galattici li deviano, quindi arrivano da tutte le direzioni.",
+      "I raggi cosmici più energetici, con energie milioni di volte superiori a quelle raggiungibili negli acceleratori, provengono probabilmente da altre galassie, forse da buchi neri supermassicci attivi. La loro origine è ancora oggetto di ricerca, per esempio all'Osservatorio Pierre Auger in Argentina, a cui partecipa anche l'Italia. I raggi cosmici contribuiscono anche alla radiazione naturale che riceviamo ogni giorno e producono il carbonio-14 nell'atmosfera."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Il carbonio-14 usato per datare i reperti archeologici viene prodotto nell'alta atmosfera proprio dai raggi cosmici.",
+   "mistakes": [
+    "\"Le zone scure della Via Lattea sono vuoti\": sono nubi di polvere.",
+    "\"I raggi cosmici sono raggi di luce\": sono particelle cariche.",
+    "\"La polvere cosmica è come quella di casa\": sono granelli microscopici di silicati, carbonio e ghiaccio."
+   ],
+   "terms": [
+    {
+     "t": "Nebulosa oscura",
+     "d": "Nube di polvere che blocca la luce."
+    },
+    {
+     "t": "Arrossamento interstellare",
+     "d": "La polvere fa apparire le stelle più rosse."
+    },
+    {
+     "t": "Raggi cosmici",
+     "d": "Particelle cariche velocissime provenienti dallo spazio."
+    },
+    {
+     "t": "Nebulosa a riflessione",
+     "d": "Nube di polvere che riflette la luce di stelle vicine."
+    }
+   ],
+   "quote": {
+    "text": "Cosmic rays were discovered in 1911 by an Austrian physicist, Victor Hess, who flew simple instruments aboard balloons and showed that high-speed particles arrive at Earth from space (Figure 20.17).",
+    "translation": "I raggi cosmici furono scoperti nel 1911 dal fisico austriaco Victor Hess, che portò semplici strumenti a bordo di palloni e mostrò che particelle ad alta velocità arrivano sulla Terra dallo spazio (Figura 20.17)."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "20.4 Cosmic rays",
+     "url": "https://openstax.org/books/astronomy-2e/pages/20-4-cosmic-rays"
+    },
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "20.3 Cosmic dust",
+     "url": "https://openstax.org/books/astronomy-2e/pages/20-3-cosmic-dust"
+    }
+   ],
+   "videos": [
+    {
+     "id": "OHofLKUMlI8",
+     "title": "Strange Unexplained Cosmic Rays (ft PhD Comics)",
+     "channel": "Physics Girl",
+     "length": "7:49"
+    },
+    {
+     "id": "Gn26xDLL5R4",
+     "title": "How Cosmic Rays Make Astronauts See Stars",
+     "channel": "SciShow Space",
+     "length": "4:55"
+    }
+   ],
+   "videoQuery": "cosmic dust cosmic rays",
+   "addedAt": "2026-11-04T11:28:46Z"
+  },
+  {
+   "id": "ciclo-materia",
+   "subject": "astronomia",
+   "chapter": "Stelle",
+   "title": "Il ciclo della materia cosmica e la bolla in cui viviamo",
+   "hook": "Le stelle nascono dal gas, lo arricchiscono di elementi e lo restituiscono morendo. Un riciclo cosmico che ha prodotto gli atomi del nostro corpo. E il Sole attraversa una bolla calda.",
+   "points": [
+    "Il riciclo della materia tra stelle e gas",
+    "Come nasce la polvere",
+    "Arricchimento chimico",
+    "Il mezzo interstellare intorno al Sole"
+   ],
+   "sections": [
+    {
+     "h": "Un grande riciclo",
+     "p": [
+      "Il gas interstellare si raccoglie in nubi molecolari, dove nascono le stelle. Le stelle, durante la vita, trasformano l'idrogeno in elementi più pesanti. Quando invecchiano e muoiono, attraverso venti stellari, nebulose planetarie e supernove, restituiscono parte della loro materia al mezzo interstellare, arricchita di nuovi elementi.",
+      "Il materiale può poi formare nuove nubi e ricominciare il ciclo. Questo processo si chiama ciclo dei barioni: barione viene dal greco \"pesante\", e il nome indica che è il processo ripetuto attraverso cui passano i componenti più pesanti dell'universo, gli atomi."
+     ]
+    },
+    {
+     "h": "Fabbriche di polvere",
+     "p": [
+      "La polvere ha bisogno di condizioni particolari per formarsi: gas abbastanza denso e abbastanza freddo perché gli atomi si condensino in granelli solidi, come la fuliggine in un camino. Un luogo dove si trovano queste condizioni sono i venti delle stelle fredde e luminose, le giganti e supergiganti rosse.",
+      "Anche le supernove producono grandi quantità di polvere nei loro resti in espansione. Una volta nel mezzo interstellare, i granelli crescono ricoprendosi di ghiacci nelle nubi fredde, o vengono distrutti dalle onde d'urto."
+     ]
+    },
+    {
+     "h": "Sempre più ricchi",
+     "p": [
+      "All'inizio l'universo conteneva solo idrogeno, elio e tracce di litio. Tutti gli altri elementi, carbonio, ossigeno, ferro, oro, sono stati prodotti dentro le stelle o nelle loro esplosioni e nelle collisioni tra stelle di neutroni.",
+      "A ogni generazione di stelle il gas della Galassia si arricchisce un po' di elementi pesanti. Le stelle più antiche ne hanno pochissimi; il Sole, nato 4,6 miliardi di anni fa da gas già arricchito, ne contiene circa il 2%. Senza questo riciclo non esisterebbero pianeti rocciosi né la vita: siamo letteralmente fatti di materia stellare."
+     ]
+    },
+    {
+     "h": "La nostra bolla",
+     "p": [
+      "Il Sole non si trova in una zona tipica del mezzo interstellare. Si trova all'interno della Bolla Locale, una cavità di gas caldo e rarefatto larga alcune centinaia di anni luce, scavata probabilmente dalle esplosioni di diverse supernove negli ultimi milioni di anni.",
+      "Dentro la bolla il Sole sta attraversando una piccola nube di gas più denso e freddo, chiamata Nube Interstellare Locale. Il vento solare scava a sua volta una bolla intorno al Sistema solare, l'eliosfera; le sonde Voyager 1 e 2 ne hanno superato il confine nel 2012 e nel 2018, entrando nello spazio interstellare."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Il ferro nel tuo sangue è stato forgiato in stelle esplose prima che nascesse il Sole: sei fatto di polvere di stelle, letteralmente.",
+   "mistakes": [
+    "\"La materia delle stelle sparisce quando muoiono\": viene restituita al mezzo interstellare.",
+    "\"Gli elementi del nostro corpo esistono dall'inizio dell'universo\": quasi tutti sono stati prodotti nelle stelle.",
+    "\"Il Sole si trova in uno spazio uniforme\": attraversa una nube dentro una bolla calda."
+   ],
+   "terms": [
+    {
+     "t": "Ciclo dei barioni",
+     "d": "Riciclo della materia tra gas interstellare e stelle."
+    },
+    {
+     "t": "Arricchimento chimico",
+     "d": "Aumento degli elementi pesanti a ogni generazione di stelle."
+    },
+    {
+     "t": "Bolla Locale",
+     "d": "Cavità di gas caldo in cui si trova il Sole."
+    },
+    {
+     "t": "Eliosfera",
+     "d": "Bolla scavata dal vento solare intorno al Sistema solare."
+    }
+   ],
+   "quote": {
+    "text": "One place where the right conditions are found is the winds from luminous cool stars (the red giants and supergiants we discussed in The Stars: A Celestial Census).",
+    "translation": "Un luogo dove si trovano le condizioni giuste sono i venti delle stelle fredde e luminose (le giganti e supergiganti rosse di cui abbiamo parlato in \"Le stelle: un censimento celeste\")."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "20.5 The life cycle of cosmic material",
+     "url": "https://openstax.org/books/astronomy-2e/pages/20-5-the-life-cycle-of-cosmic-material"
+    },
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "20.6 Interstellar matter around the sun",
+     "url": "https://openstax.org/books/astronomy-2e/pages/20-6-interstellar-matter-around-the-sun"
+    }
+   ],
+   "videos": [
+    {
+     "id": "BG-ukUB_sQU",
+     "title": "Lifecycle of a star | Astrophysics | Physics | FuseSchool",
+     "channel": "FuseSchool - Global Education",
+     "length": "4:42"
+    },
+    {
+     "id": "V69KZun35K8",
+     "title": "GCSE Physics - Life Cycle of Stars | How Stars are Formed & Destroyed (2027/28 exams)",
+     "channel": "Cognito",
+     "length": "6:32"
+    }
+   ],
+   "videoQuery": "life cycle of matter stars",
+   "addedAt": "2026-11-04T11:28:46Z"
+  },
+  {
+   "id": "nascita-pianeti",
+   "subject": "astronomia",
+   "chapter": "Stelle",
+   "title": "Dischi protoplanetari: vedere nascere i pianeti",
+   "hook": "Intorno alle stelle giovani i telescopi vedono dischi di gas e polvere con anelli e lacune scavati da pianeti in formazione. La nascita dei pianeti in diretta.",
+   "points": [
+    "I dischi intorno alle stelle giovani",
+    "Le immagini di ALMA",
+    "Dischi di detriti",
+    "Nuove idee sulla formazione dei pianeti"
+   ],
+   "sections": [
+    {
+     "h": "Dischi intorno alle giovani stelle",
+     "p": [
+      "Le teorie prevedono che le stelle nascano circondate da dischi di gas e polvere, da cui si formano i pianeti. Dagli anni Ottanta i telescopi infrarossi hanno rivelato un eccesso di radiazione infrarossa intorno a molte stelle giovani, prodotto da polvere tiepida in un disco.",
+      "Il telescopio spaziale Hubble ha poi fotografato nella Nebulosa di Orione decine di \"proplyd\", dischi protoplanetari visti come sagome scure contro la nebulosa luminosa. Ciò che si vede è la radiazione delle superfici esterne, che coprono un'area molto più piccola dell'enorme disco polveroso da cui la stella si è formata."
+     ]
+    },
+    {
+     "h": "Gli anelli di ALMA",
+     "p": [
+      "Nel 2014 la rete di radiotelescopi ALMA, in Cile, ottenne un'immagine spettacolare del disco intorno alla giovane stella HL Tauri, di meno di un milione di anni: una serie di anelli luminosi separati da lacune scure.",
+      "Le lacune sono probabilmente scavate da pianeti in formazione, che raccolgono il materiale lungo la loro orbita. Da allora ALMA ha osservato molti dischi simili, con anelli, spirali e asimmetrie: è la prova che i pianeti cominciano a formarsi molto presto, quando la stella è ancora giovanissima."
+     ]
+    },
+    {
+     "h": "Dischi di detriti",
+     "p": [
+      "Intorno a stelle più vecchie, dopo che il gas è stato spazzato via, restano a volte dischi di detriti, fatti di polvere prodotta continuamente da collisioni tra asteroidi e comete. Le comete e gli asteroidi locali sono le sorgenti più probabili della polvere nuova.",
+      "Stelle come Vega e Beta Pictoris hanno dischi di detriti, e in quello di Beta Pictoris è stato fotografato direttamente un pianeta gigante. Anche il nostro Sistema solare ha un debole disco di polvere, che produce la luce zodiacale visibile da luoghi molto bui."
+     ]
+    },
+    {
+     "h": "Nuove prospettive",
+     "p": [
+      "Le scoperte di esopianeti e dischi hanno cambiato le teorie. I pianeti possono formarsi più in fretta di quanto si pensava, e migrare spostandosi verso l'interno o verso l'esterno. Un meccanismo chiamato accrescimento di ciottoli, in cui i nuclei planetari catturano rapidamente sassolini che spiraleggiano nel gas, potrebbe spiegare la formazione rapida dei giganti.",
+      "Alcuni pianeti giganti lontanissimi dalla loro stella potrebbero formarsi per instabilità gravitazionale, collassando direttamente da porzioni del disco. La varietà dei sistemi osservati suggerisce che non esista una sola ricetta, ma molte strade possibili."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Le immagini di ALMA del disco di HL Tauri sembrano un disco in vinile con i suoi solchi: ogni solco potrebbe essere l'orbita di un pianeta che nasce.",
+   "mistakes": [
+    "\"I pianeti si formano molto dopo la stella\": cominciano a formarsi quando la stella è giovanissima.",
+    "\"I dischi intorno alle stelle sono rari\": sono comuni intorno alle stelle giovani.",
+    "\"Esiste un solo modo di formare pianeti\": ci sono diversi meccanismi possibili."
+   ],
+   "terms": [
+    {
+     "t": "Disco protoplanetario",
+     "d": "Disco di gas e polvere intorno a una stella giovane."
+    },
+    {
+     "t": "Proplyd",
+     "d": "Disco protoplanetario visto in silhouette in Orione."
+    },
+    {
+     "t": "Disco di detriti",
+     "d": "Disco di polvere prodotta da collisioni di corpi minori."
+    },
+    {
+     "t": "Accrescimento di ciottoli",
+     "d": "Crescita rapida dei nuclei planetari catturando sassolini."
+    }
+   ],
+   "quote": {
+    "text": "Local comets and asteroids are the most likely sources of new dust.",
+    "translation": "Le comete e gli asteroidi locali sono le sorgenti più probabili della polvere nuova."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "21.3 Evidence that planets form around other stars",
+     "url": "https://openstax.org/books/astronomy-2e/pages/21-3-evidence-that-planets-form-around-other-stars"
+    },
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "21.6 New perspectives on planet formation",
+     "url": "https://openstax.org/books/astronomy-2e/pages/21-6-new-perspectives-on-planet-formation"
+    }
+   ],
+   "videos": [
+    {
+     "id": "UNPj7e6XJCQ",
+     "title": "Formation of Planets in a Protoplanetary Disk",
+     "channel": "NASA Video",
+     "length": "1:01"
+    },
+    {
+     "id": "5_z7k4DjClk",
+     "title": "Hubble’s Inside the Image: Protoplanetary Disks",
+     "channel": "NASA Goddard",
+     "length": "2:54"
+    }
+   ],
+   "videoQuery": "protoplanetary disks planet formation",
+   "addedAt": "2026-11-04T11:28:46Z"
+  },
+  {
    "id": "esopianeti",
    "subject": "astronomia",
    "chapter": "Pianeti e orbite",
@@ -23263,6 +23777,201 @@
    "formulas": []
   },
   {
+   "id": "ammassi-stellari",
+   "subject": "astronomia",
+   "chapter": "Stelle",
+   "title": "Gli ammassi stellari: famiglie di stelle nate insieme",
+   "hook": "Ammassi globulari antichissimi e ammassi aperti giovani come le Pleiadi: stelle della stessa età e distanza che permettono di verificare le teorie dell'evoluzione stellare.",
+   "points": [
+    "Tre tipi di ammassi",
+    "Gli ammassi globulari",
+    "Ammassi aperti e associazioni",
+    "Misurare l'età con il diagramma H-R"
+   ],
+   "sections": [
+    {
+     "h": "Famiglie stellari",
+     "p": [
+      "Molte stelle nascono in gruppi, dalla stessa nube. Gli astronomi hanno trovato tre tipi fondamentali di ammassi: ammassi globulari, ammassi aperti e associazioni stellari.",
+      "Gli ammassi sono preziosi perché le loro stelle hanno circa la stessa età, la stessa composizione chimica e la stessa distanza da noi: differiscono quasi solo per la massa. Sono un laboratorio perfetto per studiare come la massa determina la vita di una stella."
+     ]
+    },
+    {
+     "h": "Ammassi globulari",
+     "p": [
+      "Gli ammassi globulari sono sfere compatte di centinaia di migliaia o milioni di stelle, concentrate in pochi anni luce al centro. Si trovano soprattutto nell'alone della Galassia e ne conosciamo circa 150.",
+      "L'ammasso globulare più massiccio della nostra Galassia è Omega Centauri, a circa 16.000 anni luce, che contiene diversi milioni di stelle. Gli ammassi globulari contengono solo stelle molto vecchie, tra le più antiche della Galassia, con età di 11-13 miliardi di anni. Al loro centro le stelle sono così fitte che il cielo notturno di un pianeta lì sarebbe illuminato da migliaia di stelle brillanti."
+     ]
+    },
+    {
+     "h": "Ammassi aperti e associazioni",
+     "p": [
+      "Gli ammassi aperti si trovano nel disco della Galassia. Contengono da qualche decina a qualche migliaio di stelle, meno concentrate, e sono generalmente giovani. Il più famoso è quello delle Pleiadi, le \"sette sorelle\", visibile a occhio nudo nel Toro, con un'età di circa 100 milioni di anni.",
+      "Le associazioni stellari sono gruppi ancora più radi di stelle giovanissime, spesso ancora immersi nel gas da cui sono nate. Gli ammassi aperti e le associazioni non sono abbastanza legati dalla gravità per restare insieme a lungo: nel corso di centinaia di milioni di anni si disperdono. Anche il Sole probabilmente nacque in un ammasso, i cui membri sono ora sparsi nella Galassia."
+     ]
+    },
+    {
+     "h": "Verificare la teoria",
+     "p": [
+      "Mettendo le stelle di un ammasso nel diagramma H-R si vede un risultato chiarissimo. Negli ammassi giovani quasi tutte le stelle sono sulla sequenza principale, comprese le più massicce e azzurre. Negli ammassi più vecchi le stelle più massicce hanno già lasciato la sequenza principale, diventando giganti rosse: la sequenza è \"tagliata\" in alto.",
+      "Il punto in cui le stelle cominciano a lasciare la sequenza principale, detto punto di svolta, indica l'età dell'ammasso: più è in basso, più l'ammasso è vecchio. Il confronto tra i diagrammi osservati e quelli calcolati dai modelli è una delle prove migliori che le teorie dell'evoluzione stellare funzionano."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "In una notte d'autunno o d'inverno cerca le Pleiadi: un piccolo grappolo azzurrino nel Toro, una famiglia di stelle nate insieme.",
+   "mistakes": [
+    "\"Le stelle di un ammasso restano insieme per sempre\": gli ammassi aperti si disperdono.",
+    "\"Gli ammassi globulari sono giovani\": contengono le stelle più antiche.",
+    "\"Le Pleiadi sono sette stelle\": l'ammasso ne contiene un migliaio."
+   ],
+   "terms": [
+    {
+     "t": "Ammasso globulare",
+     "d": "Sfera compatta di stelle antichissime."
+    },
+    {
+     "t": "Ammasso aperto",
+     "d": "Gruppo più rado di stelle giovani nel disco."
+    },
+    {
+     "t": "Associazione stellare",
+     "d": "Gruppo molto rado di stelle giovanissime."
+    },
+    {
+     "t": "Punto di svolta",
+     "d": "Punto in cui le stelle lasciano la sequenza principale, indica l'età."
+    }
+   ],
+   "quote": {
+    "text": "The most massive globular cluster in our own Galaxy is Omega Centauri, which is about 16,000 light-years away and contains several million stars (Figure 22.6).",
+    "translation": "L'ammasso globulare più massiccio della nostra Galassia è Omega Centauri, a circa 16.000 anni luce di distanza, che contiene diversi milioni di stelle (Figura 22.6)."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "22.2 Star clusters",
+     "url": "https://openstax.org/books/astronomy-2e/pages/22-2-star-clusters"
+    },
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "22.3 Checking out the theory",
+     "url": "https://openstax.org/books/astronomy-2e/pages/22-3-checking-out-the-theory"
+    }
+   ],
+   "videos": [
+    {
+     "id": "an4rgJ3O21A",
+     "title": "Star Clusters: Crash Course Astronomy #35",
+     "channel": "CrashCourse",
+     "length": "10:36"
+    }
+   ],
+   "videoQuery": "star clusters crash course astronomy",
+   "addedAt": "2026-11-04T11:28:46Z"
+  },
+  {
+   "id": "vecchiaia-stelle",
+   "subject": "astronomia",
+   "chapter": "Stelle",
+   "title": "La vecchiaia delle stelle: elio, nebulose planetarie e nane bianche",
+   "hook": "Dopo la fase di gigante rossa, il Sole fonderà l'elio, perderà i suoi strati esterni in una nebulosa colorata e diventerà una nana bianca. E la Terra?",
+   "points": [
+    "Il lampo dell'elio e il processo tre-alfa",
+    "Le nebulose planetarie",
+    "Le nane bianche",
+    "Le stelle più massicce"
+   ],
+   "sections": [
+    {
+     "h": "Bruciare l'elio",
+     "p": [
+      "Quando una stella come il Sole è diventata una gigante rossa, il suo nucleo di elio continua a contrarsi e scaldarsi. A circa 100 milioni di gradi l'elio comincia a fondere: tre nuclei di elio si uniscono per formare un nucleo di carbonio. Il processo si chiama tre-alfa, perché i fisici chiamano particella alfa il nucleo di elio.",
+      "Aggiungendo un altro nucleo di elio al carbonio si ottiene ossigeno. È così che si producono gran parte del carbonio e dell'ossigeno dell'universo, compresi quelli del nostro corpo. Nelle stelle come il Sole l'accensione dell'elio avviene in modo esplosivo, nel cosiddetto lampo dell'elio, ma l'energia resta tutta all'interno."
+     ]
+    },
+    {
+     "h": "Le nebulose planetarie",
+     "p": [
+      "Verso la fine della vita, la stella diventa instabile e perde gli strati esterni con venti sempre più intensi. Il nucleo caldissimo che resta illumina con la sua radiazione ultravioletta il gas espulso, che brilla in forme spettacolari: è una nebulosa planetaria.",
+      "Il nome è fuorviante: non c'entrano i pianeti. Viene dal Settecento, quando al telescopio questi oggetti apparivano come dischetti simili ai pianeti. La Nebulosa Anello nella Lira e la Nebulosa Elica sono tra le più famose. Una nebulosa planetaria dura poche decine di migliaia di anni prima di disperdersi."
+     ]
+    },
+    {
+     "h": "Le nane bianche",
+     "p": [
+      "Al centro resta il nucleo della stella, fatto soprattutto di carbonio e ossigeno: una nana bianca, con circa la massa del Sole compressa nel volume della Terra. Un cucchiaino della sua materia peserebbe tonnellate.",
+      "Una nana bianca non produce più energia: si limita a raffreddarsi lentamente per miliardi di anni. Il suo peso è sostenuto dalla pressione degli elettroni compressi, conseguenza del principio di Pauli. Esiste una massa massima, circa 1,4 masse solari, calcolata dall'astrofisico indiano Subrahmanyan Chandrasekhar: oltre questo limite una nana bianca non può reggersi.",
+      "Quando il Sole si gonfierà come gigante rossa, inghiottirà probabilmente Mercurio e Venere; non è del tutto chiaro se la Terra sfuggirà a un destino simile. In ogni caso, molto prima, il Sole sempre più luminoso avrà reso la Terra inabitabile."
+     ]
+    },
+    {
+     "h": "Le stelle più massicce",
+     "p": [
+      "Le stelle con più di circa 8 masse solari seguono un'altra strada. Dopo l'elio fondono carbonio, neon, ossigeno e silicio in fasi sempre più brevi, gonfiandosi come supergiganti, fino a formare un nucleo di ferro.",
+      "Il ferro non può più produrre energia con la fusione: il nucleo collassa e la stella esplode come supernova, lasciando una stella di neutroni o un buco nero. Le stelle più massicce perdono anche moltissima massa con venti potentissimi durante la vita."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Con un piccolo telescopio, in estate, puoi vedere la Nebulosa Anello nella Lira: un piccolo anello di fumo, il futuro destino del Sole.",
+   "mistakes": [
+    "\"Le nebulose planetarie hanno a che fare con i pianeti\": il nome è storico.",
+    "\"Il Sole esploderà come supernova\": diventerà una nana bianca.",
+    "\"Una nana bianca produce energia\": si raffredda soltanto."
+   ],
+   "terms": [
+    {
+     "t": "Processo tre-alfa",
+     "d": "Fusione di tre nuclei di elio in carbonio."
+    },
+    {
+     "t": "Nebulosa planetaria",
+     "d": "Gas espulso da una stella morente, illuminato dal nucleo."
+    },
+    {
+     "t": "Nana bianca",
+     "d": "Nucleo stellare densissimo che si raffredda."
+    },
+    {
+     "t": "Limite di Chandrasekhar",
+     "d": "Massa massima di una nana bianca, circa 1,4 masse solari."
+    }
+   ],
+   "quote": {
+    "text": "This process is called the triple-alpha process, so named because physicists call the nucleus of the helium atom an alpha particle.",
+    "translation": "Questo processo si chiama tre-alfa, perché i fisici chiamano particella alfa il nucleo dell'atomo di elio."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "22.4 Further evolution of stars",
+     "url": "https://openstax.org/books/astronomy-2e/pages/22-4-further-evolution-of-stars"
+    },
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "22.5 The evolution of more massive stars",
+     "url": "https://openstax.org/books/astronomy-2e/pages/22-5-the-evolution-of-more-massive-stars"
+    }
+   ],
+   "videos": [
+    {
+     "id": "Mj06h8BeeOA",
+     "title": "White Dwarfs & Planetary Nebulae: Crash Course Astronomy #30",
+     "channel": "CrashCourse",
+     "length": "11:10"
+    },
+    {
+     "id": "W8UI7F43_Yk",
+     "title": "Nebulae: Crash Course Astronomy #36",
+     "channel": "CrashCourse",
+     "length": "12:16"
+    }
+   ],
+   "videoQuery": "white dwarfs planetary nebulae crash course astronomy",
+   "addedAt": "2026-11-04T11:28:46Z"
+  },
+  {
    "id": "supernove",
    "subject": "astronomia",
    "chapter": "Stelle",
@@ -23371,6 +24080,396 @@
    ],
    "videoQuery": "supernova stella di neutroni pulsar",
    "addedAt": "2026-11-04T00:12:22Z"
+  },
+  {
+   "id": "osservare-supernove",
+   "subject": "astronomia",
+   "chapter": "Stelle",
+   "title": "Supernova 1987A e le supernove della storia",
+   "hook": "Nel 1987 una stella esplose in una galassia vicina e fu vista a occhio nudo. I suoi neutrini arrivarono sulla Terra prima della luce, confermando la teoria.",
+   "points": [
+    "Supernove nella storia",
+    "La supernova 1987A",
+    "I neutrini dell'esplosione",
+    "Cosa resta e cosa impariamo"
+   ],
+   "sections": [
+    {
+     "h": "Stelle nuove nella storia",
+     "p": [
+      "Nella nostra galassia si stima che esploda in media una supernova ogni cinquant'anni circa, ma molte sono nascoste dalla polvere. Le cronache storiche ne ricordano alcune: nel 1006 una supernova fu così brillante da proiettare ombre; nel 1054 astronomi cinesi registrarono quella che formò la Nebulosa del Granchio.",
+      "Tycho Brahe osservò una supernova nel 1572 e Keplero un'altra nel 1604, l'ultima vista nella Via Lattea a occhio nudo. Mostravano che anche il cielo delle stelle cambia, contro l'idea antica di cieli immutabili."
+     ]
+    },
+    {
+     "h": "Supernova 1987A",
+     "p": [
+      "Il 24 febbraio 1987 gli astronomi videro esplodere una stella nella Grande Nube di Magellano, una galassia satellite della nostra a circa 160.000 anni luce. Fu la supernova più vicina osservata da quando esistono i telescopi, visibile a occhio nudo dall'emisfero australe.",
+      "La stella esplosa era già stata catalogata: una supergigante azzurra di circa 20 masse solari. Fu la prima volta che si conosceva la stella prima dell'esplosione, ed era una sorpresa: i modelli prevedevano una supergigante rossa."
+     ]
+    },
+    {
+     "h": "Il segnale dei neutrini",
+     "p": [
+      "Il collasso del nucleo di una stella massiccia libera la maggior parte dell'energia sotto forma di neutrini: si stima che SN 1987A ne abbia rilasciati circa 10⁵⁸. Alcune ore prima che la luce dell'esplosione fosse vista, rivelatori sotterranei in Giappone e negli Stati Uniti registrarono una ventina di neutrini in pochi secondi.",
+      "Era la prima rivelazione di neutrini da una sorgente oltre il Sole, e confermava in modo spettacolare la teoria del collasso del nucleo. Il fisico giapponese Masatoshi Koshiba ricevette per questo il premio Nobel nel 2002."
+     ]
+    },
+    {
+     "h": "Cosa resta",
+     "p": [
+      "Negli anni successivi, il materiale espulso dall'esplosione ha colpito un anello di gas lanciato dalla stella migliaia di anni prima. Si sono accesi punti caldi lungo l'anello: i primi segni di una collisione drammatica e violenta tra il materiale nuovo e quello vecchio.",
+      "Per decenni non si è trovata la stella di neutroni che dovrebbe essersi formata; nel 2024 il telescopio James Webb ha osservato indizi della sua presenza. Nei resti di supernova vediamo anche gli inconfondibili segni delle nostre origini: gli elementi pesanti appena prodotti, che un giorno faranno parte di nuove stelle e pianeti."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Ogni secondo il tuo corpo è attraversato da neutrini del Sole; nel 1987, per pochi secondi, anche da neutrini di una stella esplosa in un'altra galassia.",
+   "mistakes": [
+    "\"Le supernove sono rarissime\": nell'universo osservabile ne esplodono in continuazione; nella nostra galassia circa una ogni pochi decenni.",
+    "\"La luce arriva sempre prima di tutto\": i neutrini di SN 1987A arrivarono prima.",
+    "\"Il cielo stellato è immutabile\": le supernove lo cambiano."
+   ],
+   "terms": [
+    {
+     "t": "SN 1987A",
+     "d": "Supernova esplosa nel 1987 nella Grande Nube di Magellano."
+    },
+    {
+     "t": "Grande Nube di Magellano",
+     "d": "Galassia satellite della Via Lattea."
+    },
+    {
+     "t": "Collasso del nucleo",
+     "d": "Crollo del nucleo di ferro di una stella massiccia."
+    },
+    {
+     "t": "Resto di supernova",
+     "d": "Gas espulso dall'esplosione in espansione."
+    }
+   ],
+   "quote": {
+    "text": "It is estimated that the supernova actually released 1058 neutrinos.",
+    "translation": "Si stima che la supernova abbia effettivamente rilasciato 10⁵⁸ neutrini."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "23.3 Supernova observations",
+     "url": "https://openstax.org/books/astronomy-2e/pages/23-3-supernova-observations"
+    }
+   ],
+   "videos": [
+    {
+     "id": "5aPj--bedew",
+     "title": "It Happened! The Stunning Image of SN 1987A That Webb Captured",
+     "channel": "NASASpaceNews",
+     "length": "10:02"
+    },
+    {
+     "id": "GzOwPMoA5Zk",
+     "title": "Decade long mystery of supernova 1987A solved? | Night Sky News August 2020",
+     "channel": "Dr. Becky",
+     "length": "26:18"
+    }
+   ],
+   "videoQuery": "supernova 1987a",
+   "addedAt": "2026-11-04T11:28:46Z"
+  },
+  {
+   "id": "stelle-binarie",
+   "subject": "astronomia",
+   "chapter": "Stelle",
+   "title": "Stelle doppie che si scambiano materia: novae e supernove di tipo Ia",
+   "hook": "In un sistema doppio una stella può rubare gas all'altra. Su una nana bianca questo produce esplosioni periodiche, le novae, o la distrugge del tutto in una supernova.",
+   "points": [
+    "Scambio di massa nei sistemi doppi",
+    "Le novae",
+    "Le supernove di tipo Ia",
+    "Perché servono a misurare l'universo"
+   ],
+   "sections": [
+    {
+     "h": "Vicine e invadenti",
+     "p": [
+      "Molte stelle vivono in coppie strette. Quando una delle due invecchia e si gonfia come gigante, può riempire la regione in cui la sua gravità domina, e il suo gas può cominciare a scorrere verso la compagna. Questo trasferimento di massa cambia l'evoluzione di entrambe.",
+      "Se la compagna è una nana bianca, il gas, soprattutto idrogeno, l'elemento più comune dell'universo, non cade direttamente su di essa, ma forma un disco di accrescimento che spiraleggia verso la sua superficie."
+     ]
+    },
+    {
+     "h": "Le novae",
+     "p": [
+      "L'idrogeno accumulato sulla superficie della nana bianca viene compresso e scaldato dalla sua gravità intensissima, finché si accende all'improvviso una reazione di fusione esplosiva sulla superficie. La stella diventa per qualche giorno migliaia di volte più luminosa.",
+      "Agli osservatori prima dell'invenzione del telescopio sembrava che una stella nuova fosse comparsa all'improvviso, e la chiamarono nova. Le novae svaniscono in pochi mesi o qualche anno. Ne sono state osservate centinaia, ciascuna in un sistema doppio e ciascuna circondata poi da un guscio di materiale espulso. La nana bianca sopravvive, e alcune stelle hanno più di un episodio di nova, man mano che si accumula nuovo materiale."
+     ]
+    },
+    {
+     "h": "Supernove di tipo Ia",
+     "p": [
+      "Se la nana bianca accumula abbastanza massa da avvicinarsi al limite di Chandrasekhar, circa 1,4 masse solari, la temperatura al centro diventa così alta che il carbonio comincia a fondere in modo incontrollato. In pochi secondi l'intera stella esplode e si disintegra, senza lasciare alcun resto: è una supernova di tipo Ia.",
+      "Un'alternativa che molti scienziati considerano per produrre una supernova di tipo Ia è la fusione di due nane bianche in un sistema doppio. Le supernove di tipo Ia si riconoscono dallo spettro: la \"a\" indica la presenza di forti righe di assorbimento del silicio, assenti nelle supernove prodotte dal collasso di stelle massicce. Producono gran parte del ferro dell'universo."
+     ]
+    },
+    {
+     "h": "Un metro cosmico",
+     "p": [
+      "Poiché nascono da un meccanismo simile, con stelle vicine allo stesso limite di massa, le supernove di tipo Ia raggiungono luminosità massime molto simili. Possono brillare quanto un'intera galassia ed essere viste a miliardi di anni luce.",
+      "Sono quindi ottime candele standard per misurare distanze lontanissime. Proprio studiando supernove di tipo Ia lontane, alla fine degli anni Novanta due gruppi di astronomi scoprirono che l'espansione dell'universo sta accelerando, una scoperta premiata con il Nobel per la fisica nel 2011."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "La stella T Coronae Borealis è una nova ricorrente che esplode circa ogni 80 anni: gli astronomi la tengono d'occhio, e quando esploderà sarà visibile a occhio nudo.",
+   "mistakes": [
+    "\"Una nova è una stella appena nata\": è un'esplosione su una nana bianca esistente.",
+    "\"Tutte le supernove sono uguali\": il tipo Ia nasce da nane bianche, gli altri dal collasso di stelle massicce.",
+    "\"Dopo una nova la stella muore\": la nana bianca sopravvive e può ripetere l'esplosione."
+   ],
+   "terms": [
+    {
+     "t": "Trasferimento di massa",
+     "d": "Passaggio di gas da una stella all'altra in un sistema doppio."
+    },
+    {
+     "t": "Nova",
+     "d": "Esplosione sulla superficie di una nana bianca."
+    },
+    {
+     "t": "Supernova di tipo Ia",
+     "d": "Distruzione completa di una nana bianca."
+    },
+    {
+     "t": "Candela standard",
+     "d": "Oggetto di luminosità nota per misurare distanze."
+    }
+   ],
+   "quote": {
+    "text": "The leading alternative mechanism scientists believe creates a type Ia supernova is the merger of two white dwarf stars in a binary system.",
+    "translation": "Il principale meccanismo alternativo che, secondo gli scienziati, crea una supernova di tipo Ia è la fusione di due nane bianche in un sistema doppio."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "23.5 The evolution of binary star systems",
+     "url": "https://openstax.org/books/astronomy-2e/pages/23-5-the-evolution-of-binary-star-systems"
+    }
+   ],
+   "videos": [
+    {
+     "id": "pIFiCLhJmig",
+     "title": "Binary and Multiple Stars: Crash Course Astronomy #34",
+     "channel": "CrashCourse",
+     "length": "12:01"
+    }
+   ],
+   "videoQuery": "binary stars novae crash course astronomy",
+   "addedAt": "2026-11-04T11:28:46Z"
+  },
+  {
+   "id": "lampi-gamma",
+   "subject": "astronomia",
+   "chapter": "Stelle",
+   "title": "I lampi di raggi gamma: le esplosioni più potenti dell'universo",
+   "hook": "Per decenni lampi misteriosi di raggi gamma arrivarono da direzioni casuali. Oggi sappiamo che vengono da stelle che collassano e da stelle di neutroni che si scontrano.",
+   "points": [
+    "Una scoperta durante la Guerra fredda",
+    "Lampi lunghi: il collasso di stelle massicce",
+    "Lampi brevi: stelle di neutroni che si fondono",
+    "Onde gravitazionali e oro cosmico"
+   ],
+   "sections": [
+    {
+     "h": "Lampi misteriosi",
+     "p": [
+      "Negli anni Sessanta gli Stati Uniti lanciarono i satelliti Vela per sorvegliare eventuali test nucleari sovietici nello spazio. Invece di esplosioni nucleari, registrarono brevi e intensi lampi di raggi gamma che arrivavano dallo spazio. Il risultato rimase segreto fino al 1973.",
+      "Per decenni l'origine di questi lampi fu un mistero: arrivavano da direzioni casuali e duravano da frazioni di secondo a qualche minuto. Solo negli anni Novanta il satellite italo-olandese BeppoSAX riuscì a individuare il bagliore residuo di un lampo e a mostrare che proveniva da una galassia lontanissima. Questo significava energie enormi: per qualche secondo, un lampo gamma è l'oggetto più luminoso dell'universo."
+     ]
+    },
+    {
+     "h": "Lampi lunghi",
+     "p": [
+      "Esistono due grandi famiglie. I lampi lunghi, che durano più di un paio di secondi, sono associati alla morte di stelle molto massicce in galassie con formazione stellare attiva, e spesso sono seguiti da una supernova particolare.",
+      "La spiegazione a cui pensano gli astronomi per l'energia in più è il collasso del nucleo della stella in un buco nero o in una stella di neutroni rotante e fortemente magnetizzata. Questo motore centrale lancia due getti di materia a velocità vicinissime a quella della luce, lungo l'asse di rotazione. Se uno dei getti è puntato verso la Terra, vediamo un lampo gamma."
+     ]
+    },
+    {
+     "h": "Lampi brevi",
+     "p": [
+      "I lampi brevi, che durano meno di due secondi, hanno un'altra origine: la fusione di due stelle di neutroni, o di una stella di neutroni con un buco nero, in un sistema doppio che si è avvicinato perdendo energia sotto forma di onde gravitazionali.",
+      "La seconda prova decisiva arrivò nel 2017 con la rivelazione delle onde gravitazionali: gli strumenti LIGO e Virgo, quest'ultimo vicino a Pisa, registrarono le onde gravitazionali della fusione di due stelle di neutroni, e meno di due secondi dopo i satelliti registrarono un lampo gamma breve dalla stessa direzione. Questo ha dato agli astronomi grande fiducia che il modello sia corretto."
+     ]
+    },
+    {
+     "h": "Oro dalle stelle",
+     "p": [
+      "Telescopi di tutto il mondo osservarono poi la luce dell'esplosione, chiamata kilonova, e vi trovarono le tracce di elementi pesanti appena prodotti. Le fusioni di stelle di neutroni sono probabilmente tra le principali fabbriche di elementi come oro, platino e uranio.",
+      "I lampi gamma sono così luminosi da essere visibili fino ai confini dell'universo osservabile, e servono a studiare le prime generazioni di stelle. Se un lampo gamma esplodesse vicino alla Terra con il getto puntato verso di noi, potrebbe danneggiare lo strato di ozono, ma eventi simili sono rarissimi."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "L'oro del tuo anello potrebbe essere nato nello scontro tra due stelle di neutroni, miliardi di anni fa.",
+   "mistakes": [
+    "\"I lampi gamma vengono dalla nostra galassia\": vengono da galassie lontanissime.",
+    "\"Sono esplosioni in tutte le direzioni\": l'energia è concentrata in getti stretti.",
+    "\"L'oro della Terra si è formato sulla Terra\": è stato prodotto in eventi cosmici estremi."
+   ],
+   "terms": [
+    {
+     "t": "Lampo di raggi gamma",
+     "d": "Breve esplosione di raggi gamma da una galassia lontana."
+    },
+    {
+     "t": "Getto relativistico",
+     "d": "Flusso di materia a velocità vicina a quella della luce."
+    },
+    {
+     "t": "Kilonova",
+     "d": "Esplosione prodotta dalla fusione di stelle di neutroni."
+    },
+    {
+     "t": "Virgo",
+     "d": "Rivelatore di onde gravitazionali vicino a Pisa."
+    }
+   ],
+   "quote": {
+    "text": "The explanation astronomers have in mind for the extra energy is the collapse of the star’s core to form a spinning, magnetic black hole or neutron star.",
+    "translation": "La spiegazione a cui pensano gli astronomi per l'energia in più è il collasso del nucleo della stella in un buco nero o in una stella di neutroni rotante e magnetica."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "23.6 The mystery of the gamma ray bursts",
+     "url": "https://openstax.org/books/astronomy-2e/pages/23-6-the-mystery-of-the-gamma-ray-bursts"
+    }
+   ],
+   "videos": [
+    {
+     "id": "Z2zA9nPFN5A",
+     "title": "Gamma-Ray Bursts: Crash Course Astronomy #40",
+     "channel": "CrashCourse",
+     "length": "14:05"
+    },
+    {
+     "id": "Sc7Qd08ugQw",
+     "title": "NASA Explains Gamma-ray Bursts",
+     "channel": "NASA Goddard",
+     "length": "3:05"
+    }
+   ],
+   "videoQuery": "gamma-ray bursts crash course astronomy",
+   "addedAt": "2026-11-04T11:28:46Z"
+  },
+  {
+   "id": "relativita-generale",
+   "subject": "astronomia",
+   "chapter": "Galassie e cosmo",
+   "title": "La relatività generale: la gravità è spazio-tempo curvo",
+   "hook": "Einstein capì che la gravità non è una forza che agisce a distanza, ma la curvatura dello spazio e del tempo. Le prove, dalle eclissi al GPS.",
+   "points": [
+    "Il principio di equivalenza",
+    "Lo spazio-tempo curvo",
+    "Le prove della relatività generale",
+    "Il tempo rallenta con la gravità"
+   ],
+   "sections": [
+    {
+     "h": "Cadere senza peso",
+     "p": [
+      "Ad oggi la nostra migliore teoria della gravità è la relatività generale, proposta da Albert Einstein nel 1916. Il suo punto di partenza è un'osservazione semplice: un oggetto in caduta libera non sente il proprio peso. Gli astronauti in orbita fluttuano non perché lassù non ci sia gravità, ma perché cadono insieme alla navicella.",
+      "Questa idea, che la caduta libera sia indistinguibile, e quindi equivalente, all'assenza di gravità, si chiama principio di equivalenza. Allo stesso modo, in un'astronave che accelera nello spazio, ci si sente premuti verso il pavimento esattamente come sulla Terra: accelerazione e gravità sono indistinguibili localmente."
+     ]
+    },
+    {
+     "h": "La geometria dello spazio-tempo",
+     "p": [
+      "Einstein dedusse che la gravità non è una forza nel senso di Newton, ma la manifestazione della curvatura dello spazio-tempo, l'unione di spazio e tempo in un'unica struttura a quattro dimensioni. La massa e l'energia curvano lo spazio-tempo; gli oggetti, e anche la luce, si muovono lungo i percorsi più \"dritti\" possibili in questa geometria curva.",
+      "Un'immagine spesso usata è quella di un telo elastico teso, su cui una palla pesante crea un avvallamento: una biglia che passa vicino curva la sua traiettoria verso la palla. È solo un'analogia, ma rende l'idea. Il fisico John Wheeler lo riassunse così: la materia dice allo spazio-tempo come curvarsi, lo spazio-tempo dice alla materia come muoversi."
+     ]
+    },
+    {
+     "h": "Le prove",
+     "p": [
+      "La relatività generale ha superato ogni verifica. Spiegò un piccolo anomalo spostamento dell'orbita di Mercurio che la fisica di Newton non riusciva a giustificare. Previde che la luce delle stelle venisse deviata passando vicino al Sole: durante l'eclissi totale del 1919, la spedizione di Arthur Eddington misurò la deviazione prevista, rendendo Einstein famoso in tutto il mondo.",
+      "Oggi vediamo le lenti gravitazionali, galassie che deformano la luce di oggetti più lontani, e le onde gravitazionali, increspature dello spazio-tempo previste da Einstein e rivelate nel 2015."
+     ]
+    },
+    {
+     "h": "Il tempo e la gravità",
+     "p": [
+      "La relatività generale prevede anche che il tempo scorra più lentamente dove la gravità è più intensa. Un orologio al livello del mare va un pochino più piano di uno in cima a una montagna; esperimenti con orologi atomici lo hanno misurato anche con differenze di altezza di pochi centimetri.",
+      "Per i satelliti GPS, in orbita a 20.000 km dove la gravità è più debole, il tempo scorre più veloce di circa 45 milionesimi di secondo al giorno, mentre la loro velocità lo rallenta di circa 7: il risultato netto è circa 38 microsecondi al giorno in anticipo. Senza correggere questi effetti, il GPS accumulerebbe errori di posizione di circa 10 chilometri al giorno.",
+      "La luce che sfugge da un campo gravitazionale intenso perde energia e si sposta verso il rosso: è il redshift gravitazionale, misurato anche sulla Terra e nella luce delle nane bianche."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "La testa di una persona in piedi invecchia leggermente più in fretta dei suoi piedi: miliardesimi di secondo in una vita, ma misurabili.",
+   "mistakes": [
+    "\"In orbita non c'è gravità\": c'è, ma si cade insieme alla navicella.",
+    "\"La relatività generale ha sostituito Newton in tutto\": per gravità deboli Newton resta un'ottima approssimazione.",
+    "\"Il tempo scorre uguale ovunque\": rallenta dove la gravità è più forte."
+   ],
+   "terms": [
+    {
+     "t": "Principio di equivalenza",
+     "d": "Caduta libera e assenza di gravità sono localmente indistinguibili."
+    },
+    {
+     "t": "Spazio-tempo",
+     "d": "Unione di spazio e tempo in un'unica struttura."
+    },
+    {
+     "t": "Lente gravitazionale",
+     "d": "Deviazione della luce da parte della massa."
+    },
+    {
+     "t": "Redshift gravitazionale",
+     "d": "Allungamento della lunghezza d'onda della luce che sfugge alla gravità."
+    }
+   ],
+   "quote": {
+    "text": "This idea that free fall is indistinguishable from, and hence equivalent to, zero gravity is called the equivalence principle.",
+    "translation": "L'idea che la caduta libera sia indistinguibile, e quindi equivalente, all'assenza di gravità si chiama principio di equivalenza."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "24.1 Introducing general relativity",
+     "url": "https://openstax.org/books/astronomy-2e/pages/24-1-introducing-general-relativity"
+    },
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "24.2 Spacetime and gravity",
+     "url": "https://openstax.org/books/astronomy-2e/pages/24-2-spacetime-and-gravity"
+    },
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "24.3 Tests of general relativity",
+     "url": "https://openstax.org/books/astronomy-2e/pages/24-3-tests-of-general-relativity"
+    },
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "24.4 Time in general relativity",
+     "url": "https://openstax.org/books/astronomy-2e/pages/24-4-time-in-general-relativity"
+    }
+   ],
+   "videos": [
+    {
+     "id": "R7V3koyL7Mc",
+     "title": "General Relativity: The Curvature of Spacetime",
+     "channel": "Professor Dave Explains",
+     "length": "6:20"
+    },
+    {
+     "id": "AwhKZ3fd9JA",
+     "title": "General Relativity & Curved Spacetime Explained! | Space Time | PBS Digital Studios",
+     "channel": "PBS Space Time",
+     "length": "8:53"
+    }
+   ],
+   "videoQuery": "general relativity spacetime curvature",
+   "addedAt": "2026-11-04T11:28:46Z"
   },
   {
    "id": "buchi-neri",
@@ -23482,6 +24581,196 @@
     }
    ],
    "formulas": []
+  },
+  {
+   "id": "prove-buchi-neri",
+   "subject": "astronomia",
+   "chapter": "Galassie e cosmo",
+   "title": "Come sappiamo che i buchi neri esistono",
+   "hook": "Stelle che girano intorno al nulla, raggi X da gas caldissimo, l'ombra fotografata nel 2019: le prove dei buchi neri di massa stellare e di quelli supermassicci.",
+   "points": [
+    "Cercare l'invisibile",
+    "Cygnus X-1 e i sistemi binari a raggi X",
+    "I buchi neri supermassicci",
+    "La prima immagine di un buco nero"
+   ],
+   "sections": [
+    {
+     "h": "Cercare l'invisibile",
+     "p": [
+      "Per sua natura un buco nero non emette luce. Per trovarlo bisogna osservare il suo effetto sull'ambiente: la gravità su stelle vicine e la radiazione del gas che vi cade dentro.",
+      "Il metodo più convincente è misurare la massa di un oggetto compatto e invisibile: se è troppo grande per essere una stella di neutroni, oltre circa 3 masse solari, e troppo compatto e buio per essere una stella normale, l'unica spiegazione nota è un buco nero."
+     ]
+    },
+    {
+     "h": "Cygnus X-1",
+     "p": [
+      "Il primo sistema binario con un buco nero ad essere scoperto si chiama Cygnus X-1: una stella supergigante azzurra che gira intorno a una compagna invisibile, una potente sorgente di raggi X. Dallo spettro della stella visibile si misura la sua orbita, e da questa la massa della compagna: circa 20 volte il Sole.",
+      "Il gas strappato alla stella spiraleggia verso il buco nero in un disco di accrescimento e si scalda a milioni di gradi, emettendo raggi X. Venti di gas come questi sono caratteristici di diverse fasi della vita di una stella. Oggi si conoscono decine di buchi neri di massa stellare in sistemi simili nella nostra galassia."
+     ]
+    },
+    {
+     "h": "I giganti al centro delle galassie",
+     "p": [
+      "Al centro di quasi tutte le grandi galassie si trovano buchi neri supermassicci, con masse da milioni a miliardi di volte quella del Sole. Questi buchi neri possono contenere più di un miliardo di masse solari.",
+      "Al centro della Via Lattea, seguendo per decenni le orbite di stelle vicinissime al centro, i gruppi di Reinhard Genzel e Andrea Ghez hanno misurato la massa dell'oggetto invisibile che le governa: circa 4 milioni di masse solari concentrate in uno spazio piccolissimo, Sagittarius A*. La scoperta è stata premiata con il Nobel nel 2020."
+     ]
+    },
+    {
+     "h": "L'immagine",
+     "p": [
+      "Nel 2019 la collaborazione Event Horizon Telescope, collegando radiotelescopi di tutto il mondo in un unico telescopio virtuale grande quanto la Terra, ha pubblicato la prima immagine di un buco nero: quello al centro della galassia M87, di 6,5 miliardi di masse solari. Si vede un anello luminoso di gas caldissimo intorno a una zona scura, l'ombra del buco nero, proprio come previsto dalla relatività generale.",
+      "Nel 2022 è seguita l'immagine di Sagittarius A*, al centro della nostra galassia. Insieme alle onde gravitazionali delle fusioni di buchi neri, queste osservazioni hanno trasformato i buchi neri da previsione teorica a oggetti osservati in molti modi diversi."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "La prima foto di un buco nero ha richiesto otto radiotelescopi sparsi tra Hawaii, Cile, Spagna, Antartide e altri luoghi, che hanno osservato insieme.",
+   "mistakes": [
+    "\"Nessuno ha mai visto un buco nero\": ne abbiamo fotografato l'ombra.",
+    "\"Un oggetto invisibile è sempre un buco nero\": serve misurarne la massa e la compattezza.",
+    "\"I buchi neri supermassicci sono rari\": quasi ogni grande galassia ne ha uno."
+   ],
+   "terms": [
+    {
+     "t": "Binaria a raggi X",
+     "d": "Sistema in cui un oggetto compatto strappa gas a una stella."
+    },
+    {
+     "t": "Cygnus X-1",
+     "d": "Il primo buco nero di massa stellare scoperto."
+    },
+    {
+     "t": "Buco nero supermassiccio",
+     "d": "Buco nero di milioni o miliardi di masse solari."
+    },
+    {
+     "t": "Ombra del buco nero",
+     "d": "Zona scura circondata da un anello di luce nelle immagini EHT."
+    }
+   ],
+   "quote": {
+    "text": "The first black hole binary system to be discovered is called Cygnus X-1 (see Figure 24.1).",
+    "translation": "Il primo sistema binario con un buco nero ad essere scoperto si chiama Cygnus X-1 (vedi Figura 24.1)."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "24.6 Evidence for black holes",
+     "url": "https://openstax.org/books/astronomy-2e/pages/24-6-evidence-for-black-holes"
+    }
+   ],
+   "videos": [
+    {
+     "id": "uyMtsyzXWd4",
+     "title": "Inside the black hole image that made history | Sheperd Doeleman",
+     "channel": "TED",
+     "length": "11:30"
+    },
+    {
+     "id": "Q1bSDnuIPbo",
+     "title": "How did they actually take this picture? (Very Long Baseline Interferometry)",
+     "channel": "Veritasium",
+     "length": "19:47"
+    }
+   ],
+   "videoQuery": "evidence for black holes event horizon telescope",
+   "addedAt": "2026-11-04T11:28:46Z"
+  },
+  {
+   "id": "onde-gravitazionali",
+   "subject": "astronomia",
+   "chapter": "Galassie e cosmo",
+   "title": "Le onde gravitazionali: ascoltare lo spazio-tempo che vibra",
+   "hook": "Nel 2015, cento anni dopo la previsione di Einstein, LIGO registrò l'increspatura dello spazio-tempo prodotta da due buchi neri che si fondevano. Una nuova finestra sull'universo.",
+   "points": [
+    "Che cosa sono le onde gravitazionali",
+    "Come si rivelano",
+    "La prima rivelazione nel 2015",
+    "L'astronomia multimessaggera"
+   ],
+   "sections": [
+    {
+     "h": "Increspature dello spazio-tempo",
+     "p": [
+      "Secondo la relatività generale, quando masse enormi accelerano, per esempio due stelle compatte che girano l'una intorno all'altra, lo spazio-tempo intorno a loro viene perturbato. Questa perturbazione si chiama onda gravitazionale, e la relatività prevede che si propaghi verso l'esterno alla velocità della luce.",
+      "Passando, un'onda gravitazionale stira e comprime lo spazio, alternativamente in due direzioni perpendicolari. L'effetto però è incredibilmente piccolo: anche le onde prodotte dagli eventi più violenti dell'universo, arrivate sulla Terra, cambiano la distanza tra due punti a qualche chilometro di distanza di meno di un millesimo del diametro di un protone."
+     ]
+    },
+    {
+     "h": "Come si misura l'impercettibile",
+     "p": [
+      "Per rivelarle si usano interferometri laser giganti. Un fascio laser viene diviso in due e mandato lungo due bracci perpendicolari lunghi chilometri, dove rimbalza tra specchi; poi i due fasci vengono ricombinati. Se un'onda gravitazionale allunga un braccio e accorcia l'altro, i fasci non coincidono più perfettamente e si vede un segnale.",
+      "Negli Stati Uniti ci sono i due rivelatori LIGO, con bracci di 4 chilometri; in Italia, a Cascina vicino a Pisa, c'è Virgo, con bracci di 3 chilometri, frutto di una collaborazione italo-francese e poi europea; in Giappone KAGRA. Usarne diversi insieme permette di escludere i disturbi locali e di localizzare la sorgente nel cielo."
+     ]
+    },
+    {
+     "h": "14 settembre 2015",
+     "p": [
+      "Il 14 settembre 2015 i due rivelatori LIGO registrarono quasi contemporaneamente un segnale di due decimi di secondo: un'oscillazione che saliva di frequenza e di ampiezza, il \"cinguettio\" previsto per due buchi neri di circa 36 e 29 masse solari che spiraleggiavano l'uno verso l'altro e si fondevano, a circa 1,3 miliardi di anni luce.",
+      "Nella fusione, circa tre masse solari si trasformarono in energia di onde gravitazionali in una frazione di secondo. Purtroppo la fusione di due buchi neri non dovrebbe produrre luce, quindi questa è l'unica osservazione che abbiamo dell'evento. La scoperta fu premiata con il Nobel per la fisica nel 2017."
+     ]
+    },
+    {
+     "h": "Molti messaggeri",
+     "p": [
+      "Da allora sono state rivelate centinaia di fusioni di buchi neri e alcune di stelle di neutroni. Nel 2017 la fusione di due stelle di neutroni fu osservata sia con le onde gravitazionali sia con la luce, dai raggi gamma alle onde radio: è nata l'astronomia multimessaggera, che combina messaggeri diversi per studiare lo stesso evento.",
+      "In futuro, il rivelatore spaziale LISA, con bracci di milioni di chilometri, e il progetto europeo Einstein Telescope, per cui l'Italia si candida con un sito in Sardegna, ascolteranno sorgenti ancora più lontane e diverse, forse anche echi dei primi istanti dell'universo."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Le onde gravitazionali della prima rivelazione hanno viaggiato 1,3 miliardi di anni: sono partite quando sulla Terra esistevano solo organismi unicellulari.",
+   "mistakes": [
+    "\"Le onde gravitazionali sono onde di gravità come quelle dell'aria\": sono increspature dello spazio-tempo.",
+    "\"Si sentono come un suono\": il \"cinguettio\" è il segnale trasformato in suono per ascoltarlo.",
+    "\"Si osservano facilmente\": richiedono misure di precisione straordinaria."
+   ],
+   "terms": [
+    {
+     "t": "Onda gravitazionale",
+     "d": "Increspatura dello spazio-tempo che viaggia alla velocità della luce."
+    },
+    {
+     "t": "Interferometro",
+     "d": "Strumento che confronta due fasci di luce per misurare piccolissime variazioni."
+    },
+    {
+     "t": "LIGO e Virgo",
+     "d": "Rivelatori di onde gravitazionali negli Stati Uniti e in Italia."
+    },
+    {
+     "t": "Astronomia multimessaggera",
+     "d": "Studio di un evento con luce, onde gravitazionali e particelle."
+    }
+   ],
+   "quote": {
+    "text": "This disturbance is called a gravitational wave, and relativity predicts that it should spread outward at the speed of light.",
+    "translation": "Questa perturbazione si chiama onda gravitazionale, e la relatività prevede che si propaghi verso l'esterno alla velocità della luce."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "24.7 Gravitational wave astronomy",
+     "url": "https://openstax.org/books/astronomy-2e/pages/24-7-gravitational-wave-astronomy"
+    }
+   ],
+   "videos": [
+    {
+     "id": "gw-i_VKd6Wo",
+     "title": "LIGO's First Detection of Gravitational Waves!",
+     "channel": "PBS Space Time",
+     "length": "9:32"
+    },
+    {
+     "id": "iphcyNWFD10",
+     "title": "The Absurdity of Detecting Gravitational Waves",
+     "channel": "Veritasium",
+     "length": "9:07"
+    }
+   ],
+   "videoQuery": "gravitational waves LIGO",
+   "addedAt": "2026-11-04T11:28:46Z"
   },
   {
    "id": "via-lattea",
