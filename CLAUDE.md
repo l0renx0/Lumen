@@ -28,7 +28,7 @@ Argomento (`topics`):
   "id": "slug-minuscolo",
   "subject": "fisica",
   "title": "max ~80 caratteri, invitante ma fedele",
-  "hook": "frase di lancio, max ~160 caratteri",
+  "hook": "frase di lancio, max ~180 caratteri",
   "chapter": "uno dei capitoli in subjects[].chapters (es. Meccanica)",
   "sections": [{"h": "sottotitolo", "p": ["2-4 paragrafi"]}],
   "formulas": [{"f": "F = m · a", "d": "spiegazione a parole"}],

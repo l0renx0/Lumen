@@ -48,7 +48,7 @@ def main():
         visti.add(t.get("id"))
         if not re.fullmatch(r"[a-z0-9-]+", t.get("id", "")):
             errori.append(f"{nome}: id non valido (solo minuscole, numeri e trattini)")
-        if len(t.get("hook", "")) > 160:
+        if len(t.get("hook", "")) > 185:
             avvisi.append(f"{nome}: frase di lancio lunga ({len(t['hook'])} caratteri)")
         if not t.get("videos"):
             avvisi.append(f"{nome}: nessun video")

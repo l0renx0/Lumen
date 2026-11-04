@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-04T00:29:44Z",
+ "updatedAt": "2026-11-04T00:38:59Z",
  "subjects": [
   {
    "id": "fisica",
@@ -3719,6 +3719,1151 @@
    "addedAt": "2026-11-04T00:29:44Z"
   },
   {
+   "id": "bernoulli",
+   "subject": "fisica",
+   "chapter": "Fluidi",
+   "title": "Fluidi in movimento: portata e principio di Bernoulli",
+   "hook": "Perché l'acqua accelera quando stringi la canna? Perché un tetto può volare via con il vento? La fisica dei fluidi che scorrono.",
+   "points": [
+    "Portata ed equazione di continuità",
+    "Il principio di Bernoulli",
+    "Perché un fluido veloce ha pressione più bassa",
+    "Applicazioni: ali, spruzzatori, camini"
+   ],
+   "sections": [
+    {
+     "h": "Quanto fluido passa",
+     "p": [
+      "La portata è la quantità di fluido che attraversa una sezione in un certo tempo, per esempio litri al secondo. In un tubo senza perdite, la stessa portata deve passare in ogni punto: se il tubo si stringe, il fluido deve andare più veloce. È l'equazione di continuità.",
+      "Lo si vede quando l'acqua esce da una canna con uno spruzzatore stretto: esce a grande velocità, ed è proprio lo scopo dello spruzzatore. Anche un fiume scorre più veloce dove il letto si restringe e più lento dove si allarga.",
+      "Quando un tubo si divide in tanti rami, come le arterie che si suddividono fino ai capillari, si conserva la somma delle portate in tutti i rami. I capillari sono minuscoli, ma sono così numerosi che la loro sezione complessiva è enorme: per questo il sangue lì scorre lentissimo, dando il tempo di scambiare ossigeno e nutrienti."
+     ]
+    },
+    {
+     "h": "Il principio di Bernoulli",
+     "p": [
+      "Nel Settecento Daniel Bernoulli applicò la conservazione dell'energia a un fluido in movimento. Il risultato è un'equazione che lega pressione, velocità e altezza: lungo un tubo di flusso, la somma di pressione, energia cinetica per unità di volume ed energia potenziale per unità di volume resta costante.",
+      "La conseguenza più sorprendente è questa: dove un fluido scorre più velocemente, la sua pressione è più bassa. Sembra controintuitivo, ma si spiega così: per accelerare, il fluido deve essere spinto da una zona a pressione più alta verso una a pressione più bassa."
+     ]
+    },
+    {
+     "h": "Esperimenti di tutti i giorni",
+     "p": [
+      "Soffia tra due fogli di carta appesi vicini: invece di allontanarsi, si avvicinano, perché l'aria veloce tra loro ha pressione più bassa di quella ferma all'esterno. Lo stesso succede quando un camion sorpassa una bicicletta: la bicicletta viene \"risucchiata\" verso il camion.",
+      "Durante una tempesta, il vento veloce sopra un tetto abbassa la pressione all'esterno, mentre dentro la casa l'aria è ferma: la differenza di pressione può sollevare il tetto. Anche il tiraggio di un camino dipende in parte dal vento che passa sopra la sua bocca."
+     ]
+    },
+    {
+     "h": "Ali e altre applicazioni",
+     "p": [
+      "La portanza delle ali degli aerei si spiega in parte con il principio di Bernoulli: la forma e l'inclinazione dell'ala fanno sì che l'aria sopra scorra più velocemente e abbia pressione più bassa di quella sotto. In realtà conta molto anche il fatto che l'ala devia l'aria verso il basso, e per la terza legge di Newton l'aria spinge l'ala verso l'alto: le due spiegazioni sono aspetti dello stesso fenomeno.",
+      "Gli spruzzatori di profumo e i vecchi carburatori usano il principio di Bernoulli per aspirare un liquido in un getto d'aria veloce. I misuratori di velocità degli aerei, i tubi di Pitot, ricavano la velocità dalla differenza di pressione.",
+      "In medicina, un restringimento di un'arteria fa accelerare il sangue nel punto stretto e ne abbassa la pressione, con effetti che i medici imparano a riconoscere."
+     ]
+    }
+   ],
+   "formulas": [
+    {
+     "f": "Q = A·v",
+     "d": "Portata = area della sezione × velocità."
+    },
+    {
+     "f": "A₁·v₁ = A₂·v₂",
+     "d": "Equazione di continuità: dove il tubo si stringe il fluido accelera."
+    },
+    {
+     "f": "p + ½·ρ·v² + ρ·g·h = costante",
+     "d": "Equazione di Bernoulli."
+    }
+   ],
+   "example": "Tieni un foglio sotto le labbra e soffia sopra: si solleva, perché l'aria veloce sopra ha pressione più bassa di quella sotto.",
+   "mistakes": [
+    "\"Un fluido veloce spinge di più sulle pareti\": la sua pressione è più bassa.",
+    "\"Le ali volano solo grazie a Bernoulli\": conta anche la deviazione dell'aria verso il basso.",
+    "\"Nei capillari il sangue corre veloce perché sono stretti\": corre lento perché sono tantissimi."
+   ],
+   "terms": [
+    {
+     "t": "Portata",
+     "d": "Volume di fluido che passa ogni secondo."
+    },
+    {
+     "t": "Equazione di continuità",
+     "d": "Conservazione della portata lungo un tubo."
+    },
+    {
+     "t": "Principio di Bernoulli",
+     "d": "Dove la velocità aumenta, la pressione diminuisce."
+    }
+   ],
+   "quote": {
+    "text": "The consequences of the equation of continuity can be observed when water flows from a hose into a narrow spray nozzle: it emerges with a large speed—that is the purpose of the nozzle.",
+    "translation": "Le conseguenze dell'equazione di continuità si osservano quando l'acqua passa da una canna a uno spruzzatore stretto: esce a grande velocità, ed è proprio lo scopo dello spruzzatore."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "12.1 Flow rate and its relation to velocity",
+     "url": "https://openstax.org/books/college-physics-2e/pages/12-1-flow-rate-and-its-relation-to-velocity"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "12.2 Bernoullis equation",
+     "url": "https://openstax.org/books/college-physics-2e/pages/12-2-bernoullis-equation"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "12.3 The most general applications of bernoullis equation",
+     "url": "https://openstax.org/books/college-physics-2e/pages/12-3-the-most-general-applications-of-bernoullis-equation"
+    }
+   ],
+   "videos": [
+    {
+     "id": "fJefjG3xhW0",
+     "title": "Fluids in Motion: Crash Course Physics #15",
+     "channel": "CrashCourse",
+     "length": "9:47"
+    },
+    {
+     "id": "DW4rItB20h4",
+     "title": "Understanding Bernoulli's Equation",
+     "channel": "The Efficient Engineer",
+     "length": "13:44"
+    }
+   ],
+   "videoQuery": "bernoulli's principle crash course physics fluids in motion",
+   "addedAt": "2026-11-04T00:33:59Z"
+  },
+  {
+   "id": "viscosita-turbolenza",
+   "subject": "fisica",
+   "chapter": "Fluidi",
+   "title": "Viscosità, flusso laminare e turbolenza",
+   "hook": "Miele e acqua scorrono in modo diverso. E il fumo di una candela sale liscio per qualche centimetro, poi si arriccia: è l'inizio della turbolenza.",
+   "points": [
+    "Che cos'è la viscosità",
+    "Flusso laminare e legge di Poiseuille",
+    "Quando un flusso diventa turbolento",
+    "Oggetti che si muovono nei fluidi"
+   ],
+   "sections": [
+    {
+     "h": "L'attrito interno dei fluidi",
+     "p": [
+      "La viscosità è una specie di attrito interno di un fluido: misura quanto resiste a scorrere. Il miele e l'olio motore sono molto viscosi, l'acqua poco, l'aria pochissimo. La viscosità dei liquidi diminuisce quando si scaldano: il miele caldo scorre molto meglio di quello freddo.",
+      "Quando un fluido scorre in un tubo, lo strato a contatto con le pareti è quasi fermo, mentre quello al centro va più veloce. Gli strati scivolano uno sull'altro, e la viscosità frena questo scorrimento."
+     ]
+    },
+    {
+     "h": "Flusso laminare",
+     "p": [
+      "Se il flusso è lento e regolare, gli strati di fluido scorrono ordinatamente uno accanto all'altro senza mescolarsi: è il flusso laminare, dal latino lamina. Il flusso regolare si chiama laminare, mentre vortici e mulinelli caratterizzano il flusso turbolento.",
+      "Per il flusso laminare in un tubo vale la legge di Poiseuille: la portata dipende dalla differenza di pressione, dalla viscosità e soprattutto dal raggio del tubo, elevato alla quarta potenza. Dimezzare il raggio riduce la portata di sedici volte.",
+      "Questo ha conseguenze importanti nel corpo: un piccolo restringimento delle arterie, per esempio per una placca, riduce moltissimo il flusso di sangue. Per mantenerlo, il cuore deve lavorare di più e la pressione aumenta. Viceversa, il corpo regola il flusso verso i diversi organi allargando o restringendo di poco i vasi."
+     ]
+    },
+    {
+     "h": "L'inizio della turbolenza",
+     "p": [
+      "Se la velocità aumenta, a un certo punto il flusso laminare diventa instabile e nascono vortici irregolari: è la turbolenza. Il fumo di una candela o di un incenso sale in un filo sottile e liscio per qualche centimetro, poi si spezza in volute caotiche.",
+      "Il passaggio dipende da un numero senza dimensioni, il numero di Reynolds, che combina velocità, dimensioni, densità e viscosità. Se è piccolo il flusso è laminare, se è grande diventa turbolento.",
+      "Il flusso turbolento disperde molta più energia di quello laminare. Nel corpo il sangue scorre di solito in modo laminare; la turbolenza, che si può sentire con lo stetoscopio come un soffio, può indicare problemi alle valvole cardiache o restringimenti."
+     ]
+    },
+    {
+     "h": "Muoversi in un fluido",
+     "p": [
+      "Un oggetto che si muove in un fluido incontra una resistenza. A basse velocità o per oggetti piccoli, come le particelle di polvere o i batteri, la resistenza è dominata dalla viscosità e cresce proporzionalmente alla velocità. Per questo i granelli fini di sedimento scendono lentissimi nell'acqua, permettendo di separare sostanze diverse con la centrifugazione.",
+      "Per oggetti più grandi e veloci, come auto, nuotatori o aerei, domina la resistenza dovuta alla turbolenza, che cresce circa con il quadrato della velocità. Per i batteri, invece, nuotare nell'acqua è come per noi nuotare nel miele: appena smettono di spingere si fermano quasi istantaneamente."
+     ]
+    }
+   ],
+   "formulas": [
+    {
+     "f": "Q = π·r⁴·Δp / (8·η·L)",
+     "d": "Legge di Poiseuille: la portata dipende dal raggio alla quarta potenza."
+    },
+    {
+     "f": "Re = ρ·v·d / η",
+     "d": "Numero di Reynolds: piccolo = laminare, grande = turbolento."
+    }
+   ],
+   "example": "Apri appena il rubinetto: l'acqua scende in un filo liscio e trasparente. Aprilo di più: diventa irregolare e opaca, è turbolenta.",
+   "mistakes": [
+    "\"Un tubo un po' più stretto riduce un po' il flusso\": per il flusso laminare l'effetto cresce con la quarta potenza del raggio.",
+    "\"La turbolenza è solo un fenomeno dell'aria\": si verifica in qualsiasi fluido, anche nel sangue.",
+    "\"La viscosità non dipende dalla temperatura\": nei liquidi diminuisce scaldando."
+   ],
+   "terms": [
+    {
+     "t": "Viscosità",
+     "d": "Resistenza interna di un fluido a scorrere."
+    },
+    {
+     "t": "Flusso laminare",
+     "d": "Flusso ordinato a strati."
+    },
+    {
+     "t": "Turbolenza",
+     "d": "Flusso irregolare con vortici."
+    },
+    {
+     "t": "Numero di Reynolds",
+     "d": "Indica se un flusso sarà laminare o turbolento."
+    }
+   ],
+   "quote": {
+    "text": "The smooth flow is called laminar flow, whereas the swirls and eddies typify turbulent flow.",
+    "translation": "Il flusso regolare si chiama flusso laminare, mentre vortici e mulinelli caratterizzano il flusso turbolento."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "12.4 Viscosity and laminar flow poiseuilles law",
+     "url": "https://openstax.org/books/college-physics-2e/pages/12-4-viscosity-and-laminar-flow-poiseuilles-law"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "12.5 The onset of turbulence",
+     "url": "https://openstax.org/books/college-physics-2e/pages/12-5-the-onset-of-turbulence"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "12.6 Motion of an object in a viscous fluid",
+     "url": "https://openstax.org/books/college-physics-2e/pages/12-6-motion-of-an-object-in-a-viscous-fluid"
+    }
+   ],
+   "videos": [
+    {
+     "id": "9A-uUG0WR0w",
+     "title": "Understanding Laminar and Turbulent Flow",
+     "channel": "The Efficient Engineer",
+     "length": "14:59"
+    },
+    {
+     "id": "VvDJyhYSJv8",
+     "title": "Understanding Viscosity",
+     "channel": "The Efficient Engineer",
+     "length": "12:55"
+    }
+   ],
+   "videoQuery": "viscosity laminar turbulent flow",
+   "addedAt": "2026-11-04T00:33:59Z"
+  },
+  {
+   "id": "diffusione-osmosi",
+   "subject": "fisica",
+   "chapter": "Fluidi",
+   "title": "Diffusione e osmosi: come si muovono le molecole",
+   "hook": "Il profumo che riempie una stanza, l'acqua che entra nelle cellule, i reni artificiali: tutto si basa sul movimento casuale delle molecole.",
+   "points": [
+    "Che cos'è la diffusione",
+    "Perché è veloce sulle brevi distanze e lenta sulle lunghe",
+    "Osmosi e membrane semipermeabili",
+    "Trasporto attivo e dialisi"
+   ],
+   "sections": [
+    {
+     "h": "Un movimento senza direzione",
+     "p": [
+      "Le molecole di un liquido o di un gas sono in continuo movimento casuale a causa della loro energia termica, e urtano continuamente le une contro le altre. La diffusione è il movimento delle sostanze dovuto proprio a questo moto molecolare casuale.",
+      "Anche se ogni molecola si muove a caso, il risultato complessivo ha una direzione: le sostanze si spostano dalle zone dove sono più concentrate a quelle dove sono meno concentrate. Una goccia d'inchiostro in un bicchiere d'acqua si allarga piano piano fino a colorare tutto, senza bisogno di mescolare."
+     ]
+    },
+    {
+     "h": "Veloce da vicino, lenta da lontano",
+     "p": [
+      "La diffusione è efficiente sulle distanze piccolissime, ma lentissima su quelle grandi. La distanza percorsa cresce solo con la radice quadrata del tempo: per andare dieci volte più lontano serve cento volte più tempo.",
+      "Per questo le cellule sono piccole: ossigeno e nutrienti possono raggiungere ogni loro parte per diffusione in frazioni di secondo. Per distanze maggiori il corpo usa la circolazione del sangue, che trasporta le sostanze vicino a ogni cellula, lasciando alla diffusione solo l'ultimo micrometro.",
+      "Il profumo che si spande in una stanza, in realtà, viaggia soprattutto grazie alle correnti d'aria: la sola diffusione impiegherebbe moltissimo tempo."
+     ]
+    },
+    {
+     "h": "Membrane e osmosi",
+     "p": [
+      "Le cellule sono circondate da membrane semipermeabili, che lasciano passare alcune molecole, come l'acqua, e ne bloccano altre, come molti sali e zuccheri. Quando ai due lati di una membrana ci sono concentrazioni diverse di una sostanza che non può passare, l'acqua si sposta dal lato meno concentrato a quello più concentrato. È l'osmosi.",
+      "L'osmosi può generare pressioni notevoli. Un globulo rosso messo in acqua pura si gonfia fino a scoppiare, perché l'acqua entra; messo in acqua molto salata si raggrinzisce, perché l'acqua esce. Per questo le flebo usano una soluzione fisiologica con la stessa concentrazione salina del sangue.",
+      "Il sale sulle verdure fa uscire l'acqua per osmosi, ed è anche per questo che il sale e lo zucchero conservano i cibi: tolgono acqua ai microbi."
+     ]
+    },
+    {
+     "h": "Trasporto attivo e dialisi",
+     "p": [
+      "Le cellule viventi possono anche spostare sostanze contro la differenza di concentrazione, dalla zona meno concentrata a quella più concentrata. È il trasporto attivo, un processo in cui la membrana consuma energia, come una pompa. Le cellule nervose, per esempio, mantengono così le differenze di ioni che permettono di trasmettere i segnali.",
+      "La dialisi è il passaggio di molecole attraverso una membrana semipermeabile dovuto a differenze di concentrazione. Nei reni artificiali il sangue scorre accanto a una membrana immersa in una soluzione: le sostanze di scarto, più concentrate nel sangue, diffondono fuori, mentre le cellule del sangue restano dentro."
+     ]
+    }
+   ],
+   "formulas": [
+    {
+     "f": "x ∝ √t",
+     "d": "La distanza percorsa per diffusione cresce con la radice quadrata del tempo."
+    }
+   ],
+   "example": "Le prugne secche messe in acqua si gonfiano: l'acqua entra per osmosi verso l'interno, più ricco di zuccheri.",
+   "mistakes": [
+    "\"La diffusione è veloce a ogni distanza\": è efficiente solo su distanze piccolissime.",
+    "\"Nell'osmosi si muove il sale\": si muove l'acqua attraverso la membrana.",
+    "\"Le cellule possono solo seguire la diffusione\": con il trasporto attivo vanno contro corrente consumando energia."
+   ],
+   "terms": [
+    {
+     "t": "Diffusione",
+     "d": "Spostamento di sostanze dovuto al moto casuale delle molecole."
+    },
+    {
+     "t": "Membrana semipermeabile",
+     "d": "Membrana che lascia passare solo alcune molecole."
+    },
+    {
+     "t": "Osmosi",
+     "d": "Passaggio di acqua attraverso una membrana verso la soluzione più concentrata."
+    },
+    {
+     "t": "Trasporto attivo",
+     "d": "Spostamento contro concentrazione che consuma energia."
+    }
+   ],
+   "quote": {
+    "text": "Diffusion is the movement of substances due to random thermal molecular motion.",
+    "translation": "La diffusione è il movimento delle sostanze dovuto al moto molecolare termico casuale."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "12.7 Molecular transport phenomena diffusion osmosis and related processes",
+     "url": "https://openstax.org/books/college-physics-2e/pages/12-7-molecular-transport-phenomena-diffusion-osmosis-and-related-processes"
+    }
+   ],
+   "videos": [
+    {
+     "id": "PRi6uHDKeW4",
+     "title": "Transport in Cells: Diffusion and Osmosis | Cells | Biology | FuseSchool",
+     "channel": "FuseSchool - Global Education",
+     "length": "3:52"
+    },
+    {
+     "id": "aubZU0iWtgI",
+     "title": "Diffusion and osmosis | Membranes and transport | Biology | Khan Academy",
+     "channel": "Khan Academy",
+     "length": "18:59"
+    }
+   ],
+   "videoQuery": "diffusion and osmosis",
+   "addedAt": "2026-11-04T00:33:59Z"
+  },
+  {
+   "id": "temperatura-dilatazione",
+   "subject": "fisica",
+   "chapter": "Termodinamica",
+   "title": "Temperatura e dilatazione termica: Celsius, Kelvin e binari che si allungano",
+   "hook": "Cosa misura davvero un termometro? Perché i ponti hanno giunti e le bottiglie scoppiano in freezer? Scale di temperatura e dilatazione.",
+   "points": [
+    "Cosa misura la temperatura",
+    "Le scale Celsius, Fahrenheit e Kelvin",
+    "Lo zero assoluto",
+    "La dilatazione termica e la strana acqua"
+   ],
+   "sections": [
+    {
+     "h": "Caldo e freddo, misurati",
+     "p": [
+      "La temperatura è la grandezza che misura un termometro. A livello microscopico è legata all'energia cinetica media con cui si agitano atomi e molecole: più sono agitati, più l'oggetto è caldo.",
+      "Quando due oggetti a temperature diverse vengono messi a contatto, l'energia passa dal più caldo al più freddo finché raggiungono la stessa temperatura: l'equilibrio termico. È questo principio che permette ai termometri di funzionare: il termometro raggiunge la temperatura di ciò che misura."
+     ]
+    },
+    {
+     "h": "Tre scale",
+     "p": [
+      "Le tre scale di temperatura più comuni sono la Fahrenheit, la Celsius e la Kelvin. Nella scala Celsius, l'acqua a pressione atmosferica gela a 0 °C e bolle a 100 °C. Nella Fahrenheit, usata negli Stati Uniti, gela a 32 °F e bolle a 212 °F.",
+      "La scala Kelvin è quella comunemente usata nella scienza. I suoi gradi sono grandi quanto quelli Celsius, ma lo zero è spostato: 0 K corrisponde a −273,15 °C. Per passare da Celsius a Kelvin basta aggiungere 273,15."
+     ]
+    },
+    {
+     "h": "Lo zero assoluto",
+     "p": [
+      "Lo zero della scala Kelvin è lo zero assoluto, la temperatura più bassa possibile, alla quale l'agitazione termica degli atomi sarebbe minima. Non si può raggiungere esattamente, ma i laboratori ci sono arrivati vicinissimi, a milionesimi di grado.",
+      "Usare la scala Kelvin rende semplici molte leggi fisiche, come la legge dei gas: in Kelvin, raddoppiare la temperatura significa davvero raddoppiare l'energia media delle molecole, cosa che non vale passando da 10 °C a 20 °C."
+     ]
+    },
+    {
+     "h": "La dilatazione termica",
+     "p": [
+      "Quasi tutti i materiali si espandono quando si scaldano e si contraggono quando si raffreddano: le molecole più agitate occupano più spazio. La variazione di lunghezza è proporzionale alla lunghezza iniziale e alla variazione di temperatura, con un coefficiente diverso per ogni materiale.",
+      "Gli effetti sono piccoli ma importanti. I ponti e le rotaie hanno giunti di dilatazione, piccoli spazi che permettono al materiale di allungarsi d'estate senza deformarsi. I cavi elettrici pendono di più d'estate. Per aprire un barattolo con il coperchio metallico bloccato si può scaldarlo sotto l'acqua calda: il metallo si dilata più del vetro.",
+      "I termostati e i vecchi termometri a lancetta usano lamine fatte di due metalli diversi incollati: scaldandosi si piegano perché un metallo si allunga più dell'altro."
+     ]
+    },
+    {
+     "h": "L'eccezione dell'acqua",
+     "p": [
+      "L'acqua si comporta in modo strano: raffreddandosi si contrae fino a circa 4 °C, ma tra 4 °C e 0 °C si espande. E quando gela si espande ancora di circa il 9%. Per questo una bottiglia piena d'acqua dimenticata in freezer scoppia, e le tubature possono rompersi d'inverno.",
+      "Questa anomalia è fondamentale per la vita: d'inverno l'acqua a 4 °C, più densa, si raccoglie sul fondo dei laghi, mentre il ghiaccio, meno denso, galleggia in superficie e isola l'acqua sottostante. I laghi gelano dall'alto e i pesci sopravvivono sul fondo."
+     ]
+    }
+   ],
+   "formulas": [
+    {
+     "f": "T(K) = T(°C) + 273,15",
+     "d": "Da Celsius a Kelvin."
+    },
+    {
+     "f": "T(°F) = 1,8·T(°C) + 32",
+     "d": "Da Celsius a Fahrenheit."
+    },
+    {
+     "f": "ΔL = α·L·ΔT",
+     "d": "Dilatazione lineare."
+    }
+   ],
+   "example": "Un binario d'acciaio lungo un chilometro si allunga di circa 12 centimetri tra una giornata a 0 °C e una a 10 °C: servono i giunti.",
+   "mistakes": [
+    "\"20 °C è il doppio più caldo di 10 °C\": in Kelvin la differenza è di pochi punti percentuali.",
+    "\"Tutti i materiali si contraggono raffreddandosi\": l'acqua tra 4 e 0 °C si espande.",
+    "\"Temperatura e calore sono la stessa cosa\": la temperatura è uno stato, il calore è energia che passa."
+   ],
+   "terms": [
+    {
+     "t": "Equilibrio termico",
+     "d": "Stato in cui due corpi hanno la stessa temperatura."
+    },
+    {
+     "t": "Kelvin",
+     "d": "Scala di temperatura con lo zero allo zero assoluto."
+    },
+    {
+     "t": "Zero assoluto",
+     "d": "Temperatura più bassa possibile, 0 K."
+    },
+    {
+     "t": "Dilatazione termica",
+     "d": "Variazione di dimensioni con la temperatura."
+    }
+   ],
+   "quote": {
+    "text": "The Kelvin scale is the temperature scale that is commonly used in science.",
+    "translation": "La scala Kelvin è la scala di temperatura comunemente usata nella scienza."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "13.1 Temperature",
+     "url": "https://openstax.org/books/college-physics-2e/pages/13-1-temperature"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "13.2 Thermal expansion of solids and liquids",
+     "url": "https://openstax.org/books/college-physics-2e/pages/13-2-thermal-expansion-of-solids-and-liquids"
+    }
+   ],
+   "videos": [
+    {
+     "id": "6BHbJ_gBOk0",
+     "title": "Temperature: Crash Course Physics #20",
+     "channel": "CrashCourse",
+     "length": "9:01"
+    },
+    {
+     "id": "tuSC0ObB-qY",
+     "title": "The Physics of Heat: Crash Course Physics #22",
+     "channel": "CrashCourse",
+     "length": "9:16"
+    }
+   ],
+   "videoQuery": "temperature thermal expansion crash course physics",
+   "addedAt": "2026-11-04T00:33:59Z"
+  },
+  {
+   "id": "gas-perfetti",
+   "subject": "fisica",
+   "chapter": "Termodinamica",
+   "title": "La legge dei gas e la teoria cinetica",
+   "hook": "Perché le gomme si sgonfiano d'inverno e una bomboletta scaldata può esplodere? Pressione, volume e temperatura dei gas sono legati da una legge semplice.",
+   "points": [
+    "La legge dei gas perfetti",
+    "Mole e numero di Avogadro",
+    "La teoria cinetica dei gas",
+    "Cosa sono davvero pressione e temperatura"
+   ],
+   "sections": [
+    {
+     "h": "Tre grandezze collegate",
+     "p": [
+      "Lo stato di un gas si descrive con tre grandezze: pressione, volume e temperatura. Nei secoli diversi scienziati scoprirono che sono legate tra loro. A temperatura costante, se riduci il volume la pressione aumenta (legge di Boyle). A pressione costante, se aumenti la temperatura il volume aumenta (legge di Charles).",
+      "Queste leggi si riassumono in un'unica equazione, la legge dei gas perfetti: pressione per volume è uguale al numero di particelle per una costante per la temperatura assoluta. Un'equazione che lega le proprietà termodinamiche di un sistema si chiama equazione di stato.",
+      "In condizioni normali, quando il gas è abbastanza rarefatto, molti gas reali si comportano quasi esattamente come prevede questa legge: si parla allora di gas perfetto o ideale."
+     ]
+    },
+    {
+     "h": "Contare le molecole",
+     "p": [
+      "Per contare le enormi quantità di molecole presenti anche in poco gas, si usa la mole: l'unità del Sistema Internazionale per la quantità di sostanza. Una mole contiene circa 6,02 × 10²³ particelle, il numero di Avogadro.",
+      "Una mole di qualsiasi gas, a 0 °C e alla pressione atmosferica, occupa circa 22,4 litri. Una stanza di 5 per 5 per 3 metri contiene circa 90 kg di aria, più o meno il peso di una persona: l'aria sembra leggera solo perché è molto rarefatta."
+     ]
+    },
+    {
+     "h": "La teoria cinetica",
+     "p": [
+      "Perché i gas obbediscono a questa legge? La teoria cinetica lo spiega immaginando il gas come un'enorme quantità di minuscole particelle che si muovono velocissime in tutte le direzioni, urtano tra loro e contro le pareti del contenitore.",
+      "La pressione è l'effetto complessivo di miliardi di urti delle molecole contro le pareti ogni secondo. Se riduci il volume, le molecole urtano le pareti più spesso, e la pressione sale. Se aumenti la temperatura, le molecole vanno più veloci e urtano più forte e più spesso.",
+      "La temperatura assoluta risulta proporzionale all'energia cinetica media delle molecole. Le molecole d'aria in una stanza viaggiano in media a circa 500 metri al secondo, più veloci di un aereo di linea."
+     ]
+    },
+    {
+     "h": "Nella vita quotidiana",
+     "p": [
+      "Le gomme dell'auto perdono pressione d'inverno perché il gas al loro interno si raffredda. Una bomboletta spray non va mai scaldata: aumentando la temperatura a volume costante, la pressione cresce fino a poterla far esplodere.",
+      "Una mongolfiera sfrutta la legge dei gas al contrario: scaldando l'aria, questa si espande e diventa meno densa. Una pentola a pressione aumenta la pressione e quindi la temperatura di ebollizione dell'acqua, cuocendo più in fretta.",
+      "La teoria cinetica fu anche una delle prime prove convincenti che la materia è davvero fatta di atomi e molecole."
+     ]
+    }
+   ],
+   "formulas": [
+    {
+     "f": "p·V = n·R·T",
+     "d": "Legge dei gas perfetti con n moli, R costante dei gas, T in kelvin."
+    },
+    {
+     "f": "p·V = N·k·T",
+     "d": "Stessa legge con N molecole e k costante di Boltzmann."
+    }
+   ],
+   "example": "Un pallone gonfiato in casa e portato fuori al freddo diventa più molle: l'aria dentro si è raffreddata e la pressione è scesa.",
+   "mistakes": [
+    "\"Nella legge dei gas si può usare la temperatura in Celsius\": serve quella assoluta in kelvin.",
+    "\"La pressione è una forza che il gas ha dentro\": è l'effetto degli urti delle molecole.",
+    "\"L'aria non pesa\": una stanza ne contiene decine di chili."
+   ],
+   "terms": [
+    {
+     "t": "Gas perfetto",
+     "d": "Gas ideale che segue esattamente la legge dei gas."
+    },
+    {
+     "t": "Mole",
+     "d": "Quantità di sostanza con circa 6,02×10²³ particelle."
+    },
+    {
+     "t": "Teoria cinetica",
+     "d": "Spiegazione delle proprietà dei gas con il moto delle molecole."
+    },
+    {
+     "t": "Equazione di stato",
+     "d": "Relazione tra pressione, volume e temperatura."
+    }
+   ],
+   "quote": {
+    "text": "In such cases, the gas is called an ideal gas, and the relationship between the pressure, volume, and temperature is given by the equation called the ideal gas law.",
+    "translation": "In questi casi il gas si dice ideale, e la relazione tra pressione, volume e temperatura è data dall'equazione chiamata legge dei gas perfetti."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "13.3 The ideal gas law",
+     "url": "https://openstax.org/books/college-physics-2e/pages/13-3-the-ideal-gas-law"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "13.4 Kinetic theory atomic and molecular explanation of pressure and temperature",
+     "url": "https://openstax.org/books/college-physics-2e/pages/13-4-kinetic-theory-atomic-and-molecular-explanation-of-pressure-and-temperature"
+    }
+   ],
+   "videos": [
+    {
+     "id": "robEY-idcLU",
+     "title": "Kinetic Molecular Theory and the Ideal Gas Laws",
+     "channel": "Professor Dave Explains",
+     "length": "5:11"
+    },
+    {
+     "id": "BxUS1K7xu30",
+     "title": "The Ideal Gas Law: Crash Course Chemistry #12",
+     "channel": "CrashCourse",
+     "length": "9:03"
+    }
+   ],
+   "videoQuery": "ideal gas law kinetic theory crash course",
+   "addedAt": "2026-11-04T00:33:59Z"
+  },
+  {
+   "id": "stati-della-materia",
+   "subject": "fisica",
+   "chapter": "Termodinamica",
+   "title": "Cambiamenti di stato, calore latente e umidità",
+   "hook": "Il ghiaccio che si scioglie resta a 0 °C finché non è tutto acqua. In montagna la pasta cuoce più lentamente. E il sudore ci rinfresca. Tutto è calore latente.",
+   "points": [
+    "Fusione, ebollizione, sublimazione",
+    "Il calore latente",
+    "Pressione e punto di ebollizione",
+    "Evaporazione, umidità e sudore"
+   ],
+   "sections": [
+    {
+     "h": "Passare da uno stato all'altro",
+     "p": [
+      "Una sostanza può passare da solido a liquido (fusione), da liquido a gas (vaporizzazione), e viceversa (solidificazione e condensazione). Alcune sostanze passano direttamente da solido a gas: è la sublimazione, come per il ghiaccio secco o la neve che sparisce in giornate fredde ma secche.",
+      "Il termine vapore indica la fase gassosa di una sostanza quando si trova a una temperatura inferiore a quella di ebollizione, come il vapore acqueo presente nell'aria."
+     ]
+    },
+    {
+     "h": "Il calore latente",
+     "p": [
+      "Se scaldi un cubetto di ghiaccio a −10 °C, la sua temperatura sale fino a 0 °C. Poi succede una cosa curiosa: continui a fornire calore, ma la temperatura resta ferma a 0 °C finché tutto il ghiaccio non si è sciolto. Lo stesso succede a 100 °C mentre l'acqua bolle.",
+      "Quell'energia non scalda la sostanza: serve a rompere i legami tra le molecole per cambiarne lo stato. Si chiama calore latente, cioè nascosto. Per sciogliere un chilo di ghiaccio servono circa 334.000 joule; per far evaporare un chilo d'acqua bollente oltre 2 milioni di joule, più di cinque volte l'energia necessaria per scaldarlo da 0 a 100 °C.",
+      "Il calore latente viene restituito nel passaggio inverso. Per questo le scottature da vapore sono più gravi di quelle da acqua bollente: condensando sulla pelle, il vapore cede una grande quantità di energia."
+     ]
+    },
+    {
+     "h": "La pressione cambia tutto",
+     "p": [
+      "Il punto di ebollizione dipende dalla pressione. A livello del mare l'acqua bolle a 100 °C; in alta montagna, dove la pressione è minore, bolle a temperature più basse, intorno a 90 °C a 3000 metri: la pasta cuoce più lentamente perché l'acqua è meno calda.",
+      "La pentola a pressione fa il contrario: aumentando la pressione, l'acqua bolle a circa 120 °C e cuoce i cibi più in fretta. I diagrammi di fase mostrano in che stato si trova una sostanza a ogni combinazione di pressione e temperatura."
+     ]
+    },
+    {
+     "h": "Evaporazione e umidità",
+     "p": [
+      "L'evaporazione avviene anche sotto il punto di ebollizione: le molecole più veloci sulla superficie riescono a sfuggire. Poiché se ne vanno le più energetiche, il liquido che resta si raffredda. È così che il sudore ci rinfresca, e che un'anfora di terracotta mantiene l'acqua fresca.",
+      "L'umidità indica quanto vapore acqueo c'è nell'aria. L'umidità relativa confronta il vapore presente con il massimo che l'aria può contenere a quella temperatura. Quando è vicina al 100%, il sudore evapora a fatica e il caldo sembra molto più opprimente: è l'afa.",
+      "Se l'aria umida si raffredda, a un certo punto non riesce più a contenere tutto il vapore, che condensa in goccioline: è il punto di rugiada. Così si formano la rugiada al mattino, la nebbia e le goccioline sul bicchiere di bibita ghiacciata."
+     ]
+    }
+   ],
+   "formulas": [
+    {
+     "f": "Q = m·L",
+     "d": "Calore latente: energia per cambiare stato a una massa m."
+    },
+    {
+     "f": "L_fusione acqua ≈ 334 kJ/kg · L_vaporizzazione ≈ 2256 kJ/kg",
+     "d": "Valori per l'acqua."
+    }
+   ],
+   "example": "Uscendo dalla doccia senti freddo anche in una stanza tiepida: l'acqua che evapora dalla pelle si porta via calore.",
+   "mistakes": [
+    "\"Scaldando di più l'acqua che bolle, la temperatura sale\": resta a 100 °C finché c'è acqua.",
+    "\"L'acqua bolle sempre a 100 °C\": dipende dalla pressione.",
+    "\"Il vapore e l'acqua bollente scottano uguale\": il vapore cede anche il calore latente."
+   ],
+   "terms": [
+    {
+     "t": "Calore latente",
+     "d": "Energia per cambiare stato senza cambiare temperatura."
+    },
+    {
+     "t": "Sublimazione",
+     "d": "Passaggio diretto da solido a gas."
+    },
+    {
+     "t": "Umidità relativa",
+     "d": "Vapore presente rispetto al massimo possibile."
+    },
+    {
+     "t": "Punto di rugiada",
+     "d": "Temperatura a cui il vapore comincia a condensare."
+    }
+   ],
+   "quote": {
+    "text": "The term “vapor” refers to the gas phase when it exists at a temperature below the boiling temperature.",
+    "translation": "Il termine \"vapore\" indica la fase gassosa quando si trova a una temperatura inferiore a quella di ebollizione."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "13.5 Phase changes",
+     "url": "https://openstax.org/books/college-physics-2e/pages/13-5-phase-changes"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "13.6 Humidity evaporation and boiling",
+     "url": "https://openstax.org/books/college-physics-2e/pages/13-6-humidity-evaporation-and-boiling"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "14.3 Phase change and latent heat",
+     "url": "https://openstax.org/books/college-physics-2e/pages/14-3-phase-change-and-latent-heat"
+    }
+   ],
+   "videos": [
+    {
+     "id": "oc0ypeDELb0",
+     "title": "Phase Changes, Heats of Fusion and Vaporization, and Phase Diagrams",
+     "channel": "Professor Dave Explains",
+     "length": "4:51"
+    },
+    {
+     "id": "Aeddl02frBE",
+     "title": "Phase changes | Middle school chemistry | Khan Academy",
+     "channel": "Khan Academy",
+     "length": "7:38"
+    }
+   ],
+   "videoQuery": "phase changes latent heat boiling",
+   "addedAt": "2026-11-04T00:33:59Z"
+  },
+  {
+   "id": "calore-e-capacita-termica",
+   "subject": "fisica",
+   "chapter": "Termodinamica",
+   "title": "Calore e capacità termica: perché il mare resta tiepido",
+   "hook": "Una pentola d'acqua impiega molto a scaldarsi, la sabbia scotta in pochi minuti. Il calore è energia in transito, e ogni sostanza lo accumula in modo diverso.",
+   "points": [
+    "La definizione di calore",
+    "Calore e temperatura non sono la stessa cosa",
+    "Il calore specifico",
+    "Perché l'acqua è speciale"
+   ],
+   "sections": [
+    {
+     "h": "Energia in viaggio",
+     "p": [
+      "In fisica il calore è il trasferimento spontaneo di energia dovuto a una differenza di temperatura. Non è una sostanza contenuta negli oggetti, come si pensava un tempo, ma energia che passa da un corpo più caldo a uno più freddo.",
+      "Nel Settecento si credeva in un fluido invisibile chiamato \"calorico\". Esperimenti come quelli di James Joule, che scaldava l'acqua facendola agitare da pale mosse da pesi in caduta, mostrarono che lavoro meccanico e calore sono due forme della stessa cosa: energia. Anche il calore si misura quindi in joule, oppure in calorie."
+     ]
+    },
+    {
+     "h": "Calore e temperatura",
+     "p": [
+      "Temperatura e calore sono spesso confusi. La temperatura descrive lo stato di un corpo, legato all'agitazione media delle sue molecole. Il calore è l'energia che passa tra corpi a temperature diverse.",
+      "Una scintilla di un fuoco d'artificio è a migliaia di gradi ma ti tocca senza bruciarti, perché ha pochissima massa e cede poca energia. Una vasca d'acqua tiepida a 40 °C contiene molta più energia termica, pur essendo molto meno calda."
+     ]
+    },
+    {
+     "h": "Il calore specifico",
+     "p": [
+      "Per aumentare la temperatura di un oggetto serve energia, e quanta dipende da tre fattori: la massa, l'aumento di temperatura desiderato e il tipo di materiale. Il calore specifico è l'energia necessaria per scaldare di un grado un chilogrammo di una sostanza.",
+      "Le sostanze differiscono moltissimo. L'acqua ha un calore specifico altissimo, circa 4186 joule per chilogrammo per grado; i metalli come ferro e rame ne hanno circa un decimo. Per questo una padella di ferro sul fuoco diventa rovente in un attimo, mentre l'acqua impiega minuti a scaldarsi.",
+      "La caloria alimentare (la kilocaloria) era in origine definita proprio come l'energia necessaria per scaldare un chilogrammo d'acqua di un grado Celsius."
+     ]
+    },
+    {
+     "h": "L'acqua, termostato del pianeta",
+     "p": [
+      "Il calore specifico elevato dell'acqua ha conseguenze enormi. Il mare si scalda lentamente d'estate e si raffredda lentamente d'inverno: per questo le città costiere hanno climi più miti di quelle dell'entroterra, con estati meno torride e inverni meno rigidi.",
+      "Di giorno in spiaggia la sabbia scotta mentre l'acqua è fresca; di sera la sabbia si è già raffreddata mentre l'acqua è ancora tiepida. La differenza di temperatura tra terra e mare genera le brezze.",
+      "Anche il nostro corpo, fatto in gran parte d'acqua, sfrutta questa proprietà per mantenere una temperatura stabile. E i termosifoni ad acqua funzionano bene perché l'acqua trasporta molta energia per ogni grado di temperatura."
+     ]
+    }
+   ],
+   "formulas": [
+    {
+     "f": "Q = m·c·ΔT",
+     "d": "Calore necessario = massa × calore specifico × variazione di temperatura."
+    },
+    {
+     "f": "c acqua ≈ 4186 J/(kg·°C)",
+     "d": "Calore specifico dell'acqua, tra i più alti."
+    }
+   ],
+   "example": "In una casa al mare d'estate la sera rinfresca meno che in campagna: il mare, scaldato lentamente, rilascia lentamente il suo calore.",
+   "mistakes": [
+    "\"Un oggetto contiene calore\": contiene energia interna; il calore è energia in transito.",
+    "\"Più è alta la temperatura, più energia c'è\": dipende anche da massa e materiale.",
+    "\"Tutti i materiali si scaldano allo stesso ritmo\": dipende dal calore specifico."
+   ],
+   "terms": [
+    {
+     "t": "Calore",
+     "d": "Energia trasferita per differenza di temperatura."
+    },
+    {
+     "t": "Calore specifico",
+     "d": "Energia per scaldare di un grado un kg di sostanza."
+    },
+    {
+     "t": "Caloria",
+     "d": "Unità di energia, circa 4,186 joule."
+    }
+   ],
+   "quote": {
+    "text": "These observations lead to the following definition of heat: Heat is the spontaneous transfer of energy due to a temperature difference.",
+    "translation": "Queste osservazioni portano alla seguente definizione di calore: il calore è il trasferimento spontaneo di energia dovuto a una differenza di temperatura."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "14.1 Heat",
+     "url": "https://openstax.org/books/college-physics-2e/pages/14-1-heat"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "14.2 Temperature change and heat capacity",
+     "url": "https://openstax.org/books/college-physics-2e/pages/14-2-temperature-change-and-heat-capacity"
+    }
+   ],
+   "videos": [
+    {
+     "id": "LUHGFLR2p8k",
+     "title": "GCSE Physics - Specific Heat Capacity | Internal Energy & Temperature (2027/28 exams)",
+     "channel": "Cognito",
+     "length": "5:02"
+    },
+    {
+     "id": "TqJFIBODrjM",
+     "title": "Specific Heat Capacity  | Matter | Physics | FuseSchool",
+     "channel": "FuseSchool - Global Education",
+     "length": "3:14"
+    }
+   ],
+   "videoQuery": "heat specific heat capacity",
+   "addedAt": "2026-11-04T00:33:59Z"
+  },
+  {
+   "id": "trasmissione-del-calore",
+   "subject": "fisica",
+   "chapter": "Termodinamica",
+   "title": "Conduzione, convezione e irraggiamento: tre modi per trasmettere calore",
+   "hook": "Il manico della pentola che scotta, l'aria calda che sale, il Sole che ci scalda attraverso il vuoto. Ecco i tre modi in cui viaggia il calore.",
+   "points": [
+    "La conduzione nei solidi",
+    "La convezione nei fluidi",
+    "L'irraggiamento, anche nel vuoto",
+    "Isolanti, thermos e vestiti"
+   ],
+   "sections": [
+    {
+     "h": "Tre strade",
+     "p": [
+      "Il calore passa da un corpo caldo a uno freddo in tre modi: conduzione, convezione e irraggiamento. Spesso agiscono insieme, ma capire ciascuno aiuta a spiegare perché una giacca scalda, perché il vento raffredda e come funziona un thermos."
+     ]
+    },
+    {
+     "h": "Conduzione",
+     "p": [
+      "La conduzione è il trasferimento di calore per contatto diretto. Le molecole più agitate della parte calda urtano quelle vicine e passano loro energia, e così via. Se tieni un cucchiaio di metallo nel tè bollente, dopo un po' scotta anche il manico.",
+      "Alcuni materiali conducono bene, come i metalli, dove gli elettroni liberi trasportano energia rapidamente. Altri conducono male e sono isolanti: legno, plastica, lana, polistirolo e soprattutto l'aria ferma.",
+      "Per questo un pavimento di piastrelle sembra più freddo di un tappeto alla stessa temperatura: le piastrelle portano via calore dai piedi molto più in fretta. La quantità di calore che passa dipende dal materiale, dall'area, dallo spessore e dalla differenza di temperatura."
+     ]
+    },
+    {
+     "h": "Convezione",
+     "p": [
+      "La convezione è il trasferimento di calore dovuto al movimento su larga scala di un fluido. L'aria vicino a un termosifone si scalda, diventa meno densa e sale, mentre l'aria più fredda scende a prendere il suo posto: si crea una circolazione che scalda tutta la stanza.",
+      "La convezione spiega i venti, le brezze di mare, le correnti oceaniche e i temporali estivi. Il vento freddo ci raffredda più dell'aria ferma alla stessa temperatura perché porta via continuamente lo strato d'aria scaldato dal corpo.",
+      "Molti isolanti, come la lana, il piumino o il doppio vetro, funzionano intrappolando l'aria in piccoli spazi dove non può muoversi: senza convezione l'aria è un ottimo isolante."
+     ]
+    },
+    {
+     "h": "Irraggiamento",
+     "p": [
+      "L'irraggiamento è il trasferimento di energia tramite onde elettromagnetiche, soprattutto infrarosse. Non ha bisogno di nessun mezzo: è così che il calore del Sole ci raggiunge attraverso il vuoto dello spazio.",
+      "Ogni oggetto emette radiazione termica, tanto più quanto è caldo. Anche il corpo umano irradia, soprattutto nell'infrarosso, ed è per questo che le termocamere ci vedono al buio. Stare vicino a un falò ti scalda il viso anche se l'aria intorno è fredda.",
+      "I colori contano: le superfici scure assorbono ed emettono radiazione meglio di quelle chiare e lucide. Una maglietta nera al sole si scalda più di una bianca."
+     ]
+    },
+    {
+     "h": "Il thermos",
+     "p": [
+      "Un thermos blocca tutte e tre le strade: ha due pareti di vetro separate dal vuoto, che impedisce conduzione e convezione, e le pareti sono argentate per riflettere la radiazione. Così il caffè resta caldo per ore.",
+      "Le coperte isotermiche dorate usate in emergenza riflettono la radiazione emessa dal corpo, e le case ben isolate combinano materiali poco conduttivi, aria ferma e vetri speciali per ridurre le perdite di calore."
+     ]
+    }
+   ],
+   "formulas": [
+    {
+     "f": "Q/t = k·A·ΔT / d",
+     "d": "Conduzione: dipende da materiale (k), area, differenza di temperatura e spessore."
+    },
+    {
+     "f": "P = σ·e·A·T⁴",
+     "d": "Irraggiamento: cresce con la quarta potenza della temperatura assoluta."
+    }
+   ],
+   "example": "Il vento a 5 °C ti fa sentire molto più freddo dell'aria ferma alla stessa temperatura: la convezione porta via il calore del corpo.",
+   "mistakes": [
+    "\"Il freddo passa attraverso i muri\": è il calore che esce.",
+    "\"La lana è calda di per sé\": isola intrappolando aria.",
+    "\"Il calore ha sempre bisogno di un materiale per viaggiare\": l'irraggiamento attraversa il vuoto."
+   ],
+   "terms": [
+    {
+     "t": "Conduzione",
+     "d": "Trasferimento di calore per contatto tra molecole."
+    },
+    {
+     "t": "Convezione",
+     "d": "Trasferimento tramite il movimento di un fluido."
+    },
+    {
+     "t": "Irraggiamento",
+     "d": "Trasferimento tramite onde elettromagnetiche."
+    },
+    {
+     "t": "Isolante",
+     "d": "Materiale che conduce poco il calore."
+    }
+   ],
+   "quote": {
+    "text": "Convection is the heat transfer by the macroscopic movement of a fluid.",
+    "translation": "La convezione è il trasferimento di calore tramite il movimento macroscopico di un fluido."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "14.4 Heat transfer methods",
+     "url": "https://openstax.org/books/college-physics-2e/pages/14-4-heat-transfer-methods"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "14.5 Conduction",
+     "url": "https://openstax.org/books/college-physics-2e/pages/14-5-conduction"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "14.6 Convection",
+     "url": "https://openstax.org/books/college-physics-2e/pages/14-6-convection"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "14.7 Radiation",
+     "url": "https://openstax.org/books/college-physics-2e/pages/14-7-radiation"
+    }
+   ],
+   "videos": [
+    {
+     "id": "rUnABMRPzvg",
+     "title": "GCSE Physics - Conduction, Convection & Radiation | How Heat Energy is Transferred (2027/28 exams)",
+     "channel": "Cognito",
+     "length": "4:31"
+    },
+    {
+     "id": "8GQvMt-ow4w",
+     "title": "Thermal conduction, convection, and radiation | Thermodynamics | Physics | Khan Academy",
+     "channel": "Khan Academy",
+     "length": "9:09"
+    }
+   ],
+   "videoQuery": "conduction convection radiation heat transfer",
+   "addedAt": "2026-11-04T00:33:59Z"
+  },
+  {
+   "id": "primo-principio",
+   "subject": "fisica",
+   "chapter": "Termodinamica",
+   "title": "Il primo principio della termodinamica: energia interna, calore e lavoro",
+   "hook": "Un motore, un frigorifero, il tuo corpo: tutti scambiano calore e lavoro. Il primo principio fa il bilancio dell'energia e dice che non si crea mai dal nulla.",
+   "points": [
+    "Che cos'è l'energia interna",
+    "Il primo principio come bilancio",
+    "Trasformazioni a volume, pressione e temperatura costanti",
+    "Il corpo umano come sistema termodinamico"
+   ],
+   "sections": [
+    {
+     "h": "L'energia dentro un sistema",
+     "p": [
+      "La termodinamica studia gli scambi di energia sotto forma di calore e lavoro. Si può guardare un sistema in due modi: dal punto di vista atomico e molecolare, che esamina il sistema alla scala degli atomi, oppure dal punto di vista macroscopico, con grandezze come pressione, volume e temperatura.",
+      "L'energia interna di un sistema è la somma di tutte le energie dei suoi atomi e molecole: l'energia cinetica del loro movimento e l'energia potenziale delle loro interazioni. In altre parole, è la somma dell'energia meccanica atomica e molecolare."
+     ]
+    },
+    {
+     "h": "Il bilancio dell'energia",
+     "p": [
+      "Il primo principio della termodinamica è la legge di conservazione dell'energia applicata al calore: la variazione di energia interna di un sistema è uguale al calore ricevuto meno il lavoro compiuto dal sistema.",
+      "Si può pensare a un conto in banca. Il calore che entra è un versamento; il lavoro che il sistema compie sull'esterno, per esempio spingendo un pistone, è un prelievo. Il saldo è l'energia interna. Non si può prelevare più di quanto si versa senza intaccare il saldo.",
+      "Per questo è impossibile una macchina che produca lavoro dal nulla, il cosiddetto moto perpetuo di primo tipo."
+     ]
+    },
+    {
+     "h": "Trasformazioni semplici",
+     "p": [
+      "Un gas in un cilindro con pistone può subire trasformazioni diverse. A pressione costante (isobara), scaldandolo si espande spingendo il pistone: parte del calore diventa lavoro, parte aumenta l'energia interna. A volume costante (isocora), il pistone è bloccato: tutto il calore diventa energia interna e la temperatura sale di più.",
+      "A temperatura costante (isoterma), l'energia interna di un gas ideale non cambia: tutto il calore ricevuto diventa lavoro. In una trasformazione adiabatica non c'è scambio di calore: se il gas si espande compiendo lavoro, si raffredda. È ciò che succede quando una bomboletta spray, usata a lungo, diventa fredda.",
+      "Al contrario, comprimendo rapidamente un gas lo si scalda: la pompa della bicicletta si scalda alla base mentre gonfi una gomma."
+     ]
+    },
+    {
+     "h": "Il corpo come macchina termica",
+     "p": [
+      "Anche il corpo umano obbedisce al primo principio. Riceve energia con il cibo, la usa per compiere lavoro (muoversi, salire le scale) e cede calore all'ambiente. Se l'energia assunta supera quella spesa, la differenza viene immagazzinata, soprattutto come grasso.",
+      "L'energia del cibo si misura in Calorie alimentari: una Caloria è l'energia necessaria per aumentare di un grado Celsius la temperatura di un chilogrammo d'acqua, circa 4186 joule.",
+      "Il bilancio vale sempre: non esistono alimenti o diete che \"bruciano\" energia dal nulla. Variano invece molto l'efficienza con cui il corpo usa l'energia e quanto ne spende nelle diverse attività."
+     ]
+    }
+   ],
+   "formulas": [
+    {
+     "f": "ΔU = Q − L",
+     "d": "Primo principio: variazione di energia interna = calore ricevuto − lavoro compiuto."
+    },
+    {
+     "f": "L = p·ΔV",
+     "d": "Lavoro di un gas che si espande a pressione costante."
+    }
+   ],
+   "example": "Spruzzando a lungo una bomboletta di deodorante, questa diventa fredda: il gas espandendosi compie lavoro e si raffredda.",
+   "mistakes": [
+    "\"Il calore si trasforma tutto in lavoro\": in molte trasformazioni una parte va in energia interna.",
+    "\"Un gas si raffredda solo se perde calore\": si raffredda anche espandendosi senza scambi di calore.",
+    "\"Esistono macchine che producono più energia di quella che ricevono\": violerebbero il primo principio."
+   ],
+   "terms": [
+    {
+     "t": "Energia interna",
+     "d": "Somma delle energie di atomi e molecole."
+    },
+    {
+     "t": "Trasformazione adiabatica",
+     "d": "Trasformazione senza scambio di calore."
+    },
+    {
+     "t": "Isoterma",
+     "d": "Trasformazione a temperatura costante."
+    },
+    {
+     "t": "Caloria alimentare",
+     "d": "Circa 4186 joule."
+    }
+   ],
+   "quote": {
+    "text": "Thus internal energy is the sum of atomic and molecular mechanical energy.",
+    "translation": "L'energia interna è quindi la somma dell'energia meccanica atomica e molecolare."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "15.1 The first law of thermodynamics",
+     "url": "https://openstax.org/books/college-physics-2e/pages/15-1-the-first-law-of-thermodynamics"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "15.2 The first law of thermodynamics and some simple processes",
+     "url": "https://openstax.org/books/college-physics-2e/pages/15-2-the-first-law-of-thermodynamics-and-some-simple-processes"
+    }
+   ],
+   "videos": [
+    {
+     "id": "fSEFfWf2au0",
+     "title": "The First & Zeroth Laws of Thermodynamics: Crash Course Engineering #9",
+     "channel": "CrashCourse",
+     "length": "10:05"
+    },
+    {
+     "id": "4i1MUWJoI0U",
+     "title": "Thermodynamics: Crash Course Physics #23",
+     "channel": "CrashCourse",
+     "length": "10:04"
+    }
+   ],
+   "videoQuery": "first law of thermodynamics crash course",
+   "addedAt": "2026-11-04T00:33:59Z"
+  },
+  {
+   "id": "macchine-termiche",
+   "subject": "fisica",
+   "chapter": "Termodinamica",
+   "title": "Motori, frigoriferi e il secondo principio: perché nessun motore è perfetto",
+   "hook": "Ogni motore butta via parte del calore che riceve. Carnot calcolò il limite massimo. E la stessa legge spiega come funzionano frigoriferi e pompe di calore.",
+   "points": [
+    "Come funziona una macchina termica",
+    "Il secondo principio e il limite di Carnot",
+    "Frigoriferi e pompe di calore",
+    "Perché il rendimento dipende dalle temperature"
+   ],
+   "sections": [
+    {
+     "h": "Calore che diventa lavoro",
+     "p": [
+      "Una macchina termica trasforma calore in lavoro: i motori delle auto, le turbine delle centrali, le vecchie locomotive a vapore. Il principio è sempre lo stesso: prendere calore da una sorgente calda, trasformarne una parte in lavoro e cedere il resto a un ambiente più freddo.",
+      "La direzione già familiare del calore, dal caldo verso il freddo, è la base della prima formulazione del secondo principio della termodinamica: il calore non passa spontaneamente da un corpo freddo a uno caldo. La legge che vieta questi processi si chiama, appunto, secondo principio."
+     ]
+    },
+    {
+     "h": "Nessun motore è perfetto",
+     "p": [
+      "Una formulazione equivalente del secondo principio dice che è impossibile costruire una macchina che, lavorando in ciclo, trasformi completamente in lavoro il calore preso da una sola sorgente. Una parte del calore deve sempre essere ceduta a una sorgente più fredda.",
+      "Il rendimento di un motore è la frazione del calore assorbito che diventa lavoro. Un motore d'auto ha un rendimento tipico intorno al 25-35%: il resto se ne va con i gas di scarico e il radiatore."
+     ]
+    },
+    {
+     "h": "Il limite di Carnot",
+     "p": [
+      "Nel 1824 l'ingegnere francese Sadi Carnot immaginò il motore ideale, perfettamente reversibile e senza attriti. Dimostrò che nemmeno questo motore perfetto può trasformare tutto il calore in lavoro: il suo rendimento massimo dipende solo dalle temperature delle due sorgenti, misurate in kelvin.",
+      "Più è grande la differenza tra la temperatura calda e quella fredda, maggiore è il rendimento possibile. Per questo le centrali cercano di lavorare con vapore il più caldo possibile. Un motore che lavorasse tra 600 K e 300 K potrebbe al massimo raggiungere il 50%; i motori reali restano sotto questo limite."
+     ]
+    },
+    {
+     "h": "Frigoriferi e pompe di calore",
+     "p": [
+      "Un frigorifero è una macchina termica che funziona al contrario: usando lavoro, fornito dal compressore elettrico, sposta calore dall'interno freddo all'esterno più caldo. Per questo la griglia dietro il frigorifero è calda. Il secondo principio non è violato, perché serve lavoro esterno.",
+      "Un condizionatore fa lo stesso con una stanza. Una pompa di calore usa lo stesso principio per scaldare la casa d'inverno: preleva calore dall'aria esterna fredda e lo porta dentro.",
+      "Il vantaggio delle pompe di calore è che possono portare in casa più energia termica di quella elettrica che consumano: spesso tre o quattro volte tanto, perché l'energia in più viene presa dall'ambiente esterno. Non creano energia: la spostano."
+     ]
+    }
+   ],
+   "formulas": [
+    {
+     "f": "η = L / Q_caldo",
+     "d": "Rendimento: lavoro prodotto diviso calore assorbito."
+    },
+    {
+     "f": "η_Carnot = 1 − T_fredda / T_calda",
+     "d": "Rendimento massimo teorico, con temperature in kelvin."
+    }
+   ],
+   "example": "Lasciare aperto il frigorifero per rinfrescare la cucina la scalda: il frigorifero butta fuori dietro più calore di quanto ne tolga davanti.",
+   "mistakes": [
+    "\"Un motore ben costruito può avere rendimento 100%\": il secondo principio lo impedisce.",
+    "\"Il frigorifero produce freddo\": sposta calore dall'interno all'esterno.",
+    "\"Una pompa di calore crea energia\": la preleva dall'ambiente esterno."
+   ],
+   "terms": [
+    {
+     "t": "Macchina termica",
+     "d": "Dispositivo che trasforma calore in lavoro."
+    },
+    {
+     "t": "Rendimento",
+     "d": "Frazione del calore che diventa lavoro."
+    },
+    {
+     "t": "Ciclo di Carnot",
+     "d": "Ciclo ideale con il massimo rendimento possibile."
+    },
+    {
+     "t": "Pompa di calore",
+     "d": "Macchina che sposta calore da freddo a caldo usando lavoro."
+    }
+   ],
+   "quote": {
+    "text": "The already familiar direction of heat transfer from hot to cold is the basis of our first version of the second law of thermodynamics.",
+    "translation": "La direzione già familiare del trasferimento di calore, dal caldo al freddo, è la base della nostra prima formulazione del secondo principio della termodinamica."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "15.3 Introduction to the second law of thermodynamics heat engines and their efficiency",
+     "url": "https://openstax.org/books/college-physics-2e/pages/15-3-introduction-to-the-second-law-of-thermodynamics-heat-engines-and-their-efficiency"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "15.4 Carnots perfect heat engine the second law of thermodynamics restated",
+     "url": "https://openstax.org/books/college-physics-2e/pages/15-4-carnots-perfect-heat-engine-the-second-law-of-thermodynamics-restated"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "15.5 Applications of thermodynamics heat pumps and refrigerators",
+     "url": "https://openstax.org/books/college-physics-2e/pages/15-5-applications-of-thermodynamics-heat-pumps-and-refrigerators"
+    }
+   ],
+   "videos": [
+    {
+     "id": "iZOXW5aaCZg",
+     "title": "Heat Engines, Refrigerators, & Cycles: Crash Course Engineering #11",
+     "channel": "CrashCourse",
+     "length": "10:44"
+    },
+    {
+     "id": "2B81W6nNds0",
+     "title": "Why We Can't Invent a Perfect Engine: Crash Course Engineering #10",
+     "channel": "CrashCourse",
+     "length": "12:55"
+    }
+   ],
+   "videoQuery": "heat engines carnot refrigerators crash course",
+   "addedAt": "2026-11-04T00:33:59Z"
+  },
+  {
    "id": "entropia",
    "subject": "fisica",
    "title": "Entropia e secondo principio: perché il tempo va in una sola direzione",
@@ -3739,6 +4884,16 @@
      "name": "OpenStax · College Physics 2e",
      "title": "15.6 Entropy and the Second Law of Thermodynamics",
      "url": "https://openstax.org/books/college-physics-2e/pages/15-6-entropy-and-the-second-law-of-thermodynamics-disorder-and-the-unavailability-of-energy"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "15.7 Statistical Interpretation of Entropy",
+     "url": "https://openstax.org/books/college-physics-2e/pages/15-7-statistical-interpretation-of-entropy-and-the-second-law-of-thermodynamics-the-underlying-explanation"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "15.7 Statistical Interpretation of Entropy",
+     "url": "https://openstax.org/books/college-physics-2e/pages/15-7-statistical-interpretation-of-entropy-and-the-second-law-of-thermodynamics-the-underlying-explanation"
     },
     {
      "name": "OpenStax · College Physics 2e",
@@ -3844,6 +4999,257 @@
      "d": "Variazione di entropia quando si scambia calore Q a temperatura (assoluta) T costante."
     }
    ]
+  },
+  {
+   "id": "oscillazioni-pendolo",
+   "subject": "fisica",
+   "chapter": "Onde e suono",
+   "title": "Oscillazioni e pendolo: il moto che si ripete",
+   "hook": "Altalene, molle, pendoli, corde di chitarra: tutto ciò che oscilla segue le stesse regole. Periodo, frequenza e il segreto degli orologi a pendolo.",
+   "points": [
+    "Periodo e frequenza",
+    "Il moto armonico semplice",
+    "Perché il periodo del pendolo non dipende dall'ampiezza",
+    "Energia che passa da cinetica a potenziale"
+   ],
+   "sections": [
+    {
+     "h": "Moti che si ripetono",
+     "p": [
+      "Molti fenomeni si ripetono a intervalli regolari: il battito del cuore, le onde del mare, il pendolo di un orologio, la corda di una chitarra. Il periodo è il tempo necessario per un ciclo completo. La frequenza è il numero di oscillazioni nell'unità di tempo, e si misura in hertz (oscillazioni al secondo).",
+      "Periodo e frequenza sono l'uno l'inverso dell'altra: un pendolo con periodo di 2 secondi ha frequenza di mezzo hertz. Il do centrale di un pianoforte vibra circa 262 volte al secondo."
+     ]
+    },
+    {
+     "h": "Il moto armonico semplice",
+     "p": [
+      "Un tipo di oscillazione particolarmente importante è il moto armonico semplice. Si verifica quando la forza che riporta l'oggetto verso la posizione di equilibrio è proporzionale allo spostamento, come in una molla che segue la legge di Hooke.",
+      "In questo moto la posizione nel tempo segue una curva sinusoidale, la stessa che si ottiene guardando di lato un punto che gira su un cerchio a velocità costante. Il periodo dipende dalla massa e dalla rigidità della molla, ma non dall'ampiezza: oscillazioni ampie o piccole durano lo stesso tempo.",
+      "Moltissimi sistemi, per piccole oscillazioni, si comportano in modo armonico: atomi nei cristalli, ponti, edifici, strumenti musicali. Per questo il moto armonico è una delle idee più usate in fisica."
+     ]
+    },
+    {
+     "h": "Il pendolo",
+     "p": [
+      "Un pendolo semplice è una massa appesa a un filo. Per piccole oscillazioni si comporta come un oscillatore armonico, e il suo periodo dipende solo dalla lunghezza del filo e dall'accelerazione di gravità, non dalla massa.",
+      "Si racconta che Galileo, osservando un lampadario oscillare nel Duomo di Pisa, notò che le oscillazioni duravano lo stesso tempo anche quando diventavano più piccole. Questa regolarità, detta isocronismo, rese i pendoli i migliori orologi per quasi tre secoli.",
+      "Un pendolo lungo circa un metro ha un periodo di circa 2 secondi. Misurando con precisione il periodo di un pendolo si può addirittura misurare g, e scoprire piccole differenze della gravità da un luogo all'altro."
+     ]
+    },
+    {
+     "h": "Energia che oscilla",
+     "p": [
+      "Durante l'oscillazione l'energia si trasforma continuamente. Nel punto più lontano il pendolo è fermo per un istante: tutta l'energia è potenziale. Nel punto più basso va più veloce: tutta l'energia è cinetica. Senza attrito, l'energia totale resta costante e il pendolo oscillerebbe per sempre.",
+      "Per una molla succede lo stesso tra energia elastica ed energia cinetica. Questo scambio continuo di energia è la caratteristica di tutti gli oscillatori, dai circuiti elettrici alle molecole."
+     ]
+    }
+   ],
+   "formulas": [
+    {
+     "f": "f = 1 / T",
+     "d": "Frequenza = inverso del periodo."
+    },
+    {
+     "f": "T = 2π·√(m / k)",
+     "d": "Periodo di una massa su una molla."
+    },
+    {
+     "f": "T = 2π·√(L / g)",
+     "d": "Periodo di un pendolo semplice per piccole oscillazioni."
+    }
+   ],
+   "example": "Su un'altalena, che tu sia leggero o pesante, il tempo di andata e ritorno dipende soprattutto dalla lunghezza delle catene.",
+   "mistakes": [
+    "\"Un pendolo più pesante oscilla più lentamente\": il periodo non dipende dalla massa.",
+    "\"Oscillazioni più ampie durano di più\": per piccole oscillazioni il periodo è lo stesso.",
+    "\"Periodo e frequenza sono la stessa cosa\": uno è l'inverso dell'altra."
+   ],
+   "terms": [
+    {
+     "t": "Periodo",
+     "d": "Tempo di un ciclo completo."
+    },
+    {
+     "t": "Frequenza",
+     "d": "Numero di cicli al secondo, in hertz."
+    },
+    {
+     "t": "Moto armonico semplice",
+     "d": "Oscillazione con forza di richiamo proporzionale allo spostamento."
+    },
+    {
+     "t": "Isocronismo",
+     "d": "Durata uguale delle oscillazioni indipendentemente dall'ampiezza."
+    }
+   ],
+   "quote": {
+    "text": "For periodic motion, frequency is the number of oscillations per unit time.",
+    "translation": "Per un moto periodico, la frequenza è il numero di oscillazioni nell'unità di tempo."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "16.2 Period and frequency in oscillations",
+     "url": "https://openstax.org/books/college-physics-2e/pages/16-2-period-and-frequency-in-oscillations"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "16.3 Simple harmonic motion a special periodic motion",
+     "url": "https://openstax.org/books/college-physics-2e/pages/16-3-simple-harmonic-motion-a-special-periodic-motion"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "16.4 The simple pendulum",
+     "url": "https://openstax.org/books/college-physics-2e/pages/16-4-the-simple-pendulum"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "16.5 Energy and the simple harmonic oscillator",
+     "url": "https://openstax.org/books/college-physics-2e/pages/16-5-energy-and-the-simple-harmonic-oscillator"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "16.6 Uniform circular motion and simple harmonic motion",
+     "url": "https://openstax.org/books/college-physics-2e/pages/16-6-uniform-circular-motion-and-simple-harmonic-motion"
+    }
+   ],
+   "videos": [
+    {
+     "id": "jxstE6A_CYQ",
+     "title": "Simple Harmonic Motion: Crash Course Physics #16",
+     "channel": "CrashCourse",
+     "length": "9:11"
+    },
+    {
+     "id": "Dv5R543h3XM",
+     "title": "SHM of simple pendulums | AP Physics | Khan Academy",
+     "channel": "Khan Academy",
+     "length": "12:14"
+    }
+   ],
+   "videoQuery": "simple harmonic motion pendulum crash course physics",
+   "addedAt": "2026-11-04T00:33:59Z"
+  },
+  {
+   "id": "risonanza-interferenza",
+   "subject": "fisica",
+   "chapter": "Onde e suono",
+   "title": "Smorzamento, risonanza e interferenza delle onde",
+   "hook": "Spingere l'altalena al momento giusto, un ponte che oscilla con il vento, cuffie che cancellano il rumore: oscillazioni smorzate, forzate e onde che si sommano.",
+   "points": [
+    "Perché le oscillazioni si smorzano",
+    "Oscillazioni forzate e risonanza",
+    "Sovrapposizione e interferenza",
+    "Intensità delle onde"
+   ],
+   "sections": [
+    {
+     "h": "Oscillazioni che si spengono",
+     "p": [
+      "Nella realtà nessuna oscillazione dura per sempre. Anche se spesso possiamo rendere l'attrito e le altre forze non conservative molto piccole, un moto del tutto non smorzato è raro. L'energia si disperde a poco a poco, e l'ampiezza diminuisce: si parla di oscillazione smorzata.",
+      "Lo smorzamento può essere voluto. Gli ammortizzatori delle auto sono progettati per smorzare rapidamente i sobbalzi: senza, l'auto continuerebbe a dondolare dopo ogni buca. Se lo smorzamento è giusto, il sistema torna all'equilibrio senza oscillare, nel minor tempo possibile."
+     ]
+    },
+    {
+     "h": "La risonanza",
+     "p": [
+      "Un sistema può anche essere spinto periodicamente da una forza esterna: è un'oscillazione forzata. Ogni sistema ha una sua frequenza naturale, quella a cui oscillerebbe da solo. Spingerlo proprio a quella frequenza si chiama risonanza: anche piccole spinte, se date al momento giusto, fanno crescere l'ampiezza moltissimo.",
+      "È quello che fai spingendo un'altalena: piccole spinte sincronizzate con l'oscillazione la portano sempre più in alto. È anche il principio con cui si sintonizza una radio: il circuito risuona solo con la frequenza della stazione scelta.",
+      "La risonanza può essere pericolosa. Un cantante può rompere un bicchiere con la nota giusta; ponti ed edifici devono essere progettati perché vento, passi o terremoti non li facciano entrare in risonanza. Nel 2000 il Millennium Bridge di Londra dovette essere chiuso subito dopo l'inaugurazione perché oscillava sotto i passi dei pedoni."
+     ]
+    },
+    {
+     "h": "Onde che si sommano",
+     "p": [
+      "Quando due onde si incontrano nello stesso punto, i loro effetti si sommano: è il principio di sovrapposizione. Se le creste coincidono, le onde si rafforzano: interferenza costruttiva. Se una cresta incontra una valle, si indeboliscono o si annullano: interferenza distruttiva.",
+      "Le cuffie a cancellazione di rumore registrano il rumore esterno e producono un'onda sonora opposta, che lo annulla. Due onde che viaggiano in versi opposti nella stessa corda possono formare onde stazionarie, che sembrano ferme: è così che vibrano le corde degli strumenti.",
+      "Quando due suoni di frequenza leggermente diversa si sommano, si sente un'intensità che va e viene: sono i battimenti, usati dai musicisti per accordare gli strumenti."
+     ]
+    },
+    {
+     "h": "Quanta energia porta un'onda",
+     "p": [
+      "L'intensità di un'onda è la potenza che trasporta per unità di superficie. È proporzionale al quadrato dell'ampiezza: un'onda alta il doppio trasporta quattro volte l'energia. Per questo le onde di tempesta sono così distruttive.",
+      "Allontanandosi dalla sorgente, l'energia si distribuisce su superfici sempre più grandi e l'intensità diminuisce: per una sorgente puntiforme, con il quadrato della distanza."
+     ]
+    }
+   ],
+   "formulas": [
+    {
+     "f": "I = P / A",
+     "d": "Intensità = potenza / area."
+    },
+    {
+     "f": "I ∝ ampiezza²",
+     "d": "L'intensità cresce con il quadrato dell'ampiezza."
+    }
+   ],
+   "example": "Facendo oscillare un bicchiere pieno d'acqua mentre cammini, a un certo ritmo l'acqua si agita sempre di più e trabocca: è risonanza.",
+   "mistakes": [
+    "\"Per far oscillare tanto qualcosa serve una forza enorme\": con la risonanza bastano piccole spinte al ritmo giusto.",
+    "\"Due suoni insieme sono sempre più forti\": possono anche annullarsi.",
+    "\"Lo smorzamento è sempre un difetto\": negli ammortizzatori è voluto."
+   ],
+   "terms": [
+    {
+     "t": "Smorzamento",
+     "d": "Diminuzione dell'ampiezza per perdita di energia."
+    },
+    {
+     "t": "Frequenza naturale",
+     "d": "Frequenza a cui un sistema oscilla da solo."
+    },
+    {
+     "t": "Risonanza",
+     "d": "Grande aumento delle oscillazioni quando si forza alla frequenza naturale."
+    },
+    {
+     "t": "Interferenza",
+     "d": "Somma di onde che si incontrano."
+    }
+   ],
+   "quote": {
+    "text": "Although we can often make friction and other non-conservative forces negligibly small, completely undamped motion is rare.",
+    "translation": "Anche se spesso possiamo rendere trascurabili l'attrito e le altre forze non conservative, un moto completamente non smorzato è raro."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "16.7 Damped harmonic motion",
+     "url": "https://openstax.org/books/college-physics-2e/pages/16-7-damped-harmonic-motion"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "16.8 Forced oscillations and resonance",
+     "url": "https://openstax.org/books/college-physics-2e/pages/16-8-forced-oscillations-and-resonance"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "16.10 Superposition and interference",
+     "url": "https://openstax.org/books/college-physics-2e/pages/16-10-superposition-and-interference"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "16.11 Energy in waves intensity",
+     "url": "https://openstax.org/books/college-physics-2e/pages/16-11-energy-in-waves-intensity"
+    }
+   ],
+   "videos": [
+    {
+     "id": "vLaFAKnaRJU",
+     "title": "Understanding Vibration and Resonance",
+     "channel": "The Efficient Engineer",
+     "length": "19:42"
+    },
+    {
+     "id": "oTjTXS40pqs",
+     "title": "Constructive and Destructive interference | Physics | Khan Academy",
+     "channel": "Khan Academy Physics",
+     "length": "13:44"
+    }
+   ],
+   "videoQuery": "resonance damping wave interference",
+   "addedAt": "2026-11-04T00:33:59Z"
   },
   {
    "id": "onde",
@@ -3968,6 +5374,1008 @@
    ]
   },
   {
+   "id": "il-suono",
+   "subject": "fisica",
+   "chapter": "Onde e suono",
+   "title": "Il suono: velocità, frequenza e decibel",
+   "hook": "Il suono è un'onda di pressione nell'aria. Viaggia a circa 340 metri al secondo, ha altezza e volume, e si misura in decibel con una scala sorprendente.",
+   "points": [
+    "Che cos'è fisicamente il suono",
+    "Velocità, frequenza e lunghezza d'onda",
+    "Intensità e scala dei decibel",
+    "Ultrasuoni e infrasuoni"
+   ],
+   "sections": [
+    {
+     "h": "Un'onda di pressione",
+     "p": [
+      "Il fenomeno fisico del suono è una perturbazione della materia che si trasmette dalla sorgente verso l'esterno. Quando una corda di chitarra vibra, spinge l'aria vicina creando una serie di compressioni e rarefazioni che si propagano: un'onda longitudinale di pressione.",
+      "L'udito è la percezione del suono, così come la vista è la percezione della luce visibile. Il suono come fenomeno fisico esiste anche se nessuno lo ascolta: la risposta alla vecchia domanda sull'albero che cade in una foresta disabitata dipende da cosa si intende per suono."
+     ]
+    },
+    {
+     "h": "Velocità e frequenza",
+     "p": [
+      "Il suono ha bisogno di un mezzo per propagarsi: nel vuoto non si propaga. Nell'aria a 20 °C viaggia a circa 343 metri al secondo; nell'acqua a circa 1500, nell'acciaio a oltre 5000. Nell'aria la velocità aumenta un po' con la temperatura.",
+      "La frequenza del suono determina la sua altezza: frequenze alte sono suoni acuti, frequenze basse suoni gravi. L'orecchio umano giovane sente all'incirca tra 20 e 20.000 hertz, ma con l'età il limite superiore si abbassa.",
+      "Velocità, frequenza e lunghezza d'onda sono legate: velocità = frequenza × lunghezza d'onda. Un la a 440 Hz nell'aria ha una lunghezza d'onda di circa 78 centimetri."
+     ]
+    },
+    {
+     "h": "Intensità e decibel",
+     "p": [
+      "L'intensità del suono è la potenza che trasporta per metro quadrato. L'orecchio è sensibile a una gamma enorme di intensità: il suono più forte sopportabile è circa mille miliardi di volte più intenso del più debole udibile.",
+      "Per gestire numeri così diversi si usa una scala logaritmica, il livello sonoro in decibel (dB). Ogni 10 dB in più significano un'intensità dieci volte maggiore; 20 dB in più cento volte. La soglia dell'udibile è 0 dB, un sussurro circa 30 dB, una conversazione 60 dB, il traffico intenso 80-90, un concerto rock 110-120.",
+      "La percezione del volume non segue esattamente l'intensità: in genere un aumento di 10 dB viene percepito come circa il doppio del volume. Esposizioni prolungate sopra gli 85 dB possono danneggiare l'udito in modo permanente."
+     ]
+    },
+    {
+     "h": "Oltre l'udibile",
+     "p": [
+      "I suoni sopra i 20.000 hertz si chiamano ultrasuoni: i pipistrelli e i delfini li usano per orientarsi con l'ecolocalizzazione, e la medicina li usa per le ecografie. I suoni sotto i 20 hertz sono infrasuoni: li producono terremoti, vulcani, temporali, e gli elefanti li usano per comunicare a grande distanza.",
+      "Il suono si riflette sulle superfici: l'eco è un suono riflesso che arriva con un ritardo percepibile. Nelle sale da concerto i progettisti studiano con cura riflessioni e assorbimento per ottenere un'acustica ottimale."
+     ]
+    }
+   ],
+   "formulas": [
+    {
+     "f": "v = f·λ",
+     "d": "Velocità del suono = frequenza × lunghezza d'onda."
+    },
+    {
+     "f": "β = 10·log₁₀(I / I₀)",
+     "d": "Livello sonoro in decibel rispetto alla soglia di udibilità I₀."
+    }
+   ],
+   "example": "Alzando il volume degli auricolari da 70 a 90 dB, l'intensità che arriva all'orecchio diventa cento volte maggiore.",
+   "mistakes": [
+    "\"80 dB è il doppio di 40 dB\": l'intensità è diecimila volte maggiore.",
+    "\"Il suono viaggia anche nel vuoto\": ha bisogno di un mezzo.",
+    "\"Volume e altezza sono la stessa cosa\": il volume dipende dall'intensità, l'altezza dalla frequenza."
+   ],
+   "terms": [
+    {
+     "t": "Onda longitudinale",
+     "d": "Onda in cui il mezzo vibra nella direzione di propagazione."
+    },
+    {
+     "t": "Decibel",
+     "d": "Unità logaritmica del livello sonoro."
+    },
+    {
+     "t": "Ultrasuoni",
+     "d": "Suoni sopra i 20.000 Hz."
+    },
+    {
+     "t": "Infrasuoni",
+     "d": "Suoni sotto i 20 Hz."
+    }
+   ],
+   "quote": {
+    "text": "Hearing is the perception of sound, just as vision is the perception of visible light.",
+    "translation": "L'udito è la percezione del suono, così come la vista è la percezione della luce visibile."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "17.1 Sound",
+     "url": "https://openstax.org/books/college-physics-2e/pages/17-1-sound"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "17.2 Speed of sound frequency and wavelength",
+     "url": "https://openstax.org/books/college-physics-2e/pages/17-2-speed-of-sound-frequency-and-wavelength"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "17.3 Sound intensity and sound level",
+     "url": "https://openstax.org/books/college-physics-2e/pages/17-3-sound-intensity-and-sound-level"
+    }
+   ],
+   "videos": [
+    {
+     "id": "s9wZkP64rAc",
+     "title": "GCSE Physics - Sound Waves and Hearing",
+     "channel": "Cognito",
+     "length": "5:08"
+    },
+    {
+     "id": "XDsk6tZX55g",
+     "title": "The Physics of Music: Crash Course Physics #19",
+     "channel": "CrashCourse",
+     "length": "10:35"
+    }
+   ],
+   "videoQuery": "sound waves decibels crash course physics",
+   "addedAt": "2026-11-04T00:33:59Z"
+  },
+  {
+   "id": "effetto-doppler",
+   "subject": "fisica",
+   "chapter": "Onde e suono",
+   "title": "L'effetto Doppler e il boom sonico",
+   "hook": "La sirena di un'ambulanza cambia nota quando ti passa davanti. Lo stesso effetto misura la velocità delle auto, del sangue e delle galassie.",
+   "points": [
+    "Perché la nota cambia quando la sorgente si muove",
+    "Sorgente in moto e ascoltatore in moto",
+    "Il boom sonico e il cono di Mach",
+    "Applicazioni: radar, medicina, astronomia"
+   ],
+   "sections": [
+    {
+     "h": "La sirena che cambia nota",
+     "p": [
+      "Quando un'ambulanza si avvicina, la sirena sembra più acuta; appena ti supera, la nota si abbassa di colpo. Il suono emesso è sempre lo stesso: cambia quello che arriva al tuo orecchio. Il cambiamento di frequenza dovuto al moto relativo tra sorgente e ascoltatore si chiama effetto Doppler.",
+      "Prende il nome dal fisico austriaco Christian Doppler, che lo descrisse nel 1842. Pochi anni dopo fu verificato con un esperimento curioso: musicisti su un treno in corsa suonavano una nota, mentre altri a terra ne giudicavano l'altezza."
+     ]
+    },
+    {
+     "h": "Perché succede",
+     "p": [
+      "Se sorgente, ascoltatori e aria sono fermi, le onde si allargano in cerchi concentrici, e lunghezza d'onda e frequenza sono uguali in tutte le direzioni per tutti gli ascoltatori.",
+      "Se invece la sorgente si muove, emette ogni nuova cresta un po' più avanti della precedente. Davanti a lei le creste si addensano: la lunghezza d'onda si accorcia e la frequenza percepita sale. Dietro le creste si diradano: la frequenza scende.",
+      "L'effetto si ha anche se è l'ascoltatore a muoversi: andando incontro alle onde ne incontri di più ogni secondo. Più grande è la velocità rispetto a quella del suono, più marcato è l'effetto."
+     ]
+    },
+    {
+     "h": "Il boom sonico",
+     "p": [
+      "Se la sorgente va più veloce del suono, le onde non riescono a precederla: si accumulano lungo un cono che parte dalla sorgente, come la scia a V di un motoscafo nell'acqua. Il bordo di questo cono è un'onda d'urto, un brusco aumento di pressione.",
+      "Quando il cono passa sopra di te senti un forte boato: il boom sonico. Un aereo supersonico lo trascina dietro di sé lungo tutto il percorso, non solo nell'istante in cui supera la velocità del suono. Lo schiocco di una frusta è un piccolo boom sonico: la punta supera la velocità del suono.",
+      "Qualcosa di simile avviene con la luce: quando particelle cariche attraversano un materiale più veloci della luce in quel materiale, emettono una scia luminosa bluastra detta radiazione Čerenkov, visibile nell'acqua di alcuni reattori nucleari."
+     ]
+    },
+    {
+     "h": "A cosa serve",
+     "p": [
+      "L'effetto Doppler vale per tutte le onde, e ha molte applicazioni. I radar della polizia e degli autovelox misurano la velocità delle auto dallo spostamento di frequenza delle onde riflesse. I radar meteorologici misurano i venti dentro i temporali.",
+      "In medicina l'ecodoppler misura la velocità del sangue nei vasi e nel cuore usando ultrasuoni. I pipistrelli usano l'effetto Doppler per capire se un insetto si avvicina o si allontana.",
+      "In astronomia lo spostamento verso il rosso o verso il blu della luce delle stelle rivela se si allontanano o si avvicinano: è così che sono stati scoperti molti pianeti extrasolari e l'espansione dell'universo."
+     ]
+    }
+   ],
+   "formulas": [
+    {
+     "f": "f_oss = f_s · v / (v ∓ v_s)",
+     "d": "Frequenza percepita con sorgente in moto (segno meno se si avvicina)."
+    }
+   ],
+   "example": "Ascolta un'auto di Formula 1 in TV mentre passa davanti alla telecamera: il \"nyeeeoww\" è l'effetto Doppler.",
+   "mistakes": [
+    "\"La sirena cambia davvero suono\": cambia solo la frequenza percepita.",
+    "\"Il boom sonico si sente solo quando l'aereo supera il muro del suono\": l'aereo lo trascina per tutto il volo supersonico.",
+    "\"L'effetto Doppler vale solo per il suono\": vale per tutte le onde, anche la luce."
+   ],
+   "terms": [
+    {
+     "t": "Effetto Doppler",
+     "d": "Variazione di frequenza dovuta al moto relativo."
+    },
+    {
+     "t": "Onda d'urto",
+     "d": "Brusco aumento di pressione davanti a una sorgente supersonica."
+    },
+    {
+     "t": "Numero di Mach",
+     "d": "Rapporto tra la velocità di un oggetto e quella del suono."
+    }
+   ],
+   "quote": {
+    "text": "The actual change in frequency due to relative motion of source and observer is called a Doppler shift.",
+    "translation": "L'effettivo cambiamento di frequenza dovuto al moto relativo di sorgente e osservatore si chiama spostamento Doppler."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "17.4 Doppler effect and sonic booms",
+     "url": "https://openstax.org/books/college-physics-2e/pages/17-4-doppler-effect-and-sonic-booms"
+    }
+   ],
+   "videos": [
+    {
+     "id": "JO4_VHM69oI",
+     "title": "The sonic boom problem - Katerina Kaouri",
+     "channel": "TED-Ed",
+     "length": "5:44"
+    }
+   ],
+   "videoQuery": "doppler effect sonic boom",
+   "addedAt": "2026-11-04T00:33:59Z"
+  },
+  {
+   "id": "musica-onde-stazionarie",
+   "subject": "fisica",
+   "chapter": "Onde e suono",
+   "title": "La fisica della musica: onde stazionarie e armoniche",
+   "hook": "Perché una chitarra e un flauto suonano la stessa nota in modo diverso? Onde stazionarie, armoniche e risonanza negli strumenti.",
+   "points": [
+    "Che cos'è un'onda stazionaria",
+    "Fondamentale e armoniche",
+    "Corde e canne: come nascono le note",
+    "Il timbro e la risonanza"
+   ],
+   "sections": [
+    {
+     "h": "Onde che sembrano ferme",
+     "p": [
+      "Quando un'onda viaggia in una corda fissata alle estremità, si riflette e torna indietro. L'onda di andata e quella di ritorno si sovrappongono, e per certe frequenze producono un disegno che non sembra spostarsi: un'onda stazionaria. Alcuni punti, i nodi, restano fermi; altri, i ventri, oscillano al massimo.",
+      "Le onde stazionarie sono alla base di quasi tutti gli strumenti musicali. Si formano solo a frequenze precise, quelle per cui un numero intero di mezze lunghezze d'onda sta esattamente nella corda o nella canna."
+     ]
+    },
+    {
+     "h": "Fondamentale e armoniche",
+     "p": [
+      "La frequenza più bassa possibile si chiama fondamentale, o prima armonica: la corda vibra tutta insieme, con un solo ventre al centro. Le frequenze successive sono multipli interi della fondamentale: seconda, terza, quarta armonica, e così via. Le armoniche sopra la fondamentale si chiamano anche ipertoni: il primo ipertono è la seconda armonica.",
+      "Una corda reale vibra contemporaneamente nella fondamentale e in molte armoniche. L'orecchio percepisce l'altezza della nota dalla fondamentale, mentre le armoniche ne determinano il colore."
+     ]
+    },
+    {
+     "h": "Corde e canne",
+     "p": [
+      "In uno strumento a corda la frequenza dipende da tre fattori: la lunghezza della corda, la tensione e la massa della corda. Una corda più corta, più tesa o più sottile suona più acuta. Premendo un tasto della chitarra si accorcia la corda; girando le chiavette si cambia la tensione per accordarla.",
+      "Negli strumenti a fiato vibra una colonna d'aria. In una canna aperta a entrambe le estremità, come un flauto, si formano tutte le armoniche. In una canna chiusa a un'estremità, come certe canne d'organo o il clarinetto, si formano solo le armoniche dispari, e la nota fondamentale è più bassa di un'ottava rispetto a una canna aperta della stessa lunghezza.",
+      "Anche soffiare sopra una bottiglia produce un suono: l'aria nella bottiglia risuona. Riempiendola d'acqua si accorcia la colonna d'aria e la nota sale."
+     ]
+    },
+    {
+     "h": "Timbro e risonanza",
+     "p": [
+      "La risonanza è l'oscillazione forzata di un sistema alla sua frequenza naturale. Negli strumenti la cassa armonica di una chitarra o di un violino risuona con le corde e amplifica il suono, che altrimenti sarebbe debolissimo.",
+      "Il timbro, cioè il carattere che distingue un violino da un flauto anche sulla stessa nota, dipende dalla miscela di armoniche presenti e da come il suono inizia e si spegne. Un flauto ha poche armoniche e un suono puro; una tromba ne ha molte e un suono brillante.",
+      "Anche la voce umana funziona così: le corde vocali producono una fondamentale ricca di armoniche, e le cavità di gola, bocca e naso ne rinforzano alcune, formando le vocali. Nella musica rock si produce a volte di proposito un suono distorto, aggiungendo molte armoniche in più."
+     ]
+    }
+   ],
+   "formulas": [
+    {
+     "f": "fₙ = n · v / (2L)",
+     "d": "Frequenze di una corda o di una canna aperta di lunghezza L (n = 1, 2, 3…)."
+    }
+   ],
+   "example": "Soffia sopra una bottiglia vuota e poi su una mezza piena: la seconda suona più acuta perché la colonna d'aria è più corta.",
+   "mistakes": [
+    "\"Una corda vibra a una sola frequenza\": vibra insieme in molte armoniche.",
+    "\"Il timbro dipende solo dal volume\": dipende dalla miscela di armoniche.",
+    "\"La cassa della chitarra serve solo come supporto\": amplifica il suono per risonanza."
+   ],
+   "terms": [
+    {
+     "t": "Onda stazionaria",
+     "d": "Onda con nodi e ventri fissi."
+    },
+    {
+     "t": "Fondamentale",
+     "d": "Frequenza più bassa di vibrazione."
+    },
+    {
+     "t": "Armonica",
+     "d": "Multiplo intero della fondamentale."
+    },
+    {
+     "t": "Timbro",
+     "d": "Carattere di un suono dato dalle armoniche."
+    }
+   ],
+   "quote": {
+    "text": "The fundamental is the first harmonic, the first overtone is the second harmonic, and so on.",
+    "translation": "La fondamentale è la prima armonica, il primo ipertono è la seconda armonica, e così via."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "17.5 Sound interference and resonance standing waves in air columns",
+     "url": "https://openstax.org/books/college-physics-2e/pages/17-5-sound-interference-and-resonance-standing-waves-in-air-columns"
+    }
+   ],
+   "videos": [
+    {
+     "id": "0Rfushlee0U",
+     "title": "Standing Waves and Harmonics",
+     "channel": "Professor Dave Explains",
+     "length": "5:10"
+    },
+    {
+     "id": "gT0IqL1dyyk",
+     "title": "Standing waves on strings | Physics | Khan Academy",
+     "channel": "Khan Academy Physics",
+     "length": "13:25"
+    }
+   ],
+   "videoQuery": "physics of music standing waves crash course",
+   "addedAt": "2026-11-04T00:38:59Z"
+  },
+  {
+   "id": "udito-ultrasuoni",
+   "subject": "fisica",
+   "chapter": "Onde e suono",
+   "title": "Come sentiamo e come gli ultrasuoni vedono dentro il corpo",
+   "hook": "L'orecchio trasforma minuscole variazioni di pressione in segnali nervosi. E gli ultrasuoni, troppo acuti per noi, permettono di vedere un bambino prima che nasca.",
+   "points": [
+    "Il viaggio del suono nell'orecchio",
+    "Perché sentiamo meglio alcune frequenze",
+    "La perdita dell'udito",
+    "Come funzionano le ecografie"
+   ],
+   "sections": [
+    {
+     "h": "Il viaggio del suono",
+     "p": [
+      "L'onda sonora che arriva all'orecchio è un'onda di pressione. Il padiglione la raccoglie e la convoglia nel condotto uditivo fino al timpano, una membrana sottile che vibra.",
+      "Nell'orecchio medio tre ossicini, i più piccoli del corpo, chiamati martello, incudine e staffa, trasmettono la vibrazione all'orecchio interno funzionando come leve e amplificando la pressione. L'orecchio interno contiene la coclea, un tubicino a spirale pieno di liquido.",
+      "Nella coclea, migliaia di cellule ciliate trasformano le vibrazioni in segnali nervosi. Cellule in posizioni diverse rispondono a frequenze diverse: quelle vicino all'ingresso agli acuti, quelle in fondo ai gravi. Il cervello ricostruisce così altezza e intensità dei suoni."
+     ]
+    },
+    {
+     "h": "Sentire non è misurare",
+     "p": [
+      "L'intensità del suono si misura rispetto alla soglia normale dell'udito, ma la sensazione di volume dipende anche dalla frequenza. L'orecchio umano è più sensibile tra circa 2000 e 5000 hertz, la gamma di molti suoni della voce: a parità di intensità, un suono a quelle frequenze sembra più forte di uno molto grave o molto acuto.",
+      "Per esprimere il volume percepito si usa un'unità chiamata phon. È anche per questo che a basso volume la musica sembra povera di bassi: l'orecchio è poco sensibile alle frequenze basse quando il suono è debole."
+     ]
+    },
+    {
+     "h": "Perdere l'udito",
+     "p": [
+      "La forma più comune di perdita dell'udito arriva con l'età e si chiama presbiacusia, letteralmente \"orecchio anziano\": le cellule ciliate per i suoni acuti si consumano per prime. Per questo gli anziani faticano a distinguere le consonanti, che contengono molte frequenze alte.",
+      "Anche il rumore forte e prolungato danneggia le cellule ciliate, che negli esseri umani non si rigenerano. Concerti, cuffie a volume alto e ambienti di lavoro rumorosi possono causare perdite permanenti e acufeni. Gli apparecchi acustici amplificano i suoni; gli impianti cocleari stimolano direttamente il nervo acustico quando le cellule sono perse."
+     ]
+    },
+    {
+     "h": "Gli ultrasuoni",
+     "p": [
+      "Gli ultrasuoni hanno frequenze sopra i 20.000 hertz, troppo alte per l'orecchio umano. In un'ecografia una sonda emette impulsi di ultrasuoni, di solito di qualche milione di hertz, e ascolta gli echi riflessi dai confini tra tessuti diversi. Dal tempo di ritorno degli echi un computer ricostruisce un'immagine.",
+      "Le ecografie sono considerate molto sicure, perché gli ultrasuoni non sono radiazioni ionizzanti: per questo si usano per seguire la gravidanza. Si usano anche per esaminare cuore, fegato, reni e vasi sanguigni; con l'effetto Doppler misurano il flusso del sangue.",
+      "Ultrasuoni più intensi servono a pulire oggetti delicati, a frantumare calcoli renali senza chirurgia e, in natura, a pipistrelli e delfini per orientarsi e cacciare con l'ecolocalizzazione."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Se dopo un concerto senti un fischio nelle orecchie, le cellule ciliate sono state sollecitate troppo: è un segnale da non ignorare.",
+   "mistakes": [
+    "\"Sentiamo tutte le frequenze allo stesso modo\": siamo più sensibili tra 2000 e 5000 Hz.",
+    "\"Le cellule dell'orecchio danneggiate ricrescono\": negli esseri umani no.",
+    "\"Le ecografie usano raggi X\": usano ultrasuoni, non ionizzanti."
+   ],
+   "terms": [
+    {
+     "t": "Coclea",
+     "d": "Organo a spirale dell'orecchio interno che trasforma il suono in segnali nervosi."
+    },
+    {
+     "t": "Cellule ciliate",
+     "d": "Recettori del suono nella coclea."
+    },
+    {
+     "t": "Presbiacusia",
+     "d": "Perdita dell'udito legata all'età."
+    },
+    {
+     "t": "Ecografia",
+     "d": "Immagine ottenuta dagli echi degli ultrasuoni."
+    }
+   ],
+   "quote": {
+    "text": "The most common form of hearing loss comes with age and is called presbycusis—literally elder ear.",
+    "translation": "La forma più comune di perdita dell'udito arriva con l'età e si chiama presbiacusia, letteralmente \"orecchio anziano\"."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "17.6 Hearing",
+     "url": "https://openstax.org/books/college-physics-2e/pages/17-6-hearing"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "17.7 Ultrasound",
+     "url": "https://openstax.org/books/college-physics-2e/pages/17-7-ultrasound"
+    }
+   ],
+   "videos": [
+    {
+     "id": "4JLNb8-LOB0",
+     "title": "How to see with sound - Jacques S. Abramowicz",
+     "channel": "TED-Ed",
+     "length": "5:16"
+    },
+    {
+     "id": "LkGOGzpbrCk",
+     "title": "The science of hearing - Douglas L. Oliver",
+     "channel": "TED-Ed",
+     "length": "5:17"
+    }
+   ],
+   "videoQuery": "how the ear hears ultrasound physics",
+   "addedAt": "2026-11-04T00:38:59Z"
+  },
+  {
+   "id": "carica-elettrica",
+   "subject": "fisica",
+   "chapter": "Elettricità e magnetismo",
+   "title": "La carica elettrica e la legge di Coulomb",
+   "hook": "Un palloncino strofinato che si attacca al muro, la scossa toccando una maniglia: la carica elettrica, i conduttori e la forza tra le cariche.",
+   "points": [
+    "Cariche positive e negative",
+    "La conservazione della carica",
+    "Conduttori e isolanti",
+    "La legge di Coulomb"
+   ],
+   "sections": [
+    {
+     "h": "Strofinare e attrarre",
+     "p": [
+      "Già gli antichi greci sapevano che l'ambra strofinata attira pezzetti di paglia; la parola \"elettricità\" viene dal greco elektron, ambra. Strofinando un palloncino sui capelli, il palloncino si attacca al muro e i capelli si sollevano.",
+      "Esistono due tipi di carica. Per convenzione uno si chiama \"positivo\" e l'altro \"negativo\": strofinando il vetro con la seta, il vetro diventa positivo e la seta negativa. Cariche dello stesso segno si respingono, cariche di segno opposto si attraggono."
+     ]
+    },
+    {
+     "h": "Da dove viene la carica",
+     "p": [
+      "La carica è una proprietà delle particelle che formano gli atomi: i protoni hanno carica positiva, gli elettroni negativa, di uguale valore. Un atomo normale ha tanti elettroni quanti protoni ed è neutro.",
+      "Strofinando due materiali, alcuni elettroni passano da uno all'altro: chi li guadagna diventa negativo, chi li perde positivo. La carica non viene creata: viene solo spostata. È la legge di conservazione della carica, rispettata universalmente: la carica totale di un sistema isolato resta costante.",
+      "Anche nei processi tra particelle subatomiche, quando si creano cariche nuove, nascono sempre in coppie di segno opposto, di solito una particella e la sua antiparticella."
+     ]
+    },
+    {
+     "h": "Conduttori e isolanti",
+     "p": [
+      "Nei conduttori, come i metalli, alcuni elettroni sono liberi di muoversi e la carica si sposta facilmente. Negli isolanti, come plastica, vetro e gomma, gli elettroni sono legati e la carica resta dove viene messa. Per questo i cavi elettrici sono di rame rivestito di plastica.",
+      "Un oggetto carico può attrarre anche un oggetto neutro: avvicinandosi, sposta leggermente le cariche al suo interno, avvicinando quelle di segno opposto. È così che il palloncino si attacca al muro neutro.",
+      "Quando cammini sulla moquette e accumuli carica, toccando una maniglia di metallo la carica si scarica di colpo: la piccola scintilla che senti è la scossa elettrostatica."
+     ]
+    },
+    {
+     "h": "La legge di Coulomb",
+     "p": [
+      "Nel Settecento Charles-Augustin de Coulomb misurò la forza tra due cariche. Scoprì che è proporzionale al prodotto delle cariche e inversamente proporzionale al quadrato della distanza, proprio come la gravità di Newton.",
+      "La differenza è enorme però: la forza elettrica è incredibilmente più intensa di quella gravitazionale. Tra un protone e un elettrone la forza elettrica è circa 10³⁹ volte più forte della gravità. Se non ce ne accorgiamo è perché la materia è quasi sempre neutra, con cariche positive e negative che si bilanciano.",
+      "L'unità di carica è il coulomb, una quantità grandissima: un coulomb corrisponde alla carica di circa sei miliardi di miliardi di elettroni."
+     ]
+    }
+   ],
+   "formulas": [
+    {
+     "f": "F = k · q₁ · q₂ / r²",
+     "d": "Legge di Coulomb: k ≈ 9 × 10⁹ N·m²/C²."
+    },
+    {
+     "f": "e ≈ 1,6 × 10⁻¹⁹ C",
+     "d": "Carica di un elettrone (o protone), in valore assoluto."
+    }
+   ],
+   "example": "D'inverno, sfilandoti un maglione sintetico al buio, puoi vedere piccole scintille: sono cariche separate dallo strofinio.",
+   "mistakes": [
+    "\"Strofinando si crea carica\": la si sposta da un corpo all'altro.",
+    "\"Un oggetto carico attrae solo oggetti carichi\": attrae anche quelli neutri.",
+    "\"La forza elettrica è debole\": è enormemente più forte della gravità."
+   ],
+   "terms": [
+    {
+     "t": "Carica elettrica",
+     "d": "Proprietà delle particelle che causa forze elettriche."
+    },
+    {
+     "t": "Conservazione della carica",
+     "d": "La carica totale di un sistema isolato non cambia."
+    },
+    {
+     "t": "Conduttore",
+     "d": "Materiale in cui la carica si muove facilmente."
+    },
+    {
+     "t": "Coulomb",
+     "d": "Unità di misura della carica."
+    }
+   ],
+   "quote": {
+    "text": "This universally obeyed law of nature is called the law of conservation of charge.",
+    "translation": "Questa legge di natura, rispettata universalmente, si chiama legge di conservazione della carica."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "18.1 Static electricity and charge conservation of charge",
+     "url": "https://openstax.org/books/college-physics-2e/pages/18-1-static-electricity-and-charge-conservation-of-charge"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "18.2 Conductors and insulators",
+     "url": "https://openstax.org/books/college-physics-2e/pages/18-2-conductors-and-insulators"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "18.3 Coulombs law",
+     "url": "https://openstax.org/books/college-physics-2e/pages/18-3-coulombs-law"
+    }
+   ],
+   "videos": [
+    {
+     "id": "TFlVWf8JX4A",
+     "title": "Electric Charge: Crash Course Physics #25",
+     "channel": "CrashCourse",
+     "length": "9:42"
+    },
+    {
+     "id": "mdulzEfQXDE",
+     "title": "Electric Fields: Crash Course Physics #26",
+     "channel": "CrashCourse",
+     "length": "9:57"
+    }
+   ],
+   "videoQuery": "electric charge coulomb's law crash course physics",
+   "addedAt": "2026-11-04T00:38:59Z"
+  },
+  {
+   "id": "campo-elettrico",
+   "subject": "fisica",
+   "chapter": "Elettricità e magnetismo",
+   "title": "Il campo elettrico: forze invisibili, fulmini e fotocopiatrici",
+   "hook": "Una carica modifica lo spazio intorno a sé. Linee di campo, gabbie di Faraday, parafulmini e stampanti: il campo elettrico al lavoro.",
+   "points": [
+    "Che cos'è un campo elettrico",
+    "Le linee di campo",
+    "Perché dentro un'auto si è al sicuro dai fulmini",
+    "Applicazioni dell'elettrostatica"
+   ],
+   "sections": [
+    {
+     "h": "Un campo intorno a ogni carica",
+     "p": [
+      "Come fa una carica ad agire su un'altra a distanza? La fisica risponde con il concetto di campo: ogni carica crea intorno a sé un campo elettrico, e il campo esercita una forza su qualsiasi altra carica che si trovi lì.",
+      "Il campo elettrico è definito in modo da rappresentare solo la carica che lo crea, ed è unico in ogni punto dello spazio. Si misura come forza per unità di carica: se metti una piccola carica di prova in un punto, la forza che subisce divisa per la carica dà il campo."
+     ]
+    },
+    {
+     "h": "Disegnare il campo",
+     "p": [
+      "Per visualizzare il campo si usano le linee di campo. Escono dalle cariche positive ed entrano in quelle negative; dove sono fitte il campo è intenso, dove sono rade è debole; non si incrociano mai.",
+      "Intorno a una carica singola le linee sono raggi che si allontanano in tutte le direzioni. Tra due cariche opposte si incurvano da una all'altra; tra due piastre parallele di carica opposta sono quasi parallele e il campo è uniforme. Le linee dicono anche in che direzione verrebbe spinta una carica positiva."
+     ]
+    },
+    {
+     "h": "Conduttori e gabbia di Faraday",
+     "p": [
+      "In un conduttore in equilibrio, le cariche libere si spostano finché il campo al suo interno diventa zero. L'eccesso di carica si dispone tutto sulla superficie, e si concentra nelle punte.",
+      "Da qui nasce la gabbia di Faraday: dentro un involucro metallico chiuso il campo elettrico esterno non entra. Per questo dentro un'auto o un aereo colpiti da un fulmine si è protetti: la corrente scorre sulla carrozzeria esterna. Per la stessa ragione il telefono perde il segnale in un ascensore metallico.",
+      "La concentrazione di carica sulle punte spiega i parafulmini: una punta metallica collegata a terra favorisce la scarica in un punto controllato, lontano dalle persone e dagli edifici."
+     ]
+    },
+    {
+     "h": "Elettricità nella vita e nella tecnologia",
+     "p": [
+      "Le forze elettriche sono fondamentali anche in biologia: tengono insieme le molecole, ripiegano le proteine, legano le due eliche del DNA e regolano il passaggio degli ioni attraverso le membrane delle cellule. L'acqua, con le sue molecole polari, scherma le cariche e rende possibili molte reazioni.",
+      "Molte tecnologie sfruttano l'elettrostatica. Nelle fotocopiatrici e nelle stampanti laser un tamburo viene caricato e la luce cancella la carica dove il foglio deve restare bianco; il toner aderisce solo alle zone cariche. I filtri elettrostatici delle ciminiere caricano le particelle di fumo e le catturano su piastre di carica opposta. Anche la verniciatura delle auto usa vernice caricata per depositarsi in modo uniforme."
+     ]
+    }
+   ],
+   "formulas": [
+    {
+     "f": "E = F / q",
+     "d": "Campo elettrico: forza per unità di carica (N/C)."
+    },
+    {
+     "f": "E = k · Q / r²",
+     "d": "Campo di una carica puntiforme."
+    }
+   ],
+   "example": "Se un fulmine colpisce l'auto su cui viaggi, restando dentro e senza toccare le parti metalliche sei al sicuro.",
+   "mistakes": [
+    "\"In auto si è al sicuro dai fulmini grazie alle gomme\": è la carrozzeria metallica a fare da gabbia.",
+    "\"Le linee di campo sono oggetti reali\": sono un modo di disegnare il campo.",
+    "\"Dentro un conduttore carico c'è un campo forte\": in equilibrio il campo interno è zero."
+   ],
+   "terms": [
+    {
+     "t": "Campo elettrico",
+     "d": "Forza per unità di carica in ogni punto dello spazio."
+    },
+    {
+     "t": "Linee di campo",
+     "d": "Rappresentazione grafica del campo."
+    },
+    {
+     "t": "Gabbia di Faraday",
+     "d": "Involucro conduttore che blocca i campi esterni."
+    },
+    {
+     "t": "Elettrostatica",
+     "d": "Studio delle cariche ferme."
+    }
+   ],
+   "quote": {
+    "text": "The electric field is defined in such a manner that it represents only the charge creating it and is unique at every point in space.",
+    "translation": "Il campo elettrico è definito in modo da rappresentare solo la carica che lo crea, ed è unico in ogni punto dello spazio."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "18.4 Electric field concept of a field revisited",
+     "url": "https://openstax.org/books/college-physics-2e/pages/18-4-electric-field-concept-of-a-field-revisited"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "18.5 Electric field lines multiple charges",
+     "url": "https://openstax.org/books/college-physics-2e/pages/18-5-electric-field-lines-multiple-charges"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "18.6 Electric forces in biology",
+     "url": "https://openstax.org/books/college-physics-2e/pages/18-6-electric-forces-in-biology"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "18.7 Conductors and electric fields in static equilibrium",
+     "url": "https://openstax.org/books/college-physics-2e/pages/18-7-conductors-and-electric-fields-in-static-equilibrium"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "18.8 Applications of electrostatics",
+     "url": "https://openstax.org/books/college-physics-2e/pages/18-8-applications-of-electrostatics"
+    }
+   ],
+   "videos": [
+    {
+     "id": "mdulzEfQXDE",
+     "title": "Electric Fields: Crash Course Physics #26",
+     "channel": "CrashCourse",
+     "length": "9:57"
+    }
+   ],
+   "videoQuery": "electric fields crash course physics",
+   "addedAt": "2026-11-04T00:38:59Z"
+  },
+  {
+   "id": "potenziale-elettrico",
+   "subject": "fisica",
+   "chapter": "Elettricità e magnetismo",
+   "title": "Potenziale elettrico e tensione: cosa significa \"volt\"",
+   "hook": "Perché un uccello sul cavo dell'alta tensione non prende la scossa? Il potenziale elettrico e la differenza di potenziale spiegano cosa sono davvero i volt.",
+   "points": [
+    "Energia potenziale elettrica",
+    "Potenziale e differenza di potenziale",
+    "L'elettronvolt",
+    "Le linee equipotenziali"
+   ],
+   "sections": [
+    {
+     "h": "Un'energia di posizione",
+     "p": [
+      "Una carica in un campo elettrico possiede energia potenziale, come un sasso sollevato nel campo gravitazionale. Spostare una carica positiva contro il campo richiede lavoro, che viene immagazzinato; lasciandola libera, il campo la accelera e l'energia potenziale diventa cinetica.",
+      "Il potenziale elettrico è l'energia potenziale per unità di carica: dice quanta energia avrebbe ogni coulomb di carica in quel punto. Si misura in volt: un volt corrisponde a un joule per coulomb."
+     ]
+    },
+    {
+     "h": "Conta la differenza",
+     "p": [
+      "Come per l'altezza nella gravità, ciò che conta davvero è la differenza di potenziale tra due punti, chiamata anche tensione o voltaggio. Ogni batteria ha due terminali, e la sua tensione è la differenza di potenziale tra loro: una pila da 1,5 V dà 1,5 joule a ogni coulomb di carica che passa dall'uno all'altro.",
+      "Questo spiega l'uccello sul cavo dell'alta tensione: entrambe le zampe toccano lo stesso cavo, allo stesso potenziale. Non c'è differenza di potenziale attraverso il suo corpo, quindi non passa corrente. Se toccasse contemporaneamente un altro cavo o un palo collegato a terra, sarebbe fulminato.",
+      "Tra due piastre parallele cariche il campo è uniforme, e la differenza di potenziale è semplicemente il campo per la distanza. Intorno a una carica puntiforme, invece, il potenziale diminuisce con l'inverso della distanza."
+     ]
+    },
+    {
+     "h": "L'elettronvolt",
+     "p": [
+      "Per i processi alla scala degli atomi il joule è un'unità troppo grande. Si usa allora l'elettronvolt (eV): l'energia acquistata da una carica elementare, come un elettrone, accelerata attraverso una differenza di potenziale di un volt.",
+      "Le energie chimiche, come quelle dei legami tra atomi, sono di pochi elettronvolt. I fotoni di luce visibile hanno energie di circa 2-3 eV. Negli acceleratori di particelle si raggiungono miliardi o migliaia di miliardi di elettronvolt.",
+      "Le vecchie televisioni a tubo catodico acceleravano gli elettroni con differenze di potenziale di decine di migliaia di volt per farli brillare sullo schermo."
+     ]
+    },
+    {
+     "h": "Le linee equipotenziali",
+     "p": [
+      "I punti che hanno lo stesso potenziale formano linee (o superfici) equipotenziali. Spostare una carica lungo una di queste linee non richiede lavoro, come camminare lungo una curva di livello su una mappa di montagna non richiede né salire né scendere.",
+      "Le linee equipotenziali sono sempre perpendicolari alle linee di campo. La superficie di un conduttore in equilibrio è sempre equipotenziale.",
+      "In medicina, l'elettrocardiogramma misura proprio differenze di potenziale tra punti diversi della pelle, prodotte dall'attività elettrica del cuore."
+     ]
+    }
+   ],
+   "formulas": [
+    {
+     "f": "V = Ep / q",
+     "d": "Potenziale: energia potenziale per unità di carica (volt = joule/coulomb)."
+    },
+    {
+     "f": "ΔV = E · d",
+     "d": "Differenza di potenziale in un campo uniforme."
+    },
+    {
+     "f": "1 eV ≈ 1,6 × 10⁻¹⁹ J",
+     "d": "Elettronvolt."
+    }
+   ],
+   "example": "Una batteria dell'auto da 12 V dà a ogni coulomb otto volte l'energia che gli dà una pila stilo da 1,5 V.",
+   "mistakes": [
+    "\"Toccare un cavo ad alta tensione è sempre letale\": serve una differenza di potenziale attraverso il corpo (ma non provarci mai).",
+    "\"Volt e corrente sono la stessa cosa\": la tensione è la spinta, la corrente il flusso.",
+    "\"Il potenziale ha un valore assoluto\": conta la differenza tra due punti."
+   ],
+   "terms": [
+    {
+     "t": "Potenziale elettrico",
+     "d": "Energia potenziale per unità di carica."
+    },
+    {
+     "t": "Tensione",
+     "d": "Differenza di potenziale tra due punti."
+    },
+    {
+     "t": "Elettronvolt",
+     "d": "Energia di una carica elementare accelerata da 1 volt."
+    },
+    {
+     "t": "Equipotenziale",
+     "d": "Linea o superficie a potenziale costante."
+    }
+   ],
+   "quote": {
+    "text": "For example, every battery has two terminals, and its voltage is the potential difference between them.",
+    "translation": "Per esempio, ogni batteria ha due terminali, e la sua tensione è la differenza di potenziale tra di essi."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "19.1 Electric potential energy potential difference",
+     "url": "https://openstax.org/books/college-physics-2e/pages/19-1-electric-potential-energy-potential-difference"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "19.2 Electric potential in a uniform electric field",
+     "url": "https://openstax.org/books/college-physics-2e/pages/19-2-electric-potential-in-a-uniform-electric-field"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "19.3 Electrical potential due to a point charge",
+     "url": "https://openstax.org/books/college-physics-2e/pages/19-3-electrical-potential-due-to-a-point-charge"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "19.4 Equipotential lines",
+     "url": "https://openstax.org/books/college-physics-2e/pages/19-4-equipotential-lines"
+    }
+   ],
+   "videos": [
+    {
+     "id": "ZrMltpK6iAw",
+     "title": "Voltage, Electric Energy, and Capacitors: Crash Course Physics #27",
+     "channel": "CrashCourse",
+     "length": "10:14"
+    }
+   ],
+   "videoQuery": "electric potential voltage crash course physics",
+   "addedAt": "2026-11-04T00:38:59Z"
+  },
+  {
+   "id": "condensatori",
+   "subject": "fisica",
+   "chapter": "Elettricità e magnetismo",
+   "title": "I condensatori: serbatoi di carica nei circuiti",
+   "hook": "Il flash della fotocamera, il defibrillatore, lo schermo touch: tutti usano condensatori, dispositivi che accumulano carica ed energia e la rilasciano in un lampo.",
+   "points": [
+    "Com'è fatto un condensatore",
+    "La capacità e i dielettrici",
+    "Condensatori in serie e in parallelo",
+    "L'energia immagazzinata e i suoi usi"
+   ],
+   "sections": [
+    {
+     "h": "Due piastre e un isolante",
+     "p": [
+      "Un condensatore è un dispositivo che immagazzina carica elettrica. Nella forma più semplice è fatto di due piastre conduttrici vicine, separate da un isolante. Collegandolo a una batteria, una piastra si carica positivamente e l'altra negativamente, e tra loro si crea un campo elettrico.",
+      "La capacità indica quanta carica il condensatore accumula per ogni volt di tensione applicata. Si misura in farad, un'unità enorme: nei circuiti si usano di solito microfarad o picofarad. La capacità cresce con l'area delle piastre e diminuisce con la loro distanza."
+     ]
+    },
+    {
+     "h": "Il dielettrico",
+     "p": [
+      "Tra le piastre si inserisce spesso un materiale isolante chiamato dielettrico. Le sue molecole si orientano parzialmente nel campo, riducendolo, e così il condensatore può accumulare più carica alla stessa tensione: la capacità aumenta.",
+      "C'è un altro vantaggio: il dielettrico permette di avvicinare molto le piastre senza che la carica salti dall'una all'altra. Ogni isolante, oltre un certo campo elettrico, comincia a cedere e a condurre: il campo massimo sopportabile si chiama rigidità dielettrica. L'aria cede intorno ai 3 milioni di volt al metro: è ciò che succede nei fulmini e nelle scintille."
+     ]
+    },
+    {
+     "h": "In serie e in parallelo",
+     "p": [
+      "I condensatori si possono collegare in parallelo, uno accanto all'altro: le capacità si sommano, come se si allargassero le piastre. Oppure in serie, uno dopo l'altro: la capacità totale diminuisce, ma il gruppo sopporta una tensione maggiore.",
+      "Questi collegamenti permettono ai progettisti di ottenere la capacità e la tensione desiderate con componenti standard."
+     ]
+    },
+    {
+     "h": "Energia in un lampo",
+     "p": [
+      "Un condensatore carico immagazzina energia nel campo elettrico tra le piastre. A differenza di una batteria, che produce energia con reazioni chimiche lente, un condensatore può rilasciare tutta la sua energia in una frazione di secondo.",
+      "Per questo serve nei flash delle fotocamere, che accumulano energia per alcuni secondi e la scaricano in un millesimo di secondo. I defibrillatori usano condensatori per dare al cuore una scarica intensa e brevissima che può ristabilire un ritmo normale.",
+      "I condensatori sono ovunque nell'elettronica: filtrano disturbi, stabilizzano le tensioni, temporizzano i circuiti. Anche gli schermi touch dei telefoni funzionano misurando come il dito modifica la capacità di una griglia di minuscoli condensatori."
+     ]
+    }
+   ],
+   "formulas": [
+    {
+     "f": "C = Q / V",
+     "d": "Capacità = carica / tensione (farad)."
+    },
+    {
+     "f": "C = ε·A / d",
+     "d": "Condensatore piano: area A, distanza d, permittività del materiale ε."
+    },
+    {
+     "f": "E = ½·C·V²",
+     "d": "Energia immagazzinata."
+    }
+   ],
+   "example": "Il flash del telefono o della fotocamera si \"ricarica\" per un secondo dopo ogni foto: è il condensatore che accumula energia.",
+   "mistakes": [
+    "\"Un condensatore è una piccola batteria\": immagazzina carica, non produce energia chimica.",
+    "\"Il dielettrico serve solo a separare le piastre\": aumenta anche la capacità.",
+    "\"Un condensatore scollegato è sempre innocuo\": può restare carico a lungo."
+   ],
+   "terms": [
+    {
+     "t": "Capacità",
+     "d": "Carica accumulata per volt."
+    },
+    {
+     "t": "Farad",
+     "d": "Unità di capacità."
+    },
+    {
+     "t": "Dielettrico",
+     "d": "Isolante tra le piastre che aumenta la capacità."
+    },
+    {
+     "t": "Rigidità dielettrica",
+     "d": "Campo massimo prima che un isolante conduca."
+    }
+   ],
+   "quote": {
+    "text": "The maximum electric field strength above which an insulating material begins to break down and conduct is called its dielectric strength.",
+    "translation": "Il campo elettrico massimo oltre il quale un materiale isolante comincia a cedere e a condurre si chiama rigidità dielettrica."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "19.5 Capacitors and dielectrics",
+     "url": "https://openstax.org/books/college-physics-2e/pages/19-5-capacitors-and-dielectrics"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "19.6 Capacitors in series and parallel",
+     "url": "https://openstax.org/books/college-physics-2e/pages/19-6-capacitors-in-series-and-parallel"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "19.7 Energy stored in capacitors",
+     "url": "https://openstax.org/books/college-physics-2e/pages/19-7-energy-stored-in-capacitors"
+    }
+   ],
+   "videos": [
+    {
+     "id": "ZrMltpK6iAw",
+     "title": "Voltage, Electric Energy, and Capacitors: Crash Course Physics #27",
+     "channel": "CrashCourse",
+     "length": "10:14"
+    }
+   ],
+   "videoQuery": "capacitors crash course physics",
+   "addedAt": "2026-11-04T00:38:59Z"
+  },
+  {
+   "id": "resistivita-potenza",
+   "subject": "fisica",
+   "chapter": "Elettricità e magnetismo",
+   "title": "Corrente, resistività e potenza elettrica",
+   "hook": "Che cos'è un ampere, perché i fili sottili scaldano e come si calcola quanto consuma una lampadina. Le basi della corrente elettrica.",
+   "points": [
+    "La definizione di corrente e il verso convenzionale",
+    "La resistività dei materiali",
+    "Superconduttori e temperatura",
+    "La potenza elettrica e l'effetto Joule"
+   ],
+   "sections": [
+    {
+     "h": "Un flusso di carica",
+     "p": [
+      "La corrente elettrica è definita come la rapidità con cui scorre la carica. Si misura in ampere: un ampere è il passaggio di un coulomb attraverso una sezione in un secondo. Una lampadina LED assorbe qualche decina di milliampere, un bollitore circa 9 ampere.",
+      "Per convenzione, il verso della corrente è quello in cui si muoverebbe una carica positiva. Nei metalli in realtà si muovono gli elettroni, negativi, nel verso opposto: è una convenzione nata prima che si scoprisse l'elettrone, ed è rimasta."
+     ]
+    },
+    {
+     "h": "Resistività: una proprietà del materiale",
+     "p": [
+      "La resistenza di un filo dipende dalla sua forma e dal materiale. È proporzionale alla lunghezza e inversamente proporzionale alla sezione: un filo lungo e sottile resiste di più di uno corto e grosso.",
+      "Il materiale conta attraverso la resistività, una sua proprietà caratteristica. L'argento e il rame hanno resistività bassissime, e per questo il rame è usato nei cavi. Il nichel-cromo ne ha una più alta ed è usato nelle resistenze dei tostapane e degli asciugacapelli. Gli isolanti hanno resistività miliardi di miliardi di volte maggiori.",
+      "La resistività dei metalli aumenta con la temperatura: gli atomi che vibrano di più ostacolano maggiormente gli elettroni. Alcuni materiali, raffreddati a temperature bassissime, perdono del tutto la resistenza: sono i superconduttori, usati per esempio nei magneti delle risonanze magnetiche."
+     ]
+    },
+    {
+     "h": "Potenza ed effetto Joule",
+     "p": [
+      "La potenza elettrica è il prodotto di tensione e corrente: watt = volt × ampere. Un apparecchio da 2300 W collegato a 230 V assorbe 10 ampere.",
+      "Quando la corrente attraversa una resistenza, l'energia elettrica si trasforma in calore: è l'effetto Joule. La potenza dissipata cresce con il quadrato della corrente. È l'effetto voluto in stufette, ferri da stiro, bollitori e vecchie lampadine a incandescenza, il cui filamento diventava così caldo da emettere luce.",
+      "Nei cavi invece è uno spreco. Per questo l'energia viaggia sulle linee di trasmissione ad altissima tensione: a parità di potenza la corrente è bassa, e le perdite, che crescono con il quadrato della corrente, si riducono molto."
+     ]
+    },
+    {
+     "h": "Leggere la bolletta",
+     "p": [
+      "L'energia elettrica si paga in chilowattora: potenza in kilowatt moltiplicata per le ore di utilizzo. Un forno da 2 kW acceso per un'ora e mezza consuma 3 kWh.",
+      "Conoscendo potenza e tempo d'uso dei propri apparecchi si può capire dove si concentra il consumo. Spesso sono gli apparecchi che producono calore, come forni, stufette e asciugatrici, a pesare di più."
+     ]
+    }
+   ],
+   "formulas": [
+    {
+     "f": "I = ΔQ / Δt",
+     "d": "Corrente = carica / tempo."
+    },
+    {
+     "f": "R = ρ·L / A",
+     "d": "Resistenza: resistività × lunghezza / sezione."
+    },
+    {
+     "f": "P = V·I = R·I²",
+     "d": "Potenza elettrica ed effetto Joule."
+    }
+   ],
+   "example": "Le prolunghe arrotolate possono scaldarsi molto con apparecchi potenti: la corrente alta nel filo produce calore per effetto Joule.",
+   "mistakes": [
+    "\"La corrente va dal + al − perché si muovono le cariche positive\": nei metalli si muovono gli elettroni, al contrario.",
+    "\"Un filo più grosso resiste di più\": resiste di meno.",
+    "\"Il calore nei cavi è inevitabile e non dipende da nulla\": cresce con il quadrato della corrente."
+   ],
+   "terms": [
+    {
+     "t": "Ampere",
+     "d": "Un coulomb al secondo."
+    },
+    {
+     "t": "Resistività",
+     "d": "Proprietà di un materiale che misura quanto ostacola la corrente."
+    },
+    {
+     "t": "Superconduttore",
+     "d": "Materiale con resistenza nulla a bassa temperatura."
+    },
+    {
+     "t": "Effetto Joule",
+     "d": "Riscaldamento dovuto alla corrente in una resistenza."
+    }
+   ],
+   "quote": {
+    "text": "Electric current is defined to be the rate at which charge flows.",
+    "translation": "La corrente elettrica è definita come la rapidità con cui scorre la carica."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "20.1 Current",
+     "url": "https://openstax.org/books/college-physics-2e/pages/20-1-current"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "20.3 Resistance and resistivity",
+     "url": "https://openstax.org/books/college-physics-2e/pages/20-3-resistance-and-resistivity"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "20.4 Electric power and energy",
+     "url": "https://openstax.org/books/college-physics-2e/pages/20-4-electric-power-and-energy"
+    }
+   ],
+   "videos": [
+    {
+     "id": "BbizKa6eywo",
+     "title": "GCSE Physics - Voltage, Current & Resistance | V = IR Equation | IV Graphs (2027/28 exams)",
+     "channel": "Cognito",
+     "length": "4:36"
+    },
+    {
+     "id": "XWlZ9bfGIoI",
+     "title": "Electric Potential, Current, and Resistance",
+     "channel": "Professor Dave Explains",
+     "length": "5:25"
+    }
+   ],
+   "videoQuery": "resistivity electric power physics",
+   "addedAt": "2026-11-04T00:38:59Z"
+  },
+  {
    "id": "corrente-elettrica",
    "subject": "fisica",
    "title": "Corrente, tensione e resistenza: come funziona un circuito",
@@ -4087,6 +6495,916 @@
      "d": "Potenza elettrica (W) = tensione × corrente."
     }
    ]
+  },
+  {
+   "id": "corrente-alternata",
+   "subject": "fisica",
+   "chapter": "Elettricità e magnetismo",
+   "title": "Corrente alternata e continua: cosa arriva alla presa di casa",
+   "hook": "Le pile danno corrente continua, la presa di casa alternata a 50 hertz. Perché il mondo ha scelto l'alternata e cosa significa \"230 volt efficaci\".",
+   "points": [
+    "La differenza tra corrente continua e alternata",
+    "Frequenza e tensione efficace",
+    "Perché la rete elettrica usa l'alternata",
+    "La guerra delle correnti"
+   ],
+   "sections": [
+    {
+     "h": "Due tipi di corrente",
+     "p": [
+      "La corrente continua (CC, in inglese DC) è un flusso di carica in una sola direzione: è quella delle pile, delle batterie dei telefoni e delle auto.",
+      "La corrente alternata (CA, in inglese AC) è un flusso di carica che cambia periodicamente direzione. In Europa la tensione della rete varia in modo sinusoidale 50 volte al secondo: la frequenza è di 50 hertz. Negli Stati Uniti e in alcuni altri paesi è 60 hertz."
+     ]
+    },
+    {
+     "h": "Che cosa significa 230 volt",
+     "p": [
+      "Nella corrente alternata la tensione cambia di continuo, passando da un massimo positivo a un massimo negativo. Per descriverla si usa il valore efficace (in inglese rms): la tensione continua che produrrebbe lo stesso riscaldamento in una resistenza.",
+      "Quando diciamo che la presa di casa è a 230 volt intendiamo il valore efficace. Il valore di picco è più alto, circa 325 volt. Anche la potenza indicata sugli elettrodomestici si riferisce ai valori efficaci.",
+      "Le lampadine a incandescenza collegate alla rete in realtà si spengono e si riaccendono 100 volte al secondo, ma il filamento resta caldo e non ce ne accorgiamo."
+     ]
+    },
+    {
+     "h": "Perché l'alternata",
+     "p": [
+      "Il grande vantaggio della corrente alternata è che la sua tensione si può alzare e abbassare facilmente con i trasformatori, che funzionano solo con correnti che cambiano. Così le centrali possono trasmettere l'energia a centinaia di migliaia di volt, con perdite ridotte, e poi abbassarla a 230 volt per le case.",
+      "Inoltre i generatori delle centrali, con bobine che ruotano in campi magnetici, producono in modo naturale corrente alternata.",
+      "Molti apparecchi elettronici però funzionano in corrente continua: per questo i caricabatterie e gli alimentatori contengono circuiti che trasformano l'alternata in continua e ne abbassano la tensione."
+     ]
+    },
+    {
+     "h": "La guerra delle correnti",
+     "p": [
+      "Alla fine dell'Ottocento negli Stati Uniti si combatté la \"guerra delle correnti\". Thomas Edison sosteneva la corrente continua; Nikola Tesla e l'industriale George Westinghouse l'alternata. Edison cercò anche di convincere il pubblico che l'alternata fosse troppo pericolosa.",
+      "Vinse l'alternata, per la possibilità di trasportare l'energia a grandi distanze. Oggi però la corrente continua ad altissima tensione sta tornando per alcune linee molto lunghe o sottomarine, grazie all'elettronica moderna che permette di convertirla in modo efficiente.",
+      "Anche i pannelli solari producono corrente continua: un dispositivo chiamato inverter la trasforma in alternata per immetterla nella rete."
+     ]
+    }
+   ],
+   "formulas": [
+    {
+     "f": "V_eff = V_picco / √2",
+     "d": "Tensione efficace di una corrente alternata sinusoidale."
+    },
+    {
+     "f": "230 V eff ≈ 325 V di picco",
+     "d": "La rete domestica europea."
+    }
+   ],
+   "example": "Il caricabatterie del telefono si scalda un po' perché trasforma i 230 V alternati della presa in circa 5 V continui.",
+   "mistakes": [
+    "\"La presa di casa ha sempre 230 V\": è il valore efficace; la tensione oscilla fino a circa 325 V.",
+    "\"L'alternata ha vinto perché è più sicura\": ha vinto perché si trasforma facilmente con i trasformatori.",
+    "\"I telefoni funzionano in alternata\": usano continua, ottenuta dal caricabatterie."
+   ],
+   "terms": [
+    {
+     "t": "Corrente continua",
+     "d": "Corrente in una sola direzione."
+    },
+    {
+     "t": "Corrente alternata",
+     "d": "Corrente che cambia periodicamente direzione."
+    },
+    {
+     "t": "Valore efficace",
+     "d": "Valore equivalente in continua per il riscaldamento."
+    },
+    {
+     "t": "Inverter",
+     "d": "Dispositivo che trasforma continua in alternata."
+    }
+   ],
+   "quote": {
+    "text": "Alternating current (AC) is the flow of electric charge that periodically reverses direction.",
+    "translation": "La corrente alternata (CA) è un flusso di carica elettrica che inverte periodicamente direzione."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "20.5 Alternating current versus direct current",
+     "url": "https://openstax.org/books/college-physics-2e/pages/20-5-alternating-current-versus-direct-current"
+    }
+   ],
+   "videos": [
+    {
+     "id": "B1XiX3sNV-c",
+     "title": "GCSE Physics - Alternating Current & Direct Current | AC & DC (2027/28 exams)",
+     "channel": "Cognito",
+     "length": "2:53"
+    },
+    {
+     "id": "tJSga2YamDc",
+     "title": "Alternating and Direct Current | Electricity | Physics | FuseSchool",
+     "channel": "FuseSchool - Global Education",
+     "length": "3:51"
+    }
+   ],
+   "videoQuery": "AC vs DC current explained",
+   "addedAt": "2026-11-04T00:38:59Z"
+  },
+  {
+   "id": "elettricita-e-corpo",
+   "subject": "fisica",
+   "chapter": "Elettricità e magnetismo",
+   "title": "Elettricità e corpo umano: scosse, nervi e salvavita",
+   "hook": "Il corpo funziona con segnali elettrici, e proprio per questo la corrente esterna è pericolosa. Cosa rende grave una scossa e come ci proteggono gli impianti.",
+   "points": [
+    "I due pericoli dell'elettricità: calore e scossa",
+    "Perché conta soprattutto la corrente",
+    "I segnali elettrici dei nervi e l'elettrocardiogramma",
+    "Messa a terra e salvavita"
+   ],
+   "sections": [
+    {
+     "h": "Due pericoli",
+     "p": [
+      "Esistono due pericoli noti dell'elettricità: termico e da scossa. Il pericolo termico nasce quando una corrente eccessiva scalda i fili fino a incendiare ciò che li circonda, per esempio in un cortocircuito, cioè un percorso a bassissima resistenza tra i terminali di una sorgente di tensione.",
+      "Il pericolo da scossa nasce quando la corrente attraversa il corpo. La gravità della scossa dipende soprattutto dall'intensità della corrente, oltre che dal percorso, dalla durata e dalla frequenza."
+     ]
+    },
+    {
+     "h": "Quanta corrente è pericolosa",
+     "p": [
+      "Bastano correnti piccole per avere effetti. Circa 1 milliampere si avverte appena; intorno ai 10-20 milliampere i muscoli possono contrarsi senza controllo, rendendo impossibile lasciare la presa; da 100 milliampere in su, se la corrente attraversa il torace, il cuore può andare in fibrillazione, un ritmo caotico potenzialmente mortale.",
+      "La corrente dipende dalla tensione e dalla resistenza del corpo, che è dovuta soprattutto alla pelle. La pelle asciutta resiste molto, quella bagnata pochissimo: per questo usare apparecchi elettrici vicino all'acqua, nella vasca o con le mani bagnate è così pericoloso.",
+      "Il percorso conta: una corrente da una mano all'altra attraversa il cuore ed è più pericolosa di una che passa da un dito all'altro della stessa mano."
+     ]
+    },
+    {
+     "h": "L'elettricità del corpo",
+     "p": [
+      "Il sistema nervoso funziona con segnali elettrici. Le cellule nervose mantengono una differenza di potenziale attraverso la loro membrana, pompando ioni di sodio e potassio. Quando un nervo si attiva, i canali si aprono, gli ioni passano e un impulso elettrico, il potenziale d'azione, corre lungo la fibra.",
+      "Anche il cuore è controllato da segnali elettrici che coordinano la contrazione delle sue camere. L'elettrocardiogramma (ECG) registra, con elettrodi sulla pelle, le piccole differenze di potenziale prodotte da questa attività, permettendo ai medici di riconoscere molti problemi del ritmo cardiaco.",
+      "Il defibrillatore sfrutta lo stesso principio al contrario: una scarica controllata azzera l'attività caotica del cuore in fibrillazione e permette al ritmo normale di ripartire."
+     ]
+    },
+    {
+     "h": "Come ci proteggono gli impianti",
+     "p": [
+      "Gli impianti elettrici hanno diversi sistemi di sicurezza. I fusibili e gli interruttori magnetotermici interrompono la corrente quando diventa troppo alta, proteggendo dai pericoli termici.",
+      "La messa a terra collega le parti metalliche degli elettrodomestici al terreno: se un filo interno tocca la carcassa, la corrente scorre verso terra invece che attraverso chi tocca l'apparecchio.",
+      "Il salvavita, o interruttore differenziale, confronta la corrente che entra e quella che esce da un circuito. Se una piccola parte, anche solo 30 milliampere, sfugge altrove, magari attraverso una persona, stacca la corrente in pochi centesimi di secondo. È uno dei dispositivi che hanno salvato più vite."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Se il salvavita di casa \"salta\" quando colleghi un vecchio elettrodomestico, probabilmente c'è una dispersione: meglio farlo controllare.",
+   "mistakes": [
+    "\"Conta solo la tensione\": è la corrente attraverso il corpo a determinare il danno.",
+    "\"Con le mani bagnate il rischio è uguale\": la pelle bagnata riduce molto la resistenza.",
+    "\"Il salvavita protegge solo l'impianto\": interviene per proteggere le persone."
+   ],
+   "terms": [
+    {
+     "t": "Cortocircuito",
+     "d": "Percorso a bassissima resistenza tra i terminali di una sorgente."
+    },
+    {
+     "t": "Fibrillazione",
+     "d": "Ritmo cardiaco caotico e inefficace."
+    },
+    {
+     "t": "Messa a terra",
+     "d": "Collegamento delle parti metalliche al terreno."
+    },
+    {
+     "t": "Salvavita",
+     "d": "Interruttore che stacca la corrente se una parte si disperde."
+    }
+   ],
+   "quote": {
+    "text": "There are two known hazards of electricity—thermal and shock.",
+    "translation": "Esistono due pericoli noti dell'elettricità: termico e da scossa."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "20.6 Electric hazards and the human body",
+     "url": "https://openstax.org/books/college-physics-2e/pages/20-6-electric-hazards-and-the-human-body"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "20.7 Nerve conduction electrocardiograms",
+     "url": "https://openstax.org/books/college-physics-2e/pages/20-7-nerve-conduction-electrocardiograms"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "23.8 Electrical safety systems and devices",
+     "url": "https://openstax.org/books/college-physics-2e/pages/23-8-electrical-safety-systems-and-devices"
+    }
+   ],
+   "videos": [
+    {
+     "id": "oa6rvUJlg7o",
+     "title": "Action Potential in the Neuron",
+     "channel": "Harvard Extension School",
+     "length": "13:12"
+    }
+   ],
+   "videoQuery": "electrical safety human body nerve impulse",
+   "addedAt": "2026-11-04T00:38:59Z"
+  },
+  {
+   "id": "circuiti-serie-parallelo",
+   "subject": "fisica",
+   "chapter": "Elettricità e magnetismo",
+   "title": "Circuiti in serie e in parallelo, e perché le pile si scaricano",
+   "hook": "Perché in casa tutto è collegato in parallelo e le vecchie luci di Natale in serie si spegnevano tutte insieme? E cosa succede dentro una batteria che invecchia.",
+   "points": [
+    "Resistenze in serie",
+    "Resistenze in parallelo",
+    "Come sono collegati gli impianti di casa",
+    "Forza elettromotrice e resistenza interna"
+   ],
+   "sections": [
+    {
+     "h": "In fila: la serie",
+     "p": [
+      "In un collegamento in serie i componenti sono uno dopo l'altro, e la stessa corrente li attraversa tutti. La resistenza totale è la somma delle singole resistenze: aggiungere componenti in serie riduce la corrente.",
+      "Le vecchie luci natalizie collegate in serie avevano un difetto famoso: se una lampadina si bruciava, il circuito si interrompeva e si spegnevano tutte. Inoltre la tensione si divide tra i componenti: con tante lampadine in serie, ognuna riceve solo una piccola parte della tensione totale."
+     ]
+    },
+    {
+     "h": "Fianco a fianco: il parallelo",
+     "p": [
+      "In un collegamento in parallelo i componenti sono collegati tra gli stessi due punti, come corsie affiancate di un'autostrada. Ognuno riceve l'intera tensione, e la corrente totale si divide tra i rami.",
+      "La resistenza totale di un gruppo in parallelo è minore della più piccola delle singole resistenze: aggiungere rami offre alla corrente più strade, come aprire nuove corsie. Per questo, accendendo più apparecchi, la corrente totale assorbita dalla rete aumenta.",
+      "Gli impianti di casa sono collegati in parallelo: ogni presa e ogni lampada ricevono 230 volt, e spegnere un apparecchio non influisce sugli altri. Ma se si accendono troppi apparecchi sullo stesso circuito, la corrente totale supera il limite e interviene l'interruttore."
+     ]
+    },
+    {
+     "h": "Circuiti misti",
+     "p": [
+      "I circuiti reali combinano serie e parallelo. Si analizzano semplificandoli a pezzi: si sostituisce ogni gruppo in parallelo con la sua resistenza equivalente, poi si sommano quelle in serie, e così via, fino a una resistenza unica.",
+      "Anche i fili hanno una piccola resistenza, in serie con gli apparecchi: per cavi molto lunghi o correnti alte non è trascurabile e fa cadere un po' di tensione lungo la strada."
+     ]
+    },
+    {
+     "h": "Dentro la batteria",
+     "p": [
+      "Quando dimentichi accese le luci dell'auto, non si spengono di colpo quando la batteria si esaurisce: si affievoliscono lentamente. Significa che la tensione in uscita della batteria diminuisce man mano che si scarica.",
+      "Il motivo è che ogni sorgente di tensione ha due parti fondamentali: una sorgente di energia elettrica, che fornisce la forza elettromotrice, e una resistenza interna. Quando la batteria eroga corrente, una parte della tensione si perde sulla resistenza interna, e ai morsetti arriva meno.",
+      "Con l'invecchiamento o la scarica, la resistenza interna aumenta e la tensione utile cala, soprattutto quando si chiede molta corrente. Per questo una batteria d'auto vecchia può accendere le luci ma non riuscire ad avviare il motore, che richiede una corrente enorme."
+     ]
+    }
+   ],
+   "formulas": [
+    {
+     "f": "R_s = R₁ + R₂ + …",
+     "d": "Resistenze in serie."
+    },
+    {
+     "f": "1/R_p = 1/R₁ + 1/R₂ + …",
+     "d": "Resistenze in parallelo."
+    },
+    {
+     "f": "V = fem − r·I",
+     "d": "Tensione ai morsetti di una batteria con resistenza interna r."
+    }
+   ],
+   "example": "Una batteria del telefono vecchia segna ancora 30% ma il telefono si spegne quando apri la fotocamera: la resistenza interna fa crollare la tensione sotto sforzo.",
+   "mistakes": [
+    "\"Più apparecchi accesi riducono la corrente totale\": in parallelo la aumentano.",
+    "\"Una batteria scarica perde solo energia\": aumenta anche la sua resistenza interna.",
+    "\"In parallelo ogni ramo riceve meno tensione\": ognuno riceve la tensione intera."
+   ],
+   "terms": [
+    {
+     "t": "Serie",
+     "d": "Componenti in fila, attraversati dalla stessa corrente."
+    },
+    {
+     "t": "Parallelo",
+     "d": "Componenti tra gli stessi punti, con la stessa tensione."
+    },
+    {
+     "t": "Forza elettromotrice",
+     "d": "Tensione fornita da una sorgente senza corrente."
+    },
+    {
+     "t": "Resistenza interna",
+     "d": "Resistenza propria di una batteria."
+    }
+   ],
+   "quote": {
+    "text": "The reason for the decrease in output voltage for depleted or overloaded batteries is that all voltage sources have two fundamental parts—a source of electrical energy and an internal resistance.",
+    "translation": "La ragione del calo di tensione nelle batterie scariche o sovraccariche è che tutte le sorgenti di tensione hanno due parti fondamentali: una sorgente di energia elettrica e una resistenza interna."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "21.2 Electromotive force terminal voltage",
+     "url": "https://openstax.org/books/college-physics-2e/pages/21-2-electromotive-force-terminal-voltage"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "21.1 Resistors in series and parallel",
+     "url": "https://openstax.org/books/college-physics-2e/pages/21-1-resistors-in-series-and-parallel"
+    }
+   ],
+   "videos": [
+    {
+     "id": "-w-VTw0tQlE",
+     "title": "Circuit Analysis: Crash Course Physics #30",
+     "channel": "CrashCourse",
+     "length": "10:56"
+    }
+   ],
+   "videoQuery": "series and parallel circuits crash course",
+   "addedAt": "2026-11-04T00:38:59Z"
+  },
+  {
+   "id": "leggi-di-kirchhoff",
+   "subject": "fisica",
+   "chapter": "Elettricità e magnetismo",
+   "title": "Le leggi di Kirchhoff e i circuiti con condensatori",
+   "hook": "Due regole semplici, basate sulla conservazione di carica ed energia, risolvono qualsiasi circuito. E un condensatore con una resistenza fa da timer.",
+   "points": [
+    "La legge dei nodi",
+    "La legge delle maglie",
+    "Voltmetri e amperometri",
+    "I circuiti RC e la costante di tempo"
+   ],
+   "sections": [
+    {
+     "h": "Le leggi di conservazione",
+     "p": [
+      "Le leggi di conservazione sono i principi più ampiamente applicabili della fisica. Nei circuiti elettrici diventano due regole formulate da Gustav Kirchhoff nell'Ottocento, che permettono di analizzare anche circuiti complicati, con più batterie e molti rami.",
+      "La prima regola applica la conservazione della carica, la seconda la conservazione dell'energia."
+     ]
+    },
+    {
+     "h": "La legge dei nodi",
+     "p": [
+      "Un nodo è un punto in cui si incontrano tre o più fili. Poiché la corrente è un flusso di carica e la carica si conserva, tutta la carica che entra in un nodo deve uscirne: la somma delle correnti entranti è uguale alla somma delle correnti uscenti.",
+      "È come un incrocio di tubature d'acqua: l'acqua che arriva deve andare da qualche parte."
+     ]
+    },
+    {
+     "h": "La legge delle maglie",
+     "p": [
+      "Una maglia è un percorso chiuso nel circuito. Percorrendola e tornando al punto di partenza, la somma delle variazioni di potenziale deve essere zero: l'energia guadagnata da una carica attraversando le batterie è uguale a quella persa attraversando le resistenze.",
+      "È come camminare in montagna lungo un giro ad anello: alla fine sei alla stessa altezza da cui sei partito, quindi le salite totali uguagliano le discese totali.",
+      "Scrivendo un'equazione per ogni nodo e per ogni maglia indipendente si ottiene un sistema di equazioni da cui si ricavano tutte le correnti."
+     ]
+    },
+    {
+     "h": "Misurare senza disturbare",
+     "p": [
+      "Per misurare la corrente si usa un amperometro, inserito in serie nel ramo: deve avere resistenza piccolissima per non alterare la corrente. Per misurare la tensione si usa un voltmetro, collegato in parallelo: deve avere resistenza altissima per non sottrarre corrente.",
+      "Ogni strumento disturba un po' ciò che misura. Le misure di zero, come il ponte di Wheatstone, risolvono il problema confrontando due tensioni finché la corrente in uno strumento è esattamente zero: in quel momento lo strumento non disturba affatto il circuito."
+     ]
+    },
+    {
+     "h": "Circuiti RC: un timer elettrico",
+     "p": [
+      "Un condensatore collegato a una batteria attraverso una resistenza non si carica istantaneamente: la corrente all'inizio è alta e poi diminuisce, mentre la tensione sul condensatore sale verso quella della batteria. La scarica avviene allo stesso modo, in modo graduale.",
+      "Il tempo caratteristico è la costante di tempo, uguale a resistenza per capacità: dopo una costante di tempo il condensatore ha raggiunto circa il 63% della carica finale. Scegliendo resistenza e capacità si ottengono tempi da milionesimi di secondo a minuti.",
+      "I circuiti RC fanno da temporizzatori: fanno lampeggiare le frecce dell'auto, regolano i tempi dei tergicristalli intermittenti, scandiscono i battiti dei pacemaker e filtrano i segnali negli impianti audio."
+     ]
+    }
+   ],
+   "formulas": [
+    {
+     "f": "ΣI_entranti = ΣI_uscenti",
+     "d": "Legge dei nodi."
+    },
+    {
+     "f": "ΣΔV = 0 in una maglia",
+     "d": "Legge delle maglie."
+    },
+    {
+     "f": "τ = R·C",
+     "d": "Costante di tempo di un circuito RC."
+    }
+   ],
+   "example": "Le luci di cortesia dell'auto che si spengono lentamente dopo aver chiuso la portiera sono spesso comandate da un semplice circuito di temporizzazione.",
+   "mistakes": [
+    "\"Il voltmetro si collega in serie\": si collega in parallelo.",
+    "\"Un condensatore si carica all'istante\": si carica con un tempo caratteristico RC.",
+    "\"Le leggi di Kirchhoff sono regole a parte\": sono conservazione di carica ed energia."
+   ],
+   "terms": [
+    {
+     "t": "Nodo",
+     "d": "Punto in cui si incontrano tre o più fili."
+    },
+    {
+     "t": "Maglia",
+     "d": "Percorso chiuso in un circuito."
+    },
+    {
+     "t": "Amperometro",
+     "d": "Strumento per la corrente, in serie."
+    },
+    {
+     "t": "Costante di tempo",
+     "d": "Tempo caratteristico di carica di un circuito RC."
+    }
+   ],
+   "quote": {
+    "text": "The first rule is the application of conservation of charge, while the second rule is the application of conservation of energy.",
+    "translation": "La prima regola è l'applicazione della conservazione della carica, mentre la seconda è l'applicazione della conservazione dell'energia."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "21.3 Kirchhoffs rules",
+     "url": "https://openstax.org/books/college-physics-2e/pages/21-3-kirchhoffs-rules"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "21.4 Dc voltmeters and ammeters",
+     "url": "https://openstax.org/books/college-physics-2e/pages/21-4-dc-voltmeters-and-ammeters"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "21.5 Null measurements",
+     "url": "https://openstax.org/books/college-physics-2e/pages/21-5-null-measurements"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "21.6 Dc circuits containing resistors and capacitors",
+     "url": "https://openstax.org/books/college-physics-2e/pages/21-6-dc-circuits-containing-resistors-and-capacitors"
+    }
+   ],
+   "videos": [
+    {
+     "id": "vuCJP_5KOlI",
+     "title": "Capacitors and Kirchhoff: Crash Course Physics #31",
+     "channel": "CrashCourse",
+     "length": "10:38"
+    }
+   ],
+   "videoQuery": "kirchhoff's rules RC circuits",
+   "addedAt": "2026-11-04T00:38:59Z"
+  },
+  {
+   "id": "elettromagneti",
+   "subject": "fisica",
+   "chapter": "Elettricità e magnetismo",
+   "title": "Ferromagneti, elettromagneti e campi prodotti dalle correnti",
+   "hook": "Ogni magnetismo nasce da cariche in movimento. Perché il ferro si magnetizza, cosa c'è dentro un elettromagnete e perché un magnete scaldato smette di funzionare.",
+   "points": [
+    "Perché alcuni materiali sono magnetici",
+    "Domini magnetici e temperatura di Curie",
+    "Elettromagneti",
+    "Il campo prodotto da un filo e da una bobina"
+   ],
+   "sections": [
+    {
+     "h": "Tutto viene dalle correnti",
+     "p": [
+      "La corrente elettrica è la sorgente di tutto il magnetismo. Anche i magneti permanenti devono il loro campo a cariche in movimento: gli elettroni negli atomi si comportano come minuscoli magneti, sia per il loro moto sia per una proprietà intrinseca chiamata spin.",
+      "Nella maggior parte dei materiali questi piccoli magneti sono orientati a caso e si annullano. In alcuni, come ferro, nichel e cobalto, tendono ad allinearsi tra loro: sono i materiali ferromagnetici."
+     ]
+    },
+    {
+     "h": "Domini magnetici",
+     "p": [
+      "Un pezzo di ferro è diviso in tante piccole regioni, i domini magnetici, in ciascuna delle quali i magneti atomici sono allineati. Normalmente i domini sono orientati in direzioni diverse e il ferro non è magnetico.",
+      "Avvicinando un magnete, i domini allineati con il suo campo crescono a spese degli altri e il ferro diventa magnetico: per questo una graffetta viene attratta e può a sua volta attrarne un'altra. In alcuni materiali l'allineamento resta anche dopo aver tolto il magnete: diventano magneti permanenti.",
+      "Esiste una temperatura ben definita per ogni materiale ferromagnetico, chiamata temperatura di Curie, al di sopra della quale non può essere magnetizzato: l'agitazione termica distrugge l'allineamento. Per il ferro è intorno ai 770 °C. Scaldare o colpire forte un magnete può smagnetizzarlo."
+     ]
+    },
+    {
+     "h": "Elettromagneti",
+     "p": [
+      "Un elettromagnete si ottiene avvolgendo un filo in tante spire, una bobina o solenoide, e facendovi passare corrente. Dentro il solenoide il campo è quasi uniforme, simile a quello di una calamita a barra. Aggiungendo un nucleo di ferro, i suoi domini si allineano e il campo diventa centinaia di volte più forte.",
+      "Il vantaggio è che il magnete si accende e si spegne con la corrente, e la sua forza si regola. Le gru dei rottamai sollevano tonnellate di ferraglia e la lasciano cadere spegnendo la corrente. Elettromagneti si trovano in campanelli, relè, serrature elettriche, altoparlanti e treni a levitazione magnetica."
+     ]
+    },
+    {
+     "h": "Il campo di un filo",
+     "p": [
+      "Un filo rettilineo percorso da corrente crea un campo magnetico fatto di cerchi concentrici intorno al filo. La direzione si ricorda con la regola della mano destra: con il pollice nel verso della corrente, le dita piegate indicano il verso del campo.",
+      "L'intensità del campo cresce con la corrente e diminuisce allontanandosi dal filo. La legge di Ampère descrive in generale come le correnti producono campi magnetici.",
+      "Due fili paralleli con correnti nello stesso verso si attraggono, con versi opposti si respingono. Questa forza è stata usata per molto tempo per definire l'ampere."
+     ]
+    }
+   ],
+   "formulas": [
+    {
+     "f": "B = μ₀·I / (2π·r)",
+     "d": "Campo magnetico a distanza r da un filo rettilineo."
+    },
+    {
+     "f": "B = μ₀·n·I",
+     "d": "Campo dentro un solenoide con n spire per metro."
+    }
+   ],
+   "example": "Strofinando più volte un ago con una calamita sempre nello stesso verso lo magnetizzi: hai allineato i suoi domini, e può fare da bussola.",
+   "mistakes": [
+    "\"Tutti i metalli sono magnetici\": solo alcuni, come ferro, nichel e cobalto.",
+    "\"I magneti permanenti non hanno correnti\": il loro campo nasce dal moto e dallo spin degli elettroni.",
+    "\"Un magnete resta magnetico a qualsiasi temperatura\": sopra la temperatura di Curie perde la magnetizzazione."
+   ],
+   "terms": [
+    {
+     "t": "Ferromagnetismo",
+     "d": "Tendenza di alcuni materiali ad allineare i propri magneti atomici."
+    },
+    {
+     "t": "Dominio magnetico",
+     "d": "Regione con magneti atomici allineati."
+    },
+    {
+     "t": "Temperatura di Curie",
+     "d": "Temperatura oltre la quale un materiale non si magnetizza."
+    },
+    {
+     "t": "Solenoide",
+     "d": "Bobina che produce un campo magnetico."
+    }
+   ],
+   "quote": {
+    "text": "Electric current is the source of all magnetism.",
+    "translation": "La corrente elettrica è la sorgente di tutto il magnetismo."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "22.2 Ferromagnets and electromagnets",
+     "url": "https://openstax.org/books/college-physics-2e/pages/22-2-ferromagnets-and-electromagnets"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "22.3 Magnetic fields and magnetic field lines",
+     "url": "https://openstax.org/books/college-physics-2e/pages/22-3-magnetic-fields-and-magnetic-field-lines"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "22.9 Magnetic fields produced by currents amperes law",
+     "url": "https://openstax.org/books/college-physics-2e/pages/22-9-magnetic-fields-produced-by-currents-amperes-law"
+    }
+   ],
+   "videos": [
+    {
+     "id": "5fqwJyt4Lus",
+     "title": "Ampère's Law: Crash Course Physics #33",
+     "channel": "CrashCourse",
+     "length": "8:45"
+    },
+    {
+     "id": "K40lNL3KsJ4",
+     "title": "Maxwell's Equations: Crash Course Physics #37",
+     "channel": "CrashCourse",
+     "length": "10:49"
+    }
+   ],
+   "videoQuery": "electromagnets ampere's law crash course",
+   "addedAt": "2026-11-04T00:38:59Z"
+  },
+  {
+   "id": "forza-di-lorentz",
+   "subject": "fisica",
+   "chapter": "Elettricità e magnetismo",
+   "title": "La forza magnetica sulle cariche: aurore, acceleratori ed effetto Hall",
+   "hook": "Un campo magnetico curva le particelle cariche in movimento. Così nascono le aurore polari, funzionano gli spettrometri e i sensori dei telefoni.",
+   "points": [
+    "La forza su una carica in movimento",
+    "La regola della mano destra",
+    "Traiettorie circolari e a spirale",
+    "L'effetto Hall e le sue applicazioni"
+   ],
+   "sections": [
+    {
+     "h": "Una forza strana",
+     "p": [
+      "La forza magnetica su una carica in movimento è una delle forze più fondamentali che conosciamo, e ha proprietà sorprendenti. Agisce solo su cariche che si muovono: una carica ferma in un campo magnetico non sente niente.",
+      "La forza è proporzionale alla carica, alla velocità e al campo, ed è massima quando la carica si muove perpendicolarmente al campo; se si muove parallela al campo, la forza è zero. Questa forza è spesso chiamata forza di Lorentz.",
+      "La sua caratteristica più strana è la direzione: è sempre perpendicolare sia alla velocità sia al campo. La si trova con la regola della mano destra: dita nel verso del campo, pollice nel verso della velocità, il palmo spinge nel verso della forza (per una carica positiva)."
+     ]
+    },
+    {
+     "h": "Girare in tondo",
+     "p": [
+      "Poiché la forza è sempre perpendicolare alla velocità, non cambia la rapidità della particella, solo la direzione: fa da forza centripeta. Una carica che entra perpendicolarmente in un campo uniforme percorre un cerchio.",
+      "Il raggio del cerchio dipende dalla massa, dalla velocità e dalla carica. Gli spettrometri di massa sfruttano questo: particelle di massa diversa descrivono cerchi diversi e si separano, permettendo di identificare sostanze con grande precisione. Anche i ciclotroni e molti acceleratori usano campi magnetici per curvare le particelle.",
+      "Se la particella ha anche una componente di velocità lungo il campo, la traiettoria diventa un'elica, una spirale avvolta intorno alle linee di campo."
+     ]
+    },
+    {
+     "h": "Le aurore",
+     "p": [
+      "Il Sole emette continuamente particelle cariche, il vento solare. Il campo magnetico terrestre le devia, proteggendo la superficie, e molte restano intrappolate spiraleggiando lungo le linee di campo.",
+      "Vicino ai poli le linee di campo scendono verso l'atmosfera, e le particelle le seguono fino a urtare gli atomi di ossigeno e azoto in alta quota, facendoli brillare. Sono le aurore boreali e australi, verdi e rosse.",
+      "Il campo magnetico terrestre è uno scudo prezioso: senza di esso il vento solare eroderebbe lentamente l'atmosfera, come probabilmente è successo su Marte."
+     ]
+    },
+    {
+     "h": "L'effetto Hall",
+     "p": [
+      "Quando una corrente scorre in una striscia di materiale immersa in un campo magnetico, la forza magnetica spinge le cariche verso un lato. Si crea così una piccola tensione attraverso la striscia, perpendicolare alla corrente: è l'effetto Hall, scoperto da Edwin Hall nel 1879.",
+      "La tensione di Hall è proporzionale al campo, quindi permette di misurarlo. I sensori a effetto Hall sono ovunque: nei telefoni fanno da bussola elettronica, nelle auto misurano la velocità delle ruote per l'ABS, nei portatili capiscono se lo schermo è chiuso.",
+      "Lo stesso principio permette di misurare la velocità del sangue nelle arterie con flussometri elettromagnetici: gli ioni del sangue in movimento in un campo magnetico producono una piccola tensione."
+     ]
+    }
+   ],
+   "formulas": [
+    {
+     "f": "F = q·v·B·sen θ",
+     "d": "Forza magnetica su una carica q con velocità v in un campo B."
+    },
+    {
+     "f": "r = m·v / (q·B)",
+     "d": "Raggio della traiettoria circolare."
+    }
+   ],
+   "example": "Quando apri l'app bussola del telefono, un sensore a effetto Hall misura il debolissimo campo magnetico della Terra.",
+   "mistakes": [
+    "\"Un magnete attira qualsiasi carica\": agisce solo su cariche in movimento.",
+    "\"La forza magnetica accelera le particelle\": cambia la direzione, non la rapidità.",
+    "\"Le aurore sono riflessi del Sole\": sono atomi eccitati da particelle cariche."
+   ],
+   "terms": [
+    {
+     "t": "Forza di Lorentz",
+     "d": "Forza su una carica in moto in un campo magnetico."
+    },
+    {
+     "t": "Regola della mano destra",
+     "d": "Metodo per trovare la direzione della forza."
+    },
+    {
+     "t": "Spettrometro di massa",
+     "d": "Strumento che separa particelle in base alla massa."
+    },
+    {
+     "t": "Effetto Hall",
+     "d": "Tensione trasversale in un conduttore immerso in un campo."
+    }
+   ],
+   "quote": {
+    "text": "The magnetic force on a moving charge is one of the most fundamental known.",
+    "translation": "La forza magnetica su una carica in movimento è una delle più fondamentali che si conoscano."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "22.4 Magnetic field strength force on a moving charge in a magnetic field",
+     "url": "https://openstax.org/books/college-physics-2e/pages/22-4-magnetic-field-strength-force-on-a-moving-charge-in-a-magnetic-field"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "22.5 Force on a moving charge in a magnetic field examples and applications",
+     "url": "https://openstax.org/books/college-physics-2e/pages/22-5-force-on-a-moving-charge-in-a-magnetic-field-examples-and-applications"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "22.6 The hall effect",
+     "url": "https://openstax.org/books/college-physics-2e/pages/22-6-the-hall-effect"
+    }
+   ],
+   "videos": [
+    {
+     "id": "NnlAI4ZiUrQ",
+     "title": "Magnetic force on a charge | Physics | Khan Academy",
+     "channel": "Khan Academy",
+     "length": "8:59"
+    },
+    {
+     "id": "1kPLBKFVT5U",
+     "title": "Path of charged particle in magnetic field | Moving charges & magnetism | Physics | Khan Academy",
+     "channel": "Khan Academy India - English",
+     "length": "12:01"
+    }
+   ],
+   "videoQuery": "magnetic force on moving charge",
+   "addedAt": "2026-11-04T00:38:59Z"
+  },
+  {
+   "id": "motori-elettrici",
+   "subject": "fisica",
+   "chapter": "Elettricità e magnetismo",
+   "title": "Come funzionano i motori elettrici",
+   "hook": "Dal frullatore all'auto elettrica, un motore trasforma corrente in movimento grazie alla forza magnetica su un filo. Ecco il trucco che lo fa girare sempre nello stesso verso.",
+   "points": [
+    "La forza su un filo percorso da corrente",
+    "Il momento torcente su una spira",
+    "Come è fatto un motore",
+    "Altoparlanti, risonanza magnetica e altre applicazioni"
+   ],
+   "sections": [
+    {
+     "h": "Una forza su un filo",
+     "p": [
+      "Una corrente è un flusso di cariche in movimento, quindi un filo percorso da corrente in un campo magnetico subisce una forza, perpendicolare sia al filo sia al campo. La forza è proporzionale alla corrente, alla lunghezza del filo immersa nel campo e all'intensità del campo.",
+      "Puoi vederlo con un esperimento semplice: un filo sospeso tra i poli di una calamita a ferro di cavallo salta di lato appena ci fai passare corrente da una pila."
+     ]
+    },
+    {
+     "h": "Il cuore del motore",
+     "p": [
+      "I motori sono l'applicazione più comune della forza magnetica sui fili percorsi da corrente. Contengono spire di filo immerse in un campo magnetico. Su una spira rettangolare la corrente scorre in versi opposti nei due lati, quindi i due lati vengono spinti in direzioni opposte: nasce un momento torcente che fa ruotare la spira.",
+      "Il problema è che, dopo mezzo giro, la forza tenderebbe a riportare indietro la spira. Il trucco è il commutatore: un anello diviso che, a ogni mezzo giro, inverte il verso della corrente nella spira, così il momento torcente spinge sempre nello stesso senso e il motore continua a girare.",
+      "I motori reali hanno molte spire avvolte su un nucleo di ferro, e magneti o elettromagneti potenti. Molti motori moderni, come quelli delle auto elettriche e dei droni, non hanno commutatore meccanico: un circuito elettronico cambia la corrente al momento giusto."
+     ]
+    },
+    {
+     "h": "Strumenti di misura e fili paralleli",
+     "p": [
+      "Lo stesso principio era alla base dei vecchi strumenti a lancetta, come gli amperometri analogici: una piccola bobina girava più o meno in base alla corrente, contrastata da una molla, e muoveva un ago.",
+      "Due fili paralleli percorsi da corrente si esercitano forze: si attraggono se le correnti hanno lo stesso verso, si respingono se hanno versi opposti. Per molti anni questa forza è servita a definire ufficialmente l'ampere."
+     ]
+    },
+    {
+     "h": "Il magnetismo in pratica",
+     "p": [
+      "Negli altoparlanti una bobina attaccata a un cono di cartone si trova nel campo di un magnete: la corrente variabile del segnale musicale fa vibrare la bobina e il cono, che muove l'aria e produce suono.",
+      "La risonanza magnetica usata in medicina impiega magneti superconduttori potentissimi, decine di migliaia di volte più intensi del campo terrestre, e onde radio per ottenere immagini dettagliate dei tessuti molli senza radiazioni ionizzanti.",
+      "La forza magnetica su una corrente che attraversa un fluido conduttore può anche fare da pompa senza parti mobili: è stata usata per pompare il metallo liquido che raffredda alcuni reattori nucleari e, in medicina, per alcune pompe del sangue."
+     ]
+    }
+   ],
+   "formulas": [
+    {
+     "f": "F = I·L·B·sen θ",
+     "d": "Forza su un filo di lunghezza L percorso da corrente I in un campo B."
+    },
+    {
+     "f": "τ = N·I·A·B·sen θ",
+     "d": "Momento torcente su una bobina di N spire e area A."
+    }
+   ],
+   "example": "Avvicinando un magnete a un vecchio altoparlante rotto puoi vedere il magnete permanente che, con la bobina, faceva vibrare il cono.",
+   "mistakes": [
+    "\"Il motore gira perché la corrente spinge le spire\": è la forza magnetica tra corrente e campo.",
+    "\"Senza commutatore un motore gira comunque\": serve invertire la corrente o comandarla elettronicamente.",
+    "\"La risonanza magnetica usa raggi X\": usa campi magnetici e onde radio."
+   ],
+   "terms": [
+    {
+     "t": "Commutatore",
+     "d": "Dispositivo che inverte la corrente nella spira a ogni mezzo giro."
+    },
+    {
+     "t": "Momento torcente magnetico",
+     "d": "Coppia che fa ruotare una spira in un campo."
+    },
+    {
+     "t": "Altoparlante",
+     "d": "Dispositivo che trasforma corrente variabile in suono."
+    }
+   ],
+   "quote": {
+    "text": "Motors are the most common application of magnetic force on current-carrying wires.",
+    "translation": "I motori sono l'applicazione più comune della forza magnetica sui fili percorsi da corrente."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "22.8 Torque on a current loop motors and meters",
+     "url": "https://openstax.org/books/college-physics-2e/pages/22-8-torque-on-a-current-loop-motors-and-meters"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "22.7 Magnetic force on a current carrying conductor",
+     "url": "https://openstax.org/books/college-physics-2e/pages/22-7-magnetic-force-on-a-current-carrying-conductor"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "22.10 Magnetic force between two parallel conductors",
+     "url": "https://openstax.org/books/college-physics-2e/pages/22-10-magnetic-force-between-two-parallel-conductors"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "22.11 More applications of magnetism",
+     "url": "https://openstax.org/books/college-physics-2e/pages/22-11-more-applications-of-magnetism"
+    }
+   ],
+   "videos": [
+    {
+     "id": "evWpDrRAyCc",
+     "title": "GCSE Physics - How the Electric Motor Works (2026/27 exams)",
+     "channel": "Cognito",
+     "length": "5:03"
+    }
+   ],
+   "videoQuery": "how electric motors work",
+   "addedAt": "2026-11-04T00:38:59Z"
+  },
+  {
+   "id": "fem-indotta",
+   "subject": "fisica",
+   "chapter": "Elettricità e magnetismo",
+   "title": "Flusso magnetico, correnti parassite e freni magnetici",
+   "hook": "Muovere un magnete vicino a una bobina genera corrente. Lo stesso fenomeno frena treni senza contatto e fa \"assorbire\" più corrente ai motori sotto sforzo.",
+   "points": [
+    "Flusso magnetico e forza elettromotrice indotta",
+    "La fem di movimento",
+    "Correnti parassite e freni magnetici",
+    "La forza controelettromotrice dei motori"
+   ],
+   "sections": [
+    {
+     "h": "Il flusso magnetico",
+     "p": [
+      "Per descrivere l'induzione si usa il flusso magnetico, che misura quanto campo magnetico attraversa una superficie, come una spira. Dipende dall'intensità del campo, dall'area della spira e dal suo orientamento: è massimo quando il campo la attraversa perpendicolarmente.",
+      "Quando il flusso attraverso una spira cambia, nella spira nasce una forza elettromotrice (fem), cioè una tensione. Più importante della corrente che scorre è proprio la fem che la causa. Il flusso può cambiare perché cambia il campo, perché cambia l'area, o perché la spira ruota."
+     ]
+    },
+    {
+     "h": "Conta il movimento relativo",
+     "p": [
+      "Si ottengono gli stessi risultati muovendo la bobina invece del magnete: ciò che conta è il movimento relativo. Una sbarra metallica che scorre su due binari in un campo magnetico vede crescere l'area del circuito e quindi il flusso: si crea una fem, detta fem di movimento.",
+      "È la costruzione di base di un generatore: il lavoro fatto per far ruotare la bobina viene convertito in energia elettrica. Lo stesso fenomeno produce piccole tensioni nelle ali degli aerei che attraversano il campo terrestre."
+     ]
+    },
+    {
+     "h": "Le correnti parassite",
+     "p": [
+      "Se un pezzo di metallo si muove in un campo magnetico, o un campo cambia vicino a una lastra metallica, nel metallo nascono correnti indotte che circolano in piccoli vortici: le correnti parassite, o correnti di Foucault.",
+      "Per la legge di Lenz queste correnti si oppongono al movimento che le ha create, frenandolo. Lasciando cadere un magnete in un tubo di rame, scende lentissimo, come se cadesse nel miele. Questo smorzamento magnetico è usato nei freni di alcuni treni, montagne russe e attrezzi da palestra: frenano senza contatto e senza usura.",
+      "Le correnti parassite scaldano il metallo: è il principio dei piani a induzione. Nei trasformatori e nei motori invece sono uno spreco, e per ridurle i nuclei di ferro sono fatti di sottili lamine isolate. I metal detector e i separatori dei rifiuti che espellono l'alluminio sfruttano anch'essi le correnti parassite."
+     ]
+    },
+    {
+     "h": "La forza controelettromotrice",
+     "p": [
+      "Un motore elettrico che gira è anche, contemporaneamente, un generatore: le sue bobine ruotano in un campo magnetico e producono una fem che si oppone alla tensione applicata. Si chiama forza controelettromotrice.",
+      "Quando il motore gira veloce senza carico, la forza controelettromotrice è grande e la corrente assorbita piccola. Se il motore è frenato da un carico pesante, rallenta, la forza controelettromotrice cala e la corrente aumenta molto.",
+      "Per questo un motore bloccato, per esempio un frullatore inceppato, può surriscaldarsi e bruciarsi: senza rotazione non c'è forza controelettromotrice a limitare la corrente. Anche le luci di casa possono abbassarsi un istante quando parte un grosso motore, come quello di un frigorifero."
+     ]
+    }
+   ],
+   "formulas": [
+    {
+     "f": "Φ = B·A·cos θ",
+     "d": "Flusso magnetico attraverso una superficie di area A."
+    },
+    {
+     "f": "ε = B·L·v",
+     "d": "Fem di movimento di una sbarra di lunghezza L che si muove a velocità v."
+    }
+   ],
+   "example": "Un magnete lasciato cadere in un tubo di rame scende lentamente senza toccarlo: le correnti parassite lo frenano.",
+   "mistakes": [
+    "\"Serve muovere il magnete\": conta il moto relativo, si può muovere la bobina.",
+    "\"I freni magnetici consumano pastiglie\": frenano senza contatto.",
+    "\"Un motore bloccato consuma meno\": assorbe più corrente e può bruciarsi."
+   ],
+   "terms": [
+    {
+     "t": "Flusso magnetico",
+     "d": "Quantità di campo che attraversa una superficie."
+    },
+    {
+     "t": "Fem indotta",
+     "d": "Tensione generata da un flusso variabile."
+    },
+    {
+     "t": "Correnti parassite",
+     "d": "Correnti indotte a vortice nei metalli."
+    },
+    {
+     "t": "Forza controelettromotrice",
+     "d": "Fem prodotta da un motore che gira, opposta alla tensione applicata."
+    }
+   ],
+   "quote": {
+    "text": "The same results are produced if the coil is moved rather than the magnet—it is the relative motion that is important.",
+    "translation": "Si ottengono gli stessi risultati muovendo la bobina invece del magnete: ciò che conta è il moto relativo."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "23.1 Induced emf and magnetic flux",
+     "url": "https://openstax.org/books/college-physics-2e/pages/23-1-induced-emf-and-magnetic-flux"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "23.3 Motional emf",
+     "url": "https://openstax.org/books/college-physics-2e/pages/23-3-motional-emf"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "23.4 Eddy currents and magnetic damping",
+     "url": "https://openstax.org/books/college-physics-2e/pages/23-4-eddy-currents-and-magnetic-damping"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "23.6 Back emf",
+     "url": "https://openstax.org/books/college-physics-2e/pages/23-6-back-emf"
+    }
+   ],
+   "videos": [
+    {
+     "id": "y-569cdIPeM",
+     "title": "Eddy currents & their applications (& how to reduce them) | Electromagnetic induction | Khan Academy",
+     "channel": "Khan Academy India - English",
+     "length": "14:02"
+    },
+    {
+     "id": "tPsL2gJV9Ac",
+     "title": "Induced Electric Fields | EMI | Physics | Khan Academy",
+     "channel": "Khan Academy India - English",
+     "length": "6:08"
+    }
+   ],
+   "videoQuery": "magnetic flux eddy currents induction",
+   "addedAt": "2026-11-04T00:38:59Z"
   },
   {
    "id": "induzione",
@@ -4209,6 +7527,106 @@
    ],
    "videoQuery": "induzione elettromagnetica legge di Faraday",
    "addedAt": "2026-11-04T00:12:22Z"
+  },
+  {
+   "id": "trasformatori",
+   "subject": "fisica",
+   "chapter": "Elettricità e magnetismo",
+   "title": "I trasformatori: come la corrente arriva a casa",
+   "hook": "Le centrali producono a migliaia di volt, le linee viaggiano a centinaia di migliaia, le prese danno 230. Il trasformatore cambia la tensione con due bobine e nessuna parte mobile.",
+   "points": [
+    "Com'è fatto un trasformatore",
+    "Il rapporto tra le spire",
+    "Perché si trasporta l'energia ad alta tensione",
+    "Trasformatori di tutti i giorni"
+   ],
+   "sections": [
+    {
+     "h": "Due bobine e un nucleo",
+     "p": [
+      "I trasformatori fanno ciò che dice il loro nome: trasformano le tensioni da un valore a un altro. Sono fatti di due bobine di filo avvolte sullo stesso nucleo di ferro: la bobina primaria, collegata alla sorgente, e la secondaria, collegata a ciò che deve essere alimentato.",
+      "La corrente alternata nella primaria crea nel nucleo un campo magnetico che cambia continuamente. Questo campo variabile attraversa anche la secondaria e, per la legge di Faraday, vi induce una tensione. Le due bobine non sono collegate elettricamente: l'energia passa attraverso il campo magnetico."
+     ]
+    },
+    {
+     "h": "Il rapporto delle spire",
+     "p": [
+      "La tensione nella secondaria dipende dal rapporto tra il numero di spire delle due bobine. Se la secondaria ha dieci volte le spire della primaria, la tensione viene moltiplicata per dieci: è un trasformatore elevatore. Se ne ha un decimo, la tensione viene divisa per dieci: è un trasformatore abbassatore.",
+      "Non si ottiene energia gratis: se la tensione aumenta, la corrente diminuisce nella stessa proporzione, perché la potenza in uscita non può superare quella in entrata. I grandi trasformatori sono molto efficienti, spesso oltre il 99%.",
+      "I trasformatori funzionano solo con corrente alternata: una corrente continua crea un campo costante, che non induce nulla. È uno dei motivi per cui la rete elettrica usa l'alternata."
+     ]
+    },
+    {
+     "h": "Il viaggio dell'energia",
+     "p": [
+      "I trasformatori sono usati in molti punti della distribuzione elettrica. Una centrale produce corrente a una tensione di migliaia di volt; un trasformatore elevatore la porta a centinaia di migliaia di volt per le linee di trasmissione.",
+      "Il motivo è ridurre le perdite: a parità di potenza, una tensione alta significa una corrente bassa, e il calore disperso nei cavi cresce con il quadrato della corrente. Trasportare a tensione dieci volte più alta riduce le perdite di cento volte.",
+      "Vicino alle città, sottostazioni e cabine abbassano la tensione per gradi, fino ai 230 volt delle prese. Il ronzio che a volte si sente vicino alle cabine elettriche è dovuto alle vibrazioni del nucleo dei trasformatori, 100 volte al secondo."
+     ]
+    },
+    {
+     "h": "Nella vita di tutti i giorni",
+     "p": [
+      "Molti caricabatterie e alimentatori contengono trasformatori, o circuiti elettronici che svolgono la stessa funzione in modo più compatto, per ridurre i 230 volt della rete a pochi volt per telefoni e computer.",
+      "I trasformatori servono anche a separare elettricamente due circuiti per sicurezza: per esempio le prese dei rasoi elettrici in alcuni bagni. Nelle saldatrici, un trasformatore abbassa la tensione ma aumenta enormemente la corrente, abbastanza da fondere il metallo."
+     ]
+    }
+   ],
+   "formulas": [
+    {
+     "f": "V₂ / V₁ = N₂ / N₁",
+     "d": "La tensione cambia nel rapporto tra le spire."
+    },
+    {
+     "f": "V₁·I₁ ≈ V₂·I₂",
+     "d": "In un trasformatore ideale la potenza si conserva: se la tensione sale, la corrente scende."
+    }
+   ],
+   "example": "Il caricabatterie di un vecchio telefono era pesante perché conteneva un trasformatore con un nucleo di ferro; quelli moderni usano elettronica più leggera.",
+   "mistakes": [
+    "\"Un trasformatore elevatore aumenta l'energia\": aumenta la tensione e diminuisce la corrente.",
+    "\"I trasformatori funzionano con la corrente continua\": servono correnti che cambiano.",
+    "\"Le alte tensioni sulle linee sono uno spreco\": servono proprio a ridurre le perdite."
+   ],
+   "terms": [
+    {
+     "t": "Primaria",
+     "d": "Bobina collegata alla sorgente."
+    },
+    {
+     "t": "Secondaria",
+     "d": "Bobina da cui si preleva la tensione trasformata."
+    },
+    {
+     "t": "Trasformatore elevatore",
+     "d": "Aumenta la tensione."
+    },
+    {
+     "t": "Sottostazione",
+     "d": "Impianto che abbassa la tensione per la distribuzione."
+    }
+   ],
+   "quote": {
+    "text": "Transformers do what their name implies—they transform voltages from one value to another (The term voltage is used rather than emf, because transformers have internal resistance).",
+    "translation": "I trasformatori fanno ciò che dice il loro nome: trasformano le tensioni da un valore a un altro (si usa il termine tensione invece di fem perché i trasformatori hanno una resistenza interna)."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "23.7 Transformers",
+     "url": "https://openstax.org/books/college-physics-2e/pages/23-7-transformers"
+    }
+   ],
+   "videos": [
+    {
+     "id": "7RtBUEZbKmI",
+     "title": "GCSE Physics - How Transformers Work (2026/27 exams)",
+     "channel": "Cognito",
+     "length": "4:20"
+    }
+   ],
+   "videoQuery": "how transformers work",
+   "addedAt": "2026-11-04T00:38:59Z"
   },
   {
    "id": "rifrazione",
@@ -5078,6 +8496,16 @@
      "name": "OpenStax · Psychology 2e",
      "title": "6.4 Observational Learning (Modeling)",
      "url": "https://openstax.org/books/psychology-2e/pages/6-4-observational-learning-modeling"
+    },
+    {
+     "name": "OpenStax · Psychology 2e",
+     "title": "6.1 What Is Learning?",
+     "url": "https://openstax.org/books/psychology-2e/pages/6-1-what-is-learning"
+    },
+    {
+     "name": "OpenStax · Psychology 2e",
+     "title": "6.1 What Is Learning?",
+     "url": "https://openstax.org/books/psychology-2e/pages/6-1-what-is-learning"
     },
     {
      "name": "OpenStax · Psychology 2e",
