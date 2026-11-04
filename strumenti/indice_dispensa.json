@@ -2441,22 +2441,30 @@
       {
        "title": "13.1 What is industrial and organizational psychology",
        "url": "https://openstax.org/books/psychology-2e/pages/13-1-what-is-industrial-and-organizational-psychology",
-       "argomenti": []
+       "argomenti": [
+        "psicologia-del-lavoro"
+       ]
       },
       {
        "title": "13.2 Industrial psychology selecting and evaluating employees",
        "url": "https://openstax.org/books/psychology-2e/pages/13-2-industrial-psychology-selecting-and-evaluating-employees",
-       "argomenti": []
+       "argomenti": [
+        "psicologia-del-lavoro"
+       ]
       },
       {
        "title": "13.3 Organizational psychology the social dimension of work",
        "url": "https://openstax.org/books/psychology-2e/pages/13-3-organizational-psychology-the-social-dimension-of-work",
-       "argomenti": []
+       "argomenti": [
+        "organizzazioni-ergonomia"
+       ]
       },
       {
        "title": "13.4 Human factors psychology and workplace design",
        "url": "https://openstax.org/books/psychology-2e/pages/13-4-human-factors-psychology-and-workplace-design",
-       "argomenti": []
+       "argomenti": [
+        "organizzazioni-ergonomia"
+       ]
       }
      ]
     },
@@ -2481,7 +2489,9 @@
       {
        "title": "14.3 Stress and illness",
        "url": "https://openstax.org/books/psychology-2e/pages/14-3-stress-and-illness",
-       "argomenti": []
+       "argomenti": [
+        "stress-e-malattia"
+       ]
       },
       {
        "title": "14.4 Regulation of stress",
@@ -2506,57 +2516,79 @@
       {
        "title": "15.1 What are psychological disorders",
        "url": "https://openstax.org/books/psychology-2e/pages/15-1-what-are-psychological-disorders",
-       "argomenti": []
+       "argomenti": [
+        "cosa-sono-i-disturbi"
+       ]
       },
       {
        "title": "15.2 Diagnosing and classifying psychological disorders",
        "url": "https://openstax.org/books/psychology-2e/pages/15-2-diagnosing-and-classifying-psychological-disorders",
-       "argomenti": []
+       "argomenti": [
+        "cosa-sono-i-disturbi"
+       ]
       },
       {
        "title": "15.3 Perspectives on psychological disorders",
        "url": "https://openstax.org/books/psychology-2e/pages/15-3-perspectives-on-psychological-disorders",
-       "argomenti": []
+       "argomenti": [
+        "cosa-sono-i-disturbi"
+       ]
       },
       {
        "title": "15.4 Anxiety disorders",
        "url": "https://openstax.org/books/psychology-2e/pages/15-4-anxiety-disorders",
-       "argomenti": []
+       "argomenti": [
+        "ansia"
+       ]
       },
       {
        "title": "15.5 Obsessive compulsive and related disorders",
        "url": "https://openstax.org/books/psychology-2e/pages/15-5-obsessive-compulsive-and-related-disorders",
-       "argomenti": []
+       "argomenti": [
+        "doc"
+       ]
       },
       {
        "title": "15.6 Trauma and stressor related disorders",
        "url": "https://openstax.org/books/psychology-2e/pages/15-6-trauma-and-stressor-related-disorders",
-       "argomenti": []
+       "argomenti": [
+        "trauma-ptsd"
+       ]
       },
       {
        "title": "15.7 Depressive bipolar and related disorders",
        "url": "https://openstax.org/books/psychology-2e/pages/15-7-depressive-bipolar-and-related-disorders",
-       "argomenti": []
+       "argomenti": [
+        "depressione-bipolare"
+       ]
       },
       {
        "title": "15.8 Schizophrenia",
        "url": "https://openstax.org/books/psychology-2e/pages/15-8-schizophrenia",
-       "argomenti": []
+       "argomenti": [
+        "schizofrenia"
+       ]
       },
       {
        "title": "15.9 Dissociative disorders",
        "url": "https://openstax.org/books/psychology-2e/pages/15-9-dissociative-disorders",
-       "argomenti": []
+       "argomenti": [
+        "disturbi-dissociativi"
+       ]
       },
       {
        "title": "15.10 Disorders in childhood",
        "url": "https://openstax.org/books/psychology-2e/pages/15-10-disorders-in-childhood",
-       "argomenti": []
+       "argomenti": [
+        "disturbi-infanzia"
+       ]
       },
       {
        "title": "15.11 Personality disorders",
        "url": "https://openstax.org/books/psychology-2e/pages/15-11-personality-disorders",
-       "argomenti": []
+       "argomenti": [
+        "disturbi-personalita"
+       ]
       }
      ]
     },
@@ -2567,27 +2599,37 @@
       {
        "title": "16.1 Mental health treatment past and present",
        "url": "https://openstax.org/books/psychology-2e/pages/16-1-mental-health-treatment-past-and-present",
-       "argomenti": []
+       "argomenti": [
+        "storia-delle-cure"
+       ]
       },
       {
        "title": "16.2 Types of treatment",
        "url": "https://openstax.org/books/psychology-2e/pages/16-2-types-of-treatment",
-       "argomenti": []
+       "argomenti": [
+        "psicoterapie"
+       ]
       },
       {
        "title": "16.3 Treatment modalities",
        "url": "https://openstax.org/books/psychology-2e/pages/16-3-treatment-modalities",
-       "argomenti": []
+       "argomenti": [
+        "psicoterapie"
+       ]
       },
       {
        "title": "16.4 Substance related and addictive disorders a special case",
        "url": "https://openstax.org/books/psychology-2e/pages/16-4-substance-related-and-addictive-disorders-a-special-case",
-       "argomenti": []
+       "argomenti": [
+        "dipendenze"
+       ]
       },
       {
        "title": "16.5 The sociocultural model and therapy utilization",
        "url": "https://openstax.org/books/psychology-2e/pages/16-5-the-sociocultural-model-and-therapy-utilization",
-       "argomenti": []
+       "argomenti": [
+        "cultura-e-terapia"
+       ]
       }
      ]
     }

@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-04T00:56:16Z",
+ "updatedAt": "2026-11-04T06:14:13Z",
  "subjects": [
   {
    "id": "fisica",
@@ -4884,6 +4884,11 @@
      "name": "OpenStax · College Physics 2e",
      "title": "15.6 Entropy and the Second Law of Thermodynamics",
      "url": "https://openstax.org/books/college-physics-2e/pages/15-6-entropy-and-the-second-law-of-thermodynamics-disorder-and-the-unavailability-of-energy"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "15.7 Statistical Interpretation of Entropy",
+     "url": "https://openstax.org/books/college-physics-2e/pages/15-7-statistical-interpretation-of-entropy-and-the-second-law-of-thermodynamics-the-underlying-explanation"
     },
     {
      "name": "OpenStax · College Physics 2e",
@@ -12875,6 +12880,11 @@
      "name": "OpenStax · Psychology 2e",
      "title": "6.1 What Is Learning?",
      "url": "https://openstax.org/books/psychology-2e/pages/6-1-what-is-learning"
+    },
+    {
+     "name": "OpenStax · Psychology 2e",
+     "title": "6.1 What Is Learning?",
+     "url": "https://openstax.org/books/psychology-2e/pages/6-1-what-is-learning"
     }
    ],
    "videos": [
@@ -15487,6 +15497,191 @@
    "addedAt": "2026-11-04T00:56:16Z"
   },
   {
+   "id": "psicologia-del-lavoro",
+   "subject": "psicologia",
+   "chapter": "Lavoro e organizzazioni",
+   "title": "La psicologia del lavoro: selezionare e valutare le persone",
+   "hook": "Colloqui, test attitudinali, valutazioni annuali: la psicologia del lavoro studia come scegliere le persone giuste e valutarle in modo equo.",
+   "points": [
+    "Che cos'è la psicologia del lavoro e delle organizzazioni",
+    "Come si analizza un lavoro",
+    "Metodi di selezione: cosa funziona davvero",
+    "Valutare le prestazioni senza distorsioni"
+   ],
+   "sections": [
+    {
+     "h": "Psicologia applicata al lavoro",
+     "p": [
+      "La psicologia del lavoro e delle organizzazioni applica i metodi della psicologia ai luoghi di lavoro. È nata all'inizio del Novecento: tra i primi libri sull'uso della psicologia nel mondo degli affari ci furono quelli di Walter Dill Scott sulla pubblicità e di Hugo Münsterberg sull'efficienza industriale.",
+      "Ha tre grandi rami. La psicologia industriale si occupa di selezione, formazione e valutazione delle persone. La psicologia organizzativa studia il lato sociale del lavoro: motivazione, leadership, soddisfazione, clima. La psicologia dei fattori umani studia come i lavoratori interagiscono con gli strumenti di lavoro e come progettarli per ottimizzare produttività, sicurezza e salute."
+     ]
+    },
+    {
+     "h": "Capire il lavoro",
+     "p": [
+      "Prima di scegliere una persona bisogna capire che cosa richiede il lavoro. L'analisi del lavoro descrive i compiti, le conoscenze, le abilità e le caratteristiche necessarie, osservando chi lo svolge, intervistandolo, usando questionari.",
+      "Da qui nascono la descrizione della posizione e i criteri per selezionare, formare e valutare. Senza questa analisi, la selezione rischia di basarsi su impressioni e simpatie."
+     ]
+    },
+    {
+     "h": "Selezionare: cosa funziona",
+     "p": [
+      "Esistono molti strumenti di selezione, con validità molto diverse, cioè con una diversa capacità di prevedere il rendimento futuro. I test di capacità cognitiva e le prove di lavoro, in cui il candidato svolge un compito simile a quello reale, sono tra i predittori migliori.",
+      "I colloqui strutturati, con domande uguali per tutti, legate al lavoro e con criteri di valutazione definiti in anticipo, funzionano molto meglio dei colloqui liberi, in cui l'intervistatore si lascia guidare dalla prima impressione, dalla simpatia o dalla somiglianza con sé stesso. Anche i questionari di personalità, in particolare sulla coscienziosità, danno qualche informazione utile.",
+      "Strumenti poco validi, come l'analisi della grafia, restano usati in alcune aziende nonostante le prove contrarie. La selezione deve anche essere equa e rispettare le leggi contro la discriminazione."
+     ]
+    },
+    {
+     "h": "Valutare le prestazioni",
+     "p": [
+      "Le aziende valutano periodicamente le prestazioni dei dipendenti per dare un riscontro, decidere promozioni, aumenti e formazione. Le valutazioni però sono soggette a molti errori.",
+      "L'effetto alone fa sì che un'impressione positiva su un aspetto, come la simpatia, influenzi il giudizio su tutto il resto. L'errore di indulgenza porta a dare a tutti voti alti; quello di tendenza centrale a dare a tutti voti medi. L'effetto recenza fa pesare troppo gli ultimi mesi.",
+      "Per ridurre questi errori si usano criteri chiari e osservabili, la formazione dei valutatori e, a volte, il parere di più persone, come colleghi e collaboratori oltre al responsabile."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "In un colloquio strutturato a tutti i candidati si chiede \"Raccontami una volta in cui hai gestito un cliente arrabbiato\", e le risposte si valutano con gli stessi criteri.",
+   "mistakes": [
+    "\"Un buon colloquio libero basta per scegliere\": i colloqui strutturati prevedono molto meglio.",
+    "\"La grafia rivela la personalità\": non ci sono prove che funzioni.",
+    "\"Le valutazioni dei capi sono oggettive\": sono soggette a molti bias."
+   ],
+   "terms": [
+    {
+     "t": "Analisi del lavoro",
+     "d": "Descrizione di compiti e requisiti di una posizione."
+    },
+    {
+     "t": "Validità predittiva",
+     "d": "Capacità di uno strumento di prevedere il rendimento."
+    },
+    {
+     "t": "Colloquio strutturato",
+     "d": "Colloquio con domande e criteri uguali per tutti."
+    },
+    {
+     "t": "Effetto alone",
+     "d": "Un'impressione positiva influenza tutto il giudizio."
+    }
+   ],
+   "quote": {
+    "text": "Human factors psychology is the study of how workers interact with the tools of work and how to design those tools to optimize workers’ productivity, safety, and health.",
+    "translation": "La psicologia dei fattori umani studia come i lavoratori interagiscono con gli strumenti di lavoro e come progettare tali strumenti per ottimizzare produttività, sicurezza e salute dei lavoratori."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Psychology 2e",
+     "title": "13.1 What is industrial and organizational psychology",
+     "url": "https://openstax.org/books/psychology-2e/pages/13-1-what-is-industrial-and-organizational-psychology"
+    },
+    {
+     "name": "OpenStax · Psychology 2e",
+     "title": "13.2 Industrial psychology selecting and evaluating employees",
+     "url": "https://openstax.org/books/psychology-2e/pages/13-2-industrial-psychology-selecting-and-evaluating-employees"
+    }
+   ],
+   "videos": [
+    {
+     "id": "ijtc4nuz8AE",
+     "title": "How Industrial-Organizational Psychology is Shaping the Future of Work",
+     "channel": "Harvard Extension School",
+     "length": "2:02"
+    }
+   ],
+   "videoQuery": "industrial organizational psychology",
+   "addedAt": "2026-11-04T06:14:13Z"
+  },
+  {
+   "id": "organizzazioni-ergonomia",
+   "subject": "psicologia",
+   "chapter": "Lavoro e organizzazioni",
+   "title": "Il lato umano del lavoro: soddisfazione, leadership ed ergonomia",
+   "hook": "Che cosa rende soddisfatti al lavoro, come cambia un gruppo con un buon capo, perché l'equità conta tanto e come si progettano strumenti a misura di persona.",
+   "points": [
+    "Soddisfazione e benessere al lavoro",
+    "Leadership e cultura organizzativa",
+    "Giustizia organizzativa, molestie e violenza",
+    "Ergonomia e progettazione centrata sulle persone"
+   ],
+   "sections": [
+    {
+     "h": "Stare bene al lavoro",
+     "p": [
+      "La soddisfazione lavorativa dipende da molti fattori: il tipo di compiti, l'autonomia, le relazioni con colleghi e capi, il senso di fare qualcosa di utile, la retribuzione, l'equilibrio tra lavoro e vita privata. È associata a una minore intenzione di lasciare il lavoro e a meno assenze.",
+      "L'esaurimento da lavoro, o burnout, nasce da uno stress lavorativo cronico non gestito: stanchezza profonda, distacco e cinismo verso il lavoro, sensazione di inefficacia. È più frequente nelle professioni d'aiuto, come sanità e scuola, e quando le richieste sono alte e il controllo basso."
+     ]
+    },
+    {
+     "h": "Leadership e cultura",
+     "p": [
+      "Gli psicologi distinguono diversi stili di leadership. La leadership transazionale si basa su obiettivi chiari, premi e controlli. La leadership trasformazionale ispira i collaboratori con una visione, li stimola intellettualmente e si interessa alla loro crescita: è associata in molti studi a maggiore motivazione e soddisfazione.",
+      "Ogni organizzazione ha una propria cultura: valori, abitudini e norme condivise, spesso implicite, su come si lavora e come ci si comporta. Una cultura che permette di segnalare errori senza paura, detta di sicurezza psicologica, favorisce l'apprendimento e l'innovazione."
+     ]
+    },
+    {
+     "h": "Equità, molestie, violenza",
+     "p": [
+      "Le persone non guardano solo a quanto ricevono, ma anche a quanto è equo il modo in cui le decisioni vengono prese. La giustizia procedurale riguarda l'equità dei processi con cui si decidono gli esiti nei conflitti con o tra i dipendenti. Anche una decisione sfavorevole è accettata meglio se il processo è trasparente e rispettoso.",
+      "Le molestie sessuali sul lavoro possono assumere la forma di un ambiente ostile o di ricatti, come la minaccia di negare una ricompensa se una richiesta sessuale viene rifiutata. Sono illegali e dannose per le persone e le organizzazioni.",
+      "Nei casi più gravi, la violenza sul lavoro può arrivare all'aggressione fisica. Un fattore scatenante importante è la sensazione di essere trattati in modo ingiusto, iniquo o irrispettoso: un motivo in più per curare l'equità e la comunicazione."
+     ]
+    },
+    {
+     "h": "L'ergonomia",
+     "p": [
+      "La psicologia dei fattori umani, o ergonomia, progetta strumenti, macchine e ambienti adatti alle capacità e ai limiti delle persone. Una sedia regolabile, uno schermo all'altezza giusta e una buona illuminazione riducono dolori e stanchezza.",
+      "Ma l'ergonomia riguarda anche la mente: progettare cruscotti, software, cartelli e strumenti medici in modo che siano chiari e che gli errori diventino difficili. Molti incidenti aerei e industriali sono stati attribuiti a interfacce confuse più che a persone incompetenti.",
+      "È lo stesso principio che guida la progettazione delle app: pulsanti grandi dove servono, informazioni importanti in evidenza, conferme prima delle azioni irreversibili."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Un forno con le manopole disposte come i fuochi che comandano evita di accendere quello sbagliato: è buona ergonomia.",
+   "mistakes": [
+    "\"Le persone lavorano solo per i soldi\": contano anche autonomia, relazioni e senso.",
+    "\"Gli errori sono sempre colpa di chi li commette\": spesso dipendono da strumenti mal progettati.",
+    "\"L'equità conta solo nei risultati\": conta molto anche il processo."
+   ],
+   "terms": [
+    {
+     "t": "Burnout",
+     "d": "Esaurimento dovuto a stress lavorativo cronico."
+    },
+    {
+     "t": "Leadership trasformazionale",
+     "d": "Stile di guida che ispira e fa crescere i collaboratori."
+    },
+    {
+     "t": "Giustizia procedurale",
+     "d": "Equità dei processi decisionali."
+    },
+    {
+     "t": "Ergonomia",
+     "d": "Progettazione di strumenti adatti alle persone."
+    }
+   ],
+   "quote": {
+    "text": "Procedural justice refers to the fairness of the processes by which outcomes are determined in conflicts with or among employees.",
+    "translation": "La giustizia procedurale riguarda l'equità dei processi con cui si determinano gli esiti nei conflitti con i dipendenti o tra di loro."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Psychology 2e",
+     "title": "13.3 Organizational psychology the social dimension of work",
+     "url": "https://openstax.org/books/psychology-2e/pages/13-3-organizational-psychology-the-social-dimension-of-work"
+    },
+    {
+     "name": "OpenStax · Psychology 2e",
+     "title": "13.4 Human factors psychology and workplace design",
+     "url": "https://openstax.org/books/psychology-2e/pages/13-4-human-factors-psychology-and-workplace-design"
+    }
+   ],
+   "videos": [],
+   "videoQuery": "human factors psychology workplace",
+   "addedAt": "2026-11-04T06:14:13Z"
+  },
+  {
    "id": "stress",
    "subject": "psicologia",
    "chapter": "Salute e benessere",
@@ -15594,6 +15789,104 @@
    ],
    "videoQuery": "stress psicologia risposta combatti o fuggi",
    "addedAt": "2026-11-04T00:12:22Z"
+  },
+  {
+   "id": "stress-e-malattia",
+   "subject": "psicologia",
+   "chapter": "Salute e benessere",
+   "title": "Stress e malattia: il legame tra mente, cuore e difese immunitarie",
+   "hook": "Lo stress cronico può indebolire le difese immunitarie e pesare sul cuore. La psiconeuroimmunologia studia come la mente influenza la salute del corpo.",
+   "points": [
+    "Le malattie psicofisiologiche",
+    "Stress e sistema immunitario",
+    "Stress e malattie cardiovascolari",
+    "Asma, mal di testa e altri legami"
+   ],
+   "sections": [
+    {
+     "h": "Mente e corpo",
+     "p": [
+      "Le malattie psicofisiologiche sono disturbi fisici in cui i fattori psicologici, come lo stress, hanno un ruolo nell'insorgenza o nel peggioramento. Non significa che siano immaginarie: i sintomi e i danni sono reali, ma la mente contribuisce alla loro comparsa.",
+      "Il legame passa per due strade: gli effetti diretti degli ormoni e del sistema nervoso dello stress, e i comportamenti che lo stress favorisce, come dormire poco, mangiare male, fumare, bere e muoversi meno."
+     ]
+    },
+    {
+     "h": "Lo stress e le difese",
+     "p": [
+      "Il sistema immunitario è, in un certo senso, il sistema di sorveglianza del corpo: riconosce e combatte virus, batteri e cellule anomale. La psiconeuroimmunologia è il campo che studia come fattori psicologici come lo stress influenzano il sistema immunitario e il suo funzionamento.",
+      "Ricerche classiche hanno mostrato che studenti sotto esame avevano risposte immunitarie meno efficaci, e che le ferite guarivano più lentamente in persone sotto stress cronico, come chi assiste un familiare malato. In esperimenti in cui volontari venivano esposti volontariamente al virus del raffreddore, chi riferiva più stress si ammalava più spesso.",
+      "Lo stress acuto e breve può persino rafforzare temporaneamente alcune difese; è lo stress cronico, che dura mesi o anni, a indebolirle."
+     ]
+    },
+    {
+     "h": "Il cuore",
+     "p": [
+      "Le malattie cardiovascolari sono tra le principali cause di morte nel mondo. Lo stress cronico contribuisce attraverso l'aumento della pressione, dell'infiammazione e dei comportamenti a rischio.",
+      "Negli anni Cinquanta due cardiologi descrissero la personalità di tipo A: persone competitive, impazienti, sempre di fretta e ostili. Ricerche successive hanno mostrato che la componente più dannosa per il cuore è soprattutto l'ostilità, cioè la tendenza alla rabbia e al sospetto verso gli altri.",
+      "Anche la depressione è un fattore di rischio per le malattie cardiache e peggiora la prognosi di chi ne soffre. Al contrario, il sostegno sociale e le emozioni positive sono associati a una salute migliore."
+     ]
+    },
+    {
+     "h": "Altri legami",
+     "p": [
+      "Lo stress può scatenare o peggiorare attacchi d'asma, mal di testa tensivi ed emicranie, disturbi intestinali come la sindrome dell'intestino irritabile e problemi della pelle.",
+      "Per molto tempo si pensò che le ulcere allo stomaco fossero causate dallo stress; poi si scoprì che la causa principale è un batterio, l'Helicobacter pylori, scoperta premiata con il Nobel nel 2005. Lo stress resta però uno dei fattori che possono peggiorarle: un buon esempio di come cause biologiche e psicologiche si intreccino.",
+      "Gestire lo stress con attività fisica, sonno, relazioni e, quando serve, aiuto professionale non è quindi solo una questione di benessere mentale, ma anche di salute fisica."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Ti ammali spesso subito dopo un periodo di esami o di scadenze? Lo stress prolungato può abbassare le difese.",
+   "mistakes": [
+    "\"Le malattie psicofisiologiche sono immaginarie\": i sintomi e i danni sono reali.",
+    "\"Le ulcere sono causate dallo stress\": la causa principale è un batterio, lo stress può peggiorarle.",
+    "\"Essere di tipo A fa male al cuore\": conta soprattutto l'ostilità."
+   ],
+   "terms": [
+    {
+     "t": "Malattia psicofisiologica",
+     "d": "Disturbo fisico influenzato da fattori psicologici."
+    },
+    {
+     "t": "Psiconeuroimmunologia",
+     "d": "Studio di come la mente influenza il sistema immunitario."
+    },
+    {
+     "t": "Personalità di tipo A",
+     "d": "Stile competitivo, impaziente e ostile."
+    },
+    {
+     "t": "Ostilità",
+     "d": "Tendenza a rabbia e sospetto verso gli altri."
+    }
+   ],
+   "quote": {
+    "text": "Psychoneuroimmunology is the field that studies how psychological factors such as stress influence the immune system and immune functioning.",
+    "translation": "La psiconeuroimmunologia è il campo che studia come i fattori psicologici, come lo stress, influenzano il sistema immunitario e il suo funzionamento."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Psychology 2e",
+     "title": "14.3 Stress and illness",
+     "url": "https://openstax.org/books/psychology-2e/pages/14-3-stress-and-illness"
+    }
+   ],
+   "videos": [
+    {
+     "id": "v-t1Z5-oPtU",
+     "title": "How stress affects your body - Sharon Horesh Bergquist",
+     "channel": "TED-Ed",
+     "length": "4:43"
+    },
+    {
+     "id": "efOW5NUTYB8",
+     "title": "When Your Body Attacks Itself – Autoimmune",
+     "channel": "Kurzgesagt – In a Nutshell",
+     "length": "10:55"
+    }
+   ],
+   "videoQuery": "stress immune system heart disease",
+   "addedAt": "2026-11-04T06:14:13Z"
   },
   {
    "id": "felicita",
@@ -15706,6 +15999,1253 @@
    ],
    "videoQuery": "scienza della felicità psicologia positiva",
    "addedAt": "2026-11-04T00:12:22Z"
+  },
+  {
+   "id": "cosa-sono-i-disturbi",
+   "subject": "psicologia",
+   "chapter": "Disturbi psicologici",
+   "title": "Che cos'è un disturbo psicologico e come si diagnostica",
+   "hook": "Quando la tristezza o la paura diventano un disturbo? Come funzionano il DSM-5 e le classificazioni, e quali sono le spiegazioni delle cause.",
+   "points": [
+    "Che cosa rende un'esperienza un disturbo",
+    "Il DSM-5 e l'ICD",
+    "Il modello diatesi-stress",
+    "Lo stigma"
+   ],
+   "sections": [
+    {
+     "h": "Normale o patologico?",
+     "p": [
+      "La psicopatologia è lo studio dei disturbi psicologici: i loro sintomi, le cause e i trattamenti. Ma tracciare il confine tra normalità e disturbo non è semplice. Tutti proviamo tristezza, ansia, rabbia.",
+      "In genere si parla di disturbo quando pensieri, emozioni o comportamenti sono atipici, cioè molto diversi da ciò che è comune in quella cultura; causano sofferenza significativa o compromettono la capacità di lavorare, studiare, avere relazioni; e non sono una reazione attesa e culturalmente normale a un evento, come il dolore per un lutto.",
+      "Anche la cultura conta: comportamenti considerati normali in un contesto possono sembrare strani in un altro, e il concetto di disturbo è cambiato nel tempo."
+     ]
+    },
+    {
+     "h": "Le classificazioni",
+     "p": [
+      "Per diagnosticare, i professionisti usano manuali che descrivono i disturbi con criteri precisi. Il più usato nella ricerca è il DSM-5, il Manuale diagnostico e statistico dell'Associazione Psichiatrica Americana. In molti paesi, compresa l'Italia, si usa anche l'ICD dell'Organizzazione Mondiale della Sanità.",
+      "Le classificazioni permettono ai professionisti di comunicare, di fare ricerca e di scegliere i trattamenti. Hanno però limiti: i confini tra disturbi sono a volte sfumati, molte persone hanno più diagnosi insieme (comorbilità), e alcune categorie sono state molto discusse. Le diagnosi descrivono problemi, non definiscono le persone.",
+      "I disturbi psicologici sono molto comuni: secondo l'OMS, circa una persona su otto nel mondo conviveva con un disturbo mentale nel 2019, soprattutto ansia e depressione."
+     ]
+    },
+    {
+     "h": "Da dove vengono",
+     "p": [
+      "Nella storia i disturbi mentali sono stati attribuiti agli spiriti, agli squilibri degli umori, a colpe morali. Oggi si adottano prospettive scientifiche diverse. La prospettiva biologica studia geni, chimica del cervello e strutture cerebrali; quella psicologica pensieri, emozioni, apprendimento ed esperienze; quella sociale e culturale povertà, discriminazione, relazioni.",
+      "Il modello più accettato combina queste prospettive: il modello diatesi-stress. La diatesi è una vulnerabilità, per esempio genetica o legata a esperienze precoci; lo stress sono gli eventi difficili della vita. Un disturbo si sviluppa più facilmente quando una vulnerabilità incontra uno stress sufficiente. Persone con forte vulnerabilità possono non ammalarsi mai in condizioni favorevoli, e viceversa."
+     ]
+    },
+    {
+     "h": "Lo stigma",
+     "p": [
+      "Le persone con disturbi psicologici affrontano spesso lo stigma: pregiudizi, paura, esclusione. L'idea diffusa che siano pericolose è in gran parte sbagliata: sono più spesso vittime che autori di violenza.",
+      "Lo stigma è una delle ragioni principali per cui molte persone non chiedono aiuto. Parlare apertamente di salute mentale, usare un linguaggio rispettoso e ricordare che i disturbi si possono curare aiuta a ridurlo."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Sentirsi tristi per settimane dopo una rottura è normale; se dopo mesi la tristezza impedisce di lavorare e dormire, vale la pena chiedere aiuto.",
+   "mistakes": [
+    "\"Avere un disturbo è segno di debolezza\": è una condizione di salute, come una malattia fisica.",
+    "\"Le persone con disturbi mentali sono pericolose\": sono più spesso vittime che autori di violenza.",
+    "\"Una diagnosi definisce chi sei\": descrive un problema, non la persona."
+   ],
+   "terms": [
+    {
+     "t": "Psicopatologia",
+     "d": "Studio dei disturbi psicologici."
+    },
+    {
+     "t": "DSM-5",
+     "d": "Manuale diagnostico dell'Associazione Psichiatrica Americana."
+    },
+    {
+     "t": "Comorbilità",
+     "d": "Presenza di più disturbi insieme."
+    },
+    {
+     "t": "Modello diatesi-stress",
+     "d": "Vulnerabilità più stress portano al disturbo."
+    }
+   ],
+   "quote": {
+    "text": "Psychopathology is the study of psychological disorders, including their symptoms, etiology (i.e., their causes), and treatment.",
+    "translation": "La psicopatologia è lo studio dei disturbi psicologici, compresi i loro sintomi, l'eziologia (cioè le cause) e il trattamento."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Psychology 2e",
+     "title": "15.1 What are psychological disorders",
+     "url": "https://openstax.org/books/psychology-2e/pages/15-1-what-are-psychological-disorders"
+    },
+    {
+     "name": "OpenStax · Psychology 2e",
+     "title": "15.2 Diagnosing and classifying psychological disorders",
+     "url": "https://openstax.org/books/psychology-2e/pages/15-2-diagnosing-and-classifying-psychological-disorders"
+    },
+    {
+     "name": "OpenStax · Psychology 2e",
+     "title": "15.3 Perspectives on psychological disorders",
+     "url": "https://openstax.org/books/psychology-2e/pages/15-3-perspectives-on-psychological-disorders"
+    }
+   ],
+   "videos": [
+    {
+     "id": "wuhJ-GkRRQc",
+     "title": "Psychological Disorders: Crash Course Psychology #28",
+     "channel": "CrashCourse",
+     "length": "10:09"
+    },
+    {
+     "id": "ZwMlHkWKDwM",
+     "title": "Depressive and Bipolar Disorders: Crash Course Psychology #30",
+     "channel": "CrashCourse",
+     "length": "10:00"
+    }
+   ],
+   "videoQuery": "psychological disorders crash course psychology",
+   "addedAt": "2026-11-04T06:14:13Z"
+  },
+  {
+   "id": "ansia",
+   "subject": "psicologia",
+   "chapter": "Disturbi psicologici",
+   "title": "I disturbi d'ansia: fobie, attacchi di panico e ansia generalizzata",
+   "hook": "L'ansia è utile, finché non diventa eccessiva e continua. Fobie, ansia sociale, panico e ansia generalizzata: come si riconoscono e come si curano.",
+   "points": [
+    "Quando l'ansia diventa un disturbo",
+    "Fobie e ansia sociale",
+    "Attacchi di panico e disturbo di panico",
+    "Ansia generalizzata, cause e cure"
+   ],
+   "sections": [
+    {
+     "h": "Un allarme che suona troppo",
+     "p": [
+      "L'ansia è una risposta normale e utile: ci prepara ad affrontare un pericolo o una prova importante. Diventa un disturbo quando è eccessiva rispetto alla situazione, dura a lungo, causa molta sofferenza e porta a evitare situazioni importanti della vita.",
+      "I disturbi d'ansia sono tra i disturbi psicologici più comuni: secondo l'OMS colpiscono centinaia di milioni di persone nel mondo, più spesso le donne. Si possono curare efficacemente."
+     ]
+    },
+    {
+     "h": "Fobie e ansia sociale",
+     "p": [
+      "Una fobia specifica è una paura intensa e irrazionale di un oggetto o di una situazione precisa: ragni, altezze, aghi, volare. La persona sa che la paura è eccessiva, ma fatica a controllarla e tende a evitare ciò che la spaventa.",
+      "Le fobie possono nascere anche per condizionamento classico: se un cane morde un bambino, il morso è lo stimolo incondizionato e la paura che provoca la risposta incondizionata; i cani in generale possono diventare uno stimolo condizionato che scatena la paura.",
+      "Nel disturbo d'ansia sociale la paura riguarda le situazioni in cui si può essere osservati e giudicati: parlare in pubblico, mangiare davanti agli altri, conoscere persone nuove. Non è semplice timidezza: può limitare molto studio, lavoro e relazioni."
+     ]
+    },
+    {
+     "h": "Il panico",
+     "p": [
+      "Un attacco di panico è un periodo di paura o disagio estremi che compare all'improvviso e raggiunge il picco in pochi minuti. Il cuore batte all'impazzata, manca il respiro, si suda, si trema, si ha paura di morire, di impazzire o di perdere il controllo. Molte persone, al primo attacco, corrono al pronto soccorso pensando a un infarto.",
+      "Nel disturbo di panico gli attacchi si ripetono inaspettatamente, e la persona vive con il timore costante del prossimo attacco, arrivando a evitare luoghi da cui sarebbe difficile uscire o ricevere aiuto. Nel cervello è coinvolto, tra l'altro, il locus coeruleus, nel tronco encefalico, la principale fonte di noradrenalina, il neurotrasmettitore che innesca la risposta \"combatti o fuggi\"."
+     ]
+    },
+    {
+     "h": "Ansia generalizzata e cure",
+     "p": [
+      "Nel disturbo d'ansia generalizzata la persona si preoccupa in modo eccessivo e difficile da controllare per molte cose diverse, salute, soldi, lavoro, famiglia, per la maggior parte dei giorni e per almeno sei mesi, spesso con tensione muscolare, stanchezza e difficoltà a dormire.",
+      "Le cause combinano predisposizione genetica, temperamento, esperienze di vita e modi di pensare: per esempio la tendenza a interpretare le situazioni ambigue come minacciose.",
+      "La psicoterapia cognitivo-comportamentale è tra i trattamenti più efficaci: aiuta a riconoscere e cambiare i pensieri catastrofici e, con l'esposizione graduale, ad affrontare ciò che si teme invece di evitarlo, perché l'evitamento mantiene l'ansia. In alcuni casi si usano anche farmaci, sotto controllo medico."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Chi ha paura di volare spesso migliora con l'esposizione graduale: prima guarda video, poi visita un aeroporto, poi fa un volo breve.",
+   "mistakes": [
+    "\"Chi ha l'ansia deve evitare ciò che la spaventa\": l'evitamento mantiene l'ansia.",
+    "\"Un attacco di panico è pericoloso per il cuore\": è spaventoso ma di solito non pericoloso (in caso di dubbio va comunque controllato).",
+    "\"Ansia sociale significa essere timidi\": è un disturbo che limita molto la vita."
+   ],
+   "terms": [
+    {
+     "t": "Fobia specifica",
+     "d": "Paura intensa di un oggetto o situazione."
+    },
+    {
+     "t": "Ansia sociale",
+     "d": "Paura del giudizio degli altri."
+    },
+    {
+     "t": "Attacco di panico",
+     "d": "Episodio improvviso di paura estrema."
+    },
+    {
+     "t": "Esposizione",
+     "d": "Tecnica che affronta gradualmente ciò che si teme."
+    }
+   ],
+   "quote": {
+    "text": "A panic attack is defined as a period of extreme fear or discomfort that develops abruptly and reaches a peak within 10 minutes.",
+    "translation": "Un attacco di panico è definito come un periodo di paura o disagio estremi che si sviluppa all'improvviso e raggiunge il culmine entro 10 minuti."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Psychology 2e",
+     "title": "15.4 Anxiety disorders",
+     "url": "https://openstax.org/books/psychology-2e/pages/15-4-anxiety-disorders"
+    }
+   ],
+   "videos": [
+    {
+     "id": "aX7jnVXXG5o",
+     "title": "OCD and Anxiety Disorders: Crash Course Psychology #29",
+     "channel": "CrashCourse",
+     "length": "11:32"
+    }
+   ],
+   "videoQuery": "anxiety disorders crash course psychology",
+   "addedAt": "2026-11-04T06:14:13Z"
+  },
+  {
+   "id": "doc",
+   "subject": "psicologia",
+   "chapter": "Disturbi psicologici",
+   "title": "Il disturbo ossessivo-compulsivo e i disturbi correlati",
+   "hook": "Non è essere molto ordinati: il DOC è fatto di pensieri intrusivi che spaventano e di rituali che sembrano obbligatori. E ha parenti meno noti.",
+   "points": [
+    "Ossessioni e compulsioni",
+    "Il circolo vizioso del DOC",
+    "Dismorfismo corporeo e accumulo",
+    "Cause e trattamenti"
+   ],
+   "sections": [
+    {
+     "h": "Ossessioni e compulsioni",
+     "p": [
+      "Nel disturbo ossessivo-compulsivo (DOC) la persona ha ossessioni, cioè pensieri, immagini o impulsi intrusivi e indesiderati che provocano forte ansia: paura di contaminarsi, di aver lasciato il gas aperto, di fare del male a qualcuno senza volerlo, pensieri che vanno contro i propri valori.",
+      "Per ridurre l'ansia la persona mette in atto compulsioni: azioni ripetitive o rituali mentali, come lavarsi le mani decine di volte, controllare più volte la porta, contare, ripetere frasi. Le compulsioni danno un sollievo temporaneo, ma richiedono molto tempo, spesso ore al giorno, e la persona di solito riconosce che sono eccessive.",
+      "Il DOC non va confuso con l'essere precisi o amare l'ordine: dire \"sono un po' DOC\" per indicare una scrivania in ordine banalizza un disturbo che fa soffrire molto."
+     ]
+    },
+    {
+     "h": "Un circolo vizioso",
+     "p": [
+      "Il DOC si mantiene con un meccanismo preciso. L'ossessione provoca ansia; la compulsione la riduce subito; questo sollievo rinforza la compulsione, che diventa sempre più necessaria. Intanto la persona non scopre mai che l'ansia sarebbe calata comunque, e che la catastrofe temuta non sarebbe avvenuta.",
+      "Anche cercare continuamente rassicurazioni dagli altri funziona come una compulsione: tranquillizza per un attimo, ma alimenta il bisogno di chiederne ancora."
+     ]
+    },
+    {
+     "h": "I parenti del DOC",
+     "p": [
+      "Nella stessa categoria del DSM-5 rientrano altri disturbi. Nel disturbo da dismorfismo corporeo la persona è preoccupata in modo eccessivo per un difetto del proprio aspetto, che gli altri notano appena o non notano affatto; passa molto tempo a controllarsi allo specchio o a nascondere il difetto, e può ricorrere ripetutamente alla chirurgia estetica senza sentirsi meglio.",
+      "Nel disturbo da accumulo la persona ha grande difficoltà a separarsi dagli oggetti, anche senza valore, e ne accumula così tanti da rendere inutilizzabili le stanze della casa. Altri disturbi correlati sono il bisogno ripetitivo di strapparsi i capelli o di stuzzicarsi la pelle."
+     ]
+    },
+    {
+     "h": "Cause e cure",
+     "p": [
+      "Il DOC ha una componente genetica e sembra coinvolgere circuiti tra la corteccia frontale e strutture profonde del cervello che regolano le abitudini e la valutazione degli errori. Un limite importante di questi studi è che non spiegano perché le ossessioni e le compulsioni siano così diverse da persona a persona.",
+      "Il trattamento psicologico più efficace è l'esposizione con prevenzione della risposta: la persona si espone gradualmente a ciò che scatena l'ossessione, per esempio toccare una maniglia, e rinuncia al rituale, scoprendo che l'ansia cala da sola. Spesso si affiancano farmaci antidepressivi che agiscono sulla serotonina.",
+      "Molte persone con DOC aspettano anni prima di chiedere aiuto per vergogna dei propri pensieri: sapere che i pensieri intrusivi sono comuni, e non dicono nulla di ciò che una persona vuole davvero, è già un primo passo."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Tornare una volta a controllare se hai chiuso la porta è normale; tornarci dieci volte e arrivare in ritardo al lavoro ogni giorno potrebbe essere un segnale.",
+   "mistakes": [
+    "\"Essere ordinati significa avere il DOC\": il DOC causa sofferenza e richiede ore di rituali.",
+    "\"Chi ha pensieri intrusivi violenti è pericoloso\": nel DOC questi pensieri spaventano proprio perché vanno contro i propri valori.",
+    "\"Rassicurare sempre aiuta\": può alimentare il disturbo."
+   ],
+   "terms": [
+    {
+     "t": "Ossessione",
+     "d": "Pensiero intrusivo e indesiderato che provoca ansia."
+    },
+    {
+     "t": "Compulsione",
+     "d": "Azione o rituale ripetuto per ridurre l'ansia."
+    },
+    {
+     "t": "Dismorfismo corporeo",
+     "d": "Preoccupazione eccessiva per un difetto dell'aspetto."
+    },
+    {
+     "t": "Esposizione con prevenzione della risposta",
+     "d": "Terapia che affronta l'ossessione senza fare il rituale."
+    }
+   ],
+   "quote": {
+    "text": "Included in this category are obsessive-compulsive disorder (OCD), body dysmorphic disorder, and hoarding disorder.",
+    "translation": "Rientrano in questa categoria il disturbo ossessivo-compulsivo (DOC), il disturbo da dismorfismo corporeo e il disturbo da accumulo."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Psychology 2e",
+     "title": "15.5 Obsessive compulsive and related disorders",
+     "url": "https://openstax.org/books/psychology-2e/pages/15-5-obsessive-compulsive-and-related-disorders"
+    }
+   ],
+   "videos": [
+    {
+     "id": "-Zg6PEJHRoo",
+     "title": "OCD: Signs & Symptoms of Obsessive Compulsive Disorder | Stanford",
+     "channel": "Stanford Center for Health Education",
+     "length": "6:55"
+    },
+    {
+     "id": "8N9Y7OY7cXk",
+     "title": "Obsessive-Compulsive Disorder (OCD)",
+     "channel": "Sprouts",
+     "length": "5:47"
+    }
+   ],
+   "videoQuery": "OCD obsessive compulsive disorder",
+   "addedAt": "2026-11-04T06:14:13Z"
+  },
+  {
+   "id": "trauma-ptsd",
+   "subject": "psicologia",
+   "chapter": "Disturbi psicologici",
+   "title": "Trauma e disturbo da stress post-traumatico",
+   "hook": "Dopo un evento terribile, alcuni ricordi continuano a tornare come se stesse succedendo di nuovo. Che cos'è il disturbo da stress post-traumatico e come si cura.",
+   "points": [
+    "Che cos'è un evento traumatico",
+    "I sintomi del PTSD",
+    "Chi è più a rischio",
+    "Trattamenti e resilienza"
+   ],
+   "sections": [
+    {
+     "h": "Il trauma",
+     "p": [
+      "Il disturbo da stress post-traumatico (PTSD), pur essendo un nome familiare, è spesso frainteso. Per la diagnosi, la persona deve aver vissuto, assistito o conosciuto da vicino un evento traumatico, che comporta morte reale o minacciata, gravi ferite o violenza sessuale: guerre, aggressioni, incidenti gravi, disastri naturali. Possono svilupparlo anche soccorritori esposti ripetutamente a dettagli terribili.",
+      "Nelle edizioni precedenti del DSM il PTSD era classificato tra i disturbi d'ansia; nel DSM-5 è inserito in una categoria a parte, dei disturbi legati a traumi e fattori di stress."
+     ]
+    },
+    {
+     "h": "I sintomi",
+     "p": [
+      "I sintomi si raggruppano in quattro tipi. I ricordi intrusivi: immagini, incubi e flashback in cui la persona rivive l'evento come se stesse accadendo di nuovo, con le stesse emozioni e reazioni fisiche. L'evitamento: di luoghi, persone, conversazioni o pensieri che ricordano il trauma.",
+      "I cambiamenti negativi in pensieri e umore: senso di colpa, distacco dagli altri, incapacità di provare emozioni positive, ricordi confusi dell'evento. L'iperattivazione: essere sempre all'erta, sobbalzare per un rumore, irritabilità, difficoltà a dormire e concentrarsi.",
+      "Per parlare di PTSD questi sintomi devono durare più di un mese e compromettere la vita quotidiana. Nelle prime settimane dopo un trauma molti di questi sintomi sono reazioni comuni, e spesso si attenuano da soli."
+     ]
+    },
+    {
+     "h": "Chi è più a rischio",
+     "p": [
+      "La maggior parte delle persone esposte a un evento traumatico non sviluppa un PTSD. Il rischio è maggiore per traumi causati intenzionalmente da altre persone, come violenze e torture, per traumi ripetuti o prolungati, e per chi ha una storia di altri traumi o di disturbi psicologici.",
+      "Un forte fattore protettivo è il sostegno sociale dopo l'evento: sentirsi ascoltati e aiutati. Anche alcune caratteristiche biologiche, come la reattività dell'amigdala e del sistema dello stress, sembrano contare.",
+      "Nella stessa categoria del DSM-5 c'è il disturbo da lutto prolungato: un desiderio intenso della persona scomparsa, con dolore profondo e pensieri fissi su di lei, che dura molto più a lungo e in modo più invalidante di quanto ci si aspetterebbe."
+     ]
+    },
+    {
+     "h": "Curare e guarire",
+     "p": [
+      "Il PTSD si può curare. Le terapie più efficaci sono psicoterapie centrate sul trauma: la terapia cognitivo-comportamentale con esposizione, in cui la persona, in un ambiente sicuro, rielabora gradualmente il ricordo invece di evitarlo; la terapia di elaborazione cognitiva, che lavora sui pensieri di colpa e pericolo; e l'EMDR, che combina il ricordo del trauma con movimenti oculari guidati.",
+      "In alcuni casi si usano anche farmaci. Molte persone, oltre a guarire, descrivono una crescita post-traumatica: una nuova consapevolezza dei propri valori, delle relazioni e della propria forza."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Dopo un incidente d'auto, avere per qualche settimana incubi e paura di guidare è comune; se dopo mesi impedisce di vivere normalmente, è utile chiedere aiuto.",
+   "mistakes": [
+    "\"Chiunque viva un trauma sviluppa il PTSD\": la maggior parte delle persone no.",
+    "\"Riguarda solo i soldati\": può colpire chiunque viva un evento traumatico.",
+    "\"Meglio non parlarne mai\": evitare mantiene i sintomi; le terapie efficaci lavorano sul ricordo."
+   ],
+   "terms": [
+    {
+     "t": "Evento traumatico",
+     "d": "Evento con morte, ferite gravi o violenza reali o minacciate."
+    },
+    {
+     "t": "Flashback",
+     "d": "Rivivere l'evento come se accadesse di nuovo."
+    },
+    {
+     "t": "Iperattivazione",
+     "d": "Stato di allerta costante."
+    },
+    {
+     "t": "Crescita post-traumatica",
+     "d": "Cambiamenti positivi dopo un trauma."
+    }
+   ],
+   "quote": {
+    "text": "While relatively familiar in name, posttraumatic stress disorder (PTSD) is often misunderstood.",
+    "translation": "Pur avendo un nome abbastanza familiare, il disturbo da stress post-traumatico (PTSD) è spesso frainteso."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Psychology 2e",
+     "title": "15.6 Trauma and stressor related disorders",
+     "url": "https://openstax.org/books/psychology-2e/pages/15-6-trauma-and-stressor-related-disorders"
+    }
+   ],
+   "videos": [
+    {
+     "id": "343ORgL3kIc",
+     "title": "Trauma and Addiction: Crash Course Psychology #31",
+     "channel": "CrashCourse",
+     "length": "10:51"
+    },
+    {
+     "id": "b_n9qegR7C4",
+     "title": "The psychology of post-traumatic stress disorder - Joelle Rabow Maletis",
+     "channel": "TED-Ed",
+     "length": "5:13"
+    }
+   ],
+   "videoQuery": "PTSD trauma crash course psychology",
+   "addedAt": "2026-11-04T06:14:13Z"
+  },
+  {
+   "id": "depressione-bipolare",
+   "subject": "psicologia",
+   "chapter": "Disturbi psicologici",
+   "title": "Depressione e disturbo bipolare",
+   "hook": "La depressione non è semplice tristezza, e il disturbo bipolare non è avere sbalzi d'umore. Sintomi, cause, cure e un segnale da non ignorare mai.",
+   "points": [
+    "Che cos'è la depressione maggiore",
+    "Il disturbo bipolare e la mania",
+    "Le cause",
+    "Cure e prevenzione del suicidio"
+   ],
+   "sections": [
+    {
+     "h": "Più che tristezza",
+     "p": [
+      "Nel linguaggio comune \"depressione\" è un termine vago che indica una tristezza intensa e persistente. In psicologia i disturbi depressivi sono un gruppo di disturbi in cui la depressione è la caratteristica principale.",
+      "Nel disturbo depressivo maggiore, per almeno due settimane, la persona ha quasi ogni giorno un umore depresso o una perdita di interesse e piacere per quasi tutte le attività, insieme ad altri sintomi: cambiamenti dell'appetito e del sonno, stanchezza, rallentamento o agitazione, senso di inutilità o colpa, difficoltà a concentrarsi, pensieri ricorrenti di morte.",
+      "La depressione è una delle principali cause di disabilità nel mondo, secondo l'OMS. Esistono anche forme più lievi ma durature, come il disturbo depressivo persistente, e specificazioni come il pattern stagionale, quando i sintomi compaiono regolarmente in certi periodi dell'anno, di solito d'inverno."
+     ]
+    },
+    {
+     "h": "Il disturbo bipolare",
+     "p": [
+      "I disturbi bipolari sono un gruppo in cui la caratteristica distintiva è la mania. Un episodio maniacale è un periodo di umore anormalmente euforico o irritabile e di energia eccessiva: si dorme pochissimo senza sentirsi stanchi, si parla in fretta, i pensieri corrono, ci si sente invincibili e si prendono decisioni rischiose, come spese enormi.",
+      "Nel disturbo bipolare di tipo I ci sono episodi maniacali, di solito alternati a episodi depressivi; nel tipo II gli episodi sono di ipomania, una forma più lieve, insieme a depressioni importanti. Tra un episodio e l'altro molte persone stanno bene. Non va confuso con i normali cambiamenti d'umore della giornata."
+     ]
+    },
+    {
+     "h": "Le cause",
+     "p": [
+      "Depressione e disturbo bipolare nascono dall'incontro di fattori diversi. Entrambi hanno una componente genetica, più forte nel disturbo bipolare. Coinvolgono circuiti cerebrali legati all'umore e alla ricompensa, i neurotrasmettitori come serotonina, noradrenalina e dopamina, e il sistema dello stress.",
+      "Eventi di vita stressanti, perdite, isolamento, malattie croniche e traumi infantili aumentano il rischio di depressione. Anche i modi di pensare contano: secondo la teoria cognitiva di Aaron Beck, le persone depresse tendono a vedere in modo negativo sé stesse, il mondo e il futuro, e questi pensieri alimentano l'umore depresso."
+     ]
+    },
+    {
+     "h": "Le cure e un segnale importante",
+     "p": [
+      "La depressione si cura. Per le forme lievi e moderate le psicoterapie, come quella cognitivo-comportamentale e quella interpersonale, sono efficaci; per le forme più gravi si associano spesso farmaci antidepressivi. Anche attività fisica regolare e mantenere contatti sociali aiutano. Il disturbo bipolare si tratta soprattutto con farmaci stabilizzatori dell'umore, come il litio, insieme alla psicoterapia.",
+      "La depressione è il principale fattore di rischio per il suicidio. Parlare di suicidio non aumenta il rischio: chiedere a una persona in difficoltà se ci sta pensando può aprire la strada all'aiuto. Se tu o qualcuno vicino a te avete pensieri di farvi del male, rivolgetevi subito a un medico, a un servizio di salute mentale o al numero di emergenza 112."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Se un amico che amava il calcio non esce più, dorme male e dice che niente ha più senso da settimane, chiedergli come sta davvero può fare la differenza.",
+   "mistakes": [
+    "\"La depressione è solo tristezza o pigrizia\": è un disturbo con molti sintomi fisici e mentali.",
+    "\"Chi è bipolare cambia umore di continuo\": gli episodi durano giorni o settimane.",
+    "\"Parlare di suicidio fa venire l'idea\": chiedere apertamente può aiutare."
+   ],
+   "terms": [
+    {
+     "t": "Depressione maggiore",
+     "d": "Disturbo con umore depresso o perdita di interesse per almeno due settimane."
+    },
+    {
+     "t": "Mania",
+     "d": "Periodo di euforia o irritabilità ed energia eccessive."
+    },
+    {
+     "t": "Ipomania",
+     "d": "Forma più lieve di mania."
+    },
+    {
+     "t": "Stabilizzatore dell'umore",
+     "d": "Farmaco usato nel disturbo bipolare."
+    }
+   ],
+   "quote": {
+    "text": "Bipolar and related disorders are a group of disorders in which mania is the defining feature.",
+    "translation": "I disturbi bipolari e correlati sono un gruppo di disturbi in cui la mania è la caratteristica distintiva."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Psychology 2e",
+     "title": "15.7 Depressive bipolar and related disorders",
+     "url": "https://openstax.org/books/psychology-2e/pages/15-7-depressive-bipolar-and-related-disorders"
+    }
+   ],
+   "videos": [
+    {
+     "id": "ZwMlHkWKDwM",
+     "title": "Depressive and Bipolar Disorders: Crash Course Psychology #30",
+     "channel": "CrashCourse",
+     "length": "10:00"
+    }
+   ],
+   "videoQuery": "depressive bipolar disorders crash course psychology",
+   "addedAt": "2026-11-04T06:14:13Z"
+  },
+  {
+   "id": "schizofrenia",
+   "subject": "psicologia",
+   "chapter": "Disturbi psicologici",
+   "title": "La schizofrenia: sintomi, cause e cure",
+   "hook": "Non è una \"doppia personalità\": la schizofrenia altera il contatto con la realtà con allucinazioni, deliri e pensiero disorganizzato. Cosa si sa e come si cura.",
+   "points": [
+    "Sintomi positivi e negativi",
+    "Allucinazioni e deliri",
+    "Le cause: geni, cervello, ambiente",
+    "Trattamenti e prospettive"
+   ],
+   "sections": [
+    {
+     "h": "Un disturbo frainteso",
+     "p": [
+      "La schizofrenia è un disturbo grave che altera il pensiero, la percezione, le emozioni e il comportamento, e il contatto con la realtà. Colpisce poco meno dell'1% delle persone, comincia di solito tra la tarda adolescenza e i trent'anni, un po' prima negli uomini.",
+      "Non significa avere una \"personalità divisa\": questa è un'idea sbagliata molto diffusa, che confonde la schizofrenia con il disturbo dissociativo dell'identità. E le persone con schizofrenia non sono, nella grande maggioranza, violente."
+     ]
+    },
+    {
+     "h": "I sintomi",
+     "p": [
+      "I sintomi principali sono allucinazioni, deliri, pensiero disorganizzato, comportamento motorio disorganizzato o anomalo e sintomi negativi. Le allucinazioni sono percezioni senza uno stimolo reale: le allucinazioni uditive, sentire voci, si presentano in circa due terzi dei pazienti e sono di gran lunga le più comuni.",
+      "I deliri sono convinzioni false e ferme che resistono a ogni prova contraria: essere perseguitati, spiati, controllati da forze esterne, o avere poteri e missioni speciali. Il pensiero disorganizzato si riconosce soprattutto da ciò che la persona dice: discorsi che saltano da un argomento all'altro senza collegamenti.",
+      "I sintomi negativi sono la riduzione di funzioni normali: un'espressione emotiva appiattita; l'alogia, cioè un parlare ridotto, la persona dice poco; l'anedonia, l'incapacità di provare piacere; la mancanza di motivazione. Spesso sono i sintomi più invalidanti nella vita quotidiana."
+     ]
+    },
+    {
+     "h": "Le cause",
+     "p": [
+      "La schizofrenia ha una forte componente genetica: il rischio cresce molto se un parente stretto ne soffre, e per un gemello identico di una persona malata è intorno al 40-50%. Non dipende da un singolo gene, ma da moltissime piccole variazioni insieme.",
+      "Un fattore studiato da molti anni è il neurotrasmettitore dopamina: un'eccessiva attività della dopamina in alcune vie cerebrali è collegata ai sintomi positivi, e i farmaci antipsicotici agiscono bloccandone i recettori. Studi di immagine mostrano anche differenze strutturali, come ventricoli cerebrali più ampi.",
+      "Contano fattori ambientali: complicazioni in gravidanza e al parto, l'uso frequente di cannabis molto potente in adolescenza, lo stress, la vita in contesti urbani e l'esperienza di migrazione e discriminazione. Secondo il modello diatesi-stress, questi fattori agiscono su una vulnerabilità di base."
+     ]
+    },
+    {
+     "h": "Curare",
+     "p": [
+      "I farmaci antipsicotici riducono i sintomi positivi in molte persone, anche se possono avere effetti collaterali importanti e sono meno efficaci sui sintomi negativi. Vanno affiancati da interventi psicologici e sociali: terapia cognitivo-comportamentale per le psicosi, coinvolgimento della famiglia, sostegno per lo studio, il lavoro e la casa.",
+      "Intervenire presto, al primo episodio psicotico, migliora molto le prospettive. Il decorso è molto variabile: alcune persone hanno un solo episodio, molte riescono a vivere una vita piena con le cure, altre hanno bisogno di sostegno a lungo termine."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Nei film la schizofrenia è spesso mostrata come violenza o doppia personalità: la realtà quotidiana di chi ne soffre è molto diversa.",
+   "mistakes": [
+    "\"Schizofrenia vuol dire doppia personalità\": è un disturbo diverso.",
+    "\"Le persone con schizofrenia sono pericolose\": nella grande maggioranza no.",
+    "\"Non c'è niente da fare\": con cure precoci molte persone vivono bene."
+   ],
+   "terms": [
+    {
+     "t": "Allucinazione",
+     "d": "Percezione senza stimolo reale."
+    },
+    {
+     "t": "Delirio",
+     "d": "Convinzione falsa e incrollabile."
+    },
+    {
+     "t": "Sintomi negativi",
+     "d": "Riduzione di funzioni normali, come emozioni e motivazione."
+    },
+    {
+     "t": "Antipsicotico",
+     "d": "Farmaco che riduce i sintomi psicotici."
+    }
+   ],
+   "quote": {
+    "text": "Auditory hallucinations (hearing voices) occur in roughly two-thirds of patients with schizophrenia and are by far the most common form of hallucination (Andreasen, 1987).",
+    "translation": "Le allucinazioni uditive (sentire voci) si presentano in circa due terzi dei pazienti con schizofrenia e sono di gran lunga la forma più comune di allucinazione (Andreasen, 1987)."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Psychology 2e",
+     "title": "15.8 Schizophrenia",
+     "url": "https://openstax.org/books/psychology-2e/pages/15-8-schizophrenia"
+    }
+   ],
+   "videos": [
+    {
+     "id": "uxktavpRdzU",
+     "title": "Schizophrenia and Dissociative Disorders: Crash Course Psychology #32",
+     "channel": "CrashCourse",
+     "length": "11:44"
+    },
+    {
+     "id": "K2sc_ck5BZU",
+     "title": "What is schizophrenia? - Anees Bahji",
+     "channel": "TED-Ed",
+     "length": "5:33"
+    }
+   ],
+   "videoQuery": "schizophrenia crash course psychology",
+   "addedAt": "2026-11-04T06:14:13Z"
+  },
+  {
+   "id": "disturbi-dissociativi",
+   "subject": "psicologia",
+   "chapter": "Disturbi psicologici",
+   "title": "I disturbi dissociativi: amnesia, depersonalizzazione e identità",
+   "hook": "Sentirsi staccati da sé stessi, dimenticare interi periodi, più identità in una persona: i disturbi dissociativi sono rari, discussi e spesso legati al trauma.",
+   "points": [
+    "Che cos'è la dissociazione",
+    "Amnesia dissociativa",
+    "Depersonalizzazione e derealizzazione",
+    "Il disturbo dissociativo dell'identità e il dibattito"
+   ],
+   "sections": [
+    {
+     "h": "Staccarsi dall'esperienza",
+     "p": [
+      "La dissociazione è un'interruzione nella normale integrazione di coscienza, memoria, identità e percezione. Forme lievi sono comuni: guidare fino a casa senza ricordare il tragitto, perdersi in un libro e non sentire più ciò che accade intorno.",
+      "Nei disturbi dissociativi la dissociazione diventa intensa, frequente e fonte di sofferenza. Sono spesso associati a traumi gravi, soprattutto nell'infanzia, e sono considerati da molti studiosi un modo con cui la mente si \"protegge\" da esperienze insopportabili."
+     ]
+    },
+    {
+     "h": "L'amnesia dissociativa",
+     "p": [
+      "L'amnesia è la dimenticanza, parziale o totale, di un'esperienza o di un evento. Nell'amnesia dissociativa la persona non riesce a ricordare informazioni personali importanti, di solito legate a un evento traumatico o stressante. Questi vuoti di memoria non sono dovuti alla normale dimenticanza, né a lesioni cerebrali o sostanze.",
+      "In una forma rara, detta fuga dissociativa, la persona si allontana da casa, a volte assumendo una nuova identità, senza ricordare chi è. L'esistenza dei ricordi traumatici \"rimossi\" e poi recuperati è però oggetto di un acceso dibattito, perché sappiamo che la memoria può anche costruire falsi ricordi."
+     ]
+    },
+    {
+     "h": "Sentirsi irreali",
+     "p": [
+      "La depersonalizzazione è definita come una sensazione di irrealtà, distacco o estraneità verso sé stessi o parti di sé: la persona si sente come se osservasse sé stessa dall'esterno, come in un film, o come se il proprio corpo non le appartenesse.",
+      "Nella derealizzazione è il mondo esterno a sembrare irreale, nebbioso, finto. Episodi brevi di questo tipo sono abbastanza comuni in momenti di forte stress o stanchezza; si parla di disturbo quando sono persistenti e causano sofferenza. La persona sa che si tratta di una sensazione, e mantiene il contatto con la realtà."
+     ]
+    },
+    {
+     "h": "Il disturbo dissociativo dell'identità",
+     "p": [
+      "Nel disturbo dissociativo dell'identità, un tempo chiamato personalità multipla, la persona presenta due o più identità distinte, ciascuna con un proprio modo di percepire e rapportarsi al mondo, e vuoti di memoria per eventi quotidiani. È quasi sempre associato a traumi infantili gravi e ripetuti.",
+      "È uno dei disturbi più controversi della psicologia. Alcuni studiosi lo considerano una reazione reale a traumi estremi; altri sostengono che possa essere in parte influenzato dalle aspettative, da terapie suggestive e dalla cultura, come suggerisce l'aumento delle diagnosi dopo la diffusione di libri e film sul tema.",
+      "In ogni caso, le persone che ricevono questa diagnosi soffrono davvero, e la terapia si concentra sull'elaborazione dei traumi e sulla costruzione di un senso di sé più integrato e stabile."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Arrivare a casa in auto senza ricordare nulla del tragitto è una forma lieve e normale di dissociazione.",
+   "mistakes": [
+    "\"Dissociarsi è sempre patologico\": forme lievi sono comuni.",
+    "\"Il disturbo dissociativo dell'identità è la schizofrenia\": sono disturbi completamente diversi.",
+    "\"I ricordi recuperati in terapia sono sempre veri\": la memoria può costruire ricordi falsi."
+   ],
+   "terms": [
+    {
+     "t": "Dissociazione",
+     "d": "Interruzione dell'integrazione tra coscienza, memoria e identità."
+    },
+    {
+     "t": "Amnesia dissociativa",
+     "d": "Incapacità di ricordare informazioni personali importanti."
+    },
+    {
+     "t": "Depersonalizzazione",
+     "d": "Sensazione di distacco da sé stessi."
+    },
+    {
+     "t": "Derealizzazione",
+     "d": "Sensazione che il mondo sia irreale."
+    }
+   ],
+   "quote": {
+    "text": "Amnesia refers to the partial or total forgetting of some experience or event.",
+    "translation": "L'amnesia indica la dimenticanza parziale o totale di un'esperienza o di un evento."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Psychology 2e",
+     "title": "15.9 Dissociative disorders",
+     "url": "https://openstax.org/books/psychology-2e/pages/15-9-dissociative-disorders"
+    }
+   ],
+   "videos": [
+    {
+     "id": "uxktavpRdzU",
+     "title": "Schizophrenia and Dissociative Disorders: Crash Course Psychology #32",
+     "channel": "CrashCourse",
+     "length": "11:44"
+    },
+    {
+     "id": "l4hVtBV5o4s",
+     "title": "Me, Myself, and I: Dissociative Identity Disorder",
+     "channel": "SciShow Psych",
+     "length": "5:20"
+    }
+   ],
+   "videoQuery": "dissociative disorders",
+   "addedAt": "2026-11-04T06:14:13Z"
+  },
+  {
+   "id": "disturbi-infanzia",
+   "subject": "psicologia",
+   "chapter": "Disturbi psicologici",
+   "title": "ADHD e autismo: due disturbi del neurosviluppo",
+   "hook": "Bambini che non riescono a stare fermi e attenti, o che vivono il mondo sociale in modo diverso: cosa sono davvero l'ADHD e lo spettro autistico.",
+   "points": [
+    "Che cos'è l'ADHD",
+    "Cause e trattamenti dell'ADHD",
+    "Lo spettro autistico",
+    "I miti sui vaccini e la neurodiversità"
+   ],
+   "sections": [
+    {
+     "h": "L'ADHD",
+     "p": [
+      "Il disturbo da deficit di attenzione e iperattività (ADHD) si manifesta con un livello di disattenzione, iperattività e impulsività molto superiore a quello tipico per l'età, che compare nell'infanzia, si presenta in più contesti, come casa e scuola, e crea difficoltà reali.",
+      "Un bambino con ADHD può essere sempre in movimento, dal risveglio a quando va a letto, faticare a restare seduto, interrompere gli altri, perdere le cose, distrarsi di continuo e non riuscire a finire i compiti. Alcune persone hanno soprattutto disattenzione, altre soprattutto iperattività e impulsività.",
+      "L'ADHD è diagnosticato più spesso nei maschi; nelle femmine, dove prevale spesso la disattenzione, può passare inosservato. In molti casi continua in età adulta, magari con meno iperattività ma con difficoltà di organizzazione e concentrazione."
+     ]
+    },
+    {
+     "h": "Cause e cure",
+     "p": [
+      "L'ADHD ha una forte componente genetica ed è associato a differenze nello sviluppo e nel funzionamento di circuiti cerebrali legati all'attenzione e al controllo, che coinvolgono la dopamina. Non è causato dallo zucchero né da una cattiva educazione, anche se l'ambiente può peggiorare o migliorare le difficoltà.",
+      "Si tratta con interventi comportamentali, il sostegno ai genitori e agli insegnanti, l'organizzazione dell'ambiente e, nei casi in cui serve, con farmaci stimolanti, che paradossalmente aiutano a concentrarsi e a controllare gli impulsi. Il dibattito su quanto spesso venga diagnosticato e trattato con farmaci è ancora vivo."
+     ]
+    },
+    {
+     "h": "Lo spettro autistico",
+     "p": [
+      "Il disturbo dello spettro autistico è caratterizzato da differenze nella comunicazione e nell'interazione sociale, come difficoltà a capire le intenzioni altrui, a usare lo sguardo e i gesti, a costruire relazioni, e da comportamenti, interessi o attività ristretti e ripetitivi, insieme spesso a una sensibilità insolita a suoni, luci o consistenze.",
+      "Lo psichiatra Leo Kanner descrisse per primo il disturbo negli anni Quaranta; ciò che il DSM-5 chiama oggi disturbo dello spettro autistico è un'estensione diretta del suo lavoro. Si parla di spettro perché le manifestazioni sono molto diverse: alcune persone non parlano e hanno bisogno di molto sostegno, altre hanno un linguaggio ricco e vivono in modo autonomo.",
+      "Le diagnosi sono aumentate molto negli ultimi decenni, soprattutto per criteri più ampi e maggiore consapevolezza. Interventi precoci e personalizzati possono aiutare molto lo sviluppo delle abilità comunicative e sociali."
+     ]
+    },
+    {
+     "h": "Miti e neurodiversità",
+     "p": [
+      "L'autismo non è causato dai vaccini. Lo studio del 1998 che aveva suggerito un legame con il vaccino trivalente si rivelò fraudolento e fu ritirato, e il suo autore radiato dall'albo dei medici. Decine di studi su milioni di bambini non hanno trovato alcun legame. Le cause sono in gran parte genetiche e legate allo sviluppo prenatale del cervello.",
+      "Negli ultimi anni il movimento della neurodiversità sostiene che autismo e ADHD siano anche modi diversi di funzionare del cervello, con punti di forza oltre che difficoltà, e che la società dovrebbe adattarsi di più a queste differenze."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Un bambino autistico che si tappa le orecchie in un supermercato rumoroso non fa i capricci: può vivere quei suoni come dolorosi.",
+   "mistakes": [
+    "\"L'ADHD è colpa dei genitori o dello zucchero\": ha una forte base genetica e cerebrale.",
+    "\"I vaccini causano l'autismo\": è stato smentito da decine di studi.",
+    "\"Tutte le persone autistiche sono uguali\": è uno spettro molto vario."
+   ],
+   "terms": [
+    {
+     "t": "ADHD",
+     "d": "Disturbo da deficit di attenzione e iperattività."
+    },
+    {
+     "t": "Disturbo del neurosviluppo",
+     "d": "Disturbo che compare durante lo sviluppo del cervello."
+    },
+    {
+     "t": "Spettro autistico",
+     "d": "Insieme vario di differenze sociali e comportamenti ripetitivi."
+    },
+    {
+     "t": "Neurodiversità",
+     "d": "Idea che le differenze neurologiche siano variazioni naturali."
+    }
+   ],
+   "quote": {
+    "text": "What the DSM-5 refers to as autism spectrum disorder today, is a direct extension of Kanner’s work.",
+    "translation": "Ciò che oggi il DSM-5 chiama disturbo dello spettro autistico è un'estensione diretta del lavoro di Kanner."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Psychology 2e",
+     "title": "15.10 Disorders in childhood",
+     "url": "https://openstax.org/books/psychology-2e/pages/15-10-disorders-in-childhood"
+    }
+   ],
+   "videos": [
+    {
+     "id": "BgqBS9RBN64",
+     "title": "Autism and ADHD: How to Cope With a Dual Diagnosis | Siri Nelson | TEDxUAlberta",
+     "channel": "TEDx Talks",
+     "length": "13:06"
+    }
+   ],
+   "videoQuery": "ADHD autism spectrum",
+   "addedAt": "2026-11-04T06:14:13Z"
+  },
+  {
+   "id": "disturbi-personalita",
+   "subject": "psicologia",
+   "chapter": "Disturbi psicologici",
+   "title": "I disturbi di personalità",
+   "hook": "Quando i modi di pensare e di relazionarsi diventano rigidi e fanno soffrire. I dieci disturbi di personalità, il disturbo borderline e quello antisociale.",
+   "points": [
+    "Che cosa sono i disturbi di personalità",
+    "I tre gruppi del DSM-5",
+    "Il disturbo borderline",
+    "Il disturbo antisociale e la psicopatia"
+   ],
+   "sections": [
+    {
+     "h": "Schemi rigidi",
+     "p": [
+      "Tutti abbiamo una personalità, con i suoi tratti. Le persone con disturbi di personalità mostrano uno stile di personalità che si discosta molto da ciò che la loro cultura si aspetta, è pervasivo e rigido, inizia nell'adolescenza o nella prima età adulta e causa sofferenza o compromissione.",
+      "La differenza con le normali caratteristiche personali è la rigidità: la persona tende a reagire nello stesso modo in situazioni molto diverse, anche quando questo le crea problemi ripetuti nelle relazioni, nel lavoro, nella vita."
+     ]
+    },
+    {
+     "h": "Tre gruppi",
+     "p": [
+      "Il DSM-5 riconosce 10 disturbi di personalità, organizzati in tre gruppi. Nel gruppo A le persone mostrano uno stile strano o eccentrico: il disturbo paranoide (sospettosità costante verso gli altri), quello schizoide (distacco dalle relazioni) e quello schizotipico (pensieri e comportamenti bizzarri).",
+      "Il gruppo B riunisce stili drammatici, emotivi o imprevedibili: i disturbi antisociale, borderline, istrionico (ricerca eccessiva di attenzione) e narcisistico (grandiosità, bisogno di ammirazione, poca empatia). Il gruppo C comprende stili ansiosi o timorosi: i disturbi evitante (forte paura del giudizio), dipendente (bisogno eccessivo di essere accuditi) e ossessivo-compulsivo di personalità (perfezionismo e rigidità, diverso dal DOC).",
+      "Molti studiosi preferiscono oggi descrivere questi problemi lungo dimensioni continue, simili ai tratti di personalità, piuttosto che in categorie nette."
+     ]
+    },
+    {
+     "h": "Il disturbo borderline",
+     "p": [
+      "Il disturbo borderline di personalità è caratterizzato da instabilità nelle relazioni, nell'immagine di sé e nelle emozioni, e da impulsività. Le persone possono passare rapidamente dall'idealizzare qualcuno al disprezzarlo, temere in modo intenso l'abbandono, avere emozioni molto forti e mutevoli, una sensazione cronica di vuoto e comportamenti autolesivi.",
+      "Spesso c'è una storia di esperienze infantili difficili, insieme a una vulnerabilità emotiva di base. Per molto tempo è stato considerato difficile da trattare, ma la terapia dialettico-comportamentale, sviluppata da Marsha Linehan, ha mostrato di ridurre comportamenti autolesivi e ricoveri, insegnando a regolare le emozioni e a gestire le relazioni."
+     ]
+    },
+    {
+     "h": "Il disturbo antisociale",
+     "p": [
+      "Il disturbo antisociale di personalità è caratterizzato da un disprezzo persistente per i diritti degli altri: inganno, manipolazione, impulsività, aggressività, irresponsabilità e mancanza di rimorso. È più frequente negli uomini e nelle popolazioni carcerarie.",
+      "La psicopatia è un concetto vicino ma non identico: sottolinea tratti come freddezza emotiva, fascino superficiale e mancanza di empatia e di paura. Studi suggeriscono che alcune persone con questi tratti mostrino risposte ridotte agli stimoli di paura e al dolore altrui.",
+      "Le cause combinano fattori genetici e ambientali, come maltrattamenti e trascuratezza nell'infanzia. Non tutte le persone con tratti antisociali commettono reati, e non tutti i criminali hanno questo disturbo."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Una persona con tratti evitanti può desiderare molto avere amici, ma rinunciare agli inviti per paura di essere giudicata.",
+   "mistakes": [
+    "\"Un disturbo di personalità è solo un brutto carattere\": è uno schema rigido che causa sofferenza.",
+    "\"Il disturbo borderline non si può curare\": esistono terapie efficaci.",
+    "\"Psicopatico significa assassino\": la maggior parte delle persone con questi tratti non commette violenze."
+   ],
+   "terms": [
+    {
+     "t": "Disturbo di personalità",
+     "d": "Schema di personalità rigido e pervasivo che causa sofferenza."
+    },
+    {
+     "t": "Disturbo borderline",
+     "d": "Instabilità di emozioni, relazioni e immagine di sé."
+    },
+    {
+     "t": "Disturbo antisociale",
+     "d": "Disprezzo persistente per i diritti degli altri."
+    },
+    {
+     "t": "Terapia dialettico-comportamentale",
+     "d": "Terapia per regolare le emozioni, sviluppata per il borderline."
+    }
+   ],
+   "quote": {
+    "text": "People with personality disorders exhibit a personality style that differs markedly from the expectations of their culture, is pervasive and inflexible, begins in adolescence or early adulthood, and causes distress or impairment (APA, 2013).",
+    "translation": "Le persone con disturbi di personalità mostrano uno stile di personalità che si discosta nettamente dalle aspettative della loro cultura, è pervasivo e rigido, inizia nell'adolescenza o nella prima età adulta e causa sofferenza o compromissione (APA, 2013)."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Psychology 2e",
+     "title": "15.11 Personality disorders",
+     "url": "https://openstax.org/books/psychology-2e/pages/15-11-personality-disorders"
+    }
+   ],
+   "videos": [
+    {
+     "id": "4E1JiDFxFGk",
+     "title": "Personality Disorders: Crash Course Psychology #34",
+     "channel": "CrashCourse",
+     "length": "10:58"
+    }
+   ],
+   "videoQuery": "personality disorders crash course psychology",
+   "addedAt": "2026-11-04T06:14:13Z"
+  },
+  {
+   "id": "storia-delle-cure",
+   "subject": "psicologia",
+   "chapter": "Terapie",
+   "title": "Storia delle cure per la salute mentale: dai manicomi ai servizi territoriali",
+   "hook": "Dalle trapanazioni del cranio ai manicomi, dalla lobotomia alla legge Basaglia: come è cambiato il modo di curare le persone con disturbi mentali.",
+   "points": [
+    "Dall'antichità ai primi manicomi",
+    "Le riforme dell'Ottocento",
+    "La deistituzionalizzazione e la legge Basaglia",
+    "La cura oggi e il trattamento obbligatorio"
+   ],
+   "sections": [
+    {
+     "h": "Spiriti e catene",
+     "p": [
+      "Per gran parte della storia i disturbi mentali sono stati attribuiti a spiriti maligni, punizioni divine o stregoneria. Si sono trovati crani preistorici con fori praticati intenzionalmente, forse per liberare gli spiriti. Nel Medioevo e nella prima età moderna molte persone con disturbi mentali furono perseguitate o rinchiuse.",
+      "Dal Cinquecento in poi si diffusero gli asili per \"folli\", spesso luoghi terribili, in cui le persone venivano incatenate e trattate come animali. Il manicomio di Bethlem, a Londra, divenne talmente famoso che il suo soprannome, Bedlam, è diventato in inglese sinonimo di caos."
+     ]
+    },
+    {
+     "h": "Le riforme",
+     "p": [
+      "Alla fine del Settecento il medico francese Philippe Pinel liberò dalle catene i pazienti di un ospedale parigino e propose un \"trattamento morale\", basato su un ambiente umano e rispettoso. Nell'Ottocento l'attivista americana Dorothea Dix si batté per creare ospedali pubblici dove le persone venissero curate invece che imprigionate.",
+      "Ma con il tempo molti di questi ospedali si sovraffollarono e tornarono a essere luoghi di custodia più che di cura. Nel Novecento si diffusero trattamenti drastici, come la lobotomia, un intervento sul cervello eseguito su decine di migliaia di persone negli anni Quaranta e Cinquanta, oggi considerata una delle pagine più buie della medicina."
+     ]
+    },
+    {
+     "h": "Dalla chiusura al territorio",
+     "p": [
+      "Negli anni Cinquanta arrivarono i primi farmaci antipsicotici, che ridussero molto i sintomi di molte persone. Insieme alle critiche alle condizioni degli ospedali psichiatrici, aprirono la strada alla deistituzionalizzazione: chiudere i grandi istituti e curare le persone nella comunità.",
+      "In Italia questo processo ha un nome: la legge 180 del 1978, detta legge Basaglia, dallo psichiatra Franco Basaglia, che aveva trasformato il manicomio di Trieste. Stabilì la chiusura dei manicomi e la creazione di servizi territoriali, centri di salute mentale e reparti psichiatrici negli ospedali generali. L'Italia fu il primo paese a chiudere per legge i manicomi.",
+      "In molti paesi però la deistituzionalizzazione non è stata accompagnata da servizi sufficienti, e una parte delle persone con disturbi gravi è finita senza casa o in carcere."
+     ]
+    },
+    {
+     "h": "La cura oggi",
+     "p": [
+      "Oggi la maggior parte delle cure avviene in modo ambulatoriale, con psicoterapia, farmaci e sostegno sociale, e i ricoveri sono di solito brevi. Molte persone si rivolgono volontariamente ai servizi.",
+      "In alcune situazioni gravi esiste il trattamento non volontario, cioè una terapia che non è scelta dalla persona: in Italia si chiama trattamento sanitario obbligatorio (TSO), è previsto solo in casi precisi, dura un tempo limitato e richiede l'intervento di più medici e del sindaco, a tutela dei diritti della persona. La sfida resta bilanciare la cura con il rispetto della libertà e della dignità."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "L'ex manicomio di Trieste, oggi parco di San Giovanni, ospita servizi, giardini e attività aperte alla città.",
+   "mistakes": [
+    "\"I manicomi erano luoghi di cura\": spesso erano luoghi di custodia e abusi.",
+    "\"La lobotomia era una cura efficace\": causava gravi danni ed è stata abbandonata.",
+    "\"In Italia esistono ancora i manicomi\": sono stati chiusi con la legge 180."
+   ],
+   "terms": [
+    {
+     "t": "Trattamento morale",
+     "d": "Approccio ottocentesco basato su un ambiente umano."
+    },
+    {
+     "t": "Deistituzionalizzazione",
+     "d": "Chiusura dei grandi istituti a favore delle cure nella comunità."
+    },
+    {
+     "t": "Legge Basaglia",
+     "d": "Legge 180 del 1978 che chiuse i manicomi in Italia."
+    },
+    {
+     "t": "TSO",
+     "d": "Trattamento sanitario obbligatorio, in casi precisi e limitati."
+    }
+   ],
+   "quote": {
+    "text": "Involuntary treatment refers to therapy that is not the individual’s choice.",
+    "translation": "Il trattamento non volontario indica una terapia che non è scelta dalla persona."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Psychology 2e",
+     "title": "16.1 Mental health treatment past and present",
+     "url": "https://openstax.org/books/psychology-2e/pages/16-1-mental-health-treatment-past-and-present"
+    }
+   ],
+   "videos": [
+    {
+     "id": "w3d2DlLX7xw",
+     "title": "One of the most controversial medical procedures in history - Jenell Johnson",
+     "channel": "TED-Ed",
+     "length": "6:31"
+    },
+    {
+     "id": "UiY6wr--0dE",
+     "title": "We Were Super Wrong About Mental Illness: The DSM's Origin Story",
+     "channel": "SciShow Psych",
+     "length": "6:26"
+    }
+   ],
+   "videoQuery": "history of mental health treatment",
+   "addedAt": "2026-11-04T06:14:13Z"
+  },
+  {
+   "id": "psicoterapie",
+   "subject": "psicologia",
+   "chapter": "Terapie",
+   "title": "Psicoterapie e farmaci: quali cure funzionano",
+   "hook": "Psicoanalisi, terapia cognitivo-comportamentale, terapie umanistiche, di gruppo e di coppia, psicofarmaci. Cosa sono, come funzionano e il fattore più importante di tutti.",
+   "points": [
+    "Le principali forme di psicoterapia",
+    "Le terapie biologiche",
+    "Terapia individuale, di gruppo, di coppia e familiare",
+    "Come scegliere una terapia efficace"
+   ],
+   "sections": [
+    {
+     "h": "Le psicoterapie",
+     "p": [
+      "La psicoterapia è un trattamento psicologico basato sulla relazione e sul dialogo con un professionista. Le terapie psicodinamiche, derivate dalla psicoanalisi di Freud, cercano di portare alla luce conflitti ed esperienze del passato che influenzano il presente.",
+      "Le terapie comportamentali usano i principi dell'apprendimento per cambiare comportamenti problematici. Un intervento di condizionamento operante molto noto è la token economy, in cui si ricevono gettoni per i comportamenti desiderati, scambiabili con premi. Le terapie cognitive, sviluppate da Aaron Beck e Albert Ellis, aiutano a riconoscere e cambiare i pensieri distorti. Insieme formano la terapia cognitivo-comportamentale, tra le più studiate ed efficaci per ansia e depressione.",
+      "Le terapie umanistiche, come la terapia centrata sul cliente di Carl Rogers, puntano su empatia, accettazione e autenticità per favorire la crescita personale."
+     ]
+    },
+    {
+     "h": "Le terapie biologiche",
+     "p": [
+      "I farmaci psicotropi agiscono sulla chimica del cervello. Gli antidepressivi, come quelli che agiscono sulla serotonina, sono usati per depressione e ansia; gli ansiolitici riducono l'ansia a breve termine ma possono dare dipendenza; gli antipsicotici trattano i sintomi psicotici; gli stabilizzatori dell'umore, come il litio, il disturbo bipolare; gli stimolanti l'ADHD.",
+      "I farmaci vanno prescritti e seguiti da un medico, e spesso funzionano meglio insieme alla psicoterapia. Per alcune depressioni gravi che non rispondono ad altre cure si usa ancora la terapia elettroconvulsivante, molto diversa dalle immagini dei vecchi film: si fa in anestesia, con stimoli controllati, ed è efficace, anche se può dare problemi di memoria temporanei."
+     ]
+    },
+    {
+     "h": "Diversi formati",
+     "p": [
+      "La terapia può essere individuale, ma anche di gruppo, dove più persone con problemi simili si incontrano con un terapeuta e imparano anche l'una dall'altra; di coppia, per migliorare la comunicazione e risolvere i conflitti; o familiare, che considera la famiglia come un sistema in cui il problema di una persona coinvolge tutti.",
+      "Esistono anche gruppi di auto-aiuto senza professionisti, come quelli per le dipendenze, e interventi online o tramite app, utili soprattutto per problemi lievi o come complemento."
+     ]
+    },
+    {
+     "h": "Che cosa funziona",
+     "p": [
+      "Quando si sceglie una terapia, contano soprattutto due fattori. Il primo è l'uso di un trattamento basato sulle prove, cioè dimostrato efficace dalla ricerca per quel tipo di problema. Il secondo è l'esperienza clinica del professionista.",
+      "Indipendentemente dal tipo di psicoterapia scelta, un fattore cruciale per il successo è la relazione tra la persona e il terapeuta, chiamata alleanza terapeutica: sentirsi capiti, rispettati e d'accordo sugli obiettivi. Per questo è normale, e utile, cambiare terapeuta se dopo qualche incontro non ci si trova bene.",
+      "In Italia la psicoterapia può essere esercitata solo da psicologi o medici con una specializzazione riconosciuta; è utile verificare l'iscrizione all'albo del professionista."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Se dopo tre sedute con uno psicologo non ti senti capito, è legittimo dirlo o cercare un'altra persona: la relazione conta moltissimo.",
+   "mistakes": [
+    "\"La terapia è solo parlare dei propri problemi\": le terapie efficaci usano tecniche precise.",
+    "\"Gli psicofarmaci cambiano la personalità\": se ben usati riducono i sintomi, non cambiano chi sei.",
+    "\"Tutte le terapie funzionano uguale per tutto\": alcune sono più efficaci per problemi specifici."
+   ],
+   "terms": [
+    {
+     "t": "Psicoterapia",
+     "d": "Trattamento psicologico basato sulla relazione con un professionista."
+    },
+    {
+     "t": "Terapia cognitivo-comportamentale",
+     "d": "Terapia che lavora su pensieri e comportamenti."
+    },
+    {
+     "t": "Token economy",
+     "d": "Sistema di gettoni come rinforzo."
+    },
+    {
+     "t": "Alleanza terapeutica",
+     "d": "Relazione di fiducia tra paziente e terapeuta."
+    }
+   ],
+   "quote": {
+    "text": "Regardless of which type of psychotherapy an individual chooses, one critical factor that determines the success of treatment is the person’s relationship with the psychologist or therapist.",
+    "translation": "Qualunque tipo di psicoterapia si scelga, un fattore cruciale per il successo del trattamento è la relazione della persona con lo psicologo o il terapeuta."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Psychology 2e",
+     "title": "16.2 Types of treatment",
+     "url": "https://openstax.org/books/psychology-2e/pages/16-2-types-of-treatment"
+    },
+    {
+     "name": "OpenStax · Psychology 2e",
+     "title": "16.3 Treatment modalities",
+     "url": "https://openstax.org/books/psychology-2e/pages/16-3-treatment-modalities"
+    }
+   ],
+   "videos": [
+    {
+     "id": "6nEL44QkL9w",
+     "title": "Getting Help - Psychotherapy: Crash Course Psychology #35",
+     "channel": "CrashCourse",
+     "length": "11:22"
+    },
+    {
+     "id": "w2efaHgJ93A",
+     "title": "Biomedical Treatments: Crash Course Psychology #36",
+     "channel": "CrashCourse",
+     "length": "11:09"
+    }
+   ],
+   "videoQuery": "getting help psychotherapy crash course psychology",
+   "addedAt": "2026-11-04T06:14:13Z"
+  },
+  {
+   "id": "dipendenze",
+   "subject": "psicologia",
+   "chapter": "Terapie",
+   "title": "Curare le dipendenze",
+   "hook": "La dipendenza è una condizione cronica, ma si può curare. Disintossicazione, terapie, farmaci, gruppi e perché spesso si accompagna ad altri disturbi.",
+   "points": [
+    "La dipendenza come condizione cronica",
+    "Le fasi del trattamento",
+    "Doppia diagnosi e comorbilità",
+    "Ricadute e prevenzione"
+   ],
+   "sections": [
+    {
+     "h": "Una condizione cronica",
+     "p": [
+      "L'obiettivo del trattamento delle dipendenze è aiutare la persona a interrompere la ricerca compulsiva della sostanza. La dipendenza modifica a lungo i circuiti cerebrali della ricompensa, della motivazione e del controllo, e per questo una persona con una dipendenza ha spesso bisogno di cure a lungo termine, come chi convive con una malattia cronica fisica, per esempio l'ipertensione o il diabete.",
+      "Questa visione aiuta anche a capire le ricadute: non sono un fallimento morale, ma un rischio prevedibile di una condizione cronica, da cui si può ripartire."
+     ]
+    },
+    {
+     "h": "Il percorso di cura",
+     "p": [
+      "Spesso il primo passo è la disintossicazione, cioè la sospensione della sostanza sotto controllo medico, perché per alcune sostanze, come alcol e alcuni farmaci, l'astinenza può essere pericolosa.",
+      "Ma disintossicarsi non basta: serve una terapia che aiuti a cambiare le abitudini, gestire il desiderio intenso della sostanza (craving), riconoscere le situazioni a rischio e ricostruire una vita senza sostanze. Le terapie cognitivo-comportamentali, i colloqui motivazionali e il coinvolgimento della famiglia sono tra gli approcci più efficaci.",
+      "Per alcune dipendenze esistono farmaci utili: per gli oppioidi, il metadone e la buprenorfina riducono il craving e il rischio di overdose; per l'alcol e il fumo esistono farmaci che riducono il desiderio o rendono meno gratificante la sostanza. I gruppi di auto-aiuto, come gli Alcolisti Anonimi, offrono sostegno tra pari."
+     ]
+    },
+    {
+     "h": "Doppia diagnosi",
+     "p": [
+      "Dire che una persona ha disturbi in comorbilità significa che ha due o più diagnosi. Molte persone con una dipendenza hanno anche un altro disturbo psicologico, come depressione, ansia, PTSD o ADHD: si parla di doppia diagnosi.",
+      "A volte la sostanza è usata per \"automedicarsi\" contro ansia o tristezza, a volte è la sostanza a peggiorare o scatenare i sintomi. Per questo le cure più efficaci trattano insieme entrambi i problemi, invece di occuparsene separatamente."
+     ]
+    },
+    {
+     "h": "Conviene curare",
+     "p": [
+      "Il trattamento delle dipendenze è considerato molto più conveniente, anche dal punto di vista economico, del carcere o del non trattare affatto le persone con dipendenze: riduce i reati, le malattie infettive, i ricoveri e le morti.",
+      "In Italia i servizi pubblici per le dipendenze (SerD) offrono gratuitamente cure mediche, psicologiche e sociali. Chiedere aiuto presto, senza aspettare di \"toccare il fondo\", migliora le possibilità di riuscita."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Chi smette di fumare e ricomincia dopo un mese non ha \"fallito\": molte persone riescono a smettere definitivamente solo dopo diversi tentativi.",
+   "mistakes": [
+    "\"Basta disintossicarsi per guarire\": serve un percorso più lungo.",
+    "\"Una ricaduta significa che il trattamento è fallito\": è un rischio comune in una condizione cronica.",
+    "\"Bisogna toccare il fondo prima di cambiare\": chiedere aiuto presto funziona meglio."
+   ],
+   "terms": [
+    {
+     "t": "Disintossicazione",
+     "d": "Sospensione controllata della sostanza."
+    },
+    {
+     "t": "Craving",
+     "d": "Desiderio intenso della sostanza."
+    },
+    {
+     "t": "Doppia diagnosi",
+     "d": "Dipendenza insieme a un altro disturbo psicologico."
+    },
+    {
+     "t": "SerD",
+     "d": "Servizi pubblici italiani per le dipendenze."
+    }
+   ],
+   "quote": {
+    "text": "This means a person with addiction will need long-term treatment, similar to a person battling a chronic physical disease such as hypertension or diabetes.",
+    "translation": "Ciò significa che una persona con una dipendenza avrà bisogno di un trattamento a lungo termine, simile a quello di chi lotta contro una malattia fisica cronica come l'ipertensione o il diabete."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Psychology 2e",
+     "title": "16.4 Substance related and addictive disorders a special case",
+     "url": "https://openstax.org/books/psychology-2e/pages/16-4-substance-related-and-addictive-disorders-a-special-case"
+    }
+   ],
+   "videos": [
+    {
+     "id": "hBC7i-vHWsU",
+     "title": "What causes addiction, and why is it so hard to treat? - Judy Grisel",
+     "channel": "TED-Ed",
+     "length": "5:43"
+    },
+    {
+     "id": "RZ5LH634W8s",
+     "title": "How an Addicted Brain Works",
+     "channel": "Yale Medicine",
+     "length": "3:53"
+    }
+   ],
+   "videoQuery": "addiction brain",
+   "addedAt": "2026-11-04T06:14:13Z"
+  },
+  {
+   "id": "cultura-e-terapia",
+   "subject": "psicologia",
+   "chapter": "Terapie",
+   "title": "Cultura, stigma e accesso alle cure psicologiche",
+   "hook": "Perché molte persone che soffrono non chiedono aiuto? Lo stigma, le differenze culturali e cosa significa per un terapeuta essere culturalmente competente.",
+   "points": [
+    "Il modello socioculturale",
+    "Lo stigma e le barriere all'aiuto",
+    "La competenza culturale dei terapeuti",
+    "Cosa sta cambiando"
+   ],
+   "sections": [
+    {
+     "h": "La cultura conta",
+     "p": [
+      "Il modello socioculturale considera i problemi psicologici e le cure nel contesto della cultura, della famiglia e della società. Cultura, religione, lingua, condizione economica ed esperienze di discriminazione influenzano come una persona vive il disagio, come lo esprime e se e come cerca aiuto.",
+      "In alcune culture il disagio psicologico si esprime soprattutto attraverso sintomi fisici, come mal di testa o stanchezza; in altre si cerca aiuto prima in famiglia, nella comunità religiosa o da guaritori tradizionali che da uno psicologo."
+     ]
+    },
+    {
+     "h": "Lo stigma",
+     "p": [
+      "La stigmatizzazione dei disturbi psicologici è una delle ragioni principali per cui le persone non ricevono l'aiuto di cui hanno bisogno quando sono in difficoltà. Molti temono di essere giudicati deboli, pazzi o pericolosi, di perdere il lavoro o di deludere la famiglia.",
+      "La sociologa Bernice Pescosolido e i suoi colleghi avvertono che questo stigma intorno alla malattia mentale, basato su idee sbagliate più che sui fatti, può essere devastante per il benessere emotivo e sociale. Ci sono anche barriere pratiche: costi, liste d'attesa, scarsità di servizi in alcune zone, mancanza di professionisti che parlino la propria lingua.",
+      "Il risultato è che, in molti paesi, una gran parte delle persone con disturbi psicologici non riceve alcun trattamento, o lo riceve con anni di ritardo."
+     ]
+    },
+    {
+     "h": "La competenza culturale",
+     "p": [
+      "Con il crescere del numero di persone di origini diverse, terapeuti e psicologi devono sviluppare conoscenze e abilità per diventare culturalmente competenti. Significa essere consapevoli dei propri pregiudizi, conoscere i valori e le esperienze delle persone che si aiutano, e adattare il proprio approccio senza stereotipi.",
+      "Per esempio, con un ragazzo di una famiglia molto tradizionale può essere importante capire il ruolo della famiglia nelle decisioni, invece di spingerlo subito verso l'indipendenza come farebbe una terapia pensata per culture individualiste. Anche la possibilità di parlare nella propria lingua materna può fare una grande differenza."
+     ]
+    },
+    {
+     "h": "Qualcosa sta cambiando",
+     "p": [
+      "Per fortuna si parla sempre di più di destigmatizzazione della malattia mentale, e aumentano l'informazione e la consapevolezza pubblica. Personaggi famosi che raccontano le proprie difficoltà, campagne nelle scuole e sui luoghi di lavoro e il linguaggio più rispettoso nei media aiutano a normalizzare la richiesta di aiuto.",
+      "Anche tu puoi fare la differenza: parlare di salute mentale con la stessa naturalezza della salute fisica, ascoltare senza giudicare chi racconta un momento difficile e conoscere i servizi a cui rivolgersi."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Dire a un amico \"sono andato dallo psicologo, mi ha aiutato\" con la stessa naturalezza con cui diresti \"sono andato dal dentista\" contribuisce a ridurre lo stigma.",
+   "mistakes": [
+    "\"Chiedere aiuto psicologico è da deboli\": è un modo intelligente di prendersi cura di sé.",
+    "\"La terapia funziona allo stesso modo per tutte le culture\": va adattata al contesto.",
+    "\"Lo stigma riguarda solo il passato\": è ancora una delle principali barriere."
+   ],
+   "terms": [
+    {
+     "t": "Modello socioculturale",
+     "d": "Visione dei problemi psicologici nel loro contesto sociale e culturale."
+    },
+    {
+     "t": "Stigma",
+     "d": "Pregiudizio e discriminazione verso chi ha disturbi psicologici."
+    },
+    {
+     "t": "Competenza culturale",
+     "d": "Capacità di lavorare in modo rispettoso con persone di culture diverse."
+    },
+    {
+     "t": "Destigmatizzazione",
+     "d": "Riduzione dello stigma."
+    }
+   ],
+   "quote": {
+    "text": "Stigmatization of psychological disorders is one of the main reasons why people do not get the help they need when they are having difficulties.",
+    "translation": "La stigmatizzazione dei disturbi psicologici è una delle ragioni principali per cui le persone non ricevono l'aiuto di cui hanno bisogno quando sono in difficoltà."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Psychology 2e",
+     "title": "16.5 The sociocultural model and therapy utilization",
+     "url": "https://openstax.org/books/psychology-2e/pages/16-5-the-sociocultural-model-and-therapy-utilization"
+    }
+   ],
+   "videos": [
+    {
+     "id": "QYVpTYKevxQ",
+     "title": "Nobody's Normal: Challenging the Stigma of Mental Illness | Roy Grinker | TEDxFoggyBottom",
+     "channel": "TEDx Talks",
+     "length": "9:17"
+    },
+    {
+     "id": "U9I8LkDGtQ8",
+     "title": "How to Approach Mental Health in non-Western Settings | Vy Pham | TEDxYouth@Sydney",
+     "channel": "TEDx Talks",
+     "length": "7:43"
+    }
+   ],
+   "videoQuery": "culture mental health stigma",
+   "addedAt": "2026-11-04T06:14:13Z"
   },
   {
    "id": "keplero",
