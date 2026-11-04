@@ -1,6 +1,8 @@
 # Lumen · Impara quello che ti incuriosisce
 
-Lumen è la tua app personale per imparare. Scegli una **materia** (per ora Fisica, Psicologia e Astronomia), sfogli gli **argomenti** come in un feed e tocchi quello che ti incuriosisce per approfondirlo.
+Lumen è la tua app personale per imparare. Scegli una **materia** (Fisica, Psicologia e Astronomia), sfogli gli **argomenti** come in un feed e tocchi quello che ti incuriosisce per approfondirlo.
+
+Ogni materia è una **dispensa completa**: 252 argomenti in tutto (97 di Fisica, 63 di Psicologia, 92 di Astronomia), che coprono tutti i capitoli di tre manuali universitari.
 
 Indirizzo dell'app: **https://l0renx0.github.io/Lumen/**
 
@@ -53,6 +55,7 @@ Claude scrive gli argomenti partendo dai manuali, controlla che citazioni, link 
 | `data/argomenti.json` | Tutte le materie e tutti gli argomenti |
 | `data/meta.json` | Data dell'ultimo aggiornamento (serve per il banner) |
 | `strumenti/controlla_argomenti.py` | Controlli prima di pubblicare |
-| `strumenti/indice_dispensa.json` | L'indice completo dei manuali (487 sezioni) e quali sono già diventate argomenti |
+| `strumenti/indice_dispensa.json` | L'indice completo dei manuali (487 sezioni) e l'argomento che copre ciascuna |
+| `strumenti/dispensa/` | Gli strumenti usati da Claude per scrivere e controllare gli argomenti |
 | `sw.js`, `manifest.webmanifest` | Rendono Lumen installabile e utilizzabile offline |
 | `.github/workflows/pubblica.yml` | Pubblica il sito su GitHub Pages a ogni modifica |

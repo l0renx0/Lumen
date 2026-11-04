@@ -3671,7 +3671,9 @@
       {
        "title": "25.2 Spiral structure",
        "url": "https://openstax.org/books/astronomy-2e/pages/25-2-spiral-structure",
-       "argomenti": []
+       "argomenti": [
+        "bracci-a-spirale"
+       ]
       },
       {
        "title": "25.3 The mass of the galaxy",
@@ -3690,12 +3692,16 @@
       {
        "title": "25.5 Stellar populations in the galaxy",
        "url": "https://openstax.org/books/astronomy-2e/pages/25-5-stellar-populations-in-the-galaxy",
-       "argomenti": []
+       "argomenti": [
+        "storia-della-galassia"
+       ]
       },
       {
        "title": "25.6 The formation of the galaxy",
        "url": "https://openstax.org/books/astronomy-2e/pages/25-6-the-formation-of-the-galaxy",
-       "argomenti": []
+       "argomenti": [
+        "storia-della-galassia"
+       ]
       }
      ]
     },
@@ -3706,22 +3712,30 @@
       {
        "title": "26.1 The discovery of galaxies",
        "url": "https://openstax.org/books/astronomy-2e/pages/26-1-the-discovery-of-galaxies",
-       "argomenti": []
+       "argomenti": [
+        "galassie"
+       ]
       },
       {
        "title": "26.2 Types of galaxies",
        "url": "https://openstax.org/books/astronomy-2e/pages/26-2-types-of-galaxies",
-       "argomenti": []
+       "argomenti": [
+        "galassie"
+       ]
       },
       {
        "title": "26.3 Properties of galaxies",
        "url": "https://openstax.org/books/astronomy-2e/pages/26-3-properties-of-galaxies",
-       "argomenti": []
+       "argomenti": [
+        "galassie"
+       ]
       },
       {
        "title": "26.4 The extragalactic distance scale",
        "url": "https://openstax.org/books/astronomy-2e/pages/26-4-the-extragalactic-distance-scale",
-       "argomenti": []
+       "argomenti": [
+        "scala-delle-distanze"
+       ]
       },
       {
        "title": "26.5 The expanding universe",
@@ -3739,17 +3753,23 @@
       {
        "title": "27.1 Quasars",
        "url": "https://openstax.org/books/astronomy-2e/pages/27-1-quasars",
-       "argomenti": []
+       "argomenti": [
+        "quasar"
+       ]
       },
       {
        "title": "27.2 Supermassive black holes what quasars really are",
        "url": "https://openstax.org/books/astronomy-2e/pages/27-2-supermassive-black-holes-what-quasars-really-are",
-       "argomenti": []
+       "argomenti": [
+        "quasar"
+       ]
       },
       {
        "title": "27.3 Quasars as probes of evolution in the universe",
        "url": "https://openstax.org/books/astronomy-2e/pages/27-3-quasars-as-probes-of-evolution-in-the-universe",
-       "argomenti": []
+       "argomenti": [
+        "quasar"
+       ]
       }
      ]
     },
@@ -3760,17 +3780,23 @@
       {
        "title": "28.1 Observations of distant galaxies",
        "url": "https://openstax.org/books/astronomy-2e/pages/28-1-observations-of-distant-galaxies",
-       "argomenti": []
+       "argomenti": [
+        "galassie-lontane"
+       ]
       },
       {
        "title": "28.2 Galaxy mergers and active galactic nuclei",
        "url": "https://openstax.org/books/astronomy-2e/pages/28-2-galaxy-mergers-and-active-galactic-nuclei",
-       "argomenti": []
+       "argomenti": [
+        "galassie-lontane"
+       ]
       },
       {
        "title": "28.3 The distribution of galaxies in space",
        "url": "https://openstax.org/books/astronomy-2e/pages/28-3-the-distribution-of-galaxies-in-space",
-       "argomenti": []
+       "argomenti": [
+        "grande-scala"
+       ]
       },
       {
        "title": "28.4 The challenge of dark matter",
@@ -3782,7 +3808,9 @@
       {
        "title": "28.5 The formation and evolution of galaxies and structure in the universe",
        "url": "https://openstax.org/books/astronomy-2e/pages/28-5-the-formation-and-evolution-of-galaxies-and-structure-in-the-universe",
-       "argomenti": []
+       "argomenti": [
+        "grande-scala"
+       ]
       }
      ]
     },
@@ -3793,12 +3821,16 @@
       {
        "title": "29.1 The age of the universe",
        "url": "https://openstax.org/books/astronomy-2e/pages/29-1-the-age-of-the-universe",
-       "argomenti": []
+       "argomenti": [
+        "eta-universo"
+       ]
       },
       {
        "title": "29.2 A model of the universe",
        "url": "https://openstax.org/books/astronomy-2e/pages/29-2-a-model-of-the-universe",
-       "argomenti": []
+       "argomenti": [
+        "eta-universo"
+       ]
       },
       {
        "title": "29.3 The beginning of the universe",
@@ -3810,22 +3842,30 @@
       {
        "title": "29.4 The cosmic microwave background",
        "url": "https://openstax.org/books/astronomy-2e/pages/29-4-the-cosmic-microwave-background",
-       "argomenti": []
+       "argomenti": [
+        "radiazione-di-fondo"
+       ]
       },
       {
        "title": "29.5 What is the universe really made of",
        "url": "https://openstax.org/books/astronomy-2e/pages/29-5-what-is-the-universe-really-made-of",
-       "argomenti": []
+       "argomenti": [
+        "composizione-universo"
+       ]
       },
       {
        "title": "29.6 The inflationary universe",
        "url": "https://openstax.org/books/astronomy-2e/pages/29-6-the-inflationary-universe",
-       "argomenti": []
+       "argomenti": [
+        "inflazione"
+       ]
       },
       {
        "title": "29.7 The anthropic principle",
        "url": "https://openstax.org/books/astronomy-2e/pages/29-7-the-anthropic-principle",
-       "argomenti": []
+       "argomenti": [
+        "inflazione"
+       ]
       }
      ]
     },
@@ -3836,22 +3876,30 @@
       {
        "title": "30.1 The cosmic context for life",
        "url": "https://openstax.org/books/astronomy-2e/pages/30-1-the-cosmic-context-for-life",
-       "argomenti": []
+       "argomenti": [
+        "vita-nel-cosmo"
+       ]
       },
       {
        "title": "30.2 Astrobiology",
        "url": "https://openstax.org/books/astronomy-2e/pages/30-2-astrobiology",
-       "argomenti": []
+       "argomenti": [
+        "vita-nel-cosmo"
+       ]
       },
       {
        "title": "30.3 Searching for life beyond earth",
        "url": "https://openstax.org/books/astronomy-2e/pages/30-3-searching-for-life-beyond-earth",
-       "argomenti": []
+       "argomenti": [
+        "vita-oltre-la-terra"
+       ]
       },
       {
        "title": "30.4 The search for extraterrestrial intelligence",
        "url": "https://openstax.org/books/astronomy-2e/pages/30-4-the-search-for-extraterrestrial-intelligence",
-       "argomenti": []
+       "argomenti": [
+        "seti"
+       ]
       }
      ]
     }

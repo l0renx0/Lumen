@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-04T11:28:46Z",
+ "updatedAt": "2026-11-04T11:32:29Z",
  "subjects": [
   {
    "id": "fisica",
@@ -4884,6 +4884,11 @@
      "name": "OpenStax · College Physics 2e",
      "title": "15.6 Entropy and the Second Law of Thermodynamics",
      "url": "https://openstax.org/books/college-physics-2e/pages/15-6-entropy-and-the-second-law-of-thermodynamics-disorder-and-the-unavailability-of-energy"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "15.7 Statistical Interpretation of Entropy",
+     "url": "https://openstax.org/books/college-physics-2e/pages/15-7-statistical-interpretation-of-entropy-and-the-second-law-of-thermodynamics-the-underlying-explanation"
     },
     {
      "name": "OpenStax · College Physics 2e",
@@ -12860,6 +12865,11 @@
      "name": "OpenStax · Psychology 2e",
      "title": "6.4 Observational Learning (Modeling)",
      "url": "https://openstax.org/books/psychology-2e/pages/6-4-observational-learning-modeling"
+    },
+    {
+     "name": "OpenStax · Psychology 2e",
+     "title": "6.1 What Is Learning?",
+     "url": "https://openstax.org/books/psychology-2e/pages/6-1-what-is-learning"
     },
     {
      "name": "OpenStax · Psychology 2e",
@@ -24881,6 +24891,396 @@
    "addedAt": "2026-11-04T00:12:22Z"
   },
   {
+   "id": "bracci-a-spirale",
+   "subject": "astronomia",
+   "chapter": "Galassie e cosmo",
+   "title": "I bracci a spirale: perché le galassie non si avvolgono",
+   "hook": "Se le galassie ruotassero come un disco rigido, i bracci si avvolgerebbero in pochi giri. Invece durano miliardi di anni: sono onde di densità, come un ingorgo che si sposta.",
+   "points": [
+    "La struttura a spirale della Via Lattea",
+    "Il problema dell'avvolgimento",
+    "La teoria delle onde di densità",
+    "Perché i bracci sono luminosi e azzurri"
+   ],
+   "sections": [
+    {
+     "h": "La spirale della nostra galassia",
+     "p": [
+      "Dall'interno è difficile vedere la forma della Via Lattea, ma le osservazioni radio della componente gassosa del disco indicano che la Galassia ha due grandi bracci a spirale che partono dalle estremità della barra centrale, Scudo-Centauro e Perseo, e diversi bracci più deboli e speroni più corti. Il Sole si trova vicino a uno di questi, lo sperone di Orione.",
+      "Molte galassie a spirale, viste dall'esterno, mostrano bracci eleganti, punteggiati di stelle azzurre e nebulose rosse."
+     ]
+    },
+    {
+     "h": "Il problema dell'avvolgimento",
+     "p": [
+      "Il disco della Galassia non ruota come un disco rigido: le stelle più vicine al centro completano un giro più in fretta di quelle esterne. Questa rotazione differenziale sembrerebbe spiegare perché tanto materiale del disco sia concentrato in strutture allungate simili a bracci a spirale: qualsiasi grumo di materia viene stirato in una spirale.",
+      "Ma c'è un problema: se i bracci fossero fatti sempre delle stesse stelle, la rotazione differenziale li avvolgerebbe sempre più stretti, fino a farli sparire in qualche centinaio di milioni di anni. Invece le galassie a spirale sono comunissime e i loro bracci sono relativamente aperti."
+     ]
+    },
+    {
+     "h": "Onde di densità",
+     "p": [
+      "La spiegazione più accettata è che i bracci non siano oggetti materiali fissi, ma onde di densità: zone dove stelle e gas si addensano temporaneamente mentre attraversano il braccio, rallentando un po', come le auto in un ingorgo su un'autostrada. L'ingorgo resta più o meno nello stesso punto, mentre le singole auto entrano ed escono.",
+      "Le stelle e il gas girano intorno alla galassia e attraversano i bracci, che ruotano a una velocità diversa. Così i bracci diventano strutture che si autoalimentano e possono sopravvivere almeno per diversi miliardi di anni. In alcune galassie i bracci potrebbero invece essere stimolati dall'attrazione di galassie vicine."
+     ]
+    },
+    {
+     "h": "Fabbriche di stelle",
+     "p": [
+      "Quando il gas interstellare entra in un braccio, viene compresso, e la compressione innesca il collasso delle nubi e la formazione di nuove stelle. Le stelle più massicce e luminose, azzurre, vivono così poco che esplodono prima di allontanarsi dal braccio: per questo i bracci sono segnati da stelle azzurre e nebulose rosse di idrogeno ionizzato.",
+      "Le stelle meno massicce, come il Sole, vivono abbastanza a lungo da attraversare molti bracci nel corso della loro vita. Tra un braccio e l'altro le stelle ci sono comunque: semplicemente sono meno luminose e meno appariscenti."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "In autostrada un rallentamento può restare allo stesso chilometro per ore mentre le auto lo attraversano: così funzionano i bracci delle galassie.",
+   "mistakes": [
+    "\"I bracci sono fatti sempre delle stesse stelle\": le stelle li attraversano.",
+    "\"Tra i bracci non ci sono stelle\": ci sono, ma meno brillanti.",
+    "\"La galassia ruota come una ruota rigida\": il centro ruota più in fretta."
+   ],
+   "terms": [
+    {
+     "t": "Braccio a spirale",
+     "d": "Zona allungata e luminosa del disco di una galassia."
+    },
+    {
+     "t": "Rotazione differenziale",
+     "d": "Rotazione più veloce nelle zone interne."
+    },
+    {
+     "t": "Onda di densità",
+     "d": "Addensamento che si propaga nel disco come un ingorgo."
+    },
+    {
+     "t": "Galassia a spirale barrata",
+     "d": "Spirale con una barra centrale da cui partono i bracci."
+    }
+   ],
+   "quote": {
+    "text": "These arms then become self-perpetuating and can survive for at least several billion years.",
+    "translation": "Questi bracci diventano allora strutture che si autoalimentano e possono sopravvivere almeno per diversi miliardi di anni."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "25.2 Spiral structure",
+     "url": "https://openstax.org/books/astronomy-2e/pages/25-2-spiral-structure"
+    }
+   ],
+   "videos": [
+    {
+     "id": "qK0eCgob81k",
+     "title": "We Can't Explain Spiral Galaxies - The Winding Problem",
+     "channel": "Dr. Becky",
+     "length": "20:14"
+    }
+   ],
+   "videoQuery": "spiral arms density waves",
+   "addedAt": "2026-11-04T11:32:29Z"
+  },
+  {
+   "id": "storia-della-galassia",
+   "subject": "astronomia",
+   "chapter": "Galassie e cosmo",
+   "title": "Popolazioni stellari e storia della Via Lattea",
+   "hook": "Le stelle giovani del disco e quelle antichissime dell'alone raccontano come si è formata la nostra galassia, anche divorando galassie più piccole.",
+   "points": [
+    "Popolazione I e popolazione II",
+    "Età e composizione delle stelle",
+    "Come si è formata la Galassia",
+    "Archeologia galattica con Gaia"
+   ],
+   "sections": [
+    {
+     "h": "Due popolazioni",
+     "p": [
+      "Negli anni Quaranta l'astronomo Walter Baade, osservando la galassia di Andromeda, notò due tipi di stelle. Chiamò popolazione I le stelle azzurre e brillanti dei bracci a spirale, e popolazione II tutte le stelle dell'alone e degli ammassi globulari.",
+      "Le stelle di popolazione I si trovano solo nel disco e seguono orbite quasi circolari intorno al centro galattico, insieme alla materia interstellare e alle nubi molecolari. Comprendono stelle giovani, come le stelle massicce della Nebulosa di Orione, formatesi negli ultimi milioni di anni, ma anche stelle di mezza età come il Sole. Le stelle di popolazione II sono vecchie e si muovono su orbite allungate e inclinate in tutte le direzioni."
+     ]
+    },
+    {
+     "h": "Età e chimica",
+     "p": [
+      "La differenza principale è la composizione. Le stelle più antiche contengono pochissimi elementi più pesanti dell'elio, che gli astronomi chiamano metalli: a volte meno di un millesimo di quelli del Sole. Si sono formate quando la Galassia era giovane e il gas non era ancora stato arricchito dalle generazioni di stelle precedenti.",
+      "Le stelle giovani del disco, nate da gas riciclato molte volte, sono più ricche di elementi pesanti. La composizione chimica di una stella è quindi come un'etichetta della sua data di nascita."
+     ]
+    },
+    {
+     "h": "Come si è formata",
+     "p": [
+      "Un primo modello, degli anni Sessanta, immaginava che la Galassia fosse nata dal collasso di una grande nube di gas: le prime stelle, formate durante il collasso, sarebbero rimaste nell'alone; il gas rimanente si sarebbe appiattito in un disco ruotante, dove le stelle hanno continuato a nascere.",
+      "Le osservazioni hanno mostrato che la storia è più complicata. La Via Lattea è cresciuta anche inglobando galassie più piccole: le loro stelle formano oggi correnti allungate che attraversano l'alone. La galassia nana del Sagittario si sta disgregando proprio ora intorno alla Via Lattea, e le Nubi di Magellano potrebbero un giorno fare la stessa fine."
+     ]
+    },
+    {
+     "h": "Archeologia galattica",
+     "p": [
+      "Il satellite Gaia, misurando posizioni e moti di quasi due miliardi di stelle, ha permesso di ricostruire questa storia come in uno scavo archeologico. Ha scoperto, per esempio, che circa 8-11 miliardi di anni fa la Via Lattea si è fusa con una galassia piuttosto grande, battezzata Gaia-Enceladus, le cui stelle si muovono ancora in modo diverso dalle altre.",
+      "Tra qualche miliardo di anni la Via Lattea si scontrerà con la galassia di Andromeda, che si avvicina a circa 110 chilometri al secondo. Le stelle quasi non si urteranno, ma le due galassie si fonderanno in una grande galassia ellittica."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Il Sole è una stella di popolazione I relativamente ricca di metalli: senza le stelle esplose prima di lui, la Terra rocciosa non esisterebbe.",
+   "mistakes": [
+    "\"Tutte le stelle della Galassia hanno la stessa età\": ci sono stelle antichissime e giovanissime.",
+    "\"La Via Lattea si è formata in un colpo solo\": è cresciuta anche inglobando altre galassie.",
+    "\"Lo scontro con Andromeda distruggerà il Sole\": le stelle quasi non si urteranno."
+   ],
+   "terms": [
+    {
+     "t": "Popolazione I",
+     "d": "Stelle del disco, più giovani e ricche di elementi pesanti."
+    },
+    {
+     "t": "Popolazione II",
+     "d": "Stelle antiche dell'alone, povere di elementi pesanti."
+    },
+    {
+     "t": "Metallicità",
+     "d": "Quantità di elementi più pesanti dell'elio."
+    },
+    {
+     "t": "Corrente stellare",
+     "d": "Scia di stelle di una galassia inglobata."
+    }
+   ],
+   "quote": {
+    "text": "Population I stars are found only in the disk and follow nearly circular orbits around the galactic center.",
+    "translation": "Le stelle di popolazione I si trovano solo nel disco e seguono orbite quasi circolari intorno al centro galattico."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "25.5 Stellar populations in the galaxy",
+     "url": "https://openstax.org/books/astronomy-2e/pages/25-5-stellar-populations-in-the-galaxy"
+    },
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "25.6 The formation of the galaxy",
+     "url": "https://openstax.org/books/astronomy-2e/pages/25-6-the-formation-of-the-galaxy"
+    }
+   ],
+   "videos": [
+    {
+     "id": "cejvjP-a77k",
+     "title": "The most accurate 3D map of stellar nurseries in the Milky Way",
+     "channel": "European Space Agency, ESA",
+     "length": "2:35"
+    },
+    {
+     "id": "BcjmoEspoRI",
+     "title": "The Formation of the Milky Way Galaxy",
+     "channel": "Professor Dave Explains",
+     "length": "6:43"
+    }
+   ],
+   "videoQuery": "stellar populations formation milky way",
+   "addedAt": "2026-11-04T11:32:29Z"
+  },
+  {
+   "id": "galassie",
+   "subject": "astronomia",
+   "chapter": "Galassie e cosmo",
+   "title": "Le galassie: spirali, ellittiche e irregolari",
+   "hook": "Solo un secolo fa si discuteva se le \"nebulose a spirale\" fossero altre galassie. Oggi ne contiamo centinaia di miliardi, di forme e dimensioni diversissime.",
+   "points": [
+    "Il grande dibattito",
+    "La classificazione delle galassie",
+    "Masse e luminosità",
+    "Galassie nane e il Gruppo Locale"
+   ],
+   "sections": [
+    {
+     "h": "Il grande dibattito",
+     "p": [
+      "Nel 1920 si tenne un famoso dibattito tra gli astronomi Harlow Shapley e Heber Curtis: le nebulose a spirale erano nubi dentro la Via Lattea o \"universi isola\", galassie lontane come la nostra? La questione fu risolta pochi anni dopo da Edwin Hubble, che misurò la distanza della nebulosa di Andromeda usando le cefeidi.",
+      "Andromeda si rivelò lontanissima: a circa 2,5 milioni di anni luce, è la galassia a spirale più vicina alla nostra. L'universo divenne improvvisamente molto più grande."
+     ]
+    },
+    {
+     "h": "Tipi di galassie",
+     "p": [
+      "Le galassie più grandi e luminose hanno una di due forme fondamentali: sono appiattite con bracci a spirale, come la nostra, oppure appaiono ellittiche, a forma di pallone o di sigaro.",
+      "Le spirali hanno un disco ricco di gas, polvere e stelle giovani e un rigonfiamento centrale; alcune hanno una barra centrale. Hubble le ordinò in una sequenza, il \"diapason\", in base alla grandezza del rigonfiamento e a quanto sono avvolti i bracci. Le galassie lenticolari sembrano condividere tante proprietà con le ellittiche quanto con le spirali.",
+      "Le ellittiche contengono soprattutto stelle vecchie e poco gas, e quindi poca formazione stellare; le più grandi sono le galassie più massicce dell'universo, al centro degli ammassi. Le irregolari non hanno una forma definita e sono spesso piccole e ricche di gas: le Nubi di Magellano ne sono un esempio."
+     ]
+    },
+    {
+     "h": "Pesare una galassia",
+     "p": [
+      "La massa di una galassia si ricava dalla velocità con cui ruotano stelle e gas (nelle spirali) o dalla velocità con cui si muovono le stelle (nelle ellittiche): come per i pianeti intorno al Sole, più massa c'è, più velocemente devono muoversi.",
+      "Le masse delle galassie vanno da milioni a migliaia di miliardi di masse solari. Il rapporto tra massa e luminosità rivela che nelle galassie c'è molta più massa di quella delle stelle visibili: è una delle prove della materia oscura."
+     ]
+    },
+    {
+     "h": "Il Gruppo Locale",
+     "p": [
+      "La maggior parte delle galassie è piccola: le galassie nane, con milioni o pochi miliardi di stelle, sono le più numerose. La Via Lattea e Andromeda sono le due galassie dominanti del Gruppo Locale, che comprende anche la galassia del Triangolo e alcune decine di galassie nane.",
+      "Nell'universo osservabile si stima che ci siano centinaia di miliardi di galassie, forse fino a duemila miliardi contando quelle piccole e deboli. Ognuna contiene da milioni a migliaia di miliardi di stelle."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "La galassia di Andromeda è l'oggetto più lontano visibile facilmente a occhio nudo: una macchiolina ovale in autunno, sotto Cassiopea.",
+   "mistakes": [
+    "\"Le nebulose a spirale sono nubi nella Via Lattea\": sono galassie lontane.",
+    "\"Tutte le galassie sono spirali come la nostra\": esistono ellittiche, lenticolari e irregolari.",
+    "\"La maggior parte delle galassie è grande\": le più numerose sono nane."
+   ],
+   "terms": [
+    {
+     "t": "Galassia a spirale",
+     "d": "Galassia con disco e bracci a spirale."
+    },
+    {
+     "t": "Galassia ellittica",
+     "d": "Galassia ellissoidale di stelle vecchie."
+    },
+    {
+     "t": "Galassia irregolare",
+     "d": "Galassia senza forma definita."
+    },
+    {
+     "t": "Gruppo Locale",
+     "d": "Gruppo di galassie di cui fa parte la Via Lattea."
+    }
+   ],
+   "quote": {
+    "text": "At a distance of about 2.5 million light-years, Andromeda is the spiral galaxy that is nearest to our own in space.",
+    "translation": "A una distanza di circa 2,5 milioni di anni luce, Andromeda è la galassia a spirale più vicina alla nostra nello spazio."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "26.1 The discovery of galaxies",
+     "url": "https://openstax.org/books/astronomy-2e/pages/26-1-the-discovery-of-galaxies"
+    },
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "26.2 Types of galaxies",
+     "url": "https://openstax.org/books/astronomy-2e/pages/26-2-types-of-galaxies"
+    },
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "26.3 Properties of galaxies",
+     "url": "https://openstax.org/books/astronomy-2e/pages/26-3-properties-of-galaxies"
+    }
+   ],
+   "videos": [
+    {
+     "id": "I82ADyJC7wE",
+     "title": "Galaxies, part 1: Crash Course Astronomy #38",
+     "channel": "CrashCourse",
+     "length": "12:06"
+    },
+    {
+     "id": "_O2sg-PGhEg",
+     "title": "Galaxies, part 2: Crash Course Astronomy #39",
+     "channel": "CrashCourse",
+     "length": "15:35"
+    }
+   ],
+   "videoQuery": "galaxies crash course astronomy",
+   "addedAt": "2026-11-04T11:32:29Z"
+  },
+  {
+   "id": "scala-delle-distanze",
+   "subject": "astronomia",
+   "chapter": "Galassie e cosmo",
+   "title": "La scala delle distanze cosmiche",
+   "hook": "Parallassi, cefeidi, supernove di tipo Ia, legge di Hubble: una scala di metodi, ognuno calibrato sul precedente, per misurare l'universo fino ai suoi confini.",
+   "points": [
+    "Perché serve una scala",
+    "Cefeidi e altre candele standard",
+    "Le supernove di tipo Ia",
+    "La relazione di Tully-Fisher e la legge di Hubble"
+   ],
+   "sections": [
+    {
+     "h": "Una scala a pioli",
+     "p": [
+      "Nessun metodo di misura delle distanze funziona a tutte le scale. Gli astronomi usano una serie di metodi, ognuno adatto a un intervallo di distanze e calibrato con il metodo precedente: è la scala delle distanze cosmiche.",
+      "Il primo piolo sono le misure radar nel Sistema solare; il secondo la parallasse delle stelle vicine, misurata con precisione dal satellite Gaia. Ogni gradino successivo eredita le incertezze di quelli sotto: per questo migliorare la base della scala migliora tutte le distanze."
+     ]
+    },
+    {
+     "h": "Candele standard",
+     "p": [
+      "Per andare oltre si usano candele standard: oggetti di cui si conosce la luminosità vera. Confrontandola con quanto appaiono brillanti, si ricava la distanza. Le cefeidi, stelle pulsanti la cui luminosità è legata al periodo, funzionano fino a decine di milioni di anni luce, grazie a telescopi come Hubble e James Webb.",
+      "Altri metodi usano le stelle più brillanti di una galassia, le giganti rosse più luminose (il cui massimo di luminosità è ben noto), o le nebulose planetarie."
+     ]
+    },
+    {
+     "h": "Supernove di tipo Ia",
+     "p": [
+      "Per distanze ancora maggiori un oggetto si rivela particolarmente utile: la supernova di tipo Ia. Poiché nasce sempre dallo stesso tipo di esplosione di una nana bianca, raggiunge al picco una luminosità quasi uguale. Una supernova così può per breve tempo superare in luminosità l'intera galassia che la ospita, ed essere vista a miliardi di anni luce.",
+      "Calibrate con le cefeidi di galassie vicine in cui sono esplose supernove di tipo Ia, permettono di misurare distanze cosmologiche. Proprio con queste misure si è scoperta l'accelerazione dell'espansione dell'universo."
+     ]
+    },
+    {
+     "h": "Altri metodi e Hubble",
+     "p": [
+      "Per le galassie a spirale esiste la relazione di Tully-Fisher: le galassie che ruotano più velocemente sono più massicce e più luminose. Misurando la velocità di rotazione dalla larghezza della riga radio dell'idrogeno, se ne stima la luminosità e quindi la distanza.",
+      "All'ultimo gradino c'è la legge di Hubble: la velocità con cui una galassia si allontana è proporzionale alla sua distanza. Una volta calibrata con gli altri metodi, basta misurare lo spostamento verso il rosso di una galassia per conoscerne la distanza. C'è però un piccolo mistero: le misure della costante di Hubble basate sulla scala delle distanze danno un valore un po' diverso da quelle basate sulla radiazione cosmica di fondo. Questa \"tensione di Hubble\" è uno dei grandi problemi aperti della cosmologia."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "È come misurare la distanza di un lampione lontano sapendo che è uguale a quelli vicini: più appare debole, più è lontano.",
+   "mistakes": [
+    "\"Esiste un metodo unico per misurare le distanze\": servono molti metodi a catena.",
+    "\"Le supernove sono troppo imprevedibili per misurare le distanze\": quelle di tipo Ia sono ottime candele standard.",
+    "\"La costante di Hubble è nota con certezza\": metodi diversi danno valori leggermente diversi."
+   ],
+   "terms": [
+    {
+     "t": "Scala delle distanze",
+     "d": "Serie di metodi di misura calibrati uno sull'altro."
+    },
+    {
+     "t": "Candela standard",
+     "d": "Oggetto di luminosità nota."
+    },
+    {
+     "t": "Tully-Fisher",
+     "d": "Relazione tra rotazione e luminosità delle spirali."
+    },
+    {
+     "t": "Tensione di Hubble",
+     "d": "Disaccordo tra diverse misure della costante di Hubble."
+    }
+   ],
+   "quote": {
+    "text": "Such a supernova can briefly outshine its entire host galaxy.",
+    "translation": "Una supernova del genere può per breve tempo superare in luminosità l'intera galassia che la ospita."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "26.4 The extragalactic distance scale",
+     "url": "https://openstax.org/books/astronomy-2e/pages/26-4-the-extragalactic-distance-scale"
+    }
+   ],
+   "videos": [
+    {
+     "id": "rV-Z6jk9Fkw",
+     "title": "The Cosmic Ladder That Lets Us Map the Universe",
+     "channel": "SciShow Space",
+     "length": "5:56"
+    },
+    {
+     "id": "YdOXS_9_P4U",
+     "title": "Terence Tao on the cosmic distance ladder",
+     "channel": "3Blue1Brown",
+     "length": "28:33"
+    }
+   ],
+   "videoQuery": "cosmic distance ladder",
+   "addedAt": "2026-11-04T11:32:29Z"
+  },
+  {
    "id": "universo-espansione",
    "subject": "astronomia",
    "title": "L'universo in espansione: dalle galassie in fuga al Big Bang",
@@ -25008,6 +25408,292 @@
    ]
   },
   {
+   "id": "quasar",
+   "subject": "astronomia",
+   "chapter": "Galassie e cosmo",
+   "title": "I quasar: buchi neri supermassicci che brillano più delle galassie",
+   "hook": "Puntini che sembrano stelle, ma sono lontanissimi e brillano più di mille galassie. Sono buchi neri giganti che divorano gas, i fari più potenti dell'universo.",
+   "points": [
+    "La scoperta dei quasar",
+    "Perché sono così lontani e luminosi",
+    "Il motore: un buco nero supermassiccio",
+    "Quasar e storia dell'universo"
+   ],
+   "sections": [
+    {
+     "h": "Stelle che non sono stelle",
+     "p": [
+      "Negli anni Cinquanta i radioastronomi trovarono molte sorgenti di onde radio. Alcune corrispondevano, nelle fotografie, a deboli \"stelle azzurre\": in un'immagine nulla distingue un quasar da una stella normale. Il nome quasar viene da \"quasi-stellar radio source\", sorgente radio quasi stellare.",
+      "La chiave arrivò quando gli astronomi ottennero gli spettri di due di queste \"stelle\". Nel 1963 Maarten Schmidt capì che le strane righe dello spettro del quasar 3C 273 erano righe normali dell'idrogeno, ma spostate moltissimo verso il rosso: si allontanava a circa il 16% della velocità della luce. Per la legge di Hubble, doveva essere a miliardi di anni luce."
+     ]
+    },
+    {
+     "h": "Luminosità incredibili",
+     "p": [
+      "Per essere visibili da così lontano, i quasar devono essere incredibilmente luminosi: centinaia o migliaia di volte più di un'intera galassia come la Via Lattea. Eppure la loro luminosità varia in giorni o settimane, e questo significa che la sorgente è minuscola, non più grande del Sistema solare: un oggetto non può cambiare luminosità più in fretta del tempo che la luce impiega ad attraversarlo.",
+      "Enorme energia da una regione piccolissima: un enigma che sembrava inspiegabile con le fonti di energia conosciute, compresa la fusione nucleare."
+     ]
+    },
+    {
+     "h": "Il motore",
+     "p": [
+      "La spiegazione è un buco nero supermassiccio, di milioni o miliardi di masse solari, al centro di una galassia. Il gas che cade verso di lui forma un disco di accrescimento che si scalda a temperature altissime e brilla intensamente; la caduta nel campo gravitazionale converte in energia una frazione della massa molto maggiore della fusione nucleare.",
+      "Molti quasar lanciano anche getti di particelle quasi alla velocità della luce, lunghi migliaia di anni luce. Quasar, radiogalassie e altre galassie attive sono tutti manifestazioni dello stesso fenomeno, viste da angolazioni diverse e con diversi livelli di \"appetito\" del buco nero."
+     ]
+    },
+    {
+     "h": "Fari nel passato",
+     "p": [
+      "Poiché sono lontanissimi, vediamo i quasar com'erano miliardi di anni fa. Erano molto più comuni quando l'universo aveva qualche miliardo di anni: in quell'epoca i buchi neri supermassicci crescevano rapidamente, alimentati dal gas abbondante delle galassie giovani. Oggi la maggior parte dei buchi neri, compreso quello della Via Lattea, è \"a dieta\".",
+      "La luce dei quasar attraversa le nubi di gas tra noi e loro, che vi imprimono righe di assorbimento: i quasar servono così da fari per studiare il gas intergalattico. Il telescopio James Webb sta trovando buchi neri supermassicci già sorprendentemente grandi meno di un miliardo di anni dopo il Big Bang."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Il quasar 3C 273 si vede con un telescopio amatoriale come una stellina: la sua luce è partita circa 2,4 miliardi di anni fa.",
+   "mistakes": [
+    "\"I quasar sono stelle\": sono nuclei di galassie lontanissime.",
+    "\"I quasar sono vicini\": sono tra gli oggetti più lontani conosciuti.",
+    "\"I buchi neri non possono produrre luce\": la produce il gas che vi cade dentro."
+   ],
+   "terms": [
+    {
+     "t": "Quasar",
+     "d": "Nucleo galattico lontanissimo e luminosissimo."
+    },
+    {
+     "t": "Redshift",
+     "d": "Spostamento verso il rosso delle righe."
+    },
+    {
+     "t": "Galassia attiva",
+     "d": "Galassia con un buco nero centrale che si nutre di gas."
+    },
+    {
+     "t": "Disco di accrescimento",
+     "d": "Disco di gas caldissimo intorno a un buco nero."
+    }
+   ],
+   "quote": {
+    "text": "Note that nothing in this image distinguishes the quasar from an ordinary star.",
+    "translation": "Si noti che in questa immagine nulla distingue il quasar da una stella normale."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "27.1 Quasars",
+     "url": "https://openstax.org/books/astronomy-2e/pages/27-1-quasars"
+    },
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "27.2 Supermassive black holes what quasars really are",
+     "url": "https://openstax.org/books/astronomy-2e/pages/27-2-supermassive-black-holes-what-quasars-really-are"
+    },
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "27.3 Quasars as probes of evolution in the universe",
+     "url": "https://openstax.org/books/astronomy-2e/pages/27-3-quasars-as-probes-of-evolution-in-the-universe"
+    }
+   ],
+   "videos": [
+    {
+     "id": "V4Z8EdiJxgk",
+     "title": "The Black Hole That Kills Galaxies - Quasars",
+     "channel": "Kurzgesagt – In a Nutshell",
+     "length": "10:50"
+    },
+    {
+     "id": "I82ADyJC7wE",
+     "title": "Galaxies, part 1: Crash Course Astronomy #38",
+     "channel": "CrashCourse",
+     "length": "12:06"
+    }
+   ],
+   "videoQuery": "quasars active galaxies crash course astronomy",
+   "addedAt": "2026-11-04T11:32:29Z"
+  },
+  {
+   "id": "galassie-lontane",
+   "subject": "astronomia",
+   "chapter": "Galassie e cosmo",
+   "title": "Galassie lontane e scontri tra galassie",
+   "hook": "Guardando lontano vediamo galassie giovani, piccole e irregolari. Le galassie crescono scontrandosi e fondendosi, e gli scontri accendono buchi neri e nuove stelle.",
+   "points": [
+    "Guardare indietro nel tempo",
+    "Come cambiano le galassie",
+    "Gli scontri tra galassie",
+    "Fusioni e nuclei attivi"
+   ],
+   "sections": [
+    {
+     "h": "Una macchina del tempo",
+     "p": [
+      "Gli astronomi non possono prendere in mano e osservare una stella o una galassia mentre invecchia. Ma possono osservare galassie a distanze diverse, cioè in epoche diverse, perché la luce delle più lontane è partita miliardi di anni fa.",
+      "Poiché le stelle sono la fonte di quasi tutta la luce delle galassie, studiando le stelle al loro interno si impara molto sulla loro evoluzione. Va notato che l'evoluzione delle galassie indica i cambiamenti delle singole galassie nel tempo, mentre l'evoluzione studiata dai biologi riguarda generazioni successive di organismi."
+     ]
+    },
+    {
+     "h": "Galassie giovani",
+     "p": [
+      "Le immagini profonde di Hubble e del James Webb mostrano che le galassie lontane, e quindi giovani, sono diverse da quelle di oggi: più piccole, più irregolari, ricche di gas e con una formazione stellare molto intensa. Il ritmo di formazione delle stelle nell'universo raggiunse il massimo circa 10 miliardi di anni fa e da allora è diminuito.",
+      "Il James Webb ha scoperto galassie già sorprendentemente luminose e mature poche centinaia di milioni di anni dopo il Big Bang, costringendo a rivedere alcuni modelli."
+     ]
+    },
+    {
+     "h": "Quando le galassie si scontrano",
+     "p": [
+      "Le galassie sono grandi rispetto alle distanze che le separano, quindi gli incontri sono frequenti. Quando due galassie si scontrano, le stelle quasi non si urtano, perché sono separatissime, ma le maree gravitazionali deformano le galassie, strappando lunghe code di stelle e gas.",
+      "Il gas delle due galassie invece si scontra e si comprime, innescando esplosioni di formazione stellare. Galassie come le Antenne mostrano questo spettacolo. Dopo diversi passaggi, due spirali possono fondersi in una galassia ellittica. Le galassie grandi crescono anche inglobando galassie nane, un processo chiamato cannibalismo galattico."
+     ]
+    },
+    {
+     "h": "Fusioni e buchi neri",
+     "p": [
+      "Le fusioni possono spingere grandi quantità di gas verso il centro della galassia risultante, dove alimentano il buco nero supermassiccio, che si accende come nucleo galattico attivo o quasar.",
+      "Esiste un legame stretto tra la massa del buco nero centrale e quella del rigonfiamento della galassia ospite: buchi neri e galassie sembrano crescere insieme. L'energia emessa dal buco nero attivo può anche riscaldare ed espellere il gas, spegnendo la formazione di nuove stelle: un esempio di come un oggetto relativamente piccolo possa influenzare un'intera galassia."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Tra circa 4-5 miliardi di anni la Via Lattea e Andromeda si scontreranno: il cielo notturno della Terra, se ci sarà ancora qualcuno a guardarlo, sarà spettacolare.",
+   "mistakes": [
+    "\"Quando le galassie si scontrano le stelle si distruggono\": quasi non si urtano.",
+    "\"Le galassie sono sempre state come oggi\": in passato erano più piccole e irregolari.",
+    "\"Il buco nero centrale non influenza la galassia\": può regolare la formazione stellare."
+   ],
+   "terms": [
+    {
+     "t": "Galassie interagenti",
+     "d": "Galassie deformate dalla gravità reciproca."
+    },
+    {
+     "t": "Fusione galattica",
+     "d": "Unione di due galassie in una."
+    },
+    {
+     "t": "Cannibalismo galattico",
+     "d": "Una galassia grande che ingloba quelle piccole."
+    },
+    {
+     "t": "Nucleo galattico attivo",
+     "d": "Centro di galassia alimentato da un buco nero."
+    }
+   ],
+   "quote": {
+    "text": "Since stars are the source of nearly all the light emitted by galaxies, we can learn a lot about the evolution of galaxies by studying the stars within them.",
+    "translation": "Poiché le stelle sono la fonte di quasi tutta la luce emessa dalle galassie, possiamo imparare molto sull'evoluzione delle galassie studiando le stelle al loro interno."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "28.1 Observations of distant galaxies",
+     "url": "https://openstax.org/books/astronomy-2e/pages/28-1-observations-of-distant-galaxies"
+    },
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "28.2 Galaxy mergers and active galactic nuclei",
+     "url": "https://openstax.org/books/astronomy-2e/pages/28-2-galaxy-mergers-and-active-galactic-nuclei"
+    }
+   ],
+   "videos": [
+    {
+     "id": "cqhwiPu6sn0",
+     "title": "Galaxy Mergers: Past and Present",
+     "channel": "NASA Goddard",
+     "length": "4:18"
+    }
+   ],
+   "videoQuery": "galaxy mergers distant galaxies",
+   "addedAt": "2026-11-04T11:32:29Z"
+  },
+  {
+   "id": "grande-scala",
+   "subject": "astronomia",
+   "chapter": "Galassie e cosmo",
+   "title": "La struttura su grande scala: la ragnatela cosmica",
+   "hook": "Le galassie formano gruppi, ammassi e superammassi, disposti lungo filamenti attorno a vuoti enormi. Come si è formata questa ragnatela dall'universo quasi uniforme delle origini.",
+   "points": [
+    "Gruppi e ammassi di galassie",
+    "Superammassi e vuoti",
+    "La ragnatela cosmica",
+    "Come nasce la struttura"
+   ],
+   "sections": [
+    {
+     "h": "Gruppi e ammassi",
+     "p": [
+      "Le galassie non sono distribuite a caso: tendono a raggrupparsi. I gruppi, come il nostro Gruppo Locale, contengono qualche decina di galassie. Gli ammassi ne contengono da centinaia a migliaia, legate dalla gravità.",
+      "L'ammasso ricco più vicino si chiama Ammasso della Vergine, dalla costellazione in cui si vede, e si trova a circa 50 milioni di anni luce. Gli ammassi contengono anche enormi quantità di gas caldissimo, a milioni di gradi, che emette raggi X, e moltissima materia oscura."
+     ]
+    },
+    {
+     "h": "Superammassi e vuoti",
+     "p": [
+      "Su scale ancora maggiori, gli ammassi e i gruppi formano superammassi. Il Gruppo Locale fa parte di un superammasso chiamato Superammasso della Vergine, perché comprende anche il grande Ammasso della Vergine. Uno studio del 2014 ha proposto che faccia parte di una struttura ancora più grande, chiamata Laniakea, \"cielo immenso\" in hawaiano.",
+      "Tra i superammassi ci sono vuoti enormi, regioni larghe centinaia di milioni di anni luce con pochissime galassie."
+     ]
+    },
+    {
+     "h": "Una ragnatela",
+     "p": [
+      "Negli anni Ottanta le prime grandi mappe tridimensionali delle galassie, ottenute misurando i redshift di migliaia di galassie, mostrarono una struttura sorprendente: le galassie sono disposte lungo filamenti e pareti, come la superficie di bolle di sapone, intorno a grandi vuoti. Una di queste pareti, la \"Grande Muraglia\", si estende per centinaia di milioni di anni luce.",
+      "Grandi campagne come la Sloan Digital Sky Survey hanno mappato milioni di galassie, confermando la ragnatela cosmica. Su scale ancora più grandi, oltre qualche centinaio di milioni di anni luce, l'universo appare invece uniforme."
+     ]
+    },
+    {
+     "h": "Come si è formata",
+     "p": [
+      "L'universo primordiale era quasi perfettamente uniforme, con differenze di densità minuscole, visibili come variazioni di una parte su centomila nella radiazione cosmica di fondo. Nel tempo la gravità ha amplificato queste differenze: le regioni un po' più dense hanno attirato materia e sono diventate sempre più dense.",
+      "Le simulazioni al computer mostrano che questo processo funziona solo se c'è molta materia oscura fredda: la materia oscura forma per prima la struttura a filamenti e aloni, e la materia ordinaria vi cade dentro formando galassie. Le galassie piccole si sono formate per prime e si sono poi unite in strutture più grandi. Le mappe simulate somigliano straordinariamente a quelle osservate."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Una mappa delle galassie vicine sembra la schiuma di un caffè: bolle vuote circondate da sottili pareti dove si concentrano le galassie.",
+   "mistakes": [
+    "\"Le galassie sono sparse uniformemente\": formano una ragnatela di filamenti e vuoti.",
+    "\"Gli ammassi di galassie sono fatti solo di galassie\": contengono molto gas caldo e materia oscura.",
+    "\"La struttura dell'universo esiste da sempre\": si è formata per gravità da piccole fluttuazioni."
+   ],
+   "terms": [
+    {
+     "t": "Ammasso di galassie",
+     "d": "Insieme di centinaia o migliaia di galassie legate dalla gravità."
+    },
+    {
+     "t": "Superammasso",
+     "d": "Raggruppamento di ammassi e gruppi."
+    },
+    {
+     "t": "Vuoto cosmico",
+     "d": "Regione enorme quasi priva di galassie."
+    },
+    {
+     "t": "Ragnatela cosmica",
+     "d": "Rete di filamenti di galassie intorno ai vuoti."
+    }
+   ],
+   "quote": {
+    "text": "The Local Group is part of a supercluster we call the Virgo Supercluster because it also includes the giant Virgo cluster of galaxies.",
+    "translation": "Il Gruppo Locale fa parte di un superammasso che chiamiamo Superammasso della Vergine, perché comprende anche il gigantesco ammasso di galassie della Vergine."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "28.3 The distribution of galaxies in space",
+     "url": "https://openstax.org/books/astronomy-2e/pages/28-3-the-distribution-of-galaxies-in-space"
+    },
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "28.5 The formation and evolution of galaxies and structure in the universe",
+     "url": "https://openstax.org/books/astronomy-2e/pages/28-5-the-formation-and-evolution-of-galaxies-and-structure-in-the-universe"
+    }
+   ],
+   "videos": [],
+   "videoQuery": "cosmic web large scale structure",
+   "addedAt": "2026-11-04T11:32:29Z"
+  },
+  {
    "id": "materia-oscura",
    "subject": "astronomia",
    "chapter": "Galassie e cosmo",
@@ -25116,6 +25802,689 @@
    ],
    "videoQuery": "materia oscura galassie",
    "addedAt": "2026-11-04T00:12:22Z"
+  },
+  {
+   "id": "eta-universo",
+   "subject": "astronomia",
+   "chapter": "Galassie e cosmo",
+   "title": "L'età dell'universo: 13,8 miliardi di anni",
+   "hook": "Dalla velocità dell'espansione e dall'età delle stelle più antiche si ricava quanti anni ha l'universo. E perché l'espansione, invece di rallentare, accelera.",
+   "points": [
+    "Il tempo di Hubble",
+    "Decelerazione e accelerazione",
+    "Il modello cosmologico",
+    "Le stelle più vecchie come controllo"
+   ],
+   "sections": [
+    {
+     "h": "Riavvolgere il film",
+     "p": [
+      "Se le galassie si allontanano le une dalle altre, in passato erano più vicine. Riavvolgendo il film dell'espansione, tutto l'universo osservabile era concentrato in uno stato estremamente denso e caldo. L'esplosione di quell'universo concentrato all'inizio dei tempi si chiama Big Bang: un nome adatto, perché non si può avere un \"botto\" più grande di quello che crea l'intero universo.",
+      "Il Big Bang però non va immaginato come un'esplosione in un punto dello spazio, ma come l'espansione di tutto lo spazio."
+     ]
+    },
+    {
+     "h": "Il tempo di Hubble",
+     "p": [
+      "Dalla legge di Hubble si può fare una stima semplice: se le galassie si fossero sempre allontanate alla velocità attuale, il tempo trascorso dall'inizio sarebbe la distanza divisa per la velocità, cioè l'inverso della costante di Hubble. È il tempo di Hubble.",
+      "Quando si dice che la costante di Hubble vale circa 70 chilometri al secondo per megaparsec, si intende il valore di oggi. Con questo valore il tempo di Hubble è di circa 14 miliardi di anni. Ma il tempo di Hubble è l'età giusta dell'universo solo se il ritmo dell'espansione è rimasto costante da quando è cominciata."
+     ]
+    },
+    {
+     "h": "Rallentare o accelerare?",
+     "p": [
+      "La gravità di tutta la materia dell'universo dovrebbe frenare l'espansione, come una palla lanciata in alto rallenta. Per decenni gli astronomi cercarono di misurare questa decelerazione.",
+      "Alla fine degli anni Novanta, osservando supernove di tipo Ia lontanissime, due gruppi di ricerca scoprirono con grande sorpresa che l'espansione sta accelerando. Qualcosa spinge l'universo ad espandersi sempre più velocemente: è stato chiamato energia oscura. Una possibilità è che si tratti della costante cosmologica, un'energia associata al vuoto dello spazio \"vuoto\" stesso, un'idea che Einstein aveva introdotto e poi abbandonato."
+     ]
+    },
+    {
+     "h": "Il modello e il controllo",
+     "p": [
+      "Combinando l'espansione, la decelerazione dovuta alla materia e l'accelerazione dovuta all'energia oscura, il modello cosmologico standard indica un'età dell'universo di circa 13,8 miliardi di anni, in ottimo accordo con le misure della radiazione cosmica di fondo.",
+      "C'è un controllo indipendente: nessun oggetto può essere più vecchio dell'universo. Le stelle più antiche degli ammassi globulari e le nane bianche più fredde hanno età stimate di circa 12-13 miliardi di anni, compatibili con l'età dell'universo. Fino agli anni Novanta, prima della scoperta dell'energia oscura, le stelle sembravano più vecchie dell'universo: un paradosso risolto proprio dall'accelerazione."
+     ]
+    }
+   ],
+   "formulas": [
+    {
+     "f": "T_H ≈ 1 / H₀",
+     "d": "Tempo di Hubble: inverso della costante di Hubble."
+    },
+    {
+     "f": "H₀ ≈ 70 km/s/Mpc",
+     "d": "Valore approssimativo della costante di Hubble oggi."
+    }
+   ],
+   "example": "Se la storia dell'universo fosse compressa in un anno, il Sole nascerebbe a inizio settembre e gli esseri umani comparirebbero negli ultimi minuti del 31 dicembre.",
+   "mistakes": [
+    "\"Il Big Bang fu un'esplosione nello spazio\": fu l'espansione dello spazio stesso.",
+    "\"L'espansione rallenta\": oggi accelera.",
+    "\"Ci sono stelle più vecchie dell'universo\": con le misure attuali le età sono compatibili."
+   ],
+   "terms": [
+    {
+     "t": "Big Bang",
+     "d": "Inizio caldo e denso dell'espansione dell'universo."
+    },
+    {
+     "t": "Tempo di Hubble",
+     "d": "Stima dell'età dell'universo dalla costante di Hubble."
+    },
+    {
+     "t": "Energia oscura",
+     "d": "Causa ignota dell'espansione accelerata."
+    },
+    {
+     "t": "Costante cosmologica",
+     "d": "Energia del vuoto, possibile forma dell'energia oscura."
+    }
+   ],
+   "quote": {
+    "text": "When we say the Hubble constant is about 70 kilometers/second/million parsecs, we mean that this is the value of the Hubble constant at the current time.",
+    "translation": "Quando diciamo che la costante di Hubble vale circa 70 chilometri al secondo per milione di parsec, intendiamo che questo è il suo valore nel momento attuale."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "29.1 The age of the universe",
+     "url": "https://openstax.org/books/astronomy-2e/pages/29-1-the-age-of-the-universe"
+    },
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "29.2 A model of the universe",
+     "url": "https://openstax.org/books/astronomy-2e/pages/29-2-a-model-of-the-universe"
+    }
+   ],
+   "videos": [
+    {
+     "id": "Y6Vhh70Lw9w",
+     "title": "How We Know The Universe is Ancient",
+     "channel": "PBS Space Time",
+     "length": "17:49"
+    },
+    {
+     "id": "tCn96DbBnB4",
+     "title": "How Do We Know the Age of the Universe?",
+     "channel": "SciShow Space",
+     "length": "5:43"
+    }
+   ],
+   "videoQuery": "age of the universe",
+   "addedAt": "2026-11-04T11:32:29Z"
+  },
+  {
+   "id": "radiazione-di-fondo",
+   "subject": "astronomia",
+   "chapter": "Galassie e cosmo",
+   "title": "La radiazione cosmica di fondo: l'eco del Big Bang",
+   "hook": "Da ogni direzione arriva un debolissimo bagliore di microonde, la luce più antica dell'universo. Fu scoperta per caso nel 1965 e contiene la mappa delle origini di tutto.",
+   "points": [
+    "I primi minuti e l'elio",
+    "La scoperta casuale del 1965",
+    "Perché la radiazione è così fredda",
+    "Le piccole variazioni e cosa ci dicono"
+   ],
+   "sections": [
+    {
+     "h": "I primi minuti",
+     "p": [
+      "Nei primi minuti dopo il Big Bang l'universo era così caldo e denso da funzionare come un reattore a fusione: protoni e neutroni si unirono formando nuclei di elio e piccole tracce di altri elementi leggeri. Uno dei successi della teoria dei primi minuti dell'universo è la previsione corretta della quantità di elio: circa un quarto della massa della materia ordinaria, proprio come si osserva.",
+      "Per circa 380.000 anni l'universo rimase un plasma caldissimo e opaco, in cui la luce non poteva viaggiare liberamente, continuamente diffusa dagli elettroni liberi."
+     ]
+    },
+    {
+     "h": "La luce si libera",
+     "p": [
+      "Quando l'universo si raffreddò a circa 3000 gradi, gli elettroni si unirono ai nuclei formando atomi neutri, e l'universo divenne trasparente. La luce di quel momento ha viaggiato libera da allora, e ci arriva oggi da ogni direzione.",
+      "Nel frattempo l'espansione dell'universo ne ha allungato la lunghezza d'onda di circa mille volte: oggi non è più luce visibile ma microonde, corrispondenti a una temperatura di appena 2,7 gradi sopra lo zero assoluto. È la radiazione cosmica di fondo."
+     ]
+    },
+    {
+     "h": "Una scoperta per caso",
+     "p": [
+      "Nel 1965 due radioastronomi dei Bell Labs, Arno Penzias e Robert Wilson, stavano provando una grande antenna e trovarono un fruscio di fondo che arrivava da tutte le direzioni, giorno e notte, e che non riuscivano a eliminare: pensarono persino che dipendesse dagli escrementi dei piccioni nell'antenna.",
+      "A pochi chilometri, un gruppo di Princeton stava costruendo uno strumento proprio per cercare la radiazione prevista dalla teoria del Big Bang. Fu la conferma decisiva del Big Bang, e Penzias e Wilson ricevettero il Nobel nel 1978. Una teoria scientifica deve poter essere verificata, e questa era una previsione verificata in modo spettacolare."
+     ]
+    },
+    {
+     "h": "Le piccole differenze",
+     "p": [
+      "La radiazione di fondo è straordinariamente uniforme: la stessa temperatura in tutte le direzioni, con variazioni di appena una parte su centomila. Queste minuscole variazioni, misurate dai satelliti COBE, WMAP e Planck dell'ESA, sono i semi da cui la gravità ha fatto crescere galassie e ammassi.",
+      "Dallo schema delle variazioni i cosmologi hanno ricavato con grande precisione l'età dell'universo, la sua composizione e la sua geometria. Le misure mostrano che l'universo è alla densità critica, cioè geometricamente piatto, e che la materia ordinaria è solo una piccola parte del totale."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Una piccola parte del fruscio di una vecchia TV analogica non sintonizzata era radiazione cosmica di fondo: la luce del Big Bang nel tuo salotto.",
+   "mistakes": [
+    "\"Il Big Bang è solo una teoria non verificata\": la radiazione di fondo ne è una conferma diretta.",
+    "\"La radiazione di fondo viene da un punto\": arriva uniformemente da tutte le direzioni.",
+    "\"L'universo è sempre stato trasparente\": per 380.000 anni era opaco."
+   ],
+   "terms": [
+    {
+     "t": "Radiazione cosmica di fondo",
+     "d": "Luce residua dell'universo primordiale, oggi microonde."
+    },
+    {
+     "t": "Ricombinazione",
+     "d": "Formazione degli atomi neutri quando l'universo divenne trasparente."
+    },
+    {
+     "t": "Nucleosintesi primordiale",
+     "d": "Formazione dell'elio nei primi minuti."
+    },
+    {
+     "t": "Planck",
+     "d": "Satellite europeo che ha mappato la radiazione di fondo."
+    }
+   ],
+   "quote": {
+    "text": "One success of the theory of the first few minutes of the universe is the correct prediction of the amount of helium in the universe.",
+    "translation": "Uno dei successi della teoria dei primi minuti dell'universo è la previsione corretta della quantità di elio presente nell'universo."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "29.4 The cosmic microwave background",
+     "url": "https://openstax.org/books/astronomy-2e/pages/29-4-the-cosmic-microwave-background"
+    }
+   ],
+   "videos": [
+    {
+     "id": "3tCMd1ytvWg",
+     "title": "Cosmic Microwave Background Explained",
+     "channel": "PBS Space Time",
+     "length": "7:10"
+    },
+    {
+     "id": "AYFDN2DSVgc",
+     "title": "What is the Cosmic Microwave Background?",
+     "channel": "Fermilab",
+     "length": "7:36"
+    }
+   ],
+   "videoQuery": "cosmic microwave background",
+   "addedAt": "2026-11-04T11:32:29Z"
+  },
+  {
+   "id": "composizione-universo",
+   "subject": "astronomia",
+   "chapter": "Galassie e cosmo",
+   "title": "Di cosa è fatto l'universo: 5% materia, 95% mistero",
+   "hook": "Le stelle, i pianeti e noi siamo solo il 5% dell'universo. Il resto è materia oscura ed energia oscura, che non sappiamo cosa siano.",
+   "points": [
+    "Il bilancio dell'universo",
+    "Materia ordinaria: dove si trova",
+    "Materia oscura",
+    "Energia oscura e il destino dell'universo"
+   ],
+   "sections": [
+    {
+     "h": "Il bilancio",
+     "p": [
+      "Combinando la radiazione cosmica di fondo, la distribuzione delle galassie, le supernove lontane e altre misure, i cosmologi hanno ottenuto un bilancio dell'universo. Il modello assume che la relatività generale sia la teoria corretta della gravità in tutto l'universo.",
+      "Il risultato è sorprendente: la materia ordinaria, fatta di atomi, costituisce solo circa il 5% del contenuto di energia dell'universo. La materia oscura circa il 27%. Il resto, circa il 68%, è energia oscura."
+     ]
+    },
+    {
+     "h": "La materia ordinaria",
+     "p": [
+      "Anche della materia ordinaria vediamo poco: le stelle e le galassie luminose ne contengono solo una piccola frazione. La maggior parte è gas diffuso e caldo tra le galassie e negli ammassi, difficile da osservare.",
+      "Gli elementi più pesanti dell'elio, quelli che formano pianeti e persone, sono una frazione minuscola di questa piccola frazione. Siamo fatti di una delle sostanze più rare dell'universo."
+     ]
+    },
+    {
+     "h": "Materia oscura",
+     "p": [
+      "La materia oscura si rivela solo con la gravità: fa ruotare le galassie più in fretta, tiene insieme gli ammassi, devia la luce nelle lenti gravitazionali, e senza di essa le strutture cosmiche non si sarebbero formate in tempo. La materia oscura c'è, ma non sappiamo ancora in che forma sia.",
+      "Non può essere fatta di atomi normali: lo esclude la quantità di elementi leggeri prodotti nei primi minuti, che dipende dalla densità della materia ordinaria. Deve essere un tipo di particella ancora sconosciuto, cercato con esperimenti sotterranei, come quelli dei Laboratori del Gran Sasso, con acceleratori e telescopi."
+     ]
+    },
+    {
+     "h": "Energia oscura e futuro",
+     "p": [
+      "L'energia oscura è ancora più misteriosa: è la causa dell'accelerazione dell'espansione. Sembra distribuita uniformemente nello spazio e potrebbe essere un'energia del vuoto stesso, la costante cosmologica, ma le previsioni teoriche sulla sua intensità sono enormemente sbagliate. Alcune misure recenti suggeriscono che possa cambiare nel tempo.",
+      "Se l'energia oscura resta costante, l'universo continuerà ad espandersi per sempre, sempre più velocemente: le galassie lontane spariranno dalla vista, le stelle si spegneranno una dopo l'altra, e l'universo diventerà freddo e buio, in un futuro lontanissimo. Capire materia ed energia oscura è una delle sfide più grandi della scienza di questo secolo. La missione europea Euclid, lanciata nel 2023, sta mappando l'universo proprio per studiarle."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Se l'universo fosse una pizza divisa in 20 fette, la materia di cui siamo fatti sarebbe una sola fetta.",
+   "mistakes": [
+    "\"L'universo è fatto soprattutto di stelle\": la materia ordinaria è solo il 5%.",
+    "\"Materia oscura ed energia oscura sono la stessa cosa\": la prima attrae, la seconda accelera l'espansione.",
+    "\"La materia oscura sono buchi neri o gas scuro\": deve essere qualcosa di diverso dagli atomi normali."
+   ],
+   "terms": [
+    {
+     "t": "Materia ordinaria",
+     "d": "Materia fatta di atomi, circa il 5%."
+    },
+    {
+     "t": "Materia oscura",
+     "d": "Materia invisibile rivelata dalla gravità, circa il 27%."
+    },
+    {
+     "t": "Energia oscura",
+     "d": "Causa dell'accelerazione, circa il 68%."
+    },
+    {
+     "t": "Euclid",
+     "d": "Missione europea per studiare materia ed energia oscura."
+    }
+   ],
+   "quote": {
+    "text": "Dark matter also remains, but we do not yet know what form it is in.",
+    "translation": "Resta anche la materia oscura, ma non sappiamo ancora in che forma si trovi."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "29.5 What is the universe really made of",
+     "url": "https://openstax.org/books/astronomy-2e/pages/29-5-what-is-the-universe-really-made-of"
+    }
+   ],
+   "videos": [
+    {
+     "id": "QAa2O_8wBUQ",
+     "title": "What is Dark Matter and Dark Energy?",
+     "channel": "Kurzgesagt – In a Nutshell",
+     "length": "6:21"
+    },
+    {
+     "id": "HrChSizLT44",
+     "title": "Dark Matter and Dark Energy: Possibilities and Projections",
+     "channel": "Professor Dave Explains",
+     "length": "11:37"
+    }
+   ],
+   "videoQuery": "dark energy what is the universe made of",
+   "addedAt": "2026-11-04T11:32:29Z"
+  },
+  {
+   "id": "inflazione",
+   "subject": "astronomia",
+   "chapter": "Galassie e cosmo",
+   "title": "L'inflazione cosmica e il principio antropico",
+   "hook": "Perché l'universo è così uniforme e piatto? Forse nei primi istanti si è gonfiato a una velocità inimmaginabile. E perché le leggi della natura permettono la nostra esistenza?",
+   "points": [
+    "I problemi del Big Bang classico",
+    "L'idea dell'inflazione",
+    "Le prove a favore",
+    "Il principio antropico"
+   ],
+   "sections": [
+    {
+     "h": "Due enigmi",
+     "p": [
+      "Il modello del Big Bang spiega moltissime osservazioni, ma lascia aperti due problemi. Il primo è l'uniformità: la radiazione cosmica di fondo ha la stessa temperatura in direzioni opposte del cielo, ma quelle regioni non avrebbero mai avuto il tempo di \"comunicare\" e uniformarsi, perché la velocità massima con cui l'informazione può viaggiare è quella della luce.",
+      "Il secondo è la piattezza: l'universo è molto vicino alla densità critica, geometricamente piatto. Ma qualsiasi piccola differenza all'inizio sarebbe cresciuta enormemente nel tempo: per essere così piatto oggi, l'universo doveva essere regolato con una precisione incredibile all'inizio."
+     ]
+    },
+    {
+     "h": "L'inflazione",
+     "p": [
+      "Nel 1980 il fisico Alan Guth propose una soluzione: in una frazione infinitesimale di secondo dopo l'inizio, l'universo avrebbe attraversato una fase di espansione velocissima ed esponenziale, aumentando le sue dimensioni di un fattore enorme, forse 10⁵⁰ volte, in circa 10⁻³² secondi. Un modello di universo in cui avviene questa rapida espansione iniziale si chiama universo inflazionario.",
+      "L'inflazione risolve entrambi i problemi. Prima dell'inflazione, le regioni oggi lontanissime erano vicine e potevano uniformarsi. E una crescita così enorme \"spiana\" qualsiasi curvatura, come la superficie di un palloncino gigante sembra piatta a chi ci sta sopra. Dopo questa fase, il modello inflazionario e quello classico coincidono per tutti i tempi successivi a circa 10⁻³⁰ secondi."
+     ]
+    },
+    {
+     "h": "Prove e limiti",
+     "p": [
+      "L'inflazione prevede anche che minuscole fluttuazioni quantistiche, gonfiate a scale cosmiche, diventino i semi delle galassie. Lo schema delle variazioni nella radiazione cosmica di fondo misurato dal satellite Planck è in accordo con queste previsioni.",
+      "Non abbiamo però ancora una prova diretta, come le onde gravitazionali primordiali che l'inflazione dovrebbe aver prodotto, e non sappiamo cosa l'abbia causata. Prima ancora, il periodo dall'istante zero a 10⁻⁴³ secondi si chiama tempo di Planck: lì servirebbe una teoria della gravità quantistica che non abbiamo."
+     ]
+    },
+    {
+     "h": "Il principio antropico",
+     "p": [
+      "Le costanti della natura sembrano regolate con precisione per permettere la vita: se la forza nucleare forte fosse un po' più debole non si formerebbero elementi pesanti; se la gravità fosse molto più forte le stelle brucerebbero troppo in fretta. Perché l'universo ha proprio le proprietà adatte alla nostra esistenza?",
+      "Il principio antropico osserva che non potremmo trovarci in un universo in cui la vita è impossibile: il fatto che siamo qui a porci la domanda seleziona un universo adatto. Alcuni cosmologi collegano questa idea all'ipotesi di un multiverso, con molti universi dalle proprietà diverse. È un tema affascinante ma molto dibattuto, al confine tra scienza e filosofia, perché è difficile da verificare con osservazioni."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Se gonfi un palloncino fino a renderlo grande come la Terra, una formica sulla sua superficie la vedrebbe perfettamente piatta: è l'idea con cui l'inflazione spiega la piattezza.",
+   "mistakes": [
+    "\"L'inflazione è la stessa cosa del Big Bang\": è una fase brevissima all'inizio dell'espansione.",
+    "\"L'inflazione è dimostrata con certezza\": è sostenuta da indizi ma non provata direttamente.",
+    "\"Il principio antropico spiega perché le costanti hanno quei valori\": osserva solo che dobbiamo trovarci in un universo adatto alla vita."
+   ],
+   "terms": [
+    {
+     "t": "Inflazione cosmica",
+     "d": "Espansione rapidissima nei primi istanti."
+    },
+    {
+     "t": "Problema dell'orizzonte",
+     "d": "Uniformità di regioni che non avrebbero potuto comunicare."
+    },
+    {
+     "t": "Tempo di Planck",
+     "d": "I primi 10⁻⁴³ secondi, che richiedono la gravità quantistica."
+    },
+    {
+     "t": "Principio antropico",
+     "d": "L'universo osservato deve permettere l'esistenza di osservatori."
+    }
+   ],
+   "quote": {
+    "text": "A model universe in which this rapid, early expansion occurs is called an inflationary universe.",
+    "translation": "Un modello di universo in cui avviene questa rapida espansione iniziale si chiama universo inflazionario."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "29.6 The inflationary universe",
+     "url": "https://openstax.org/books/astronomy-2e/pages/29-6-the-inflationary-universe"
+    },
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "29.7 The anthropic principle",
+     "url": "https://openstax.org/books/astronomy-2e/pages/29-7-the-anthropic-principle"
+    }
+   ],
+   "videos": [
+    {
+     "id": "blSTTFS8Uco",
+     "title": "How Cosmic Inflation Flattened the Universe",
+     "channel": "PBS Space Time",
+     "length": "13:41"
+    },
+    {
+     "id": "xJCX2NlhdTc",
+     "title": "What Caused the Big Bang?",
+     "channel": "PBS Space Time",
+     "length": "13:28"
+    }
+   ],
+   "videoQuery": "cosmic inflation",
+   "addedAt": "2026-11-04T11:32:29Z"
+  },
+  {
+   "id": "vita-nel-cosmo",
+   "subject": "astronomia",
+   "chapter": "Vita nell'universo",
+   "title": "L'astrobiologia: le origini della vita e gli ingredienti cosmici",
+   "hook": "Carbonio, acqua ed energia: gli ingredienti della vita sono comuni nell'universo. Cosa sappiamo di come è nata la vita sulla Terra e dove potrebbe esistere altrove.",
+   "points": [
+    "La vita nel contesto cosmico",
+    "Gli ingredienti: carbonio e acqua",
+    "Le origini della vita sulla Terra",
+    "Gli estremofili e l'abitabilità"
+   ],
+   "sections": [
+    {
+     "h": "Una domanda antica",
+     "p": [
+      "Siamo soli nell'universo? È una delle domande più antiche dell'umanità, e oggi una scienza, l'astrobiologia, la affronta con gli strumenti di biologia, chimica, geologia e astronomia.",
+      "Da una prospettiva planetaria, i pianeti di dimensioni simili alla Terra non sono insoliti: molte stelle ne hanno, e molti si trovano nella zona in cui l'acqua potrebbe essere liquida. La vita sulla Terra è nata presto, nei primi miliardi di anni, il che fa pensare che, date le condizioni giuste, possa non essere un evento rarissimo. Ma un solo esempio non basta per saperlo."
+     ]
+    },
+    {
+     "h": "Gli ingredienti",
+     "p": [
+      "Tutta la vita conosciuta si basa sulla chimica del carbonio, capace di formare catene e anelli complessi. Particolarmente importanti sono gli idrocarburi, composti fatti solo di idrogeno e carbonio, alla base della nostra chimica biologica, insieme ad azoto, ossigeno, fosforo e zolfo.",
+      "Questi elementi sono tra i più comuni dell'universo, prodotti dalle stelle. Molecole organiche si trovano nelle nubi interstellari, nelle comete e nei meteoriti, alcuni dei quali contengono amminoacidi. L'acqua liquida è il secondo ingrediente essenziale: un solvente in cui le molecole possono incontrarsi e reagire. Il terzo è una fonte di energia, dalla luce di una stella o dalla chimica delle rocce."
+     ]
+    },
+    {
+     "h": "Come è nata la vita",
+     "p": [
+      "Non sappiamo ancora come sia nata la vita sulla Terra. Esperimenti come quello di Miller e Urey mostrano che molecole biologiche semplici possono formarsi spontaneamente. Una delle ipotesi più studiate è il \"mondo a RNA\": l'RNA, che può sia conservare informazione sia catalizzare reazioni, potrebbe essere stato la prima molecola capace di copiarsi.",
+      "I luoghi candidati per l'origine della vita includono le sorgenti idrotermali sul fondo degli oceani, ricche di energia chimica, e pozze sulla terraferma che si asciugavano e si riempivano. Tutta la vita sulla Terra discende da un antenato comune, come mostra il codice genetico condiviso da tutti gli organismi."
+     ]
+    },
+    {
+     "h": "Vita ai limiti",
+     "p": [
+      "Sulla Terra la vita prospera in ambienti che un tempo si ritenevano impossibili: sorgenti bollenti oltre i 100 °C, acque acidissime o salatissime, rocce a chilometri di profondità, ghiacci antartici. Questi organismi si chiamano estremofili.",
+      "Gli estremofili ampliano la lista dei luoghi dove la vita potrebbe esistere altrove: il sottosuolo di Marte, gli oceani sotto il ghiaccio di Europa ed Encelado. Il concetto di abitabilità non si limita più alla superficie di pianeti simili alla Terra."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Nelle sorgenti calde del parco di Yellowstone vivono batteri a temperature vicine all'ebollizione: un enzima di uno di loro è usato nei test PCR di laboratorio.",
+   "mistakes": [
+    "\"La vita ha bisogno di condizioni simili alle nostre\": gli estremofili vivono in ambienti estremi.",
+    "\"Gli ingredienti della vita sono rari\": carbonio e acqua sono molto comuni nell'universo.",
+    "\"Sappiamo come è nata la vita\": è ancora una domanda aperta."
+   ],
+   "terms": [
+    {
+     "t": "Astrobiologia",
+     "d": "Studio dell'origine, evoluzione e diffusione della vita nell'universo."
+    },
+    {
+     "t": "Mondo a RNA",
+     "d": "Ipotesi di una fase iniziale della vita basata sull'RNA."
+    },
+    {
+     "t": "Estremofilo",
+     "d": "Organismo che vive in condizioni estreme."
+    },
+    {
+     "t": "Abitabilità",
+     "d": "Insieme di condizioni che permettono la vita."
+    }
+   ],
+   "quote": {
+    "text": "From a planetary perspective, Earth-size planets are not unusual.",
+    "translation": "Da una prospettiva planetaria, i pianeti di dimensioni simili alla Terra non sono insoliti."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "30.1 The cosmic context for life",
+     "url": "https://openstax.org/books/astronomy-2e/pages/30-1-the-cosmic-context-for-life"
+    },
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "30.2 Astrobiology",
+     "url": "https://openstax.org/books/astronomy-2e/pages/30-2-astrobiology"
+    }
+   ],
+   "videos": [
+    {
+     "id": "7EqrMl1HJi0",
+     "title": "Astrobiology and the origin of life | Zita Martins | TEDxPorto",
+     "channel": "TEDx Talks",
+     "length": "14:02"
+    },
+    {
+     "id": "3ynnrrXz_9I",
+     "title": "How Did Life Begin on Earth? We Asked a NASA Expert",
+     "channel": "NASA",
+     "length": "1:43"
+    }
+   ],
+   "videoQuery": "astrobiology origin of life",
+   "addedAt": "2026-11-04T11:32:29Z"
+  },
+  {
+   "id": "vita-oltre-la-terra",
+   "subject": "astronomia",
+   "chapter": "Vita nell'universo",
+   "title": "Cercare la vita oltre la Terra",
+   "hook": "Rover su Marte, sonde verso le lune ghiacciate, telescopi che analizzano le atmosfere di pianeti lontani: dove e come stiamo cercando la vita.",
+   "points": [
+    "Due strategie di ricerca",
+    "Marte",
+    "Le lune ghiacciate",
+    "Le biofirme nei pianeti di altre stelle"
+   ],
+   "sections": [
+    {
+     "h": "Due strade",
+     "p": [
+      "La ricerca di vita oltre la Terra segue due strade. La prima è l'esplorazione diretta dei pianeti del nostro Sistema solare, soprattutto Marte e alcune lune ghiacciate dei pianeti esterni. La seconda, ancora più difficile, è la ricerca di segni di vita, chiamati biofirme o biomarcatori, su pianeti che orbitano intorno ad altre stelle.",
+      "In entrambi i casi la sfida è riconoscere una prova convincente: segnali che non possano essere spiegati da processi non biologici."
+     ]
+    },
+    {
+     "h": "Marte",
+     "p": [
+      "Marte è il primo candidato, perché in passato aveva acqua liquida in superficie. I rover Curiosity e Perseverance analizzano le rocce di antichi laghi: Curiosity ha praticato i primi fori in rocce argillose e vi ha trovato molecole organiche e tutti gli ingredienti necessari alla vita, segno che il cratere Gale fu abitabile. Perseverance raccoglie campioni da riportare sulla Terra.",
+      "Ad oggi non ci sono prove di vita su Marte. Se esiste oggi, è probabilmente microscopica e nascosta nel sottosuolo, protetta dalla radiazione. Il metano rilevato a volte nell'atmosfera marziana potrebbe avere origine biologica o geologica: è ancora un mistero."
+     ]
+    },
+    {
+     "h": "Lune con oceani",
+     "p": [
+      "Europa, luna di Giove, ed Encelado, luna di Saturno, hanno oceani di acqua salata sotto la crosta di ghiaccio, in contatto con il fondale roccioso: potrebbero avere sorgenti idrotermali simili a quelle dove forse è nata la vita sulla Terra. La sonda Europa Clipper è in viaggio verso Giove.",
+      "Titano, con la sua chimica organica ricchissima e laghi di metano, è un ambiente diverso, in cui la vita, se esistesse, dovrebbe essere molto diversa dalla nostra. La missione Dragonfly lo esplorerà con un drone."
+     ]
+    },
+    {
+     "h": "Biofirme lontane",
+     "p": [
+      "Per i pianeti di altre stelle non possiamo inviare sonde: dobbiamo analizzare la luce. Quando un pianeta passa davanti alla sua stella, una piccola parte della luce attraversa la sua atmosfera, che vi imprime le righe dei gas presenti. Il telescopio James Webb ha già identificato vapore acqueo, anidride carbonica e altri gas in atmosfere di pianeti lontani.",
+      "Una biofirma potrebbe essere una combinazione di gas che non dovrebbero coesistere senza la vita, come ossigeno e metano insieme, come nella nostra atmosfera. La presenza di anidride carbonica e vapore produce l'effetto serra, lo stesso che preoccupa per il riscaldamento globale terrestre, e aiuta a capire il clima di questi mondi. Interpretare questi segnali è difficile, e gli scienziati sono molto cauti: annunci affrettati sono stati più volte ridimensionati."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Se un astronomo alieno analizzasse la luce della Terra, troverebbe ossigeno e metano insieme: un indizio forte che qui c'è vita.",
+   "mistakes": [
+    "\"È stata trovata vita su Marte\": finora non ci sono prove.",
+    "\"La vita può esistere solo su pianeti come la Terra\": anche le lune ghiacciate sono candidate.",
+    "\"Un solo gas basta a dimostrare la vita\": servono combinazioni e contesto."
+   ],
+   "terms": [
+    {
+     "t": "Biofirma",
+     "d": "Segno misurabile della presenza di vita."
+    },
+    {
+     "t": "Spettroscopia di transito",
+     "d": "Analisi della luce stellare filtrata dall'atmosfera di un pianeta."
+    },
+    {
+     "t": "Europa Clipper",
+     "d": "Sonda NASA diretta verso Europa."
+    },
+    {
+     "t": "Oceano sotterraneo",
+     "d": "Acqua liquida sotto la crosta ghiacciata di una luna."
+    }
+   ],
+   "quote": {
+    "text": "First is the direct exploration of planets within our own solar system, especially Mars and some of the icy moons of the outer solar system.",
+    "translation": "La prima è l'esplorazione diretta dei pianeti del nostro sistema solare, soprattutto Marte e alcune lune ghiacciate del sistema solare esterno."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "30.3 Searching for life beyond earth",
+     "url": "https://openstax.org/books/astronomy-2e/pages/30-3-searching-for-life-beyond-earth"
+    }
+   ],
+   "videos": [
+    {
+     "id": "DJO_9auJhJQ",
+     "title": "We Might Find Alien Life In 1,603 Days",
+     "channel": "Veritasium",
+     "length": "17:55"
+    },
+    {
+     "id": "wfzmpIOVpf4",
+     "title": "Is There Potential for Life on Europa? We Asked a NASA Expert",
+     "channel": "NASA",
+     "length": "1:36"
+    }
+   ],
+   "videoQuery": "search for life europa enceladus mars",
+   "addedAt": "2026-11-04T11:32:29Z"
+  },
+  {
+   "id": "seti",
+   "subject": "astronomia",
+   "chapter": "Vita nell'universo",
+   "title": "SETI: la ricerca di civiltà extraterrestri",
+   "hook": "Dal 1960 si ascolta il cielo alla ricerca di segnali intelligenti. L'equazione di Drake, il paradosso di Fermi e i messaggi che abbiamo inviato noi.",
+   "points": [
+    "La nascita di SETI",
+    "L'equazione di Drake",
+    "Il paradosso di Fermi",
+    "I messaggi dell'umanità"
+   ],
+   "sections": [
+    {
+     "h": "Ascoltare il cielo",
+     "p": [
+      "Se esistono civiltà tecnologiche altrove, potremmo rivelarne i segnali. Avendo deciso che le onde radio sono il mezzo più probabile di comunicazione tra civiltà intelligenti, restano molte domande e un compito immenso: su quali frequenze, in quale direzione, quando ascoltare? Gli astronomi parlano di cercare un ago in un \"pagliaio cosmico\".",
+      "La prima ricerca fu condotta dall'astronomo Frank Drake nel 1960, con l'antenna da 85 piedi del National Radio Astronomy Observatory, ascoltando due stelle vicine. Non trovò nulla, ma dimostrò che avevamo la tecnologia per una ricerca simile, preparando la strada ai progetti più sofisticati che seguirono. Le onde radio sono adatte perché non vengono assorbite in modo significativo dalla polvere e dal gas interstellari."
+     ]
+    },
+    {
+     "h": "L'equazione di Drake",
+     "p": [
+      "Nel 1961 Drake propose un'equazione per stimare quante civiltà capaci di comunicare potrebbero esistere nella nostra galassia. Moltiplica una serie di fattori: quante stelle nascono, quante hanno pianeti, quanti pianeti sono adatti alla vita, su quanti la vita nasce davvero, su quanti diventa intelligente e tecnologica, e per quanto tempo una civiltà resta capace di comunicare.",
+      "I primi fattori oggi li conosciamo abbastanza bene: le stelle con pianeti sono comuni. Gli altri sono del tutto ignoti: le stime vanno da meno di una civiltà nella Galassia a milioni. L'equazione non dà una risposta, ma organizza le domande."
+     ]
+    },
+    {
+     "h": "Dove sono tutti?",
+     "p": [
+      "Il fisico italiano Enrico Fermi, si racconta, chiese a pranzo: \"Ma dove sono tutti?\". Se le civiltà sono comuni e alcune sono molto più antiche della nostra, avrebbero avuto tutto il tempo di colonizzare la Galassia: perché non ne vediamo traccia? È il paradosso di Fermi.",
+      "Le risposte proposte sono molte: forse la vita intelligente è rarissima; forse le civiltà si autodistruggono o durano poco; forse le distanze sono troppo grandi; forse non cerchiamo nel modo giusto. Nessuna è dimostrata. Progetti come Breakthrough Listen continuano a scandagliare milioni di stelle; finora nessun segnale artificiale confermato."
+     ]
+    },
+    {
+     "h": "I nostri messaggi",
+     "p": [
+      "Anche noi abbiamo mandato messaggi. Nel 1974 il radiotelescopio di Arecibo inviò un messaggio verso l'ammasso globulare M13, a 25.000 anni luce. Le sonde Pioneer portano placche con disegni, e le Voyager un disco d'oro con suoni e immagini della Terra.",
+      "Sul disco delle Voyager c'è anche un messaggio del presidente americano Jimmy Carter, che si conclude con una frase toccante: \"Stiamo cercando di sopravvivere al nostro tempo per poter vivere nel vostro\". È difficile che qualcuno lo trovi mai, ma racconta qualcosa di noi."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Le prime trasmissioni radio e TV umane viaggiano nello spazio da circa un secolo: hanno raggiunto qualche migliaio di stelle, una parte minuscola della Galassia.",
+   "mistakes": [
+    "\"SETI ha trovato segnali alieni\": nessun segnale artificiale è stato confermato.",
+    "\"L'equazione di Drake dà un numero preciso\": molti fattori sono sconosciuti.",
+    "\"Gli UFO sono la prova di civiltà extraterrestri\": non esistono prove scientifiche in tal senso."
+   ],
+   "terms": [
+    {
+     "t": "SETI",
+     "d": "Ricerca di intelligenza extraterrestre."
+    },
+    {
+     "t": "Equazione di Drake",
+     "d": "Stima del numero di civiltà comunicanti nella Galassia."
+    },
+    {
+     "t": "Paradosso di Fermi",
+     "d": "Contrasto tra probabilità di civiltà aliene e assenza di prove."
+    },
+    {
+     "t": "Disco d'oro delle Voyager",
+     "d": "Messaggio dell'umanità a bordo delle sonde Voyager."
+    }
+   ],
+   "quote": {
+    "text": "The very first search was conducted by astronomer Frank Drake in 1960, using the 85-foot antenna at the National Radio Astronomy Observatory (Figure 30.19).",
+    "translation": "La primissima ricerca fu condotta dall'astronomo Frank Drake nel 1960, usando l'antenna da 85 piedi del National Radio Astronomy Observatory (Figura 30.19)."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "30.4 The search for extraterrestrial intelligence",
+     "url": "https://openstax.org/books/astronomy-2e/pages/30-4-the-search-for-extraterrestrial-intelligence"
+    }
+   ],
+   "videos": [
+    {
+     "id": "6AnLznzIjSE",
+     "title": "Calculating The Odds of Intelligent Alien Life - Jill Tarter",
+     "channel": "TED-Ed",
+     "length": "7:27"
+    }
+   ],
+   "videoQuery": "SETI drake equation fermi paradox",
+   "addedAt": "2026-11-04T11:32:29Z"
   }
  ]
 }
