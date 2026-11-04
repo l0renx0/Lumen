@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-04T00:51:16Z",
+ "updatedAt": "2026-11-04T00:56:16Z",
  "subjects": [
   {
    "id": "fisica",
@@ -4884,6 +4884,11 @@
      "name": "OpenStax · College Physics 2e",
      "title": "15.6 Entropy and the Second Law of Thermodynamics",
      "url": "https://openstax.org/books/college-physics-2e/pages/15-6-entropy-and-the-second-law-of-thermodynamics-disorder-and-the-unavailability-of-energy"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "15.7 Statistical Interpretation of Entropy",
+     "url": "https://openstax.org/books/college-physics-2e/pages/15-7-statistical-interpretation-of-entropy-and-the-second-law-of-thermodynamics-the-underlying-explanation"
     },
     {
      "name": "OpenStax · College Physics 2e",
@@ -12865,6 +12870,11 @@
      "name": "OpenStax · Psychology 2e",
      "title": "6.1 What Is Learning?",
      "url": "https://openstax.org/books/psychology-2e/pages/6-1-what-is-learning"
+    },
+    {
+     "name": "OpenStax · Psychology 2e",
+     "title": "6.1 What Is Learning?",
+     "url": "https://openstax.org/books/psychology-2e/pages/6-1-what-is-learning"
     }
    ],
    "videos": [
@@ -12958,6 +12968,194 @@
     }
    ],
    "formulas": []
+  },
+  {
+   "id": "concetti-e-schemi",
+   "subject": "psicologia",
+   "chapter": "Memoria e pensiero",
+   "title": "Concetti, prototipi e schemi: come la mente organizza il mondo",
+   "hook": "Che cos'è un uccello? Probabilmente pensi a un passero, non a un pinguino. La mente organizza le conoscenze in categorie, esempi tipici e copioni.",
+   "points": [
+    "Che cosa studia la psicologia cognitiva",
+    "Concetti naturali e artificiali",
+    "I prototipi",
+    "Gli schemi e i copioni"
+   ],
+   "sections": [
+    {
+     "h": "Studiare il pensiero",
+     "p": [
+      "La psicologia cognitiva è il campo della psicologia dedicato a studiare come le persone pensano: come percepiscono, ricordano, ragionano, risolvono problemi e usano il linguaggio. La cognizione è l'insieme di questi processi.",
+      "Il cervello riceve continuamente un'enorme quantità di informazioni. Per non esserne sommerso, le organizza in strutture che permettono di riconoscere le cose rapidamente e di fare previsioni."
+     ]
+    },
+    {
+     "h": "Concetti",
+     "p": [
+      "Un concetto è una categoria che raggruppa oggetti, eventi o idee con caratteristiche comuni: \"cane\", \"mobile\", \"giustizia\". I concetti possono essere concreti o astratti, ampi o ristretti.",
+      "Alcuni concetti sono artificiali, definiti da regole precise: un quadrato è una figura con quattro lati uguali e quattro angoli retti. Altri sono naturali, appresi con l'esperienza e dai confini sfumati: che cosa rende un oggetto una \"sedia\"? Uno sgabello lo è? E un pouf?"
+     ]
+    },
+    {
+     "h": "Prototipi",
+     "p": [
+      "Un'altra tecnica usata dal cervello per organizzare le informazioni è l'identificazione di prototipi per i concetti. Un prototipo è l'esempio migliore o più rappresentativo di un concetto. Se si chiede di pensare a un uccello, la maggior parte delle persone pensa a qualcosa di simile a un passero o a un pettirosso, non a un pinguino o a uno struzzo.",
+      "Per decidere se qualcosa appartiene a una categoria, confrontiamo il nuovo oggetto con il prototipo: più gli somiglia, più rapidamente lo classifichiamo. È per questo che si risponde più in fretta alla domanda \"un passero è un uccello?\" che alla domanda \"un pinguino è un uccello?\".",
+      "I prototipi dipendono anche dalla cultura e dall'esperienza: per chi vive in Australia, l'uccello tipico potrebbe essere diverso."
+     ]
+    },
+    {
+     "h": "Schemi e copioni",
+     "p": [
+      "Uno schema è un concetto mentale che ci dice che cosa aspettarci in una certa situazione, basato sulle esperienze passate. Esistono schemi di ruolo, sulle persone che occupano certi ruoli (un medico, un insegnante), e schemi di evento, chiamati anche copioni, sulle sequenze tipiche di azioni.",
+      "Il copione del ristorante, per esempio, prevede di entrare, sedersi, ordinare, mangiare, pagare e uscire. Grazie ai copioni ci comportiamo in modo appropriato senza dover pensare a ogni passaggio. Gli schemi di evento sono anche il motivo per cui molte abitudini sono difficili da abbandonare una volta acquisite.",
+      "Gli schemi sono efficienti ma possono ingannarci: ci fanno notare ciò che si accorda con le aspettative e trascurare il resto, e possono alimentare stereotipi quando li applichiamo rigidamente alle persone."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Entrando in un ristorante in un paese straniero, ti senti spaesato perché il tuo copione non funziona: forse si paga prima, forse si ordina al banco.",
+   "mistakes": [
+    "\"Le categorie hanno sempre confini netti\": molti concetti naturali hanno confini sfumati.",
+    "\"Classifichiamo le cose confrontando tutte le loro caratteristiche\": spesso usiamo un prototipo.",
+    "\"Gli schemi sono sempre utili\": possono farci vedere solo ciò che ci aspettiamo."
+   ],
+   "terms": [
+    {
+     "t": "Cognizione",
+     "d": "Insieme dei processi del pensiero."
+    },
+    {
+     "t": "Concetto",
+     "d": "Categoria di cose con caratteristiche comuni."
+    },
+    {
+     "t": "Prototipo",
+     "d": "Esempio più rappresentativo di un concetto."
+    },
+    {
+     "t": "Schema",
+     "d": "Struttura mentale che dice cosa aspettarsi."
+    }
+   ],
+   "quote": {
+    "text": "A prototype is the best example or representation of a concept.",
+    "translation": "Un prototipo è il miglior esempio o la migliore rappresentazione di un concetto."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Psychology 2e",
+     "title": "7.1 What is cognition",
+     "url": "https://openstax.org/books/psychology-2e/pages/7-1-what-is-cognition"
+    }
+   ],
+   "videos": [
+    {
+     "id": "iv9j3UwDHEk",
+     "title": "Psychology - Schema Theory",
+     "channel": "Cognito",
+     "length": "5:48"
+    }
+   ],
+   "videoQuery": "cognition concepts prototypes psychology",
+   "addedAt": "2026-11-04T00:56:16Z"
+  },
+  {
+   "id": "linguaggio",
+   "subject": "psicologia",
+   "chapter": "Memoria e pensiero",
+   "title": "Il linguaggio: dai suoni ai significati, e come lo imparano i bambini",
+   "hook": "Fonemi, morfemi, grammatica e significato: il linguaggio è un sistema straordinario che ogni bambino impara quasi da solo. E influenza davvero il modo in cui pensiamo?",
+   "points": [
+    "Gli elementi del linguaggio",
+    "Come i bambini imparano a parlare",
+    "Il periodo critico",
+    "Linguaggio e pensiero"
+   ],
+   "sections": [
+    {
+     "h": "I mattoni del linguaggio",
+     "p": [
+      "Il linguaggio è un sistema di comunicazione che usa simboli, combinati secondo regole, per esprimere un numero infinito di significati. I suoi mattoni più piccoli sono i fonemi, i suoni di base che distinguono una parola da un'altra: \"pane\" e \"cane\" differiscono per un fonema.",
+      "I fonemi si combinano in morfemi, le unità più piccole del linguaggio che hanno un significato: in \"gattini\" ci sono il morfema \"gatt\", \"-in-\" (piccolo) e \"-i\" (plurale). La semantica è il processo con cui ricaviamo il significato da morfemi e parole; la sintassi sono le regole con cui le parole si combinano in frasi. L'insieme delle regole si chiama grammatica."
+     ]
+    },
+    {
+     "h": "Come imparano i bambini",
+     "p": [
+      "Lo sviluppo del linguaggio segue tappe sorprendentemente simili in tutte le culture. Verso i 4-6 mesi i neonati fanno la lallazione, ripetendo sillabe come \"ba-ba\". Intorno all'anno pronunciano le prime parole; verso i 18-24 mesi combinano due parole (\"pappa ancora\"), e poi il vocabolario esplode, con decine di parole nuove a settimana.",
+      "Un indizio che i bambini imparano regole e non solo copiano è la sovrageneralizzazione: l'estensione di una regola linguistica a un'eccezione. Un bambino italiano può dire \"io aprito\" invece di \"io ho aperto\" o \"l'uovo\" diventa \"le uove\": ha capito la regola e la applica anche dove non vale, cosa che non avrebbe mai sentito dagli adulti.",
+      "Il linguista Noam Chomsky sostenne che gli esseri umani nascono con una predisposizione innata al linguaggio. Lo psicologo Skinner lo vedeva come un comportamento appreso con rinforzi. Oggi si pensa che contino entrambe le cose: una predisposizione biologica e tanta interazione con chi parla con il bambino."
+     ]
+    },
+    {
+     "h": "Un periodo critico",
+     "p": [
+      "Sembra esistere un periodo sensibile, nell'infanzia, in cui il linguaggio si impara con particolare facilità. I bambini che imparano una seconda lingua da piccoli la parlano di solito senza accento; per gli adulti è molto più difficile, anche se non impossibile.",
+      "Casi tragici di bambini cresciuti in isolamento, privati del linguaggio nei primi anni, mostrano che dopo un certo punto la grammatica diventa molto difficile da acquisire pienamente."
+     ]
+    },
+    {
+     "h": "Lingua e pensiero",
+     "p": [
+      "La lingua che parliamo influenza il modo in cui pensiamo? L'ipotesi forte, secondo cui la lingua determina il pensiero, è stata abbandonata: si può pensare a cose per cui non si hanno parole.",
+      "Una versione più moderata ha però qualche sostegno: le lingue che hanno parole diverse per alcune sfumature di colore, o che descrivono lo spazio con i punti cardinali invece che con destra e sinistra, sembrano orientare l'attenzione dei parlanti verso certi aspetti del mondo.",
+      "Il linguaggio non è solo parlato: le lingue dei segni hanno grammatiche complete e si sviluppano nei bambini sordi con le stesse tappe delle lingue parlate."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Quando un bambino dice \"ho bevito\", sta dimostrando di aver capito come si forma il passato: ha solo applicato la regola a un verbo irregolare.",
+   "mistakes": [
+    "\"I bambini imparano a parlare solo imitando\": ricavano regole, come mostrano gli errori di sovrageneralizzazione.",
+    "\"Senza una parola non si può pensare un concetto\": l'ipotesi forte è stata abbandonata.",
+    "\"Le lingue dei segni sono mimica\": sono lingue complete."
+   ],
+   "terms": [
+    {
+     "t": "Fonema",
+     "d": "Suono di base che distingue le parole."
+    },
+    {
+     "t": "Morfema",
+     "d": "Unità più piccola con significato."
+    },
+    {
+     "t": "Sintassi",
+     "d": "Regole per combinare le parole."
+    },
+    {
+     "t": "Sovrageneralizzazione",
+     "d": "Applicare una regola anche alle eccezioni."
+    }
+   ],
+   "quote": {
+    "text": "In this context, overgeneralization refers to an extension of a language rule to an exception to the rule.",
+    "translation": "In questo contesto, la sovrageneralizzazione è l'estensione di una regola linguistica a un'eccezione alla regola."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Psychology 2e",
+     "title": "7.2 Language",
+     "url": "https://openstax.org/books/psychology-2e/pages/7-2-language"
+    }
+   ],
+   "videos": [
+    {
+     "id": "s9shPouRWCs",
+     "title": "Language: Crash Course Psychology #16",
+     "channel": "CrashCourse",
+     "length": "10:02"
+    },
+    {
+     "id": "A5uNFKEn4_A",
+     "title": "Psycholinguistics: Crash Course Linguistics #11",
+     "channel": "CrashCourse",
+     "length": "11:03"
+    }
+   ],
+   "videoQuery": "language crash course psychology",
+   "addedAt": "2026-11-04T00:56:16Z"
   },
   {
    "id": "euristiche",
@@ -13314,6 +13512,101 @@
    "formulas": []
   },
   {
+   "id": "memoria-nel-cervello",
+   "subject": "psicologia",
+   "chapter": "Memoria e pensiero",
+   "title": "La memoria nel cervello: ippocampo, amigdala e cervelletto",
+   "hook": "Il paziente H.M. perse la capacità di formare nuovi ricordi dopo un'operazione. Da lui e da altri studi sappiamo quali parti del cervello conservano i diversi tipi di memoria.",
+   "points": [
+    "La ricerca dell'engramma",
+    "L'ippocampo e il caso H.M.",
+    "L'amigdala e i ricordi emotivi",
+    "Cervelletto e corteccia prefrontale"
+   ],
+   "sections": [
+    {
+     "h": "Dove sono i ricordi?",
+     "p": [
+      "Per decenni gli scienziati hanno cercato l'engramma, la traccia fisica di un ricordo nel cervello. Lo psicologo Karl Lashley addestrava ratti a percorrere un labirinto e poi rimuoveva parti della loro corteccia: i ratti ricordavano comunque la strada. Concluse che i ricordi non sono conservati in un unico punto, ma distribuiti.",
+      "Oggi sappiamo che diverse strutture cerebrali partecipano a diversi tipi di memoria, e che i ricordi consistono in cambiamenti nelle connessioni tra reti di neuroni."
+     ]
+    },
+    {
+     "h": "L'ippocampo",
+     "p": [
+      "Nel 1953 un giovane, noto negli studi come H.M., subì l'asportazione di parte dei lobi temporali, compresi gran parte degli ippocampi, per curare una grave epilessia. L'epilessia migliorò, ma H.M. perse la capacità di formare nuovi ricordi espliciti: poteva conversare normalmente, ma dimenticava una persona appena usciva dalla stanza.",
+      "Sorprendentemente, H.M. poteva imparare nuove abilità motorie, come disegnare guardando in uno specchio, migliorando di giorno in giorno senza ricordare di averle mai praticate. Il suo caso mostrò che l'ippocampo è essenziale per trasformare le esperienze in ricordi duraturi di fatti ed eventi, e che esistono sistemi di memoria diversi."
+     ]
+    },
+    {
+     "h": "L'amigdala",
+     "p": [
+      "L'amigdala è coinvolta nei ricordi carichi di emozione, in particolare quelli legati alla paura. In esperimenti sui topi, i ricercatori hanno addestrato gli animali ad associare un suono a uno stimolo spiacevole e poi hanno eliminato selettivamente alcuni neuroni dell'amigdala laterale, l'area specifica responsabile dei ricordi di paura: la paura appresa scompariva.",
+      "Gli ormoni dello stress, attraverso l'amigdala, rinforzano il consolidamento dei ricordi emotivi. Per questo ricordiamo con vividezza eventi molto emozionanti, belli o brutti. I ricordi molto vividi di momenti drammatici, i \"ricordi flash\", sembrano chiarissimi, ma anche loro possono contenere errori."
+     ]
+    },
+    {
+     "h": "Cervelletto e corteccia",
+     "p": [
+      "Il cervelletto è importante per la memoria procedurale e il condizionamento classico: le abilità motorie come andare in bicicletta, suonare uno strumento, scrivere a macchina. Persone con lesioni al cervelletto possono avere difficoltà a imparare questi automatismi.",
+      "La corteccia prefrontale è coinvolta nella memoria di lavoro e nel recupero dei ricordi: negli studi di neuroimmagine, quando si chiede alle persone di riconoscere parole viste in precedenza, quest'area si attiva. I ricordi a lungo termine sembrano poi essere conservati in modo distribuito in varie aree della corteccia, legate al tipo di informazione."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Ricordi probabilmente dov'eri quando hai saputo di un evento drammatico importante, ma non cosa hai mangiato il martedì prima: è l'amigdala al lavoro.",
+   "mistakes": [
+    "\"Ogni ricordo sta in un punto preciso del cervello\": i ricordi sono distribuiti in reti.",
+    "\"Chi perde l'ippocampo non impara più nulla\": può ancora imparare abilità motorie.",
+    "\"I ricordi molto emozionanti sono sempre esatti\": sono vividi ma possono contenere errori."
+   ],
+   "terms": [
+    {
+     "t": "Engramma",
+     "d": "Traccia fisica di un ricordo."
+    },
+    {
+     "t": "Ippocampo",
+     "d": "Struttura essenziale per formare ricordi di fatti ed eventi."
+    },
+    {
+     "t": "Memoria procedurale",
+     "d": "Memoria delle abilità e delle procedure."
+    },
+    {
+     "t": "Ricordo flash",
+     "d": "Ricordo vivido di un evento emozionante."
+    }
+   ],
+   "quote": {
+    "text": "Then the researchers induced cell death in neurons in the lateral amygdala, which is the specific area of the brain responsible for fear memories.",
+    "translation": "Poi i ricercatori indussero la morte di neuroni nell'amigdala laterale, l'area specifica del cervello responsabile dei ricordi di paura."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Psychology 2e",
+     "title": "8.2 Parts of the brain involved with memory",
+     "url": "https://openstax.org/books/psychology-2e/pages/8-2-parts-of-the-brain-involved-with-memory"
+    }
+   ],
+   "videos": [
+    {
+     "id": "KkaXNvzE4pk",
+     "title": "What happens when you remove the hippocampus? - Sam Kean",
+     "channel": "TED-Ed",
+     "length": "5:26"
+    },
+    {
+     "id": "z5xo-YENr-Y",
+     "title": "The Amygdala and Unconscious Memories",
+     "channel": "Big Think",
+     "length": "3:25"
+    }
+   ],
+   "videoQuery": "hippocampus amygdala memory brain",
+   "addedAt": "2026-11-04T00:56:16Z"
+  },
+  {
    "id": "piaget",
    "subject": "psicologia",
    "chapter": "Sviluppo",
@@ -13426,6 +13719,205 @@
    "addedAt": "2026-11-04T00:12:22Z"
   },
   {
+   "id": "sviluppo-nella-vita",
+   "subject": "psicologia",
+   "chapter": "Sviluppo",
+   "title": "Lo sviluppo nell'arco della vita: dalla nascita alla vecchiaia",
+   "hook": "Come cambiamo dal concepimento alla vecchiaia? Sviluppo fisico, cognitivo e sociale, l'importanza dell'attaccamento e cosa succede da adolescenti e da adulti.",
+   "points": [
+    "Le grandi domande della psicologia dello sviluppo",
+    "Sviluppo prenatale e infanzia",
+    "L'attaccamento",
+    "Adolescenza, età adulta e vecchiaia"
+   ],
+   "sections": [
+    {
+     "h": "Le domande dello sviluppo",
+     "p": [
+      "Gli psicologi dello sviluppo studiano come gli esseri umani cambiano e crescono dal concepimento all'infanzia, all'adolescenza, all'età adulta, fino alla morte. Si occupano di tre ambiti: fisico, cognitivo e psicosociale.",
+      "Si pongono alcune grandi domande. Lo sviluppo è continuo, come una rampa, o procede a stadi, come una scala? Le teorie a stadi sostengono che la sequenza dello sviluppo sia universale. Quanto contano natura e ambiente? Lo sviluppo segue un unico percorso per tutti o percorsi diversi a seconda della cultura? Oggi si cerca di capire come personalità e caratteristiche siano il prodotto dei fattori genetici e biologici e di come vengono plasmati dall'ambiente, compresi genitori, coetanei e cultura."
+     ]
+    },
+    {
+     "h": "Prima e dopo la nascita",
+     "p": [
+      "Lo sviluppo prenatale attraversa tre fasi: germinale, embrionale e fetale. Durante la gravidanza alcune sostanze, chiamate teratogeni, possono danneggiare lo sviluppo: l'alcol, per esempio, può causare la sindrome alcolica fetale, e anche il fumo e alcuni farmaci sono rischiosi.",
+      "I neonati nascono con riflessi utili, come quello di suzione e di prensione, e con sensi già funzionanti: riconoscono la voce della madre e preferiscono guardare i volti. Nei primi anni lo sviluppo motorio procede con tappe prevedibili: sollevare la testa, stare seduti, gattonare, camminare, anche se l'età varia molto da bambino a bambino."
+     ]
+    },
+    {
+     "h": "L'attaccamento",
+     "p": [
+      "Nello sviluppo sociale ed emotivo, formare legami sani è la tappa sociale più importante della prima infanzia. L'attaccamento è un legame profondo e duraturo con altre persone.",
+      "Negli anni Cinquanta Harry Harlow mostrò che piccoli di scimmia separati dalla madre preferivano stare aggrappati a una \"madre\" artificiale di stoffa morbida piuttosto che a una di filo metallico che dava il latte: il bisogno di conforto contava più del cibo. John Bowlby sostenne che l'attaccamento ha una base evolutiva: tenere il bambino vicino a chi lo protegge.",
+      "Con la \"situazione strana\", in cui un bambino viene brevemente separato dal genitore e poi riunito, Mary Ainsworth descrisse diversi stili di attaccamento: sicuro, il più comune, ed evitante, ambivalente e disorganizzato. Un attaccamento sicuro si associa a migliori relazioni in seguito, anche se non è un destino immutabile."
+     ]
+    },
+    {
+     "h": "Adolescenza, età adulta e vecchiaia",
+     "p": [
+      "L'adolescenza porta la pubertà, grandi cambiamenti fisici, e un cervello ancora in maturazione: la corteccia prefrontale, legata al controllo degli impulsi, completa il suo sviluppo verso i 25 anni. Gli adolescenti cercano la propria identità e danno grande importanza ai coetanei.",
+      "In molte società si parla oggi di età adulta emergente, tra i 18 e i 25 anni circa, un periodo di esplorazione prima di stabilizzarsi. L'età adulta porta lavoro, relazioni, spesso figli. Con l'invecchiamento alcune capacità, come la velocità di elaborazione, diminuiscono, mentre altre, come il vocabolario e le conoscenze, restano stabili o crescono.",
+      "Molti anziani riferiscono un buon benessere emotivo, spesso maggiore di quello dei giovani adulti: sembrano concentrarsi di più sulle relazioni e sulle esperienze che contano."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Un bambino piccolo che esplora il parco ma torna ogni tanto dal genitore per \"fare il pieno\" di sicurezza mostra un attaccamento sicuro.",
+   "mistakes": [
+    "\"I neonati non capiscono niente\": riconoscono voci e preferiscono i volti fin dalla nascita.",
+    "\"L'attaccamento dipende dal cibo\": conta soprattutto il conforto.",
+    "\"Invecchiare significa solo perdere capacità\": alcune restano stabili o crescono."
+   ],
+   "terms": [
+    {
+     "t": "Sviluppo psicosociale",
+     "d": "Cambiamenti nelle relazioni e nelle emozioni."
+    },
+    {
+     "t": "Teratogeno",
+     "d": "Sostanza che può danneggiare lo sviluppo prenatale."
+    },
+    {
+     "t": "Attaccamento",
+     "d": "Legame profondo e duraturo con altre persone."
+    },
+    {
+     "t": "Età adulta emergente",
+     "d": "Periodo di esplorazione tra i 18 e i 25 anni."
+    }
+   ],
+   "quote": {
+    "text": "Attachment is a long-standing connection or bond with others.",
+    "translation": "L'attaccamento è un legame o una connessione duratura con altre persone."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Psychology 2e",
+     "title": "9.3 Stages of development",
+     "url": "https://openstax.org/books/psychology-2e/pages/9-3-stages-of-development"
+    },
+    {
+     "name": "OpenStax · Psychology 2e",
+     "title": "9.1 What is lifespan development",
+     "url": "https://openstax.org/books/psychology-2e/pages/9-1-what-is-lifespan-development"
+    }
+   ],
+   "videos": [
+    {
+     "id": "WjOowWxOXCg",
+     "title": "The Attachment Theory: How Childhood Affects Life",
+     "channel": "Sprouts",
+     "length": "7:36"
+    },
+    {
+     "id": "YcQg1EshfIE",
+     "title": "Monkeys and Morality: Crash Course Psychology #19",
+     "channel": "CrashCourse",
+     "length": "11:37"
+    }
+   ],
+   "videoQuery": "lifespan development attachment crash course",
+   "addedAt": "2026-11-04T00:56:16Z"
+  },
+  {
+   "id": "morte-e-lutto",
+   "subject": "psicologia",
+   "chapter": "Sviluppo",
+   "title": "La morte e il lutto: come affrontiamo la fine",
+   "hook": "Le cinque fasi di Kübler-Ross sono famose, ma non tutti le attraversano. Cosa dice la psicologia sul morire, sul lutto e sulle cure palliative.",
+   "points": [
+    "Il modello di Kübler-Ross",
+    "Perché il lutto non segue regole fisse",
+    "Hospice e cure palliative",
+    "Culture diverse di fronte alla morte"
+   ],
+   "sections": [
+    {
+     "h": "Le cinque fasi",
+     "p": [
+      "Elisabeth Kübler-Ross, psichiatra che lavorò con i fondatori delle cure hospice, descrisse nel 1969 il processo con cui una persona accetta la propria morte. Intervistando malati terminali, propose cinque fasi: negazione (\"non può succedere a me\"), rabbia, contrattazione (\"se guarisco, prometto che...\"), depressione e infine accettazione.",
+      "Il modello ebbe un enorme impatto: aiutò medici e familiari a parlare apertamente della morte, in un'epoca in cui spesso veniva taciuta ai pazienti. Le stesse fasi sono state poi applicate anche al lutto di chi perde una persona cara."
+     ]
+    },
+    {
+     "h": "Il lutto non segue un copione",
+     "p": [
+      "La ricerca successiva ha mostrato che le fasi non sono una sequenza obbligata. Non tutti, che si tratti di malattia o di vecchiaia, provano le emozioni negative descritte nel modello di Kübler-Ross; molte persone le vivono in ordine diverso, saltano alcune fasi o ci tornano più volte.",
+      "Molte persone in lutto mostrano una notevole resilienza: soffrono, ma nel giro di alcuni mesi riprendono a funzionare normalmente, mantenendo un legame affettivo con chi non c'è più. Per una minoranza il dolore resta intenso e invalidante per molto tempo: si parla di lutto prolungato, che può beneficiare di un aiuto specifico.",
+      "Il messaggio più utile è che non esiste un modo \"giusto\" di soffrire: aspettarsi che una persona attraversi le fasi in ordine può farla sentire sbagliata."
+     ]
+    },
+    {
+     "h": "Una morte dignitosa",
+     "p": [
+      "Per gran parte del Novecento, nei paesi occidentali, si moriva sempre più spesso in ospedale, tra macchinari, lontano da casa. Nel 1967 questa realtà cominciò a cambiare con Cicely Saunders, che creò in Inghilterra il primo hospice moderno.",
+      "Lo scopo dell'hospice è aiutare le persone a morire con dignità e senza dolore, in un ambiente umano e confortevole, di solito fuori dall'ospedale. Le cure palliative si concentrano sulla qualità della vita: controllo del dolore e dei sintomi, sostegno psicologico e spirituale, aiuto ai familiari.",
+      "Molti paesi, compresa l'Italia, hanno oggi leggi che garantiscono l'accesso alle cure palliative e alla terapia del dolore."
+     ]
+    },
+    {
+     "h": "Culture e morte",
+     "p": [
+      "Il modo di vivere la morte cambia moltissimo tra le culture. In alcune la morte è accettata come una parte naturale della vita e accolta con riti di festa e di memoria; in Messico, il Giorno dei Morti è una celebrazione colorata in cui le famiglie preparano altari e cibi per i defunti.",
+      "Altre tradizioni prevedono periodi di lutto con regole precise, veglie, abiti scuri o bianchi. Questi riti hanno una funzione psicologica: offrono una struttura in un momento di disorientamento e uniscono la comunità intorno a chi soffre."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Dopo un lutto, sentirsi bene un giorno e malissimo il successivo non significa \"tornare indietro\": è il modo normale in cui il dolore si muove.",
+   "mistakes": [
+    "\"Tutti attraversano le cinque fasi in ordine\": il lutto è molto variabile.",
+    "\"Chi non piange tanto non soffre davvero\": molte persone sono resilienti.",
+    "\"Cure palliative significa rinunciare a curare\": significa curare la qualità della vita."
+   ],
+   "terms": [
+    {
+     "t": "Modello di Kübler-Ross",
+     "d": "Cinque fasi proposte per l'accettazione della morte."
+    },
+    {
+     "t": "Hospice",
+     "d": "Struttura per l'assistenza nel fine vita."
+    },
+    {
+     "t": "Cure palliative",
+     "d": "Cure per il dolore e la qualità della vita nelle malattie gravi."
+    },
+    {
+     "t": "Resilienza",
+     "d": "Capacità di riprendersi dopo un evento difficile."
+    }
+   ],
+   "quote": {
+    "text": "The aim of hospice is to help provide a death with dignity and pain management in a humane and comfortable environment, which is usually outside of a hospital setting.",
+    "translation": "Lo scopo dell'hospice è contribuire a una morte dignitosa e alla gestione del dolore in un ambiente umano e confortevole, di solito al di fuori dell'ospedale."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Psychology 2e",
+     "title": "9.4 Death and dying",
+     "url": "https://openstax.org/books/psychology-2e/pages/9-4-death-and-dying"
+    }
+   ],
+   "videos": [
+    {
+     "id": "Zk7pOnUPL74",
+     "title": "The 5 Stages of Grief",
+     "channel": "Sprouts",
+     "length": "3:49"
+    },
+    {
+     "id": "qBoKZAC9iiI",
+     "title": "How do our brains handle grief? | Mary-Frances O'Connor | TEDxUArizona",
+     "channel": "TEDx Talks",
+     "length": "17:26"
+    }
+   ],
+   "videoQuery": "grief stages psychology",
+   "addedAt": "2026-11-04T00:56:16Z"
+  },
+  {
    "id": "motivazione",
    "subject": "psicologia",
    "chapter": "Emozioni e motivazione",
@@ -13530,6 +14022,188 @@
    ],
    "videoQuery": "motivazione intrinseca estrinseca psicologia",
    "addedAt": "2026-11-04T00:12:22Z"
+  },
+  {
+   "id": "fame",
+   "subject": "psicologia",
+   "chapter": "Emozioni e motivazione",
+   "title": "La fame: cosa ci fa mangiare (e smettere)",
+   "hook": "Ormoni, cervello, abitudini, emozioni e pubblicità: mangiare non dipende solo dallo stomaco vuoto. Metabolismo, peso e disturbi alimentari.",
+   "points": [
+    "I segnali fisiologici della fame e della sazietà",
+    "Metabolismo e peso",
+    "Fattori psicologici e sociali",
+    "Obesità e disturbi alimentari"
+   ],
+   "sections": [
+    {
+     "h": "Segnali dal corpo",
+     "p": [
+      "La fame è regolata da un dialogo tra corpo e cervello. Quando lo stomaco è vuoto produce un ormone chiamato grelina, che stimola l'appetito; quando i livelli di zucchero nel sangue scendono, il cervello lo registra.",
+      "Durante e dopo il pasto, lo stomaco che si distende e ormoni rilasciati dall'intestino segnalano la sazietà. Il tessuto adiposo produce la leptina, che informa il cervello sulle riserve di grasso. Al centro di questi segnali c'è l'ipotalamo, che integra le informazioni e regola fame e sazietà.",
+      "I segnali di sazietà impiegano una ventina di minuti a farsi sentire: per questo mangiare molto in fretta porta spesso a mangiare più del necessario."
+     ]
+    },
+    {
+     "h": "Metabolismo e peso",
+     "p": [
+      "Il tasso metabolico di una persona è la quantità di energia che consuma in un certo periodo, e varia moltissimo da individuo a individuo, anche per ragioni genetiche. Una parte importante è il metabolismo basale, l'energia consumata a riposo.",
+      "Secondo la teoria del set point, ogni persona avrebbe un peso di riferimento che il corpo tende a difendere: quando si riduce molto il cibo, il metabolismo rallenta. È uno dei motivi per cui le diete drastiche spesso falliscono nel lungo periodo.",
+      "L'indice di massa corporea (IMC, o BMI) confronta peso e altezza. È più utile per studiare le popolazioni, che è il lavoro di organizzazioni come l'OMS, che per valutare una singola persona: non distingue tra muscoli e grasso."
+     ]
+    },
+    {
+     "h": "Non solo biologia",
+     "p": [
+      "Mangiamo anche quando non abbiamo fame. Il cibo è legato a emozioni, abitudini, cultura e situazioni sociali: mangiamo di più in compagnia, davanti a porzioni grandi, quando il cibo è a portata di mano o quando siamo stressati o annoiati.",
+      "L'ambiente moderno, pieno di cibi molto calorici, economici e pubblicizzati, rende facile mangiare più del necessario. Anche segnali semplici, come l'ora del pasto o l'odore di cibo, possono scatenare l'appetito: è una forma di condizionamento."
+     ]
+    },
+    {
+     "h": "Obesità e disturbi alimentari",
+     "p": [
+      "L'obesità è in forte aumento in molti paesi ed è associata a malattie cardiovascolari, diabete di tipo 2 e alcuni tumori. Ha cause multiple: genetiche, ambientali, sociali ed economiche. Ridurla a una semplice questione di forza di volontà è sbagliato e alimenta lo stigma.",
+      "I disturbi alimentari sono malattie psicologiche serie. Nell'anoressia nervosa la persona limita in modo estremo il cibo per paura di ingrassare, con un'immagine distorta del proprio corpo: è il disturbo psicologico con il più alto tasso di mortalità. Nella bulimia nervosa si alternano abbuffate e comportamenti per compensarle, come il vomito. Nel disturbo da alimentazione incontrollata ci sono abbuffate senza compensazione.",
+      "Questi disturbi colpiscono più spesso le giovani donne, ma riguardano anche uomini e persone di tutte le età. Si possono curare, e prima si interviene, meglio è."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Mangiare davanti alla TV porta spesso a mangiare di più: l'attenzione è altrove e i segnali di sazietà passano inosservati.",
+   "mistakes": [
+    "\"Si mangia solo quando lo stomaco è vuoto\": contano molto emozioni, abitudini e ambiente.",
+    "\"L'obesità è solo mancanza di volontà\": ha cause genetiche, ambientali e sociali.",
+    "\"I disturbi alimentari sono capricci\": sono malattie serie, anche mortali."
+   ],
+   "terms": [
+    {
+     "t": "Grelina",
+     "d": "Ormone che stimola la fame."
+    },
+    {
+     "t": "Leptina",
+     "d": "Ormone prodotto dal grasso che segnala le riserve."
+    },
+    {
+     "t": "Set point",
+     "d": "Peso di riferimento che il corpo tenderebbe a difendere."
+    },
+    {
+     "t": "Anoressia nervosa",
+     "d": "Disturbo con restrizione estrema del cibo."
+    }
+   ],
+   "quote": {
+    "text": "A person’s metabolic rate is the amount of energy that is expended in a given period of time, and there is tremendous individual variability in our metabolic rates.",
+    "translation": "Il tasso metabolico di una persona è la quantità di energia consumata in un certo periodo di tempo, e c'è un'enorme variabilità individuale nei tassi metabolici."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Psychology 2e",
+     "title": "10.2 Hunger and eating",
+     "url": "https://openstax.org/books/psychology-2e/pages/10-2-hunger-and-eating"
+    }
+   ],
+   "videos": [
+    {
+     "id": "hYDuXrBOJlM",
+     "title": "Hunger: Knowing When to Eat",
+     "channel": "Professor Dave Explains",
+     "length": "9:30"
+    }
+   ],
+   "videoQuery": "hunger and eating psychology",
+   "addedAt": "2026-11-04T00:56:16Z"
+  },
+  {
+   "id": "sessualita-identita",
+   "subject": "psicologia",
+   "chapter": "Emozioni e motivazione",
+   "title": "Sessualità, orientamento e identità di genere",
+   "hook": "Come la psicologia studia la sessualità: dagli studi di Kinsey e Masters e Johnson all'orientamento sessuale e all'identità di genere.",
+   "points": [
+    "La ricerca sulla sessualità",
+    "Il ciclo della risposta sessuale",
+    "L'orientamento sessuale",
+    "Sesso, genere e identità di genere"
+   ],
+   "sections": [
+    {
+     "h": "Studiare un tema tabù",
+     "p": [
+      "La sessualità è stata a lungo un argomento difficile da studiare scientificamente. Negli anni Quaranta e Cinquanta Alfred Kinsey intervistò migliaia di americani sulle loro abitudini sessuali, mostrando che i comportamenti reali erano molto più vari di quanto la morale ufficiale ammettesse. Propose anche una scala per descrivere l'orientamento non come due categorie nette, ma come un continuum.",
+      "Negli anni Sessanta William Masters e Virginia Johnson studiarono in laboratorio le risposte fisiologiche del corpo durante l'attività sessuale, aprendo la strada alla terapia dei problemi sessuali."
+     ]
+    },
+    {
+     "h": "Il ciclo della risposta sessuale",
+     "p": [
+      "Masters e Johnson descrissero quattro fasi. L'eccitazione è la fase di attivazione, con aumento del flusso di sangue ai genitali; segue il plateau, in cui l'eccitazione si stabilizza a un livello alto; poi l'orgasmo; infine la risoluzione, il ritorno relativamente rapido a uno stato non eccitato, con calo della pressione e rilassamento muscolare.",
+      "Il modello è stato poi criticato perché centrato sugli aspetti fisici e poco sul desiderio e sulle differenze individuali; altri modelli danno più spazio a emozioni, relazione e contesto."
+     ]
+    },
+    {
+     "h": "L'orientamento sessuale",
+     "p": [
+      "L'orientamento sessuale descrive verso chi una persona prova attrazione emotiva, romantica e sessuale: persone dello stesso genere, di un altro genere, di più generi. Esistono anche persone asessuali, che non provano attrazione sessuale, e aromantiche, che non provano attrazione romantica: sono due dimensioni diverse.",
+      "La ricerca indica che l'orientamento sessuale non è una scelta e non si può cambiare con \"terapie\": le cosiddette terapie di conversione sono inefficaci e dannose, e sono condannate dalle principali associazioni di psicologi e medici. L'orientamento sembra dipendere da un insieme di fattori biologici, tra cui genetici e prenatali, insieme a fattori ambientali ancora poco chiari.",
+      "Dal 1973 l'omosessualità non è più considerata un disturbo mentale nei manuali diagnostici americani, e l'OMS la rimosse dalla sua classificazione nel 1990."
+     ]
+    },
+    {
+     "h": "Sesso, genere e identità",
+     "p": [
+      "Il sesso si riferisce alle caratteristiche biologiche, come cromosomi, ormoni e anatomia. Il genere si riferisce ai ruoli, ai comportamenti e alle aspettative che una società associa a uomini e donne, e cambia tra culture ed epoche.",
+      "L'identità di genere è il senso profondo di essere maschio, femmina, nessuno dei due, entrambi o un altro genere. Per la maggior parte delle persone coincide con il sesso assegnato alla nascita; per le persone transgender no. Le persone transgender spesso affrontano stigma e discriminazione, che sono associati a un maggior rischio di problemi di salute mentale; il sostegno sociale e familiare è un forte fattore di protezione."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Una persona può essere asessuale ma provare comunque attrazione romantica e desiderare una relazione: sono due dimensioni diverse.",
+   "mistakes": [
+    "\"L'orientamento sessuale è una scelta\": la ricerca indica di no.",
+    "\"Le terapie di conversione funzionano\": sono inefficaci e dannose.",
+    "\"Sesso e genere sono la stessa cosa\": il primo è biologico, il secondo riguarda ruoli e identità."
+   ],
+   "terms": [
+    {
+     "t": "Orientamento sessuale",
+     "d": "Verso chi si prova attrazione."
+    },
+    {
+     "t": "Asessualità",
+     "d": "Assenza di attrazione sessuale."
+    },
+    {
+     "t": "Identità di genere",
+     "d": "Senso profondo del proprio genere."
+    },
+    {
+     "t": "Transgender",
+     "d": "Persona la cui identità di genere differisce dal sesso assegnato alla nascita."
+    }
+   ],
+   "quote": {
+    "text": "Gender identity refers to one’s sense of being male, female, neither of these, both of these, or another gender.",
+    "translation": "L'identità di genere è il senso di essere maschio, femmina, nessuno dei due, entrambi o un altro genere."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Psychology 2e",
+     "title": "10.3 Sexual behavior sexuality and gender identity",
+     "url": "https://openstax.org/books/psychology-2e/pages/10-3-sexual-behavior-sexuality-and-gender-identity"
+    }
+   ],
+   "videos": [
+    {
+     "id": "Qymp_VaFo9M",
+     "title": "Let's Talk About Sex: Crash Course Psychology #27",
+     "channel": "CrashCourse",
+     "length": "11:36"
+    }
+   ],
+   "videoQuery": "sexuality crash course psychology",
+   "addedAt": "2026-11-04T00:56:16Z"
   },
   {
    "id": "emozioni",
@@ -13639,6 +14313,397 @@
     }
    ],
    "formulas": []
+  },
+  {
+   "id": "freud",
+   "subject": "psicologia",
+   "chapter": "Personalità",
+   "title": "Freud e la teoria psicodinamica della personalità",
+   "hook": "Inconscio, Es, Io e Super-io, meccanismi di difesa: le idee di Freud hanno cambiato la cultura del Novecento. Cosa ne resta oggi per la scienza.",
+   "points": [
+    "Che cos'è la personalità",
+    "L'inconscio e la struttura della mente",
+    "I meccanismi di difesa",
+    "Le fasi psicosessuali e le critiche"
+   ],
+   "sections": [
+    {
+     "h": "La personalità",
+     "p": [
+      "La personalità è l'insieme di schemi di pensiero, emozioni e comportamenti che rendono una persona unica e relativamente coerente nel tempo. La parola viene dal latino persona, la maschera degli attori. Già nell'antichità Ippocrate e Galeno classificavano i temperamenti in base agli \"umori\" del corpo.",
+      "Nel Novecento la prima grande teoria della personalità fu quella di Sigmund Freud, medico viennese."
+     ]
+    },
+    {
+     "h": "Inconscio, Es, Io e Super-io",
+     "p": [
+      "Freud paragonò la mente a un iceberg: la parte visibile è la coscienza, ma la parte più grande, sommersa, è l'inconscio, che contiene desideri, ricordi e impulsi di cui non siamo consapevoli ma che influenzano il comportamento.",
+      "Secondo Freud, le pulsioni inconsce legate alla sessualità e all'aggressività, insieme alla sessualità infantile, sono le forze che plasmano la personalità. Descrisse la mente in tre parti. L'Es contiene gli impulsi primitivi e cerca il piacere immediato. Il Super-io rappresenta le regole morali interiorizzate. L'Io è la parte razionale che media tra le richieste dell'Es, i divieti del Super-io e la realtà.",
+      "Freud indagava l'inconscio attraverso le associazioni libere, l'analisi dei sogni e i lapsus, gli errori nel parlare che rivelerebbero desideri nascosti."
+     ]
+    },
+    {
+     "h": "I meccanismi di difesa",
+     "p": [
+      "Quando i conflitti tra le parti della mente generano ansia, secondo Freud l'Io usa meccanismi di difesa inconsci per proteggersi. Nella rimozione si spingono fuori dalla coscienza pensieri dolorosi. Nella negazione si rifiuta di riconoscere una realtà spiacevole. Nella proiezione si attribuiscono agli altri i propri sentimenti inaccettabili.",
+      "Nello spostamento si scarica un'emozione su un bersaglio più sicuro, come chi viene rimproverato dal capo e poi se la prende con il cane. Nella razionalizzazione si trovano spiegazioni accettabili per comportamenti con motivi diversi. Nella sublimazione si incanalano impulsi inaccettabili in attività socialmente apprezzate, come l'arte o lo sport.",
+      "Il concetto di meccanismi di difesa, in forme rivedute, è ancora usato in psicologia clinica, ed è entrato nel linguaggio comune."
+     ]
+    },
+    {
+     "h": "Fasi psicosessuali e critiche",
+     "p": [
+      "Freud propose che la personalità si formi nell'infanzia attraverso fasi psicosessuali: orale, anale, fallica, di latenza e genitale. Secondo lui, conflitti irrisolti in una fase potevano lasciare \"fissazioni\" visibili nella personalità adulta.",
+      "Queste idee sono state molto criticate. Molte teorie di Freud sono difficili o impossibili da verificare scientificamente; si basavano su pochi pazienti, in gran parte donne benestanti della Vienna di fine Ottocento; e alcune, come le sue idee sullo sviluppo femminile, riflettono i pregiudizi dell'epoca.",
+      "Resta però un'eredità importante: l'idea che molti processi mentali avvengano fuori dalla consapevolezza, oggi studiata con metodi sperimentali, l'importanza dell'infanzia e l'invenzione della \"cura con le parole\", da cui derivano molte psicoterapie."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Chi dice \"non volevo comunque quel lavoro\" dopo essere stato scartato potrebbe usare quella che Freud chiamava razionalizzazione.",
+   "mistakes": [
+    "\"La psicologia moderna è basata su Freud\": molte sue teorie non hanno retto alle verifiche.",
+    "\"Non resta niente di Freud\": l'idea di processi inconsci è ancora centrale.",
+    "\"I meccanismi di difesa sono scelte consapevoli\": per Freud sono inconsci."
+   ],
+   "terms": [
+    {
+     "t": "Inconscio",
+     "d": "Parte della mente fuori dalla consapevolezza."
+    },
+    {
+     "t": "Es",
+     "d": "Parte della mente che cerca il piacere immediato."
+    },
+    {
+     "t": "Super-io",
+     "d": "Coscienza morale interiorizzata."
+    },
+    {
+     "t": "Meccanismo di difesa",
+     "d": "Strategia inconscia per ridurre l'ansia."
+    }
+   ],
+   "quote": {
+    "text": "According to Freud, unconscious drives influenced by sex and aggression, along with childhood sexuality, are the forces that influence our personality.",
+    "translation": "Secondo Freud, le pulsioni inconsce legate al sesso e all'aggressività, insieme alla sessualità infantile, sono le forze che influenzano la nostra personalità."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Psychology 2e",
+     "title": "11.1 What is personality",
+     "url": "https://openstax.org/books/psychology-2e/pages/11-1-what-is-personality"
+    },
+    {
+     "name": "OpenStax · Psychology 2e",
+     "title": "11.2 Freud and the psychodynamic perspective",
+     "url": "https://openstax.org/books/psychology-2e/pages/11-2-freud-and-the-psychodynamic-perspective"
+    }
+   ],
+   "videos": [
+    {
+     "id": "mUELAiHbCxc",
+     "title": "Rorschach and Freudians: Crash Course Psychology #21",
+     "channel": "CrashCourse",
+     "length": "12:24"
+    }
+   ],
+   "videoQuery": "freud psychoanalysis crash course psychology",
+   "addedAt": "2026-11-04T00:56:16Z"
+  },
+  {
+   "id": "neofreudiani",
+   "subject": "psicologia",
+   "chapter": "Personalità",
+   "title": "Adler, Jung, Erikson e Horney: gli eredi ribelli di Freud",
+   "hook": "Il complesso di inferiorità, gli archetipi, le crisi di ogni età, l'importanza della cultura: quattro allievi che presero da Freud e poi andarono per la loro strada.",
+   "points": [
+    "Adler e il complesso di inferiorità",
+    "Jung, l'inconscio collettivo e gli archetipi",
+    "Erikson e le otto fasi della vita",
+    "Horney e il ruolo della cultura"
+   ],
+   "sections": [
+    {
+     "h": "Gli eredi",
+     "p": [
+      "Molti studiosi furono influenzati da Freud ma si allontanarono da lui su punti importanti, in particolare sul ruolo centrale della sessualità. Sono chiamati neofreudiani: in generale diedero più peso alle relazioni sociali, alla cultura e alla coscienza."
+     ]
+    },
+    {
+     "h": "Adler: l'inferiorità",
+     "p": [
+      "Alfred Adler fu tra i primi a staccarsi da Freud. Sostenne che la spinta principale del comportamento umano non è la sessualità, ma il desiderio di superare i sentimenti di inferiorità, che tutti proviamo da bambini, piccoli e dipendenti dagli adulti.",
+      "Un complesso di inferiorità è il sentimento di una persona di non valere e di non essere all'altezza degli standard degli altri o della società. Adler pensava che questi sentimenti, se affrontati bene, spingano a migliorarsi; se no, possono portare a scoraggiamento o a un complesso di superiorità compensatorio. Si interessò anche all'influenza dell'ordine di nascita tra fratelli, un'idea che la ricerca moderna ha però sostenuto poco."
+     ]
+    },
+    {
+     "h": "Jung: l'inconscio collettivo",
+     "p": [
+      "Carl Jung, per un periodo considerato il successore designato di Freud, se ne separò per due grandi disaccordi: rifiutava il ruolo centrale della sessualità e proponeva un diverso tipo di inconscio.",
+      "Oltre all'inconscio personale, Jung ipotizzò un inconscio collettivo, comune a tutta l'umanità, che conterrebbe gli archetipi: immagini e schemi universali, come la madre, l'eroe, l'ombra, che ricorrono nei miti, nelle fiabe e nei sogni di culture diverse. Introdusse anche i concetti di introversione ed estroversione.",
+      "Le idee di Jung hanno avuto grande influenza su arte, letteratura e cinema; molte però, come l'inconscio collettivo, sono difficilissime da verificare scientificamente."
+     ]
+    },
+    {
+     "h": "Erikson: una vita di crisi",
+     "p": [
+      "Erik Erikson, incoraggiato a studiare la psicoanalisi da Anna Freud, figlia di Sigmund, propose che lo sviluppo continui per tutta la vita, non solo nell'infanzia. Descrisse otto fasi psicosociali, ciascuna con un conflitto da risolvere: fiducia contro sfiducia nel primo anno, autonomia contro vergogna, iniziativa contro senso di colpa, industriosità contro inferiorità.",
+      "Nell'adolescenza il conflitto è tra identità e confusione dei ruoli: è Erikson ad aver reso popolare l'espressione \"crisi d'identità\". Nell'età adulta seguono intimità contro isolamento, generatività contro stagnazione, e nella vecchiaia integrità contro disperazione."
+     ]
+    },
+    {
+     "h": "Horney: cultura e ansia",
+     "p": [
+      "Karen Horney, una delle prime psicoanaliste donne, criticò apertamente le idee di Freud sulla psicologia femminile, come l'invidia del pene, sostenendo che riflettevano la cultura maschile dell'epoca più che la biologia.",
+      "Per Horney la chiave della personalità è l'ansia di base nata da relazioni infantili insicure, e le persone la affrontano muovendosi verso gli altri, contro gli altri o lontano dagli altri. Diede molta importanza alla cultura e alla società, anticipando temi della psicologia moderna."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Il viaggio dell'eroe di tanti film, da Star Wars a Il re leone, è spesso spiegato con gli archetipi di Jung.",
+   "mistakes": [
+    "\"I neofreudiani erano semplici seguaci di Freud\": ne criticarono punti centrali.",
+    "\"L'ordine di nascita determina la personalità\": la ricerca moderna lo sostiene poco.",
+    "\"Lo sviluppo finisce nell'infanzia\": per Erikson continua per tutta la vita."
+   ],
+   "terms": [
+    {
+     "t": "Neofreudiani",
+     "d": "Studiosi influenzati da Freud ma critici verso di lui."
+    },
+    {
+     "t": "Complesso di inferiorità",
+     "d": "Sentimento di non valere quanto gli altri."
+    },
+    {
+     "t": "Archetipo",
+     "d": "Immagine universale dell'inconscio collettivo secondo Jung."
+    },
+    {
+     "t": "Crisi d'identità",
+     "d": "Conflitto adolescenziale tra identità e confusione dei ruoli."
+    }
+   ],
+   "quote": {
+    "text": "An inferiority complex refers to a person’s feelings that they lack worth and don’t measure up to the standards of others or of society.",
+    "translation": "Il complesso di inferiorità indica la sensazione di una persona di non valere e di non essere all'altezza degli standard degli altri o della società."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Psychology 2e",
+     "title": "11.3 Neo freudians adler erikson jung and horney",
+     "url": "https://openstax.org/books/psychology-2e/pages/11-3-neo-freudians-adler-erikson-jung-and-horney"
+    }
+   ],
+   "videos": [],
+   "videoQuery": "jung adler erikson horney",
+   "addedAt": "2026-11-04T00:56:16Z"
+  },
+  {
+   "id": "personalita-umanistica",
+   "subject": "psicologia",
+   "chapter": "Personalità",
+   "title": "Personalità secondo l'apprendimento e l'umanismo",
+   "hook": "Siamo ciò che impariamo? O tendiamo naturalmente a crescere? Bandura e l'autoefficacia, il test del marshmallow, Rogers e l'accettazione incondizionata.",
+   "points": [
+    "La personalità come apprendimento",
+    "Bandura e il determinismo reciproco",
+    "Rotter, il locus of control e il test del marshmallow",
+    "Rogers, Maslow e il sé"
+   ],
+   "sections": [
+    {
+     "h": "Imparare a essere sé stessi",
+     "p": [
+      "Gli approcci dell'apprendimento vedono la personalità come il risultato delle esperienze: comportamenti rinforzati diventano abitudini stabili. Per i comportamentisti come Skinner, ciò che chiamiamo personalità è l'insieme di risposte apprese.",
+      "Gli psicologi sociali-cognitivi aggiunsero il ruolo del pensiero: non reagiamo solo agli stimoli, ma interpretiamo le situazioni, abbiamo aspettative e scegliamo."
+     ]
+    },
+    {
+     "h": "Bandura e il determinismo reciproco",
+     "p": [
+      "Albert Bandura propose il determinismo reciproco: la persona, con i suoi pensieri e le sue caratteristiche, il suo comportamento e il contesto si influenzano a vicenda. Il comportamento è tutto ciò che facciamo e che può essere premiato o punito; il contesto è l'ambiente o la situazione, con i suoi stimoli di ricompensa e punizione.",
+      "Una persona estroversa sceglie di andare alle feste (la persona influenza il contesto), dove riceve attenzione (il contesto rinforza il comportamento), e questo rafforza la sua fiducia (il comportamento influenza la persona). Bandura sottolineò anche l'apprendimento per osservazione e l'autoefficacia, la fiducia nelle proprie capacità."
+     ]
+    },
+    {
+     "h": "Locus of control e marshmallow",
+     "p": [
+      "Julian Rotter descrisse il locus of control: chi ha un locus interno crede che i risultati dipendano soprattutto dalle proprie azioni; chi ha un locus esterno pensa che dipendano dalla fortuna o dagli altri. Un locus interno è associato in genere a più impegno e benessere.",
+      "Walter Mischel studiò l'autocontrollo con il celebre test del marshmallow: a bambini di età prescolare si offriva un dolcetto subito, oppure due se avessero aspettato alcuni minuti. Nei primi studi, i bambini che aspettavano risultarono anni dopo avere in media risultati migliori. Repliche più recenti hanno trovato effetti più piccoli, in parte spiegati dal contesto familiare ed economico: anche un buon esempio di come la scienza corregge sé stessa.",
+      "Mischel sottolineò anche che il comportamento cambia molto da una situazione all'altra, avviando un lungo dibattito su quanto contino i tratti e quanto la situazione."
+     ]
+    },
+    {
+     "h": "La psicologia umanistica",
+     "p": [
+      "Negli anni Cinquanta, Carl Rogers e Abraham Maslow proposero una visione più ottimista. Per gli umanisti ogni persona ha una tendenza naturale a crescere e a realizzare il proprio potenziale, l'autorealizzazione.",
+      "Rogers mise al centro il concetto di sé: l'immagine che abbiamo di noi stessi. Quando c'è troppa distanza tra il sé reale e il sé ideale, quello che pensiamo di dover essere, nasce disagio. Secondo Rogers i bambini che ricevono un'accettazione positiva incondizionata, sentendosi amati per ciò che sono e non solo quando si comportano bene, sviluppano un'immagine di sé più sana.",
+      "Rogers fondò la terapia centrata sul cliente, basata su empatia, autenticità e accettazione. Questi principi influenzano ancora oggi quasi tutte le forme di psicoterapia e il modo di fare counseling."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Chi dopo un brutto voto pensa \"non ho studiato abbastanza\" ha un locus interno; chi pensa \"il prof ce l'ha con me\" un locus esterno.",
+   "mistakes": [
+    "\"La personalità è solo innata\": anche l'apprendimento la modella.",
+    "\"Il test del marshmallow prevede il successo nella vita\": le repliche trovano effetti più piccoli e legati al contesto.",
+    "\"Accettazione incondizionata significa approvare tutto\": significa accettare la persona, non ogni comportamento."
+   ],
+   "terms": [
+    {
+     "t": "Determinismo reciproco",
+     "d": "Influenza reciproca tra persona, comportamento e contesto."
+    },
+    {
+     "t": "Locus of control",
+     "d": "Convinzione su chi controlla i risultati."
+    },
+    {
+     "t": "Autorealizzazione",
+     "d": "Realizzazione del proprio potenziale."
+    },
+    {
+     "t": "Accettazione positiva incondizionata",
+     "d": "Accettare una persona per ciò che è."
+    }
+   ],
+   "quote": {
+    "text": "This is the question Mischel investigated in his now-classic marshmallow test.",
+    "translation": "È la domanda che Mischel indagò nel suo ormai classico test del marshmallow."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Psychology 2e",
+     "title": "11.4 Learning approaches",
+     "url": "https://openstax.org/books/psychology-2e/pages/11-4-learning-approaches"
+    },
+    {
+     "name": "OpenStax · Psychology 2e",
+     "title": "11.5 Humanistic approaches",
+     "url": "https://openstax.org/books/psychology-2e/pages/11-5-humanistic-approaches"
+    }
+   ],
+   "videos": [
+    {
+     "id": "3vs-CEYtmc4",
+     "title": "Psychology - Humanistic Psychology",
+     "channel": "Cognito",
+     "length": "5:24"
+    },
+    {
+     "id": "O-4ithG_07Q",
+     "title": "Maslow's Hierarchy of Needs",
+     "channel": "Sprouts",
+     "length": "2:48"
+    }
+   ],
+   "videoQuery": "humanistic psychology rogers maslow",
+   "addedAt": "2026-11-04T00:56:16Z"
+  },
+  {
+   "id": "personalita-biologia-cultura",
+   "subject": "psicologia",
+   "chapter": "Personalità",
+   "title": "Temperamento, geni e cultura nella personalità",
+   "hook": "Alcuni neonati sono tranquilli, altri irrequieti. Quanto della personalità è scritto nei geni, e quanto cambia da una cultura all'altra?",
+   "points": [
+    "Il temperamento dei neonati",
+    "Gemelli ed ereditabilità della personalità",
+    "Culture individualiste e collettiviste",
+    "Personalità e contesto culturale"
+   ],
+   "sections": [
+    {
+     "h": "Il temperamento",
+     "p": [
+      "Già dalla nascita i bambini mostrano differenze nel modo di reagire: alcuni sono calmi e regolari, altri irritabili, altri ancora diffidenti verso le novità. Questo stile innato di reazione emotiva e di autoregolazione si chiama temperamento.",
+      "Negli anni Cinquanta gli psichiatri Alexander Thomas e Stella Chess, seguendo bambini per molti anni, descrissero tre grandi gruppi: bambini \"facili\", \"difficili\" e \"lenti a scaldarsi\". Il temperamento è considerato la base biologica su cui si costruisce la personalità adulta.",
+      "Conta però anche l'adattamento tra il temperamento del bambino e l'ambiente: un bambino molto attivo può crescere bene con genitori che sanno incanalare la sua energia."
+     ]
+    },
+    {
+     "h": "Quanto conta la genetica",
+     "p": [
+      "Gli studi su gemelli identici e fraterni, cresciuti insieme o separati, permettono di stimare quanto le differenze di personalità dipendano dai geni. L'ereditabilità indica la proporzione delle differenze tra persone attribuibile alla genetica.",
+      "Per i tratti Big Five, le stime di ereditabilità sono in genere intorno al 40-50%. Uno dei progetti più noti, lo studio del Minnesota sui gemelli cresciuti separati, trovò somiglianze sorprendenti tra gemelli identici che non si erano mai conosciuti.",
+      "Questo non significa che metà della personalità di ciascuno sia \"genetica\": l'ereditabilità riguarda le differenze in una popolazione. E i geni non agiscono da soli, ma in continua interazione con le esperienze."
+     ]
+    },
+    {
+     "h": "Individualismo e collettivismo",
+     "p": [
+      "La cultura plasma il modo in cui le persone si vedono e si comportano. Nelle culture individualiste, come molti paesi occidentali, si valorizzano l'indipendenza, l'unicità e il successo personale; ci si descrive con tratti propri (\"sono ambizioso\").",
+      "Nelle culture collettiviste, come molti paesi dell'Asia orientale, dell'Africa e dell'America Latina, si valorizzano l'armonia del gruppo, i doveri verso la famiglia e la comunità; ci si descrive spesso attraverso i ruoli e le relazioni (\"sono una figlia, un'insegnante\"). Anche dentro una stessa nazione ci sono differenze tra regioni, città e campagne, generazioni."
+     ]
+    },
+    {
+     "h": "Approcci alla cultura",
+     "p": [
+      "Gli psicologi studiano il rapporto tra cultura e personalità in modi diversi. Alcuni cercano tratti universali e verificano se i modelli occidentali, come i Big Five, valgono anche altrove: in molti paesi lo fanno, ma non ovunque nello stesso modo.",
+      "Altri sostengono che ogni cultura vada capita dall'interno, con i propri concetti. Per esempio, alcune culture hanno dimensioni di personalità che i modelli occidentali non colgono bene, legate all'armonia delle relazioni.",
+      "Un limite storico della psicologia è che gran parte della ricerca è stata fatta su persone di paesi occidentali, istruiti, industrializzati, ricchi e democratici, che non rappresentano l'umanità intera."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Due fratelli cresciuti nella stessa casa possono avere caratteri molto diversi fin da piccoli: il temperamento si vede presto.",
+   "mistakes": [
+    "\"La personalità è tutta nei geni\": i geni spiegano una parte delle differenze, in interazione con l'ambiente.",
+    "\"Un bambino difficile diventerà un adulto difficile\": conta molto l'ambiente.",
+    "\"I risultati della psicologia valgono per tutte le culture\": molta ricerca riguarda solo popolazioni occidentali."
+   ],
+   "terms": [
+    {
+     "t": "Temperamento",
+     "d": "Stile innato di reazione emotiva."
+    },
+    {
+     "t": "Ereditabilità",
+     "d": "Quota delle differenze attribuibile alla genetica."
+    },
+    {
+     "t": "Individualismo",
+     "d": "Cultura che valorizza l'indipendenza personale."
+    },
+    {
+     "t": "Collettivismo",
+     "d": "Cultura che valorizza il gruppo e l'armonia."
+    }
+   ],
+   "quote": {
+    "text": "Heritability refers to the proportion of difference among people that is attributed to genetics.",
+    "translation": "L'ereditabilità indica la proporzione delle differenze tra le persone attribuibile alla genetica."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Psychology 2e",
+     "title": "11.6 Biological approaches",
+     "url": "https://openstax.org/books/psychology-2e/pages/11-6-biological-approaches"
+    },
+    {
+     "name": "OpenStax · Psychology 2e",
+     "title": "11.8 Cultural understandings of personality",
+     "url": "https://openstax.org/books/psychology-2e/pages/11-8-cultural-understandings-of-personality"
+    }
+   ],
+   "videos": [
+    {
+     "id": "qYvXk_bqlBk",
+     "title": "Who are you, really? The puzzle of personality | Brian Little | TED",
+     "channel": "TED",
+     "length": "15:16"
+    },
+    {
+     "id": "P2SxoBj3daM",
+     "title": "Child Temperament:  How We Start to Become Ourselves | David C Rettew | TEDxBurlingtonED",
+     "channel": "TEDx Talks",
+     "length": "10:03"
+    }
+   ],
+   "videoQuery": "temperament personality culture",
+   "addedAt": "2026-11-04T00:56:16Z"
   },
   {
    "id": "big-five",
@@ -13755,6 +14820,270 @@
    "addedAt": "2026-11-04T00:12:22Z"
   },
   {
+   "id": "attribuzione",
+   "subject": "psicologia",
+   "chapter": "Psicologia sociale",
+   "title": "L'errore fondamentale di attribuzione: perché giudichiamo male gli altri",
+   "hook": "Se qualcuno ti taglia la strada è un maleducato; se lo fai tu, avevi fretta. Come spieghiamo i comportamenti, e gli errori sistematici che facciamo.",
+   "points": [
+    "Che cosa studia la psicologia sociale",
+    "Spiegazioni interne e situazionali",
+    "L'errore fondamentale di attribuzione",
+    "Il bias del mondo giusto"
+   ],
+   "sections": [
+    {
+     "h": "Le persone nel loro contesto",
+     "p": [
+      "La psicologia sociale studia come i pensieri, i sentimenti e i comportamenti delle persone sono influenzati dagli altri e dalle situazioni. Uno dei suoi insegnamenti più importanti è che la situazione conta molto più di quanto crediamo.",
+      "Il situazionismo è la visione secondo cui il nostro comportamento e le nostre azioni sono determinati in gran parte dall'ambiente immediato. L'opposto è il disposizionalismo, che spiega il comportamento con le caratteristiche interne della persona, come la personalità."
+     ]
+    },
+    {
+     "h": "Interno o esterno?",
+     "p": [
+      "Ogni giorno cerchiamo di spiegare perché le persone fanno quello che fanno: è il processo di attribuzione. Un'attribuzione interna, o disposizionale, spiega il comportamento con qualcosa della persona (\"è pigro\"). Un'attribuzione esterna, o situazionale, lo spiega con la situazione (\"aveva troppi impegni\").",
+      "Gli psicologi descrivono le attribuzioni anche in base alla stabilità, cioè quanto le cause di un risultato possono cambiare, e alla controllabilità, cioè quanto le circostanze legate a un risultato si possono controllare. Pensare che un brutto voto dipenda da cause stabili e incontrollabili (\"non sono portato\") scoraggia; pensare a cause modificabili (\"non ho studiato abbastanza\") motiva."
+     ]
+    },
+    {
+     "h": "L'errore fondamentale",
+     "p": [
+      "Quando spieghiamo il comportamento degli altri, tendiamo a sopravvalutare le cause interne e a sottovalutare quelle situazionali. Questa assunzione sbagliata si chiama errore fondamentale di attribuzione. Se un collega arriva in ritardo pensiamo che sia disorganizzato, non che ci sia stato un incidente in tangenziale.",
+      "Per noi stessi facciamo il contrario: spieghiamo i nostri comportamenti negativi con la situazione. È la differenza attore-osservatore. E per i successi tendiamo a prenderci il merito, mentre attribuiamo gli insuccessi alle circostanze: è il bias di autoservizio, che protegge l'autostima.",
+      "L'errore fondamentale è più marcato nelle culture individualiste, come quella statunitense, che tendono a favorire spiegazioni disposizionali; nelle culture collettiviste le persone prestano in media più attenzione al contesto."
+     ]
+    },
+    {
+     "h": "Il mondo giusto",
+     "p": [
+      "Un'ideologia diffusa è l'ipotesi del mondo giusto: l'idea che le persone ottengano ciò che si meritano e meritino ciò che ottengono. È rassicurante, perché ci fa sentire che il mondo è prevedibile e che a noi, se ci comportiamo bene, non succederà nulla di male.",
+      "Il rovescio della medaglia è che porta a incolpare le vittime: di povertà, di malattie, di violenze. Conoscere questo bias aiuta a fermarsi prima di giudicare chi si trova in difficoltà."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Un cameriere sgarbato può sembrare antipatico, ma forse è al dodicesimo tavolo da servire da solo: prova a immaginare la situazione prima di giudicare.",
+   "mistakes": [
+    "\"Il comportamento dice tutto della persona\": la situazione conta più di quanto crediamo.",
+    "\"Giudichiamo noi stessi e gli altri allo stesso modo\": per noi vediamo di più la situazione.",
+    "\"Chi è in difficoltà se l'è cercata\": è l'effetto del bias del mondo giusto."
+   ],
+   "terms": [
+    {
+     "t": "Attribuzione",
+     "d": "Spiegazione delle cause di un comportamento."
+    },
+    {
+     "t": "Errore fondamentale di attribuzione",
+     "d": "Sopravvalutare le cause interne del comportamento altrui."
+    },
+    {
+     "t": "Bias di autoservizio",
+     "d": "Attribuirsi i successi e dare la colpa alle circostanze per gli insuccessi."
+    },
+    {
+     "t": "Ipotesi del mondo giusto",
+     "d": "Credere che ognuno ottenga ciò che merita."
+    }
+   ],
+   "quote": {
+    "text": "This erroneous assumption is called the fundamental attribution error (Ross, 1977; Riggio & Garcia, 2009).",
+    "translation": "Questa assunzione errata si chiama errore fondamentale di attribuzione (Ross, 1977; Riggio e Garcia, 2009)."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Psychology 2e",
+     "title": "12.1 What is social psychology",
+     "url": "https://openstax.org/books/psychology-2e/pages/12-1-what-is-social-psychology"
+    }
+   ],
+   "videos": [],
+   "videoQuery": "fundamental attribution error",
+   "addedAt": "2026-11-04T00:56:16Z"
+  },
+  {
+   "id": "ruoli-sociali",
+   "subject": "psicologia",
+   "chapter": "Psicologia sociale",
+   "title": "Ruoli, norme e copioni: l'esperimento della prigione di Stanford",
+   "hook": "Studenti divisi a caso tra guardie e prigionieri: in pochi giorni la situazione degenerò. Cosa insegna il famoso esperimento, e perché oggi viene molto criticato.",
+   "points": [
+    "Ruoli sociali, norme e copioni",
+    "L'esperimento di Zimbardo",
+    "Le critiche moderne",
+    "Come ci presentiamo agli altri"
+   ],
+   "sections": [
+    {
+     "h": "Le regole invisibili",
+     "p": [
+      "Il comportamento umano è fortemente influenzato da forze situazionali: ruoli sociali, norme sociali e copioni. Un ruolo sociale è uno schema di comportamento che ci si aspetta da una persona in un certo contesto o gruppo: studente, genitore, medico, cliente.",
+      "Le norme sociali sono le regole, spesso non scritte, su come comportarsi: non parlare ad alta voce in biblioteca, salutare chi entra in ascensore. I copioni sono le sequenze di azioni attese in una situazione, come il copione di un colloquio di lavoro. Ognuno di noi ricopre molti ruoli e passa dall'uno all'altro nel corso della giornata."
+     ]
+    },
+    {
+     "h": "La prigione di Stanford",
+     "p": [
+      "Nel 1971 lo psicologo Philip Zimbardo e colleghi dell'Università di Stanford condussero un esperimento divenuto famosissimo, presentato come dimostrazione del potere dei ruoli, delle norme e dei copioni sociali. Da un gruppo di volontari furono selezionati 24 studenti universitari maschi sani, assegnati a caso al ruolo di guardia o di prigioniero in una finta prigione nel seminterrato del dipartimento.",
+      "Secondo il resoconto di Zimbardo, in pochi giorni molte guardie divennero autoritarie e umilianti, e molti prigionieri passivi e angosciati. Lo stesso Zimbardo, che dirigeva lo studio, si trovò ad agire come se la prigione fosse reale e il suo ruolo di supervisore fosse vero. L'esperimento, previsto per due settimane, fu interrotto dopo sei giorni."
+     ]
+    },
+    {
+     "h": "Una storia da rivedere",
+     "p": [
+      "Negli ultimi anni lo studio è stato molto criticato. Non fu mai pubblicato su una rivista scientifica con revisione tra pari nella forma completa; documenti e registrazioni emersi in seguito suggeriscono che le guardie ricevettero indicazioni su come comportarsi, e che alcuni partecipanti recitarono la parte che credevano ci si aspettasse da loro.",
+      "Inoltre non ci fu un gruppo di controllo e il campione era piccolo e particolare. Un tentativo di replica parziale, condotto per la BBC nel 2002 da altri ricercatori, non trovò lo stesso comportamento spontaneamente tirannico.",
+      "Oggi molti psicologi lo considerano più una dimostrazione drammatica che un esperimento rigoroso. Resta comunque valida l'idea generale, sostenuta da molte altre ricerche, che ruoli e situazioni possono influenzare profondamente il comportamento, così come resta valida la lezione etica: studi simili oggi non sarebbero permessi."
+     ]
+    },
+    {
+     "h": "Presentarsi agli altri",
+     "p": [
+      "Gran parte della vita sociale consiste nel presentare un'immagine di noi agli altri: la cosiddetta autopresentazione. Scegliamo come vestirci, cosa dire e cosa tacere a seconda di chi abbiamo davanti, spesso senza accorgercene.",
+      "Alcune persone controllano molto la propria immagine e si adattano alle situazioni; altre si comportano in modo più simile ovunque. Sui social media l'autopresentazione diventa curata e selettiva: vediamo le versioni migliori degli altri, e il confronto può farci sentire peggio."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Al lavoro, con gli amici e con i nonni probabilmente parli e ti comporti in tre modi diversi: stai seguendo ruoli e norme diverse.",
+   "mistakes": [
+    "\"L'esperimento di Stanford ha dimostrato che chiunque diventa crudele\": il suo valore scientifico è oggi molto discusso.",
+    "\"Le norme sociali sono scritte\": la maggior parte è implicita.",
+    "\"Ci comportiamo sempre allo stesso modo\": cambiamo con i ruoli e le situazioni."
+   ],
+   "terms": [
+    {
+     "t": "Ruolo sociale",
+     "d": "Comportamento atteso in un certo contesto."
+    },
+    {
+     "t": "Norma sociale",
+     "d": "Regola, spesso implicita, su come comportarsi."
+    },
+    {
+     "t": "Copione",
+     "d": "Sequenza di azioni attesa in una situazione."
+    },
+    {
+     "t": "Autopresentazione",
+     "d": "Il modo in cui mostriamo un'immagine di noi agli altri."
+    }
+   ],
+   "quote": {
+    "text": "A social role is a pattern of behavior that is expected of a person in a given setting or group (Hare, 2003).",
+    "translation": "Un ruolo sociale è uno schema di comportamento che ci si aspetta da una persona in un certo contesto o gruppo (Hare, 2003)."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Psychology 2e",
+     "title": "12.2 Self presentation",
+     "url": "https://openstax.org/books/psychology-2e/pages/12-2-self-presentation"
+    }
+   ],
+   "videos": [
+    {
+     "id": "qK8UvDgV0Q8",
+     "title": "Psychology - Social Roles",
+     "channel": "Cognito",
+     "length": "5:10"
+    }
+   ],
+   "videoQuery": "stanford prison experiment social roles",
+   "addedAt": "2026-11-04T00:56:16Z"
+  },
+  {
+   "id": "persuasione",
+   "subject": "psicologia",
+   "chapter": "Psicologia sociale",
+   "title": "Atteggiamenti, persuasione e dissonanza cognitiva",
+   "hook": "Perché giustifichiamo le nostre scelte anche quando sono sbagliate? Come funziona la persuasione nella pubblicità e in politica? Atteggiamenti e dissonanza.",
+   "points": [
+    "Che cos'è un atteggiamento",
+    "La dissonanza cognitiva",
+    "Due strade della persuasione",
+    "Piede nella porta e altre tecniche"
+   ],
+   "sections": [
+    {
+     "h": "Gli atteggiamenti",
+     "p": [
+      "Un atteggiamento è la nostra valutazione di una persona, di un'idea o di un oggetto. Ha tre componenti: affettiva (cosa proviamo), comportamentale (come tendiamo ad agire) e cognitiva (cosa pensiamo). Un atteggiamento positivo verso il riciclo si riflette per esempio in pensieri favorevoli, come \"riciclare fa bene all'ambiente\".",
+      "Gli atteggiamenti non sempre predicono il comportamento: molte persone dicono di tenere all'ambiente ma prendono l'auto per brevi tragitti. Sono più collegati quando sono forti, specifici e quando la situazione non spinge in direzioni diverse."
+     ]
+    },
+    {
+     "h": "La dissonanza cognitiva",
+     "p": [
+      "Leon Festinger notò che proviamo disagio quando abbiamo pensieri, convinzioni o comportamenti in contrasto tra loro. Questo stato si chiama dissonanza cognitiva, e siamo motivati a ridurlo.",
+      "Spesso lo riduciamo cambiando gli atteggiamenti per adattarli a ciò che abbiamo fatto. In un esperimento classico, a persone che avevano svolto un compito noiosissimo veniva chiesto di dire al partecipante successivo che era divertente. Chi era pagato un dollaro, alla fine, valutava davvero il compito più piacevole di chi era pagato venti: con venti dollari la bugia era giustificata, con uno solo no, e per ridurre la dissonanza cambiavano idea.",
+      "La dissonanza spiega anche perché, dopo una scelta difficile, tendiamo a valutare meglio l'opzione scelta e peggio quella scartata, e perché chi ha fatto grandi sacrifici per entrare in un gruppo tende a valorizzarlo di più."
+     ]
+    },
+    {
+     "h": "Due strade per persuadere",
+     "p": [
+      "La persuasione è il processo con cui cambiamo atteggiamento verso qualcosa in base a una comunicazione. Secondo il modello della probabilità di elaborazione, esistono due strade.",
+      "Nella via centrale, la persona è motivata e attenta, e valuta gli argomenti: cambia idea se le ragioni sono buone. Il cambiamento è più duraturo. Nella via periferica, la persona è distratta o poco interessata e si lascia convincere da segnali superficiali: la simpatia o la fama di chi parla, la musica, la bellezza dell'immagine, il numero di argomenti più che la loro qualità.",
+      "Molta pubblicità punta sulla via periferica: un testimonial famoso, un jingle, un'atmosfera piacevole. Contano anche le caratteristiche della fonte (credibilità, attrattività), del messaggio (emozioni, ripetizione) e del pubblico."
+     ]
+    },
+    {
+     "h": "Tecniche di influenza",
+     "p": [
+      "La tecnica del piede nella porta consiste nel fare prima una piccola richiesta, che quasi tutti accettano, e poi una più grande: chi ha detto sì una volta tende a essere coerente. La tecnica della porta in faccia fa il contrario: prima una richiesta esagerata, che viene rifiutata, poi quella vera, che sembra ragionevole al confronto.",
+      "Conoscere queste strategie non rende immuni, ma aiuta a riconoscerle quando un venditore, una pubblicità o un messaggio politico le usa."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Dopo aver comprato un telefono costoso, tendi a leggere recensioni positive su quel modello: stai riducendo la dissonanza.",
+   "mistakes": [
+    "\"I nostri comportamenti seguono sempre i nostri atteggiamenti\": spesso è il contrario, cambiamo idea per giustificare ciò che facciamo.",
+    "\"Più si paga qualcuno, più cambia idea\": con la dissonanza può avvenire il contrario.",
+    "\"Le persone intelligenti non si fanno persuadere dalla via periferica\": quando sono distratte o stanche, tutti lo fanno."
+   ],
+   "terms": [
+    {
+     "t": "Atteggiamento",
+     "d": "Valutazione di una persona, idea o oggetto."
+    },
+    {
+     "t": "Dissonanza cognitiva",
+     "d": "Disagio per pensieri o comportamenti in contrasto."
+    },
+    {
+     "t": "Via centrale",
+     "d": "Persuasione tramite la valutazione degli argomenti."
+    },
+    {
+     "t": "Piede nella porta",
+     "d": "Piccola richiesta seguita da una più grande."
+    }
+   ],
+   "quote": {
+    "text": "Persuasion is the process of changing our attitude toward something based on some kind of communication.",
+    "translation": "La persuasione è il processo con cui cambiamo atteggiamento verso qualcosa sulla base di qualche forma di comunicazione."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Psychology 2e",
+     "title": "12.3 Attitudes and persuasion",
+     "url": "https://openstax.org/books/psychology-2e/pages/12-3-attitudes-and-persuasion"
+    }
+   ],
+   "videos": [
+    {
+     "id": "GxAu7BTZQRY",
+     "title": "Cognitive Dissonance: Your Response to Conflicting Beliefs",
+     "channel": "Sprouts",
+     "length": "5:18"
+    }
+   ],
+   "videoQuery": "cognitive dissonance persuasion",
+   "addedAt": "2026-11-04T00:56:16Z"
+  },
+  {
    "id": "conformismo",
    "subject": "psicologia",
    "title": "Conformismo e obbedienza: gli esperimenti di Asch e Milgram",
@@ -13865,6 +15194,297 @@
     }
    ],
    "formulas": []
+  },
+  {
+   "id": "pregiudizio",
+   "subject": "psicologia",
+   "chapter": "Psicologia sociale",
+   "title": "Pregiudizi, stereotipi e discriminazione",
+   "hook": "Da dove nascono i pregiudizi, perché sono così resistenti e cosa funziona per ridurli. Stereotipi, discriminazione, favoritismo per il proprio gruppo.",
+   "points": [
+    "Stereotipi, pregiudizi e discriminazione",
+    "Il favoritismo verso il proprio gruppo",
+    "Perché gli stereotipi si autoalimentano",
+    "Come si riducono i pregiudizi"
+   ],
+   "sections": [
+    {
+     "h": "Tre concetti diversi",
+     "p": [
+      "Uno stereotipo è una credenza generalizzata su un gruppo di persone: \"gli anziani non sanno usare la tecnologia\". Può riguardare caratteristiche positive o negative, ma ignora le differenze tra individui.",
+      "Il pregiudizio è un atteggiamento, di solito negativo, verso qualcuno solo perché appartiene a un gruppo. La discriminazione è un comportamento: trattare in modo diverso e ingiusto qualcuno a causa del gruppo a cui appartiene, per esempio non assumerlo o non affittargli una casa.",
+      "Pregiudizi e discriminazioni possono riguardare l'origine etnica, la religione, il genere, l'orientamento sessuale, l'età, la disabilità, il peso. La transfobia, per esempio, è l'odio o la paura verso chi è percepito come trasgressore dei ruoli di genere stereotipati, e si esprime spesso con stereotipi, discriminazione, molestie o violenza."
+     ]
+    },
+    {
+     "h": "Noi e loro",
+     "p": [
+      "Gli esseri umani tendono a dividere il mondo in gruppi: il proprio, l'ingroup, e gli altri, gli outgroup. Esperimenti classici di Henri Tajfel mostrarono che basta dividere persone in gruppi del tutto arbitrari, per esempio in base alla preferenza tra due pittori, perché comincino a favorire il proprio gruppo.",
+      "Tendiamo anche a vedere i membri dell'altro gruppo come tutti uguali, mentre riconosciamo le differenze tra i membri del nostro. Quando i gruppi competono per risorse scarse, le ostilità possono crescere rapidamente."
+     ]
+    },
+    {
+     "h": "Stereotipi che si confermano",
+     "p": [
+      "Un meccanismo che rafforza gli stereotipi è il bias di conferma: notiamo e ricordiamo gli episodi che confermano lo stereotipo e dimentichiamo quelli che lo smentiscono.",
+      "Gli stereotipi possono anche diventare profezie che si autoavverano: se ci si aspetta poco da una persona, la si tratta in modo da ottenere davvero poco. E chi appartiene a un gruppo stereotipato può rendere peggio in un compito quando teme di confermare lo stereotipo: è la minaccia dello stereotipo, studiata in molti esperimenti, anche se l'entità dell'effetto è discussa.",
+      "Molte persone che rifiutano sinceramente i pregiudizi mostrano comunque associazioni automatiche, dette pregiudizi impliciti, che possono influenzare decisioni rapide."
+     ]
+    },
+    {
+     "h": "Cosa funziona",
+     "p": [
+      "Una delle strategie più studiate è il contatto tra gruppi: conoscere persone dell'altro gruppo riduce i pregiudizi, soprattutto se il contatto avviene tra persone di pari status, che collaborano per obiettivi comuni, con il sostegno delle istituzioni.",
+      "Negli anni Settanta lo psicologo Elliot Aronson introdusse nelle scuole il metodo \"jigsaw\", a puzzle: ogni studente di un gruppo misto ha un pezzo di informazione necessario agli altri, e tutti devono collaborare. Ridusse le tensioni tra gruppi e migliorò i risultati.",
+      "Aiutano anche le leggi contro la discriminazione, la conoscenza dei propri bias e il mettersi nei panni degli altri."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Una squadra mista di colleghi di culture diverse che lavora a un obiettivo comune riduce i pregiudizi più di qualsiasi corso teorico.",
+   "mistakes": [
+    "\"Gli stereotipi positivi sono innocui\": riducono comunque le persone a etichette.",
+    "\"Chi non vuole avere pregiudizi non ne ha\": esistono associazioni implicite.",
+    "\"Il pregiudizio si combatte solo con le informazioni\": funziona di più il contatto cooperativo."
+   ],
+   "terms": [
+    {
+     "t": "Stereotipo",
+     "d": "Credenza generalizzata su un gruppo."
+    },
+    {
+     "t": "Pregiudizio",
+     "d": "Atteggiamento negativo verso qualcuno per il suo gruppo."
+    },
+    {
+     "t": "Discriminazione",
+     "d": "Trattamento ingiusto basato sul gruppo."
+    },
+    {
+     "t": "Ingroup",
+     "d": "Il proprio gruppo."
+    }
+   ],
+   "quote": {
+    "text": "Another dynamic that can reinforce stereotypes is confirmation bias.",
+    "translation": "Un'altra dinamica che può rafforzare gli stereotipi è il bias di conferma."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Psychology 2e",
+     "title": "12.5 Prejudice and discrimination",
+     "url": "https://openstax.org/books/psychology-2e/pages/12-5-prejudice-and-discrimination"
+    }
+   ],
+   "videos": [
+    {
+     "id": "7P0iP2Zm6a4",
+     "title": "Prejudice and Discrimination: Crash Course Psychology #39",
+     "channel": "CrashCourse",
+     "length": "9:54"
+    },
+    {
+     "id": "wgEEw_UIuTQ",
+     "title": "Psychology - Prejudice & Discrimination",
+     "channel": "Cognito",
+     "length": "5:25"
+    }
+   ],
+   "videoQuery": "prejudice discrimination crash course psychology",
+   "addedAt": "2026-11-04T00:56:16Z"
+  },
+  {
+   "id": "aggressivita",
+   "subject": "psicologia",
+   "chapter": "Psicologia sociale",
+   "title": "Aggressività, bullismo ed effetto spettatore",
+   "hook": "Perché siamo aggressivi? E perché, davanti a qualcuno in difficoltà, a volte nessuno interviene? Le ricerche sull'aggressività e sull'effetto spettatore.",
+   "points": [
+    "Tipi di aggressività",
+    "Le teorie sulle cause",
+    "Bullismo e cyberbullismo",
+    "L'effetto spettatore e come superarlo"
+   ],
+   "sections": [
+    {
+     "h": "Diverse forme",
+     "p": [
+      "In psicologia l'aggressività è un comportamento intenzionale volto a fare del male a qualcuno. Si distingue un'aggressività ostile, impulsiva e mossa dalla rabbia, e una strumentale, usata come mezzo per ottenere qualcosa, come in una rapina.",
+      "Può essere fisica o verbale, diretta o indiretta, come diffondere voci o escludere qualcuno dal gruppo, forma più frequente in alcune età e contesti."
+     ]
+    },
+    {
+     "h": "Da dove viene",
+     "p": [
+      "Ci sono molte teorie sul perché esiste l'aggressività. Le spiegazioni biologiche indicano il ruolo dell'amigdala, di ormoni come il testosterone, della genetica e di sostanze come l'alcol, che riduce l'autocontrollo.",
+      "L'ipotesi frustrazione-aggressività sostiene che la frustrazione, cioè l'essere bloccati nel raggiungere un obiettivo, aumenti la probabilità di reazioni aggressive. Le teorie dell'apprendimento sociale, a partire dagli esperimenti di Bandura con la bambola Bobo, mostrano che l'aggressività si impara anche osservando gli altri.",
+      "Anche il contesto conta: caldo, rumore, affollamento e la presenza di armi possono aumentare i comportamenti aggressivi. Il dibattito sugli effetti dei videogiochi violenti è ancora aperto: alcuni studi trovano piccoli effetti a breve termine, altri no."
+     ]
+    },
+    {
+     "h": "Il bullismo",
+     "p": [
+      "Il bullismo è un comportamento aggressivo ripetuto in cui c'è uno squilibrio di potere tra chi lo compie e chi lo subisce. Il trattamento negativo tipico del bullismo è il tentativo di infliggere danno, lesioni o umiliazione, e può includere attacchi fisici o verbali.",
+      "Il bullismo coinvolge tre parti: il bullo, la vittima e i testimoni. Ha conseguenze negative per la vittima, come ansia, depressione e calo del rendimento scolastico, ma anche per gli spettatori. Il cyberbullismo, attraverso telefoni e social, ha caratteristiche particolari: può arrivare a ogni ora, raggiungere un pubblico enorme e restare online."
+     ]
+    },
+    {
+     "h": "L'effetto spettatore",
+     "p": [
+      "Nel 1964 a New York l'omicidio di Kitty Genovese fu raccontato dai giornali come un caso in cui decine di vicini avevano visto e nessuno era intervenuto. Ricerche successive hanno mostrato che il racconto era esagerato, ma il caso spinse gli psicologi John Darley e Bibb Latané a studiare il fenomeno.",
+      "Nei loro esperimenti, più persone erano presenti a un'emergenza, meno probabile era che qualcuno intervenisse, e più tempo ci voleva. È l'effetto spettatore. Una causa è la diffusione di responsabilità: ognuno pensa che qualcun altro interverrà. Un'altra è l'ignoranza pluralistica: guardando gli altri che restano calmi, si conclude che non ci sia un'emergenza.",
+      "Per superarlo, se sei tu ad avere bisogno di aiuto, conviene rivolgersi a una persona specifica: \"Tu con la giacca blu, chiama un'ambulanza\". Se sei uno spettatore, sapere che esiste questo effetto aiuta a non aspettare gli altri."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Se qualcuno sviene in metro, indica una persona precisa e chiedile di chiamare il 112: rompi la diffusione di responsabilità.",
+   "mistakes": [
+    "\"In un gruppo è più probabile ricevere aiuto\": spesso è meno probabile.",
+    "\"Il bullismo riguarda solo bullo e vittima\": coinvolge anche gli spettatori.",
+    "\"L'aggressività è solo istinto\": si impara anche osservando gli altri."
+   ],
+   "terms": [
+    {
+     "t": "Aggressività strumentale",
+     "d": "Aggressività usata come mezzo per un obiettivo."
+    },
+    {
+     "t": "Ipotesi frustrazione-aggressività",
+     "d": "La frustrazione aumenta la probabilità di aggressione."
+    },
+    {
+     "t": "Effetto spettatore",
+     "d": "Minore probabilità di aiutare quando ci sono altri presenti."
+    },
+    {
+     "t": "Diffusione di responsabilità",
+     "d": "Ognuno si sente meno responsabile in gruppo."
+    }
+   ],
+   "quote": {
+    "text": "The negative treatment typical in bullying is the attempt to inflict harm, injury, or humiliation, and bullying can include physical or verbal attacks.",
+    "translation": "Il trattamento negativo tipico del bullismo è il tentativo di infliggere danno, ferite o umiliazione, e il bullismo può includere attacchi fisici o verbali."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Psychology 2e",
+     "title": "12.6 Aggression",
+     "url": "https://openstax.org/books/psychology-2e/pages/12-6-aggression"
+    }
+   ],
+   "videos": [
+    {
+     "id": "XoTx7Rt4dig",
+     "title": "Aggression vs. Altruism: Crash Course Psychology #40",
+     "channel": "CrashCourse",
+     "length": "10:41"
+    },
+    {
+     "id": "PnvZ39gvDxo",
+     "title": "Psychology - The Bystander Effect",
+     "channel": "Cognito",
+     "length": "5:27"
+    }
+   ],
+   "videoQuery": "bystander effect aggression psychology",
+   "addedAt": "2026-11-04T00:56:16Z"
+  },
+  {
+   "id": "altruismo-amore",
+   "subject": "psicologia",
+   "chapter": "Psicologia sociale",
+   "title": "Altruismo, attrazione e amore",
+   "hook": "Perché aiutiamo gli altri anche quando non ci conviene? Cosa ci attrae in una persona? La teoria triangolare dell'amore e la psicologia dei legami.",
+   "points": [
+    "Comportamento prosociale e altruismo",
+    "Perché aiutiamo",
+    "Cosa determina l'attrazione",
+    "La teoria triangolare dell'amore"
+   ],
+   "sections": [
+    {
+     "h": "Aiutare gli altri",
+     "p": [
+      "Il comportamento volontario con l'intenzione di aiutare altre persone si chiama comportamento prosociale. L'altruismo è una forma particolare: aiutare qualcuno senza aspettarsi nulla in cambio, a volte anche a proprie spese.",
+      "Le persone donano sangue e organi, aiutano sconosciuti, fanno volontariato, rischiano la vita per salvare altri. Esistono individui con un altruismo straordinario, come chi dona un rene a uno sconosciuto: alcuni studi hanno trovato in loro una maggiore sensibilità alla sofferenza altrui."
+     ]
+    },
+    {
+     "h": "Perché aiutiamo",
+     "p": [
+      "Le spiegazioni sono diverse. Dal punto di vista evolutivo, aiutare i parenti favorisce la sopravvivenza dei geni condivisi, e aiutare chi potrà ricambiare favorisce la cooperazione reciproca. La teoria dello scambio sociale sostiene che aiutiamo quando i benefici, compresa la soddisfazione personale, superano i costi.",
+      "Secondo l'ipotesi empatia-altruismo dello psicologo Daniel Batson, quando proviamo empatia per qualcuno possiamo aiutarlo per motivi genuinamente altruistici, anche quando potremmo facilmente evitarlo. Aiutare inoltre fa stare bene: diversi studi mostrano che spendere per gli altri aumenta il benessere di chi dona."
+     ]
+    },
+    {
+     "h": "L'attrazione",
+     "p": [
+      "Che cosa ci fa piacere qualcuno? Uno dei fattori più potenti è la vicinanza: tendiamo a fare amicizia e innamorarci di chi incontriamo spesso, a scuola, al lavoro, nel quartiere. Il semplice fatto di vedere spesso qualcuno tende a farcelo piacere di più: è l'effetto di mera esposizione.",
+      "Contano anche la somiglianza, in valori, interessi e atteggiamenti, molto più del detto \"gli opposti si attraggono\"; la reciprocità, cioè piacere a chi ci mostra di apprezzarci; e l'attrattività fisica, soprattutto nei primi incontri. Esiste una tendenza ad attribuire qualità positive alle persone belle: è l'effetto alone."
+     ]
+    },
+    {
+     "h": "La teoria triangolare dell'amore",
+     "p": [
+      "Lo psicologo Robert Sternberg propose che l'amore abbia tre componenti. L'intimità è la condivisione di dettagli, pensieri ed emozioni personali: la vicinanza emotiva. La passione è l'attrazione fisica e sessuale. L'impegno è la decisione di restare insieme nel tempo.",
+      "Combinando le tre componenti si ottengono tipi diversi di amore. L'infatuazione è passione senza intimità né impegno. L'amore romantico unisce passione e intimità, ma senza impegno. L'amore compagno unisce intimità e impegno, ed è tipico di molte coppie di lunga data e delle grandi amicizie. L'amore completo, che Sternberg chiama consumato, ha tutte e tre le componenti.",
+      "Nelle relazioni lunghe la passione tende a diminuire, mentre intimità e impegno possono crescere. Le coppie che durano coltivano attivamente tutte e tre le componenti."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Molte amicizie nascono tra compagni di banco: la vicinanza e l'esposizione ripetuta sono potenti fattori di attrazione.",
+   "mistakes": [
+    "\"Gli opposti si attraggono\": in genere ci attrae chi ci somiglia.",
+    "\"L'altruismo vero non esiste\": ci sono prove di aiuto motivato dall'empatia.",
+    "\"Se la passione cala, l'amore è finito\": possono crescere intimità e impegno."
+   ],
+   "terms": [
+    {
+     "t": "Comportamento prosociale",
+     "d": "Comportamento volontario per aiutare gli altri."
+    },
+    {
+     "t": "Altruismo",
+     "d": "Aiutare senza aspettarsi nulla in cambio."
+    },
+    {
+     "t": "Effetto di mera esposizione",
+     "d": "Preferenza per ciò che vediamo spesso."
+    },
+    {
+     "t": "Teoria triangolare",
+     "d": "Intimità, passione e impegno come componenti dell'amore."
+    }
+   ],
+   "quote": {
+    "text": "Voluntary behavior with the intent to help other people is called prosocial behavior.",
+    "translation": "Il comportamento volontario con l'intenzione di aiutare altre persone si chiama comportamento prosociale."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Psychology 2e",
+     "title": "12.7 Prosocial behavior",
+     "url": "https://openstax.org/books/psychology-2e/pages/12-7-prosocial-behavior"
+    }
+   ],
+   "videos": [
+    {
+     "id": "uq-6T6TAu74",
+     "title": "Why some people are more altruistic than others | Abigail Marsh",
+     "channel": "TED",
+     "length": "12:22"
+    },
+    {
+     "id": "XoTx7Rt4dig",
+     "title": "Aggression vs. Altruism: Crash Course Psychology #40",
+     "channel": "CrashCourse",
+     "length": "10:41"
+    }
+   ],
+   "videoQuery": "altruism love attraction psychology",
+   "addedAt": "2026-11-04T00:56:16Z"
   },
   {
    "id": "stress",

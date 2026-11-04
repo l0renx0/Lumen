@@ -2167,12 +2167,16 @@
       {
        "title": "7.1 What is cognition",
        "url": "https://openstax.org/books/psychology-2e/pages/7-1-what-is-cognition",
-       "argomenti": []
+       "argomenti": [
+        "concetti-e-schemi"
+       ]
       },
       {
        "title": "7.2 Language",
        "url": "https://openstax.org/books/psychology-2e/pages/7-2-language",
-       "argomenti": []
+       "argomenti": [
+        "linguaggio"
+       ]
       },
       {
        "title": "7.3 Problem solving",
@@ -2218,7 +2222,9 @@
       {
        "title": "8.2 Parts of the brain involved with memory",
        "url": "https://openstax.org/books/psychology-2e/pages/8-2-parts-of-the-brain-involved-with-memory",
-       "argomenti": []
+       "argomenti": [
+        "memoria-nel-cervello"
+       ]
       },
       {
        "title": "8.3 Problems with memory",
@@ -2243,7 +2249,9 @@
       {
        "title": "9.1 What is lifespan development",
        "url": "https://openstax.org/books/psychology-2e/pages/9-1-what-is-lifespan-development",
-       "argomenti": []
+       "argomenti": [
+        "sviluppo-nella-vita"
+       ]
       },
       {
        "title": "9.2 Lifespan theories",
@@ -2255,12 +2263,16 @@
       {
        "title": "9.3 Stages of development",
        "url": "https://openstax.org/books/psychology-2e/pages/9-3-stages-of-development",
-       "argomenti": []
+       "argomenti": [
+        "sviluppo-nella-vita"
+       ]
       },
       {
        "title": "9.4 Death and dying",
        "url": "https://openstax.org/books/psychology-2e/pages/9-4-death-and-dying",
-       "argomenti": []
+       "argomenti": [
+        "morte-e-lutto"
+       ]
       }
      ]
     },
@@ -2278,12 +2290,16 @@
       {
        "title": "10.2 Hunger and eating",
        "url": "https://openstax.org/books/psychology-2e/pages/10-2-hunger-and-eating",
-       "argomenti": []
+       "argomenti": [
+        "fame"
+       ]
       },
       {
        "title": "10.3 Sexual behavior sexuality and gender identity",
        "url": "https://openstax.org/books/psychology-2e/pages/10-3-sexual-behavior-sexuality-and-gender-identity",
-       "argomenti": []
+       "argomenti": [
+        "sessualita-identita"
+       ]
       },
       {
        "title": "10.4 Emotion",
@@ -2301,32 +2317,44 @@
       {
        "title": "11.1 What is personality",
        "url": "https://openstax.org/books/psychology-2e/pages/11-1-what-is-personality",
-       "argomenti": []
+       "argomenti": [
+        "freud"
+       ]
       },
       {
        "title": "11.2 Freud and the psychodynamic perspective",
        "url": "https://openstax.org/books/psychology-2e/pages/11-2-freud-and-the-psychodynamic-perspective",
-       "argomenti": []
+       "argomenti": [
+        "freud"
+       ]
       },
       {
        "title": "11.3 Neo freudians adler erikson jung and horney",
        "url": "https://openstax.org/books/psychology-2e/pages/11-3-neo-freudians-adler-erikson-jung-and-horney",
-       "argomenti": []
+       "argomenti": [
+        "neofreudiani"
+       ]
       },
       {
        "title": "11.4 Learning approaches",
        "url": "https://openstax.org/books/psychology-2e/pages/11-4-learning-approaches",
-       "argomenti": []
+       "argomenti": [
+        "personalita-umanistica"
+       ]
       },
       {
        "title": "11.5 Humanistic approaches",
        "url": "https://openstax.org/books/psychology-2e/pages/11-5-humanistic-approaches",
-       "argomenti": []
+       "argomenti": [
+        "personalita-umanistica"
+       ]
       },
       {
        "title": "11.6 Biological approaches",
        "url": "https://openstax.org/books/psychology-2e/pages/11-6-biological-approaches",
-       "argomenti": []
+       "argomenti": [
+        "personalita-biologia-cultura"
+       ]
       },
       {
        "title": "11.7 Trait theorists",
@@ -2338,7 +2366,9 @@
       {
        "title": "11.8 Cultural understandings of personality",
        "url": "https://openstax.org/books/psychology-2e/pages/11-8-cultural-understandings-of-personality",
-       "argomenti": []
+       "argomenti": [
+        "personalita-biologia-cultura"
+       ]
       },
       {
        "title": "11.9 Personality assessment",
@@ -2356,17 +2386,23 @@
       {
        "title": "12.1 What is social psychology",
        "url": "https://openstax.org/books/psychology-2e/pages/12-1-what-is-social-psychology",
-       "argomenti": []
+       "argomenti": [
+        "attribuzione"
+       ]
       },
       {
        "title": "12.2 Self presentation",
        "url": "https://openstax.org/books/psychology-2e/pages/12-2-self-presentation",
-       "argomenti": []
+       "argomenti": [
+        "ruoli-sociali"
+       ]
       },
       {
        "title": "12.3 Attitudes and persuasion",
        "url": "https://openstax.org/books/psychology-2e/pages/12-3-attitudes-and-persuasion",
-       "argomenti": []
+       "argomenti": [
+        "persuasione"
+       ]
       },
       {
        "title": "12.4 Conformity compliance and obedience",
@@ -2378,17 +2414,23 @@
       {
        "title": "12.5 Prejudice and discrimination",
        "url": "https://openstax.org/books/psychology-2e/pages/12-5-prejudice-and-discrimination",
-       "argomenti": []
+       "argomenti": [
+        "pregiudizio"
+       ]
       },
       {
        "title": "12.6 Aggression",
        "url": "https://openstax.org/books/psychology-2e/pages/12-6-aggression",
-       "argomenti": []
+       "argomenti": [
+        "aggressivita"
+       ]
       },
       {
        "title": "12.7 Prosocial behavior",
        "url": "https://openstax.org/books/psychology-2e/pages/12-7-prosocial-behavior",
-       "argomenti": []
+       "argomenti": [
+        "altruismo-amore"
+       ]
       }
      ]
     },
