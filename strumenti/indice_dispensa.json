@@ -2920,7 +2920,9 @@
       {
        "title": "6.4 Radio telescopes",
        "url": "https://openstax.org/books/astronomy-2e/pages/6-4-radio-telescopes",
-       "argomenti": []
+       "argomenti": [
+        "radiotelescopi"
+       ]
       },
       {
        "title": "6.5 Observations outside earths atmosphere",
@@ -2945,22 +2947,30 @@
       {
        "title": "7.1 Overview of our planetary system",
        "url": "https://openstax.org/books/astronomy-2e/pages/7-1-overview-of-our-planetary-system",
-       "argomenti": []
+       "argomenti": [
+        "sistema-solare"
+       ]
       },
       {
        "title": "7.2 Composition and structure of planets",
        "url": "https://openstax.org/books/astronomy-2e/pages/7-2-composition-and-structure-of-planets",
-       "argomenti": []
+       "argomenti": [
+        "sistema-solare"
+       ]
       },
       {
        "title": "7.3 Dating planetary surfaces",
        "url": "https://openstax.org/books/astronomy-2e/pages/7-3-dating-planetary-surfaces",
-       "argomenti": []
+       "argomenti": [
+        "eta-delle-superfici"
+       ]
       },
       {
        "title": "7.4 Origin of the solar system",
        "url": "https://openstax.org/books/astronomy-2e/pages/7-4-origin-of-the-solar-system",
-       "argomenti": []
+       "argomenti": [
+        "nascita-sistema-solare"
+       ]
       }
      ]
     },
@@ -2971,27 +2981,37 @@
       {
        "title": "8.1 The global perspective",
        "url": "https://openstax.org/books/astronomy-2e/pages/8-1-the-global-perspective",
-       "argomenti": []
+       "argomenti": [
+        "terra-pianeta"
+       ]
       },
       {
        "title": "8.2 Earths crust",
        "url": "https://openstax.org/books/astronomy-2e/pages/8-2-earths-crust",
-       "argomenti": []
+       "argomenti": [
+        "terra-pianeta"
+       ]
       },
       {
        "title": "8.3 Earths atmosphere",
        "url": "https://openstax.org/books/astronomy-2e/pages/8-3-earths-atmosphere",
-       "argomenti": []
+       "argomenti": [
+        "atmosfera-terrestre"
+       ]
       },
       {
        "title": "8.4 Life chemical evolution and climate change",
        "url": "https://openstax.org/books/astronomy-2e/pages/8-4-life-chemical-evolution-and-climate-change",
-       "argomenti": []
+       "argomenti": [
+        "vita-e-clima"
+       ]
       },
       {
        "title": "8.5 Cosmic influences on the evolution of earth",
        "url": "https://openstax.org/books/astronomy-2e/pages/8-5-cosmic-influences-on-the-evolution-of-earth",
-       "argomenti": []
+       "argomenti": [
+        "impatti-cosmici"
+       ]
       }
      ]
     },
@@ -3002,27 +3022,37 @@
       {
        "title": "9.1 General properties of the moon",
        "url": "https://openstax.org/books/astronomy-2e/pages/9-1-general-properties-of-the-moon",
-       "argomenti": []
+       "argomenti": [
+        "la-luna"
+       ]
       },
       {
        "title": "9.2 The lunar surface",
        "url": "https://openstax.org/books/astronomy-2e/pages/9-2-the-lunar-surface",
-       "argomenti": []
+       "argomenti": [
+        "la-luna"
+       ]
       },
       {
        "title": "9.3 Impact craters",
        "url": "https://openstax.org/books/astronomy-2e/pages/9-3-impact-craters",
-       "argomenti": []
+       "argomenti": [
+        "crateri"
+       ]
       },
       {
        "title": "9.4 The origin of the moon",
        "url": "https://openstax.org/books/astronomy-2e/pages/9-4-the-origin-of-the-moon",
-       "argomenti": []
+       "argomenti": [
+        "origine-luna"
+       ]
       },
       {
        "title": "9.5 Mercury",
        "url": "https://openstax.org/books/astronomy-2e/pages/9-5-mercury",
-       "argomenti": []
+       "argomenti": [
+        "mercurio"
+       ]
       }
      ]
     },
@@ -3033,17 +3063,23 @@
       {
        "title": "10.1 The nearest planets an overview",
        "url": "https://openstax.org/books/astronomy-2e/pages/10-1-the-nearest-planets-an-overview",
-       "argomenti": []
+       "argomenti": [
+        "venere"
+       ]
       },
       {
        "title": "10.2 The geology of venus",
        "url": "https://openstax.org/books/astronomy-2e/pages/10-2-the-geology-of-venus",
-       "argomenti": []
+       "argomenti": [
+        "venere"
+       ]
       },
       {
        "title": "10.3 The massive atmosphere of venus",
        "url": "https://openstax.org/books/astronomy-2e/pages/10-3-the-massive-atmosphere-of-venus",
-       "argomenti": []
+       "argomenti": [
+        "venere"
+       ]
       },
       {
        "title": "10.4 The geology of mars",
@@ -3062,7 +3098,9 @@
       {
        "title": "10.6 Divergent planetary evolution",
        "url": "https://openstax.org/books/astronomy-2e/pages/10-6-divergent-planetary-evolution",
-       "argomenti": []
+       "argomenti": [
+        "destini-dei-pianeti"
+       ]
       }
      ]
     },
@@ -3073,17 +3111,23 @@
       {
        "title": "11.1 Exploring the outer planets",
        "url": "https://openstax.org/books/astronomy-2e/pages/11-1-exploring-the-outer-planets",
-       "argomenti": []
+       "argomenti": [
+        "pianeti-giganti"
+       ]
       },
       {
        "title": "11.2 The giant planets",
        "url": "https://openstax.org/books/astronomy-2e/pages/11-2-the-giant-planets",
-       "argomenti": []
+       "argomenti": [
+        "pianeti-giganti"
+       ]
       },
       {
        "title": "11.3 Atmospheres of the giant planets",
        "url": "https://openstax.org/books/astronomy-2e/pages/11-3-atmospheres-of-the-giant-planets",
-       "argomenti": []
+       "argomenti": [
+        "atmosfere-giganti"
+       ]
       }
      ]
     },
@@ -3163,17 +3207,23 @@
       {
        "title": "14.3 Formation of the solar system",
        "url": "https://openstax.org/books/astronomy-2e/pages/14-3-formation-of-the-solar-system",
-       "argomenti": []
+       "argomenti": [
+        "nascita-sistema-solare"
+       ]
       },
       {
        "title": "14.4 Comparison with other planetary systems",
        "url": "https://openstax.org/books/astronomy-2e/pages/14-4-comparison-with-other-planetary-systems",
-       "argomenti": []
+       "argomenti": [
+        "pianeti-a-confronto"
+       ]
       },
       {
        "title": "14.5 Planetary evolution",
        "url": "https://openstax.org/books/astronomy-2e/pages/14-5-planetary-evolution",
-       "argomenti": []
+       "argomenti": [
+        "pianeti-a-confronto"
+       ]
       }
      ]
     },

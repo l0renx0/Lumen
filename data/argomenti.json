@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-04T11:14:46Z",
+ "updatedAt": "2026-11-04T11:19:31Z",
  "subjects": [
   {
    "id": "fisica",
@@ -4884,6 +4884,11 @@
      "name": "OpenStax · College Physics 2e",
      "title": "15.6 Entropy and the Second Law of Thermodynamics",
      "url": "https://openstax.org/books/college-physics-2e/pages/15-6-entropy-and-the-second-law-of-thermodynamics-disorder-and-the-unavailability-of-energy"
+    },
+    {
+     "name": "OpenStax · College Physics 2e",
+     "title": "15.7 Statistical Interpretation of Entropy",
+     "url": "https://openstax.org/books/college-physics-2e/pages/15-7-statistical-interpretation-of-entropy-and-the-second-law-of-thermodynamics-the-underlying-explanation"
     },
     {
      "name": "OpenStax · College Physics 2e",
@@ -12895,6 +12900,11 @@
      "name": "OpenStax · Psychology 2e",
      "title": "6.1 What Is Learning?",
      "url": "https://openstax.org/books/psychology-2e/pages/6-1-what-is-learning"
+    },
+    {
+     "name": "OpenStax · Psychology 2e",
+     "title": "6.1 What Is Learning?",
+     "url": "https://openstax.org/books/psychology-2e/pages/6-1-what-is-learning"
     }
    ],
    "videos": [
@@ -19389,6 +19399,1278 @@
    "addedAt": "2026-11-04T11:14:46Z"
   },
   {
+   "id": "radiotelescopi",
+   "subject": "astronomia",
+   "chapter": "Luce e strumenti",
+   "title": "I radiotelescopi: ascoltare l'universo invisibile",
+   "hook": "Enormi parabole captano onde radio dal cosmo: gas freddo, pulsar, galassie attive, l'eco del Big Bang. E unendo antenne lontane si ottiene un telescopio grande come la Terra.",
+   "points": [
+    "La nascita della radioastronomia",
+    "Come funziona un radiotelescopio",
+    "L'interferometria radio",
+    "Cosa si scopre con le onde radio"
+   ],
+   "sections": [
+    {
+     "h": "Un rumore dallo spazio",
+     "p": [
+      "Nel 1931 l'ingegnere americano Karl Jansky, che studiava i disturbi delle comunicazioni radio, scoprì un fruscio che si ripeteva ogni giorno siderale: arrivava dal centro della Via Lattea. Era nata la radioastronomia.",
+      "Le onde radio attraversano l'atmosfera, le nubi e la polvere interstellare, e si possono osservare anche di giorno. Rivelano un universo diverso da quello visibile: gas freddo, campi magnetici, particelle velocissime."
+     ]
+    },
+    {
+     "h": "Come è fatto",
+     "p": [
+      "Un radiotelescopio funziona come uno specchio: una grande parabola raccoglie le onde radio e le concentra su un'antenna nel fuoco, collegata a ricevitori molto sensibili. Le onde radio hanno lunghezze d'onda molto maggiori della luce, quindi la superficie non deve essere lucida come uno specchio ottico: può essere persino una rete metallica.",
+      "Proprio per le lunghezze d'onda grandi, però, un singolo radiotelescopio ha una risoluzione bassa: servono antenne enormi. Il radiotelescopio cinese FAST ha un diametro di 500 metri, incastonato in una valle naturale. In Italia ci sono i radiotelescopi di Medicina, Noto e il Sardinia Radio Telescope da 64 metri."
+     ]
+    },
+    {
+     "h": "Antenne che lavorano insieme",
+     "p": [
+      "Per migliorare la risoluzione si combinano i segnali di molte antenne: è l'interferometria. Lo strumento di questo tipo più grande negli Stati Uniti è il Jansky Very Large Array, vicino a Socorro, nel New Mexico: 27 antenne disposte a Y su distanze fino a 36 chilometri, che insieme si comportano come una sola antenna di quelle dimensioni.",
+      "Collegando radiotelescopi in continenti diversi, sincronizzati con orologi atomici, si ottiene un'antenna virtuale grande quanto la Terra. È con questa tecnica che l'Event Horizon Telescope ha fotografato l'ombra dei buchi neri. In Cile, la rete ALMA osserva onde millimetriche dove nascono stelle e pianeti; in Sudafrica e Australia è in costruzione lo Square Kilometre Array."
+     ]
+    },
+    {
+     "h": "Le scoperte",
+     "p": [
+      "Le onde radio hanno portato a scoperte fondamentali: le pulsar, la radiazione cosmica di fondo, le galassie radio e i quasar con i loro getti di particelle, le molecole nelle nubi interstellari, compresi composti organici.",
+      "Il gas di idrogeno neutro emette una riga radio a 21 centimetri, con cui si è mappata la struttura a spirale della nostra galassia. I radiotelescopi sono usati anche per seguire le sonde nel Sistema solare e, in alcuni progetti, per cercare segnali di civiltà extraterrestri."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Parte del fruscio di una vecchia TV non sintonizzata era radiazione cosmica di fondo, l'eco del Big Bang.",
+   "mistakes": [
+    "\"I radiotelescopi ascoltano suoni dallo spazio\": captano onde elettromagnetiche, non suoni.",
+    "\"Le onde radio dallo spazio vengono da alieni\": vengono da fenomeni naturali.",
+    "\"Servono notti buie\": le onde radio si osservano anche di giorno."
+   ],
+   "terms": [
+    {
+     "t": "Radioastronomia",
+     "d": "Studio del cielo tramite onde radio."
+    },
+    {
+     "t": "Interferometria radio",
+     "d": "Combinazione di più antenne come se fossero una sola."
+    },
+    {
+     "t": "Riga a 21 cm",
+     "d": "Emissione radio dell'idrogeno neutro."
+    },
+    {
+     "t": "ALMA",
+     "d": "Rete di antenne in Cile per onde millimetriche."
+    }
+   ],
+   "quote": {
+    "text": "The most extensive such instrument in the United States is the National Radio Astronomy Observatory’s Jansky Very Large Array (VLA) near Socorro, New Mexico.",
+    "translation": "Lo strumento di questo tipo più grande negli Stati Uniti è il Jansky Very Large Array (VLA) del National Radio Astronomy Observatory, vicino a Socorro, nel New Mexico."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "6.4 Radio telescopes",
+     "url": "https://openstax.org/books/astronomy-2e/pages/6-4-radio-telescopes"
+    }
+   ],
+   "videos": [
+    {
+     "id": "nFEgRt2EH1g",
+     "title": "How radio telescopes show us unseen galaxies | Natasha Hurley-Walker",
+     "channel": "TED",
+     "length": "15:26"
+    },
+    {
+     "id": "5v7bN13PjZ8",
+     "title": "How Do Telescopes Work? | Earth Science",
+     "channel": "BBC Earth Science",
+     "length": "7:54"
+    }
+   ],
+   "videoQuery": "radio telescopes how they work",
+   "addedAt": "2026-11-04T11:19:31Z"
+  },
+  {
+   "id": "sistema-solare",
+   "subject": "astronomia",
+   "chapter": "Sistema solare",
+   "title": "Il Sistema solare: una panoramica dei mondi intorno al Sole",
+   "hook": "Pianeti rocciosi e giganti, lune, pianeti nani, asteroidi e comete: com'è organizzato il Sistema solare e cosa distingue i suoi mondi.",
+   "points": [
+    "Gli abitanti del Sistema solare",
+    "Pianeti terrestri e pianeti giganti",
+    "Densità e composizione",
+    "Una scala per immaginare le distanze"
+   ],
+   "sections": [
+    {
+     "h": "Il sistema di Sol",
+     "p": [
+      "Il nostro sistema si chiama solare perché il Sole veniva chiamato anche Sol. Il Sole contiene la stragrande maggioranza della massa; intorno girano otto pianeti, i pianeti nani come Plutone, centinaia di lune, milioni di asteroidi e miliardi di comete.",
+      "Tutti i pianeti girano intorno al Sole nello stesso verso e quasi sullo stesso piano. Anche i pianeti e i pianeti nani ruotano su sé stessi intorno a un asse, e nella maggior parte dei casi il verso di rotazione è lo stesso di quello della rivoluzione intorno al Sole: indizi di un'origine comune."
+     ]
+    },
+    {
+     "h": "Due famiglie di pianeti",
+     "p": [
+      "I quattro pianeti interni, Mercurio, Venere, Terra e Marte, sono piccoli, rocciosi e densi, con pochi satelliti: si chiamano pianeti terrestri. I quattro esterni, Giove, Saturno, Urano e Nettuno, sono giganti: enormi, poco densi, fatti soprattutto di gas e ghiacci, con molti satelliti e sistemi di anelli.",
+      "Tra Marte e Giove c'è la fascia principale degli asteroidi; oltre Nettuno la fascia di Kuiper, con Plutone e altri corpi ghiacciati, e ancora più lontano l'ipotetica nube di Oort, serbatoio delle comete."
+     ]
+    },
+    {
+     "h": "Di cosa sono fatti",
+     "p": [
+      "La densità media di un pianeta, cioè la massa divisa per il volume, rivela la sua composizione. I pianeti terrestri hanno densità da 4 a 5,5 volte quella dell'acqua: sono fatti di rocce e metalli, con un nucleo di ferro. Saturno ha una densità media inferiore a quella dell'acqua.",
+      "I giganti gassosi Giove e Saturno sono fatti soprattutto di idrogeno ed elio, come il Sole. Urano e Nettuno, i giganti ghiacciati, contengono più composti di ossigeno, carbonio e azoto, come acqua, metano e ammoniaca. Molti pianeti hanno una struttura a strati: i materiali più densi sono sprofondati al centro quando erano fusi, un processo chiamato differenziazione."
+     ]
+    },
+    {
+     "h": "Un modello in scala",
+     "p": [
+      "Le dimensioni sono difficili da immaginare. In un modello in cui il Sole fosse una palla grande come una persona, i pianeti giganti sarebbero come pompelmi, arance e limoni a centinaia di metri di distanza, e la maggior parte delle lune del Sistema solare esterno sarebbe grande come semi di varie dimensioni.",
+      "L'esplorazione del Sistema solare con sonde, iniziata negli anni Sessanta, ha trasformato questi puntini luminosi in mondi veri, con vulcani, oceani nascosti, tempeste e paesaggi unici. Divulgatori come Carl Sagan e poi Neil deGrasse Tyson, con la serie Cosmos, li hanno resi familiari al grande pubblico."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Saturno è così poco denso che, se esistesse un oceano abbastanza grande, galleggerebbe.",
+   "mistakes": [
+    "\"Plutone è ancora il nono pianeta\": dal 2006 è classificato come pianeta nano.",
+    "\"I pianeti giganti sono tutti uguali\": Giove e Saturno sono gassosi, Urano e Nettuno ghiacciati.",
+    "\"Il Sistema solare finisce a Nettuno\": continua con la fascia di Kuiper e oltre."
+   ],
+   "terms": [
+    {
+     "t": "Pianeti terrestri",
+     "d": "Pianeti rocciosi interni."
+    },
+    {
+     "t": "Pianeti giganti",
+     "d": "Pianeti grandi fatti di gas e ghiacci."
+    },
+    {
+     "t": "Densità media",
+     "d": "Massa divisa per volume, indica la composizione."
+    },
+    {
+     "t": "Differenziazione",
+     "d": "Separazione degli strati in base alla densità."
+    }
+   ],
+   "quote": {
+    "text": "Ours is called the solar system because our Sun is sometimes called Sol.",
+    "translation": "Il nostro si chiama sistema solare perché il nostro Sole viene talvolta chiamato Sol."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "7.1 Overview of our planetary system",
+     "url": "https://openstax.org/books/astronomy-2e/pages/7-1-overview-of-our-planetary-system"
+    },
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "7.2 Composition and structure of planets",
+     "url": "https://openstax.org/books/astronomy-2e/pages/7-2-composition-and-structure-of-planets"
+    }
+   ],
+   "videos": [
+    {
+     "id": "TKM0P3XlMNA",
+     "title": "Introduction to the Solar System: Crash Course Astronomy #9",
+     "channel": "CrashCourse",
+     "length": "10:17"
+    },
+    {
+     "id": "libKVRa01L8",
+     "title": "Solar System 101 | National Geographic",
+     "channel": "National Geographic",
+     "length": "4:11"
+    }
+   ],
+   "videoQuery": "introduction to the solar system crash course astronomy",
+   "addedAt": "2026-11-04T11:19:31Z"
+  },
+  {
+   "id": "eta-delle-superfici",
+   "subject": "astronomia",
+   "chapter": "Sistema solare",
+   "title": "Quanti anni ha una superficie? Crateri e orologi radioattivi",
+   "hook": "Contando i crateri e misurando gli atomi radioattivi nelle rocce, gli scienziati hanno datato la Luna, Marte e il Sistema solare: 4,5 miliardi di anni.",
+   "points": [
+    "Contare i crateri",
+    "Il decadimento radioattivo come orologio",
+    "L'età del Sistema solare",
+    "Superfici giovani e vecchie"
+   ],
+   "sections": [
+    {
+     "h": "Contare i crateri",
+     "p": [
+      "Una superficie esposta allo spazio viene colpita da meteoriti nel tempo e si riempie di crateri. Più crateri ci sono, più antica è la superficie, a patto che nulla li abbia cancellati: vulcani, erosione, acqua, movimenti della crosta.",
+      "È un metodo relativo: dice quale superficie è più vecchia di un'altra. Per trasformarlo in età in anni servono superfici datate in altro modo, come quelle della Luna da cui gli astronauti dell'Apollo hanno portato campioni."
+     ]
+    },
+    {
+     "h": "Un orologio negli atomi",
+     "p": [
+      "Alcuni atomi sono radioattivi: i loro nuclei si trasformano spontaneamente in altri, con un ritmo regolare misurato dal tempo di dimezzamento, il tempo in cui metà degli atomi si trasforma. Gli atomi radioattivi vengono via via sostituiti dai loro prodotti di decadimento.",
+      "Quando una roccia si solidifica, intrappola un po' di atomi radioattivi e il loro orologio parte da zero. Misurando quanti atomi radioattivi restano e quanti prodotti si sono accumulati, si calcola da quanto tempo la roccia si è solidificata. Per le rocce antiche si usano isotopi con tempi di dimezzamento lunghissimi, come quelli dell'uranio, del potassio o del rubidio."
+     ]
+    },
+    {
+     "h": "4,5 miliardi di anni",
+     "p": [
+      "Le rocce più antiche della Terra hanno circa 4 miliardi di anni, e alcuni minerali, i cristalli di zircone, arrivano a 4,4. Le rocce lunari più antiche hanno circa 4,4-4,5 miliardi di anni.",
+      "I meteoriti più primitivi, frammenti che non hanno subito trasformazioni dalla nascita del Sistema solare, danno le età più antiche: circa 4,56 miliardi di anni. È considerata l'età del Sistema solare, e coincide con le stime dell'età del Sole ricavate dai modelli stellari: due metodi indipendenti che si confermano a vicenda."
+     ]
+    },
+    {
+     "h": "Mondi vecchi e giovani",
+     "p": [
+      "Combinando conteggi di crateri e datazioni, si ricostruisce la storia delle superfici. Le zone chiare e montuose della Luna sono antichissime e piene di crateri; i \"mari\" scuri, colate di lava, sono più giovani e ne hanno meno.",
+      "La Terra ha pochissimi crateri visibili perché la sua superficie si rinnova continuamente con tettonica, erosione e vita. Su Io, la luna di Giove, i vulcani cancellano i crateri così rapidamente che non se ne vede nessuno. Venere ha una superficie sorprendentemente giovane, rinnovata da attività vulcanica qualche centinaio di milioni di anni fa."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Guardando la Luna con un binocolo noti subito la differenza: le zone chiare sono piene di crateri, i mari scuri molto meno.",
+   "mistakes": [
+    "\"Più crateri significa più impatti recenti\": significa superficie più antica.",
+    "\"La datazione radiometrica è approssimativa\": è precisa e confermata da metodi indipendenti.",
+    "\"Le rocce terrestri raccontano tutta la storia della Terra\": le più antiche sono state quasi tutte distrutte."
+   ],
+   "terms": [
+    {
+     "t": "Datazione radiometrica",
+     "d": "Misura dell'età con isotopi radioattivi."
+    },
+    {
+     "t": "Tempo di dimezzamento",
+     "d": "Tempo in cui metà degli atomi radioattivi decade."
+    },
+    {
+     "t": "Meteorite primitivo",
+     "d": "Frammento rimasto quasi invariato dalla nascita del Sistema solare."
+    },
+    {
+     "t": "Mari lunari",
+     "d": "Pianure di lava scura sulla Luna."
+    }
+   ],
+   "quote": {
+    "text": "Instead, the radioactive atoms are replaced with their decay products.",
+    "translation": "Al contrario, gli atomi radioattivi vengono sostituiti dai loro prodotti di decadimento."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "7.3 Dating planetary surfaces",
+     "url": "https://openstax.org/books/astronomy-2e/pages/7-3-dating-planetary-surfaces"
+    }
+   ],
+   "videos": [
+    {
+     "id": "phZeE7Att_s",
+     "title": "How Does Radiocarbon Dating Work? - Instant Egghead #28",
+     "channel": "Scientific American",
+     "length": "2:11"
+    },
+    {
+     "id": "8QnsA_1pEd8",
+     "title": "Radiometric Dating: Carbon-14 and Uranium-238",
+     "channel": "Professor Dave Explains",
+     "length": "6:07"
+    }
+   ],
+   "videoQuery": "radiometric dating crater counting",
+   "addedAt": "2026-11-04T11:19:31Z"
+  },
+  {
+   "id": "nascita-sistema-solare",
+   "subject": "astronomia",
+   "chapter": "Sistema solare",
+   "title": "Come è nato il Sistema solare",
+   "hook": "Una nube di gas e polvere collassa, si appiattisce in un disco, accende il Sole e forma i pianeti. Perché i pianeti rocciosi sono vicini e i giganti lontani.",
+   "points": [
+    "Gli indizi da spiegare",
+    "La nebulosa solare e il disco",
+    "Rocce dentro, ghiacci fuori",
+    "Dai granelli ai pianeti"
+   ],
+   "sections": [
+    {
+     "h": "Gli indizi",
+     "p": [
+      "Un buon modello dell'origine del Sistema solare deve spiegare alcune regolarità: i pianeti girano quasi tutti sullo stesso piano e nello stesso verso del Sole; i pianeti interni sono rocciosi e piccoli, quelli esterni giganti e ricchi di gas e ghiacci; asteroidi e comete sembrano detriti rimasti dalla formazione.",
+      "Le età misurate nei meteoriti indicano che tutto si è formato insieme, circa 4,6 miliardi di anni fa. Oggi possiamo anche osservare dischi di formazione planetaria intorno a stelle giovani, e confrontarli con il nostro passato."
+     ]
+    },
+    {
+     "h": "La nebulosa solare",
+     "p": [
+      "Il Sole e i pianeti nacquero da una nube di gas e polvere, la nebulosa solare, forse spinta a collassare dall'onda d'urto di una supernova vicina. Collassando sotto la propria gravità, la nube cominciò a ruotare sempre più velocemente, per la conservazione del momento angolare, e si appiattì in un disco.",
+      "Al centro il materiale si concentrò e si scaldò fino ad accendere la fusione nucleare: nacque il Sole. Il resto del disco, ruotando intorno, divenne il materiale da cui si formarono i pianeti. Ecco perché le orbite sono quasi tutte su un piano e nello stesso verso."
+     ]
+    },
+    {
+     "h": "La linea della neve",
+     "p": [
+      "La temperatura del disco diminuiva allontanandosi dal giovane Sole. Nelle regioni interne faceva così caldo che l'acqua non poteva condensare come ghiaccio: si formarono solo granelli di rocce e metalli, materiali relativamente scarsi. Per questo i pianeti interni sono piccoli e rocciosi.",
+      "Oltre una certa distanza, la linea della neve, faceva abbastanza freddo per il ghiaccio, molto più abbondante. Lì i nuclei planetari crebbero molto di più, abbastanza da attirare con la gravità grandi quantità di idrogeno ed elio dal disco: nacquero i giganti gassosi."
+     ]
+    },
+    {
+     "h": "Dai granelli ai pianeti",
+     "p": [
+      "Nel disco i granelli di polvere si urtavano e si attaccavano, formando grumi sempre più grandi, poi corpi di chilometri, chiamati planetesimi. I planetesimi, scontrandosi e fondendosi, formarono embrioni planetari e infine i pianeti, in qualche decina di milioni di anni per quelli rocciosi.",
+      "Questo processo fu violentissimo: collisioni gigantesche segnarono la giovane Terra, e una di esse probabilmente formò la Luna. Il vento del giovane Sole spazzò via il gas rimasto. Asteroidi e comete sono planetesimi avanzati, conservati quasi intatti: per questo sono così preziosi per gli scienziati."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Quando un pattinatore stringe le braccia gira più veloce: allo stesso modo la nube che collassava ruotava sempre più in fretta, formando un disco.",
+   "mistakes": [
+    "\"I pianeti si sono formati dal Sole\": si sono formati insieme al Sole dallo stesso disco.",
+    "\"I pianeti rocciosi sono vicini al Sole per caso\": lì faceva troppo caldo per il ghiaccio.",
+    "\"Il Sistema solare si è formato in pochi anni\": ci sono voluti milioni di anni."
+   ],
+   "terms": [
+    {
+     "t": "Nebulosa solare",
+     "d": "Nube da cui si è formato il Sistema solare."
+    },
+    {
+     "t": "Linea della neve",
+     "d": "Distanza oltre la quale l'acqua condensava come ghiaccio."
+    },
+    {
+     "t": "Planetesimo",
+     "d": "Corpo di qualche chilometro, mattone dei pianeti."
+    },
+    {
+     "t": "Accrescimento",
+     "d": "Crescita per aggregazione di materiale."
+    }
+   ],
+   "quote": {
+    "text": "This part of the disk was thus too warm for water to condense as ice.",
+    "translation": "Questa parte del disco era quindi troppo calda perché l'acqua condensasse in ghiaccio."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "7.4 Origin of the solar system",
+     "url": "https://openstax.org/books/astronomy-2e/pages/7-4-origin-of-the-solar-system"
+    },
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "14.3 Formation of the solar system",
+     "url": "https://openstax.org/books/astronomy-2e/pages/14-3-formation-of-the-solar-system"
+    }
+   ],
+   "videos": [
+    {
+     "id": "RT4OO0TFLHw",
+     "title": "The Solar System's Formation",
+     "channel": "NASA Space Place",
+     "length": "3:03"
+    },
+    {
+     "id": "gxKCDjnWabk",
+     "title": "The Formation of the Solar System and the Structure of the Sun",
+     "channel": "Professor Dave Explains",
+     "length": "11:49"
+    }
+   ],
+   "videoQuery": "formation of the solar system",
+   "addedAt": "2026-11-04T11:19:31Z"
+  },
+  {
+   "id": "terra-pianeta",
+   "subject": "astronomia",
+   "chapter": "Sistema solare",
+   "title": "La Terra come pianeta: interno, campo magnetico e tettonica",
+   "hook": "Un nucleo di ferro, un campo magnetico che ci protegge, continenti che si spostano di pochi centimetri all'anno: la Terra vista dagli astronomi.",
+   "points": [
+    "La struttura interna della Terra",
+    "Il campo magnetico e la magnetosfera",
+    "La tettonica a placche",
+    "Vulcani, terremoti e montagne"
+   ],
+   "sections": [
+    {
+     "h": "Un pianeta speciale",
+     "p": [
+      "La Terra è il pianeta che conosciamo meglio, e quello con cui confrontiamo tutti gli altri. È l'unico del Sistema solare né troppo caldo né troppo freddo, ma \"giusto\" per la vita come la conosciamo, con acqua liquida in superficie e un'atmosfera ricca di ossigeno.",
+      "Studiare la Terra come pianeta significa chiedersi com'è fatta dentro, perché la sua superficie cambia e come interagisce con il Sole."
+     ]
+    },
+    {
+     "h": "Dentro la Terra",
+     "p": [
+      "Nessuno è mai sceso oltre pochi chilometri, ma le onde sismiche dei terremoti attraversano il pianeta e vengono deviate e rallentate dai diversi strati: studiandole i sismologi hanno ricostruito l'interno.",
+      "Al centro c'è un nucleo di ferro e nichel: interno solido, per l'enorme pressione, ed esterno liquido. Intorno c'è il mantello, roccia caldissima che si comporta come un materiale molto lento e plastico. In superficie la crosta, sottilissima rispetto al pianeta, come la buccia di una mela: sotto gli oceani è sottile e di basalto, sotto i continenti più spessa e di granito."
+     ]
+    },
+    {
+     "h": "Lo scudo magnetico",
+     "p": [
+      "I movimenti del ferro liquido nel nucleo esterno generano il campo magnetico terrestre, come una gigantesca dinamo. Il campo si estende nello spazio formando la magnetosfera.",
+      "Dal Sole fluisce continuamente un flusso di particelle cariche, il vento solare. La magnetosfera devia gran parte di queste particelle, proteggendo l'atmosfera e la vita. Alcune vengono intrappolate in fasce di radiazione intorno alla Terra, le fasce di Van Allen; altre scendono vicino ai poli e producono le aurore. Il campo magnetico si inverte a intervalli irregolari, in media ogni qualche centinaio di migliaia di anni: le inversioni sono registrate nelle rocce."
+     ]
+    },
+    {
+     "h": "La tettonica a placche",
+     "p": [
+      "La crosta e la parte alta del mantello sono divise in grandi placche che si muovono lentamente, di pochi centimetri all'anno, circa quanto crescono le unghie, trascinate dai movimenti del mantello. È la tettonica a placche, proposta all'inizio del Novecento da Alfred Wegener come deriva dei continenti e confermata negli anni Sessanta.",
+      "Dove le placche si allontanano, come lungo la dorsale in mezzo all'Atlantico, risale magma e si forma nuova crosta. Dove si scontrano, una placca può scendere sotto l'altra, creando fosse oceaniche, vulcani e terremoti, oppure possono sollevarsi catene montuose come l'Himalaya e le Alpi. Dove scorrono di lato, come lungo la faglia di Sant'Andrea in California, si hanno forti terremoti.",
+      "L'Italia si trova al confine tra la placca africana e quella euroasiatica: per questo ha vulcani come Etna e Vesuvio e frequenti terremoti. La Terra è l'unico pianeta noto con una tettonica a placche attiva."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "L'Atlantico si allarga di circa 2-3 centimetri all'anno: da quando sei nato, l'Europa si è allontanata dall'America di circa un metro.",
+   "mistakes": [
+    "\"Il centro della Terra è lava liquida\": il nucleo interno è solido.",
+    "\"I continenti sono fermi\": si muovono di pochi centimetri all'anno.",
+    "\"Il campo magnetico è sempre stato uguale\": si inverte periodicamente."
+   ],
+   "terms": [
+    {
+     "t": "Nucleo",
+     "d": "Parte centrale della Terra, di ferro e nichel."
+    },
+    {
+     "t": "Mantello",
+     "d": "Strato di roccia calda e plastica sotto la crosta."
+    },
+    {
+     "t": "Magnetosfera",
+     "d": "Regione dominata dal campo magnetico terrestre."
+    },
+    {
+     "t": "Tettonica a placche",
+     "d": "Movimento delle grandi placche della crosta."
+    }
+   ],
+   "quote": {
+    "text": "It is the only planet in our solar system that is neither too hot nor too cold, but “just right” for the development of life as we know it.",
+    "translation": "È l'unico pianeta del nostro sistema solare né troppo caldo né troppo freddo, ma \"giusto\" per lo sviluppo della vita come la conosciamo."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "8.1 The global perspective",
+     "url": "https://openstax.org/books/astronomy-2e/pages/8-1-the-global-perspective"
+    },
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "8.2 Earths crust",
+     "url": "https://openstax.org/books/astronomy-2e/pages/8-2-earths-crust"
+    }
+   ],
+   "videos": [
+    {
+     "id": "7CPv0NSIG2M",
+     "title": "The Plate Tectonics Revolution: Crash Course Geography #19",
+     "channel": "CrashCourse",
+     "length": "10:58"
+    },
+    {
+     "id": "krXXSCb_P9Y",
+     "title": "What is Plate Tectonics: Crash Course Geology #10",
+     "channel": "CrashCourse",
+     "length": "9:34"
+    }
+   ],
+   "videoQuery": "earth crash course astronomy plate tectonics",
+   "addedAt": "2026-11-04T11:19:31Z"
+  },
+  {
+   "id": "atmosfera-terrestre",
+   "subject": "astronomia",
+   "chapter": "Sistema solare",
+   "title": "L'atmosfera terrestre: strati, meteo e clima",
+   "hook": "Un sottile strato di gas, che pesa milioni di miliardi di tonnellate, ci protegge, ci permette di respirare e produce il tempo atmosferico. Com'è fatto e come funziona.",
+   "points": [
+    "Composizione dell'atmosfera",
+    "Gli strati: troposfera, stratosfera e oltre",
+    "Tempo e clima",
+    "Perché l'atmosfera non sfugge nello spazio"
+   ],
+   "sections": [
+    {
+     "h": "Di cosa è fatta",
+     "p": [
+      "L'atmosfera terrestre è fatta per circa il 78% di azoto e il 21% di ossigeno, con piccole quantità di argon, anidride carbonica e vapore acqueo, la cui quantità varia molto. La massa totale dell'atmosfera è di circa 5 × 10¹⁸ chilogrammi: cinque milioni di miliardi di tonnellate.",
+      "È sottilissima rispetto al pianeta: metà della sua massa sta sotto i 5,5 chilometri di quota. Su un mappamondo sarebbe meno spessa di uno strato di vernice."
+     ]
+    },
+    {
+     "h": "Gli strati",
+     "p": [
+      "La troposfera è lo strato più basso, fino a circa 10-15 chilometri: qui avvengono quasi tutti i fenomeni meteorologici, e la temperatura diminuisce salendo. Per questo in montagna fa più freddo.",
+      "Sopra c'è la stratosfera, fino a circa 50 chilometri, dove si trova lo strato di ozono: assorbe gran parte della radiazione ultravioletta del Sole, proteggendo la vita, e per questo scalda lo strato. Negli anni Ottanta si scoprì che alcune sostanze prodotte dall'uomo, i CFC, distruggevano l'ozono; il Protocollo di Montreal le ha vietate e lo strato si sta lentamente riprendendo.",
+      "Più in alto ci sono la mesosfera, dove bruciano la maggior parte delle meteore, e la ionosfera, dove la radiazione solare ionizza i gas e si formano le aurore."
+     ]
+    },
+    {
+     "h": "Tempo e clima",
+     "p": [
+      "Tutti i pianeti con un'atmosfera hanno un tempo meteorologico, il nome che diamo alla circolazione dell'atmosfera. Il motore è il Sole: scalda la Terra in modo diseguale, più all'equatore e meno ai poli, e l'aria calda sale e quella fredda scende, creando i venti.",
+      "La rotazione della Terra devia i venti, facendo ruotare i grandi sistemi di alta e bassa pressione: in senso antiorario le basse pressioni nel nostro emisfero. Il clima è invece la media del tempo su lunghi periodi, e dipende dalla latitudine, dagli oceani, dalle montagne e dalla composizione dell'atmosfera."
+     ]
+    },
+    {
+     "h": "Un'atmosfera che resta",
+     "p": [
+      "Le molecole di gas si muovono velocissime, e le più veloci, negli strati più alti, possono sfuggire nello spazio. La Terra non è l'unico pianeta a perdere atmosfera: anche Marte e Venere ne perdono.",
+      "La Terra trattiene la sua atmosfera grazie a una gravità sufficiente e a temperature non troppo alte: i gas pesanti come azoto e ossigeno sfuggono lentissimamente, mentre i leggerissimi idrogeno ed elio si perdono più facilmente. Pianeti piccoli e caldi, come Mercurio e la Luna, hanno perso quasi tutta la loro atmosfera."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Salendo da Milano a 3000 metri sulle Alpi la temperatura scende di circa 18-20 gradi: nella troposfera l'aria si raffredda con la quota.",
+   "mistakes": [
+    "\"L'atmosfera è spessa centinaia di chilometri di aria densa\": è quasi tutta concentrata nei primi chilometri.",
+    "\"Il buco dell'ozono causa il riscaldamento globale\": sono problemi diversi.",
+    "\"Tempo e clima sono la stessa cosa\": il clima è la media su lunghi periodi."
+   ],
+   "terms": [
+    {
+     "t": "Troposfera",
+     "d": "Strato più basso, dove avviene il meteo."
+    },
+    {
+     "t": "Stratosfera",
+     "d": "Strato con l'ozono."
+    },
+    {
+     "t": "Strato di ozono",
+     "d": "Strato che assorbe gli ultravioletti."
+    },
+    {
+     "t": "Clima",
+     "d": "Media del tempo atmosferico su lunghi periodi."
+    }
+   ],
+   "quote": {
+    "text": "All planets with atmospheres have weather, which is the name we give to the circulation of the atmosphere.",
+    "translation": "Tutti i pianeti dotati di atmosfera hanno un tempo meteorologico, il nome che diamo alla circolazione dell'atmosfera."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "8.3 Earths atmosphere",
+     "url": "https://openstax.org/books/astronomy-2e/pages/8-3-earths-atmosphere"
+    }
+   ],
+   "videos": [
+    {
+     "id": "WcE36Ha3PtQ",
+     "title": "Earth's Atmosphere | Matter | Physics | FuseSchool",
+     "channel": "FuseSchool - Global Education",
+     "length": "4:35"
+    },
+    {
+     "id": "11ZI9aqurfA",
+     "title": "What Does the Atmosphere Do? Crash Course Geography #6",
+     "channel": "CrashCourse",
+     "length": "10:42"
+    }
+   ],
+   "videoQuery": "earth's atmosphere layers",
+   "addedAt": "2026-11-04T11:19:31Z"
+  },
+  {
+   "id": "vita-e-clima",
+   "subject": "astronomia",
+   "chapter": "Sistema solare",
+   "title": "Vita, effetto serra e cambiamento climatico",
+   "hook": "La vita ha trasformato l'atmosfera terrestre riempiendola di ossigeno. Oggi le attività umane la stanno cambiando a una velocità senza precedenti.",
+   "points": [
+    "Le origini della vita sulla Terra",
+    "Come la vita ha creato l'ossigeno",
+    "L'effetto serra naturale",
+    "Il riscaldamento globale causato dall'uomo"
+   ],
+   "sections": [
+    {
+     "h": "La vita primordiale",
+     "p": [
+      "La vita è comparsa sulla Terra molto presto: le tracce più antiche, in rocce di circa 3,5 miliardi di anni o più, sono stromatoliti, strutture stratificate costruite da colonie di microrganismi. Per la maggior parte della storia della Terra la vita è stata solo microscopica.",
+      "Come sia nata resta una delle grandi domande della scienza: esperimenti come quello di Miller e Urey negli anni Cinquanta hanno mostrato che i mattoni della vita, come gli amminoacidi, possono formarsi spontaneamente in condizioni simili a quelle della Terra primordiale. Se esistono alieni, è più probabile che siano microbi."
+     ]
+    },
+    {
+     "h": "La rivoluzione dell'ossigeno",
+     "p": [
+      "L'atmosfera primitiva non conteneva ossigeno libero. Furono microrganismi, i cianobatteri, a inventare la fotosintesi che libera ossigeno: usando la luce solare trasformavano anidride carbonica e acqua in zuccheri, rilasciando ossigeno come scarto.",
+      "Circa 2,4 miliardi di anni fa l'ossigeno cominciò ad accumularsi nell'atmosfera, cambiando per sempre il pianeta e permettendo, molto più tardi, la vita complessa. Ancora oggi piante e microbi affini sono i produttori primari, che usano la luce del Sole per creare il \"cibo\" ricco di energia per tutti gli altri."
+     ]
+    },
+    {
+     "h": "L'effetto serra",
+     "p": [
+      "La superficie terrestre, scaldata dal Sole, emette radiazione infrarossa. Alcuni gas dell'atmosfera, come vapore acqueo, anidride carbonica e metano, assorbono parte di questa radiazione e la riemettono in tutte le direzioni, anche verso il basso, trattenendo calore. È l'effetto serra.",
+      "L'effetto serra naturale è indispensabile: senza, la temperatura media della Terra sarebbe di circa −18 °C invece di +15. Venere mostra l'estremo opposto: con un'atmosfera densissima di anidride carbonica, ha un effetto serra fuori controllo e una superficie a quasi 470 °C."
+     ]
+    },
+    {
+     "h": "Il cambiamento climatico",
+     "p": [
+      "Dalla rivoluzione industriale, bruciando carbone, petrolio e gas e disboscando, l'umanità ha aumentato la concentrazione di anidride carbonica nell'atmosfera di circa il 50%, a livelli mai visti da almeno centinaia di migliaia di anni, come mostrano le bolle d'aria intrappolate nei ghiacci antartici.",
+      "L'effetto serra rafforzato sta scaldando il pianeta: la temperatura media è già salita di oltre un grado rispetto all'epoca preindustriale. Le conseguenze includono la fusione dei ghiacciai, l'innalzamento del livello del mare, ondate di calore e precipitazioni estreme più frequenti, l'acidificazione degli oceani.",
+      "Il consenso scientifico, riassunto nei rapporti dell'IPCC delle Nazioni Unite, è che il riscaldamento attuale è causato principalmente dalle attività umane. Ridurre le emissioni è la principale strategia per limitarne gli effetti."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Una giornata nuvolosa d'inverno di notte è meno fredda di una serena: le nuvole e il vapore trattengono il calore come una piccola serra.",
+   "mistakes": [
+    "\"L'effetto serra è sempre dannoso\": quello naturale rende la Terra abitabile.",
+    "\"Il clima è sempre cambiato, quindi non c'è niente di nuovo\": la velocità attuale e la causa umana sono senza precedenti recenti.",
+    "\"L'ossigeno c'è sempre stato\": è stato prodotto dalla vita."
+   ],
+   "terms": [
+    {
+     "t": "Stromatoliti",
+     "d": "Strutture costruite da colonie di microrganismi."
+    },
+    {
+     "t": "Fotosintesi",
+     "d": "Uso della luce per produrre zuccheri e ossigeno."
+    },
+    {
+     "t": "Effetto serra",
+     "d": "Trattenimento di calore da parte di alcuni gas atmosferici."
+    },
+    {
+     "t": "IPCC",
+     "d": "Gruppo delle Nazioni Unite che valuta la scienza del clima."
+    }
+   ],
+   "quote": {
+    "text": "It is plants and related microbes that are the primary producers, using sunlight to create energy-rich “food” for the rest of us.",
+    "translation": "Sono le piante e i microbi affini i produttori primari, che usano la luce solare per creare \"cibo\" ricco di energia per tutti noi."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "8.4 Life chemical evolution and climate change",
+     "url": "https://openstax.org/books/astronomy-2e/pages/8-4-life-chemical-evolution-and-climate-change"
+    }
+   ],
+   "videos": [
+    {
+     "id": "SN5-DnOHQmE",
+     "title": "What Is the Greenhouse Effect?",
+     "channel": "NASA Space Place",
+     "length": "2:30"
+    },
+    {
+     "id": "G4H1N_yXBiA",
+     "title": "Causes and Effects of Climate Change | National Geographic",
+     "channel": "National Geographic",
+     "length": "3:05"
+    }
+   ],
+   "videoQuery": "climate change greenhouse effect",
+   "addedAt": "2026-11-04T11:19:31Z"
+  },
+  {
+   "id": "impatti-cosmici",
+   "subject": "astronomia",
+   "chapter": "Sistema solare",
+   "title": "Impatti cosmici: l'asteroide dei dinosauri e i rischi di oggi",
+   "hook": "66 milioni di anni fa un asteroide di una decina di chilometri cambiò la storia della vita. Come lo sappiamo, quanto è probabile oggi e come ci difendiamo.",
+   "points": [
+    "I crateri sulla Terra",
+    "L'impatto che estinse i dinosauri",
+    "Il rischio di impatti oggi",
+    "La sorveglianza del cielo"
+   ],
+   "sections": [
+    {
+     "h": "Cicatrici sulla Terra",
+     "p": [
+      "La Terra è stata colpita da innumerevoli asteroidi e comete, ma erosione, vegetazione e tettonica hanno cancellato quasi tutti i crateri. Ne conosciamo poco meno di duecento. Uno dei più famosi è il Meteor Crater in Arizona, largo oltre un chilometro, formato circa 50.000 anni fa; in Algeria c'è un cratere di 4 chilometri formato durante il Cretaceo.",
+      "Nel 1908, a Tunguska, in Siberia, un piccolo asteroide o frammento di cometa esplose in aria abbattendo milioni di alberi su un'area di oltre 2000 chilometri quadrati. Nel 2013 un oggetto di circa 20 metri esplose sopra Čeljabinsk, in Russia, ferendo un migliaio di persone soprattutto per i vetri rotti."
+     ]
+    },
+    {
+     "h": "La fine dei dinosauri",
+     "p": [
+      "Circa 66 milioni di anni fa, alla fine del Cretaceo, si estinse circa tre quarti delle specie viventi, compresi i dinosauri non aviani. Nel 1980 il fisico Luis Alvarez e il figlio geologo Walter scoprirono, in uno strato sottile di argilla di quell'epoca, anche vicino a Gubbio in Umbria, una quantità insolita di iridio, un metallo raro sulla Terra ma comune negli asteroidi.",
+      "Proposero che la causa fosse l'impatto di un asteroide di circa 10 chilometri. Il cratere fu trovato negli anni Novanta: Chicxulub, nella penisola dello Yucatán in Messico, largo circa 180 chilometri e sepolto sotto i sedimenti.",
+      "L'impatto liberò un'energia enorme, provocò incendi, tsunami e soprattutto lanciò nell'atmosfera polveri e gas che oscurarono il Sole per mesi o anni, facendo crollare la fotosintesi e le catene alimentari. Fu un disastro, ma anche un'opportunità: i mammiferi sopravvissuti si diversificarono, fino a noi."
+     ]
+    },
+    {
+     "h": "Quanto è probabile",
+     "p": [
+      "Gli impatti piccoli sono frequenti, quelli grandi rarissimi. Ogni giorno cadono sulla Terra tonnellate di polvere meteorica; oggetti come quello di Čeljabinsk arrivano ogni qualche decennio; impatti capaci di distruggere una regione ogni qualche migliaio di anni; un impatto come quello dei dinosauri ogni qualche decina o centinaio di milioni di anni.",
+      "Il rischio per una singola persona è bassissimo, ma un grande impatto avrebbe conseguenze globali. Per questo vale la pena sorvegliare il cielo."
+     ]
+    },
+    {
+     "h": "Sorvegliare il cielo",
+     "p": [
+      "Diversi telescopi a grande campo, piccoli ma sofisticati, scandagliano il cielo alla ricerca di asteroidi che passano vicino alla Terra: è il programma chiamato NASA Spaceguard Survey, insieme a progetti di altri paesi e dell'Agenzia Spaziale Europea. Gran parte degli asteroidi più grandi di un chilometro vicini alla Terra è stata trovata, e nessuno è in rotta di collisione nei prossimi secoli.",
+      "Nel 2022 la missione DART della NASA ha colpito volontariamente l'asteroide Dimorphos, modificandone l'orbita: la prima prova che si può deviare un asteroide. La missione europea Hera ne studierà gli effetti."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Nella Gola del Bottaccione, vicino a Gubbio, si può vedere il sottile strato di argilla ricco di iridio lasciato dall'impatto di 66 milioni di anni fa.",
+   "mistakes": [
+    "\"Un grande asteroide ci colpirà presto\": nessun grande asteroide noto è in rotta di collisione.",
+    "\"I dinosauri morirono per l'esplosione\": morirono soprattutto per l'inverno da impatto e il crollo delle catene alimentari.",
+    "\"Non si può fare niente contro un asteroide\": la missione DART ha dimostrato di poterne deviare uno."
+   ],
+   "terms": [
+    {
+     "t": "Iridio",
+     "d": "Metallo raro sulla Terra, abbondante negli asteroidi."
+    },
+    {
+     "t": "Chicxulub",
+     "d": "Cratere dell'impatto che estinse i dinosauri."
+    },
+    {
+     "t": "Inverno da impatto",
+     "d": "Raffreddamento causato dalla polvere sollevata."
+    },
+    {
+     "t": "Difesa planetaria",
+     "d": "Sorveglianza e deviazione degli asteroidi pericolosi."
+    }
+   ],
+   "quote": {
+    "text": "Several small but sophisticated wide-field telescopes are now used for this search, which is called the NASA Spaceguard Survey.",
+    "translation": "Diversi telescopi a grande campo, piccoli ma sofisticati, sono oggi usati per questa ricerca, chiamata NASA Spaceguard Survey."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "8.5 Cosmic influences on the evolution of earth",
+     "url": "https://openstax.org/books/astronomy-2e/pages/8-5-cosmic-influences-on-the-evolution-of-earth"
+    }
+   ],
+   "videos": [
+    {
+     "id": "dFCbJmgeHmA",
+     "title": "The Day the Dinosaurs Died – Minute by Minute",
+     "channel": "Kurzgesagt – In a Nutshell",
+     "length": "12:02"
+    },
+    {
+     "id": "DGu6ZPyKyJ0",
+     "title": "What Exactly Killed The Dinosaurs? | Earth | BBC Earth Science",
+     "channel": "BBC Earth Science",
+     "length": "3:55"
+    }
+   ],
+   "videoQuery": "dinosaur extinction asteroid impact",
+   "addedAt": "2026-11-04T11:19:31Z"
+  },
+  {
+   "id": "la-luna",
+   "subject": "astronomia",
+   "chapter": "Sistema solare",
+   "title": "La Luna: un mondo senza aria, tra mari e altopiani",
+   "hook": "Niente atmosfera, giorni di due settimane, polvere finissima e forse ghiaccio ai poli. Com'è davvero la Luna e cosa hanno scoperto le missioni Apollo.",
+   "points": [
+    "Le caratteristiche generali della Luna",
+    "Mari e altopiani",
+    "La superficie e la regolite",
+    "Le missioni e il ritorno sulla Luna"
+   ],
+   "sections": [
+    {
+     "h": "La nostra compagna",
+     "p": [
+      "La Luna ha un diametro di circa un quarto di quello terrestre e una massa circa ottanta volte minore: la sua gravità è un sesto di quella terrestre. Non ha atmosfera apprezzabile, quindi non c'è vento, né pioggia, né suono, e il cielo è nero anche di giorno.",
+      "Ruota su sé stessa nello stesso tempo in cui gira intorno alla Terra, circa 27 giorni, e ci mostra sempre la stessa faccia. Un giorno lunare dura circa due settimane terrestri, seguite da due settimane di notte: le temperature passano da oltre 100 °C a quasi −170 °C."
+     ]
+    },
+    {
+     "h": "Mari e altopiani",
+     "p": [
+      "Anche a occhio nudo si vedono zone scure e zone chiare. Le zone scure sono i mari, chiamati così dagli astronomi antichi che pensavano contenessero acqua: in realtà sono grandi pianure di basalto, lava fuoriuscita dall'interno che riempì enormi bacini da impatto, circa 3-4 miliardi di anni fa.",
+      "Le zone chiare sono gli altopiani, più antichi, montuosi e fittissimi di crateri. I mari si trovano quasi tutti sulla faccia rivolta verso la Terra; il lato nascosto è quasi tutto altopiano, forse perché lì la crosta è più spessa."
+     ]
+    },
+    {
+     "h": "La superficie",
+     "p": [
+      "La superficie è coperta da regolite, uno strato di polvere e frammenti di roccia prodotto da miliardi di anni di impatti di micrometeoriti. È finissima, abrasiva e appiccicosa: le impronte degli astronauti, senza vento a cancellarle, resteranno per milioni di anni.",
+      "Le rocce lunari portate sulla Terra mostrano che la Luna è fatta di rocce simili a quelle del mantello terrestre, ma più povere di ferro e di sostanze volatili come l'acqua. Un tempo si pensava fosse completamente secca; oggi sappiamo che ai poli, nel fondo di crateri dove il Sole non arriva mai, c'è ghiaccio d'acqua. La ricerca di ghiaccio accessibile vicino al polo sud lunare è di particolare interesse per le future missioni."
+     ]
+    },
+    {
+     "h": "Andare e tornare",
+     "p": [
+      "Tra il 1969 e il 1972 dodici astronauti delle missioni Apollo hanno camminato sulla Luna. I primi atterraggi avvennero su pianure piatte, scelte per ragioni di sicurezza; le missioni successive esplorarono zone più varie. Riportarono 382 chilogrammi di rocce, ancora oggi studiate.",
+      "Dopo una lunga pausa, la Luna è tornata al centro dell'esplorazione: sonde di Cina, India, Giappone e altri paesi l'hanno raggiunta, e la Cina ha riportato campioni anche dal lato nascosto. Il programma Artemis della NASA, con la partecipazione dell'Europa e dell'Italia, punta a riportare esseri umani sulla Luna, vicino al polo sud, e a costruire una presenza stabile."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Sulla Luna una persona di 60 kg peserebbe come 10 kg sulla Terra: potrebbe saltare sei volte più in alto.",
+   "mistakes": [
+    "\"Il lato oscuro della Luna è sempre buio\": è il lato nascosto, illuminato quanto l'altro.",
+    "\"I mari lunari contengono acqua\": sono pianure di lava.",
+    "\"Sulla Luna non c'è nessuna traccia d'acqua\": c'è ghiaccio nei crateri polari."
+   ],
+   "terms": [
+    {
+     "t": "Mari lunari",
+     "d": "Pianure di basalto scuro."
+    },
+    {
+     "t": "Altopiani",
+     "d": "Zone chiare e antiche piene di crateri."
+    },
+    {
+     "t": "Regolite",
+     "d": "Strato di polvere e frammenti sulla superficie."
+    },
+    {
+     "t": "Artemis",
+     "d": "Programma per riportare persone sulla Luna."
+    }
+   ],
+   "quote": {
+    "text": "Of special interest is the search for accessible water ice near the lunar South Pole.",
+    "translation": "Di particolare interesse è la ricerca di ghiaccio d'acqua accessibile vicino al polo sud lunare."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "9.1 General properties of the moon",
+     "url": "https://openstax.org/books/astronomy-2e/pages/9-1-general-properties-of-the-moon"
+    },
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "9.2 The lunar surface",
+     "url": "https://openstax.org/books/astronomy-2e/pages/9-2-the-lunar-surface"
+    }
+   ],
+   "videos": [
+    {
+     "id": "mCzchPx3yF8",
+     "title": "The Moon: Crash Course Astronomy #12",
+     "channel": "CrashCourse",
+     "length": "9:51"
+    },
+    {
+     "id": "6AviDjR9mmo",
+     "title": "Moon 101 | National Geographic",
+     "channel": "National Geographic",
+     "length": "3:06"
+    }
+   ],
+   "videoQuery": "the moon crash course astronomy",
+   "addedAt": "2026-11-04T11:19:31Z"
+  },
+  {
+   "id": "crateri",
+   "subject": "astronomia",
+   "chapter": "Sistema solare",
+   "title": "I crateri da impatto: le cicatrici del Sistema solare",
+   "hook": "Quasi tutti i crateri della Luna sono nati da impatti, non da vulcani. Come si forma un cratere, perché sono rotondi e cosa raccontano della storia del Sistema solare.",
+   "points": [
+    "Vulcani o impatti?",
+    "Come si forma un cratere",
+    "Perché i crateri sono rotondi",
+    "Crateri come archivio della storia"
+   ],
+   "sections": [
+    {
+     "h": "Un dibattito risolto",
+     "p": [
+      "Per molto tempo gli astronomi discussero se i crateri lunari fossero vulcani o segni di impatti. La risposta, confermata dalle missioni spaziali, è che quasi tutti sono crateri da impatto, formati da asteroidi e comete che hanno colpito la superficie.",
+      "Il modo migliore per osservarli dalla Terra non è la Luna piena, quando la luce frontale li appiattisce, ma i giorni vicini al primo o all'ultimo quarto, quando la luce del Sole arriva di lato e i rilievi proiettano ombre nette. La luce riflessa dalla Luna non è mai abbastanza intensa da danneggiare gli occhi, quindi la si può osservare tranquillamente con un binocolo o un telescopio."
+     ]
+    },
+    {
+     "h": "Un'esplosione",
+     "p": [
+      "Un asteroide colpisce una superficie a velocità enormi, decine di chilometri al secondo. In un istante la sua energia cinetica si trasforma in calore e in un'onda d'urto: l'oggetto e parte del terreno vengono vaporizzati e fusi, e il materiale viene scagliato tutto intorno.",
+      "Un cratere da impatto è in genere 10-20 volte più largo dell'oggetto che l'ha prodotto. I crateri piccoli sono semplici scodelle; quelli grandi hanno un picco centrale, formato dal rimbalzo del terreno come una goccia che cade nell'acqua, e pareti a terrazze. I più grandi diventano bacini con anelli concentrici. Intorno restano raggiere di materiale espulso, ben visibili per crateri giovani come Tycho e Copernico sulla Luna."
+     ]
+    },
+    {
+     "h": "Perché sono rotondi",
+     "p": [
+      "Ci si aspetterebbe che un oggetto che arriva obliquo lasci un solco allungato, invece i crateri sono quasi sempre rotondi. Il motivo è che l'impatto si comporta come un'esplosione: l'energia viene rilasciata quasi tutta in un punto e si propaga in tutte le direzioni, indipendentemente da come è arrivato il proiettile.",
+      "Solo gli impatti molto radenti, con angoli di pochi gradi, producono crateri allungati o raggiere asimmetriche."
+     ]
+    },
+    {
+     "h": "Un archivio della storia",
+     "p": [
+      "Sulla Terra la maggior parte dei crateri è stata cancellata dall'erosione e dalla tettonica. Sulla Luna, invece, senza aria, acqua e attività geologica, gran parte della storia degli impatti è conservata. Per questo la Luna è un archivio prezioso del Sistema solare.",
+      "Le datazioni delle rocce lunari indicano che il ritmo degli impatti fu altissimo nei primi centinaia di milioni di anni, quando il Sistema solare era pieno di detriti, poi calò rapidamente. Contando i crateri si stima l'età delle superfici di Mercurio, Marte e delle lune dei pianeti esterni."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Fai cadere un sasso in una vaschetta di farina con un po' di cacao sopra: otterrai un piccolo cratere con la sua raggiera di materiale chiaro.",
+   "mistakes": [
+    "\"I crateri lunari sono vulcani\": quasi tutti sono da impatto.",
+    "\"Un asteroide obliquo lascia un solco\": l'impatto si comporta come un'esplosione e forma un cerchio.",
+    "\"La Terra è stata colpita meno della Luna\": è stata colpita di più, ma i crateri sono stati cancellati."
+   ],
+   "terms": [
+    {
+     "t": "Cratere da impatto",
+     "d": "Depressione prodotta dalla collisione di un corpo."
+    },
+    {
+     "t": "Picco centrale",
+     "d": "Rilievo al centro dei crateri grandi."
+    },
+    {
+     "t": "Raggiera",
+     "d": "Strisce di materiale espulso intorno a un cratere."
+    },
+    {
+     "t": "Bacino da impatto",
+     "d": "Cratere enorme con anelli concentrici."
+    }
+   ],
+   "quote": {
+    "text": "On the Moon, in contrast, most of the impact history is preserved.",
+    "translation": "Sulla Luna, invece, la maggior parte della storia degli impatti è conservata."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "9.3 Impact craters",
+     "url": "https://openstax.org/books/astronomy-2e/pages/9-3-impact-craters"
+    }
+   ],
+   "videos": [
+    {
+     "id": "cNeRBuLAa7o",
+     "title": "Why Are Craters Always Round?",
+     "channel": "SciShow",
+     "length": "4:00"
+    },
+    {
+     "id": "ZWc24B6curY",
+     "title": "10 impact craters seen from space",
+     "channel": "European Space Agency, ESA",
+     "length": "7:21"
+    }
+   ],
+   "videoQuery": "impact craters",
+   "addedAt": "2026-11-04T11:19:31Z"
+  },
+  {
+   "id": "origine-luna",
+   "subject": "astronomia",
+   "chapter": "Sistema solare",
+   "title": "Come è nata la Luna: l'ipotesi dell'impatto gigante",
+   "hook": "Una collisione tra la giovane Terra e un corpo grande come Marte potrebbe aver creato la Luna. Le ipotesi del passato e perché questa è la preferita.",
+   "points": [
+    "Le vecchie ipotesi",
+    "Gli indizi chimici",
+    "L'impatto gigante",
+    "Domande aperte"
+   ],
+   "sections": [
+    {
+     "h": "Tre vecchie idee",
+     "p": [
+      "Prima delle missioni Apollo esistevano tre ipotesi principali. Secondo la teoria della fissione, la Luna si sarebbe staccata da una Terra che ruotava velocissima. Secondo quella della co-formazione, Terra e Luna si sarebbero formate insieme, come un pianeta doppio. Secondo quella della cattura, la Luna si sarebbe formata altrove e sarebbe stata catturata dalla gravità terrestre.",
+      "L'ipotesi più facile da scartare è la cattura: un corpo che si avvicina a un altro non può entrare in orbita intorno a lui senza perdere molta energia. È lo stesso motivo per cui le sonde destinate a orbitare intorno ad altri pianeti devono avere retrorazzi per frenare."
+     ]
+    },
+    {
+     "h": "Gli indizi delle rocce",
+     "p": [
+      "Le rocce lunari portate dagli astronauti hanno fornito indizi decisivi. La Luna ha una composizione simile al mantello terrestre, con rapporti tra isotopi dell'ossigeno quasi identici a quelli della Terra, ma è povera di ferro e di elementi volatili, che evaporano facilmente.",
+      "Ha anche un piccolo nucleo di ferro e una densità media più bassa di quella terrestre. Un modello di successo deve spiegare sia le somiglianze sia queste differenze."
+     ]
+    },
+    {
+     "h": "L'impatto gigante",
+     "p": [
+      "L'ipotesi oggi preferita è quella dell'impatto gigante. Circa 4,5 miliardi di anni fa, poco dopo la formazione della Terra, un corpo grande più o meno come Marte, a volte chiamato Theia, l'avrebbe colpita di striscio.",
+      "L'impatto avrebbe fuso e vaporizzato gran parte del corpo e del mantello terrestre, scagliando in orbita un disco di materiale caldissimo. Il ferro del corpo impattante sarebbe finito in gran parte nel nucleo della Terra. Dal disco, in poco tempo, si sarebbe aggregata la Luna, fatta soprattutto di materiale del mantello e povera di ferro e di volatili, evaporati nel calore della collisione.",
+      "Non abbiamo un modo per dimostrare in modo definitivo che sia andata così, ma l'ipotesi offre possibili soluzioni alla maggior parte dei problemi posti dalla chimica della Luna, e le simulazioni al computer mostrano che è fisicamente plausibile."
+     ]
+    },
+    {
+     "h": "Domande aperte",
+     "p": [
+      "Rimangono alcuni enigmi. Se la Luna fosse fatta in buona parte del corpo impattante, ci si aspetterebbe che la sua chimica fosse più diversa da quella terrestre. Alcuni scienziati propongono impatti più energetici che abbiano mescolato a fondo i materiali, o una serie di impatti più piccoli.",
+      "La Luna ha avuto un ruolo importante per la Terra: stabilizza l'inclinazione del nostro asse, rendendo le stagioni più regolari nel lungo periodo, e produce le maree, che potrebbero aver favorito la vita nelle zone costiere."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Ogni volta che guardi la Luna, potresti star guardando un pezzo del mantello della giovane Terra, scagliato in orbita da una collisione colossale.",
+   "mistakes": [
+    "\"La Luna è stata catturata dalla Terra\": è l'ipotesi più facile da scartare.",
+    "\"La Luna è fatta come la Terra in tutto\": è povera di ferro e di volatili.",
+    "\"L'impatto gigante è dimostrato con certezza\": è l'ipotesi più convincente, non una certezza."
+   ],
+   "terms": [
+    {
+     "t": "Teoria della fissione",
+     "d": "Ipotesi del distacco della Luna dalla Terra."
+    },
+    {
+     "t": "Teoria della cattura",
+     "d": "Ipotesi della cattura gravitazionale della Luna."
+    },
+    {
+     "t": "Impatto gigante",
+     "d": "Ipotesi della collisione con un corpo grande come Marte."
+    },
+    {
+     "t": "Volatili",
+     "d": "Sostanze che evaporano facilmente."
+    }
+   ],
+   "quote": {
+    "text": "Perhaps the easiest hypothesis to reject is the capture theory.",
+    "translation": "Forse l'ipotesi più facile da scartare è la teoria della cattura."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "9.4 The origin of the moon",
+     "url": "https://openstax.org/books/astronomy-2e/pages/9-4-the-origin-of-the-moon"
+    }
+   ],
+   "videos": [
+    {
+     "id": "kRlhlCWplqk",
+     "title": "New Supercomputer Simulation Sheds Light on Moon’s Origin",
+     "channel": "NASA's Ames Research Center",
+     "length": "1:51"
+    },
+    {
+     "id": "c0FCE4H0Dro",
+     "title": "Where Did The Moon Come From? - Do We Really Need the Moon? - Preview - BBC",
+     "channel": "BBC",
+     "length": "3:07"
+    }
+   ],
+   "videoQuery": "how the moon formed giant impact",
+   "addedAt": "2026-11-04T11:19:31Z"
+  },
+  {
+   "id": "mercurio",
+   "subject": "astronomia",
+   "chapter": "Sistema solare",
+   "title": "Mercurio: il pianeta più piccolo e più vicino al Sole",
+   "hook": "Giornate lunghissime, temperature estreme, un nucleo di ferro enorme e ghiaccio nei crateri polari. Il pianeta più difficile da raggiungere.",
+   "points": [
+    "Caratteristiche di Mercurio",
+    "Una rotazione strana",
+    "La superficie e il bacino Caloris",
+    "Un nucleo gigante e le missioni"
+   ],
+   "sections": [
+    {
+     "h": "Il più piccolo",
+     "p": [
+      "Mercurio è il pianeta più piccolo, esclusi i pianeti nani, con un diametro di 4878 chilometri, meno della metà di quello terrestre e poco più grande della Luna. È il più vicino al Sole e il più veloce: compie un'orbita in 88 giorni.",
+      "Dalla Terra è difficile da osservare, perché non si allontana mai molto dal Sole nel cielo: si vede solo basso sull'orizzonte poco dopo il tramonto o poco prima dell'alba. Copernico, si racconta, non riuscì mai a vederlo."
+     ]
+    },
+    {
+     "h": "Giorni lunghissimi",
+     "p": [
+      "Mercurio ruota su sé stesso in 59 giorni terrestri, esattamente due terzi del suo anno: compie tre rotazioni ogni due orbite. È l'unico pianeta che mostra questo rapporto tra rotazione e orbita, con conseguenze curiose per un futuro osservatore sulla superficie.",
+      "Sulla Terra i due modi astronomici di definire il giorno, quanto il pianeta impiega a ruotare e quanto il Sole impiega a tornare nella stessa posizione nel cielo, sono quasi uguali. Su Mercurio no: un giorno solare, da un mezzogiorno all'altro, dura 176 giorni terrestri, due anni di Mercurio. In alcuni punti il Sole sembra persino fermarsi e tornare indietro nel cielo per un po'.",
+      "Senza un'atmosfera che trattenga il calore, le temperature sono estreme: oltre 400 °C di giorno e circa −180 °C di notte."
+     ]
+    },
+    {
+     "h": "La superficie",
+     "p": [
+      "Mercurio assomiglia alla Luna: una superficie antica e piena di crateri, senza atmosfera. Il bacino Caloris, un enorme bacino da impatto largo circa 1500 chilometri e parzialmente riempito di lava, è la struttura più grande conosciuta su Mercurio. Dalla parte opposta del pianeta c'è un terreno caotico, forse sconvolto dalle onde sismiche dell'impatto.",
+      "La superficie è attraversata da lunghe scarpate, alte fino a chilometri: si pensa che si siano formate quando il pianeta, raffreddandosi, si è contratto, come una mela che invecchia e si raggrinzisce. Sorprendentemente, nei crateri vicino ai poli, dove il Sole non arriva mai, c'è ghiaccio d'acqua."
+     ]
+    },
+    {
+     "h": "Un cuore di ferro",
+     "p": [
+      "Mercurio è molto denso per le sue dimensioni: ha un nucleo di ferro gigantesco, che occupa circa l'85% del raggio del pianeta. Una possibile spiegazione è che un grande impatto, nel passato, abbia strappato via gran parte del suo mantello roccioso.",
+      "Ha anche un debole campo magnetico, segno che parte del nucleo è ancora liquida. Raggiungere Mercurio è difficile perché bisogna frenare molto contro la gravità del Sole. Dopo la sonda MESSENGER della NASA, è in viaggio la missione europea-giapponese BepiColombo, che porta il nome dello scienziato italiano Giuseppe Colombo, che aveva spiegato la strana rotazione del pianeta."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Su Mercurio aspetteresti 176 giorni terrestri da un mezzogiorno al successivo: un giorno più lungo di un anno.",
+   "mistakes": [
+    "\"Mercurio è il pianeta più caldo\": è Venere, per l'effetto serra.",
+    "\"Su Mercurio non può esserci ghiaccio\": c'è nei crateri polari in ombra perenne.",
+    "\"Il giorno di Mercurio dura quanto la sua rotazione\": il giorno solare è molto più lungo."
+   ],
+   "terms": [
+    {
+     "t": "Risonanza spin-orbita",
+     "d": "Rapporto fisso tra rotazione e orbita, 3:2 per Mercurio."
+    },
+    {
+     "t": "Bacino Caloris",
+     "d": "Il più grande bacino da impatto di Mercurio."
+    },
+    {
+     "t": "Scarpata",
+     "d": "Ripida parete formata dalla contrazione del pianeta."
+    },
+    {
+     "t": "BepiColombo",
+     "d": "Missione europea e giapponese verso Mercurio."
+    }
+   ],
+   "quote": {
+    "text": "Mercury is the smallest planet (except for the dwarf planets), having a diameter of 4878 kilometers, less than half that of Earth.",
+    "translation": "Mercurio è il pianeta più piccolo (esclusi i pianeti nani), con un diametro di 4878 chilometri, meno della metà di quello terrestre."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "9.5 Mercury",
+     "url": "https://openstax.org/books/astronomy-2e/pages/9-5-mercury"
+    }
+   ],
+   "videos": [
+    {
+     "id": "P3GkZe3nRQ0",
+     "title": "Mercury: Crash Course Astronomy #13",
+     "channel": "CrashCourse",
+     "length": "10:18"
+    },
+    {
+     "id": "0KBjnNuhRHs",
+     "title": "Mercury 101 | National Geographic",
+     "channel": "National Geographic",
+     "length": "3:32"
+    }
+   ],
+   "videoQuery": "mercury crash course astronomy",
+   "addedAt": "2026-11-04T11:19:31Z"
+  },
+  {
+   "id": "venere",
+   "subject": "astronomia",
+   "chapter": "Sistema solare",
+   "title": "Venere: il gemello infernale della Terra",
+   "hook": "Grande quasi come la Terra, ma con nubi di acido solforico, una pressione 90 volte maggiore e 470 °C al suolo. E gira al contrario.",
+   "points": [
+    "Venere e Marte a confronto con la Terra",
+    "Una rotazione lenta e al contrario",
+    "La geologia sotto le nubi",
+    "L'atmosfera e l'effetto serra estremo"
+   ],
+   "sections": [
+    {
+     "h": "I vicini della Terra",
+     "p": [
+      "Venere e Marte sono i pianeti più vicini alla Terra. Venere è quasi gemella della Terra per dimensioni e massa, Marte è circa la metà come diametro. Venere si avvicina alla Terra più di qualsiasi altro pianeta; la distanza minima di Marte dalla Terra è invece di circa 56 milioni di chilometri.",
+      "Venere è l'oggetto più brillante del cielo dopo il Sole e la Luna: la \"stella del mattino\" o \"della sera\". Ma la sua superficie è nascosta sotto una coltre perenne di nubi."
+     ]
+    },
+    {
+     "h": "Una rotazione bizzarra",
+     "p": [
+      "Venere ruota lentissimamente: una rotazione dura 243 giorni terrestri, più del suo anno di 225 giorni. Ancora più sorprendente del tempo che impiega è il fatto che gira al contrario, da est a ovest, in senso retrogrado: su Venere il Sole sorgerebbe a ovest.",
+      "Non sappiamo con certezza perché: forse un antico grande impatto, forse le maree del Sole sulla sua densa atmosfera."
+     ]
+    },
+    {
+     "h": "Sotto le nubi",
+     "p": [
+      "Le nubi non si attraversano con la luce visibile, ma il radar sì. Le sonde, soprattutto la Magellan della NASA negli anni Novanta, hanno mappato quasi tutta la superficie. È dominata da pianure vulcaniche, con migliaia di vulcani, enormi colate di lava e strutture uniche, come le \"corone\", grandi anelli prodotti da risalite di materiale caldo dal mantello.",
+      "Venere ha relativamente pochi crateri, e distribuiti in modo uniforme: la superficie è giovane, forse rinnovata da un'attività vulcanica diffusa qualche centinaio di milioni di anni fa. Non sembra avere una tettonica a placche come la Terra. Alcuni indizi suggeriscono che possa esserci vulcanismo attivo ancora oggi."
+     ]
+    },
+    {
+     "h": "Un'atmosfera infernale",
+     "p": [
+      "L'atmosfera di Venere è fatta per il 96% di anidride carbonica ed è densissima: al suolo la pressione è circa 90 volte quella terrestre, come a quasi un chilometro di profondità in mare. Le nubi sono fatte di goccioline di acido solforico.",
+      "L'enorme quantità di anidride carbonica produce un effetto serra estremo: la temperatura al suolo è di circa 470 °C, più calda di Mercurio, giorno e notte, abbastanza da fondere il piombo. Le sonde sovietiche Venera, che riuscirono ad atterrare negli anni Settanta e Ottanta, sopravvissero solo un'ora o poco più prima di essere distrutte.",
+      "Venere è un esempio di cosa può succedere a un pianeta simile alla Terra. Nuove missioni, come la sonda europea EnVision e quelle della NASA DAVINCI e VERITAS, sono in programma per studiarla."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "La \"stella\" brillantissima che vedi a volte a ovest dopo il tramonto è quasi sempre Venere.",
+   "mistakes": [
+    "\"Venere è abitabile perché simile alla Terra\": la superficie è a 470 °C.",
+    "\"Mercurio è il pianeta più caldo perché è più vicino\": Venere è più calda per l'effetto serra.",
+    "\"Venere ruota come la Terra\": ruota al contrario e lentissimamente."
+   ],
+   "terms": [
+    {
+     "t": "Rotazione retrograda",
+     "d": "Rotazione in verso opposto a quello degli altri pianeti."
+    },
+    {
+     "t": "Corona",
+     "d": "Struttura vulcanica ad anello di Venere."
+    },
+    {
+     "t": "Effetto serra estremo",
+     "d": "Trattenimento di calore fuori controllo."
+    },
+    {
+     "t": "Radar",
+     "d": "Onde radio usate per mappare la superficie sotto le nubi."
+    }
+   ],
+   "quote": {
+    "text": "Even more surprising than how long Venus takes to rotate is the fact that it spins in a backward or retrograde direction (east to west).",
+    "translation": "Ancora più sorprendente di quanto tempo Venere impieghi a ruotare è il fatto che giri all'indietro, cioè in senso retrogrado (da est a ovest)."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "10.1 The nearest planets an overview",
+     "url": "https://openstax.org/books/astronomy-2e/pages/10-1-the-nearest-planets-an-overview"
+    },
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "10.2 The geology of venus",
+     "url": "https://openstax.org/books/astronomy-2e/pages/10-2-the-geology-of-venus"
+    },
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "10.3 The massive atmosphere of venus",
+     "url": "https://openstax.org/books/astronomy-2e/pages/10-3-the-massive-atmosphere-of-venus"
+    }
+   ],
+   "videos": [
+    {
+     "id": "ZFUgy3crCYY",
+     "title": "Venus: Crash Course Astronomy #14",
+     "channel": "CrashCourse",
+     "length": "10:50"
+    },
+    {
+     "id": "BvXa1n9fjow",
+     "title": "Venus 101 | National Geographic",
+     "channel": "National Geographic",
+     "length": "3:29"
+    }
+   ],
+   "videoQuery": "venus crash course astronomy",
+   "addedAt": "2026-11-04T11:19:31Z"
+  },
+  {
    "id": "marte-acqua",
    "subject": "astronomia",
    "chapter": "Sistema solare",
@@ -19493,6 +20775,296 @@
    "addedAt": "2026-11-04T00:12:22Z"
   },
   {
+   "id": "destini-dei-pianeti",
+   "subject": "astronomia",
+   "chapter": "Sistema solare",
+   "title": "Venere, Terra e Marte: tre pianeti simili, tre destini diversi",
+   "hook": "Nati dagli stessi materiali, oggi sono un forno, un giardino e un deserto gelido. Massa, distanza dal Sole e atmosfera spiegano strade così diverse.",
+   "points": [
+    "Un inizio simile",
+    "Perché Marte si è raffreddato",
+    "Perché Venere è diventata un forno",
+    "Cosa ci insegnano sulla Terra"
+   ],
+   "sections": [
+    {
+     "h": "Lo stesso punto di partenza",
+     "p": [
+      "Venere, Terra e Marte si sono formati nella stessa regione del Sistema solare, con materiali simili. Probabilmente all'inizio avevano tutti atmosfere di anidride carbonica e vapore acqueo, e forse acqua liquida in superficie. Eppure oggi sono diversissimi.",
+      "Uno dei motivi principali per studiare Venere e Marte è proprio capire perché, e cosa questo significa per il futuro della Terra."
+     ]
+    },
+    {
+     "h": "Marte: troppo piccolo",
+     "p": [
+      "Marte ha circa un decimo della massa terrestre. Un pianeta piccolo si raffredda più in fretta: l'attività vulcanica si è ridotta e il nucleo si è solidificato abbastanza da far quasi scomparire il campo magnetico globale.",
+      "Senza lo scudo magnetico e con una gravità debole, Marte ha perso gran parte della sua atmosfera nello spazio, erosa dal vento solare, come ha misurato la sonda MAVEN. Con un'atmosfera sottile, l'effetto serra è debole, la temperatura è scesa e l'acqua è sfuggita nello spazio o è rimasta congelata nel sottosuolo e ai poli."
+     ]
+    },
+    {
+     "h": "Venere: troppo vicina",
+     "p": [
+      "Venere riceve dal Sole quasi il doppio della luce della Terra. Se un tempo aveva oceani, il calore ne fece evaporare l'acqua; il vapore acqueo, potente gas serra, scaldò ancora di più il pianeta, facendo evaporare altra acqua: un ciclo che si rinforzò da solo, l'effetto serra fuori controllo.",
+      "Nell'alta atmosfera la luce ultravioletta spezzò le molecole d'acqua e l'idrogeno sfuggì nello spazio. Senza acqua, l'anidride carbonica non poté più essere sciolta negli oceani e trasformata in rocce, come avviene sulla Terra, e rimase tutta nell'atmosfera."
+     ]
+    },
+    {
+     "h": "La Terra: il punto giusto",
+     "p": [
+      "La Terra ha avuto le condizioni giuste: abbastanza grande da restare geologicamente attiva e mantenere un campo magnetico, alla distanza giusta per avere acqua liquida. La tettonica a placche e gli oceani regolano l'anidride carbonica su tempi lunghissimi, come un termostato: la catturano nelle rocce e la restituiscono con i vulcani.",
+      "Lo studio dei pianeti vicini mostra che l'equilibrio di un clima non è garantito, e che piccoli cambiamenti nella quantità di gas serra possono avere grandi effetti. È una lezione da tenere presente oggi, mentre le attività umane aumentano l'anidride carbonica nell'atmosfera, anche se la Terra non rischia di diventare come Venere nel prossimo futuro."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Se la Terra fosse un po' più vicina al Sole potrebbe somigliare a Venere; se fosse piccola come Marte, potrebbe essere un deserto gelido.",
+   "mistakes": [
+    "\"Marte è sempre stato un deserto freddo\": in passato aveva acqua liquida.",
+    "\"Venere è calda solo perché è vicina al Sole\": il fattore principale è l'effetto serra.",
+    "\"Le condizioni della Terra sono stabili per sempre\": il clima dipende da equilibri delicati."
+   ],
+   "terms": [
+    {
+     "t": "Effetto serra fuori controllo",
+     "d": "Riscaldamento che si autoalimenta fino a far evaporare gli oceani."
+    },
+    {
+     "t": "Fuga atmosferica",
+     "d": "Perdita di gas nello spazio."
+    },
+    {
+     "t": "Ciclo del carbonio",
+     "d": "Scambio di anidride carbonica tra atmosfera, oceani e rocce."
+    },
+    {
+     "t": "Campo magnetico globale",
+     "d": "Scudo che protegge l'atmosfera dal vento solare."
+    }
+   ],
+   "quote": {
+    "text": "One of the reasons for studying Venus and Mars is to seek insight into these questions.",
+    "translation": "Uno dei motivi per studiare Venere e Marte è cercare risposte a queste domande."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "10.6 Divergent planetary evolution",
+     "url": "https://openstax.org/books/astronomy-2e/pages/10-6-divergent-planetary-evolution"
+    }
+   ],
+   "videos": [
+    {
+     "id": "G-WO-z-QuWI",
+     "title": "How To Terraform Venus (Quickly)",
+     "channel": "Kurzgesagt – In a Nutshell",
+     "length": "12:42"
+    },
+    {
+     "id": "KY70s0W5zH0",
+     "title": "Venus and Mars - Once-Earthlike Worlds",
+     "channel": "Launch Pad Astronomy",
+     "length": "14:10"
+    }
+   ],
+   "videoQuery": "why venus earth mars are different",
+   "addedAt": "2026-11-04T11:19:31Z"
+  },
+  {
+   "id": "pianeti-giganti",
+   "subject": "astronomia",
+   "chapter": "Sistema solare",
+   "title": "I pianeti giganti: Giove, Saturno, Urano e Nettuno",
+   "hook": "Mondi senza superficie solida, enormi e lontanissimi. Com'è fatto un gigante gassoso, cosa c'è al suo interno e come li abbiamo esplorati.",
+   "points": [
+    "L'esplorazione dei pianeti esterni",
+    "Giganti gassosi e giganti ghiacciati",
+    "Dentro un pianeta gigante",
+    "Calore interno e campi magnetici"
+   ],
+   "sections": [
+    {
+     "h": "Mondi lontani",
+     "p": [
+      "I pianeti esterni sono lontanissimi: la distanza dalla Terra a Nettuno è di circa 4,8 miliardi di chilometri, e un segnale radio impiega oltre quattro ore per arrivare. Urano fu scoperto solo nel 1781 da William Herschel, Nettuno nel 1846 grazie ai calcoli matematici.",
+      "Le sonde Pioneer e Voyager, negli anni Settanta e Ottanta, ci hanno dato le prime immagini ravvicinate. Galileo e Juno hanno studiato Giove, Cassini Saturno per 13 anni. Urano e Nettuno sono stati visitati una sola volta, dal Voyager 2."
+     ]
+    },
+    {
+     "h": "Due tipi di giganti",
+     "p": [
+      "Giove e Saturno sono giganti gassosi, fatti soprattutto di idrogeno ed elio, come il Sole. Giove è il più grande: ha una massa oltre due volte quella di tutti gli altri pianeti messi insieme, e ci starebbero dentro più di mille Terre.",
+      "Urano e Nettuno sono più piccoli, circa quattro volte il diametro terrestre, e contengono una quota maggiore di \"ghiacci\": per gli astronomi questo termine indica la composizione, non lo stato solido, cioè composti come acqua, metano e ammoniaca formati da ossigeno, carbonio e azoto, gli elementi più abbondanti dopo idrogeno ed elio. Per questo si chiamano giganti ghiacciati."
+     ]
+    },
+    {
+     "h": "Senza superficie",
+     "p": [
+      "I pianeti giganti non hanno una superficie solida su cui atterrare. Scendendo nell'atmosfera di Giove, il gas diventa sempre più denso e caldo, fino a trasformarsi gradualmente in liquido. A grande profondità, con pressioni milioni di volte quella terrestre, l'idrogeno diventa idrogeno metallico liquido, che conduce l'elettricità.",
+      "Al centro dovrebbe esserci un nucleo di roccia e ghiacci, più grande della Terra; la sonda Juno ha mostrato che il nucleo di Giove è probabilmente \"diluito\", mescolato con gli strati sopra. Urano e Nettuno hanno invece un enorme mantello di acqua, ammoniaca e metano ad altissima pressione."
+     ]
+    },
+    {
+     "h": "Calore e magnetismo",
+     "p": [
+      "Giove, Saturno e Nettuno emettono più energia di quanta ne ricevano dal Sole: hanno una fonte di calore interno, residuo della formazione o prodotto da una lenta contrazione e, per Saturno, dalla pioggia di elio che sprofonda verso il centro. Urano, stranamente, quasi non ne emette.",
+      "Il campo magnetico di Giove, generato dall'idrogeno metallico, è il più potente tra i pianeti: la sua magnetosfera è il più grande oggetto del Sistema solare dopo l'eliosfera del Sole, e intrappola particelle in fasce di radiazione pericolose per le sonde. Giove ha anche aurore spettacolari ai poli."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Dentro Giove starebbero più di mille Terre, ma la sua massa è \"solo\" 318 volte quella terrestre: è fatto di materiale molto meno denso.",
+   "mistakes": [
+    "\"Si può atterrare su Giove\": non ha una superficie solida.",
+    "\"I giganti ghiacciati sono fatti di ghiaccio solido\": \"ghiacci\" indica la composizione.",
+    "\"I pianeti giganti sono solo palle di gas inerti\": hanno calore interno e campi magnetici potenti."
+   ],
+   "terms": [
+    {
+     "t": "Gigante gassoso",
+     "d": "Pianeta fatto soprattutto di idrogeno ed elio."
+    },
+    {
+     "t": "Gigante ghiacciato",
+     "d": "Pianeta ricco di acqua, metano e ammoniaca."
+    },
+    {
+     "t": "Idrogeno metallico",
+     "d": "Idrogeno che conduce elettricità ad altissima pressione."
+    },
+    {
+     "t": "Magnetosfera",
+     "d": "Regione dominata dal campo magnetico di un pianeta."
+    }
+   ],
+   "quote": {
+    "text": "The distance from Earth to Neptune is about 4.8 billion kilometers.",
+    "translation": "La distanza tra la Terra e Nettuno è di circa 4,8 miliardi di chilometri."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "11.1 Exploring the outer planets",
+     "url": "https://openstax.org/books/astronomy-2e/pages/11-1-exploring-the-outer-planets"
+    },
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "11.2 The giant planets",
+     "url": "https://openstax.org/books/astronomy-2e/pages/11-2-the-giant-planets"
+    }
+   ],
+   "videos": [
+    {
+     "id": "Xwn8fQSW7-8",
+     "title": "Jupiter: Crash Course Astronomy #16",
+     "channel": "CrashCourse",
+     "length": "10:43"
+    },
+    {
+     "id": "E8GNde5nCSg",
+     "title": "Saturn: Crash Course Astronomy #18",
+     "channel": "CrashCourse",
+     "length": "12:16"
+    }
+   ],
+   "videoQuery": "jupiter saturn crash course astronomy",
+   "addedAt": "2026-11-04T11:19:31Z"
+  },
+  {
+   "id": "atmosfere-giganti",
+   "subject": "astronomia",
+   "chapter": "Sistema solare",
+   "title": "Le atmosfere dei pianeti giganti: tempeste che durano secoli",
+   "hook": "La Grande Macchia Rossa di Giove, venti a 2000 km/h su Nettuno, l'esagono di Saturno: il meteo più estremo del Sistema solare.",
+   "points": [
+    "Composizione e colori delle atmosfere",
+    "Fasce, zone e venti",
+    "La Grande Macchia Rossa e altre tempeste",
+    "Le stagioni estreme di Urano"
+   ],
+   "sections": [
+    {
+     "h": "Atmosfere che raccontano il pianeta",
+     "p": [
+      "Poiché i pianeti giganti non hanno superfici solide, le loro atmosfere sono più rappresentative della loro composizione complessiva di quanto lo siano quelle dei pianeti terrestri. Sono fatte soprattutto di idrogeno ed elio, con metano, ammoniaca, acqua e altre sostanze.",
+      "Le nubi si dispongono in strati a quote diverse, a seconda della temperatura: ammoniaca più in alto, solfuro di ammonio sotto, acqua ancora più in profondità. I colori delle nubi sono dovuti a impurità, prodotte da reazioni chimiche tra i gas dell'atmosfera in un processo che chiamiamo fotochimica. Urano e Nettuno appaiono azzurri perché il metano assorbe la luce rossa."
+     ]
+    },
+    {
+     "h": "Fasce e venti",
+     "p": [
+      "Giove e Saturno mostrano fasce scure e zone chiare parallele all'equatore. Le zone sono regioni dove il gas sale e forma nubi alte e chiare, le fasce zone dove scende. Tra loro soffiano venti fortissimi in direzioni alterne, a centinaia di chilometri all'ora.",
+      "Nonostante le strane stagioni indotte dall'inclinazione di 98 gradi del suo asse, anche Urano ha una circolazione di base parallela all'equatore, come Giove e Saturno. I venti più veloci del Sistema solare soffiano su Nettuno: oltre 2000 km/h, sorprendente per un pianeta che riceve pochissima energia dal Sole."
+     ]
+    },
+    {
+     "h": "Tempeste gigantesche",
+     "p": [
+      "La Grande Macchia Rossa di Giove è il più grande sistema di tempeste del pianeta, un enorme anticiclone osservato da almeno 150 anni, forse più di tre secoli. Un tempo era larga tre volte la Terra; oggi si sta restringendo ed è grande poco più della Terra. La sonda Juno ha mostrato che affonda per centinaia di chilometri nell'atmosfera.",
+      "Su Saturno, ogni trent'anni circa, compaiono grandi tempeste bianche che avvolgono il pianeta. Al polo nord di Saturno c'è una curiosa corrente a forma di esagono, larga più della Terra. Nettuno mostrò al Voyager 2 una Grande Macchia Scura, poi scomparsa: le tempeste di Nettuno nascono e svaniscono in pochi anni."
+     ]
+    },
+    {
+     "h": "Le stagioni di Urano",
+     "p": [
+      "Urano ha l'asse inclinato di 98 gradi: ruota praticamente coricato sul piano dell'orbita. Durante la sua orbita di 84 anni, ogni polo resta per circa 42 anni illuminato dal Sole e poi per 42 anni al buio.",
+      "Si pensa che questa inclinazione sia il risultato di un gigantesco impatto nel passato. Quando il Voyager 2 lo visitò nel 1986, Urano appariva quasi privo di dettagli; con l'avanzare delle stagioni, i telescopi hanno visto comparire nubi e tempeste. Una nuova missione verso Urano è considerata una priorità dagli scienziati planetari."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Con un piccolo telescopio si vedono le fasce di Giove e, quando è rivolta verso di noi, anche la Grande Macchia Rossa.",
+   "mistakes": [
+    "\"La Grande Macchia Rossa è un vulcano o una macchia sulla superficie\": è una tempesta nell'atmosfera.",
+    "\"I pianeti lontani dal Sole hanno venti deboli\": Nettuno ha i venti più veloci.",
+    "\"Urano è azzurro perché è fatto d'acqua\": è il metano che assorbe la luce rossa."
+   ],
+   "terms": [
+    {
+     "t": "Fasce e zone",
+     "d": "Strisce scure e chiare delle atmosfere giganti."
+    },
+    {
+     "t": "Anticiclone",
+     "d": "Sistema di alta pressione rotante."
+    },
+    {
+     "t": "Fotochimica",
+     "d": "Reazioni chimiche causate dalla luce."
+    },
+    {
+     "t": "Grande Macchia Rossa",
+     "d": "La tempesta più grande e duratura di Giove."
+    }
+   ],
+   "quote": {
+    "text": "The cloud colors are due to impurities, the product of chemical reactions among the atmospheric gases in a process we call photochemistry.",
+    "translation": "I colori delle nubi sono dovuti a impurità, prodotte da reazioni chimiche tra i gas atmosferici in un processo che chiamiamo fotochimica."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "11.3 Atmospheres of the giant planets",
+     "url": "https://openstax.org/books/astronomy-2e/pages/11-3-atmospheres-of-the-giant-planets"
+    }
+   ],
+   "videos": [
+    {
+     "id": "uj3Lq7Gu94Y",
+     "title": "Fly into the Great Red Spot of Jupiter with NASA’s Juno Mission",
+     "channel": "NASA",
+     "length": "1:15"
+    },
+    {
+     "id": "sRTmWm6GWME",
+     "title": "Jupiter’s Great Red Spot Is Shaking",
+     "channel": "NASA Goddard",
+     "length": "2:00"
+    }
+   ],
+   "videoQuery": "great red spot jupiter atmosphere",
+   "addedAt": "2026-11-04T11:19:31Z"
+  },
+  {
    "id": "lune-giove",
    "subject": "astronomia",
    "chapter": "Sistema solare",
@@ -19589,6 +21161,93 @@
    ],
    "videoQuery": "lune di Giove Europa Io Ganimede",
    "addedAt": "2026-11-04T00:12:22Z"
+  },
+  {
+   "id": "pianeti-a-confronto",
+   "subject": "astronomia",
+   "chapter": "Sistema solare",
+   "title": "Pianeti a confronto: il nostro sistema e quelli di altre stelle",
+   "hook": "I sistemi planetari scoperti intorno ad altre stelle sono molto diversi dal nostro. Giove caldi, super-Terre e pianeti migranti hanno cambiato le teorie di formazione.",
+   "points": [
+    "Cosa ci hanno insegnato gli esopianeti",
+    "Giove caldi e migrazione planetaria",
+    "Super-Terre e mini-Nettuno",
+    "Come evolvono i pianeti dopo la nascita"
+   ],
+   "sections": [
+    {
+     "h": "Un modello da rivedere",
+     "p": [
+      "Il modello di formazione del Sistema solare fu costruito osservando un solo sistema: il nostro. Con la scoperta di migliaia di pianeti intorno ad altre stelle, prima con il telescopio spaziale Kepler e poi con altri telescopi che continuano la ricerca, si è visto che la natura è molto più varia.",
+      "Il nostro Sistema solare, con pianeti rocciosi vicini e giganti lontani su orbite quasi circolari, non sembra essere la regola, anche se non è chiaro quanto sia raro."
+     ]
+    },
+    {
+     "h": "Giove caldi e migrazione",
+     "p": [
+      "Il primo pianeta scoperto intorno a una stella simile al Sole era un gigante come Giove, ma così vicino alla sua stella da compiere un'orbita in pochi giorni: un \"Giove caldo\". Secondo il modello della linea della neve, lì non avrebbe potuto formarsi.",
+      "La soluzione proposta è la migrazione: i pianeti possono formarsi in un punto e poi spostarsi, scambiando energia con il gas del disco o con altri pianeti. Ci sono varie ipotesi su come possa essere avvenuta. Anche nel nostro sistema Giove e Saturno potrebbero essersi spostati nel passato, rimescolando asteroidi e comete."
+     ]
+    },
+    {
+     "h": "Pianeti che non abbiamo",
+     "p": [
+      "I pianeti più comuni scoperti finora hanno dimensioni intermedie tra la Terra e Nettuno: sono le super-Terre, probabilmente rocciose, e i mini-Nettuno, con spesse atmosfere. Nel nostro sistema non ce n'è nessuno.",
+      "Molti sistemi sono compatti, con diversi pianeti più vicini alla loro stella di quanto Mercurio sia al Sole. Altri hanno pianeti su orbite molto allungate. Esistono pianeti che orbitano intorno a due stelle, come il pianeta di Tatooine in Star Wars, e pianeti vaganti, espulsi dai loro sistemi."
+     ]
+    },
+    {
+     "h": "L'evoluzione dopo la nascita",
+     "p": [
+      "Una volta formati, i pianeti continuano a cambiare. I pianeti rocciosi si raffreddano: quelli piccoli, come Mercurio e la Luna, perdono presto il calore interno e diventano geologicamente quasi morti; quelli più grandi, come la Terra e Venere, restano attivi più a lungo.",
+      "Le atmosfere si formano da gas emessi dai vulcani e portati da comete e asteroidi, e possono essere perse se il pianeta è piccolo o senza campo magnetico. Massa, distanza dalla stella e composizione determinano strade molto diverse, come mostrano Venere, la Terra e Marte, nati simili e diventati diversissimi."
+     ]
+    }
+   ],
+   "formulas": [],
+   "example": "Se il nostro sistema avesse un Giove caldo, la Terra difficilmente sarebbe sopravvissuta: il gigante avrebbe sconvolto le orbite interne.",
+   "mistakes": [
+    "\"Tutti i sistemi planetari sono come il nostro\": molti sono molto diversi.",
+    "\"I pianeti restano dove si formano\": possono migrare.",
+    "\"La Terra è il tipo di pianeta più comune\": sono più comuni super-Terre e mini-Nettuno."
+   ],
+   "terms": [
+    {
+     "t": "Giove caldo",
+     "d": "Pianeta gigante molto vicino alla sua stella."
+    },
+    {
+     "t": "Migrazione planetaria",
+     "d": "Spostamento di un pianeta dopo la sua formazione."
+    },
+    {
+     "t": "Super-Terra",
+     "d": "Pianeta roccioso più grande della Terra."
+    },
+    {
+     "t": "Pianeta vagante",
+     "d": "Pianeta che non orbita intorno a una stella."
+    }
+   ],
+   "quote": {
+    "text": "There are several suggestions for ways migration might have occurred.",
+    "translation": "Ci sono diverse ipotesi su come possa essere avvenuta la migrazione."
+   },
+   "sources": [
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "14.4 Comparison with other planetary systems",
+     "url": "https://openstax.org/books/astronomy-2e/pages/14-4-comparison-with-other-planetary-systems"
+    },
+    {
+     "name": "OpenStax · Astronomy 2e",
+     "title": "14.5 Planetary evolution",
+     "url": "https://openstax.org/books/astronomy-2e/pages/14-5-planetary-evolution"
+    }
+   ],
+   "videos": [],
+   "videoQuery": "comparative planetology",
+   "addedAt": "2026-11-04T11:19:31Z"
   },
   {
    "id": "fusione-sole",
