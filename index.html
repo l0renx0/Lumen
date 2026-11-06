@@ -40,6 +40,9 @@
         <button class="icon-btn" id="themeBtn" aria-label="Tema chiaro o scuro">
           <svg viewBox="0 0 24 24"><path class="i-sun" d="M12 4V2m0 20v-2m8-8h2M2 12h2m13.66-5.66 1.41-1.41M4.93 19.07l1.41-1.41m0-11.32L4.93 4.93m14.14 14.14-1.41-1.41M12 17a5 5 0 1 0 0-10 5 5 0 0 0 0 10Z"/><path class="i-moon" d="M20.5 14.5A8.5 8.5 0 0 1 9.5 3.5a8.5 8.5 0 1 0 11 11Z"/></svg>
         </button>
+        <button class="icon-btn" id="nightBtn" aria-label="Filtro luce blu" aria-pressed="false">
+          <svg viewBox="0 0 24 24"><path d="M3 18h18M6 14.5a6 6 0 0 1 12 0M12 4.5V6M4.9 7.4 6 8.5M19.1 7.4 18 8.5M8 21.5h8"/></svg>
+        </button>
       </div>
     </div>
   </header>
@@ -60,6 +63,27 @@
     <button class="resume" id="dResume" hidden>Riprendi da dove eri ↓</button>
   </article>
 
+  <div class="sheet" id="nightSheet" role="dialog" aria-modal="true" aria-labelledby="nTitle" hidden>
+    <div class="sheet__card">
+      <h2 class="sheet__title" id="nTitle">Filtro luce blu</h2>
+      <p class="sheet__text">Scalda i colori dello schermo e toglie la luce blu, per leggere di sera con una luce più morbida.</p>
+      <div class="seg" role="radiogroup" aria-label="Quando accenderlo" id="nMode">
+        <button role="radio" data-v="auto">Al tramonto</button>
+        <button role="radio" data-v="on">Sempre</button>
+        <button role="radio" data-v="off">Spento</button>
+      </div>
+      <p class="sheet__note" id="nNote"></p>
+      <p class="sheet__label">Intensità</p>
+      <div class="seg" role="radiogroup" aria-label="Intensità" id="nLevel">
+        <button role="radio" data-v="1">Leggero</button>
+        <button role="radio" data-v="2">Medio</button>
+        <button role="radio" data-v="3">Forte</button>
+      </div>
+      <button class="sheet__link" id="nGeo">Usa la mia posizione per orari più precisi</button>
+      <button class="sheet__done" id="nDone">Fatto</button>
+    </div>
+  </div>
+  <div class="night" id="night" aria-hidden="true"></div>
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
   <script src="assets/js/app.js" type="module"></script>
 </body>

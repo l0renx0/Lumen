@@ -492,6 +492,114 @@ $('#dSize').onclick = () => {
   toast(SIZES[n]);
 };
 
+/* ── Filtro luce blu ──
+   Modo "auto": acceso dal tramonto all'alba. Gli orari si calcolano qui, senza internet,
+   con la formula astronomica dell'alba e del tramonto, per la posizione salvata (se l'hai data)
+   oppure per una città vicina al fuso orario del telefono (Roma, Madrid o Canarie). */
+const night = {
+  mode: () => store.get('night', 'auto'),            // 'auto' | 'on' | 'off'
+  level: () => store.get('nightLevel', 2),           // 1 leggero · 2 medio · 3 forte
+  place() {
+    const g = store.get('geo', null);
+    if (g) return g;
+    let tz = '';
+    try { tz = Intl.DateTimeFormat().resolvedOptions().timeZone || ''; } catch {}
+    if (/Canary/.test(tz)) return { lat: 28.1, lon: -15.4 };       // Canarie
+    if (/Madrid/.test(tz)) return { lat: 40.42, lon: -3.70 };      // Madrid
+    return { lat: 41.9, lon: 12.5 };                               // Roma
+  },
+};
+// Alba e tramonto del giorno di `d` (ora locale) → { rise, set } come Date.
+function sunTimes(d, lat, lon) {
+  const rad = Math.PI / 180;
+  const noon = new Date(d.getFullYear(), d.getMonth(), d.getDate(), 12);
+  const n = Math.round(noon.getTime() / 864e5 + 2440587.5 - 2451545);
+  const J = n - lon / 360;
+  const M = (357.5291 + 0.98560028 * J) % 360;
+  const C = 1.9148 * Math.sin(M * rad) + 0.02 * Math.sin(2 * M * rad) + 0.0003 * Math.sin(3 * M * rad);
+  const L = (M + C + 180 + 102.9372) % 360;
+  const transit = 2451545 + J + 0.0053 * Math.sin(M * rad) - 0.0069 * Math.sin(2 * L * rad);
+  const dec = Math.asin(Math.sin(L * rad) * Math.sin(23.4397 * rad));
+  let cw = (Math.sin(-0.833 * rad) - Math.sin(lat * rad) * Math.sin(dec)) / (Math.cos(lat * rad) * Math.cos(dec));
+  cw = Math.max(-1, Math.min(1, cw));
+  const w = Math.acos(cw) / rad / 360;
+  const toDate = (jd) => new Date((jd - 2440587.5) * 864e5);
+  return { rise: toDate(transit - w), set: toDate(transit + w) };
+}
+const hhmm = (d) => d.toLocaleTimeString('it-IT', { hour: '2-digit', minute: '2-digit' });
+function isAfterSunset(now = new Date()) {
+  const { lat, lon } = night.place();
+  const { rise, set } = sunTimes(now, lat, lon);
+  return now >= set || now < rise;
+}
+let nightWas = null;
+function applyNight(fromTimer) {
+  const m = night.mode();
+  const on = m === 'on' || (m === 'auto' && isAfterSunset());
+  const root = document.documentElement;
+  if (on) root.dataset.night = night.level(); else delete root.dataset.night;
+  $('#nightBtn').setAttribute('aria-pressed', on);
+  if (fromTimer && nightWas !== null && on !== nightWas && m === 'auto') {
+    toast(on ? 'È il tramonto: filtro luce blu acceso' : "È l'alba: filtro luce blu spento");
+  }
+  nightWas = on;
+  if (!$('#nightSheet').hidden) renderNightSheet();
+}
+function renderNightSheet() {
+  const m = night.mode();
+  $('#nMode').querySelectorAll('button').forEach((b) => b.setAttribute('aria-checked', b.dataset.v === m));
+  $('#nLevel').querySelectorAll('button').forEach((b) => b.setAttribute('aria-checked', +b.dataset.v === night.level()));
+  const { lat, lon } = night.place();
+  const now = new Date();
+  const t = sunTimes(now, lat, lon);
+  const tomorrow = sunTimes(new Date(now.getTime() + 864e5), lat, lon);
+  const where = store.get('geo', null) ? 'calcolato per dove sei' : 'indicativo';
+  $('#nNote').textContent =
+    m === 'auto' ? (isAfterSunset(now)
+      ? `Acceso adesso. Si spegne da solo all’alba, alle ${hhmm(now < t.rise ? t.rise : tomorrow.rise)} (orario ${where}).`
+      : `Si accende da solo al tramonto, oggi alle ${hhmm(t.set)} (orario ${where}).`)
+    : m === 'on' ? 'Acceso sempre, anche di giorno.'
+    : 'Spento. Puoi riaccenderlo quando vuoi da qui.';
+  $('#nGeo').hidden = !('geolocation' in navigator) || m !== 'auto';
+  $('#nGeo').textContent = store.get('geo', null) ? 'Aggiorna la mia posizione' : 'Usa la mia posizione per orari più precisi';
+}
+function openNightSheet() {
+  renderNightSheet();
+  $('#nightSheet').hidden = false;
+  $('#nDone').focus();
+}
+const closeNightSheet = () => { $('#nightSheet').hidden = true; $('#nightBtn').focus(); };
+$('#nightBtn').onclick = openNightSheet;
+$('#nDone').onclick = closeNightSheet;
+$('#nightSheet').onclick = (e) => { if (e.target.id === 'nightSheet') closeNightSheet(); };
+addEventListener('keydown', (e) => { if (e.key === 'Escape' && !$('#nightSheet').hidden) closeNightSheet(); });
+$('#nMode').onclick = (e) => {
+  const b = e.target.closest('button'); if (!b) return;
+  store.set('night', b.dataset.v); applyNight();
+};
+$('#nLevel').onclick = (e) => {
+  const b = e.target.closest('button'); if (!b) return;
+  store.set('nightLevel', +b.dataset.v);
+  if (night.mode() === 'off') store.set('night', 'on');   // scegliere l'intensità lo accende, così vedi l'effetto
+  applyNight();
+};
+$('#nGeo').onclick = () => {
+  $('#nGeo').textContent = 'Cerco la posizione…';
+  navigator.geolocation.getCurrentPosition(
+    (p) => {
+      // Bastano due decimali (circa 1 km): servono solo per l'ora del tramonto.
+      store.set('geo', { lat: +p.coords.latitude.toFixed(2), lon: +p.coords.longitude.toFixed(2) });
+      applyNight(); renderNightSheet(); toast('Orari del tramonto aggiornati');
+    },
+    () => { renderNightSheet(); toast('Posizione non disponibile: uso un orario indicativo'); },
+    { maximumAge: 864e5, timeout: 15000 },
+  );
+};
+applyNight();
+requestAnimationFrame(() => requestAnimationFrame(() => $('#night').classList.add('anim')));
+setInterval(() => applyNight(true), 60000);
+document.addEventListener('visibilitychange', () => { if (!document.hidden) applyNight(true); });
+
 /* ── Avvio ── */
 async function load() {
   const res = await fetch('data/argomenti.json', { cache: 'no-cache' });

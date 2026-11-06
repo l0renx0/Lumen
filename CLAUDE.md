@@ -9,6 +9,7 @@ L'utente sceglie una **materia** (Fisica, Psicologia, Astronomia…) e vede un *
 
 ## File
 - `index.html`, `assets/css/app.css`, `assets/js/app.js`, `sw.js`, `manifest.webmanifest`: l'app. Navigazione con indirizzi `#/` (home), `#/m/<materia>`, `#/a/<argomento>`, `#/salvati`.
+- Filtro luce blu (pulsante in alto a destra, popup `#nightSheet`): velo arancione `.night` in `app.css`; modi "Al tramonto" (predefinito, alba/tramonto calcolati in `app.js` per la posizione salvata `lumen.geo` o per Roma/Madrid/Canarie dal fuso orario), "Sempre", "Spento"; intensità 1-3 (`lumen.night`, `lumen.nightLevel`).
 - `data/argomenti.json`: `{updatedAt, subjects: [...], topics: [...]}`.
 - `data/meta.json`: `{updatedAt, count}` → se `updatedAt` è più recente di quello caricato, l'app mostra il banner "Nuovi argomenti · Aggiorna".
 - `strumenti/controlla_argomenti.py`: controlli prima di pubblicare.

@@ -347,3 +347,37 @@ svg { display: block; }
   .view > *, .detail, .resume { animation: none; }
   .detail__scroll { scroll-behavior: auto; }
 }
+
+/* ── Filtro luce blu: un velo arancione "moltiplicato" sopra tutto, che toglie il blu ── */
+.night {
+  position: fixed; inset: 0; z-index: 9999; pointer-events: none;
+  background: rgb(255, 136, 28); mix-blend-mode: multiply; opacity: 0;
+}
+.night.anim { transition: opacity 1.2s ease; }
+:root[data-night="1"] .night { opacity: .2; }
+:root[data-night="2"] .night { opacity: .32; }
+:root[data-night="3"] .night { opacity: .46; }
+#nightBtn[aria-pressed="true"] svg { fill: none; }
+
+.sheet {
+  position: fixed; inset: 0; z-index: 70; display: flex; align-items: flex-end; justify-content: center;
+  background: rgba(0, 0, 0, .32); animation: fadeIn .2s ease;
+}
+.sheet__card {
+  width: 100%; max-width: 480px; background: var(--bg); color: var(--ink);
+  border-radius: 26px 26px 0 0; padding: 22px var(--gutter) calc(env(safe-area-inset-bottom) + 18px);
+  box-shadow: var(--shadow); animation: sheetUp .35s var(--ease);
+}
+@media (min-width: 560px) { .sheet { align-items: center; } .sheet__card { border-radius: 26px; } }
+.sheet__title { margin: 0 0 6px; font: 600 23px/1.2 var(--serif); }
+.sheet__text { margin: 0 0 16px; color: var(--ink-2); font-size: 15px; }
+.sheet__label { margin: 16px 0 8px; font-size: 12.5px; font-weight: 600; text-transform: uppercase; letter-spacing: .05em; color: var(--ink-3); }
+.sheet__note { margin: 10px 2px 0; font-size: 14px; color: var(--ink-2); min-height: 1.5em; }
+.seg { display: grid; grid-auto-flow: column; grid-auto-columns: 1fr; gap: 4px; padding: 4px; border-radius: 16px; background: var(--bg-soft); }
+.seg button { height: 42px; border-radius: 12px; font-size: 15px; font-weight: 500; color: var(--ink-2); transition: background .2s, color .2s; }
+.seg button[aria-checked="true"] { background: var(--card); color: var(--ink); font-weight: 600; box-shadow: 0 1px 3px rgba(0, 0, 0, .12); }
+.sheet__link { display: block; margin: 16px 0 0; padding: 4px 0; font-size: 14.5px; font-weight: 500; color: var(--accent); }
+.sheet__done { display: block; width: 100%; height: 50px; margin-top: 18px; border-radius: 16px; background: var(--ink); color: var(--bg); font-size: 16px; font-weight: 600; }
+@keyframes sheetUp { from { transform: translateY(40px); opacity: 0; } }
+@keyframes fadeIn { from { opacity: 0; } }
+@media (prefers-reduced-motion: reduce) { .sheet, .sheet__card { animation: none; } .night.anim { transition: none; } }
