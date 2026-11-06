@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-04T11:32:29Z",
+ "updatedAt": "2026-11-06T19:25:19Z",
  "subjects": [
   {
    "id": "fisica",
@@ -151,6 +151,13 @@
    ],
    "videos": [
     {
+     "id": "rcac5hRB4Gw",
+     "title": "Da un piccolo errore a una grande scoperta: come funziona la ricerca scientifica",
+     "channel": "Geopop",
+     "length": "11:33",
+     "lang": "it"
+    },
+    {
      "id": "UdQreBq6MOY",
      "title": "The Scientific Methods: Crash Course History of Science #14",
      "channel": "CrashCourse",
@@ -260,6 +267,13 @@
     }
    ],
    "videos": [
+    {
+     "id": "fovlMcKYOd0",
+     "title": "Cos'è la fisica, le misure e le unità di misura",
+     "channel": "Step by Step · Fisica e Mate",
+     "length": "9:39",
+     "lang": "it"
+    },
     {
      "id": "Gn97hpEkTiM",
      "title": "Measurement and Significant Figures",
@@ -379,6 +393,13 @@
    ],
    "videos": [
     {
+     "id": "g8DWsui2P_A",
+     "title": "La velocità e il moto rettilineo uniforme",
+     "channel": "Step by Step · Fisica e Mate",
+     "length": "9:24",
+     "lang": "it"
+    },
+    {
      "id": "w3BhzYI6zXU",
      "title": "Vectors and 2D Motion: Crash Course Physics #4",
      "channel": "CrashCourse",
@@ -418,6 +439,13 @@
     }
    ],
    "videos": [
+    {
+     "id": "OsNj323UOrY",
+     "title": "Accelerazione, moto accelerato e moto verticale",
+     "channel": "Step by Step · Fisica e Mate",
+     "length": "9:09",
+     "lang": "it"
+    },
     {
      "id": "ZM8ECpBuQYE",
      "title": "Motion in a Straight Line: Crash Course Physics #1",
@@ -609,6 +637,13 @@
    ],
    "videos": [
     {
+     "id": "BVneZqEJNu4",
+     "title": "Moto rettilineo uniformemente accelerato: le formule",
+     "channel": "La Fisica Che Ci Piace (Vincenzo Schettini)",
+     "length": "4:16",
+     "lang": "it"
+    },
+    {
      "id": "dr39gKnviAc",
      "title": "Developing kinematic equations from data | AP Physics | Khan Academy",
      "channel": "Khan Academy",
@@ -709,6 +744,13 @@
     }
    ],
    "videos": [
+    {
+     "id": "xxFWe1JI6b8",
+     "title": "Il moto di caduta libera e l'accelerazione di gravità",
+     "channel": "La Fisica Che Ci Piace (Vincenzo Schettini)",
+     "length": "21:08",
+     "lang": "it"
+    },
     {
      "id": "0ewWkfBA3vw",
      "title": "Gravity & Free Fall | Forces & Motion | Physics | FuseSchool",
@@ -828,6 +870,13 @@
    ],
    "videos": [
     {
+     "id": "GAJkDbPxt9k",
+     "title": "La somma di vettori: metodo punta-coda e del parallelogramma",
+     "channel": "La Fisica Che Ci Piace (Vincenzo Schettini)",
+     "length": "12:47",
+     "lang": "it"
+    },
+    {
      "id": "w3BhzYI6zXU",
      "title": "Vectors and 2D Motion: Crash Course Physics #4",
      "channel": "CrashCourse",
@@ -938,6 +987,13 @@
     }
    ],
    "videos": [
+    {
+     "id": "IG4snMXBFfE",
+     "title": "Il moto parabolico: la traiettoria di un proiettile",
+     "channel": "La Fisica Che Ci Piace (Vincenzo Schettini)",
+     "length": "23:41",
+     "lang": "it"
+    },
     {
      "id": "aY8z2qO44WA",
      "title": "Kinematics Part 3: Projectile Motion",
@@ -1066,6 +1122,13 @@
    ],
    "videos": [
     {
+     "id": "1enJ9XbD1-o",
+     "title": "Dinamica e forze: peso, forza elastica, attrito, vincoli",
+     "channel": "Step by Step · Fisica e Mate",
+     "length": "14:02",
+     "lang": "it"
+    },
+    {
      "id": "MaabUHLIIXA",
      "title": "Types of forces and free body diagrams | Physics | Khan Academy",
      "channel": "Khan Academy",
@@ -1109,6 +1172,13 @@
     }
    ],
    "videos": [
+    {
+     "id": "YOWnJDY7TCU",
+     "title": "Sei sicuro di avere capito le leggi di Newton?",
+     "channel": "Random Physics",
+     "length": "15:43",
+     "lang": "it"
+    },
     {
      "id": "kKKM8Y-u7ds",
      "title": "Newton's Laws: Crash Course Physics #5",
@@ -1295,6 +1365,13 @@
    ],
    "videos": [
     {
+     "id": "RBKL02gTleE",
+     "title": "Forze fondamentali (Dario Polli)",
+     "channel": "Politecnico di Milano",
+     "length": "4:20",
+     "lang": "it"
+    },
+    {
      "id": "Yv3EMq2Dgq8",
      "title": "Strong Interaction: The Four Fundamental Forces of Physics #1a",
      "channel": "SciShow",
@@ -1400,6 +1477,13 @@
     }
    ],
    "videos": [
+    {
+     "id": "-4WUq2vNpeA",
+     "title": "Attrito statico e dinamico (Dario Polli)",
+     "channel": "Politecnico di Milano",
+     "length": "11:03",
+     "lang": "it"
+    },
     {
      "id": "fo_pmp5rtzo",
      "title": "Friction: Crash Course Physics #6",
@@ -1512,6 +1596,13 @@
     }
    ],
    "videos": [
+    {
+     "id": "sHl3BjN8AM4",
+     "title": "La forza elastica e la legge di Hooke",
+     "channel": "La Fisica Che Ci Piace (Vincenzo Schettini)",
+     "length": "14:24",
+     "lang": "it"
+    },
     {
      "id": "abWi5y6bJ9k",
      "title": "GCSE Physics - Elasticity, Spring Constant & Hooke's Law | Force Extension Graphs (2027/28 exams)",
@@ -1746,6 +1837,13 @@
    ],
    "videos": [
     {
+     "id": "sGzZiC6TKnE",
+     "title": "Moto circolare uniforme e forza centripeta",
+     "channel": "Step by Step · Fisica e Mate",
+     "length": "14:33",
+     "lang": "it"
+    },
+    {
      "id": "bpFK2VCRHUs",
      "title": "Uniform Circular Motion: Crash Course Physics #7",
      "channel": "CrashCourse",
@@ -1779,6 +1877,13 @@
     }
    ],
    "videos": [
+    {
+     "id": "eEC1IbmRKn4",
+     "title": "Isaac Newton: La Legge di gravitazione Universale",
+     "channel": "Politecnico di Milano",
+     "length": "12:18",
+     "lang": "it"
+    },
     {
      "id": "7gf6YpdvtE0",
      "title": "Newtonian Gravity: Crash Course Physics #8",
@@ -1951,6 +2056,13 @@
    ],
    "videos": [
     {
+     "id": "TxYrTPFKzpQ",
+     "title": "La velocità dei satelliti in orbita circolare",
+     "channel": "Didatticamente",
+     "length": "3:06",
+     "lang": "it"
+    },
+    {
      "id": "IC1JQu9xGHQ",
      "title": "How Do Satellites Get & Stay in Orbit?",
      "channel": "SciShow Space",
@@ -2064,6 +2176,13 @@
     }
    ],
    "videos": [
+    {
+     "id": "t1Kcbba04Xs",
+     "title": "Lavoro, potenza, energia cinetica e il suo teorema",
+     "channel": "Step by Step · Fisica e Mate",
+     "length": "11:59",
+     "lang": "it"
+    },
     {
      "id": "nnMirzeTepQ",
      "title": "Work-energy theorem | Work & Energy | Physics | Khan Academy",
@@ -2186,6 +2305,13 @@
    ],
    "videos": [
     {
+     "id": "za-zIW8pp5E",
+     "title": "Forze conservative ed energia potenziale",
+     "channel": "Step by Step · Fisica e Mate",
+     "length": "14:21",
+     "lang": "it"
+    },
+    {
      "id": "1eooA5q9GCs",
      "title": "Potential energy and conservative forces (part 1) | AP Physics | Khan Academy",
      "channel": "Khan Academy",
@@ -2219,6 +2345,13 @@
     }
    ],
    "videos": [
+    {
+     "id": "bo-x2TJasbI",
+     "title": "Nessuno sa cos'è l'energia",
+     "channel": "CURIUSS",
+     "length": "24:03",
+     "lang": "it"
+    },
     {
      "id": "w4QFJb9a8vo",
      "title": "Work, Energy, and Power: Crash Course Physics #9",
@@ -2418,6 +2551,13 @@
    ],
    "videos": [
     {
+     "id": "FASdLBHm5X4",
+     "title": "Lavoro e potenza in fisica",
+     "channel": "La Fisica Che Ci Piace (Vincenzo Schettini)",
+     "length": "8:07",
+     "lang": "it"
+    },
+    {
      "id": "KbrqbW0um0Y",
      "title": "GCSE Physics - Efficiency | Energy & Power (2027/28 exams)",
      "channel": "Cognito",
@@ -2529,6 +2669,13 @@
     }
    ],
    "videos": [
+    {
+     "id": "n7wOJfVxbxc",
+     "title": "Gli urti elastici [lezione di fisica]",
+     "channel": "Fisica Fast",
+     "length": "9:45",
+     "lang": "it"
+    },
     {
      "id": "M2xnGcaaAi4",
      "title": "Elastic and Inelastic Collisions",
@@ -2649,6 +2796,13 @@
    ],
    "videos": [
     {
+     "id": "-i6kVcORQJg",
+     "title": "Quantità di moto e urti - parte I (Dario Polli)",
+     "channel": "Politecnico di Milano",
+     "length": "5:18",
+     "lang": "it"
+    },
+    {
      "id": "Y-QOfc2XqOk",
      "title": "Collisions: Crash Course Physics #10",
      "channel": "CrashCourse",
@@ -2740,6 +2894,13 @@
     }
    ],
    "videos": [
+    {
+     "id": "c7QZNVMWtmY",
+     "title": "Razzi spaziali, come sono fatti e come funzionano da un punto di vista tecnico",
+     "channel": "Geopop",
+     "length": "6:38",
+     "lang": "it"
+    },
     {
      "id": "1yBwWLunlOM",
      "title": "Rockets 101 | National Geographic",
@@ -2862,6 +3023,13 @@
    ],
    "videos": [
     {
+     "id": "N-TUFnpm9Vs",
+     "title": "Il momento di una forza (momento torcente)",
+     "channel": "Fisica Fast",
+     "length": "8:07",
+     "lang": "it"
+    },
+    {
      "id": "9cbF9A6eQNA",
      "title": "Statics: Crash Course Physics #13",
      "channel": "CrashCourse",
@@ -2950,7 +3118,15 @@
      "url": "https://openstax.org/books/college-physics-2e/pages/9-3-stability"
     }
    ],
-   "videos": [],
+   "videos": [
+    {
+     "id": "jqTiostPlO4",
+     "title": "Il baricentro e l'equilibrio dei corpi",
+     "channel": "La Fisica Che Ci Piace (Vincenzo Schettini)",
+     "length": "15:25",
+     "lang": "it"
+    }
+   ],
    "videoQuery": "center of mass stability physics",
    "addedAt": "2026-11-04T00:29:44Z"
   },
@@ -3049,6 +3225,13 @@
     }
    ],
    "videos": [
+    {
+     "id": "h2RBm5cG3Bw",
+     "title": "Le leve: primo, secondo e terzo genere",
+     "channel": "La Fisica Che Ci Piace (Vincenzo Schettini)",
+     "length": "12:22",
+     "lang": "it"
+    },
     {
      "id": "YlYEi0PgG1g",
      "title": "The mighty mathematics of the lever - Andy Peterson and Zack Patterson",
@@ -3159,6 +3342,13 @@
     }
    ],
    "videos": [
+    {
+     "id": "9MX2rY-TAqs",
+     "title": "Corpi rigidi, momento di una forza e momento d'inerzia",
+     "channel": "Step by Step · Fisica e Mate",
+     "length": "9:04",
+     "lang": "it"
+    },
     {
      "id": "o7_zmuBweHI",
      "title": "Rotational kinetic energy | Moments, torque, and angular momentum | Physics | Khan Academy",
@@ -3271,6 +3461,13 @@
    ],
    "videos": [
     {
+     "id": "vkRnuo8GxEo",
+     "title": "Momento angolare e la sua conservazione",
+     "channel": "Step by Step · Fisica e Mate",
+     "length": "7:53",
+     "lang": "it"
+    },
+    {
      "id": "iWSu6U0Ujs8",
      "title": "What IS Angular Momentum?",
      "channel": "minutephysics",
@@ -3373,6 +3570,13 @@
     }
    ],
    "videos": [
+    {
+     "id": "CxYiWPvxIKs",
+     "title": "Stati della materia (Gianlorenzo Bussetti)",
+     "channel": "Politecnico di Milano",
+     "length": "2:56",
+     "lang": "it"
+    },
     {
      "id": "m2P2DdfebiU",
      "title": "GCSE Physics - Density - Equation | How to Calculate Density Experimentally (2027/28 exams)",
@@ -3485,6 +3689,13 @@
     }
    ],
    "videos": [
+    {
+     "id": "Grimh0WFL0U",
+     "title": "Il torchio idraulico e il principio di Pascal",
+     "channel": "La Fisica Che Ci Piace (Vincenzo Schettini)",
+     "length": "8:30",
+     "lang": "it"
+    },
     {
      "id": "DdZnknku8b8",
      "title": "Hydraulics | Forces & Motion | Physics | FuseSchool",
@@ -3605,6 +3816,13 @@
    ],
    "videos": [
     {
+     "id": "qhVlMtPKFk0",
+     "title": "Principio di Archimede (Gianlorenzo Bussetti)",
+     "channel": "Politecnico di Milano",
+     "length": "6:46",
+     "lang": "it"
+    },
+    {
      "id": "b5SqYuWT4-4",
      "title": "Fluids at Rest: Crash Course Physics #14",
      "channel": "CrashCourse",
@@ -3702,6 +3920,13 @@
     }
    ],
    "videos": [
+    {
+     "id": "4xha8vpqOFg",
+     "title": "Videoesperimento: la capillarità",
+     "channel": "HUB Scuola",
+     "length": "2:38",
+     "lang": "it"
+    },
     {
      "id": "P_jQ1B9UwpU",
      "title": "Viscosity, Cohesive and Adhesive Forces, Surface Tension, and Capillary Action",
@@ -3819,6 +4044,13 @@
    ],
    "videos": [
     {
+     "id": "PElFQ-IRP_o",
+     "title": "Principio di Archimede, portata e legge di Bernoulli",
+     "channel": "Step by Step · Fisica e Mate",
+     "length": "6:57",
+     "lang": "it"
+    },
+    {
      "id": "fJefjG3xhW0",
      "title": "Fluids in Motion: Crash Course Physics #15",
      "channel": "CrashCourse",
@@ -3935,6 +4167,13 @@
    ],
    "videos": [
     {
+     "id": "I3IpKEtWqvU",
+     "title": "Il flusso laminare: spiegazione ed esperimento in casa",
+     "channel": "Geopop",
+     "length": "8:02",
+     "lang": "it"
+    },
+    {
      "id": "9A-uUG0WR0w",
      "title": "Understanding Laminar and Turbulent Flow",
      "channel": "The Efficient Engineer",
@@ -4036,6 +4275,13 @@
     }
    ],
    "videos": [
+    {
+     "id": "6SzBmdX9Fxo",
+     "title": "Diffusione (Caterina Vozzi)",
+     "channel": "Politecnico di Milano",
+     "length": "2:36",
+     "lang": "it"
+    },
     {
      "id": "PRi6uHDKeW4",
      "title": "Transport in Cells: Diffusion and Osmosis | Cells | Biology | FuseSchool",
@@ -4158,6 +4404,13 @@
    ],
    "videos": [
     {
+     "id": "GodKRY9-IBc",
+     "title": "Temperatura e dilatazione termica (Gianlorenzo Bussetti)",
+     "channel": "Politecnico di Milano",
+     "length": "4:09",
+     "lang": "it"
+    },
+    {
      "id": "6BHbJ_gBOk0",
      "title": "Temperature: Crash Course Physics #20",
      "channel": "CrashCourse",
@@ -4269,6 +4522,13 @@
     }
    ],
    "videos": [
+    {
+     "id": "aIgCUcT9veQ",
+     "title": "I gas perfetti: equazione di stato, Boyle e Gay-Lussac",
+     "channel": "Step by Step · Fisica e Mate",
+     "length": "9:11",
+     "lang": "it"
+    },
     {
      "id": "robEY-idcLU",
      "title": "Kinetic Molecular Theory and the Ideal Gas Laws",
@@ -4386,6 +4646,13 @@
    ],
    "videos": [
     {
+     "id": "eEUnlGjRSbc",
+     "title": "Cambiamenti di stato e calore latente",
+     "channel": "Step by Step · Fisica e Mate",
+     "length": "12:34",
+     "lang": "it"
+    },
+    {
      "id": "oc0ypeDELb0",
      "title": "Phase Changes, Heats of Fusion and Vaporization, and Phase Diagrams",
      "channel": "Professor Dave Explains",
@@ -4492,6 +4759,13 @@
     }
    ],
    "videos": [
+    {
+     "id": "zErbGk5m70Q",
+     "title": "Calore, capacità termica e calore specifico",
+     "channel": "Step by Step · Fisica e Mate",
+     "length": "8:14",
+     "lang": "it"
+    },
     {
      "id": "LUHGFLR2p8k",
      "title": "GCSE Physics - Specific Heat Capacity | Internal Energy & Temperature (2027/28 exams)",
@@ -4733,6 +5007,13 @@
    ],
    "videos": [
     {
+     "id": "UC3BAgG2eC4",
+     "title": "Primo principio della termodinamica (Gianlorenzo Bussetti)",
+     "channel": "Politecnico di Milano",
+     "length": "10:37",
+     "lang": "it"
+    },
+    {
      "id": "fSEFfWf2au0",
      "title": "The First & Zeroth Laws of Thermodynamics: Crash Course Engineering #9",
      "channel": "CrashCourse",
@@ -4848,6 +5129,13 @@
    ],
    "videos": [
     {
+     "id": "kxnFOQkFJlg",
+     "title": "Secondo principio della termodinamica e macchine termiche",
+     "channel": "Step by Step · Fisica e Mate",
+     "length": "12:20",
+     "lang": "it"
+    },
+    {
      "id": "iZOXW5aaCZg",
      "title": "Heat Engines, Refrigerators, & Cycles: Crash Course Engineering #11",
      "channel": "CrashCourse",
@@ -4957,6 +5245,13 @@
     }
    ],
    "videos": [
+    {
+     "id": "C40Yjb6Xodc",
+     "title": "Cos'è l'entropia?",
+     "channel": "Amedeo Balbi",
+     "length": "13:28",
+     "lang": "it"
+    },
     {
      "id": "YM-uykVfq_E",
      "title": "What is entropy?",
@@ -5165,6 +5460,13 @@
    ],
    "videos": [
     {
+     "id": "XdwGgO8c3LA",
+     "title": "Moto del pendolo e moto armonico",
+     "channel": "Valerio Pattaro",
+     "length": "3:56",
+     "lang": "it"
+    },
+    {
      "id": "jxstE6A_CYQ",
      "title": "Simple Harmonic Motion: Crash Course Physics #16",
      "channel": "CrashCourse",
@@ -5286,6 +5588,13 @@
    ],
    "videos": [
     {
+     "id": "S1mYouxG1Gs",
+     "title": "L'incantesimo della risonanza",
+     "channel": "CURIUSS",
+     "length": "33:33",
+     "lang": "it"
+    },
+    {
      "id": "vLaFAKnaRJU",
      "title": "Understanding Vibration and Resonance",
      "channel": "The Efficient Engineer",
@@ -5325,6 +5634,13 @@
     }
    ],
    "videos": [
+    {
+     "id": "usxhbSRdE-A",
+     "title": "Le onde: longitudinali e trasversali, periodo e frequenza",
+     "channel": "La Fisica Che Ci Piace (Vincenzo Schettini)",
+     "length": "21:01",
+     "lang": "it"
+    },
     {
      "id": "TfYCnOvNnFU",
      "title": "Traveling Waves: Crash Course Physics #17",
@@ -5524,6 +5840,13 @@
    ],
    "videos": [
     {
+     "id": "80pzsqMJiUA",
+     "title": "Il suono",
+     "channel": "HUB Scuola",
+     "length": "2:59",
+     "lang": "it"
+    },
+    {
      "id": "s9wZkP64rAc",
      "title": "GCSE Physics - Sound Waves and Hearing",
      "channel": "Cognito",
@@ -5623,6 +5946,13 @@
    ],
    "videos": [
     {
+     "id": "pukYLMr8U00",
+     "title": "La fisica del boom sonico",
+     "channel": "Geopop",
+     "length": "7:16",
+     "lang": "it"
+    },
+    {
      "id": "JO4_VHM69oI",
      "title": "The sonic boom problem - Katerina Kaouri",
      "channel": "TED-Ed",
@@ -5718,6 +6048,13 @@
     }
    ],
    "videos": [
+    {
+     "id": "VCyXBYSSz14",
+     "title": "Onde Stazionarie",
+     "channel": "Valerio Pattaro",
+     "length": "8:46",
+     "lang": "it"
+    },
     {
      "id": "0Rfushlee0U",
      "title": "Standing Waves and Harmonics",
@@ -5820,6 +6157,13 @@
     }
    ],
    "videos": [
+    {
+     "id": "7D9I7lMO5ls",
+     "title": "L'ecografia | Fisica e medicina",
+     "channel": "INFN (Istituto Nazionale di Fisica Nucleare)",
+     "length": "4:43",
+     "lang": "it"
+    },
     {
      "id": "4JLNb8-LOB0",
      "title": "How to see with sound - Jacques S. Abramowicz",
@@ -5937,6 +6281,13 @@
     }
    ],
    "videos": [
+    {
+     "id": "89zBQe3d4dc",
+     "title": "Carica elettrica e forza di Coulomb (Davide Contini)",
+     "channel": "Politecnico di Milano",
+     "length": "5:04",
+     "lang": "it"
+    },
     {
      "id": "TFlVWf8JX4A",
      "title": "Electric Charge: Crash Course Physics #25",
@@ -6063,6 +6414,13 @@
    ],
    "videos": [
     {
+     "id": "w5IXt9rulFs",
+     "title": "Campo elettrico (Davide Contini)",
+     "channel": "Politecnico di Milano",
+     "length": "5:10",
+     "lang": "it"
+    },
+    {
      "id": "mdulzEfQXDE",
      "title": "Electric Fields: Crash Course Physics #26",
      "channel": "CrashCourse",
@@ -6183,6 +6541,13 @@
    ],
    "videos": [
     {
+     "id": "j4_ddCaDngc",
+     "title": "Potenziale elettrico (Davide Contini)",
+     "channel": "Politecnico di Milano",
+     "length": "7:14",
+     "lang": "it"
+    },
+    {
      "id": "ZrMltpK6iAw",
      "title": "Voltage, Electric Energy, and Capacitors: Crash Course Physics #27",
      "channel": "CrashCourse",
@@ -6295,6 +6660,13 @@
     }
    ],
    "videos": [
+    {
+     "id": "2KQ7GJo1nio",
+     "title": "Superfici equipotenziali, condensatori e capacità",
+     "channel": "Step by Step · Fisica e Mate",
+     "length": "14:43",
+     "lang": "it"
+    },
     {
      "id": "ZrMltpK6iAw",
      "title": "Voltage, Electric Energy, and Capacitors: Crash Course Physics #27",
@@ -6410,6 +6782,13 @@
    ],
    "videos": [
     {
+     "id": "cj2gHOOT2BY",
+     "title": "Effetto Joule e potenza elettrica",
+     "channel": "La Fisica Che Ci Piace (Vincenzo Schettini)",
+     "length": "10:45",
+     "lang": "it"
+    },
+    {
      "id": "BbizKa6eywo",
      "title": "GCSE Physics - Voltage, Current & Resistance | V = IR Equation | IV Graphs (2027/28 exams)",
      "channel": "Cognito",
@@ -6449,6 +6828,13 @@
     }
    ],
    "videos": [
+    {
+     "id": "sydnx27L8KM",
+     "title": "Corrente, circuiti e generatori",
+     "channel": "Step by Step · Fisica e Mate",
+     "length": "11:03",
+     "lang": "it"
+    },
     {
      "id": "HXOok3mfMLM",
      "title": "Electric Current: Crash Course Physics #28",
@@ -6638,6 +7024,13 @@
    ],
    "videos": [
     {
+     "id": "-Lx6fzarxXs",
+     "title": "Edison contro Tesla: corrente continua e alternata",
+     "channel": "Didatticamente",
+     "length": "14:50",
+     "lang": "it"
+    },
+    {
      "id": "B1XiX3sNV-c",
      "title": "GCSE Physics - Alternating Current & Direct Current | AC & DC (2027/28 exams)",
      "channel": "Cognito",
@@ -6745,6 +7138,13 @@
     }
    ],
    "videos": [
+    {
+     "id": "MmIoeccVFHc",
+     "title": "Perché \"salta la luce\": come funzionano le protezioni elettriche",
+     "channel": "Geopop",
+     "length": "5:40",
+     "lang": "it"
+    },
     {
      "id": "oa6rvUJlg7o",
      "title": "Action Potential in the Neuron",
@@ -6854,6 +7254,13 @@
     }
    ],
    "videos": [
+    {
+     "id": "nLIZLJE6lJM",
+     "title": "Resistenze in serie e in parallelo - Risoluzione di circuiti",
+     "channel": "Valerio Pattaro",
+     "length": "8:26",
+     "lang": "it"
+    },
     {
      "id": "-w-VTw0tQlE",
      "title": "Circuit Analysis: Crash Course Physics #30",
@@ -6981,6 +7388,13 @@
    ],
    "videos": [
     {
+     "id": "XXOOr-6W0JY",
+     "title": "Le leggi di Kirchhoff e l'effetto Joule",
+     "channel": "Step by Step · Fisica e Mate",
+     "length": "9:01",
+     "lang": "it"
+    },
+    {
      "id": "vuCJP_5KOlI",
      "title": "Capacitors and Kirchhoff: Crash Course Physics #31",
      "channel": "CrashCourse",
@@ -7090,6 +7504,13 @@
     }
    ],
    "videos": [
+    {
+     "id": "9B17H-2xHho",
+     "title": "Materiali magnetici (Davide Contini)",
+     "channel": "Politecnico di Milano",
+     "length": "6:35",
+     "lang": "it"
+    },
     {
      "id": "5fqwJyt4Lus",
      "title": "Ampère's Law: Crash Course Physics #33",
@@ -7209,6 +7630,13 @@
    ],
    "videos": [
     {
+     "id": "i7YmwfExB1A",
+     "title": "Una carica in un campo magnetico: la forza di Lorentz",
+     "channel": "La Fisica Che Ci Piace (Vincenzo Schettini)",
+     "length": "10:08",
+     "lang": "it"
+    },
+    {
      "id": "NnlAI4ZiUrQ",
      "title": "Magnetic force on a charge | Physics | Khan Academy",
      "channel": "Khan Academy",
@@ -7326,6 +7754,13 @@
    ],
    "videos": [
     {
+     "id": "IOckjbDWXH8",
+     "title": "Lezione in classe: il motore elettrico",
+     "channel": "La Fisica Che Ci Piace (Vincenzo Schettini)",
+     "length": "12:27",
+     "lang": "it"
+    },
+    {
      "id": "evWpDrRAyCc",
      "title": "GCSE Physics - How the Electric Motor Works (2026/27 exams)",
      "channel": "Cognito",
@@ -7440,6 +7875,13 @@
     }
    ],
    "videos": [
+    {
+     "id": "1EPfIPkkkDY",
+     "title": "Induzione magnetica e legge di Faraday-Neumann-Lenz",
+     "channel": "Step by Step · Fisica e Mate",
+     "length": "20:20",
+     "lang": "it"
+    },
     {
      "id": "y-569cdIPeM",
      "title": "Eddy currents & their applications (& how to reduce them) | Electromagnetic induction | Khan Academy",
@@ -7669,6 +8111,13 @@
    ],
    "videos": [
     {
+     "id": "dcuxWJ-VSEA",
+     "title": "Il trasformatore",
+     "channel": "Valerio Pattaro",
+     "length": "10:31",
+     "lang": "it"
+    },
+    {
      "id": "7RtBUEZbKmI",
      "title": "GCSE Physics - How Transformers Work (2026/27 exams)",
      "channel": "Cognito",
@@ -7789,6 +8238,13 @@
    ],
    "videos": [
     {
+     "id": "mGU0od34860",
+     "title": "Circuiti in corrente alternata: circuito ohmico, capacitivo, induttivo",
+     "channel": "Francesco Bigolin",
+     "length": "7:21",
+     "lang": "it"
+    },
+    {
      "id": "Jveer7vhjGo",
      "title": "AC Circuits: Crash Course Physics #36",
      "channel": "CrashCourse",
@@ -7893,6 +8349,13 @@
     }
    ],
    "videos": [
+    {
+     "id": "wPq0sr31Xbg",
+     "title": "Equazioni di Maxwell e onde elettromagnetiche",
+     "channel": "Valerio Pattaro",
+     "length": "12:13",
+     "lang": "it"
+    },
     {
      "id": "5yvpsftAZP4",
      "title": "Maxwell’s Equations Part 1: Gauss’s Law for the Electric Field",
@@ -7999,6 +8462,13 @@
     }
    ],
    "videos": [
+    {
+     "id": "TW_Fvp5-DtQ",
+     "title": "Viaggio nello spettro elettromagnetico – Introduzione",
+     "channel": "INAF (Istituto Nazionale di Astrofisica)",
+     "length": "5:25",
+     "lang": "it"
+    },
     {
      "id": "pj_ya0e20vE",
      "title": "What is Light? Maxwell and the Electromagnetic Spectrum",
@@ -8114,6 +8584,13 @@
     }
    ],
    "videos": [
+    {
+     "id": "wPMpEHQmGDc",
+     "title": "Specchi sferici concavi e convessi",
+     "channel": "La Fisica Che Ci Piace (Vincenzo Schettini)",
+     "length": "14:01",
+     "lang": "it"
+    },
     {
      "id": "mjfadOaMySs",
      "title": "Representation of images formed by spherical mirrors using ray diagrams | Physics | Khan Academy",
@@ -8234,6 +8711,13 @@
    ],
    "videos": [
     {
+     "id": "gEa6yWaEVyk",
+     "title": "Riflessione e rifrazione (Caterina Vozzi)",
+     "channel": "Politecnico di Milano",
+     "length": "4:40",
+     "lang": "it"
+    },
+    {
      "id": "Oh4m8Ees-3Q",
      "title": "Geometric Optics: Crash Course Physics #38",
      "channel": "CrashCourse",
@@ -8343,6 +8827,13 @@
    ],
    "videos": [
     {
+     "id": "zBtZsCYLxVs",
+     "title": "La costruzione delle immagini per le lenti",
+     "channel": "HUB Scuola",
+     "length": "3:01",
+     "lang": "it"
+    },
+    {
      "id": "0O3NdG0uWM4",
      "title": "GCSE Physics - How Lenses Work - Convex & Concave Lenses | Real & Virtual Images (2027/28 exams)",
      "channel": "Cognito",
@@ -8444,6 +8935,13 @@
    ],
    "videos": [
     {
+     "id": "Bh3VPVoGsPc",
+     "title": "Fisica dell'occhio",
+     "channel": "Valerio Pattaro",
+     "length": "6:28",
+     "lang": "it"
+    },
+    {
      "id": "XPDVmBg5DeE",
      "title": "How does laser eye surgery work? - Dan Reinstein",
      "channel": "TED-Ed",
@@ -8540,6 +9038,13 @@
     }
    ],
    "videos": [
+    {
+     "id": "TEcdIitjLa0",
+     "title": "La visione dei colori",
+     "channel": "Valerio Pattaro",
+     "length": "9:42",
+     "lang": "it"
+    },
     {
      "id": "l8_fZPHasdo",
      "title": "How we see color - Colm Kelleher",
@@ -8777,6 +9282,13 @@
    ],
    "videos": [
     {
+     "id": "34UHW9tA678",
+     "title": "Interferenza (Caterina Vozzi)",
+     "channel": "Politecnico di Milano",
+     "length": "6:05",
+     "lang": "it"
+    },
+    {
      "id": "uva6gBEpfDY",
      "title": "The Double-Slit Experiment",
      "channel": "Professor Dave Explains",
@@ -8884,6 +9396,13 @@
    ],
    "videos": [
     {
+     "id": "kDJeHzYcwsU",
+     "title": "Diffrazione (Caterina Vozzi)",
+     "channel": "Politecnico di Milano",
+     "length": "7:18",
+     "lang": "it"
+    },
+    {
      "id": "1_FTOuQ0H3w",
      "title": "How do telescopes see many stars where our eyes see only one? | Wave optics | Physics | Khan Academy",
      "channel": "Khan Academy India - English",
@@ -8979,6 +9498,13 @@
     }
    ],
    "videos": [
+    {
+     "id": "t5psPWsFIKk",
+     "title": "Che cos'è la polarizzazione della luce?",
+     "channel": "Zanichelli editore",
+     "length": "7:23",
+     "lang": "it"
+    },
     {
      "id": "eGJvcBFkHzg",
      "title": "Why do soap bubbles appear colourful? | Wave optics | Physics | Khan Academy",
@@ -9092,6 +9618,13 @@
    ],
    "videos": [
     {
+     "id": "NjRj6txsbs4",
+     "title": "Capiamo la relatività ristretta: perché il tempo rallenta se mi muovo",
+     "channel": "Pepite di Scienza",
+     "length": "25:14",
+     "lang": "it"
+    },
+    {
      "id": "FPzGAksFCbs",
      "title": "Special Relativity Part 3: Length Contraction",
      "channel": "Professor Dave Explains",
@@ -9131,6 +9664,13 @@
     }
    ],
    "videos": [
+    {
+     "id": "PI2wR84IgEs",
+     "title": "La teoria della relatività ristretta",
+     "channel": "Amedeo Balbi",
+     "length": "8:37",
+     "lang": "it"
+    },
     {
      "id": "AInCqm5nCzw",
      "title": "Special Relativity: Crash Course Physics #42",
@@ -9320,6 +9860,13 @@
    ],
    "videos": [
     {
+     "id": "kWmzMksKF9s",
+     "title": "E = mc²: l'equivalenza tra massa ed energia",
+     "channel": "La Fisica Che Ci Piace (Vincenzo Schettini)",
+     "length": "17:56",
+     "lang": "it"
+    },
+    {
      "id": "hW7DW9NIO9M",
      "title": "Einstein's Proof of E=mc²",
      "channel": "minutephysics",
@@ -9434,6 +9981,13 @@
     }
    ],
    "videos": [
+    {
+     "id": "GJUHiBZTVao",
+     "title": "Il corpo nero e la catastrofe ultravioletta",
+     "channel": "La Fisica Che Ci Piace (Vincenzo Schettini)",
+     "length": "10:40",
+     "lang": "it"
+    },
     {
      "id": "7BXvc9W97iU",
      "title": "Quantization of Energy Part 1: Blackbody Radiation and the Ultraviolet Catastrophe",
@@ -9554,6 +10108,13 @@
    ],
    "videos": [
     {
+     "id": "YjlyRiOtCNM",
+     "title": "Effetto fotoelettrico (Caterina Vozzi)",
+     "channel": "Politecnico di Milano",
+     "length": "5:08",
+     "lang": "it"
+    },
+    {
      "id": "7kb1VT0J3DE",
      "title": "Quantum Mechanics - Part 1: Crash Course Physics #43",
      "channel": "CrashCourse",
@@ -9660,6 +10221,13 @@
    ],
    "videos": [
     {
+     "id": "7wwd9F_KP3I",
+     "title": "Il principio di indeterminazione (spiegato con una mongolfiera)",
+     "channel": "CURIUSS",
+     "length": "31:56",
+     "lang": "it"
+    },
+    {
      "id": "TQKELOE9eY4",
      "title": "What is the Heisenberg Uncertainty Principle? - Chad Orzel",
      "channel": "TED-Ed",
@@ -9760,6 +10328,13 @@
     }
    ],
    "videos": [
+    {
+     "id": "Dqqcxv49yo8",
+     "title": "Come è stato scoperto l'elettrone",
+     "channel": "Zanichelli editore",
+     "length": "4:52",
+     "lang": "it"
+    },
     {
      "id": "dNp-vP17asI",
      "title": "Discovery of the Nucleus: Rutherford's Gold Foil Experiment",
@@ -9870,6 +10445,13 @@
    ],
    "videos": [
     {
+     "id": "fbYhs-Rxkrk",
+     "title": "La luce e il modello atomico di Bohr",
+     "channel": "Antonio Loiacono",
+     "length": "8:19",
+     "lang": "it"
+    },
+    {
      "id": "au2HCVn9IJI",
      "title": "Bohr Model of the Hydrogen Atom",
      "channel": "Professor Dave Explains",
@@ -9963,6 +10545,13 @@
     }
    ],
    "videos": [
+    {
+     "id": "-4iCCnSPioQ",
+     "title": "Viaggio nello spettro elettromagnetico - I raggi X",
+     "channel": "INAF (Istituto Nazionale di Astrofisica)",
+     "length": "3:14",
+     "lang": "it"
+    },
     {
      "id": "y3SBSbsdiYg",
      "title": "How lasers work (in theory)",
@@ -10064,6 +10653,13 @@
     }
    ],
    "videos": [
+    {
+     "id": "V7K8TtqcJf4",
+     "title": "Il principio di esclusione di Pauli",
+     "channel": "Gabriele Ghisellini",
+     "length": "13:25",
+     "lang": "it"
+    },
     {
      "id": "Aoi4j8es4gQ",
      "title": "Quantum Numbers, Atomic Orbitals, and Electron Configurations",
@@ -10179,6 +10775,13 @@
     }
    ],
    "videos": [
+    {
+     "id": "ntuMnww6raA",
+     "title": "Il decadimento radioattivo",
+     "channel": "CURIUSS",
+     "length": "21:47",
+     "lang": "it"
+    },
     {
      "id": "lUhJL7o6_cA",
      "title": "Nuclear Physics: Crash Course Physics #45",
@@ -10302,6 +10905,13 @@
    ],
    "videos": [
     {
+     "id": "p01_Z8Cbxvg",
+     "title": "Fissione e fusione liberano energia: il segreto è l'energia di legame",
+     "channel": "Pepite di Scienza",
+     "length": "3:18",
+     "lang": "it"
+    },
+    {
      "id": "c3nGE8Z3-lo",
      "title": "The Strong Nuclear Force",
      "channel": "Fermilab",
@@ -10419,6 +11029,13 @@
    ],
    "videos": [
     {
+     "id": "T_UZbFppIqg",
+     "title": "Cos'è la medicina nucleare: il lato positivo della radioattività",
+     "channel": "Pepite di Scienza",
+     "length": "15:40",
+     "lang": "it"
+    },
+    {
      "id": "qlvKhMJibPY",
      "title": "GCSE Physics - Using Radiation in Medicine - Radiotherapy | Medical Tracers (2027/28 exams)",
      "channel": "Cognito",
@@ -10526,6 +11143,13 @@
     }
    ],
    "videos": [
+    {
+     "id": "kpu-dp588l4",
+     "title": "Fusione e fissione nucleare: sono verdi, pulite e sostenibili?",
+     "channel": "Pepite di Scienza",
+     "length": "11:54",
+     "lang": "it"
+    },
     {
      "id": "fES21E0qebw",
      "title": "Nuclear Reactions, Radioactivity, Fission and Fusion",
@@ -10637,6 +11261,13 @@
    ],
    "videos": [
     {
+     "id": "GPYSRkXr5o4",
+     "title": "Il CERN di Ginevra: cosa si fa in un laboratorio di particelle",
+     "channel": "Geopop",
+     "length": "7:51",
+     "lang": "it"
+    },
+    {
      "id": "euaPmKtjfR8",
      "title": "How does the Large Hadron Collider Work? | Colossal Machines | National Geographic UK",
      "channel": "National Geographic UK",
@@ -10737,6 +11368,13 @@
     }
    ],
    "videos": [
+    {
+     "id": "Y3ta30LwC8I",
+     "title": "Il modello standard, uno dei più grandi traguardi dell'intelletto umano",
+     "channel": "Random Physics",
+     "length": "16:53",
+     "lang": "it"
+    },
     {
      "id": "LraNu_78sCw",
      "title": "Quarks Explained in Four Minutes - Physics Girl",
@@ -10848,6 +11486,13 @@
    ],
    "videos": [
     {
+     "id": "Y5UBZc6I84g",
+     "title": "L'energia del vuoto: uno dei più grandi enigmi della fisica moderna",
+     "channel": "Amedeo Balbi",
+     "length": "11:00",
+     "lang": "it"
+    },
+    {
      "id": "Da-2h2B4faU",
      "title": "String Theory Explained – What is The True Nature of Reality?",
      "channel": "Kurzgesagt – In a Nutshell",
@@ -10956,6 +11601,13 @@
    ],
    "videos": [
     {
+     "id": "-M9zsO8PVPw",
+     "title": "I superconduttori",
+     "channel": "Valerio Pattaro",
+     "length": "8:09",
+     "lang": "it"
+    },
+    {
      "id": "r_ahZOgPTsk",
      "title": "A simple guide to chaos theory - BBC World Service",
      "channel": "BBC World Service",
@@ -11059,6 +11711,13 @@
    ],
    "videos": [
     {
+     "id": "ivQngFm4uUQ",
+     "title": "La prima lezione di Psicologia generale (Università Ca' Foscari)",
+     "channel": "Università Ca' Foscari Venezia",
+     "length": "51:52",
+     "lang": "it"
+    },
+    {
      "id": "vo4pMVb0R6M",
      "title": "Intro to Psychology: Crash Course Psychology #1",
      "channel": "CrashCourse",
@@ -11150,6 +11809,13 @@
     }
    ],
    "videos": [
+    {
+     "id": "DhAfWhoIMh4",
+     "title": "Wundt e la nascita della psicologia: strutturalismo e funzionalismo",
+     "channel": "Laura Pirotta",
+     "length": "6:25",
+     "lang": "it"
+    },
     {
      "id": "_qqwq8EmTY4",
      "title": "A Brief History of Psychology: From Plato to Pavlov",
@@ -11341,6 +12007,13 @@
     }
    ],
    "videos": [
+    {
+     "id": "74TJ2e7MLwE",
+     "title": "Perché il tuo cervello ti inganna: Correlazione vs Causalità",
+     "channel": "Sprouts Italia",
+     "length": "4:50",
+     "lang": "it"
+    },
     {
      "id": "ofweqU0Lz4I",
      "title": "Correlation vs Causation Explained: Why Patterns Can Mislead Us",
@@ -11569,6 +12242,13 @@
    ],
    "videos": [
     {
+     "id": "1_ZyfIBil-Y",
+     "title": "Come comunica il cervello: il viaggio dentro la rete dei neuroni",
+     "channel": "Geopop",
+     "length": "10:35",
+     "lang": "it"
+    },
+    {
      "id": "W4N-7AlzK7s",
      "title": "The Chemical Mind: Crash Course Psychology #3",
      "channel": "CrashCourse",
@@ -11743,6 +12423,13 @@
    ],
    "videos": [
     {
+     "id": "emtxq9gPJ0M",
+     "title": "Il sistema nervoso (riassunto)",
+     "channel": "La Biologia per tutti",
+     "length": "38:18",
+     "lang": "it"
+    },
+    {
      "id": "DPWEhl7gbu4",
      "title": "The Autonomic Nervous System: Sympathetic and Parasympathetic Divisions",
      "channel": "Professor Dave Explains",
@@ -11839,6 +12526,13 @@
    ],
    "videos": [
     {
+     "id": "tMLbz_haLBY",
+     "title": "La corteccia cerebrale",
+     "channel": "Laura Pirotta",
+     "length": "8:46",
+     "lang": "it"
+    },
+    {
      "id": "vHrmiy4W9C0",
      "title": "Meet Your Master - Getting to Know Your Brain: Crash Course Psychology #4",
      "channel": "CrashCourse",
@@ -11928,6 +12622,13 @@
     }
    ],
    "videos": [
+    {
+     "id": "H24GJOLXz1A",
+     "title": "Il sistema endocrino",
+     "channel": "La Biologia per tutti",
+     "length": "29:10",
+     "lang": "it"
+    },
     {
      "id": "eWHH9je2zG4",
      "title": "Endocrine System, Part 1 - Glands & Hormones: Crash Course Anatomy & Physiology #23",
@@ -12026,6 +12727,13 @@
    ],
    "videos": [
     {
+     "id": "MP9PXfc2dLo",
+     "title": "La coscienza",
+     "channel": "Laura Pirotta",
+     "length": "3:31",
+     "lang": "it"
+    },
+    {
      "id": "jReX7qKU2yc",
      "title": "Consciousness: Crash Course Psychology #8",
      "channel": "CrashCourse",
@@ -12070,6 +12778,13 @@
     }
    ],
    "videos": [
+    {
+     "id": "ddHHHndH-6c",
+     "title": "Cosa accade nel nostro cervello quando sogniamo?",
+     "channel": "Geopop",
+     "length": "10:29",
+     "lang": "it"
+    },
     {
      "id": "rMHus-0wFSo",
      "title": "To Sleep, Perchance to Dream: Crash Course Psychology #9",
@@ -12245,6 +12960,13 @@
     }
    ],
    "videos": [
+    {
+     "id": "GStCoctQ8RU",
+     "title": "Perché non dormiamo più: cosa sta succedendo al nostro sonno",
+     "channel": "Geopop",
+     "length": "14:01",
+     "lang": "it"
+    },
     {
      "id": "j5Sl8LyI7k8",
      "title": "What causes insomnia? - Dan Kwartler",
@@ -12432,7 +13154,15 @@
      "url": "https://openstax.org/books/psychology-2e/pages/4-6-other-states-of-consciousness"
     }
    ],
-   "videos": [],
+   "videos": [
+    {
+     "id": "N12-k53u3KE",
+     "title": "Gli effetti della meditazione su corpo e mente",
+     "channel": "Dott. Valerio Rosso",
+     "length": "13:55",
+     "lang": "it"
+    }
+   ],
    "videoQuery": "hypnosis meditation brain",
    "addedAt": "2026-11-04T00:51:16Z"
   },
@@ -12465,6 +13195,13 @@
     }
    ],
    "videos": [
+    {
+     "id": "jZERYMc4AHA",
+     "title": "Sensazione e percezione (psicologia generale)",
+     "channel": "Laura Pirotta",
+     "length": "5:51",
+     "lang": "it"
+    },
     {
      "id": "unWnZvXJH2o",
      "title": "Sensation and Perception: Crash Course Psychology #5",
@@ -12638,6 +13375,13 @@
    ],
    "videos": [
     {
+     "id": "alpkxB0thtk",
+     "title": "La vista e l'occhio",
+     "channel": "La Biologia per tutti",
+     "length": "25:36",
+     "lang": "it"
+    },
+    {
      "id": "o0DYP-u1rNM",
      "title": "Vision: Crash Course Anatomy & Physiology #18",
      "channel": "CrashCourse",
@@ -12727,6 +13471,13 @@
     }
    ],
    "videos": [
+    {
+     "id": "2gSucLv8A3k",
+     "title": "L'udito e l'orecchio",
+     "channel": "La Biologia per tutti",
+     "length": "18:01",
+     "lang": "it"
+    },
     {
      "id": "r-c5GpoD8wI",
      "title": "How your ear works - Inside the Human Body: Building Your Brain - BBC",
@@ -12824,6 +13575,13 @@
     }
    ],
    "videos": [
+    {
+     "id": "0pkLw3ZeN14",
+     "title": "L'olfatto",
+     "channel": "La Biologia per tutti",
+     "length": "16:01",
+     "lang": "it"
+    },
     {
      "id": "mFm3yA1nslE",
      "title": "Taste & Smell: Crash Course Anatomy & Physiology #16",
@@ -12938,6 +13696,13 @@
     }
    ],
    "videos": [
+    {
+     "id": "RRGfCrRr9gk",
+     "title": "Il condizionamento operante di Skinner",
+     "channel": "Sprouts Italia",
+     "length": "4:15",
+     "lang": "it"
+    },
     {
      "id": "qG2SwE_6uVM",
      "title": "How to Train a Brain: Crash Course Psychology #11",
@@ -13202,6 +13967,13 @@
    ],
    "videos": [
     {
+     "id": "tnSbP-H1bdY",
+     "title": "Vygotskij e Piaget: lo sviluppo del linguaggio",
+     "channel": "Alessandro Fanello",
+     "length": "10:05",
+     "lang": "it"
+    },
+    {
      "id": "s9shPouRWCs",
      "title": "Language: Crash Course Psychology #16",
      "channel": "CrashCourse",
@@ -13241,6 +14013,13 @@
     }
    ],
    "videos": [
+    {
+     "id": "lZZI9-LyLeI",
+     "title": "Euristiche cognitive: cosa sono e perché generano i bias",
+     "channel": "Laura Pirotta",
+     "length": "10:47",
+     "lang": "it"
+    },
     {
      "id": "R-sVnmmw6WY",
      "title": "Cognition - How Your Mind Can Amaze and Betray You: Crash Course Psychology #15",
@@ -13434,6 +14213,13 @@
    ],
    "videos": [
     {
+     "id": "jGYM-8VZGyE",
+     "title": "I 9 Tipi di Intelligenza di Gardner",
+     "channel": "Sprouts Italia",
+     "length": "4:50",
+     "lang": "it"
+    },
+    {
      "id": "9xTz3QjcloI",
      "title": "Controversy of Intelligence: Crash Course Psychology #23",
      "channel": "CrashCourse",
@@ -13483,6 +14269,13 @@
     }
    ],
    "videos": [
+    {
+     "id": "K8MxnOwm7h0",
+     "title": "Giorgio Vallortigara: il cervello, la memoria e l'apprendimento",
+     "channel": "Università di Udine",
+     "length": "29:17",
+     "lang": "it"
+    },
     {
      "id": "bSycdIx-C48",
      "title": "How We Make Memories: Crash Course Psychology #13",
@@ -13651,6 +14444,13 @@
    ],
    "videos": [
     {
+     "id": "hbEK_zGt_mA",
+     "title": "Come creiamo e conserviamo i ricordi",
+     "channel": "Sprouts Italia",
+     "length": "6:16",
+     "lang": "it"
+    },
+    {
      "id": "KkaXNvzE4pk",
      "title": "What happens when you remove the hippocampus? - Sam Kean",
      "channel": "TED-Ed",
@@ -13763,6 +14563,13 @@
    ],
    "videos": [
     {
+     "id": "lKOC_w7hQEs",
+     "title": "La teoria di Piaget",
+     "channel": "Sprouts Italia",
+     "length": "7:04",
+     "lang": "it"
+    },
+    {
      "id": "8nz2dtv--ok",
      "title": "The Growth of Knowledge: Crash Course Psychology #18",
      "channel": "CrashCourse",
@@ -13865,6 +14672,13 @@
    ],
    "videos": [
     {
+     "id": "OszvG-oJnUs",
+     "title": "Erikson e lo sviluppo psicosociale",
+     "channel": "Alessandro Fanello",
+     "length": "9:00",
+     "lang": "it"
+    },
+    {
      "id": "WjOowWxOXCg",
      "title": "The Attachment Theory: How Childhood Affects Life",
      "channel": "Sprouts",
@@ -13961,6 +14775,13 @@
     }
    ],
    "videos": [
+    {
+     "id": "BgDlOaFJelA",
+     "title": "Le 5 fasi del lutto",
+     "channel": "Sprouts Italia",
+     "length": "3:43",
+     "lang": "it"
+    },
     {
      "id": "Zk7pOnUPL74",
      "title": "The 5 Stages of Grief",
@@ -14073,6 +14894,13 @@
     }
    ],
    "videos": [
+    {
+     "id": "ogR4vo2feM0",
+     "title": "Motivazione intrinseca ed estrinseca",
+     "channel": "Alessandro Fanello",
+     "length": "5:15",
+     "lang": "it"
+    },
     {
      "id": "9hdSLiHaJz8",
      "title": "The Power of Motivation: Crash Course Psychology #17",
@@ -14290,6 +15118,13 @@
    ],
    "videos": [
     {
+     "id": "14e_RxF4mO8",
+     "title": "Il sistema limbico e le emozioni",
+     "channel": "Laura Pirotta",
+     "length": "4:35",
+     "lang": "it"
+    },
+    {
      "id": "gAMbkJk6gnE",
      "title": "Feeling All the Feels: Crash Course Psychology #25",
      "channel": "CrashCourse",
@@ -14461,6 +15296,13 @@
     }
    ],
    "videos": [
+    {
+     "id": "7q8S_E6Wbqc",
+     "title": "La teoria di Freud",
+     "channel": "Sprouts Italia",
+     "length": "8:32",
+     "lang": "it"
+    },
     {
      "id": "mUELAiHbCxc",
      "title": "Rorschach and Freudians: Crash Course Psychology #21",
@@ -14647,6 +15489,13 @@
    ],
    "videos": [
     {
+     "id": "12G604OOwS0",
+     "title": "Maslow: psicologia umanistica, piramide dei bisogni e aspetti pedagogici",
+     "channel": "Alessandro Fanello",
+     "length": "12:16",
+     "lang": "it"
+    },
+    {
      "id": "3vs-CEYtmc4",
      "title": "Psychology - Humanistic Psychology",
      "channel": "Cognito",
@@ -14749,6 +15598,13 @@
     }
    ],
    "videos": [
+    {
+     "id": "HD_bCill-vU",
+     "title": "Quali differenze ci sono tra Temperamento, Carattere e Personalità?",
+     "channel": "Dott. Valerio Rosso",
+     "length": "5:07",
+     "lang": "it"
+    },
     {
      "id": "qYvXk_bqlBk",
      "title": "Who are you, really? The puzzle of personality | Brian Little | TED",
@@ -14864,6 +15720,13 @@
    ],
    "videos": [
     {
+     "id": "nP2lfOEb2CU",
+     "title": "Teoria della personalità: i Big Five",
+     "channel": "Sprouts Italia",
+     "length": "5:41",
+     "lang": "it"
+    },
+    {
      "id": "sUrV6oZ3zsk",
      "title": "Measuring Personality: Crash Course Psychology #22",
      "channel": "CrashCourse",
@@ -14958,7 +15821,15 @@
      "url": "https://openstax.org/books/psychology-2e/pages/12-1-what-is-social-psychology"
     }
    ],
-   "videos": [],
+   "videos": [
+    {
+     "id": "Pp32MorOmGQ",
+     "title": "Attribuzione e locus of control",
+     "channel": "Alessandro Fanello",
+     "length": "5:16",
+     "lang": "it"
+    }
+   ],
    "videoQuery": "fundamental attribution error",
    "addedAt": "2026-11-04T00:56:16Z"
   },
@@ -15042,6 +15913,13 @@
     }
    ],
    "videos": [
+    {
+     "id": "FspdUAXRfXE",
+     "title": "Zimbardo: l'esperimento sociale nel carcere di Stanford",
+     "channel": "Alessandro Fanello",
+     "length": "8:18",
+     "lang": "it"
+    },
     {
      "id": "qK8UvDgV0Q8",
      "title": "Psychology - Social Roles",
@@ -15134,6 +16012,13 @@
    ],
    "videos": [
     {
+     "id": "zLB4oEMZoR8",
+     "title": "Festinger e la dissonanza cognitiva",
+     "channel": "Perussia Academy",
+     "length": "3:46",
+     "lang": "it"
+    },
+    {
      "id": "GxAu7BTZQRY",
      "title": "Cognitive Dissonance: Your Response to Conflicting Beliefs",
      "channel": "Sprouts",
@@ -15167,6 +16052,13 @@
     }
    ],
    "videos": [
+    {
+     "id": "iWQzFX160a0",
+     "title": "Obbedienza all’autorità: il sorprendente esperimento di Milgram",
+     "channel": "Sprouts Italia",
+     "length": "5:00",
+     "lang": "it"
+    },
     {
      "id": "UGxGDdQnC1Y",
      "title": "Social Influence: Crash Course Psychology #38",
@@ -15338,6 +16230,13 @@
    ],
    "videos": [
     {
+     "id": "2ICN6sViEHw",
+     "title": "Stereotipi: perché crediamo ai cliché culturali",
+     "channel": "Sprouts Italia",
+     "length": "3:45",
+     "lang": "it"
+    },
+    {
      "id": "7P0iP2Zm6a4",
      "title": "Prejudice and Discrimination: Crash Course Psychology #39",
      "channel": "CrashCourse",
@@ -15435,6 +16334,13 @@
    ],
    "videos": [
     {
+     "id": "vbygJnJnRUg",
+     "title": "Kitty Genovese e l'effetto spettatore",
+     "channel": "Alessandro Fanello",
+     "length": "6:00",
+     "lang": "it"
+    },
+    {
      "id": "XoTx7Rt4dig",
      "title": "Aggression vs. Altruism: Crash Course Psychology #40",
      "channel": "CrashCourse",
@@ -15530,6 +16436,13 @@
     }
    ],
    "videos": [
+    {
+     "id": "4XW1t5HgAA0",
+     "title": "Sternberg: la teoria triangolare dell'amore",
+     "channel": "Alessandro Fanello",
+     "length": "4:50",
+     "lang": "it"
+    },
     {
      "id": "uq-6T6TAu74",
      "title": "Why some people are more altruistic than others | Abigail Marsh",
@@ -15727,7 +16640,15 @@
      "url": "https://openstax.org/books/psychology-2e/pages/13-4-human-factors-psychology-and-workplace-design"
     }
    ],
-   "videos": [],
+   "videos": [
+    {
+     "id": "tywMycefDw8",
+     "title": "La sindrome da burnout: cos'è e perché è diversa dallo stress",
+     "channel": "Geopop",
+     "length": "8:12",
+     "lang": "it"
+    }
+   ],
    "videoQuery": "human factors psychology workplace",
    "addedAt": "2026-11-04T06:14:13Z"
   },
@@ -15830,6 +16751,13 @@
     }
    ],
    "videos": [
+    {
+     "id": "WfCJQzlSuIw",
+     "title": "Cosa succede nel nostro corpo quando siamo stressati?",
+     "channel": "Geopop",
+     "length": "14:24",
+     "lang": "it"
+    },
     {
      "id": "4KbSRXP0wik",
      "title": "Emotion, Stress, and Health: Crash Course Psychology #26",
@@ -16035,6 +16963,13 @@
    ],
    "videos": [
     {
+     "id": "hHdi6d7qpiE",
+     "title": "La scienza della felicità (SuperQuark)",
+     "channel": "Rai · SuperQuark",
+     "length": "8:26",
+     "lang": "it"
+    },
+    {
      "id": "8KkKuTCFvzI",
      "title": "What Makes a Good Life? Lessons from the Longest Study on Happiness",
      "channel": "TED",
@@ -16239,6 +17174,13 @@
    ],
    "videos": [
     {
+     "id": "cxbS-xHacvg",
+     "title": "Disturbo d'Ansia Generalizzata, definizione e trattamento",
+     "channel": "Dott. Valerio Rosso",
+     "length": "11:02",
+     "lang": "it"
+    },
+    {
      "id": "aX7jnVXXG5o",
      "title": "OCD and Anxiety Disorders: Crash Course Psychology #29",
      "channel": "CrashCourse",
@@ -16329,6 +17271,13 @@
     }
    ],
    "videos": [
+    {
+     "id": "S9T1LPbQzXI",
+     "title": "Il Disturbo Ossessivo Compulsivo (DOC), spiegato bene da uno psichiatra",
+     "channel": "Dott. Valerio Rosso",
+     "length": "8:26",
+     "lang": "it"
+    },
     {
      "id": "-Zg6PEJHRoo",
      "title": "OCD: Signs & Symptoms of Obsessive Compulsive Disorder | Stanford",
@@ -16427,6 +17376,13 @@
    ],
    "videos": [
     {
+     "id": "pmh-Zirkwrk",
+     "title": "Il Disturbo da Stress Post Traumatico, spiegato da uno psichiatra",
+     "channel": "Dott. Valerio Rosso",
+     "length": "6:29",
+     "lang": "it"
+    },
+    {
      "id": "343ORgL3kIc",
      "title": "Trauma and Addiction: Crash Course Psychology #31",
      "channel": "CrashCourse",
@@ -16523,6 +17479,13 @@
    ],
    "videos": [
     {
+     "id": "PH0HCTOCxP4",
+     "title": "Come distinguere la Depressione Maggiore dalla Depressione Bipolare?",
+     "channel": "Dott. Valerio Rosso",
+     "length": "4:36",
+     "lang": "it"
+    },
+    {
      "id": "ZwMlHkWKDwM",
      "title": "Depressive and Bipolar Disorders: Crash Course Psychology #30",
      "channel": "CrashCourse",
@@ -16613,6 +17576,13 @@
     }
    ],
    "videos": [
+    {
+     "id": "cbXXLaiSA9Y",
+     "title": "Che cos'è la Schizofrenia?",
+     "channel": "Dott. Valerio Rosso",
+     "length": "12:18",
+     "lang": "it"
+    },
     {
      "id": "uxktavpRdzU",
      "title": "Schizophrenia and Dissociative Disorders: Crash Course Psychology #32",
@@ -16709,6 +17679,13 @@
     }
    ],
    "videos": [
+    {
+     "id": "sqDpjBRQ_vo",
+     "title": "La Dissociazione ed i Disturbi Dissociativi",
+     "channel": "Dott. Valerio Rosso",
+     "length": "4:59",
+     "lang": "it"
+    },
     {
      "id": "uxktavpRdzU",
      "title": "Schizophrenia and Dissociative Disorders: Crash Course Psychology #32",
@@ -16807,6 +17784,13 @@
    ],
    "videos": [
     {
+     "id": "hEk2G4e6e4w",
+     "title": "Cos'è l'autismo (o disturbo dello spettro autistico)?",
+     "channel": "Stefano Vicari - Neuropsichiatra",
+     "length": "3:32",
+     "lang": "it"
+    },
+    {
      "id": "BgqBS9RBN64",
      "title": "Autism and ADHD: How to Cope With a Dual Diagnosis | Siri Nelson | TEDxUAlberta",
      "channel": "TEDx Talks",
@@ -16898,6 +17882,13 @@
    ],
    "videos": [
     {
+     "id": "h4m0X5BOEus",
+     "title": "Che cosa sono i disturbi di personalità",
+     "channel": "Dott. Valerio Rosso",
+     "length": "15:08",
+     "lang": "it"
+    },
+    {
      "id": "4E1JiDFxFGk",
      "title": "Personality Disorders: Crash Course Psychology #34",
      "channel": "CrashCourse",
@@ -16987,6 +17978,13 @@
     }
    ],
    "videos": [
+    {
+     "id": "d9PiXK4bg6o",
+     "title": "Breve storia della psichiatria",
+     "channel": "Dott. Valerio Rosso",
+     "length": "17:44",
+     "lang": "it"
+    },
     {
      "id": "w3d2DlLX7xw",
      "title": "One of the most controversial medical procedures in history - Jenell Johnson",
@@ -17090,6 +18088,13 @@
    ],
    "videos": [
     {
+     "id": "5IvYTAC439A",
+     "title": "Curare la Depressione, meglio i farmaci o meglio la psicoterapia?",
+     "channel": "Dott. Valerio Rosso",
+     "length": "7:08",
+     "lang": "it"
+    },
+    {
      "id": "6nEL44QkL9w",
      "title": "Getting Help - Psychotherapy: Crash Course Psychology #35",
      "channel": "CrashCourse",
@@ -17185,6 +18190,13 @@
     }
    ],
    "videos": [
+    {
+     "id": "fDjBd5NzQgA",
+     "title": "Che cosa sono le dipendenze",
+     "channel": "Dott. Valerio Rosso",
+     "length": "11:42",
+     "lang": "it"
+    },
     {
      "id": "hBC7i-vHWsU",
      "title": "What causes addiction, and why is it so hard to treat? - Judy Grisel",
@@ -17392,6 +18404,13 @@
    ],
    "videos": [
     {
+     "id": "fvZY7oXNtQc",
+     "title": "Che cosa ci insegna l'astronomia? (TEDx)",
+     "channel": "TEDx Talks",
+     "length": "16:17",
+     "lang": "it"
+    },
+    {
      "id": "0rHUDWjR5gg",
      "title": "Introduction to Astronomy: Crash Course Astronomy #1",
      "channel": "CrashCourse",
@@ -17495,6 +18514,13 @@
     }
    ],
    "videos": [
+    {
+     "id": "xzqFQmXzgw8",
+     "title": "I numeri dell'Universo - Da 1 a 800",
+     "channel": "ASI (Agenzia Spaziale Italiana)",
+     "length": "7:40",
+     "lang": "it"
+    },
     {
      "id": "Op3AYaJc0Xw",
      "title": "Light seconds, light years, light centuries: How to measure extreme distances - Yuan-Sen Ting",
@@ -17601,6 +18627,13 @@
    ],
    "videos": [
     {
+     "id": "3pAuK5Z8vKE",
+     "title": "Quanto è grande l'universo?",
+     "channel": "CURIUSS",
+     "length": "13:32",
+     "lang": "it"
+    },
+    {
      "id": "x896_J1k8rM",
      "title": "Zooming out from Earth to the Observable Universe",
      "channel": "ScienceClic English",
@@ -17689,6 +18722,13 @@
     }
    ],
    "videos": [
+    {
+     "id": "s4rVxDwqT2Y",
+     "title": "La sfera celeste",
+     "channel": "Non Puoi Non Saperlo",
+     "length": "7:24",
+     "lang": "it"
+    },
     {
      "id": "L-Wtlev6suc",
      "title": "Naked Eye Observations: Crash Course Astronomy #2",
@@ -17882,6 +18922,13 @@
    ],
    "videos": [
     {
+     "id": "RhXN5R-frHE",
+     "title": "L'Astrologia NON ha senso",
+     "channel": "Luca Perri",
+     "length": "28:49",
+     "lang": "it"
+    },
+    {
      "id": "S7G-ruj22Uo",
      "title": "Astrology: Fact or Fiction?",
      "channel": "Professor Dave Explains",
@@ -17968,6 +19015,13 @@
    ],
    "videos": [
     {
+     "id": "QdpBDJLHG6k",
+     "title": "Copernico, Galileo e la rivoluzione astronomica",
+     "channel": "CURIUSS",
+     "length": "8:32",
+     "lang": "it"
+    },
+    {
      "id": "khIzr6610cQ",
      "title": "How We Figured Out That Earth Goes Around the Sun",
      "channel": "SciShow Space",
@@ -18007,6 +19061,13 @@
     }
    ],
    "videos": [
+    {
+     "id": "9lzOgoIU4pQ",
+     "title": "Le leggi di Keplero e la forza di gravità",
+     "channel": "Step by Step · Fisica e Mate",
+     "length": "9:28",
+     "lang": "it"
+    },
     {
      "id": "TRAbZxQHlVw",
      "title": "The Gravity of the Situation: Crash Course Astronomy #7",
@@ -18197,6 +19258,13 @@
    ],
    "videos": [
     {
+     "id": "oKiIvCvdtFo",
+     "title": "Cos'è la gravità?",
+     "channel": "Amedeo Balbi",
+     "length": "11:05",
+     "lang": "it"
+    },
+    {
      "id": "kxkFaBG6a-A",
      "title": "Newton's Law of Universal Gravitation",
      "channel": "Professor Dave Explains",
@@ -18296,6 +19364,13 @@
     }
    ],
    "videos": [
+    {
+     "id": "Ron0tU4mgdA",
+     "title": "La fionda gravitazionale",
+     "channel": "Amedeo Balbi",
+     "length": "10:52",
+     "lang": "it"
+    },
     {
      "id": "1s6_4qX-u2o",
      "title": "27.5 Worked Example: Gravitational Slingshot",
@@ -18424,6 +19499,13 @@
     }
    ],
    "videos": [
+    {
+     "id": "2g307dxykSo",
+     "title": "Spiegazione delle stagioni sulla Terra",
+     "channel": "Link4Universe",
+     "length": "5:58",
+     "lang": "it"
+    },
     {
      "id": "01QWC-rZcfE",
      "title": "Cycles in the Sky: Crash Course Astronomy #3",
@@ -18591,6 +19673,13 @@
    ],
    "videos": [
     {
+     "id": "U6Qtcy1aq28",
+     "title": "Perché un anno dura 365 giorni: la scienza dei calendari",
+     "channel": "Luca Nardi",
+     "length": "7:17",
+     "lang": "it"
+    },
+    {
      "id": "yd1i3vkkh-0",
      "title": "The Leap Year as Explained by Neil deGrasse Tyson | StarTalk",
      "channel": "National Geographic",
@@ -18635,6 +19724,13 @@
     }
    ],
    "videos": [
+    {
+     "id": "Uba7HtQ3MiM",
+     "title": "Eclissi lunare: la spiegazione semplice per capire come avviene",
+     "channel": "Geopop",
+     "length": "5:03",
+     "lang": "it"
+    },
     {
      "id": "AQ5vty8f9Xc",
      "title": "Moon Phases: Crash Course Astronomy #4",
@@ -18803,6 +19899,13 @@
    ],
    "videos": [
     {
+     "id": "Dhj5d8m6tQI",
+     "title": "La Marea, uno dei fenomeni più conosciuti e meno compresi",
+     "channel": "Valerio Pattaro",
+     "length": "7:52",
+     "lang": "it"
+    },
+    {
      "id": "mpRJhhbKLFc",
      "title": "Why are there two tides a day? - Elise Cutts",
      "channel": "TED-Ed",
@@ -18914,6 +20017,13 @@
    ],
    "videos": [
     {
+     "id": "7jWLfdLtcmw",
+     "title": "Viaggio nello spettro elettromagnetico – La luce visibile",
+     "channel": "INAF (Istituto Nazionale di Astrofisica)",
+     "length": "5:15",
+     "lang": "it"
+    },
+    {
      "id": "IRBfpBPELmE",
      "title": "Light Is Waves: Crash Course Physics #39",
      "channel": "CrashCourse",
@@ -18958,6 +20068,13 @@
     }
    ],
    "videos": [
+    {
+     "id": "Wo2BywbyFlg",
+     "title": "Spettroscopia",
+     "channel": "Politecnico di Milano",
+     "length": "8:56",
+     "lang": "it"
+    },
     {
      "id": "jjy-eqWM38g",
      "title": "Light: Crash Course Astronomy #24",
@@ -19131,6 +20248,13 @@
    ],
    "videos": [
     {
+     "id": "ZmcNWiopPsY",
+     "title": "Spettri di emissione e assorbimento di un atomo",
+     "channel": "Maledetta Fisica",
+     "length": "7:22",
+     "lang": "it"
+    },
+    {
      "id": "N0lBsW3ZzN8",
      "title": "Atomic spectra | Physics | Khan Academy",
      "channel": "Khan Academy",
@@ -19242,6 +20366,13 @@
    ],
    "videos": [
     {
+     "id": "zl8i7zTSDGE",
+     "title": "Come fa un telescopio a vedere oggetti così lontani",
+     "channel": "Geopop",
+     "length": "8:01",
+     "lang": "it"
+    },
+    {
      "id": "mYhy7eaazIk",
      "title": "Telescopes: Crash Course Astronomy #6",
      "channel": "CrashCourse",
@@ -19335,6 +20466,13 @@
     }
    ],
    "videos": [
+    {
+     "id": "43cxtO5AaFA",
+     "title": "Ecco l’Extremely Large Telescope: semplicemente, il più grande",
+     "channel": "INAF (Istituto Nazionale di Astrofisica)",
+     "length": "4:49",
+     "lang": "it"
+    },
     {
      "id": "fvjhldjESGo",
      "title": "World's Biggest Optical Telescope - ELT",
@@ -19508,6 +20646,13 @@
    ],
    "videos": [
     {
+     "id": "-kZzCKiSQDQ",
+     "title": "Come funziona un radiotelescopio (il più grande d'Italia)",
+     "channel": "AstroViktor",
+     "length": "8:08",
+     "lang": "it"
+    },
+    {
      "id": "nFEgRt2EH1g",
      "title": "How radio telescopes show us unseen galaxies | Natasha Hurley-Walker",
      "channel": "TED",
@@ -19607,6 +20752,13 @@
     }
    ],
    "videos": [
+    {
+     "id": "uXFJ4RP5Ue4",
+     "title": "Il Sistema solare (SuperQuark)",
+     "channel": "Rai · SuperQuark",
+     "length": "7:29",
+     "lang": "it"
+    },
     {
      "id": "TKM0P3XlMNA",
      "title": "Introduction to the Solar System: Crash Course Astronomy #9",
@@ -19803,6 +20955,13 @@
    ],
    "videos": [
     {
+     "id": "XeUxCRowxDE",
+     "title": "Come si forma un sistema planetario?",
+     "channel": "Amedeo Balbi",
+     "length": "13:08",
+     "lang": "it"
+    },
+    {
      "id": "RT4OO0TFLHw",
      "title": "The Solar System's Formation",
      "channel": "NASA Space Place",
@@ -19904,6 +21063,13 @@
    ],
    "videos": [
     {
+     "id": "u9HVxOHbHjs",
+     "title": "Il nucleo interno della Terra si è fermato? Cosa dice davvero lo studio",
+     "channel": "Geopop",
+     "length": "7:36",
+     "lang": "it"
+    },
+    {
      "id": "7CPv0NSIG2M",
      "title": "The Plate Tectonics Revolution: Crash Course Geography #19",
      "channel": "CrashCourse",
@@ -19999,6 +21165,13 @@
     }
    ],
    "videos": [
+    {
+     "id": "oRCfwBrng1c",
+     "title": "La complessa struttura dell'atmosfera",
+     "channel": "HUB Scuola",
+     "length": "6:01",
+     "lang": "it"
+    },
     {
      "id": "WcE36Ha3PtQ",
      "title": "Earth's Atmosphere | Matter | Physics | FuseSchool",
@@ -20096,6 +21269,13 @@
    ],
    "videos": [
     {
+     "id": "ctM-E64AdJ8",
+     "title": "Videoesperimento: l'effetto serra",
+     "channel": "HUB Scuola",
+     "length": "3:36",
+     "lang": "it"
+    },
+    {
      "id": "SN5-DnOHQmE",
      "title": "What Is the Greenhouse Effect?",
      "channel": "NASA Space Place",
@@ -20191,6 +21371,13 @@
     }
    ],
    "videos": [
+    {
+     "id": "19HtIpHlV4g",
+     "title": "Chicxulub: l'asteroide che estinse i dinosauri",
+     "channel": "Luca Nardi",
+     "length": "10:47",
+     "lang": "it"
+    },
     {
      "id": "dFCbJmgeHmA",
      "title": "The Day the Dinosaurs Died – Minute by Minute",
@@ -20292,6 +21479,13 @@
    ],
    "videos": [
     {
+     "id": "AHVqaiKLi34",
+     "title": "Tutto quello che devi sapere sulla Luna",
+     "channel": "Luca Nardi",
+     "length": "22:51",
+     "lang": "it"
+    },
+    {
      "id": "mCzchPx3yF8",
      "title": "The Moon: Crash Course Astronomy #12",
      "channel": "CrashCourse",
@@ -20386,6 +21580,13 @@
     }
    ],
    "videos": [
+    {
+     "id": "rt48O0AyiKQ",
+     "title": "La scienza dei crateri da impatto",
+     "channel": "Luca Nardi",
+     "length": "20:14",
+     "lang": "it"
+    },
     {
      "id": "cNeRBuLAa7o",
      "title": "Why Are Craters Always Round?",
@@ -20482,6 +21683,13 @@
     }
    ],
    "videos": [
+    {
+     "id": "Ob4oqZQ3oi4",
+     "title": "Da dove viene la Luna? Ecco quello che abbiamo capito",
+     "channel": "Amedeo Balbi",
+     "length": "12:27",
+     "lang": "it"
+    },
     {
      "id": "kRlhlCWplqk",
      "title": "New Supercomputer Simulation Sheds Light on Moon’s Origin",
@@ -20685,6 +21893,13 @@
    ],
    "videos": [
     {
+     "id": "nlBNASNUxIU",
+     "title": "Atmosfera, effetto serra ed evoluzione di Venere",
+     "channel": "Antonio Loiacono",
+     "length": "21:26",
+     "lang": "it"
+    },
+    {
      "id": "ZFUgy3crCYY",
      "title": "Venus: Crash Course Astronomy #14",
      "channel": "CrashCourse",
@@ -20795,6 +22010,13 @@
    ],
    "videos": [
     {
+     "id": "3gxu3Vbb9C0",
+     "title": "Atmosfera e acqua marziana: è possibile la vita su Marte?",
+     "channel": "Geopop",
+     "length": "9:42",
+     "lang": "it"
+    },
+    {
      "id": "I-88YWx71gE",
      "title": "Mars: Crash Course Astronomy #15",
      "channel": "CrashCourse",
@@ -20883,6 +22105,13 @@
     }
    ],
    "videos": [
+    {
+     "id": "qpanuQuIW6s",
+     "title": "Come mai Venere e Terra sono simili ma così diverse?",
+     "channel": "Link4Universe",
+     "length": "12:09",
+     "lang": "it"
+    },
     {
      "id": "G-WO-z-QuWI",
      "title": "How To Terraform Venus (Quickly)",
@@ -20984,6 +22213,13 @@
    ],
    "videos": [
     {
+     "id": "QIWe376S9UY",
+     "title": "Il Grand Tour di Hubble nel regno dei pianeti giganti",
+     "channel": "ASI (Agenzia Spaziale Italiana)",
+     "length": "2:55",
+     "lang": "it"
+    },
+    {
      "id": "Xwn8fQSW7-8",
      "title": "Jupiter: Crash Course Astronomy #16",
      "channel": "CrashCourse",
@@ -21078,6 +22314,13 @@
     }
    ],
    "videos": [
+    {
+     "id": "U5zdwO-JP74",
+     "title": "Perché la Grande Macchia Rossa di Giove è rossa?",
+     "channel": "Luca Nardi",
+     "length": "15:52",
+     "lang": "it"
+    },
     {
      "id": "uj3Lq7Gu94Y",
      "title": "Fly into the Great Red Spot of Jupiter with NASA’s Juno Mission",
@@ -21183,6 +22426,13 @@
    ],
    "videos": [
     {
+     "id": "gQQx0ByGwc0",
+     "title": "Stiamo andando a cercare la vita su una luna di Giove. La missione Europa Clipper della NASA",
+     "channel": "Amedeo Balbi",
+     "length": "8:55",
+     "lang": "it"
+    },
+    {
      "id": "HaFaf7vbgpE",
      "title": "Jupiter's Moons: Crash Course Astronomy #17",
      "channel": "CrashCourse",
@@ -21273,6 +22523,13 @@
     }
    ],
    "videos": [
+    {
+     "id": "goWN5wZkDMI",
+     "title": "Titano, i suoi mari e la vita come non la conosciamo",
+     "channel": "Amedeo Balbi",
+     "length": "13:49",
+     "lang": "it"
+    },
     {
      "id": "lr4r70DWShk",
      "title": "What You Need to Know About Saturn's Moon Titan",
@@ -21369,6 +22626,13 @@
     }
    ],
    "videos": [
+    {
+     "id": "AaHTGVevrMg",
+     "title": "No, Plutone non può essere un Pianeta. Ecco perché",
+     "channel": "Luca Perri",
+     "length": "18:16",
+     "lang": "it"
+    },
     {
      "id": "g1fPhhTT2Oo",
      "title": "New Horizons Flyover of Pluto",
@@ -21471,6 +22735,13 @@
     }
    ],
    "videos": [
+    {
+     "id": "XgCX23Vd1sM",
+     "title": "Le meraviglie del Sistema Solare: i geyser di Encelado",
+     "channel": "Focus",
+     "length": "3:25",
+     "lang": "it"
+    },
     {
      "id": "6Bv8g5xBJSo",
      "title": "How Saturn Got Its Rings | The Planets | BBC Earth Science",
@@ -21662,6 +22933,13 @@
    ],
    "videos": [
     {
+     "id": "vzvJiuMWIxY",
+     "title": "Hera e Dart, prime missioni di difesa planetaria contro gli asteroidi",
+     "channel": "Link4Universe",
+     "length": "28:08",
+     "lang": "it"
+    },
+    {
      "id": "vMu5bNadlGo",
      "title": "NASA's DART Mission Confirms Crashing Spacecraft into Asteroids Can Deflect Them",
      "channel": "NASA",
@@ -21762,6 +23040,13 @@
    ],
    "videos": [
     {
+     "id": "mfUhMknPRXo",
+     "title": "Introduzione alle comete: cosa sono e da dove vengono",
+     "channel": "Link4Universe",
+     "length": "21:28",
+     "lang": "it"
+    },
+    {
      "id": "yB9HHyPpKds",
      "title": "Comets: Crash Course Astronomy #21",
      "channel": "CrashCourse",
@@ -21861,6 +23146,13 @@
     }
    ],
    "videos": [
+    {
+     "id": "UAtBL3RhbtM",
+     "title": "Cosa sono davvero le stelle cadenti",
+     "channel": "Geopop",
+     "length": "6:23",
+     "lang": "it"
+    },
     {
      "id": "TuDfZ2Md5x8",
      "title": "Meteors: Crash Course Astronomy #23",
@@ -22045,6 +23337,13 @@
    ],
    "videos": [
     {
+     "id": "wmnMkxP--pM",
+     "title": "Struttura interna del Sole - Serie “Sapore di Sole”",
+     "channel": "INAF (Istituto Nazionale di Astrofisica)",
+     "length": "3:18",
+     "lang": "it"
+    },
+    {
      "id": "2HoTK_Gqi2Q",
      "title": "Sun 101 | National Geographic",
      "channel": "National Geographic",
@@ -22146,6 +23445,13 @@
    ],
    "videos": [
     {
+     "id": "DLMCL_XClAI",
+     "title": "Cosa sono le macchie solari",
+     "channel": "Link4Universe",
+     "length": "8:08",
+     "lang": "it"
+    },
+    {
      "id": "sASbVkK-p0w",
      "title": "NASA | Solar Cycle",
      "channel": "NASA Goddard",
@@ -22240,6 +23546,13 @@
     }
    ],
    "videos": [
+    {
+     "id": "5Ep4EUuvxxM",
+     "title": "Sorvegliati spaziali: meteorologia dello spazio",
+     "channel": "INAF (Istituto Nazionale di Astrofisica)",
+     "length": "7:53",
+     "lang": "it"
+    },
     {
      "id": "HJfy8acFaOg",
      "title": "Space Weather and Earth's Aurora",
@@ -22459,6 +23772,13 @@
    ],
    "videos": [
     {
+     "id": "f4ZQcihwaRg",
+     "title": "Eliosismologia: i terremoti sul Sole",
+     "channel": "Link4Universe",
+     "length": "9:36",
+     "lang": "it"
+    },
+    {
      "id": "nN5hnznAVX0",
      "title": "The solar neutrino problem | Even Bananas 08",
      "channel": "Fermilab",
@@ -22646,6 +23966,13 @@
     }
    ],
    "videos": [
+    {
+     "id": "Z1y6Et2ogv4",
+     "title": "Cosa sono le nane brune",
+     "channel": "Link4Universe",
+     "length": "8:00",
+     "lang": "it"
+    },
     {
      "id": "4zKVx29_A1w",
      "title": "Brown Dwarfs: Crash Course Astronomy #28",
@@ -22928,6 +24255,13 @@
    ],
    "videos": [
     {
+     "id": "np7XxWKxbQs",
+     "title": "Il diagramma di Hertzsprung-Russell",
+     "channel": "INAF · Osservatorio di Palermo",
+     "length": "3:08",
+     "lang": "it"
+    },
+    {
      "id": "ld75W1dz-h0",
      "title": "Stars: Crash Course Astronomy #26",
      "channel": "CrashCourse",
@@ -23147,6 +24481,13 @@
     }
    ],
    "videos": [
+    {
+     "id": "4yG1yBssx_4",
+     "title": "La stella che ha cambiato l'universo",
+     "channel": "Amedeo Balbi",
+     "length": "9:59",
+     "lang": "it"
+    },
     {
      "id": "BWs-ONRDDG4",
      "title": "Cepheid variables 1 | Stars, black holes and galaxies | Cosmology & Astronomy | Khan Academy",
@@ -23651,6 +24992,13 @@
    ],
    "videos": [
     {
+     "id": "DYKTCK4KxUw",
+     "title": "A caccia di esopianeti: i 3 metodi più efficaci",
+     "channel": "Pepite di Scienza",
+     "length": "12:45",
+     "lang": "it"
+    },
+    {
      "id": "7ATtD8x7vV0",
      "title": "Exoplanets: Crash Course Astronomy #27",
      "channel": "CrashCourse",
@@ -23700,6 +25048,13 @@
     }
    ],
    "videos": [
+    {
+     "id": "b-zRbVTKGLM",
+     "title": "Le stelle e la loro evoluzione",
+     "channel": "HUB Scuola",
+     "length": "3:43",
+     "lang": "it"
+    },
     {
      "id": "jfvMtCHv1q4",
      "title": "Low Mass Stars: Crash Course Astronomy #29",
@@ -23870,6 +25225,13 @@
     }
    ],
    "videos": [
+    {
+     "id": "OrXjX4c5oQ0",
+     "title": "Cosa sono gli ammassi stellari",
+     "channel": "Link4Universe",
+     "length": "11:02",
+     "lang": "it"
+    },
     {
      "id": "an4rgJ3O21A",
      "title": "Star Clusters: Crash Course Astronomy #35",
@@ -24076,6 +25438,13 @@
    ],
    "videos": [
     {
+     "id": "k70y45DzrA0",
+     "title": "Pulsar: una stella di neutroni in rapida rotazione",
+     "channel": "INAF · Osservatorio di Palermo",
+     "length": "3:06",
+     "lang": "it"
+    },
+    {
      "id": "RrMvUL8HFlM",
      "title": "Neutron Stars: Crash Course Astronomy #32",
      "channel": "CrashCourse",
@@ -24170,6 +25539,13 @@
     }
    ],
    "videos": [
+    {
+     "id": "RksIiMsTwOw",
+     "title": "Una stella di neutroni nascosta nella supernova Sn 1987A",
+     "channel": "INAF (Istituto Nazionale di Astrofisica)",
+     "length": "3:55",
+     "lang": "it"
+    },
     {
      "id": "5aPj--bedew",
      "title": "It Happened! The Stunning Image of SN 1987A That Webb Captured",
@@ -24355,6 +25731,13 @@
    ],
    "videos": [
     {
+     "id": "ferM4IGXrPU",
+     "title": "Cosa sono i GRB, i lampi di raggi gamma",
+     "channel": "INAF (Istituto Nazionale di Astrofisica)",
+     "length": "3:51",
+     "lang": "it"
+    },
+    {
      "id": "Z2zA9nPFN5A",
      "title": "Gamma-Ray Bursts: Crash Course Astronomy #40",
      "channel": "CrashCourse",
@@ -24466,6 +25849,13 @@
    ],
    "videos": [
     {
+     "id": "aHTGaZdFScg",
+     "title": "La relatività generale: perché il tempo rallenta vicino alle masse",
+     "channel": "Pepite di Scienza",
+     "length": "26:28",
+     "lang": "it"
+    },
+    {
      "id": "R7V3koyL7Mc",
      "title": "General Relativity: The Curvature of Spacetime",
      "channel": "Professor Dave Explains",
@@ -24505,6 +25895,13 @@
     }
    ],
    "videos": [
+    {
+     "id": "VF3svReW3Rc",
+     "title": "Dieci domande frequenti sui buchi neri",
+     "channel": "Amedeo Balbi",
+     "length": "7:47",
+     "lang": "it"
+    },
     {
      "id": "qZWPBKULkdQ",
      "title": "Black Holes: Crash Course Astronomy #33",
@@ -24672,6 +26069,13 @@
    ],
    "videos": [
     {
+     "id": "vbh3AoW2r24",
+     "title": "Come sappiamo che esistono i buchi neri?",
+     "channel": "Amedeo Balbi",
+     "length": "5:52",
+     "lang": "it"
+    },
+    {
      "id": "uyMtsyzXWd4",
      "title": "Inside the black hole image that made history | Sheperd Doeleman",
      "channel": "TED",
@@ -24766,6 +26170,13 @@
     }
    ],
    "videos": [
+    {
+     "id": "cUa0tI5sK-E",
+     "title": "Cosa sono le onde gravitazionali?",
+     "channel": "Amedeo Balbi",
+     "length": "10:25",
+     "lang": "it"
+    },
     {
      "id": "gw-i_VKd6Wo",
      "title": "LIGO's First Detection of Gravitational Waves!",
@@ -24875,6 +26286,13 @@
    ],
    "videos": [
     {
+     "id": "GRNFLm7F-VI",
+     "title": "Come abbiamo ricostruito la storia e la forma della nostra galassia, la Via Lattea",
+     "channel": "Amedeo Balbi",
+     "length": "12:34",
+     "lang": "it"
+    },
+    {
      "id": "tj_QPnO8vpQ",
      "title": "The Milky Way: Crash Course Astronomy #37",
      "channel": "CrashCourse",
@@ -24969,6 +26387,13 @@
     }
    ],
    "videos": [
+    {
+     "id": "ix4CA5RFOWo",
+     "title": "Il paradosso delle galassie a spirale (Spiegato con M51)",
+     "channel": "Luca Nardi",
+     "length": "25:50",
+     "lang": "it"
+    },
     {
      "id": "qK0eCgob81k",
      "title": "We Can't Explain Spiral Galaxies - The Winding Problem",
@@ -25265,6 +26690,13 @@
    ],
    "videos": [
     {
+     "id": "US_F9N-_XcM",
+     "title": "Come si misurano le distanze nell'universo?",
+     "channel": "Amedeo Balbi",
+     "length": "8:26",
+     "lang": "it"
+    },
+    {
      "id": "rV-Z6jk9Fkw",
      "title": "The Cosmic Ladder That Lets Us Map the Universe",
      "channel": "SciShow Space",
@@ -25309,6 +26741,13 @@
     }
    ],
    "videos": [
+    {
+     "id": "7CcAbXQH6a4",
+     "title": "L'espansione dell'universo",
+     "channel": "Amedeo Balbi",
+     "length": "5:50",
+     "lang": "it"
+    },
     {
      "id": "9B7Ix2VQEGo",
      "title": "The Big Bang, Cosmology part 1: Crash Course Astronomy #42",
@@ -25497,6 +26936,13 @@
    ],
    "videos": [
     {
+     "id": "GRUCKmKaZho",
+     "title": "La scoperta dei quasar",
+     "channel": "Gabriele Ghisellini",
+     "length": "9:28",
+     "lang": "it"
+    },
+    {
      "id": "V4Z8EdiJxgk",
      "title": "The Black Hole That Kills Galaxies - Quasars",
      "channel": "Kurzgesagt – In a Nutshell",
@@ -25597,6 +27043,13 @@
    ],
    "videos": [
     {
+     "id": "O_cvVQ4wens",
+     "title": "Scontro galattico tra Via Lattea e Andromeda? Non è così semplice come pensavamo",
+     "channel": "Amedeo Balbi",
+     "length": "10:56",
+     "lang": "it"
+    },
+    {
      "id": "cqhwiPu6sn0",
      "title": "Galaxy Mergers: Past and Present",
      "channel": "NASA Goddard",
@@ -25689,7 +27142,15 @@
      "url": "https://openstax.org/books/astronomy-2e/pages/28-5-the-formation-and-evolution-of-galaxies-and-structure-in-the-universe"
     }
    ],
-   "videos": [],
+   "videos": [
+    {
+     "id": "BKyzIslzHH8",
+     "title": "Che cosa è il Grande Attrattore verso cui si muove la nostra galassia?",
+     "channel": "Amedeo Balbi",
+     "length": "12:46",
+     "lang": "it"
+    }
+   ],
    "videoQuery": "cosmic web large scale structure",
    "addedAt": "2026-11-04T11:32:29Z"
   },
@@ -25787,6 +27248,13 @@
     }
    ],
    "videos": [
+    {
+     "id": "ub71TpVHj14",
+     "title": "Cos'è la materia oscura?",
+     "channel": "Amedeo Balbi",
+     "length": "6:13",
+     "lang": "it"
+    },
     {
      "id": "9W3RsaWuCuE",
      "title": "Dark Matter: Crash Course Astronomy #41",
@@ -25897,6 +27365,13 @@
    ],
    "videos": [
     {
+     "id": "x7WfIpvcsFE",
+     "title": "Se il tempo è relativo, qual è l'età dell'universo?",
+     "channel": "Random Physics",
+     "length": "8:15",
+     "lang": "it"
+    },
+    {
      "id": "Y6Vhh70Lw9w",
      "title": "How We Know The Universe is Ancient",
      "channel": "PBS Space Time",
@@ -25992,6 +27467,13 @@
    ],
    "videos": [
     {
+     "id": "IBGc2AoNWfs",
+     "title": "La prova del Big Bang: il fondo cosmico di microonde",
+     "channel": "Pepite di Scienza",
+     "length": "15:50",
+     "lang": "it"
+    },
+    {
      "id": "3tCMd1ytvWg",
      "title": "Cosmic Microwave Background Explained",
      "channel": "PBS Space Time",
@@ -26086,6 +27568,13 @@
     }
    ],
    "videos": [
+    {
+     "id": "Qj-ajZxsTUo",
+     "title": "Cos'è l'energia oscura?",
+     "channel": "Amedeo Balbi",
+     "length": "5:51",
+     "lang": "it"
+    },
     {
      "id": "QAa2O_8wBUQ",
      "title": "What is Dark Matter and Dark Energy?",
@@ -26187,6 +27676,13 @@
    ],
    "videos": [
     {
+     "id": "mbFq7eVHDZQ",
+     "title": "L'inflazione cosmica e il Big Bang",
+     "channel": "CURIUSS",
+     "length": "25:39",
+     "lang": "it"
+    },
+    {
      "id": "blSTTFS8Uco",
      "title": "How Cosmic Inflation Flattened the Universe",
      "channel": "PBS Space Time",
@@ -26287,6 +27783,13 @@
    ],
    "videos": [
     {
+     "id": "tFCca1lhw8A",
+     "title": "A scuola di astrobiologia",
+     "channel": "ASI (Agenzia Spaziale Italiana)",
+     "length": "4:17",
+     "lang": "it"
+    },
+    {
      "id": "7EqrMl1HJi0",
      "title": "Astrobiology and the origin of life | Zita Martins | TEDxPorto",
      "channel": "TEDx Talks",
@@ -26382,6 +27885,13 @@
    ],
    "videos": [
     {
+     "id": "D0GU7xnR0qc",
+     "title": "La ricerca della vita oltre la Terra: Marte",
+     "channel": "ASI (Agenzia Spaziale Italiana)",
+     "length": "5:35",
+     "lang": "it"
+    },
+    {
      "id": "DJO_9auJhJQ",
      "title": "We Might Find Alien Life In 1,603 Days",
      "channel": "Veritasium",
@@ -26476,6 +27986,13 @@
     }
    ],
    "videos": [
+    {
+     "id": "8KwFvxq3n7M",
+     "title": "Siamo soli nell'universo? Il paradosso di Fermi",
+     "channel": "AstroViktor",
+     "length": "15:28",
+     "lang": "it"
+    },
     {
      "id": "6AnLznzIjSE",
      "title": "Calculating The Odds of Intelligent Alien Life - Jill Tarter",

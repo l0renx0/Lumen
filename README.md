@@ -18,7 +18,9 @@ Scegli una materia e vedi il feed dei suoi argomenti, divisi per capitolo (puoi 
 - **Approfondisci**: i capitoli del manuale gratuito da cui viene la spiegazione;
 - il **prossimo argomento** della stessa materia.
 
-In alto, mentre leggi, una barra colorata mostra a che punto sei. Il pulsante **Aa** cambia la dimensione del testo. Se chiudi a metà, Lumen ricorda dove eri arrivato: lo trovi in **Continua a leggere** nella home.
+In alto, mentre leggi, una barra colorata mostra a che punto sei. Il pulsante **Aa** cambia la dimensione del testo. Se chiudi a metà, Lumen ricorda dove eri arrivato: lo trovi in **Continua a leggere** nella home. Sotto, **Per te** ti propone cosa leggere dopo, in base a quello che hai letto di recente (l'argomento che viene subito dopo nel manuale, altri dello stesso capitolo, o una materia che non hai ancora provato), e ti dice sempre il perché.
+
+Quasi ogni argomento ha anche un **video in italiano** (etichetta verde "In italiano"), scelto solo da canali affidabili e solo quando ne vale la pena; gli altri video sono in inglese. La ricerca trova anche singolari e plurali (per esempio "buco nero" trova "buchi neri").
 
 Le fonti sono i manuali gratuiti **OpenStax** della Rice University (un'università americana): *College Physics*, *Psychology* e *Astronomy*. Sono testi universitari veri, controllati da professori, e chiunque può leggerli gratis. Non usiamo Wikipedia.
 

@@ -80,24 +80,76 @@ function progressOf(id) {
   return positions()[id]?.p || 0;
 }
 
+/* ── Suggerimenti: cosa leggere adesso ──
+   Niente percorsi obbligati: guarda cosa hai letto di recente e propone
+   (1) l'argomento che viene subito dopo nel manuale, (2) altri argomenti dello
+   stesso capitolo, (3) qualcosa da una materia che non hai ancora esplorato.
+   Ogni proposta dice perché è lì. Un po' di varietà cambia ogni giorno. */
+const DAY = 864e5;
+function suggestions(exclude, max = 3) {
+  const e = explored();
+  const pos = positions();
+  const now = Date.now();
+  // Quando hai toccato un argomento l'ultima volta (letto o iniziato).
+  const touched = new Map();
+  for (const [id, d] of Object.entries(e)) touched.set(id, Math.max(touched.get(id) || 0, new Date(d + 'T12:00').getTime()));
+  for (const [id, v] of Object.entries(pos)) if (v.p > 0.04) touched.set(id, Math.max(touched.get(id) || 0, v.at));
+  const recent = [...touched.entries()].filter(([id]) => state.topics.has(id))
+    .sort((a, b) => b[1] - a[1]).slice(0, 8).map(([id, at]) => ({ t: state.topics.get(id), at }));
+  const busy = (t) => e[t.id] || (pos[t.id]?.p || 0) > 0.04 || exclude.has(t.id);
+  const cand = new Map(); // id → { t, score, why }
+  const offer = (t, score, why) => {
+    if (!t || busy(t)) return;
+    const c = cand.get(t.id);
+    if (!c || c.score < score) cand.set(t.id, { t, score, why });
+  };
+  recent.forEach(({ t, at }, i) => {
+    // Più recente = più peso; un argomento finito conta più di uno solo iniziato.
+    const fresh = Math.max(0.3, 1 - (now - at) / (21 * DAY)) * (1 - i * 0.08) * (e[t.id] ? 1 : 0.6);
+    const list = topicsOf(t.subject);
+    const k = list.indexOf(t);
+    const after = list.slice(k + 1).find((x) => !busy(x));
+    offer(after, 10 * fresh, `Dopo «${shortTitle(t)}»`);
+    list.filter((x) => x.chapter === t.chapter && x !== t).forEach((x) => offer(x, 5 * fresh + jitter(x.id), `${subjectName(x.subject)} · ${x.chapter}`));
+  });
+  // Una materia che non hai ancora aperto: il suo primo argomento non letto.
+  const seen = new Set(recent.map((r) => r.t.subject));
+  for (const s of state.data.subjects) {
+    if (seen.has(s.id)) continue;
+    const first = topicsOf(s.id).find((x) => !busy(x));
+    offer(first, recent.length ? 3 + jitter(s.id) : 6 + jitter(s.id), recent.length ? `Prova ${s.name}` : `Per iniziare · ${s.name}`);
+  }
+  // Al massimo due proposte per materia, così resta varietà.
+  const per = {};
+  return [...cand.values()].sort((a, b) => b.score - a.score)
+    .filter((c) => (per[c.t.subject] = (per[c.t.subject] || 0) + 1) <= 2)
+    .slice(0, max);
+}
+const jitter = (id) => (hashSeed(today() + id) % 1000) / 1000; // 0..1, cambia ogni giorno
+const shortTitle = (t) => { const s = t.title.split(/[:(]/)[0].trim(); return s.length > 42 ? s.slice(0, 40).trim() + '…' : s; };
+
 /* ── Home ── */
 function renderHome() {
   $('#back').hidden = true;
   const e = explored();
   const date = new Date().toLocaleDateString('it-IT', { weekday: 'long', day: 'numeric', month: 'long' });
-  // Continua a leggere: l'argomento iniziato più di recente e non finito.
+  // Continua a leggere: fino a 3 argomenti iniziati e non finiti, i più recenti prima.
   const pos = positions();
   const going = Object.entries(pos)
     .filter(([id, v]) => state.topics.has(id) && !e[id] && v.p > 0.04)
-    .sort((a, b) => b[1].at - a[1].at)[0];
-  // Argomento del giorno: uno non ancora letto, scelto in base alla data.
-  const pool = state.data.topics.filter((t) => !e[t.id] && t.id !== going?.[0]);
+    .sort((a, b) => b[1].at - a[1].at).slice(0, 3);
+  const shown = new Set(going.map(([id]) => id));
+  const forYou = suggestions(shown);
+  forYou.forEach((c) => shown.add(c.t.id));
+  // Argomento del giorno: uno non ancora letto (e non già proposto), scelto in base alla data.
+  const pool = state.data.topics.filter((t) => !e[t.id] && !shown.has(t.id));
   const list = pool.length ? pool : state.data.topics;
   const pick = list[hashSeed(today()) % list.length];
   const row = (t, kicker, p) => `<a class="pick" data-subject="${t.subject}" href="#/a/${t.id}">
       <span class="pick__dot">${ICONS[t.subject]}</span>
       <span style="flex:1;min-width:0"><span class="pick__kicker">${esc(kicker)}</span><p class="pick__title">${esc(t.title)}</p>
       ${p ? `<span class="pick__bar"><span style="width:${Math.round(p * 100)}%"></span></span>` : ''}</span></a>`;
+  const anyRead = Object.keys(e).length || going.length;
   $('#view').innerHTML = `
     <section class="hello">
       <p class="hello__over">${esc(date)}</p>
@@ -109,9 +161,11 @@ function renderHome() {
     </label>
     <div id="results"></div>
     <div id="homeMain">
-      ${going ? `<p class="label">Continua a leggere</p>${row(state.topics.get(going[0]), subjectName(state.topics.get(going[0]).subject) + ' · ' + Math.round(going[1].p * 100) + '% letto', going[1].p)}` : ''}
+      ${going.length ? `<p class="label">Continua a leggere</p>${going.map(([id, v]) => row(state.topics.get(id), subjectName(state.topics.get(id).subject) + ' · ' + Math.round(v.p * 100) + '% letto', v.p)).join('')}` : ''}
+      ${anyRead && forYou.length ? `<p class="label">Per te</p>${forYou.map((c) => row(c.t, c.why)).join('')}` : ''}
       <p class="label">Le materie</p>
       <div class="subjects">${state.data.subjects.map(subjectTile).join('')}</div>
+      ${!anyRead && forYou.length ? `<p class="label">Da dove iniziare</p>${forYou.map((c) => row(c.t, c.why)).join('')}` : ''}
       <p class="label">Ti incuriosisce?</p>
       ${row(pick, subjectName(pick.subject) + ' · argomento del giorno')}
       <p class="note">Spiegazioni basate sui manuali universitari gratuiti OpenStax (Rice University), con video da canali divulgativi riconosciuti. Nuovi argomenti e materie si aggiungono quando lo chiedi.</p>
@@ -133,17 +187,40 @@ function subjectTile(s) {
 }
 
 const norm = (s) => s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
+// Radice approssimata di una parola italiana: toglie la vocale finale (e la "h" di -chi/-ghi),
+// così "buco" trova "buchi" e "stella" trova "stelle". Le parole corte restano intere.
+const stem = (w) => (w.length >= 5 || /[cg]h?[aeiou]$/.test(w) ? w.replace(/h?[aeiou]$/, '') : w);
+// Testo normalizzato con uno spazio davanti a ogni parola: si cerca solo a inizio parola.
+const words0 = (s) => ' ' + norm(s).replace(/[^a-z0-9]+/g, ' ');
+const SEARCH = new Map();
+function searchIndex(t) {
+  if (!SEARCH.has(t.id)) SEARCH.set(t.id, {
+    title: words0(t.title),
+    terms: words0((t.terms || []).map((x) => x.t).join(' ')),
+    head: words0([t.hook, t.chapter, subjectName(t.subject), ...t.points].join(' ')),
+    body: words0([...t.sections.flatMap((s) => [s.h, ...s.p]), t.example, ...(t.mistakes || []), ...(t.terms || []).map((x) => x.d)].join(' ')),
+  });
+  return SEARCH.get(t.id);
+}
 function renderResults() {
   const box = $('#results');
   const q = norm(state.query.trim());
   $('#homeMain').hidden = !!q;
   if (!q) { box.innerHTML = ''; return; }
-  const ws = q.split(/\s+/);
+  // Ogni parola si cerca anche "accorciata" (buchi → buc, nero/neri → ner), così
+  // singolare e plurale si trovano a vicenda. Conta di più dove compare.
+  const STOP = new Set(['il', 'lo', 'la', 'i', 'gli', 'le', 'un', 'una', 'di', 'del', 'della', 'dei', 'e', 'a', 'in', 'che', 'come', 'cos', 'per', 'con']);
+  const ws = q.replace(/[^a-z0-9]+/g, ' ').split(' ').filter((w) => w && !STOP.has(w)).map((w) => ' ' + stem(w));
+  if (!ws.length) { box.innerHTML = ''; return; }
   const scored = state.data.topics.map((t) => {
-    const head = norm([t.title, t.hook, t.chapter, subjectName(t.subject), ...(t.terms || []).map((x) => x.t)].join(' '));
-    const body = norm(t.sections.flatMap((s) => [s.h, ...s.p]).join(' '));
-    if (!ws.every((w) => head.includes(w) || body.includes(w))) return null;
-    return { t, score: ws.filter((w) => head.includes(w)).length };
+    const idx = searchIndex(t);
+    let score = 0;
+    for (const w of ws) {
+      const s = (idx.title.includes(w) ? 6 : 0) + (idx.terms.includes(w) ? 4 : 0) + (idx.head.includes(w) ? 2 : 0) + (idx.body.includes(w) ? 1 : 0);
+      if (!s) return null; // tutte le parole devono esserci
+      score += s;
+    }
+    return { t, score };
   }).filter(Boolean).sort((a, b) => b.score - a.score);
   const raw = state.query.trim();
   box.innerHTML = `
@@ -172,6 +249,7 @@ function topicCard(t, grouped) {
       <div class="tcard__foot">
         ${grouped ? '' : `<span class="pill">${minutes(t)} min</span>`}
         ${t.videos.length ? `<span class="pill">${PLAY} ${t.videos.length} video</span>` : ''}
+        ${hasIt(t) ? '<span class="pill pill--it">Video in italiano</span>' : ''}
         ${done ? '<span class="pill pill--done">✓ Letto</span>' : p > 0.04 ? `<span class="pill pill--prog">In lettura · ${Math.round(p * 100)}%</span>` : ''}
         ${isSaved(t.id) ? '<span class="pill pill--saved">Salvato</span>' : ''}
       </div>
@@ -228,6 +306,8 @@ function renderSaved() {
 
 /* ── Pagina argomento ── */
 let openId = null;
+let resumeTimer;
+const hasIt = (t) => t.videos.some((v) => v.lang === 'it');
 function openTopic(id) {
   const t = state.topics.get(id);
   if (!t) return go('#/', true);
@@ -247,7 +327,7 @@ function openTopic(id) {
       <p class="hero__kicker">${esc(subjectName(t.subject))}${t.chapter ? ' · ' + esc(t.chapter) : ''}</p>
       <h1 class="hero__title" id="dTitle">${esc(t.title)}</h1>
       <p class="hero__hook">${esc(t.hook)}</p>
-      <div class="hero__meta"><span class="pill">${minutes(t)} min di lettura</span>${t.videos.length ? `<span class="pill">${PLAY} ${t.videos.length} video</span>` : ''}<span class="pill">${t.sources.length} ${t.sources.length === 1 ? 'fonte' : 'fonti'}</span></div>
+      <div class="hero__meta"><span class="pill">${minutes(t)} min di lettura</span>${t.videos.length ? `<span class="pill">${PLAY} ${t.videos.length} video${hasIt(t) ? ' · anche in italiano' : ''}</span>` : ''}<span class="pill">${t.sources.length} ${t.sources.length === 1 ? 'fonte' : 'fonti'}</span></div>
     </header>
     <div class="learn"><h3>Cosa imparerai</h3><ul>${t.points.map((p) => `<li>${esc(p)}</li>`).join('')}</ul></div>
     <nav class="toc"><h3>In questa pagina</h3><ol>${t.sections.map((s, i) => `<li><button data-goto="s${i}">${esc(s.h)}</button></li>`).join('')}</ol></nav>
@@ -279,7 +359,8 @@ function openTopic(id) {
   const resume = $('#dResume');
   resume.hidden = !(saved > 0.06 && saved < 0.95 && !e[id]);
   resume.onclick = () => { sc.scrollTop = saved * (sc.scrollHeight - sc.clientHeight); resume.hidden = true; };
-  setTimeout(() => { resume.hidden = true; }, 7000);
+  clearTimeout(resumeTimer);
+  resumeTimer = setTimeout(() => { resume.hidden = true; }, 7000);
   // Indice: tocca un capitolo per saltarci
   $('#dBody').querySelectorAll('[data-goto]').forEach((b) => b.addEventListener('click', () => {
     const el = document.getElementById(b.dataset.goto);
@@ -313,7 +394,7 @@ function videoCard(v) {
   return `<div class="video">
     <button class="video__frame" data-video="${esc(v.id)}" style="background-image:url(https://i.ytimg.com/vi/${esc(v.id)}/hqdefault.jpg)" aria-label="Guarda ${esc(v.title)}">
       <span class="video__play"><span>${PLAY}</span></span><span class="video__len">${esc(v.length)}</span></button>
-    <div class="video__info"><p class="video__title">${esc(v.title)}</p><p class="video__ch">${esc(v.channel)} · in inglese</p></div></div>`;
+    <div class="video__info"><p class="video__title">${esc(v.title)}</p><p class="video__ch">${v.lang === 'it' ? '<span class="lang">In italiano</span> ' : ''}${esc(v.channel)}${v.lang === 'it' ? '' : ' · in inglese'}</p></div></div>`;
 }
 function syncSave(id) {
   const b = $('#dSave');

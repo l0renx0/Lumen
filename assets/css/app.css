@@ -206,6 +206,9 @@ svg { display: block; }
 .pill--done { background: color-mix(in srgb, var(--ok) 13%, transparent); color: var(--ok); }
 .pill--saved { background: var(--accent-soft); color: var(--accent); }
 .pill--prog { background: var(--tint-2); color: var(--hue-ink); }
+.pill--it { background: color-mix(in srgb, #1f9d55 12%, transparent); color: #1f8a4c; }
+:root[data-theme="dark"] .pill--it { color: #5fd08e; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .pill--it { color: #5fd08e; } }
 .tcard__line { position: absolute; left: 0; bottom: 0; height: 3px; background: var(--grad); }
 .tcard.is-done .tcard__title { color: var(--ink-2); }
 
@@ -306,6 +309,9 @@ svg { display: block; }
 .video__info { padding: 12px 14px; }
 .video__title { margin: 0; font-weight: 600; font-size: 15px; line-height: 1.35; }
 .video__ch { margin: 3px 0 0; font-size: 13px; color: var(--ink-3); }
+.video__ch .lang { display: inline-block; margin-right: 4px; padding: 1px 7px; border-radius: 6px; font-size: 11.5px; font-weight: 600; background: color-mix(in srgb, #1f9d55 12%, transparent); color: #1f8a4c; }
+:root[data-theme="dark"] .video__ch .lang { color: #5fd08e; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .video__ch .lang { color: #5fd08e; } }
 .sources { margin: 0; padding: 0; list-style: none; display: grid; gap: 8px; }
 .sources a { display: flex; align-items: center; gap: 12px; padding: 13px 16px; border-radius: 16px; border: 1px solid var(--line); }
 .sources a::after { content: "↗"; margin-left: auto; color: var(--ink-3); }

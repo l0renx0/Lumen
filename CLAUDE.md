@@ -38,7 +38,7 @@ Argomento (`topics`):
   "example": "un esempio della vita di tutti i giorni",
   "quote": {"text": "copiata ALLA LETTERA dalla prima fonte", "translation": "traduzione italiana"},
   "sources": [{"name": "OpenStax · Psychology 2e", "title": "8.1 How Memory Functions", "url": "https://openstax.org/books/psychology-2e/pages/8-1-how-memory-functions"}],
-  "videos": [{"id": "ID YouTube", "title": "…", "channel": "…", "length": "9:55"}],
+  "videos": [{"id": "ID YouTube", "title": "…", "channel": "…", "length": "9:55", "lang": "it"}],
   "videoQuery": "parole chiave per la ricerca su YouTube",
   "addedAt": "ISO"
 }
@@ -50,6 +50,7 @@ La dispensa delle tre materie attuali (Fisica, Psicologia, Astronomia) è COMPLE
 1. **Fonti**: preferisci i manuali gratuiti **OpenStax** (openstax.org, Rice University): c'è un libro per moltissime materie (fisica, chimica, biologia, astronomia, psicologia, sociologia, economia, statistica…). L'indice dei capitoli si ricava dagli `"slug"` presenti nell'HTML di una pagina del libro. In alternativa: enti e università (NASA, ESA, MIT OpenCourseWare, musei). **NON usare Wikipedia**, blog o siti commerciali.
 2. Leggi davvero il capitolo e scrivi solo ciò che dice, in modo semplice; niente esagerazioni, numeri solo se sono nella fonte.
 3. **Video**: solo canali ufficiali o divulgatori riconosciuti (CrashCourse, Khan Academy, TED-Ed, Kurzgesagt, minutephysics, PBS, agenzie, università). Si trovano cercando su `https://www.youtube.com/results?search_query=…` e leggendo `ytInitialData`.
+   **Video in italiano**: l'utente vuole, quando c'è e ne vale la pena, anche un video in italiano per argomento (216 argomenti su 252 lo hanno). Va messo per PRIMO nella lista, con `"lang": "it"` (l'app mostra l'etichetta "In italiano"; senza `lang` il video è considerato in inglese). Canali italiani affidabili: enti (INAF, ASI, INFN, Politecnico di Milano/Polimi OpenKnowledge, università, Rai SuperQuark), editori scolastici (Zanichelli, HUB Scuola), divulgatori riconosciuti (Amedeo Balbi, Luca Perri, Link4Universe, Geopop, CURIUSS, Pepite di Scienza, Random Physics, Luca Nardi, La Fisica Che Ci Piace/Vincenzo Schettini, Step by Step Fisica, Valerio Pattaro, Sprouts Italia, Dott. Valerio Rosso, Luca Mazzucchelli, Laura Pirotta, Alessandro Fanello). Mai canali "documentari per dormire", motivazionali o titoli tradotti automaticamente da canali inglesi. Strumenti: `strumenti/dispensa/video_it_cerca.py` (ricerca con `hl=it`) e `video_it_scegli.py` (candidati per argomento); la scelta finale si fa leggendo i titoli. Pulisci i titoli scritti tutti in maiuscolo o pieni di parole chiave. Se il video non si può incorporare (oEmbed 401), scegline un altro.
 4. Aggiorna `updatedAt` (ora UTC attuale, mai nel futuro) in `data/argomenti.json` e `data/meta.json` (anche `count`).
 5. `python3 -I strumenti/controlla_argomenti.py --rete` → deve dare 0 errori (controlla link, video via oEmbed e che la citazione sia davvero nella fonte).
 6. Prova in locale se hai cambiato l'app, poi commit e push su `main`: il sito si ripubblica da solo in circa un minuto.
