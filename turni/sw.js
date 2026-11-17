@@ -1,6 +1,6 @@
 // Service worker di Turni: rende l'app installabile e utilizzabile anche offline.
 // Quando modifichi i file dell'app, aumenta il numero di VERSION.
-const VERSION = 'turni-v8';
+const VERSION = 'turni-v9';
 const SHELL = ['./', 'index.html', 'app.css', 'app.js', 'manifest.webmanifest', 'icons/icon.svg', 'icons/icon-192.png'];
 
 self.addEventListener('install', (e) => {
@@ -18,10 +18,12 @@ self.addEventListener('activate', (e) => {
 // Prima la rete (così vedi sempre l'ultima versione), poi la copia salvata se sei offline.
 self.addEventListener('fetch', (e) => {
   if (e.request.method !== 'GET') return;
+  const same = new URL(e.request.url).origin === location.origin;
   e.respondWith(
-    fetch(e.request)
+    // no-cache: chiede sempre al sito se il file è cambiato, così l'app si aggiorna subito
+    fetch(same ? new Request(e.request.url, { cache: 'no-cache' }) : e.request)
       .then((res) => {
-        if (res.ok && new URL(e.request.url).origin === location.origin) {
+        if (res.ok && same) {
           const copy = res.clone();
           caches.open(VERSION).then((c) => c.put(e.request, copy));
         }

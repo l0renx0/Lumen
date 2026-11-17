@@ -5,6 +5,7 @@
 
   // ---------- Dati ----------
   const KEY = 'turni.v1';
+  const APP_VERSION = '9'; // uguale al numero di VERSION in sw.js
   const DEFAULTS = { weekHours: 20, extraRate: 9, salary: 0, method: 'exact', monthWeeks: {} };
 
   function normalize(d) {
@@ -78,6 +79,8 @@
       worked: 'Ore lavorate', hours: 'ore', over: (x, w) => ` · <b style="color:var(--money)">+${x}</b> oltre le ${w}`,
       another: '+ altro turno', rest: 'Riposo · tocca per aggiungere',
       this_month: 'Questo mese', shifts: (n) => (n === 1 ? 'turno' : 'turni'), days_n: (n) => (n === 1 ? 'giorno' : 'giorni'),
+      split_n: (n) => (n === 1 ? 'spezzato' : 'spezzati'), split_shift: 'Turno spezzato', gap_short: (x) => `${x} non pagate`,
+      t_split_total: (x) => `Turno spezzato · in tutto ${x}`, version: 'Versione', day_total: 'Turno spezzato, in tutto:',
       week_by_week: 'Settimana per settimana', csv_month: 'Esporta il mese per Excel',
       none_extra: (now) => `Nessuna ora extra${now ? ' per ora' : ''}`,
       none_extra_sub: (x) => `Superate le ${x} del mese, qui vedi quanto ti spetta.`,
@@ -117,7 +120,7 @@
       t_same: 'Entrata e uscita sono uguali', t_updated: 'Turno aggiornato', t_saved: (x) => `Turno salvato · ${x}`,
       t_in_cancel: 'Entrata annullata', restore: 'Ripristina', t_deleted: 'Turno eliminato',
       t_amount: 'Scrivi l\'importo ricevuto', t_paid: (x) => `Segnati ${x}`,
-      csv: ['Data', 'Giorno', 'Entrata', 'Uscita', 'Ore esatte'], csv_h: (m) => `Ore (${m})`, csv_note: 'Nota', csv_total: 'Totale',
+      csv: ['Data', 'Giorno', 'Orario', 'Ore esatte'], csv_h: (m) => `Ore (${m})`, csv_note: 'Nota', csv_total: 'Totale',
       t_empty: 'Non ci sono ancora turni', t_backup: 'Backup salvato nei download',
       t_loaded: (n) => `Caricati ${n} turni`, t_have_all: 'Hai già tutti questi turni',
       c_merge: (n, p) => `Aggiungo ${n} turni${p ? ` e ${p} pagamenti` : ''} a quelli che hai già? Quelli uguali non vengono duplicati.`,
@@ -169,6 +172,8 @@
       worked: 'Horas trabajadas', hours: 'horas', over: (x, w) => ` · <b style="color:var(--money)">+${x}</b> más de las ${w}`,
       another: '+ otro turno', rest: 'Descanso · toca para añadir',
       this_month: 'Este mes', shifts: (n) => (n === 1 ? 'turno' : 'turnos'), days_n: (n) => (n === 1 ? 'día' : 'días'),
+      split_n: (n) => (n === 1 ? 'partido' : 'partidos'), split_shift: 'Turno partido', gap_short: (x) => `${x} sin pagar`,
+      t_split_total: (x) => `Turno partido · en total ${x}`, version: 'Versión', day_total: 'Turno partido, en total:',
       week_by_week: 'Semana a semana', csv_month: 'Exportar el mes a Excel',
       none_extra: (now) => `Ninguna hora extra${now ? ' por ahora' : ''}`,
       none_extra_sub: (x) => `Cuando pases las ${x} del mes, aquí verás cuánto te toca.`,
@@ -208,7 +213,7 @@
       t_same: 'La entrada y la salida son iguales', t_updated: 'Turno actualizado', t_saved: (x) => `Turno guardado · ${x}`,
       t_in_cancel: 'Entrada anulada', restore: 'Recuperar', t_deleted: 'Turno eliminado',
       t_amount: 'Escribe el importe recibido', t_paid: (x) => `Anotados ${x}`,
-      csv: ['Fecha', 'Día', 'Entrada', 'Salida', 'Horas exactas'], csv_h: (m) => `Horas (${m})`, csv_note: 'Nota', csv_total: 'Total',
+      csv: ['Fecha', 'Día', 'Horario', 'Horas exactas'], csv_h: (m) => `Horas (${m})`, csv_note: 'Nota', csv_total: 'Total',
       t_empty: 'Todavía no hay turnos', t_backup: 'Copia guardada en descargas',
       t_loaded: (n) => `Cargados ${n} turnos`, t_have_all: 'Ya tienes todos estos turnos',
       c_merge: (n, p) => `¿Añado ${n} turnos${p ? ` y ${p} pagos` : ''} a los que ya tienes? Los iguales no se duplican.`,
@@ -366,17 +371,41 @@
       </button>`;
   }
 
-  // Turni di un giorno; tra due turni (turno spezzato) mostra le ore non pagate
-  function dayShifts(ds, openHtml = '') {
+  // Un turno = tutto quello che fai in una giornata di lavoro (il giorno in cui entri),
+  // anche se finisce dopo mezzanotte. Un turno spezzato ha più pezzi: è sempre un turno solo.
+  const shiftCount = (list) => new Set(list.map((s) => s.date)).size;
+  const splitCount = (list) => {
+    const n = {};
+    list.forEach((s) => { n[s.date] = (n[s.date] || 0) + 1; });
+    return Object.values(n).filter((x) => x > 1).length;
+  };
+
+  // I turni di un giorno: se sono più pezzi, una sola scheda con il totale e le ore non pagate in mezzo
+  function dayShifts(ds, withOpen = false) {
+    const parts = ds.length + (withOpen ? 1 : 0);
+    if (parts < 2) return ds.map(shiftBtn).join('') + (withOpen ? openShiftBtn() : '');
+    const segs = ds.map((s) => ({ start: s.start, end: s.end, html: segBtn(s) }));
+    if (withOpen) segs.push({ start: db.open.start, end: null, html: openSegBtn() });
     let html = '';
-    ds.forEach((s, i) => {
-      if (i) {
-        const g = toMin(s.start) - toMin(ds[i - 1].end);
-        if (g > 0) html += `<div class="gap">${t('gap', fmtH(g))}</div>`;
+    segs.forEach((g, i) => {
+      if (i && segs[i - 1].end) {
+        const gap = toMin(g.start) - toMin(segs[i - 1].end);
+        if (gap > 0) html += `<div class="gap">${t('gap_short', fmtH(gap))}</div>`;
       }
-      html += shiftBtn(s);
+      html += g.html;
     });
-    return html + openHtml;
+    const tot = total(ds) + (withOpen ? liveMin() : 0);
+    return `<div class="combo${withOpen ? ' open' : ''}">
+        <div class="combo-head"><span>${t('split_shift')}</span><b class="num"${withOpen ? ' data-live-day' : ''} data-base="${total(ds)}">${fmtH(tot)}</b></div>
+        ${html}
+      </div>`;
+  }
+  function segBtn(s) {
+    const night = toMin(s.end) <= toMin(s.start);
+    return `<button class="seg" data-edit="${s.id}"><span class="num">${s.start} – ${s.end}${night ? ' <small>+1</small>' : ''}</span><span class="num">${fmtH(minutes(s))}</span></button>`;
+  }
+  function openSegBtn() {
+    return `<button class="seg live" data-open><span class="num">${db.open.start} – ${t('running')}</span><span class="num" data-live-short>${fmtH(liveMin())}</span></button>`;
   }
 
   function openShiftBtn() {
@@ -425,10 +454,11 @@
     let clock;
     if (o) {
       const long = liveMin(now) > 14 * 60;
+      const before = total(db.shifts.filter((s) => s.date === o.date)); // pezzi già fatti del turno spezzato
       clock = `<section class="card clock live">
           <div class="state"><span class="dot"></span>${t('on_shift')}${o.date !== iso(now) ? t('since_day', L().daysLong[parse(o.date).getDay()]) : ''}</div>
           <div class="time" id="liveTime">${liveClock(now)}</div>
-          <div class="meta">${t('in_at')} <b class="num">${o.start}</b> · <button data-fix>${t('fix')}</button>${long ? `<br><span style="color:var(--danger)">${t('too_long')}</span>` : ''}</div>
+          <div class="meta">${t('in_at')} <b class="num">${o.start}</b> · <button data-fix>${t('fix')}</button>${before ? `<br>${t('day_total')} <b class="num" data-live-day data-base="${before}">${fmtH(before + liveMin(now))}</b>` : ''}${long ? `<br><span style="color:var(--danger)">${t('too_long')}</span>` : ''}</div>
           <button class="punch out" id="punchOut">${ICON.out}${t('punch_out')} <small class="num" id="nowShort">${hhmm(now)}</small></button>
         </section>`;
     } else {
@@ -448,10 +478,10 @@
     const mGoal = mi.goal;
     const mExtraNow = Math.max(0, mMin - mGoal);
 
-    const recent = sorted(db.shifts).slice(-5).reverse();
+    const recent = [...new Set(sorted(db.shifts).map((s) => s.date).concat(o ? [o.date] : []))].sort().slice(-5).reverse();
     const recentHtml = recent.length
       ? `<div class="section-title">${t('recent')} <button data-goto="settimana">${t('see_all')}</button></div>
-         <div class="list">${recent.map((s) => { const d = parse(s.date); return `<div class="day"><div class="dname"><span>${L().days[d.getDay()]}</span><b>${d.getDate()}</b></div><div class="shifts">${shiftBtn(s)}</div></div>`; }).join('')}</div>`
+         <div class="list">${recent.map((key) => { const d = parse(key); return `<div class="day"><div class="dname"><span>${L().days[d.getDay()]}</span><b>${d.getDate()}</b></div><div class="shifts">${dayShifts(sorted(db.shifts.filter((s) => s.date === key)), !!(o && o.date === key))}</div></div>`; }).join('')}</div>`
       : `<div class="section-title">${t('recent')}</div><div class="list"><div class="empty">${t('no_shifts')}</div></div>`;
 
     view.innerHTML = clock
@@ -505,7 +535,7 @@
       const hasOpen = open && open.date === key;
       rows += `<div class="day${key === todayKey ? ' is-today' : ''}" id="d-${key}">
           <div class="dname"><span>${L().days[d.getDay()]}</span><b>${d.getDate()}</b></div>
-          <div class="shifts">${dayShifts(ds, hasOpen ? openShiftBtn() : '')}
+          <div class="shifts">${dayShifts(ds, !!hasOpen)}
             <button class="add-day${ds.length || hasOpen ? ' small' : ''}" data-add="${key}">${t(ds.length || hasOpen ? 'another' : 'rest')}</button>
           </div>
         </div>`;
@@ -546,7 +576,7 @@
     const wrows = weeks.map((x) => {
       const e = addDays(x.w, 6);
       return `<button class="row" data-week="${iso(x.w)}">
-          <span class="l">${x.w.getDate()} ${L().mon[x.w.getMonth()]} – ${e.getDate()} ${L().mon[e.getMonth()]}<small>${x.list.length} ${t('shifts', x.list.length)}</small></span>
+          <span class="l">${x.w.getDate()} ${L().mon[x.w.getMonth()]} – ${e.getDate()} ${L().mon[e.getMonth()]}<small>${shiftCount(x.list)} ${t('shifts', shiftCount(x.list))}</small></span>
           <span class="wbar"><i class="b" style="width:${(Math.min(x.min, W()) / maxW) * 100}%"></i><i class="o" style="width:${(x.extra / maxW) * 100}%"></i></span>
           <span class="r num" style="min-width:64px">${x.min ? fmtH(x.min) : '–'}${x.extra ? `<small style="color:var(--money)">+${fmtH(x.extra)}</small>` : ''}</span>
         </button>`;
@@ -560,8 +590,8 @@
           ${meter(mi.min, mi.goal)}
           ${weeksBtn(y, m)}
           <div class="stats">
-            <div class="stat"><b class="num">${mi.list.length}</b><span>${t('shifts', mi.list.length)}</span></div>
-            <div class="stat"><b class="num">${days}</b><span>${t('days_n', days)}</span></div>
+            <div class="stat"><b class="num">${days}</b><span>${t('shifts', days)}</span></div>
+            <div class="stat"><b class="num">${splitCount(mi.list)}</b><span>${t('split_n', splitCount(mi.list))}</span></div>
             <div class="stat money"><b class="num">${eur(mi.eur)}</b><span>extra</span></div>
           </div>
           <div class="cal">${cal}</div>
@@ -682,6 +712,7 @@
     const ns = $('nowShort'); if (ns) ns.textContent = hhmm(now);
     const l = $('liveTime'); if (l) l.innerHTML = liveClock(now);
     document.querySelectorAll('[data-live-short]').forEach((el) => { el.textContent = fmtH(liveMin(now)); });
+    document.querySelectorAll('[data-live-day]').forEach((el) => { el.textContent = fmtH(Number(el.dataset.base) + liveMin(now)); });
   }, 1000);
   document.addEventListener('visibilitychange', () => { if (!document.hidden) render(); });
 
@@ -770,12 +801,14 @@
   // ---------- Fogli dal basso ----------
   let sheet = null;
   function show(el) { sheet = el; el.scrollTop = 0; $('scrim').classList.add('open'); el.classList.add('open'); document.body.classList.add('locked'); }
+  let reloadWhenClosed = false; // c'è una versione nuova: ricarico appena chiudi la finestra
   function hide() {
     if (!sheet) return;
     if (sheet.id === 'settingsSheet') saveSettings();
     sheet.style.transform = ''; sheet.style.transition = ''; $('scrim').style.opacity = '';
     sheet.classList.remove('open'); $('scrim').classList.remove('open'); sheet = null;
     document.body.classList.remove('locked');
+    if (reloadWhenClosed) location.reload();
   }
   $('scrim').onclick = hide;
   document.addEventListener('keydown', (e) => { if (e.key === 'Escape') hide(); });
@@ -933,7 +966,9 @@
     hide();
     if (tab !== 'oggi') cursor = parse(data.date);
     render();
-    toast(mode === 'edit' ? t('t_updated') : t('t_saved', fmtH(minutes(data, 'exact'))));
+    const sameDay = db.shifts.filter((x) => x.date === data.date);
+    if (mode !== 'edit' && sameDay.length > 1) toast(t('t_split_total', fmtH(total(sameDay, 'exact'))));
+    else toast(mode === 'edit' ? t('t_updated') : t('t_saved', fmtH(minutes(data, 'exact'))));
   });
   $('fCancel').onclick = hide;
   $('fDelete').onclick = () => {
@@ -1029,14 +1064,16 @@
     if (method !== 'exact') head.push(t('csv_h', mName(method)));
     head.push(t('csv_note'));
     const rows = [head];
-    sorted(list).forEach((s) => {
-      const d = parse(s.date);
-      const r = [`${pad(d.getDate())}/${pad(d.getMonth() + 1)}/${d.getFullYear()}`, L().days[d.getDay()], s.start, s.end, dec(minutes(s, 'exact'))];
-      if (method !== 'exact') r.push(dec(minutes(s)));
-      r.push(`"${(s.note || '').replace(/"/g, '""')}"`);
+    // Una riga per turno: i pezzi di un turno spezzato stanno insieme
+    [...new Set(sorted(list).map((s) => s.date))].forEach((key) => {
+      const ds = sorted(list.filter((s) => s.date === key));
+      const d = parse(key);
+      const r = [`${pad(d.getDate())}/${pad(d.getMonth() + 1)}/${d.getFullYear()}`, L().days[d.getDay()], ds.map((s) => `${s.start}-${s.end}`).join(' + '), dec(total(ds, 'exact'))];
+      if (method !== 'exact') r.push(dec(total(ds)));
+      r.push(`"${ds.map((s) => s.note).filter(Boolean).join(', ').replace(/"/g, '""')}"`);
       rows.push(r);
     });
-    const tot = [t('csv_total'), '', '', '', dec(total(list, 'exact'))];
+    const tot = [t('csv_total'), '', '', dec(total(list, 'exact'))];
     if (method !== 'exact') tot.push(dec(total(list)));
     rows.push(tot);
     download(name, '﻿' + rows.map((r) => r.join(';')).join('\r\n'), 'text/csv;charset=utf-8');
@@ -1111,5 +1148,21 @@
 
   applyLang();
   render(true);
-  if ('serviceWorker' in navigator) window.addEventListener('load', () => navigator.serviceWorker.register('sw.js').catch(() => {}));
+  // Aggiornamento automatico: quando esce una versione nuova, l'app si ricarica da sola
+  // (su ogni telefono, anche dall'icona nella schermata Home), senza toccare i dati.
+  if ('serviceWorker' in navigator) {
+    let reloading = false;
+    const hadController = !!navigator.serviceWorker.controller;
+    navigator.serviceWorker.addEventListener('controllerchange', () => {
+      if (!hadController || reloading) return;
+      reloading = true;
+      if (sheet) reloadWhenClosed = true; else location.reload();
+    });
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('sw.js', { updateViaCache: 'none' }).then((reg) => {
+        document.addEventListener('visibilitychange', () => { if (!document.hidden) reg.update().catch(() => {}); });
+      }).catch(() => {});
+    });
+  }
+  $('appVersion').textContent = `${t('version')} ${APP_VERSION}`;
 })();

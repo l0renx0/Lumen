@@ -229,7 +229,19 @@ header.top { display: flex; align-items: flex-end; justify-content: space-betwee
 .paystate.due { background: var(--accent-soft); }
 .paystate.due .ic { color: var(--accent-ink); }
 
-/* Turno spezzato */
+/* Turno spezzato: un turno solo, con più pezzi */
+.combo { background: var(--bg-soft); border-radius: 14px; padding: 4px 4px 6px; }
+.combo.open { background: var(--money-soft); }
+.combo-head { display: flex; justify-content: space-between; align-items: baseline; padding: 8px 10px 4px; }
+.combo-head span { font-size: 11.5px; font-weight: 650; text-transform: uppercase; letter-spacing: 0.06em; color: var(--ink-3); }
+.combo-head b { font-size: 15px; font-weight: 700; color: var(--accent-ink); }
+.combo.open .combo-head b { color: var(--money); }
+.seg { display: flex; justify-content: space-between; align-items: center; gap: 10px; width: 100%; text-align: left; padding: 7px 10px; border-radius: 10px; font-weight: 650; font-size: 15px; transition: background 0.15s; }
+.seg:active { background: var(--card); }
+.seg small { font-weight: 600; color: var(--ink-3); }
+.seg > span:last-child { font-size: 13.5px; font-weight: 600; color: var(--ink-2); }
+.seg.live > span:last-child { color: var(--money); }
+.combo .gap { margin: 1px 10px; }
 .gap { display: flex; align-items: center; gap: 8px; font-size: 12px; font-weight: 600; color: var(--ink-3); padding: 0 4px; }
 .gap::before, .gap::after { content: ""; flex: 1; border-top: 1.5px dashed var(--line-strong); }
 .split-toggle { display: flex; align-items: center; gap: 12px; width: 100%; text-align: left; padding: 12px 14px; border-radius: 14px; background: var(--bg-soft); margin-bottom: 12px; }
