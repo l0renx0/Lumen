@@ -80,6 +80,23 @@
     </div>
   </form>
 
+  <!-- Ferie -->
+  <form class="sheet" id="vacSheet" autocomplete="off">
+    <div class="grab"></div>
+    <h3><span data-i18n="vac">Ferie</span> 🌴</h3>
+    <div class="row2">
+      <label class="field"><span data-i18n="vac_from">Dal</span><input type="date" id="vFrom" required></label>
+      <label class="field"><span data-i18n="vac_to">Al</span><input type="date" id="vTo" required></label>
+    </div>
+    <label class="field"><span data-i18n="f_note">Nota (facoltativa)</span><input type="text" id="vNote" maxlength="80" placeholder="Es. vacanze di Natale" data-i18n-ph="vac_note_ph"></label>
+    <div class="preview vac" id="vPreview"></div>
+    <div class="sheet-actions">
+      <button type="button" class="btn danger" id="vDelete" hidden data-i18n="delete">Elimina</button>
+      <button type="button" class="btn" id="vCancel" data-i18n="cancel">Annulla</button>
+      <button type="submit" class="btn vac" data-i18n="save">Salva</button>
+    </div>
+  </form>
+
   <!-- Soldi ricevuti -->
   <form class="sheet" id="paySheet" autocomplete="off">
     <div class="grab"></div>

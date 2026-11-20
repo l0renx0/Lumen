@@ -5,13 +5,14 @@
 
   // ---------- Dati ----------
   const KEY = 'turni.v1';
-  const APP_VERSION = '9'; // uguale al numero di VERSION in sw.js
+  const APP_VERSION = '10'; // uguale al numero di VERSION in sw.js
   const DEFAULTS = { weekHours: 20, extraRate: 9, salary: 0, method: 'exact', monthWeeks: {} };
 
   function normalize(d) {
     const out = {
       shifts: Array.isArray(d && d.shifts) ? d.shifts : [],
       payments: Array.isArray(d && d.payments) ? d.payments : [],
+      vacations: Array.isArray(d && d.vacations) ? d.vacations.filter((v) => v && v.from && v.to) : [],
       open: d && d.open && d.open.date && d.open.start ? d.open : null,
       settings: { ...DEFAULTS, ...((d && d.settings) || {}) },
     };
@@ -126,6 +127,15 @@
       c_merge: (n, p) => `Aggiungo ${n} turni${p ? ` e ${p} pagamenti` : ''} a quelli che hai già? Quelli uguali non vengono duplicati.`,
       t_added: (n) => `Aggiunti ${n} turni`, t_bad_file: 'Questo file non è un backup di Turni',
       t_lang: 'Lingua: italiano',
+      vac: 'Ferie', vac_add: 'Aggiungi ferie', vac_from: 'Dal', vac_to: 'Al', vac_note_ph: 'Es. vacanze di Natale',
+      vac_info: (w) => `I giorni di ferie sono pagati: coprono le ore del contratto (${w} a settimana), ma non contano come extra.`,
+      vac_days: (n) => (n === 1 ? '1 giorno' : `${n} giorni`), vac_cover: (x) => `coprono ${x} di contratto`,
+      vac_paid: 'Ferie pagate', vac_day: 'Ferie · pagate', vac_state: 'Sei in ferie',
+      vac_now: (d) => `In ferie fino al ${d}`, vac_soon: (n) => (n === 1 ? 'Le ferie iniziano domani' : `Mancano ${n} giorni alle ferie`),
+      vac_range: (a, b) => `Dal ${a} al ${b}`, vac_left: (n) => (n === 1 ? 'Ultimo giorno: domani si torna' : `Ancora ${n} giorni di riposo`),
+      vac_none: 'Nessuna ferie in questo mese.', vac_bad: 'La fine deve essere dopo l\'inizio',
+      t_vac_saved: (n) => `Ferie segnate · ${n}`, t_vac_del: 'Ferie eliminate',
+      week_goal_vac: (x) => `con le ferie bastano ${x}`,
     },
     es: {
       locale: 'es-ES',
@@ -219,6 +229,15 @@
       c_merge: (n, p) => `¿Añado ${n} turnos${p ? ` y ${p} pagos` : ''} a los que ya tienes? Los iguales no se duplican.`,
       t_added: (n) => `Añadidos ${n} turnos`, t_bad_file: 'Este archivo no es una copia de Turni',
       t_lang: 'Idioma: español',
+      vac: 'Vacaciones', vac_add: 'Añadir vacaciones', vac_from: 'Desde', vac_to: 'Hasta', vac_note_ph: 'Ej. vacaciones de Navidad',
+      vac_info: (w) => `Los días de vacaciones se pagan: cubren las horas del contrato (${w} por semana), pero no cuentan como extra.`,
+      vac_days: (n) => (n === 1 ? '1 día' : `${n} días`), vac_cover: (x) => `cubren ${x} de contrato`,
+      vac_paid: 'Vacaciones pagadas', vac_day: 'Vacaciones · pagadas', vac_state: 'Estás de vacaciones',
+      vac_now: (d) => `De vacaciones hasta el ${d}`, vac_soon: (n) => (n === 1 ? 'Las vacaciones empiezan mañana' : `Faltan ${n} días para las vacaciones`),
+      vac_range: (a, b) => `Del ${a} al ${b}`, vac_left: (n) => (n === 1 ? 'Último día: mañana se vuelve' : `Todavía ${n} días de descanso`),
+      vac_none: 'No hay vacaciones este mes.', vac_bad: 'El final tiene que ser después del inicio',
+      t_vac_saved: (n) => `Vacaciones anotadas · ${n}`, t_vac_del: 'Vacaciones eliminadas',
+      week_goal_vac: (x) => `con las vacaciones bastan ${x}`,
     },
   };
 
@@ -278,10 +297,28 @@
   // ---------- Conti: settimana, mese, extra ----------
   const W = () => Math.round(db.settings.weekHours * 60);
 
+  // ---------- Ferie ----------
+  // Ogni giorno di ferie è pagato e copre 1/7 delle ore settimanali (una settimana intera = 20 h):
+  // abbassa le ore da fare, ma non diventa mai straordinario.
+  function vacSet() {
+    const set = new Set();
+    db.vacations.forEach((v) => { for (let d = parse(v.from); iso(d) <= v.to; d = addDays(d, 1)) set.add(iso(d)); });
+    return set;
+  }
+  const isVac = (key) => vacSet().has(key);
+  const vacDaysIn = (from, to) => [...vacSet()].filter((k) => k >= from && k <= to).length;
+  const vacCredit = (from, to) => Math.round((vacDaysIn(from, to) * W()) / 7);
+  const vacOf = (key) => db.vacations.find((v) => key >= v.from && key <= v.to);
+  const nDaysRange = (a, b) => Math.round((parse(b) - parse(a)) / 86400000) + 1;
+  const shortDate = (key) => { const d = parse(key); return `${d.getDate()} ${L().mon[d.getMonth()]}`; };
+
   function weekInfo(mon, method) {
-    const list = between(iso(mon), iso(addDays(mon, 6)));
+    const from = iso(mon), to = iso(addDays(mon, 6));
+    const list = between(from, to);
     const min = total(list, method);
-    return { list, min, extra: Math.max(0, min - W()) };
+    const vac = vacCredit(from, to);
+    const goal = Math.max(0, W() - vac);
+    return { list, min, vac, goal, extra: Math.max(0, min - goal) };
   }
 
   // Settimane che "appartengono" al mese: quelle il cui giovedì cade nel mese
@@ -313,9 +350,11 @@
     const first = new Date(y, m, 1), last = new Date(y, m + 1, 0);
     const list = between(iso(first), iso(last));
     const min = total(list, method);
-    const goal = M(y, m, weeks);
+    const full = M(y, m, weeks);
+    const vac = Math.min(full, vacCredit(iso(first), iso(last)));
+    const goal = full - vac;
     const extra = Math.max(0, min - goal);
-    return { list, min, goal, extra, eur: money(extra), key: `${y}-${pad(m + 1)}` };
+    return { list, min, full, vac, goal, extra, eur: money(extra), key: `${y}-${pad(m + 1)}` };
   }
 
   const paid = (key, kind) => db.payments.filter((p) => p.month === key && p.kind === kind).reduce((a, p) => a + p.amount, 0);
@@ -447,6 +486,14 @@
     return `${Math.floor(sec / 3600)}:${pad(Math.floor(sec / 60) % 60)}<small>${pad(sec % 60)}</small>`;
   }
 
+  // Scheda verde delle ferie
+  function vacCard(title, sub, v) {
+    return `<button class="card vac-card tap" data-vac="${v.id}">
+        <span class="vac-sun" aria-hidden="true">🌴</span>
+        <span class="vac-txt"><b>${title}</b><span>${sub}</span>${v.note ? `<small>${esc(v.note)}</small>` : ''}</span>
+      </button>`;
+  }
+
   // ---------- Viste ----------
   function renderOggi() {
     const now = new Date();
@@ -462,8 +509,9 @@
           <button class="punch out" id="punchOut">${ICON.out}${t('punch_out')} <small class="num" id="nowShort">${hhmm(now)}</small></button>
         </section>`;
     } else {
-      clock = `<section class="card clock">
-          <div class="state"><span class="dot"></span>${t('off_shift')}</div>
+      const onVac = isVac(iso(now));
+      clock = `<section class="card clock${onVac ? ' vacation' : ''}">
+          <div class="state"><span class="dot"></span>${onVac ? `${t('vac_state')} 🌴` : t('off_shift')}</div>
           <div class="time num" id="nowTime">${hhmm(now)}</div>
           <div class="meta">${cap(L().dateLong(now))}</div>
           <button class="punch" id="punchIn">${ICON.in}${t('punch_in')} <small class="num" id="nowShort">${hhmm(now)}</small></button>
@@ -478,25 +526,36 @@
     const mGoal = mi.goal;
     const mExtraNow = Math.max(0, mMin - mGoal);
 
+    // Ferie in corso o in arrivo (entro 30 giorni)
+    const todayKey = iso(now);
+    const nextVac = db.vacations.filter((v) => v.to >= todayKey).sort((a, b) => a.from.localeCompare(b.from))[0];
+    let vacBanner = '';
+    if (nextVac) {
+      const until = nDaysRange(todayKey, nextVac.from) - 1;
+      const range = t('vac_range', shortDate(nextVac.from), shortDate(nextVac.to));
+      if (nextVac.from <= todayKey) vacBanner = vacCard(t('vac_now', shortDate(nextVac.to)), `${range} · ${t('vac_left', nDaysRange(todayKey, nextVac.to) - 1 || 1)}`, nextVac);
+      else if (until <= 30) vacBanner = vacCard(t('vac_soon', until), `${range} · ${t('vac_days', nDaysRange(nextVac.from, nextVac.to))}`, nextVac);
+    }
+
     const recent = [...new Set(sorted(db.shifts).map((s) => s.date).concat(o ? [o.date] : []))].sort().slice(-5).reverse();
     const recentHtml = recent.length
       ? `<div class="section-title">${t('recent')} <button data-goto="settimana">${t('see_all')}</button></div>
          <div class="list">${recent.map((key) => { const d = parse(key); return `<div class="day"><div class="dname"><span>${L().days[d.getDay()]}</span><b>${d.getDate()}</b></div><div class="shifts">${dayShifts(sorted(db.shifts.filter((s) => s.date === key)), !!(o && o.date === key))}</div></div>`; }).join('')}</div>`
       : `<div class="section-title">${t('recent')}</div><div class="list"><div class="empty">${t('no_shifts')}</div></div>`;
 
-    view.innerHTML = clock
+    view.innerHTML = clock + vacBanner
       + `<button class="card tap" data-goto="settimana">
           <div class="kicker">${t('this_week')}</div>
-          <div class="ringrow" style="margin-top:10px">${ring(wMin, W())}
-            <div class="info"><div class="h num" data-live-week>${fmtH(wMin)}<em>${t('of')} ${fmtH(W())}</em></div>
-            <div class="pills">${wMin > W() ? `<span class="pill extra">${t('extra_pill', fmtH(wMin - W()))}</span>` : `<span class="pill">${t('missing_pill', fmtH(W() - wMin))}</span>`}</div></div>
+          <div class="ringrow" style="margin-top:10px">${ring(wMin, wk.goal)}
+            <div class="info"><div class="h num" data-live-week>${fmtH(wMin)}<em>${t('of')} ${fmtH(wk.goal)}</em></div>
+            <div class="pills">${wMin > wk.goal ? `<span class="pill extra">${t('extra_pill', fmtH(wMin - wk.goal))}</span>` : `<span class="pill">${t('missing_pill', fmtH(wk.goal - wMin))}</span>`}${wk.vac ? `<span class="pill vac">🌴 ${t('vac')}</span>` : ''}</div></div>
           </div>
         </button>
         <button class="card tap" data-goto="soldi">
           <div class="kicker">${cap(L().months[now.getMonth()])}</div>
           <div class="ringrow" style="margin-top:10px">${ring(mMin, mGoal)}
             <div class="info"><div class="h num">${fmtH(mMin)}<em>${t('of')} ${fmtH(mGoal)}</em></div>
-            <div class="pills">${mExtraNow ? `<span class="pill extra">+${fmtH(mExtraNow)} · ${eur(money(mExtraNow))}</span>` : `<span class="pill">${t('missing_pill', fmtH(Math.max(0, mGoal - mMin)))}</span>`}</div></div>
+            <div class="pills">${mExtraNow ? `<span class="pill extra">+${fmtH(mExtraNow)} · ${eur(money(mExtraNow))}</span>` : `<span class="pill">${t('missing_pill', fmtH(Math.max(0, mGoal - mMin)))}</span>`}${mi.vac ? `<span class="pill vac">🌴 ${t('vac')}</span>` : ''}</div></div>
           </div>
         </button>`
       + recentHtml;
@@ -519,24 +578,26 @@
     const max = Math.max(8 * 60, ...perDay) * 1.08;
     const bars = perDay.map((m, i) => {
       const d = addDays(mon, i);
-      return `<button class="bar${iso(d) === todayKey ? ' today' : ''}" data-scroll="${iso(d)}">
-          <span class="v num">${m ? fmtH(m).replace(' h ', ':').replace(' h', 'h') : ''}</span>
-          <span class="col${m ? '' : ' zero'}" style="height:${m ? Math.max(6, (m / max) * 100) : 3}%"></span>
+      const v = isVac(iso(d));
+      return `<button class="bar${iso(d) === todayKey ? ' today' : ''}${v ? ' vac' : ''}" data-scroll="${iso(d)}">
+          <span class="v num">${m ? fmtH(m).replace(' h ', ':').replace(' h', 'h') : v ? '🌴' : ''}</span>
+          <span class="col${m ? '' : ' zero'}" style="height:${m ? Math.max(6, (m / max) * 100) : v ? 22 : 3}%"></span>
           <span class="d">${L().cal[(d.getDay() + 6) % 7]}</span>
         </button>`;
     }).join('');
 
     const wMin = wk.min + (open ? liveMin() : 0);
-    const extra = Math.max(0, wMin - W());
+    const extra = Math.max(0, wMin - wk.goal);
     let rows = '';
     for (let i = 0; i < 7; i++) {
       const d = addDays(mon, i), key = iso(d);
       const ds = wk.list.filter((s) => s.date === key);
       const hasOpen = open && open.date === key;
-      rows += `<div class="day${key === todayKey ? ' is-today' : ''}" id="d-${key}">
+      const v = isVac(key);
+      rows += `<div class="day${key === todayKey ? ' is-today' : ''}${v ? ' vac' : ''}" id="d-${key}">
           <div class="dname"><span>${L().days[d.getDay()]}</span><b>${d.getDate()}</b></div>
-          <div class="shifts">${dayShifts(ds, !!hasOpen)}
-            <button class="add-day${ds.length || hasOpen ? ' small' : ''}" data-add="${key}">${t(ds.length || hasOpen ? 'another' : 'rest')}</button>
+          <div class="shifts">${v && !ds.length && !hasOpen ? `<button class="vac-day" data-vac="${vacOf(key).id}">🌴 ${t('vac_day')}</button>` : ''}${dayShifts(ds, !!hasOpen)}
+            <button class="add-day${ds.length || hasOpen || v ? ' small' : ''}" data-add="${key}">${t(ds.length || hasOpen || v ? 'another' : 'rest')}</button>
           </div>
         </div>`;
     }
@@ -545,8 +606,9 @@
       + `<section class="card">
           <div class="kicker">${t('worked')}</div>
           <div class="big">${bigH(wMin)}</div>
-          <div class="sub">${dec(wMin)} ${t('hours')}${extra ? t('over', fmtH(extra), fmtH(W())) : ''}</div>
-          ${meter(wMin, W())}
+          <div class="sub">${dec(wMin)} ${t('hours')}${extra ? t('over', fmtH(extra), fmtH(wk.goal)) : ''}</div>
+          ${meter(wMin, wk.goal)}
+          ${wk.vac ? `<div class="vac-note">🌴 ${t('vac')}: ${t('vac_cover', fmtH(wk.vac))} · ${t('week_goal_vac', fmtH(wk.goal))}</div>` : ''}
           <div class="bars">${bars}</div>
         </section>
         <div class="list">${rows}</div>`;
@@ -561,14 +623,23 @@
 
     // Calendario
     const first = new Date(y, m, 1), nDays = new Date(y, m + 1, 0).getDate();
+    const vs = vacSet();
     let cal = L().cal.map((d) => `<div class="h">${d}</div>`).join('');
     for (let i = 0; i < (first.getDay() + 6) % 7; i++) cal += '<div class="blank"></div>';
     for (let d = 1; d <= nDays; d++) {
       const key = iso(new Date(y, m, d));
       const min = total(mi.list.filter((s) => s.date === key));
       const lv = !min ? '' : min < 4 * 60 ? ' l1' : min < 7 * 60 ? ' l2' : ' l3';
-      cal += `<button class="${lv}${key === iso(now) ? ' today' : ''}" data-day="${key}"><b>${d}</b><span class="num">${min ? fmtH(min).replace(' h ', ':').replace(' h', 'h') : ''}</span></button>`;
+      const v = vs.has(key);
+      // le ferie formano una "striscia": capi arrotondati all'inizio e alla fine (anche a fine settimana)
+      const prev = iso(addDays(parse(key), -1)), next = iso(addDays(parse(key), 1));
+      const wd = (new Date(y, m, d).getDay() + 6) % 7;
+      const vcls = v ? ` vac${!vs.has(prev) || wd === 0 || d === 1 ? ' vs' : ''}${!vs.has(next) || wd === 6 || d === nDays ? ' ve' : ''}` : '';
+      cal += `<button class="${v ? '' : lv}${vcls}${key === iso(now) ? ' today' : ''}" style="--i:${d}" data-day="${key}"><b>${d}</b><span class="num">${min ? fmtH(min).replace(' h ', ':').replace(' h', 'h') : v ? '🌴' : ''}</span></button>`;
     }
+
+    const monthVacs = db.vacations.filter((v) => v.to >= iso(first) && v.from <= iso(new Date(y, m, nDays))).sort((a, b) => a.from.localeCompare(b.from));
+    const nDays2 = nDaysRange;
 
     // Settimane
     const weeks = weeksOfMonth(y, m).map((w) => ({ w, ...weekInfo(w) }));
@@ -576,8 +647,8 @@
     const wrows = weeks.map((x) => {
       const e = addDays(x.w, 6);
       return `<button class="row" data-week="${iso(x.w)}">
-          <span class="l">${x.w.getDate()} ${L().mon[x.w.getMonth()]} – ${e.getDate()} ${L().mon[e.getMonth()]}<small>${shiftCount(x.list)} ${t('shifts', shiftCount(x.list))}</small></span>
-          <span class="wbar"><i class="b" style="width:${(Math.min(x.min, W()) / maxW) * 100}%"></i><i class="o" style="width:${(x.extra / maxW) * 100}%"></i></span>
+          <span class="l">${x.w.getDate()} ${L().mon[x.w.getMonth()]} – ${e.getDate()} ${L().mon[e.getMonth()]}<small>${shiftCount(x.list)} ${t('shifts', shiftCount(x.list))}${x.vac ? ` · 🌴 ${t('vac')}` : ''}</small></span>
+          <span class="wbar"><i class="b" style="width:${(Math.min(x.min, x.goal) / maxW) * 100}%"></i><i class="o" style="width:${(x.extra / maxW) * 100}%"></i></span>
           <span class="r num" style="min-width:64px">${x.min ? fmtH(x.min) : '–'}${x.extra ? `<small style="color:var(--money)">+${fmtH(x.extra)}</small>` : ''}</span>
         </button>`;
     }).join('');
@@ -595,7 +666,10 @@
             <div class="stat money"><b class="num">${eur(mi.eur)}</b><span>extra</span></div>
           </div>
           <div class="cal">${cal}</div>
+          ${mi.vac ? `<div class="vac-note">🌴 ${t('vac')}: ${t('vac_days', vacDaysIn(iso(first), iso(new Date(y, m, nDays))))} · ${t('vac_cover', fmtH(mi.vac))}</div>` : ''}
         </section>
+        <div class="section-title">🌴 ${t('vac')} <button data-addvac>+ ${t('vac_add')}</button></div>
+        ${monthVacs.length ? monthVacs.map((v) => vacCard(t('vac_range', shortDate(v.from), shortDate(v.to)), `${t('vac_days', nDays2(v.from, v.to))} · ${t('vac_cover', fmtH(Math.round((nDays2(v.from, v.to) * W()) / 7)))}`, v)).join('') : `<div class="list"><button class="empty vac-empty" data-addvac>${t('vac_none')}<br><b>+ ${t('vac_add')}</b></button></div>`}
         <div class="section-title">${t('week_by_week')}</div>
         <div class="list">${wrows}</div>
         ${mi.list.length ? `<div class="actions"><button class="btn" data-csv-month>${t('csv_month')}</button></div>` : ''}`;
@@ -620,7 +694,8 @@
     // Il calcolo passo per passo
     const wn = weeksIn(y, m);
     const calc = `<div class="row"><span class="l">${t('worked')}</span><span class="r num">${fmtH(mi.min)}<small>${dec(mi.min)} ${t('hours')}</small></span></div>
-        <button class="row" data-weeks="${mi.key}"><span class="l">${t('contract_hours')}<small>${t('weeks_x', wn, fmtH(W()), weeksLabel(y, m))} · <span style="color:var(--accent-ink);font-weight:650">${t('change')}</span></small></span><span class="r num">− ${fmtH(mi.goal)}</span></button>
+        <button class="row" data-weeks="${mi.key}"><span class="l">${t('contract_hours')}<small>${t('weeks_x', wn, fmtH(W()), weeksLabel(y, m))} · <span style="color:var(--accent-ink);font-weight:650">${t('change')}</span></small></span><span class="r num">− ${fmtH(mi.full)}</span></button>
+        ${mi.vac ? `<div class="row vac-row"><span class="l">🌴 ${t('vac_paid')}<small>${t('vac_days', vacDaysIn(iso(new Date(y, m, 1)), iso(new Date(y, m + 1, 0))))} · ${t('vac_cover', fmtH(mi.vac))}</small></span><span class="r num">+ ${fmtH(mi.vac)}</span></div>` : ''}
         <div class="row"><span class="l">${t('extra_hours')}</span><span class="r num">${fmtH(mi.extra)}<small>${dec(mi.extra)} ${t('hours')}</small></span></div>
         <div class="row total"><span class="l">${t('per_hour', eur(s.extraRate))}</span><span class="r num money">${eur(mi.eur)}</span></div>`;
 
@@ -755,6 +830,8 @@
     else if (btn.id === 'addPay') openPay();
     else if (d.edit) openShift('edit', db.shifts.find((s) => s.id === d.edit));
     else if (d.add) openShift('new', null, d.add);
+    else if ('addvac' in d) openVac(null);
+    else if (d.vac) openVac(db.vacations.find((v) => v.id === d.vac));
     else if (d.move) move(Number(d.move));
     else if ('today' in d) { cursor = today0(); render(true); }
     else if (d.goto) go(d.goto);
@@ -987,6 +1064,49 @@
     openShift('new', null, d);
   };
 
+  // ---------- Ferie: aggiungi / modifica ----------
+  let vacEditing = null;
+  function openVac(v) {
+    vacEditing = v || null;
+    const y = cursor.getFullYear(), m = cursor.getMonth();
+    const start = v ? v.from : iso(tab === 'mese' && !(y === new Date().getFullYear() && m === new Date().getMonth()) ? new Date(y, m, 1) : new Date());
+    $('vFrom').value = start;
+    $('vTo').value = v ? v.to : start;
+    $('vNote').value = v ? v.note || '' : '';
+    $('vDelete').hidden = !v;
+    vacPreview();
+    show($('vacSheet'));
+  }
+  function vacPreview() {
+    const a = $('vFrom').value, b = $('vTo').value, p = $('vPreview');
+    if (!a || !b || b < a) { p.className = 'preview bad'; p.textContent = t('vac_bad'); return; }
+    const n = nDaysRange(a, b);
+    p.className = 'preview vac';
+    p.innerHTML = `🌴 ${t('vac_days', n)} · ${t('vac_cover', fmtH(Math.round((n * W()) / 7)))}<small>${t('vac_info', fmtH(W()))}</small>`;
+  }
+  ['input', 'change'].forEach((ev) => ['vFrom', 'vTo'].forEach((id) => $(id).addEventListener(ev, () => {
+    if (id === 'vFrom' && $('vTo').value < $('vFrom').value) $('vTo').value = $('vFrom').value;
+    vacPreview();
+  })));
+  $('vacSheet').addEventListener('submit', (e) => {
+    e.preventDefault();
+    const from = $('vFrom').value, to = $('vTo').value;
+    if (!from || !to || to < from) { toast(t('vac_bad')); return; }
+    const data = { from, to, note: $('vNote').value.trim() };
+    if (vacEditing) Object.assign(vacEditing, data);
+    else db.vacations.push({ id: uid(), ...data });
+    save(); buzz(); hide();
+    cursor = parse(from); if (tab !== 'mese' && tab !== 'oggi') go('mese'); else render(true);
+    toast(t('t_vac_saved', t('vac_days', nDaysRange(from, to))));
+  });
+  $('vCancel').onclick = hide;
+  $('vDelete').onclick = () => {
+    const v = vacEditing;
+    db.vacations = db.vacations.filter((x) => x !== v);
+    save(); hide(); render();
+    toast(t('t_vac_del'), t('undo'), () => { db.vacations.push(v); save(); render(); });
+  };
+
   // ---------- Soldi ricevuti ----------
   let payKind = 'extra';
   $('payKind').addEventListener('click', (e) => {
@@ -1099,8 +1219,12 @@
         .map((s) => ({ id: String(s.id || uid()), date: s.date, start: s.start, end: s.end, pause: Number(s.pause) || 0, note: String(s.note || '') }));
       const payments = (Array.isArray(d.payments) ? d.payments : []).filter((p) => p && Number(p.amount) > 0 && /^\d{4}-\d{2}$/.test(p.month))
         .map((p) => ({ id: String(p.id || uid()), kind: p.kind === 'stipendio' ? 'stipendio' : 'extra', amount: Number(p.amount), date: String(p.date || ''), month: p.month, note: String(p.note || '') }));
-      if (!db.shifts.length && !db.payments.length) {
-        db = normalize({ shifts, payments, open: d.open, settings: d.settings });
+      const vacations = (Array.isArray(d.vacations) ? d.vacations : []).filter((v) => v && /^\d{4}-\d{2}-\d{2}$/.test(v.from) && /^\d{4}-\d{2}-\d{2}$/.test(v.to))
+        .map((v) => ({ id: String(v.id || uid()), from: v.from, to: v.to, note: String(v.note || '') }));
+      const haveVac = new Set(db.vacations.map((v) => `${v.from}|${v.to}`));
+      const newVacs = vacations.filter((v) => !haveVac.has(`${v.from}|${v.to}`));
+      if (!db.shifts.length && !db.payments.length && !db.vacations.length) {
+        db = normalize({ shifts, payments, vacations, open: d.open, settings: d.settings });
         save(); hide(); render(); toast(t('t_loaded', shifts.length));
         return;
       }
@@ -1109,9 +1233,9 @@
       const newShifts = shifts.filter((s) => !have.has(`${s.date}|${s.start}|${s.end}`));
       const payIds = new Set(db.payments.map((p) => p.id));
       const newPays = payments.filter((p) => !payIds.has(p.id));
-      if (!newShifts.length && !newPays.length) { toast(t('t_have_all')); return; }
+      if (!newShifts.length && !newPays.length && !newVacs.length) { toast(t('t_have_all')); return; }
       if (!confirm(t('c_merge', newShifts.length, newPays.length))) return;
-      db.shifts.push(...newShifts); db.payments.push(...newPays);
+      db.shifts.push(...newShifts); db.payments.push(...newPays); db.vacations.push(...newVacs);
       save(); hide(); render(); toast(t('t_added', newShifts.length));
     } catch (err) { toast(t('t_bad_file')); }
   };

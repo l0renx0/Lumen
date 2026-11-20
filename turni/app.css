@@ -19,6 +19,10 @@
   --money: #13955a;
   --money-soft: rgba(19, 149, 90, 0.11);
   --danger: #dc3b2f;
+  --vac: #12b886;
+  --vac-2: #0b9e8a;
+  --vac-ink: #0a8a6a;
+  --vac-soft: rgba(18, 184, 134, 0.12);
   --glass: rgba(255, 255, 255, 0.78);
   --shadow: 0 1px 2px rgba(17, 17, 19, 0.04), 0 12px 32px -14px rgba(17, 17, 19, 0.18);
   --shadow-lift: 0 2px 4px rgba(17, 17, 19, 0.05), 0 24px 48px -20px rgba(17, 17, 19, 0.3);
@@ -36,6 +40,7 @@
     --accent: #ff7a45; --accent-ink: #ff8a5a; --accent-soft: rgba(255, 122, 69, 0.15);
     --money: #3ccf86; --money-soft: rgba(60, 207, 134, 0.14);
     --danger: #f0625a;
+    --vac: #2fcf9a; --vac-2: #18b5a0; --vac-ink: #4fe0b0; --vac-soft: rgba(47, 207, 154, 0.14);
     --glass: rgba(14, 14, 15, 0.74);
     --shadow: 0 1px 2px rgba(0, 0, 0, 0.5), 0 20px 50px -24px rgba(0, 0, 0, 0.9);
     --shadow-lift: 0 2px 4px rgba(0, 0, 0, 0.5), 0 30px 60px -24px rgba(0, 0, 0, 0.95);
@@ -49,6 +54,7 @@
   --accent: #ff7a45; --accent-ink: #ff8a5a; --accent-soft: rgba(255, 122, 69, 0.15);
   --money: #3ccf86; --money-soft: rgba(60, 207, 134, 0.14);
   --danger: #f0625a;
+  --vac: #2fcf9a; --vac-2: #18b5a0; --vac-ink: #4fe0b0; --vac-soft: rgba(47, 207, 154, 0.14);
   --glass: rgba(14, 14, 15, 0.74);
   --shadow: 0 1px 2px rgba(0, 0, 0, 0.5), 0 20px 50px -24px rgba(0, 0, 0, 0.9);
   --shadow-lift: 0 2px 4px rgba(0, 0, 0, 0.5), 0 30px 60px -24px rgba(0, 0, 0, 0.95);
@@ -254,6 +260,47 @@ header.top { display: flex; align-items: flex-end; justify-content: space-betwee
 .weeks-btn { display: inline-block; text-align: left; line-height: 1.4; font-size: 13px; color: var(--ink-2); margin-top: 10px; padding: 6px 10px; border-radius: 10px; background: var(--bg-soft); }
 .weeks-btn b { color: var(--accent-ink); }
 
+/* ---------- Ferie (verde) ---------- */
+.pill.vac { background: var(--vac-soft); color: var(--vac-ink); }
+.cal button.vac {
+  background: var(--vac); color: #fff; position: relative; overflow: hidden;
+  border-radius: 0; box-shadow: 5px 0 0 var(--vac), inset 0 1px 0 rgba(255, 255, 255, 0.22); /* l'ombra riempie lo spazio: i giorni di ferie formano una striscia */
+  animation: vacPop 0.5s var(--spring) both; animation-delay: calc(var(--i) * 18ms);
+}
+.cal button.vac.vs { border-top-left-radius: 14px; border-bottom-left-radius: 14px; }
+.cal button.vac.ve { border-top-right-radius: 14px; border-bottom-right-radius: 14px; box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.22); }
+.cal button.vac::after {
+  content: ""; position: absolute; inset: 0; background: linear-gradient(110deg, transparent 35%, rgba(255, 255, 255, 0.35) 50%, transparent 65%);
+  transform: translateX(-120%); animation: vacShine 2.6s ease-in-out both; animation-delay: calc(0.5s + var(--i) * 40ms);
+}
+.cal button.vac span { font-size: 11px; }
+.cal button.vac.today { outline: 2px solid var(--ink); outline-offset: -4px; }
+@keyframes vacPop { from { opacity: 0; transform: translateY(6px) scale(0.85); } to { opacity: 1; transform: none; } }
+@keyframes vacShine { to { transform: translateX(120%); } }
+.vac-note { margin-top: 12px; padding: 10px 12px; border-radius: 12px; background: var(--vac-soft); color: var(--vac-ink); font-size: 13.5px; font-weight: 600; }
+.card.vac-card {
+  display: flex; align-items: center; gap: 14px; border: 0; color: #fff; padding: 18px; position: relative; overflow: hidden;
+  background: radial-gradient(120% 140% at 100% 0%, rgba(255, 255, 255, 0.28), transparent 55%), linear-gradient(135deg, var(--vac), var(--vac-2));
+  box-shadow: 0 14px 30px -16px rgba(18, 184, 134, 0.8);
+}
+.vac-card .vac-sun { font-size: 34px; line-height: 1; animation: sway 3.2s ease-in-out infinite; transform-origin: 50% 90%; flex: none; }
+.vac-card .vac-txt b { display: block; font-size: 17px; font-weight: 700; }
+.vac-card .vac-txt span { display: block; font-size: 13.5px; opacity: 0.92; margin-top: 2px; }
+.vac-card .vac-txt small { display: block; font-size: 12.5px; opacity: 0.8; margin-top: 2px; }
+@keyframes sway { 0%, 100% { transform: rotate(-6deg); } 50% { transform: rotate(6deg); } }
+.vac-empty { width: 100%; color: var(--ink-3); }
+.vac-empty b { color: var(--vac-ink); }
+.day.vac .dname b, .day.vac .dname span { color: var(--vac-ink); }
+.vac-day { width: 100%; text-align: left; padding: 10px 12px; border-radius: 14px; font-weight: 650; font-size: 14.5px; color: #fff; background: linear-gradient(135deg, var(--vac), var(--vac-2)); }
+.bar.vac .col.zero { background: linear-gradient(180deg, var(--vac), var(--vac-2)); }
+.bar.vac .d { color: var(--vac-ink); }
+.clock.vacation { background: linear-gradient(180deg, var(--vac-soft), transparent 70%), var(--card); }
+.clock.vacation .dot { background: var(--vac); }
+.vac-row { background: var(--vac-soft); }
+.vac-row .r { color: var(--vac-ink); }
+.preview.vac { background: var(--vac-soft); color: var(--vac-ink); }
+.btn.vac { background: linear-gradient(135deg, var(--vac), var(--vac-2)); color: #fff; }
+
 /* ---------- Pulsanti ---------- */
 .btn { padding: 13px 18px; border-radius: 14px; font-weight: 650; font-size: 15px; background: var(--bg-soft); transition: transform 0.15s; display: inline-flex; align-items: center; justify-content: center; gap: 6px; }
 .btn:active { transform: scale(0.97); }
@@ -308,7 +355,7 @@ header.top { display: flex; align-items: flex-end; justify-content: space-betwee
 .preview small { display: block; font-weight: 500; color: var(--ink-2); font-size: 13px; margin-top: 2px; }
 .preview.bad { background: var(--bg-soft); color: var(--danger); }
 .sheet-actions { display: flex; gap: 10px; }
-.sheet-actions .primary, .sheet-actions .money { flex: 1; }
+.sheet-actions .primary, .sheet-actions .money, .sheet-actions .vac { flex: 1; }
 .note { font-size: 13px; color: var(--ink-3); margin: -4px 0 14px; line-height: 1.45; }
 .divider { height: 1px; background: var(--line); margin: 20px 0; }
 .choice { display: flex; flex-direction: column; gap: 6px; margin-bottom: 8px; }
